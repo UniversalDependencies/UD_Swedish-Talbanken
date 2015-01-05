@@ -1,4 +1,0 @@
-Swedish
-=======
-
-Swedish data
