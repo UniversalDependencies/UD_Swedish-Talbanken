@@ -1268,7 +1268,7 @@
 15	i	i	ADP	PP	_	17	case	_	_
 16	motorisk	motorisk	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	17	amod	_	_
 17	utveckling	utveckling	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	nmod	_	_
-18	såväl	såväl som	CONJ	KN	_	17	cc	_	_
+18	såväl	såväl	CONJ	KN	_	17	cc	_	_
 19	som	som	CONJ	KN	_	18	mwe	_	_
 20	i	i	ADP	PP	_	21	case	_	_
 21	tal	tal	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	12	nmod	_	_
@@ -1508,7 +1508,7 @@
 7	något	någon	ADV	AB	_	8	advmod	_	_
 8	högre	hög	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	9	amod	_	_
 9	nivå	nivå	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	dobj	_	_
-10	både	både och	CONJ	KN	_	13	advmod	_	_
+10	både	både	CONJ	KN	_	13	advmod	_	_
 11	i	i	ADP	PP	_	13	case	_	_
 12	intellektuell	intellektuell	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	13	amod	_	_
 13	utveckling	utveckling	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	nmod	_	_
@@ -2000,7 +2000,7 @@
 9	politiskt	politisk	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
 10	reformparti	_	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	23	nsubj	_	_
 11	,	,	PUNCT	MID	_	10	punct	_	_
-12	vare	vare sig	CONJ	KN	_	16	advmod	_	_
+12	vare	vare	CONJ	KN	_	16	advmod	_	_
 13	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def	12	mwe	_	_
 14	i	i	ADP	PP	_	16	case	_	_
 15	vårt	vi	DET	PS|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|Poss=Yes	16	nmod:poss	_	_
@@ -2081,7 +2081,7 @@
 14	lika	lika	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	15	det	_	_
 15	rösträtt	rösträtt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	nmod	_	_
 16	för	för	ADP	PP	_	18	case	_	_
-17	såväl	såväl som	CONJ	KN	_	18	advmod	_	_
+17	såväl	såväl	CONJ	KN	_	18	advmod	_	_
 18	kvinnor	kvinna	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	15	nmod	_	_
 19	som	som	CONJ	KN	_	18	cc	_	_
 20	män	man	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	18	conj	_	_
@@ -2532,7 +2532,7 @@
 3	att	att	SCONJ	SN	_	11	mark	_	_
 4	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur	8	det	_	_
 5	i	i	ADP	PP	_	7	advmod	_	_
-6	övrigt	i övrigt:5	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	mwe	_	_
+6	övrigt	i	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	mwe	_	_
 7	aktiva	aktiv	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
 8	löntagarorganisationerna	löntagarorganisation	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	11	nsubj	_	_
 9	ännu	ännu	ADV	AB	_	11	advmod	_	_
@@ -2651,7 +2651,7 @@
 5	och	och	CONJ	KN	_	4	cc	_	_
 6	barn	barn	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	4	conj	_	_
 7	att	att	SCONJ	SN	_	13	mark	_	_
-8	både	både och	CONJ	KN	_	9	advmod	_	_
+8	både	både	CONJ	KN	_	9	advmod	_	_
 9	flickor	flicka	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	13	nsubj	_	_
 10	och	och	CONJ	KN	_	9	cc	_	_
 11	pojkar	pojke	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9	conj	_	_
@@ -2738,7 +2738,7 @@
 2	i	i	ADP	PP	_	8	case	_	_
 3	fråga	fråga	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	mwe	_	_
 4	om	om	ADP	PP	_	2	mwe	_	_
-5	avlagda	lägga av	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Number=Plur|Tense=Past|VerbForm=Part	8	amod	_	_
+5	avlagda	avlägga	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Number=Plur|Tense=Past|VerbForm=Part	8	amod	_	_
 6	högre	hög	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	8	amod	_	_
 7	akademiska	akademisk	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
 8	examina	examen	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9	nmod	_	_
@@ -3245,7 +3245,7 @@
 8	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing	15	nsubj	_	_
 9	var	vara	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	15	cop	_	_
 10	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing	15	det	_	_
-11	både	både och	CONJ	KN	_	12	advmod	_	_
+11	både	både	CONJ	KN	_	12	advmod	_	_
 12	social	social	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	15	amod	_	_
 13	och	och	CONJ	KN	_	12	cc	_	_
 14	ekonomisk	ekonomisk	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	12	conj	_	_
@@ -3254,7 +3254,7 @@
 17	att	att	SCONJ	SN	_	20	mark	_	_
 18	kvinnan	kvinna	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	20	nsubj	_	_
 19	ska	skola	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	20	aux	_	_
-20	gifta	gifta sig	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	ccomp	_	_
+20	gifta	gifta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	ccomp	_	_
 21	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def	20	dobj	_	_
 22	och	och	CONJ	KN	_	20	cc	_	_
 23	helst	gärna	ADV	AB|SUV	Degree=Sup	20	conj	_	_
@@ -3268,7 +3268,7 @@
 5	varje	varje	DET	DT|UTR/NEU|SIN|IND	Definite=Ind|Number=Sing	6	det	_	_
 6	kvinna	kvinna	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	nsubj	_	_
 7	ska	skola	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	_
-8	gifta	gifta sig	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	ccomp	_	_
+8	gifta	gifta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	ccomp	_	_
 9	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def	8	dobj	_	_
 10	nära	nära	ADV	AB|POS	Degree=Pos	13	advmod	_	_
 11	nog	nog	ADV	AB	_	10	mwe	_	_
@@ -3319,7 +3319,7 @@
 7	för	för	ADP	PP	_	10	case	_	_
 8	kvinnans	kvinna	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	10	nmod:poss	_	_
 9	egen	egen	ADJ	JJ|POS|UTR|SIN|IND/DEF|NOM	Case=Nom|Degree=Pos|Gender=Com|Number=Sing	10	det	_	_
-10	skull	för skull:7	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	nmod	_	_
+10	skull	för	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	nmod	_	_
 11	.	.	PUNCT	MAD	_	6	punct	_	_
 
 1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	_
@@ -3746,13 +3746,13 @@
 31	,	,	PUNCT	MID	_	32	punct	_	_
 32	blir	bli	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 33	självfallet	självfallet	ADV	AB|POS	Degree=Pos	32	advmod	_	_
-34	både	både och	CONJ	KN	_	36	advmod	_	_
+34	både	både	CONJ	KN	_	36	advmod	_	_
 35	personliga	personlig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	36	amod	_	_
 36	relationer	relation	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	32	nsubj	_	_
 37	och	och	CONJ	KN	_	36	cc	_	_
 38	samhällsrelationer	_	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	36	conj	_	_
 39	i	i	ADP	PP	_	38	advmod	_	_
-40	övrigt	i övrigt:39	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	39	mwe	_	_
+40	övrigt	i	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	39	mwe	_	_
 41	annorlunda	annorlunda	ADV	AB	_	32	advmod	_	_
 42	än	än	CONJ	KN	_	43	mark	_	_
 43	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	32	advcl	_	_
@@ -3955,7 +3955,7 @@
 8	med	med	ADP	PP	_	9	case	_	_
 9	naturnödvändighet	naturnödvändighet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	nmod	_	_
 10	måste	måste	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	_
-11	motsätta	motsätta sig	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	4	acl:relcl	_	_
+11	motsätta	motsätta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	4	acl:relcl	_	_
 12	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def	11	iobj	_	_
 13	,	,	PUNCT	MID	_	11	punct	_	_
 14	eftersom	eftersom	SCONJ	SN	_	16	mark	_	_
@@ -4028,7 +4028,7 @@
 30	ha	ha	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	ccomp	_	_
 31	möjlighet	möjlighet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	30	dobj	_	_
 32	att	att	PART	IE	_	34	mark	_	_
-33	både	både och	CONJ	KN	_	34	advmod	_	_
+33	både	både	CONJ	KN	_	34	advmod	_	_
 34	utöva	utöva	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	31	acl	_	_
 35	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing	36	det	_	_
 36	yrke	yrke	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	34	dobj	_	_
@@ -4636,7 +4636,7 @@
 10	genom	genom	ADP	PP	_	13	case	_	_
 11	att	att	PART	IE	_	13	mark	_	_
 12	aldrig	aldrig	ADV	AB	_	13	advmod	_	_
-13	befatta	befatta sig	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	7	advcl	_	_
+13	befatta	befatta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	7	advcl	_	_
 14	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def	13	dobj	_	_
 15	med	med	ADP	PP	_	19	case	_	_
 16	'	'	PUNCT	PAD	_	19	punct	_	_
@@ -5282,7 +5282,7 @@
 10	så	så	ADV	AB	_	11	advmod	_	_
 11	futtig	futtig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	12	amod	_	_
 12	orsaks	orsak	NOUN	NN|UTR|SIN|IND|GEN	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	4	nmod	_	_
-13	skull	för skull:8	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	case	_	_
+13	skull	för	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	case	_	_
 14	som	som	CONJ	KN	_	16	mark	_	_
 15	att	att	PART	IE	_	16	mark	_	_
 16	bevisa	bevisa	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	12	acl	_	_
@@ -5461,7 +5461,7 @@
 14	betydelsefull	betydelsefull	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	7	conj	_	_
 15	för	för	ADP	PP	_	16	case	_	_
 16	personlighetsutvecklingen	personlighetsutveckling	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	14	nmod	_	_
-17	både	både och	CONJ	KN	_	20	advmod	_	_
+17	både	både	CONJ	KN	_	20	advmod	_	_
 18	hos	hos	ADP	PP	_	20	case	_	_
 19	de	en	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur	20	det	_	_
 20	vuxna	vuxen	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	16	nmod	_	_
@@ -5686,7 +5686,7 @@
 13	självståndig	_	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	11	conj	_	_
 14	människa	människa	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	xcomp	_	_
 15	i	i	ADP	PP	_	20	case	_	_
-16	enlighet	i enlighet med:15	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	15	mwe	_	_
+16	enlighet	i	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	15	mwe	_	_
 17	med	med	ADP	PP	_	15	mwe	_	_
 18	sina	sig	DET	PS|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|Poss=Yes	20	nmod:poss	_	_
 19	individuella	individuell	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	20	amod	_	_
@@ -6016,7 +6016,7 @@
 4	kommer	komma	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	_	_
 5	samhället	samhälle	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	4	dobj	_	_
 6	till	till	ADP	PP	_	4	compound:prt	_	_
-7	godo	till godo:6	NOUN	NN|-|-|-|-	_	6	mwe	_	_
+7	godo	till	NOUN	NN|-|-|-|-	_	6	mwe	_	_
 8	,	,	PUNCT	MID	_	1	punct	_	_
 9	verksamheter	verksamhet	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	1	conj	_	_
 10	där	där	ADV	HA	_	18	advmod	_	_
@@ -6407,7 +6407,7 @@
 12	höja	höja	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	5	advcl	_	_
 13	lönen	lön	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	dobj	_	_
 14	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing	12	advmod	_	_
-15	dugg	ett dugg:14	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	14	mwe	_	_
+15	dugg	ett	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	14	mwe	_	_
 16	,	,	PUNCT	MID	_	5	punct	_	_
 17	fast	fast	CONJ	KN	_	5	cc	_	_
 18	enligt	enligt	ADP	PP	_	19	case	_	_
@@ -6533,7 +6533,7 @@
 9	han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing	8	nsubj	_	_
 10	inte	inte	ADV	AB	_	8	neg	_	_
 11	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing	8	dobj	_	_
-12	dugg	ett dugg:11	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	11	mwe	_	_
+12	dugg	ett	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	11	mwe	_	_
 13	hemma	hemma	ADV	AB	_	8	advmod	_	_
 14	.	.	PUNCT	MAD	_	8	punct	_	_
 
@@ -6633,7 +6633,7 @@
 1	Dom	de	PRON	PN|UTR/NEU|PLU|DEF|SUB/OBJ	Definite=Def|Number=Plur	2	nsubj	_	_
 2	vågar	våga	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	i	i	ADP	PP	_	5	case	_	_
-4	vilket	i vilket fall som helst:3	DET	HD|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	5	det	_	_
+4	vilket	i	DET	HD|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	5	det	_	_
 5	fall	fall	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	nmod	_	_
 6	som	som	CONJ	KN	_	5	det	_	_
 7	helst	gärna	ADV	AB|SUV	Degree=Sup	6	mwe	_	_
@@ -6816,8 +6816,8 @@
 2	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	hämtade	hämta	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 4	ur	ur	ADP	PP	_	9	case	_	_
-5	Svenska	Svenska Dagbladet	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	7	det	_	_
-6	Dagbladets	Svenska Dagbladet:5	NOUN	NN|NEU|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	5	name	_	_
+5	Svenska	Svenska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	7	det	_	_
+6	Dagbladets	Svenska	NOUN	NN|NEU|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	5	name	_	_
 7	debatt	debatt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	det	_	_
 8	'	'	PUNCT	PAD	_	9	punct	_	_
 9	Hemmafru	hemmafru	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	nmod	_	_
@@ -6911,8 +6911,8 @@
 15	.	.	PUNCT	MAD	_	11	punct	_	_
 
 1	I	i	ADP	PP	_	4	case	_	_
-2	Svenska	Svenska Dagbladet	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	4	det	_	_
-3	Dagbladets	Svenska Dagbladet:2	NOUN	NN|NEU|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	2	name	_	_
+2	Svenska	Svenska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	4	det	_	_
+3	Dagbladets	Svenska	NOUN	NN|NEU|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	2	name	_	_
 4	debatt	debatt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	nmod	_	_
 5	använde	använda	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 6	man	man	PRON	PN|UTR|SIN|IND|SUB	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	nsubj	_	_
@@ -7490,7 +7490,7 @@
 16	samhälle	samhälle	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	8	conj	_	_
 17	där	där	ADV	HA	_	22	advmod	_	_
 18	kvinnor	kvinna	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	22	nsubjpass	_	_
-19	såväl	såväl som	CONJ	KN	_	18	cc	_	_
+19	såväl	såväl	CONJ	KN	_	18	cc	_	_
 20	som	som	CONJ	KN	_	19	mwe	_	_
 21	män	man	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	18	conj	_	_
 22	tillåts	tillåta	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	16	acl:relcl	_	_
@@ -7601,7 +7601,7 @@
 19	på	på	ADP	PP	_	20	case	_	_
 20	arbetsmarknaden	arbetsmarknad	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	18	nmod	_	_
 21	annat	annan	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing	29	nmod	_	_
-22	än	när än:15	CONJ	KN	_	21	mwe	_	_
+22	än	när	CONJ	KN	_	21	mwe	_	_
 23	att	att	SCONJ	SN	_	29	mark	_	_
 24	deras	de	DET	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes	25	nmod:poss	_	_
 25	jobb	jobb	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	29	nsubj	_	_
@@ -7623,7 +7623,7 @@
 5	den	en	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing	7	det	_	_
 6	unga	ung	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	7	amod	_	_
 7	flickan	flicka	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	8	nsubj	_	_
-8	gifter	gifta sig	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
+8	gifter	gifta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
 9	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def	8	dobj	_	_
 10	slår	slå	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 11	manssamhällets	manssamhälle	NOUN	NN|NEU|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	12	nmod:poss	_	_
@@ -8115,7 +8115,7 @@
 2	står	stå	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def	2	dobj	_	_
 4	ju	ju	ADV	AB	_	2	advmod	_	_
-5	både	både och	CONJ	KN	_	7	advmod	_	_
+5	både	både	CONJ	KN	_	7	advmod	_	_
 6	vid	vid	ADP	PP	_	7	case	_	_
 7	dödsfall	dödsfall	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	nmod	_	_
 8	och	och	CONJ	KN	_	7	cc	_	_
@@ -8196,7 +8196,7 @@
 12	.	.	PUNCT	MAD	_	6	punct	_	_
 
 1	Och	och	CONJ	KN	_	15	cc	_	_
-2	ju	ju ju	CONJ	KN	_	3	advmod	_	_
+2	ju	ju	CONJ	KN	_	3	advmod	_	_
 3	längre	lång	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	4	amod	_	_
 4	tid	tid	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	15	advcl	_	_
 5	som	som	PRON	HP|-|-|-	PronType=Int,Rel	6	nsubj	_	_
@@ -8950,7 +8950,7 @@
 2	stora	stor	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	3	amod	_	_
 3	flertalet	flertal	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	9	nsubj	_	_
 4	av	av	ADP	PP	_	6	case	_	_
-5	både	både och	CONJ	KN	_	6	advmod	_	_
+5	både	både	CONJ	KN	_	6	advmod	_	_
 6	män	man	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	nmod	_	_
 7	och	och	CONJ	KN	_	6	cc	_	_
 8	kvinnor	kvinna	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	6	conj	_	_
@@ -9041,7 +9041,7 @@
 19	åsikt	åsikt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	17	dobj	_	_
 20	för	för	ADP	PP	_	19	case	_	_
 21	eller	eller	CONJ	KN	_	20	cc	_	_
-22	emot	ta emot:14	ADP	PP	_	20	conj	_	_
+22	emot	ta	ADP	PP	_	20	conj	_	_
 23	.	.	PUNCT	MAD	_	10	punct	_	_
 
 1	Man	man	PRON	PN|UTR|SIN|IND|SUB	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	nsubj	_	_
@@ -9279,7 +9279,7 @@
 18	att	att	PART	IE	_	19	mark	_	_
 19	skydda	skydda	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	17	acl	_	_
 20	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing	19	dobj	_	_
-21	både	både och	CONJ	KN	_	23	advmod	_	_
+21	både	både	CONJ	KN	_	23	advmod	_	_
 22	i	i	ADP	PP	_	23	case	_	_
 23	familjen	familj	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	19	nmod	_	_
 24	och	och	CONJ	KN	_	23	cc	_	_
@@ -9587,7 +9587,7 @@
 4	av	av	ADP	PP	_	2	mwe	_	_
 5	Statistisk	statistisk	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	1	advmod	_	_
 6	årsbok	årsbok	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	name	_	_
-7	reda	ta reda:1	NOUN	PL	_	1	compound:prt	_	_
+7	reda	ta	NOUN	PL	_	1	compound:prt	_	_
 8	på	på	ADP	PP	_	16	case	_	_
 9	hur	hur	ADV	HA	_	10	advmod	_	_
 10	många	många	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	11	det	_	_
@@ -9888,7 +9888,7 @@
 22	sin	sig	DET	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes	23	nmod:poss	_	_
 23	intelligens	intelligens	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	20	dobj	_	_
 24	till	till	ADP	PP	_	20	advmod	_	_
-25	fullo	till fullo:24	NOUN	NN|-|-|-|-	_	24	mwe	_	_
+25	fullo	till	NOUN	NN|-|-|-|-	_	24	mwe	_	_
 26	,	,	PUNCT	MID	_	2	punct	_	_
 27	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur	28	nsubj	_	_
 28	struntar	strunta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
@@ -9914,7 +9914,7 @@
 48	)	)	PUNCT	PAD	_	41	punct	_	_
 49	,	,	PUNCT	MID	_	2	punct	_	_
 50	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur	51	nsubj	_	_
-51	gifter	gifta sig	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+51	gifter	gifta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
 52	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def	51	dobj	_	_
 53	och	och	CONJ	KN	_	51	cc	_	_
 54	binder	binda	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	51	conj	_	_
