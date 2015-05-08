@@ -3537,10 +3537,10 @@
 6	ska	skola	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	_
 7	domstolen	domstol	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	8	nsubj	_	_
 8	fastställa	fastställa	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	0	root	_	_
-9	vem	vem	PRON	HP|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Int,Rel	14	nsubj	_	_
+9	vem	vem	PRON	HP|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Int,Rel	14	dislocated	_	_
 10	av	av	ADP	PP	_	11	case	_	_
 11	makarna	make	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	9	nmod	_	_
-12	som	som	PRON	HP|-|-|-	PronType=Int,Rel	14	dep	_	_
+12	som	som	PRON	HP|-|-|-	PronType=Int,Rel	14	nsubj	_	_
 13	ska	skola	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	_	_
 14	ha	ha	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	8	ccomp	_	_
 15	vårdnaden	vårdnad	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	14	dobj	_	_
@@ -14683,10 +14683,10 @@
 26	marknadsmekanismen	marknadsmekanism	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	24	nmod	_	_
 27	.	.	PUNCT	MAD	_	11	punct	_	_
 
-1	1969	1969	NUM	RG|NOM	Case=Nom	0	root	_	_
-2	-	-	PUNCT	MID	_	1	punct	_	_
+1	1969	1969	NUM	RG|NOM	Case=Nom	4	nummod	_	_
+2	-	-	PUNCT	MID	_	4	punct	_	_
 3	ny	ny	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	4	amod	_	_
-4	hyreslag	hyreslag	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	dep	_	_
+4	hyreslag	hyreslag	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	_
 5	och	och	CONJ	KN	_	4	cc	_	_
 6	nya	ny	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
 7	bostadstillägg	bostadstillägg	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	4	conj	_	_
@@ -15297,10 +15297,10 @@
 15	och	och	CONJ	KN	_	2	cc	_	_
 16	3	3	NUM	RG|NOM	Case=Nom	23	nummod	_	_
 17	hur	hur	ADV	HA	_	18	advmod	_	_
-18	många	mången	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur	23	nsubj	_	_
+18	många	mången	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur	23	dislocated	_	_
 19	av	av	ADP	PP	_	20	case	_	_
 20	dem	de	PRON	PN|UTR/NEU|PLU|DEF|OBJ	Case=Acc|Definite=Def|Number=Plur	18	nmod	_	_
-21	som	som	PRON	HP|-|-|-	PronType=Int,Rel	23	dep	_	_
+21	som	som	PRON	HP|-|-|-	PronType=Int,Rel	23	nsubj	_	_
 22	var	vara	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	23	cop	_	_
 23	barn	barn	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	2	conj	_	_
 24	.	.	PUNCT	MAD	_	2	punct	_	_
@@ -16040,8 +16040,8 @@
 7	omfattad	omfatta	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	8	amod	_	_
 8	definition	definition	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	nsubj	_	_
 9	på	på	ADP	PP	_	12	case	_	_
-10	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	12	nsubjpass	_	_
-11	som	som	PRON	HP|-|-|-	PronType=Int,Rel	12	dep	_	_
+10	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	12	dislocated	_	_
+11	som	som	PRON	HP|-|-|-	PronType=Int,Rel	12	nsubjpass	_	_
 12	menas	mena	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	2	advcl	_	_
 13	med	med	ADP	PP	_	15	case	_	_
 14	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing	15	det	_	_
@@ -17761,14 +17761,14 @@
 75	isolerad	isolerad	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	76	amod	_	_
 76	kvinnsperson	kvinnsperson	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	72	nmod	_	_
 77	-	-	PUNCT	MID	_	9	punct	_	_
-78	aldrig	aldrig	ADV	AB	_	9	parataxis	_	_
+78	aldrig	aldrig	ADV	AB	_	80	advmod	_	_
 79	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing	80	det	_	_
-80	karl	karl	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	78	dep	_	_
+80	karl	karl	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	parataxis	_	_
 81	för	för	ADP	PP	_	85	case	_	_
 82	den	en	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing	84	det	_	_
 83	ensamma	ensam	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	84	amod	_	_
 84	mammans	mamma	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	85	nmod:poss	_	_
-85	barn	barn	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	78	nmod	_	_
+85	barn	barn	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	80	nmod	_	_
 86	.	.	PUNCT	MAD	_	9	punct	_	_
 
 1	Och	och	CONJ	KN	_	3	cc	_	_
@@ -19319,8 +19319,8 @@
 9	materiell	materiell	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	10	amod	_	_
 10	trygghet	trygghet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	dobj	_	_
 11	garanterad	garantera	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	2	xcomp	_	_
-12	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	15	nsubj	_	_
-13	som	som	PRON	HP|-|-|-	PronType=Int,Rel	15	dep	_	_
+12	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	15	dislocated	_	_
+13	som	som	PRON	HP|-|-|-	PronType=Int,Rel	15	nsubj	_	_
 14	än	än	ADV	AB	_	15	advmod	_	_
 15	händer	hända	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
 16	de	en	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur	18	det	_	_
