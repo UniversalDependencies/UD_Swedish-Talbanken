@@ -3847,7 +3847,7 @@
 4	att	att	PART	IE	_	5	mark	_	_
 5	bli	bli	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	19	csubj	_	_
 6	som	som	CONJ	KN	_	7	mark	_	_
-7	människa	människa	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	conj	_	_
+7	människa	människa	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	parataxis	_	_
 8	,	,	PUNCT	MID	_	5	punct	_	_
 9	vilka	vilken	DET	HD|UTR/NEU|PLU|IND	Definite=Ind|Number=Plur|PronType=Int,Rel	10	det	_	_
 10	egenskaper	egenskap	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	14	dobj	_	_
@@ -7778,10 +7778,10 @@
 17	nationalprodukt	nationalprodukt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	nmod	_	_
 18	på	på	ADP	PP	_	19	case	_	_
 19	utbildning	utbildning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	nmod	_	_
-20	(	(	PUNCT	PAD	_	14	punct	_	_
+20	(	(	PUNCT	PAD	_	10	punct	_	_
 21	fem	fem	NUM	RG|NOM	Case=Nom	22	nummod	_	_
-22	procent	procent	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	14	appos	_	_
-23	)	)	PUNCT	PAD	_	14	punct	_	_
+22	procent	procent	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	10	parataxis	_	_
+23	)	)	PUNCT	PAD	_	10	punct	_	_
 24	än	än	CONJ	KN	_	25	mark	_	_
 25	u-länderna	u-land	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	10	advcl	_	_
 26	(	(	PUNCT	PAD	_	25	punct	_	_
@@ -8015,7 +8015,7 @@
 9	elever	elev	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	5	advcl	_	_
 10	,	,	PUNCT	MID	_	5	punct	_	_
 11	3,9	3,9	NUM	RG|NOM	Case=Nom	12	nummod	_	_
-12	procent	procent	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	appos	_	_
+12	procent	procent	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	5	parataxis	_	_
 13	mot	mot	ADP	PP	_	15	case	_	_
 14	4,8	4,8	NUM	RG|NOM	Case=Nom	15	nummod	_	_
 15	procent	procent	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	12	nmod	_	_
@@ -10112,7 +10112,7 @@
 3	alltså	alltså	ADV	AB	_	2	advmod	_	_
 4	att	att	SCONJ	SN	_	12	mark	_	_
 5	man	man	PRON	PN|UTR|SIN|IND|SUB	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	nsubj	_	_
-6	motsvarande	motsvarande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Mood=Ind|Tense=Pres|VerbForm=Fin	15	acl	_	_
+6	motsvarande	motsvarande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Mood=Ind|Tense=Pres|VerbForm=Fin	12	advcl	_	_
 7	det	den	DET	DT|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing	11	det	_	_
 8	'	'	PUNCT	PAD	_	9	punct	_	_
 9	skadade	skada	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Number=Plur|Tense=Past|VerbForm=Part	11	amod	_	_
@@ -10476,13 +10476,13 @@
 2	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing	3	det	_	_
 3	del	del	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	det	_	_
 4	fall	fall	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	17	nmod	_	_
-5	-	-	PUNCT	MID	_	17	punct	_	_
+5	-	-	PUNCT	MID	_	4	punct	_	_
 6	hur	hur	ADV	HA	_	7	advmod	_	_
 7	många	mången	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	8	dobj	_	_
-8	vet	veta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	17	parataxis	_	_
+8	vet	veta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
 9	man	man	PRON	PN|UTR|SIN|IND|SUB	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	nsubj	_	_
 10	inte	inte	ADV	AB	_	8	neg	_	_
-11	-	-	PUNCT	MID	_	17	punct	_	_
+11	-	-	PUNCT	MID	_	4	punct	_	_
 12	av	av	ADP	PP	_	14	case	_	_
 13	senil	senil	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	14	amod	_	_
 14	sinnessvaghet	sinnessvaghet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	nmod	_	_
@@ -17144,7 +17144,7 @@
 6	roligt	rolig	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
 7	att	att	PART	IE	_	8	mark	_	_
 8	berätta	berätta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	6	csubj	_	_
-9	-	-	PUNCT	MID	_	6	punct	_	_
+9	-	-	PUNCT	MID	_	8	punct	_	_
 10	för	för	CONJ	KN	_	6	cc	_	_
 11	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur	12	nsubj	_	_
 12	uppskattar	uppskatta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
@@ -18019,7 +18019,7 @@
 8	intressantare	intressant	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	0	root	_	_
 9	,	,	PUNCT	MID	_	8	punct	_	_
 10	t_ex	t_ex	ADV	AB|AN	_	11	advmod	_	_
-11	Margaret	Margaret	PROPN	PM|NOM	Case=Nom	3	appos	_	_
+11	Margaret	Margaret	PROPN	PM|NOM	Case=Nom	8	parataxis	_	_
 12	Meads	Mead	PROPN	PM|GEN	Case=Gen	11	name	_	_
 13	från	från	ADP	PP	_	14	case	_	_
 14	arapeshfolket	arapeshfolk	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	11	nmod	_	_
@@ -20613,7 +20613,7 @@
 10	ofta	ofta	ADV	AB|POS	Degree=Pos	13	advmod	_	_
 11	bara	bara	ADV	AB	_	13	advmod	_	_
 12	en	en	NUM	RG|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	nummod	_	_
-13	part	part	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	appos	_	_
+13	part	part	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	parataxis	_	_
 14	)	)	PUNCT	PAD	_	5	punct	_	_
 15	.	.	PUNCT	MAD	_	5	punct	_	_
 

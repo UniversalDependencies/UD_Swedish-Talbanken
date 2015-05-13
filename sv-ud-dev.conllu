@@ -989,7 +989,7 @@
 5	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing	4	dobj	_	_
 6	,	,	PUNCT	MID	_	4	punct	_	_
 7	särskilt	särskilt	ADV	AB	_	8	advmod	_	_
-8	sociologer	sociolog	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	appos	_	_
+8	sociologer	sociolog	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	4	parataxis	_	_
 9	och	och	CONJ	KN	_	8	cc	_	_
 10	psykologer	psykolog	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	8	conj	_	_
 11	,	,	PUNCT	MID	_	15	punct	_	_
@@ -3054,7 +3054,7 @@
 40	,	,	PUNCT	MID	_	36	punct	_	_
 41	oavsett	oavsett	ADP	PP	_	43	case	_	_
 42	det	en	DET	DT|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing	43	det	_	_
-43	faktum	faktum	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	25	nmod	_	_
+43	faktum	faktum	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	36	conj	_	_
 44	att	att	SCONJ	SN	_	49	mark	_	_
 45	för	för	ADP	PP	_	48	case	_	_
 46	de	en	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur	48	det	_	_
@@ -3080,7 +3080,7 @@
 66	-	-	PUNCT	MID	_	67	case	_	_
 67	femtio	femtio	NUM	RG|NOM	Case=Nom	68	nummod	_	_
 68	år	år	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	63	nmod	_	_
-69	,	,	PUNCT	MID	_	43	punct	_	_
+69	,	,	PUNCT	MID	_	36	punct	_	_
 70	oavsett	oavsett	ADV	AB|POS	Degree=Pos	79	case	_	_
 71	att	att	SCONJ	SN	_	79	mark	_	_
 72	kvinnan	kvinna	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	79	nsubj	_	_
@@ -3090,15 +3090,15 @@
 76	utsträckning	utsträckning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	79	nmod	_	_
 77	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	79	cop	_	_
 78	lika	lika	ADV	AB	_	79	advmod	_	_
-79	oumbärlig	oumbärlig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	25	advcl	_	_
+79	oumbärlig	oumbärlig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	36	conj	_	_
 80	för	för	ADP	PP	_	81	case	_	_
 81	familjestandarden	familjestandard	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	79	nmod	_	_
 82	som	som	CONJ	KN	_	83	mark	_	_
 83	mannen	man	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	81	acl	_	_
-84	,	,	PUNCT	MID	_	79	punct	_	_
+84	,	,	PUNCT	MID	_	36	punct	_	_
 85	oavsett	oavsett	ADP	PP	_	87	case	_	_
 86	det	en	DET	DT|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing	87	det	_	_
-87	förhållandet	förhållande	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	79	nmod	_	_
+87	förhållandet	förhållande	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	36	conj	_	_
 88	att	att	SCONJ	SN	_	104	mark	_	_
 89	samhället	samhälle	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	104	nsubj	_	_
 90	i	i	ADP	PP	_	94	case	_	_
@@ -3113,7 +3113,7 @@
 99	t.ex.	t.ex.	ADV	AB|AN	_	102	advmod	_	_
 100	genom	genom	ADP	PP	_	102	case	_	_
 101	förlängd	förlänga	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	102	amod	_	_
-102	skolplikt	skolplikt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	94	appos	_	_
+102	skolplikt	skolplikt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	104	nmod	_	_
 103	,	,	PUNCT	MID	_	104	punct	_	_
 104	övertar	överta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	87	acl	_	_
 105	det	en	DET	DT|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing	110	det	_	_
@@ -6093,7 +6093,7 @@
 11	alla	all	DET	DT|UTR/NEU|PLU|IND/DEF	Number=Plur	13	det	_	_
 12	våra	vi	DET	PS|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|Poss=Yes	13	nmod:poss	_	_
 13	hem	hem	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	1	nmod	_	_
-14	,	,	PUNCT	MID	_	1	punct	_	_
+14	,	,	PUNCT	MID	_	17	punct	_	_
 15	som	som	PRON	HP|-|-|-	PronType=Int,Rel	17	nsubjpass	_	_
 16	behöver	behöva	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	17	aux	_	_
 17	ses	se	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	9	acl:relcl	_	_
@@ -8108,7 +8108,7 @@
 12	fall	fall	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	10	mwe	_	_
 13	äktenskapet	äktenskap	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	7	nsubj	_	_
 14	-	-	PUNCT	MID	_	7	punct	_	_
-15	giftorätten	giftorätt	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	6	appos	_	_
+15	giftorätten	giftorätt	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	7	parataxis	_	_
 16	.	.	PUNCT	MAD	_	7	punct	_	_
 
 1	Den	den	PRON	PN|UTR|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
@@ -9853,7 +9853,7 @@
 31	gällande	gälla	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Mood=Ind|Tense=Pres|VerbForm=Fin	27	xcomp	_	_
 32	;	;	PUNCT	MID	_	27	punct	_	_
 33	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing	34	det	_	_
-34	kunskapssvalg	kunskapssvalg	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	21	appos	_	_
+34	kunskapssvalg	kunskapssvalg	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	27	parataxis	_	_
 35	,	,	PUNCT	MID	_	34	punct	_	_
 36	som	som	PRON	HP|-|-|-	PronType=Int,Rel	37	nsubj	_	_
 37	hotar	hota	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	34	acl:relcl	_	_
