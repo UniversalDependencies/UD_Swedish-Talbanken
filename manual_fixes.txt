@@ -1,0 +1,11 @@
+29952
+2	Paulo	Paulo	PROPN	PM|NOM	Case=Nom	1	mwe	_	_
+2	Paulo	Paulo	PROPN	PM|NOM	Case=Nom	1	name	_	_
+
+39589
+10	Gunnebo	Gunnebo	PROPN	PM|NOM	Case=Nom	8	nmod	_	_
+10	Gunnebo	Gunnebo	PROPN	PM|NOM	Case=Nom	11	name	_	_
+
+39590	
+11	Bruk	Bruk	PROPN	PM|NOM	Case=Nom	10	mwe	_	_
+11	Bruk	Bruk	PROPN	PM|NOM	Case=Nom	8	nmod	_	_

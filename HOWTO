@@ -1,9 +1,8 @@
 - To create treebank files for UD_Swedish run:
 
 python3 ud-converter-v1.1.py < P.original.txt > sv-ud.conllu
-'''Insert Aaron's script(s) here'''
-python3 split-data.py < '''Insert Aaron's output file here'''
-
+perl fix_errors.plx --fix_file manual_fixes.txt --conll_file sv-ud.conllu
+python3 split-data.py < sv-ud.fix.conllu 
 
 - The output files are:
 
