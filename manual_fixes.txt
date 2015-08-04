@@ -1,3 +1,95 @@
+3350
+15	Hotell-	hotell	NOUN	NN|NEU|-|-|SMS	Gender=Neut	13	nmod	_	_
+15	Hotell-	hotell	NOUN	NN|NEU|-|-|SMS	Gender=Neut	18	nmod	_	_
+
+3351
+16	och	och	CONJ	KN	_	15	name	_	_
+16	och	och	CONJ	KN	_	15	cc	_	_
+
+3352
+17	Restauranganställdas	restauranganställd	NOUN	NN|UTR|PLU|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Plur	15	name	_	_
+17	Restauranganställdas	restauranganställd	NOUN	NN|UTR|PLU|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Plur	15	conj	_	_
+
+3353
+18	förbund	förbund	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	15	name	_	_
+18	förbund	förbund	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	13	nmod	_	_
+
+15014
+1	Statens	stat	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	5	nsubj	_	_
+1	Statens	stat	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	2	nmod:poss	_	_
+
+15015
+2	pris-	pris	NOUN	NN|NEU|-|-|SMS	Gender=Neut	1	name	_	_
+2	pris-	pris	NOUN	NN|NEU|-|-|SMS	Gender=Neut	5	nsubj	_	_
+
+15016
+3	och	och	CONJ	KN	_	1	name	_	_
+3	och	och	CONJ	KN	_	2	cc	_	_
+
+15017
+4	kartellnämnd	kartellnämnd	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	name	_	_
+4	kartellnämnd	kartellnämnd	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	conj	_	_
+
+15106
+1	Statens	stat	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	5	nsubj	_	_
+1	Statens	stat	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	2	nmod:poss	_	_
+
+15107
+2	pris-	pris	NOUN	NN|NEU|-|-|SMS	Gender=Neut	1	name	_	_
+2	pris-	pris	NOUN	NN|NEU|-|-|SMS	Gender=Neut	5	nsubj	_	_
+
+15108
+3	och	och	CONJ	KN	_	1	name	_	_
+3	och	och	CONJ	KN	_	2	cc	_	_
+
+15109
+4	kartellnämnd	kartellnämnd	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	name	_	_
+4	kartellnämnd	kartellnämnd	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	conj	_	_
+
+4112
+34	Västra	Västra	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	29	conj	_	_
+34	Västra	Västra	PROPN	PM|NOM	Case=Nom	29	conj	_	_
+
+4237
+1	Södra	Södra	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	0	root	_	_
+1	Södra	Södra	PROPN	PM|NOM	Case=Nom	0	root	_	_
+
+4586
+37	Västra	Västra	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	29	conj	_	_
+37	Västra	Västra	PROPN	PM|NOM	Case=Nom	29	conj	_	_
+
+6184
+33	Sociala	social	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	29	nmod	_	_
+33	Sociala	social	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	34	amod	_	_
+
+6185
+34	huset	hus	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	33	name	_	_
+34	huset	hus	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	29	nmod	_	_
+
+6324
+34	Sociala	social	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	32	advmod	_	_
+34	Sociala	social	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	35	amod	_	_
+
+6325
+35	huset	hus	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	34	name	_	_
+35	huset	hus	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	32	nmod	_	_
+
+14189
+17	Kungl	Kungl	ADJ	JJ|AN	_	15	conj	_	_
+17	Kungl	Kungl	ADJ	JJ|AN	_	18	amod	_	_
+
+14190
+18	Maj:t	Maj:t	NOUN	NN|AN	_	17	name	_	_
+18	Maj:t	Maj:t	NOUN	NN|AN	_	15	conj	_	_
+
+14472
+25	Allmänna	allmän	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	23	advmod	_	_
+25	Allmänna	allmän	PROPN	PM|NOM	Case=Nom	23	nmod	_	_
+
+14473
+26	Förlaget	förlag	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	25	name	_	_
+26	Förlaget	förlag	PROPN	PM|NOM	Case=Nom	25	name	_	_
+
 29952
 2	Paulo	Paulo	PROPN	PM|NOM	Case=Nom	1	mwe	_	_
 2	Paulo	Paulo	PROPN	PM|NOM	Case=Nom	1	name	_	_
@@ -9,3 +101,12 @@
 39590	
 11	Bruk	Bruk	PROPN	PM|NOM	Case=Nom	10	mwe	_	_
 11	Bruk	Bruk	PROPN	PM|NOM	Case=Nom	8	nmod	_	_
+
+17640
+21	Lokala	lokal	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	18	advmod	_	_
+21	Lokala	lokal	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	22	amod	_	_
+
+17641
+22	skattemyndigheten	skattemyndighet	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	21	name	_	_
+22	skattemyndigheten	skattemyndighet	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	18	nmod	_	_
+
