@@ -52,11 +52,11 @@
 
 14472
 25	Allmänna	allmän	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	23	advmod	_	_
-25	Allmänna	allmän	PROPN	PM|NOM	Case=Nom	23	nmod	_	_
+25	Allmänna	allmän	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	26	amod	_	_
 
 14473
 26	Förlaget	förlag	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	25	name	_	_
-26	Förlaget	förlag	PROPN	PM|NOM	Case=Nom	25	name	_	_
+26	Förlaget	förlag	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	23	nmod	_	_
 
 15014
 1	Statens	stat	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	5	nsubj	_	_
@@ -202,15 +202,39 @@
 13	kommitte	kommitte	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	name	_	_
 13	kommitte	kommitte	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	nmod	_	_
 
+26881
+11	Ständiga	ständig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	1	conj	_	_
+11	Ständiga	ständig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	_
+
+26882
+12	representanternas	representant	NOUN	NN|UTR|PLU|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Plur	11	name	_	_
+12	representanternas	representant	NOUN	NN|UTR|PLU|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Plur	13	nmod:poss	_	_
+
+26883
+13	kommitté	kommitté	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	name	_	_
+13	kommitté	kommitté	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	conj	_	_
+
+26884
+14	ambassadörer	ambassadör	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	11	appos	_	_
+14	ambassadörer	ambassadör	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	13	appos	_	_
+
+27021
+13	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	2	nsubj	_	_
+13	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	14	amod	_	_
+
+27022
+14	centralbanken	centralbanken	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	13	name	_	_
+14	centralbanken	centralbanken	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
+
 29952
 2	Paulo	Paulo	PROPN	PM|NOM	Case=Nom	1	mwe	_	_
 2	Paulo	Paulo	PROPN	PM|NOM	Case=Nom	1	name	_	_
 
 39589
 10	Gunnebo	Gunnebo	PROPN	PM|NOM	Case=Nom	8	nmod	_	_
-10	Gunnebo	Gunnebo	PROPN	PM|NOM	Case=Nom	11	name	_	_
+10	Gunnebo	Gunnebo	PROPN	PM|NOM	Case=Nom	11	nmod	_	_
 
 39590	
 11	Bruk	Bruk	PROPN	PM|NOM	Case=Nom	10	mwe	_	_
-11	Bruk	Bruk	PROPN	PM|NOM	Case=Nom	8	nmod	_	_
+11	Bruk	Bruk	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	8	nmod	_	_
 
