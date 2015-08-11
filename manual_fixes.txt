@@ -226,9 +226,145 @@
 14	centralbanken	centralbanken	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	13	name	_	_
 14	centralbanken	centralbanken	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
 
+27028
+20	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	2	nsubj	_	_
+20	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	21	amod	_	_
+
+27029
+21	patentverket	patentverket	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	20	name	_	_
+21	patentverket	patentverket	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	_
+
+27030
+22	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	2	nsubj	_	_
+22	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	23	amod	_	_
+
+27031
+23	arbetsmarknadsverket	arbetsmarknadsverket	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	22	name	_	_
+23	arbetsmarknadsverket	arbetsmarknadsverket	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	_
+
+27036
+28	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	2	nsubj	_	_
+28	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	29	amod	_	_
+
+27037
+29	institutet	institutet	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	28	name	_	_
+29	institutet	institutet	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	_
+
+27038
+30	för	för	ADP	PP	_	28	name	_	_
+30	för	för	ADP	PP	_	31	case	_	_
+
+27039
+31	företagsutbildning	företagsutbildning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	28	name	_	_
+31	företagsutbildning	företagsutbildning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	29	nmod	_	_
+
+27040
+32	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	2	nsubj	_	_
+32	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	33	amod	_	_
+
+27041
+33	investeringsbanken	investeringsbank	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	32	name	_	_
+33	investeringsbanken	investeringsbank	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
+
+27042
+34	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	2	nsubj	_	_
+34	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	35	amod	_	_
+
+27043
+35	forskningsnämnden	forskningsnämnd	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	34	name	_	_
+35	forskningsnämnden	forskningsnämnd	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
+
+27044
+36	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	2	nsubj	_	_
+36	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	37	amod	_	_
+
+27045
+37	lantbruksnämnden	lantbruksnämnd	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	36	name	_	_
+37	lantbruksnämnden	lantbruksnämnd	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
+
+27046
+38	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	2	nsubj	_	_
+38	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	40	amod	_	_
+
+27047
+39	förenade	förenade	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	38	name	_	_
+39	förenade	förenade	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	40	amod	_	_
+
+27048
+40	fackföreningsrörelsen	fackföreningsrörelse	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	38	name	_	_
+40	fackföreningsrörelsen	fackföreningsrörelse	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
+
 29952
 2	Paulo	Paulo	PROPN	PM|NOM	Case=Nom	1	mwe	_	_
 2	Paulo	Paulo	PROPN	PM|NOM	Case=Nom	1	name	_	_
+
+30410
+14	AB	AB	PROPN	PM|NOM	Case=Nom	13	name	_	_
+14	AB	AB	PROPN	PM|NOM	Case=Nom	13	nmod	_	_
+
+30900
+15	Standard	Standard	PROPN	PM|NOM	Case=Nom	13	conj	_	_
+15	Standard	Standard	ADJ	JJ	_	16	amod	_	_
+
+30901
+16	Oil	Oil	PROPN	PM|NOM	Case=Nom	15	name	_	_
+16	Oil	Oil	NOUN	NN	_	13	conj	_	_
+
+30902
+17	of	of	PROPN	PM|NOM	Case=Nom	15	name	_	_
+17	of	of	ADP	PP	_	18	case	_	_
+
+30903
+18	California	California	PROPN	PM|NOM	Case=Nom	15	name	_	_
+18	California	California	NOUN	NN	_	16	nmod	_	_
+
+32107
+17	Dagens	Dagens	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	15	nmod	_	_
+17	Dagens	Dagens	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	18	nmod:poss	_	_
+
+32108
+18	Nyheter	nyheter	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	17	name	_	_
+18	Nyheter	nyheter	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	15	nmod	_	_
+
+32116
+6	National	National	PROPN	PM|NOM	Case=Nom	4	nmod	_	_
+6	National	National	ADJ	JJ	_	7	amod	_	_
+
+32117
+7	Clearinghouse	Clearinghouse	PROPN	PM|NOM	Case=Nom	6	name	_	_
+7	Clearinghouse	Clearinghouse	NOUN	NN	_	4	nmod	_	_
+
+32118
+8	for	for	PROPN	PM|NOM	Case=Nom	6	name	_	_
+8	for	for	ADP	PP	_	9	case	_	_
+
+32119
+9	Smoking	smoking	PROPN	PM|NOM	Case=Nom	6	name	_	_
+9	Smoking	smoking	NOUN	NN	_	7	nmod	_	_
+
+32120
+10	and	and	PROPN	PM|NOM	Case=Nom	6	name	_	_
+10	and	and	CONJ	KN	_	9	cc	_	_
+
+32121
+11	Health	Health	PROPN	PM|NOM	Case=Nom	6	name	_	_
+11	Health	Health	NOUN	NN	_	9	conj	_	_
+
+34056
+29	Centrala	central	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	26	nmod	_	_
+29	Centrala	central	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	30	amod	_	_
+
+34057
+30	folkbokförings-	folkbokföring	NOUN	NN|UTR|-|-|SMS	Gender=Com	29	name	_	_
+30	folkbokförings-	folkbokföring	NOUN	NN|UTR|-|-|SMS	Gender=Com	26	nmod	_	_
+
+34058
+31	och	och	CONJ	KN	_	29	name	_	_
+31	och	och	CONJ	KN	_	30	cc	_	_
+
+34059
+32	uppbördsnämnden	uppbördsnämnd	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	29	name	_	_
+32	uppbördsnämnden	uppbördsnämnd	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	30	conj	_	_
 
 39589
 10	Gunnebo	Gunnebo	PROPN	PM|NOM	Case=Nom	8	nmod	_	_
