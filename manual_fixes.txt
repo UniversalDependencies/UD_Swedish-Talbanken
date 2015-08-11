@@ -366,6 +366,62 @@
 32	uppbördsnämnden	uppbördsnämnd	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	29	name	_	_
 32	uppbördsnämnden	uppbördsnämnd	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	30	conj	_	_
 
+35136
+11	Oscars	Oscar	PROPN	PM|GEN	Case=Gen	5	appos	_	_
+11	Oscars	Oscar	PROPN	PM|GEN	Case=Gen	12	nmod:poss	_	_
+
+35137
+12	församling	församling	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	name	_	_
+12	församling	församling	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	appos	_	_
+
+35353
+3	(	(	PUNCT	PAD	_	1	conj	_	_
+3	(	(	PUNCT	PAD	_	4	punct	_	_
+
+35354
+4	s	s	PROPN	PM|NOM	Case=Nom	3	name	_	_
+4	s	s	PROPN	PM|NOM	Case=Nom	1	conj	_	_
+
+35355
+5	)	)	PUNCT	PAD	_	3	name	_	_
+5	)	)	PUNCT	PAD	_	4	punct	_	_
+
+38488
+30	Ostkustfisk	Ostkustfisk	PROPN	PM|NOM	Case=Nom	28	nmod	_	_
+30	Ostkustfisk	Ostkustfisk	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	31	nmod	_	_
+
+38489
+31	Centralförening	Centralförening	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	30	name	_	_
+31	Centralförening	Centralförening	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	28	nmod	_	_
+
+38600
+17	Statens	stat	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	15	nsubj	_	_
+17	Statens	stat	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	18	nmod:poss	_	_
+
+38601
+18	institut	institut	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	17	name	_	_
+18	institut	institut	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	15	nsubj	_	_
+
+38602
+19	för	för	ADP	PP	_	17	name	_	_
+19	för	för	ADP	PP	_	20	case	_	_
+
+38603
+20	Folkhälsan	folkhälsa	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	17	name	_	_
+20	Folkhälsan	folkhälsa	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	18	nmod	_	_
+
+38682
+15	Svenska	svensk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	12	nmod	_	_
+15	Svenska	svensk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	16	amod	_	_
+
+38683
+16	ostkustfiskarnas	ostkustfisk	NOUN	NN|UTR|PLU|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Plur	15	name	_	_
+16	ostkustfiskarnas	ostkustfisk	NOUN	NN|UTR|PLU|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Plur	17	nmod:poss	_	_
+
+38684
+17	centralförbund	centralförbund	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	15	name	_	_
+17	centralförbund	centralförbund	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	12	nmod	_	_
+
 39589
 10	Gunnebo	Gunnebo	PROPN	PM|NOM	Case=Nom	8	nmod	_	_
 10	Gunnebo	Gunnebo	PROPN	PM|NOM	Case=Nom	11	nmod	_	_
@@ -373,4 +429,84 @@
 39590	
 11	Bruk	Bruk	PROPN	PM|NOM	Case=Nom	10	mwe	_	_
 11	Bruk	Bruk	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	8	nmod	_	_
+
+41574
+14	Den	en	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing	17	nsubj	_	_
+14	Den	en	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing	15	det	_	_
+
+41575
+15	permanente	permanent	ADJ	JJ|SUV|UTR/NEU|SIN/PLU|DEF|NOM	Case=Nom|Definite=Def|Degree=Sup	14	name	_	_
+15	permanente	permanent	ADJ	JJ|SUV|UTR/NEU|SIN/PLU|DEF|NOM	Case=Nom|Definite=Def|Degree=Sup	17	nsubj	_	_
+
+42706
+1	På	på	ADP	PP	_	2	case	_	_
+1	På	på	ADP	PP	_	4	case	_	_
+
+42707
+2	S:t	S:t	ADJ	JJ|AN	_	7	advmod	_	_
+2	S:t	S:t	ADJ	JJ|AN	_	3	amod	_	_
+
+42708
+3	Lars	Louie	PROPN	PM|GEN	Case=Gen	2	name	_	_
+3	Lars	Louie	PROPN	PM|GEN	Case=Gen	4	nmod:poss	_	_
+
+42709
+4	sjukhus	sjukhus	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	name	_	_
+4	sjukhus	sjukhus	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	7	nmod	_	_
+
+42711
+6	Lund	Lund	PROPN	PM|NOM	Case=Nom	2	nmod	_	_
+6	Lund	Lund	PROPN	PM|NOM	Case=Nom	4	nmod	_	_
+
+43856
+1	I	i	ADP	PP	_	2	case	_	_
+1	I	i	ADP	PP	_	3	case	_	_
+
+43857
+2	Bromma	Bromma	PROPN	PM|GEN	Case=Gen	4	nmod	_	_
+2	Bromma	Bromma	PROPN	PM|GEN	Case=Gen	3	nmod	_	_
+
+43858
+3	gymnasium	gymnasium	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	name	_	_
+3	gymnasium	gymnasium	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	4	nmod	_	_
+
+47191
+1	Vid	vid	ADP	PP	_	2	case	_	_
+1	Vid	vid	ADP	PP	_	3	case	_	_
+
+47192
+2	Kvarnvikens	Kvarnviken	PROPN	PM|GEN	Case=Gen	13	nmod	_	_
+2	Kvarnvikens	Kvarnviken	PROPN	PM|GEN	Case=Gen	3	nmod:poss	_	_
+
+47193
+3	Båtsällskap	båtsällskap	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	name	_	_
+3	Båtsällskap	båtsällskap	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	13	nmod	_	_
+
+47195
+5	Blackeberg	Blackeberg	PROPN	PM|NOM	Case=Nom	2	nmod	_	_
+5	Blackeberg	Blackeberg	PROPN	PM|NOM	Case=Nom	3	nmod	_	_
+
+47318
+1	Vid	vid	ADP	PP	_	2	case	_	_
+1	Vid	vid	ADP	PP	_	3	case	_	_
+
+47319
+2	Kvarnvikens	Kvarnviken	PROPN	PM|GEN	Case=Gen	4	nmod	_	_
+2	Kvarnvikens	Kvarnviken	PROPN	PM|GEN	Case=Gen	3	nmod	_	_
+
+47320
+3	båtsällskap	båtsällskap	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	name	_	_
+3	båtsällskap	båtsällskap	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	4	nmod	_	_
+
+47479
+2	vid	vid	ADP	PP	_	3	case	_	_
+2	vid	vid	ADP	PP	_	4	case	_	_
+
+47480
+3	S:t	S:t	ADJ	JJ|AN	_	1	nmod	_	_
+3	S:t	S:t	ADJ	JJ|AN	_	4	amod	_	_
+
+47481
+4	Eriksgatan	Eriksgatan	PROPN	PM|NOM	Case=Nom	3	name	_	_
+4	Eriksgatan	Eriksgatan	PROPN	PM|NOM	Case=Nom	1	nmod	_	_
 
