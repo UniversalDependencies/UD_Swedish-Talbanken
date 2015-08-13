@@ -528,6 +528,13 @@ def relabel(sentence):
                         deprel[w3[4]] = "expl"
         if deprel[w1[4]] == "det" and (w1[10] in ["PS", "HS"] or (w1[10] in ["NN", "PM"] and (re.search("GG", w1[8]) or re.search("GEN", w1[11])))):
             deprel[w1[4]] = "nmod:poss"
+        elif deprel[w1[4]] == "det" and w1[10] in ["NN", "PM"]:
+            new_label = "nmod"
+            for w2 in sentence[w1[4]:]:
+#                print(str(w2[4]) + ":" + w2[7] + ":" + str(head[w2[4]]) + ":" + deprel[w2[4]])
+                if head[w2[4]] == w1[4] and deprel[w2[4]] == "mwe" and re.search("GEN", w2[11]):
+                    new_label = "nmod:poss"
+            deprel[w1[4]] = new_label
         if w1[10] == "RG":
             if deprel[w1[4]] in ["det", "amod", "dep"]:
                 deprel[w1[4]] = "nummod"
