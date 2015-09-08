@@ -56,28 +56,26 @@
 33	Sociala	social	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	29	nmod	_	_
 34	huset	hus	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	33	name	_	_
 35	,	,	PUNCT	MID	_	33	punct	_	_
+36	ingång	ingång	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	37	det	_	_
+37	J	J	PROPN	PM|NOM	Case=Nom	33	nmod	_	_
 ---
 33	Sociala	social	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	34	amod	_	_
 34	huset	hus	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	29	nmod	_	_
 35	,	,	PUNCT	MID	_	34	punct	_	_
-
-6188
-37	J	J	PROPN	PM|NOM	Case=Nom	33	nmod	_	_
----
+36	ingång	ingång	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	37	det	_	_
 37	J	J	PROPN	PM|NOM	Case=Nom	34	nmod	_	_
 
 6324
 34	Sociala	social	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	32	advmod	_	_
 35	huset	hus	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	34	name	_	_
 36	,	,	PUNCT	MID	_	34	punct	_	_
+37	ingång	ingång	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	38	det	_	_
+38	J	J	PROPN	PM|NOM	Case=Nom	34	nmod	_	_
 ---
 34	Sociala	social	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	35	amod	_	_
 35	huset	hus	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	32	nmod	_	_
 36	,	,	PUNCT	MID	_	35	punct	_	_
-
-6328
-38	J	J	PROPN	PM|NOM	Case=Nom	34	nmod	_	_
----
+37	ingång	ingång	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	38	det	_	_
 38	J	J	PROPN	PM|NOM	Case=Nom	35	nmod	_	_
 
 14189
@@ -94,6 +92,8 @@
 27	,	,	PUNCT	MID	_	25	punct	_	_
 28	Fack	fack	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	25	nmod	_	_
 29	,	,	PUNCT	MID	_	25	punct	_	_
+30	10320	10320	NUM	RG|NOM	Case=Nom	31	nummod	_	_
+31	Stockholm	Stockholm	PROPN	PM|NOM	Case=Nom	25	nmod	_	_
 ---
 24	från	från	ADP	PP	_	26	case	_	_
 25	Allmänna	allmän	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	26	amod	_	_
@@ -101,10 +101,7 @@
 27	,	,	PUNCT	MID	_	26	punct	_	_
 28	Fack	fack	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	26	nmod	_	_
 29	,	,	PUNCT	MID	_	26	punct	_	_
-
-14478
-31	Stockholm	Stockholm	PROPN	PM|NOM	Case=Nom	25	nmod	_	_
----
+30	10320	10320	NUM	RG|NOM	Case=Nom	31	nummod	_	_
 31	Stockholm	Stockholm	PROPN	PM|NOM	Case=Nom	26	nmod	_	_
 
 15014
@@ -807,4 +804,174 @@
 28	the	the	DET	UO	_	30	det	_	_
 29	United	United	ADJ	UO	_	30	amod	_	_
 30	Nations	nation	NOUN	UO	_	26	nmod	_	_
+
+59012
+13	i	i	ADP	PP	_	14	case	_	_
+14	Nya	ny	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	12	nmod	_	_
+15	Testamentet	testamente	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	14	name	_	_
+---
+13	i	i	ADP	PP	_	15	case	_	_
+14	Nya	ny	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	15	amod	_	_
+15	Testamentet	testamente	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	12	nmod	_	_
+
+67851
+4	i	i	ADP	PP	_	7	case	_	_
+5	samarbete	samarbete	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	4	mwe	_	_
+6	med	med	ADP	PP	_	4	mwe	_	_
+7	Försäkringsbolaget	försäkringsbolag	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	nmod	_	_
+8	Trygg	trygg	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	7	name	_	_
+---
+4	i	i	ADP	PP	_	8	case	_	_
+5	samarbete	samarbete	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	4	mwe	_	_
+6	med	med	ADP	PP	_	4	mwe	_	_
+7	Försäkringsbolaget	försäkringsbolag	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	8	nmod	_	_
+8	Trygg	trygg	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	3	nmod	_	_
+
+73351:75239
+17	på	på	ADP	PP	_	18	case	_	_
+18	Nya	ny	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	15	conj	_	_
+19	Zeeland	Zeeland	PROPN	PM|NOM	Case=Nom	18	name	_	_
+---
+17	på	på	ADP	PP	_	19	case	_	_
+18	Nya	ny	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	19	amod	_	_
+19	Zeeland	Zeeland	PROPN	PM|NOM	Case=Nom	15	conj	_	_
+
+73589
+3	Förenta	Förenta	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	2	nsubj	_	_
+4	staterna	stat	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	3	name	_	_
+---
+3	Förenta	Förenta	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+4	staterna	stat	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	2	nsubj	_	_
+
+73768
+16	Swedish	Swedish	PROPN	PM|NOM	Case=Nom	14	appos	_	_
+17	International	International	PROPN	PM|NOM	Case=Nom	16	name	_	_
+18	Development	Development	PROPN	PM|NOM	Case=Nom	16	name	_	_
+19	Authority	Authority	PROPN	PM|NOM	Case=Nom	16	name	_	_
+20	)	)	PUNCT	PAD	_	16	mwe	_	_
+---
+16	Swedish	Swedish	ADJ	JJ	_	19	amod	_	_
+17	International	International	ADJ	JJ	_	18	amod	_	_
+18	Development	Development	NOUN	NN	_	19	compound	_	_
+19	Authority	Authority	NOUN	NN	_	14	appos	_	_
+20	)	)	PUNCT	PAD	_	19	punct	_	_
+
+75073
+18	Central	central	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	10	parataxis	_	_
+19	Park	park	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	18	name	_	_
+20	i	i	ADP	PP	_	21	case	_	_
+21	New	New	PROPN	PM|NOM	Case=Nom	18	nmod	_	_
+22	York	York	PROPN	PM|NOM	Case=Nom	21	name	_	_
+23	1857	1857	NUM	RG|NOM	Case=Nom	18	nummod	_	_
+24	,	,	PUNCT	MID	_	18	punct	_	_
+25	Kungsparken	Kungsparken	PROPN	PM|NOM	Case=Nom	18	conj	_	_
+---
+18	Central	central	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	19	amod	_	_
+19	Park	park	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	parataxis	_	_
+20	i	i	ADP	PP	_	22	case	_	_
+21	New	New	ADJ	JJ	_	22	amod	_	_
+22	York	York	PROPN	PM|NOM	Case=Nom	19	nmod	_	_
+23	1857	1857	NUM	RG|NOM	Case=Nom	19	nummod	_	_
+24	,	,	PUNCT	MID	_	19	punct	_	_
+25	Kungsparken	Kungsparken	PROPN	PM|NOM	Case=Nom	19	conj	_	_
+
+76137
+2	i	i	ADP	PP	_	3	case	_	_
+3	Gamla	gammal	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	6	advmod	_	_
+4	testamentet	testamente	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	name	_	_
+---
+2	i	i	ADP	PP	_	4	case	_	_
+3	Gamla	gammal	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	4	amod	_	_
+4	testamentet	testamente	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	6	nmod	_	_
+
+76144
+9	i	i	ADP	PP	_	10	case	_	_
+10	Nya	ny	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	16	advmod	_	_
+11	testamentet	testamente	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	10	name	_	_
+---
+9	i	i	ADP	PP	_	11	case	_	_
+10	Nya	ny	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	11	amod	_	_
+11	testamentet	testamente	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	16	nmod	_	_
+
+82864
+5	i	i	ADP	PP	_	6	case	_	_
+6	Stora	stor	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	8	advmod	_	_
+7	Katekesen	katekes	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	6	name	_	_
+---
+5	i	i	ADP	PP	_	7	case	_	_
+6	Stora	stor	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	7	amod	_	_
+7	Katekesen	katekes	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	8	nmod	_	_
+
+84462
+26	i	i	ADP	PP	_	27	case	_	_
+27	Nya	ny	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	25	advmod	_	_
+28	testamentet	testamente	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	27	name	_	_
+---
+26	i	i	ADP	PP	_	28	case	_	_
+27	Nya	ny	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	28	amod	_	_
+28	testamentet	testamente	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	25	nmod	_	_
+
+84558
+14	Katolska	katolsk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	16	nsubj	_	_
+15	kyrkan	kyrka	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	14	name	_	_
+---
+14	Katolska	katolsk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	15	amod	_	_
+15	kyrkan	kyrka	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	16	nsubj	_	_
+
+94324
+15	t.ex	t.ex	ADV	AB|AN	_	16	advmod	_	_
+16	Röda	röd	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	13	appos	_	_
+17	Korset	kors	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	16	name	_	_
+18	,	,	PUNCT	MID	_	16	punct	_	_
+19	scouting	scouting	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	conj	_	_
+20	,	,	PUNCT	MID	_	16	punct	_	_
+21	bilkåren	bilkår	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	16	conj	_	_
+22	,	,	PUNCT	MID	_	16	punct	_	_
+23	kyrkligt	kyrklig	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	_
+24	församlingsarbete	församlingsarbete	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	16	conj	_	_
+---
+15	t.ex	t.ex	ADV	AB|AN	_	17	advmod	_	_
+16	Röda	röd	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	17	amod	_	_
+17	Korset	kors	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	13	appos	_	_
+18	,	,	PUNCT	MID	_	17	punct	_	_
+19	scouting	scouting	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	17	conj	_	_
+20	,	,	PUNCT	MID	_	17	punct	_	_
+21	bilkåren	bilkår	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	17	conj	_	_
+22	,	,	PUNCT	MID	_	17	punct	_	_
+23	kyrkligt	kyrklig	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	_
+24	församlingsarbete	församlingsarbete	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	17	conj	_	_
+
+95150
+5	Svenska	Svenska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	7	det	_	_
+6	Dagbladets	Dagbladet	NOUN	NN|NEU|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	5	name	_	_
+---
+5	Svenska	Svenska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	6	amod	_	_
+6	Dagbladets	Dagbladet	NOUN	NN|NEU|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	7	nmod:poss	_	_
+
+95245
+2	Svenska	Svenska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	4	det	_	_
+3	Dagbladets	Dagbladet	NOUN	NN|NEU|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	2	name	_	_
+---
+2	Svenska	Svenska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	3	amod	_	_
+3	Dagbladets	Dagbladet	NOUN	NN|NEU|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	4	nmod:poss	_	_
+
+96883
+3	Angeläget	angelägen	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
+4	nu	nu	ADV	AB	_	3	name	_	_
+---
+3	Angeläget	angelägen	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
+4	nu	nu	ADV	AB	_	3	advmod	_	_
+
+102129
+2	med	med	ADP	PP	_	5	case	_	_
+3	hjälp	hjälp	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	mwe	_	_
+4	av	av	ADP	PP	_	2	mwe	_	_
+5	Statistisk	statistisk	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	1	advmod	_	_
+6	årsbok	årsbok	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	name	_	_
+---
+2	med	med	ADP	PP	_	6	case	_	_
+3	hjälp	hjälp	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	mwe	_	_
+4	av	av	ADP	PP	_	2	mwe	_	_
+5	Statistisk	statistisk	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	6	amod	_	_
+6	årsbok	årsbok	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	nmod	_	_
 
