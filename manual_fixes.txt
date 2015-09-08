@@ -188,7 +188,7 @@
 11	Reactor	Reactor	PROPN	PM|NOM	Case=Nom	9	name	_	_
 ---
 9	Boiling	boiling	ADJ	JJ	_	10	amod	_	_
-10	Water	water	NOUN	NN	_	11	nmod	_	_
+10	Water	water	NOUN	NN	_	11	compound	_	_
 11	Reactor	Reactor	NOUN	NN	_	7	conj	_	_
 
 21768
@@ -197,7 +197,7 @@
 10	Reactor	Reactor	PROPN	PM|NOM	Case=Nom	8	name	_	_
 ---
 8	Pressurized	pressurized	ADJ	JJ	_	9	amod	_	_
-9	Water	water	NOUN	NN	_	10	nmod	_	_
+9	Water	water	NOUN	NN	_	10	compound	_	_
 10	Reactor	Reactor	NOUN	NN	_	6	conj	_	_
 
 21820
@@ -229,12 +229,10 @@
 5	Kungl.	Kungl.	ADJ	JJ|AN	_	6	amod	_	_
 6	Maj:t	Maj:t	NOUN	NN|AN	_	3	nmod	_	_
 
-22398
-5	släkten	släkt	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	6	det	_	_
+22399
 6	af	af	PROPN	PM|NOM	Case=Nom	8	det	_	_
 7	Ugglas	Ugglas	PROPN	PM|GEN	Case=Gen	6	name	_	_
 ---
-5	släkten	släkt	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	6	nmod	_	_
 6	af	af	PROPN	PM|NOM	Case=Nom	8	nmod:poss	_	_
 7	Ugglas	Ugglas	PROPN	PM|GEN	Case=Gen	6	name	_	_
 
@@ -318,8 +316,8 @@
 1	Efta	Efta	PROPN	PM|NOM	Case=Nom	0	root	_	_
 2	:	:	PUNCT	MID	_	1	punct	_	_
 3	European	European	ADJ	JJ	_	6	amod	_	_
-4	Free	Free	ADJ	JJ	_	5	amod	_	_
-5	Trade	Trade	NOUN	NN	_	6	nmod	_	_
+4	Free	Free	ADJ	JJ	_	5	compound	_	_
+5	Trade	Trade	NOUN	NN	_	6	compound	_	_
 6	Association	Association	NOUN	NN	_	1	appos	_	_
 7	(	(	PUNCT	PAD	_	1	punct	_	_
 8	Den	en	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing	10	det	_	_
@@ -342,11 +340,471 @@
 1	Nato	Nato	PROPN	PM|NOM	Case=Nom	0	root	_	_
 2	:	:	PUNCT	MID	_	1	punct	_	_
 3	North	North	ADJ	JJ	_	4	amod	_	_
-4	Atlantic	Atlantic	PROPN	PM|NOM	Case=Nom	5	nmod	_	_
-5	Treaty	Treaty	NOUN	NN	_	6	nmod	_	_
+4	Atlantic	Atlantic	PROPN	PM|NOM	Case=Nom	5	compound	_	_
+5	Treaty	Treaty	NOUN	NN	_	6	compound	_	_
 6	Organization	Organization	NOUN	NN	_	1	appos	_	_
 7	(	(	PUNCT	PAD	_	1	punct	_	_
 8	Atlantpakten	Atlantpakten	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	6	appos	_	_
 9	)	)	PUNCT	PAD	_	1	punct	_	_
 10	.	.	PUNCT	MAD	_	1	punct	_	_
+
+26881
+11	Ständiga	ständig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	1	conj	_	_
+12	representanternas	representant	NOUN	NN|UTR|PLU|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Plur	11	name	_	_
+13	kommitté	kommitté	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	name	_	_
+14	ambassadörer	ambassadör	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	11	appos	_	_
+---
+11	Ständiga	ständig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	_
+12	representanternas	representant	NOUN	NN|UTR|PLU|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Plur	13	nmod:poss	_	_
+13	kommitté	kommitté	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	conj	_	_
+14	ambassadörer	ambassadör	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	13	appos	_	_
+
+27021
+13	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	2	nsubj	_	_
+14	centralbanken	centralbanken	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	13	name	_	_
+15	(	(	PUNCT	PAD	_	13	punct	_	_
+16	riksbanken	riksbank	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	13	appos	_	_
+---
+13	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	14	amod	_	_
+14	centralbanken	centralbanken	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
+15	(	(	PUNCT	PAD	_	14	punct	_	_
+16	riksbanken	riksbank	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	14	appos	_	_
+
+27027
+19	)	)	PUNCT	PAD	_	13	punct	_	_
+---
+19	)	)	PUNCT	PAD	_	14	punct	_	_
+
+27028
+20	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	2	nsubj	_	_
+21	patentverket	patentverket	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	20	name	_	_
+---
+20	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	21	amod	_	_
+21	patentverket	patentverket	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	_
+
+27030
+22	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	2	nsubj	_	_
+23	arbetsmarknadsverket	arbetsmarknadsverket	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	22	name	_	_
+24	(	(	PUNCT	PAD	_	22	punct	_	_
+25	arbetsförmedling	arbetsförmedling	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	22	appos	_	_
+26	etc	etc	ADV	AB|AN	_	25	conj	_	_
+27	)	)	PUNCT	PAD	_	22	punct	_	_
+---
+22	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	23	amod	_	_
+23	arbetsmarknadsverket	arbetsmarknadsverket	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	_
+24	(	(	PUNCT	PAD	_	23	punct	_	_
+25	arbetsförmedling	arbetsförmedling	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	23	appos	_	_
+26	etc	etc	ADV	AB|AN	_	25	conj	_	_
+27	)	)	PUNCT	PAD	_	23	punct	_	_
+
+27036
+28	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	2	nsubj	_	_
+29	institutet	institutet	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	28	name	_	_
+30	för	för	ADP	PP	_	28	name	_	_
+31	företagsutbildning	företagsutbildning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	28	name	_	_
+---
+28	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	29	amod	_	_
+29	institutet	institutet	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	_
+30	för	för	ADP	PP	_	31	case	_	_
+31	företagsutbildning	företagsutbildning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	29	nmod	_	_
+
+27040
+32	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	2	nsubj	_	_
+33	investeringsbanken	investeringsbank	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	32	name	_	_
+---
+32	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	33	amod	_	_
+33	investeringsbanken	investeringsbank	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
+
+27042
+34	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	2	nsubj	_	_
+35	forskningsnämnden	forskningsnämnd	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	34	name	_	_
+---
+34	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	35	amod	_	_
+35	forskningsnämnden	forskningsnämnd	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
+
+27044
+36	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	2	nsubj	_	_
+37	lantbruksnämnden	lantbruksnämnd	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	36	name	_	_
+---
+36	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	37	amod	_	_
+37	lantbruksnämnden	lantbruksnämnd	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
+
+27046
+38	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	2	nsubj	_	_
+39	förenade	förenade	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	38	name	_	_
+40	fackföreningsrörelsen	fackföreningsrörelse	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	38	name	_	_
+---
+38	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	40	amod	_	_
+39	förenade	förenade	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	40	amod	_	_
+40	fackföreningsrörelsen	fackföreningsrörelse	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
+
+27049
+41	AB	AB	PROPN	PM|NOM	Case=Nom	38	conj	_	_
+42	Air	Air	PROPN	PM|NOM	Case=Nom	41	name	_	_
+43	Union	Union	PROPN	PM|NOM	Case=Nom	41	name	_	_
+44	(	(	PUNCT	PAD	_	41	punct	_	_
+45	Europas	Europa	PROPN	PM|GEN	Case=Gen	47	nmod:poss	_	_
+46	samtliga	samtlig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	47	det	_	_
+47	flygbolag	flygbolag	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	41	appos	_	_
+48	)	)	PUNCT	PAD	_	41	punct	_	_
+---
+41	AB	AB	NOUN	NN	_	43	nmod	_	_
+42	Air	Air	NOUN	NN	_	43	compound	_	_
+43	Union	Union	NOUN	NN	_	40	conj	_	_
+44	(	(	PUNCT	PAD	_	43	punct	_	_
+45	Europas	Europa	PROPN	PM|GEN	Case=Gen	47	nmod:poss	_	_
+46	samtliga	samtlig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	47	det	_	_
+47	flygbolag	flygbolag	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	43	appos	_	_
+48	)	)	PUNCT	PAD	_	43	punct	_	_
+
+30409
+13	Oljeprospektering	oljeprospektering	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	23	nsubj	_	_
+14	AB	AB	PROPN	PM|NOM	Case=Nom	13	name	_	_
+---
+13	Oljeprospektering	oljeprospektering	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	23	nsubj	_	_
+14	AB	AB	NOUN	NN	_	13	nmod	_	_
+
+30900
+15	Standard	Standard	PROPN	PM|NOM	Case=Nom	13	conj	_	_
+16	Oil	Oil	PROPN	PM|NOM	Case=Nom	15	name	_	_
+17	of	of	PROPN	PM|NOM	Case=Nom	15	name	_	_
+18	California	California	PROPN	PM|NOM	Case=Nom	15	name	_	_
+---
+15	Standard	Standard	ADJ	JJ	_	16	amod	_	_
+16	Oil	Oil	NOUN	NN	_	13	conj	_	_
+17	of	of	ADP	PP	_	18	case	_	_
+18	California	California	NOUN	NN	_	16	nmod	_	_
+
+32106
+16	med	med	ADP	PP	_	17	case	_	_
+17	Dagens	Dagens	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	15	nmod	_	_
+18	Nyheter	nyheter	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	17	name	_	_
+---
+16	med	med	ADP	PP	_	18	case	_	_
+17	Dagens	Dagens	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	18	nmod:poss	_	_
+18	Nyheter	nyheter	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	15	nmod	_	_
+
+32115
+5	för	för	ADP	PP	_	6	case	_	_
+6	National	National	PROPN	PM|NOM	Case=Nom	4	nmod	_	_
+7	Clearinghouse	Clearinghouse	PROPN	PM|NOM	Case=Nom	6	name	_	_
+8	for	for	PROPN	PM|NOM	Case=Nom	6	name	_	_
+9	Smoking	smoking	PROPN	PM|NOM	Case=Nom	6	name	_	_
+10	and	and	PROPN	PM|NOM	Case=Nom	6	name	_	_
+11	Health	Health	PROPN	PM|NOM	Case=Nom	6	name	_	_
+12	,	,	PUNCT	MID	_	6	punct	_	_
+---
+5	för	för	ADP	PP	_	7	case	_	_
+6	National	National	ADJ	JJ	_	7	amod	_	_
+7	Clearinghouse	Clearinghouse	NOUN	NN	_	4	nmod	_	_
+8	for	for	ADP	PP	_	9	case	_	_
+9	Smoking	smoking	NOUN	NN	_	7	nmod	_	_
+10	and	and	CONJ	KN	_	9	cc	_	_
+11	Health	Health	NOUN	NN	_	9	conj	_	_
+12	,	,	PUNCT	MID	_	7	punct	_	_
+
+32126
+16	specialorgan	specialorgan	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	6	appos	_	_
+---
+16	specialorgan	specialorgan	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	7	appos	_	_
+
+34055
+28	vid	vid	ADP	PP	_	29	case	_	_
+29	Centrala	central	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	26	nmod	_	_
+30	folkbokförings-	folkbokföring	NOUN	NN|UTR|-|-|SMS	Gender=Com	29	name	_	_
+31	och	och	CONJ	KN	_	29	name	_	_
+32	uppbördsnämnden	uppbördsnämnd	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	29	name	_	_
+33	,	,	PUNCT	MID	_	29	punct	_	_
+34	CFU	CFU	PROPN	PM|NOM	Case=Nom	29	appos	_	_
+---
+28	vid	vid	ADP	PP	_	30	case	_	_
+29	Centrala	central	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	30	amod	_	_
+30	folkbokförings-	folkbokföring	NOUN	NN|UTR|-|-|SMS	Gender=Com	26	nmod	_	_
+31	och	och	CONJ	KN	_	30	cc	_	_
+32	uppbördsnämnden	uppbördsnämnd	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	30	conj	_	_
+33	,	,	PUNCT	MID	_	29	punct	_	_
+34	CFU	CFU	PROPN	PM|NOM	Case=Nom	30	appos	_	_
+
+35134
+9	den	en	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing	11	det	_	_
+10	högborgerliga	högborgerlig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	11	amod	_	_
+11	Oscars	Oscar	PROPN	PM|GEN	Case=Gen	5	appos	_	_
+12	församling	församling	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	name	_	_
+13	till	till	ADP	PP	_	11	advmod	_	_
+---
+9	den	en	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing	12	det	_	_
+10	högborgerliga	högborgerlig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	12	amod	_	_
+11	Oscars	Oscar	PROPN	PM|GEN	Case=Gen	12	nmod:poss	_	_
+12	församling	församling	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	appos	_	_
+13	till	till	ADP	PP	_	12	advmod	_	_
+
+35353
+3	(	(	PUNCT	PAD	_	1	conj	_	_
+4	s	s	PROPN	PM|NOM	Case=Nom	3	name	_	_
+5	)	)	PUNCT	PAD	_	3	name	_	_
+---
+3	(	(	PUNCT	PAD	_	4	punct	_	_
+4	s	s	PROPN	PM|NOM	Case=Nom	1	conj	_	_
+5	)	)	PUNCT	PAD	_	4	punct	_	_
+
+35667
+4	på	på	ADP	PP	_	5	case	_	_
+5	Unesco	Unesco	PROPN	PM|NOM	Case=Nom	2	nmod	_	_
+6	Courier	Courier	PROPN	PM|NOM	Case=Nom	5	name	_	_
+7	,	,	PUNCT	MID	_	5	punct	_	_
+8	January	January	PROPN	PM|NOM	Case=Nom	5	nmod	_	_
+9	1970	1970	NUM	RG|NOM	Case=Nom	8	nummod	_	_
+10	;	;	PUNCT	MID	_	5	punct	_	_
+11	Världshorisont	världshorisont	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	conj	_	_
+---
+4	på	på	ADP	PP	_	6	case	_	_
+5	Unesco	Unesco	PROPN	PM|NOM	Case=Nom	6	compound	_	_
+6	Courier	Courier	NOUN	NN	_	2	nmod	_	_
+7	,	,	PUNCT	MID	_	6	punct	_	_
+8	January	January	PROPN	PM|NOM	Case=Nom	6	nmod	_	_
+9	1970	1970	NUM	RG|NOM	Case=Nom	8	nummod	_	_
+10	;	;	PUNCT	MID	_	6	punct	_	_
+11	Världshorisont	världshorisont	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	conj	_	_
+
+35678
+15	;	;	PUNCT	MID	_	5	punct	_	_
+16	och	och	CONJ	KN	_	5	cc	_	_
+---
+15	;	;	PUNCT	MID	_	6	punct	_	_
+16	och	och	CONJ	KN	_	6	cc	_	_
+
+35686
+23	Undervisning	undervisning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	conj	_	_
+---
+23	Undervisning	undervisning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	conj	_	_
+
+38487
+29	i	i	ADP	PP	_	30	case	_	_
+30	Ostkustfisk	Ostkustfisk	PROPN	PM|NOM	Case=Nom	28	nmod	_	_
+31	Centralförening	Centralförening	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	30	name	_	_
+---
+29	i	i	ADP	PP	_	31	case	_	_
+30	Ostkustfisk	Ostkustfisk	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	31	nmod	_	_
+31	Centralförening	Centralförening	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	28	nmod	_	_
+
+38599
+16	både	både	CONJ	KN	_	17	advmod	_	_
+17	Statens	stat	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	15	nsubj	_	_
+18	institut	institut	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	17	name	_	_
+19	för	för	ADP	PP	_	17	name	_	_
+20	Folkhälsan	folkhälsa	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	17	name	_	_
+21	och	och	CONJ	KN	_	17	cc	_	_
+22	Naturvårdsverket	naturvårdsverk	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	17	conj	_	_
+---
+16	både	både	CONJ	KN	_	18	advmod	_	_
+17	Statens	stat	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	18	nmod:poss	_	_
+18	institut	institut	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	15	nsubj	_	_
+19	för	för	ADP	PP	_	20	case	_	_
+20	Folkhälsan	folkhälsa	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	18	nmod	_	_
+21	och	och	CONJ	KN	_	18	cc	_	_
+22	Naturvårdsverket	naturvårdsverk	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	18	conj	_	_
+
+38681
+14	i	i	ADP	PP	_	15	case	_	_
+15	Svenska	svensk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	12	nmod	_	_
+16	ostkustfiskarnas	ostkustfisk	NOUN	NN|UTR|PLU|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Plur	15	name	_	_
+17	centralförbund	centralförbund	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	15	name	_	_
+---
+14	i	i	ADP	PP	_	17	case	_	_
+15	Svenska	svensk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	16	amod	_	_
+16	ostkustfiskarnas	ostkustfisk	NOUN	NN|UTR|PLU|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Plur	17	nmod:poss	_	_
+17	centralförbund	centralförbund	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	12	nmod	_	_
+
+41572
+12	utställningslokalen	utställningslokal	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	14	det	_	_
+13	'	'	PUNCT	PAD	_	14	punct	_	_
+14	Den	en	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing	17	nsubj	_	_
+15	permanente	permanent	ADJ	JJ|SUV|UTR/NEU|SIN/PLU|DEF|NOM	Case=Nom|Definite=Def|Degree=Sup	14	name	_	_
+16	'	'	PUNCT	PAD	_	14	punct	_	_
+---
+12	utställningslokalen	utställningslokal	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	15	det	_	_
+13	'	'	PUNCT	PAD	_	15	punct	_	_
+14	Den	en	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing	15	det	_	_
+15	permanente	permanent	ADJ	JJ|SUV|UTR/NEU|SIN/PLU|DEF|NOM	Case=Nom|Definite=Def|Degree=Sup	17	nsubj	_	_
+16	'	'	PUNCT	PAD	_	15	punct	_	_
+
+42706
+1	På	på	ADP	PP	_	2	case	_	_
+2	S:t	S:t	ADJ	JJ|AN	_	7	advmod	_	_
+3	Lars	Louie	PROPN	PM|GEN	Case=Gen	2	name	_	_
+4	sjukhus	sjukhus	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	name	_	_
+5	i	i	ADP	PP	_	6	case	_	_
+6	Lund	Lund	PROPN	PM|NOM	Case=Nom	2	nmod	_	_
+---
+1	På	på	ADP	PP	_	4	case	_	_
+2	S:t	S:t	ADJ	JJ|AN	_	3	amod	_	_
+3	Lars	Louie	PROPN	PM|GEN	Case=Gen	4	nmod:poss	_	_
+4	sjukhus	sjukhus	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	7	nmod	_	_
+5	i	i	ADP	PP	_	6	case	_	_
+6	Lund	Lund	PROPN	PM|NOM	Case=Nom	4	nmod	_	_
+
+43856
+1	I	i	ADP	PP	_	2	case	_	_
+2	Bromma	Bromma	PROPN	PM|GEN	Case=Gen	4	nmod	_	_
+3	gymnasium	gymnasium	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	name	_	_
+---
+1	I	i	ADP	PP	_	3	case	_	_
+2	Bromma	Bromma	PROPN	PM|GEN	Case=Gen	3	nmod	_	_
+3	gymnasium	gymnasium	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	4	nmod	_	_
+
+47191
+1	Vid	vid	ADP	PP	_	2	case	_	_
+2	Kvarnvikens	Kvarnviken	PROPN	PM|GEN	Case=Gen	13	nmod	_	_
+3	Båtsällskap	båtsällskap	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	name	_	_
+4	i	i	ADP	PP	_	5	case	_	_
+5	Blackeberg	Blackeberg	PROPN	PM|NOM	Case=Nom	2	nmod	_	_
+---
+1	Vid	vid	ADP	PP	_	3	case	_	_
+2	Kvarnvikens	Kvarnviken	PROPN	PM|GEN	Case=Gen	3	nmod:poss	_	_
+3	Båtsällskap	båtsällskap	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	13	nmod	_	_
+4	i	i	ADP	PP	_	5	case	_	_
+5	Blackeberg	Blackeberg	PROPN	PM|NOM	Case=Nom	3	nmod	_	_
+
+47318
+1	Vid	vid	ADP	PP	_	2	case	_	_
+2	Kvarnvikens	Kvarnviken	PROPN	PM|GEN	Case=Gen	4	nmod	_	_
+3	båtsällskap	båtsällskap	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	name	_	_
+---
+1	Vid	vid	ADP	PP	_	3	case	_	_
+2	Kvarnvikens	Kvarnviken	PROPN	PM|GEN	Case=Gen	3	nmod	_	_
+3	båtsällskap	båtsällskap	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	4	nmod	_	_
+
+47479
+2	vid	vid	ADP	PP	_	3	case	_	_
+3	S:t	S:t	ADJ	JJ|AN	_	1	nmod	_	_
+4	Eriksgatan	Eriksgatan	PROPN	PM|NOM	Case=Nom	3	name	_	_
+5	och	och	CONJ	KN	_	3	cc	_	_
+6	Fridhemsplan	Fridhemsplan	PROPN	PM|NOM	Case=Nom	3	conj	_	_
+---
+2	vid	vid	ADP	PP	_	4	case	_	_
+3	S:t	S:t	ADJ	JJ|AN	_	4	amod	_	_
+4	Eriksgatan	Eriksgatan	PROPN	PM|NOM	Case=Nom	1	nmod	_	_
+5	och	och	CONJ	KN	_	4	cc	_	_
+6	Fridhemsplan	Fridhemsplan	PROPN	PM|NOM	Case=Nom	4	conj	_	_
+
+47506
+9	på	på	ADP	PP	_	10	case	_	_
+10	Norra	Norra	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	8	advmod	_	_
+11	Stationsgatan	Stationsgatan	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	10	name	_	_
+12	,	,	PUNCT	MID	_	10	punct	_	_
+13	en	man	PRON	PN|UTR|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Com|Number=Sing	10	appos	_	_
+---
+9	på	på	ADP	PP	_	11	case	_	_
+10	Norra	Norra	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	11	amod	_	_
+11	Stationsgatan	Stationsgatan	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	8	nmod	_	_
+12	,	,	PUNCT	MID	_	11	punct	_	_
+13	en	man	PRON	PN|UTR|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Com|Number=Sing	11	appos	_	_
+
+48158
+8	över	över	ADP	PP	_	10	case	_	_
+9	ämnet	ämne	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	10	det	_	_
+10	New	New	ADJ	UO	_	3	advmod	_	_
+11	thinking	thinking	NOUN	UO	_	10	name	_	_
+12	in	in	ADP	UO	_	10	name	_	_
+13	school	school	NOUN	UO	_	10	name	_	_
+14	mathematics	mathematics	NOUN	UO	_	10	name	_	_
+15	-	-	PUNCT	MID	_	10	punct	_	_
+16	nytt	ny	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	tänkande	tänkande	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	10	appos	_	_
+18	inom	inom	ADP	PP	_	19	case	_	_
+19	skolmatematiken	skolmatematik	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	17	nmod	_	_
+20	-	-	PUNCT	MID	_	10	punct	_	_
+---
+8	över	över	ADP	PP	_	10	case	_	_
+9	ämnet	ämne	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	10	det	_	_
+10	New	New	ADJ	UO	_	11	amod	_	_
+11	thinking	thinking	NOUN	UO	_	3	nmod	_	_
+12	in	in	ADP	UO	_	14	case	_	_
+13	school	school	NOUN	UO	_	14	compound	_	_
+14	mathematics	mathematics	NOUN	UO	_	11	nmod	_	_
+15	-	-	PUNCT	MID	_	11	punct	_	_
+16	nytt	ny	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	tänkande	tänkande	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	11	appos	_	_
+18	inom	inom	ADP	PP	_	19	case	_	_
+19	skolmatematiken	skolmatematik	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	17	nmod	_	_
+20	-	-	PUNCT	MID	_	11	punct	_	_
+
+48205
+16	i	i	ADP	PP	_	17	case	_	_
+17	Nordiska	nordisk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	15	advmod	_	_
+18	kommitten	kommitte	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	17	name	_	_
+19	för	för	ADP	PP	_	17	name	_	_
+20	modernisering	modernisering	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	17	name	_	_
+21	av	av	ADP	PP	_	17	name	_	_
+22	matematikundervisningen	matematikundervisning	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	17	name	_	_
+23	med	med	ADP	PP	_	17	case	_	_
+24	bland	bland	ADP	PP	_	17	advmod	_	_
+25	andra	två	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur	24	mwe	_	_
+26	lektor	lektor	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	27	det	_	_
+27	Hemer	Hemer	PROPN	PM|NOM	Case=Nom	17	dobj	_	_
+28	som	som	CONJ	KN	_	29	mark	_	_
+29	ledamot	ledamot	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	17	xcomp	_	_
+---
+16	i	i	ADP	PP	_	18	case	_	_
+17	Nordiska	nordisk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	18	amod	_	_
+18	kommitten	kommitte	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	15	nmod	_	_
+19	för	för	ADP	PP	_	20	case	_	_
+20	modernisering	modernisering	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	18	nmod	_	_
+21	av	av	ADP	PP	_	22	case	_	_
+22	matematikundervisningen	matematikundervisning	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	20	nmod	_	_
+23	med	med	ADP	PP	_	18	case	_	_
+24	bland	bland	ADP	PP	_	18	advmod	_	_
+25	andra	två	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur	24	mwe	_	_
+26	lektor	lektor	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	27	det	_	_
+27	Hemer	Hemer	PROPN	PM|NOM	Case=Nom	18	dobj	_	_
+28	som	som	CONJ	KN	_	29	mark	_	_
+29	ledamot	ledamot	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	18	xcomp	_	_
+
+50328
+7	vid	vid	ADP	PP	_	8	case	_	_
+8	Statens	stat	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	5	nmod	_	_
+9	veterinärmedicinska	veterinärmedicinsk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	8	name	_	_
+10	anstalt	anstalt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	name	_	_
+---
+7	vid	vid	ADP	PP	_	10	case	_	_
+8	Statens	stat	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	10	nmod:poss	_	_
+9	veterinärmedicinska	veterinärmedicinsk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	10	amod	_	_
+10	anstalt	anstalt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	nmod	_	_
+
+56218
+34	av	av	ADP	PP	_	35	case	_	_
+35	Stilla	stilla	ADJ	JJ|POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	33	nmod	_	_
+36	oceanen	ocean	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	35	name	_	_
+---
+34	av	av	ADP	PP	_	36	case	_	_
+35	Stilla	stilla	ADJ	JJ|POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	36	amod	_	_
+36	oceanen	ocean	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	33	nmod	_	_
+
+56230
+46	i	i	ADP	PP	_	47	case	_	_
+47	Indiska	Indiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	41	conj	_	_
+48	oceanen	ocean	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	47	name	_	_
+---
+46	i	i	ADP	PP	_	48	case	_	_
+47	Indiska	Indiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	42	amod	_	_
+48	oceanen	ocean	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	41	conj	_	_
+
+56404
+23	Food	Food	NOUN	UO	_	21	appos	_	_
+24	and	and	CONJ	UO	_	23	name	_	_
+25	Agriculture	Agriculture	NOUN	UO	_	23	name	_	_
+26	Organization	Organization	NOUN	UO	_	23	name	_	_
+27	of	of	ADP	UO	_	23	name	_	_
+28	the	the	DET	UO	_	23	name	_	_
+29	United	United	ADJ	UO	_	23	name	_	_
+30	Nations	nation	NOUN	UO	_	23	name	_	_
+---
+23	Food	Food	NOUN	UO	_	26	compound	_	_
+24	and	and	CONJ	UO	_	23	cc	_
+25	Agriculture	Agriculture	NOUN	UO	_	23	conj
+26	Organization	Organization	NOUN	UO	_	21	appos	_	_
+27	of	of	ADP	UO	_	30	case	_	_
+28	the	the	DET	UO	_	30	det	_	_
+29	United	United	ADJ	UO	_	30	amod	_	_
+30	Nations	nation	NOUN	UO	_	26	nmod	_	_
 
