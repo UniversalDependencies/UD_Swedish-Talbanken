@@ -827,7 +827,7 @@
 7	Försäkringsbolaget	försäkringsbolag	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	8	nmod	_	_
 8	Trygg	trygg	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	3	nmod	_	_
 
-73351:75239
+73351
 17	på	på	ADP	PP	_	18	case	_	_
 18	Nya	ny	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	15	conj	_	_
 19	Zeeland	Zeeland	PROPN	PM|NOM	Case=Nom	18	name	_	_
