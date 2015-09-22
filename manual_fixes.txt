@@ -6,7 +6,7 @@
 18	förbund	förbund	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	15	name	_	_
 ---
 14	i	i	ADP	PP	_	18	case	_	_
-15	Hotell-	hotell	NOUN	NN|NEU|-|-|SMS	Gender=Neut	18	nmod	_	_
+15	Hotell-	hotell	NOUN	NN|NEU|-|-|SMS	Gender=Neut	18	nmod:poss	_	_
 16	och	och	CONJ	KN	_	15	cc	_	_
 17	Restauranganställdas	restauranganställd	NOUN	NN|UTR|PLU|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Plur	15	conj	_	_
 18	förbund	förbund	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	13	nmod	_	_
@@ -56,26 +56,26 @@
 33	Sociala	social	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	29	nmod	_	_
 34	huset	hus	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	33	name	_	_
 35	,	,	PUNCT	MID	_	33	punct	_	_
-36	ingång	ingång	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	37	det	_	_
+36	ingång	ingång	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	37	nmod	_	_
 37	J	J	PROPN	PM|NOM	Case=Nom	33	nmod	_	_
 ---
 33	Sociala	social	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	34	amod	_	_
 34	huset	hus	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	29	nmod	_	_
 35	,	,	PUNCT	MID	_	34	punct	_	_
-36	ingång	ingång	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	37	det	_	_
+36	ingång	ingång	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	37	nmod	_	_
 37	J	J	PROPN	PM|NOM	Case=Nom	34	nmod	_	_
 
 6324
 34	Sociala	social	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	32	advmod	_	_
 35	huset	hus	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	34	name	_	_
 36	,	,	PUNCT	MID	_	34	punct	_	_
-37	ingång	ingång	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	38	det	_	_
+37	ingång	ingång	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	38	nmod	_	_
 38	J	J	PROPN	PM|NOM	Case=Nom	34	nmod	_	_
 ---
 34	Sociala	social	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	35	amod	_	_
 35	huset	hus	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	32	nmod	_	_
 36	,	,	PUNCT	MID	_	35	punct	_	_
-37	ingång	ingång	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	38	det	_	_
+37	ingång	ingång	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	38	nmod	_	_
 38	J	J	PROPN	PM|NOM	Case=Nom	35	nmod	_	_
 
 14189
@@ -176,8 +176,8 @@
 11	Norra	Norra	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	9	conj	_	_
 12	Botkyrka	Botkyrka	PROPN	PM|NOM	Case=Nom	11	name	_	_
 ---
-11	Norra	Norra	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	9	amod	_	_
-12	Botkyrka	Botkyrka	PROPN	PM|NOM	Case=Nom	11	conj	_	_
+11	Norra	Norra	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	12	amod	_	_
+12	Botkyrka	Botkyrka	PROPN	PM|NOM	Case=Nom	9	conj	_	_
 
 21696
 9	Boiling	boiling	PROPN	PM|NOM	Case=Nom	7	conj	_	_
@@ -226,13 +226,6 @@
 5	Kungl.	Kungl.	ADJ	JJ|AN	_	6	amod	_	_
 6	Maj:t	Maj:t	NOUN	NN|AN	_	3	nmod	_	_
 
-22399
-6	af	af	PROPN	PM|NOM	Case=Nom	8	det	_	_
-7	Ugglas	Ugglas	PROPN	PM|GEN	Case=Gen	6	name	_	_
----
-6	af	af	PROPN	PM|NOM	Case=Nom	8	nmod:poss	_	_
-7	Ugglas	Ugglas	PROPN	PM|GEN	Case=Gen	6	name	_	_
-
 22502
 6	Press	press	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	nmod	_	_
 7	och	och	CONJ	KN	_	6	name	_	_
@@ -251,7 +244,7 @@
 ---
 23	kol-	kola	NOUN	NN|NEU|-|-|SMS	Gender=Neut	22	dobj	_	_
 24	och	och	CONJ	KN	_	23	cc	_	_
-25	stålunionen	stålunion	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	22	conj	_	_
+25	stålunionen	stålunion	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	23	conj	_	_
 
 25932
 9	i	i	ADP	PP	_	10	case	_	_
@@ -287,14 +280,14 @@
 3	European	European	ADJ	UO	_	5	amod	_	_
 4	Economic	Economic	ADJ	UO	_	5	amod	_	_
 5	Community	Community	NOUN	UO	_	1	appos	_	_
-6	(	(	PUNCT	PAD	_	1	punct	_	_
+6	(	(	PUNCT	PAD	_	5	punct	_	_
 7	Den	en	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing	9	det	_	_
 8	gemensamma	gemensam	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	9	amod	_	_
 9	marknaden	marknad	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	5	appos	_	_
 10	.	.	PUNCT	MAD	_	9	punct	_	_
 11	De	en	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur	9	conj	_	_
 12	sex	sex	NUM	RG|NOM	Case=Nom	11	nummod	_	_
-13	)	)	PUNCT	PAD	_	1	punct	_	_
+13	)	)	PUNCT	PAD	_	5	punct	_	_
 14	.	.	PUNCT	MAD	_	1	punct	_	_
 
 26536
@@ -316,11 +309,11 @@
 4	Free	Free	ADJ	JJ	_	5	compound	_	_
 5	Trade	Trade	NOUN	NN	_	6	compound	_	_
 6	Association	Association	NOUN	NN	_	1	appos	_	_
-7	(	(	PUNCT	PAD	_	1	punct	_	_
+7	(	(	PUNCT	PAD	_	6	punct	_	_
 8	Den	en	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing	10	det	_	_
 9	europeiska	europeisk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	10	amod	_	_
 10	frihandelssammanslutningen	frihandelssammanslutning	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	6	appos	_	_
-11	)	)	PUNCT	PAD	_	1	punct	_	_
+11	)	)	PUNCT	PAD	_	6	punct	_	_
 
 26548
 1	Nato	Nato	PROPN	PM|NOM	Case=Nom	3	nsubj	_	_
@@ -340,9 +333,9 @@
 4	Atlantic	Atlantic	PROPN	PM|NOM	Case=Nom	5	compound	_	_
 5	Treaty	Treaty	NOUN	NN	_	6	compound	_	_
 6	Organization	Organization	NOUN	NN	_	1	appos	_	_
-7	(	(	PUNCT	PAD	_	1	punct	_	_
+7	(	(	PUNCT	PAD	_	6	punct	_	_
 8	Atlantpakten	Atlantpakten	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	6	appos	_	_
-9	)	)	PUNCT	PAD	_	1	punct	_	_
+9	)	)	PUNCT	PAD	_	6	punct	_	_
 10	.	.	PUNCT	MAD	_	1	punct	_	_
 
 26881
@@ -519,7 +512,7 @@
 30	folkbokförings-	folkbokföring	NOUN	NN|UTR|-|-|SMS	Gender=Com	26	nmod	_	_
 31	och	och	CONJ	KN	_	30	cc	_	_
 32	uppbördsnämnden	uppbördsnämnd	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	30	conj	_	_
-33	,	,	PUNCT	MID	_	29	punct	_	_
+33	,	,	PUNCT	MID	_	30	punct	_	_
 34	CFU	CFU	PROPN	PM|NOM	Case=Nom	30	appos	_	_
 
 35134
@@ -613,13 +606,13 @@
 17	centralförbund	centralförbund	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	12	nmod	_	_
 
 41572
-12	utställningslokalen	utställningslokal	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	14	det	_	_
+12	utställningslokalen	utställningslokal	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	14	nmod	_	_
 13	'	'	PUNCT	PAD	_	14	punct	_	_
 14	Den	en	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing	17	nsubj	_	_
 15	permanente	permanent	ADJ	JJ|SUV|UTR/NEU|SIN/PLU|DEF|NOM	Case=Nom|Definite=Def|Degree=Sup	14	name	_	_
 16	'	'	PUNCT	PAD	_	14	punct	_	_
 ---
-12	utställningslokalen	utställningslokal	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	15	det	_	_
+12	utställningslokalen	utställningslokal	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	15	nmod	_	_
 13	'	'	PUNCT	PAD	_	15	punct	_	_
 14	Den	en	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing	15	det	_	_
 15	permanente	permanent	ADJ	JJ|SUV|UTR/NEU|SIN/PLU|DEF|NOM	Case=Nom|Definite=Def|Degree=Sup	17	nsubj	_	_
@@ -699,7 +692,7 @@
 
 48158
 8	över	över	ADP	PP	_	10	case	_	_
-9	ämnet	ämne	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	10	det	_	_
+9	ämnet	ämne	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	10	nmod	_	_
 10	New	New	ADJ	UO	_	3	advmod	_	_
 11	thinking	thinking	NOUN	UO	_	10	name	_	_
 12	in	in	ADP	UO	_	10	name	_	_
@@ -713,7 +706,7 @@
 20	-	-	PUNCT	MID	_	10	punct	_	_
 ---
 8	över	över	ADP	PP	_	10	case	_	_
-9	ämnet	ämne	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	10	det	_	_
+9	ämnet	ämne	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	10	nmod	_	_
 10	New	New	ADJ	UO	_	11	amod	_	_
 11	thinking	thinking	NOUN	UO	_	3	nmod	_	_
 12	in	in	ADP	UO	_	14	case	_	_
@@ -737,7 +730,7 @@
 23	med	med	ADP	PP	_	17	case	_	_
 24	bland	bland	ADP	PP	_	17	advmod	_	_
 25	andra	två	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur	24	mwe	_	_
-26	lektor	lektor	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	27	det	_	_
+26	lektor	lektor	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	27	nmod	_	_
 27	Hemer	Hemer	PROPN	PM|NOM	Case=Nom	17	dobj	_	_
 28	som	som	CONJ	KN	_	29	mark	_	_
 29	ledamot	ledamot	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	17	xcomp	_	_
@@ -752,7 +745,7 @@
 23	med	med	ADP	PP	_	18	case	_	_
 24	bland	bland	ADP	PP	_	18	advmod	_	_
 25	andra	två	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur	24	mwe	_	_
-26	lektor	lektor	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	27	det	_	_
+26	lektor	lektor	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	27	nmod	_	_
 27	Hemer	Hemer	PROPN	PM|NOM	Case=Nom	18	dobj	_	_
 28	som	som	CONJ	KN	_	29	mark	_	_
 29	ledamot	ledamot	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	18	xcomp	_	_
@@ -783,7 +776,7 @@
 48	oceanen	ocean	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	47	name	_	_
 ---
 46	i	i	ADP	PP	_	48	case	_	_
-47	Indiska	Indiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	42	amod	_	_
+47	Indiska	Indiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	48	amod	_	_
 48	oceanen	ocean	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	41	conj	_	_
 
 56404
