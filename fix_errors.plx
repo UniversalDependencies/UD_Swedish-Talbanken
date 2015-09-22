@@ -15,13 +15,19 @@ use Getopt::Long;
 # where 4112 indicates the line number of the first line in the conll file ignoring comment lines (indexed from 1), 
 # followed consecutive lines as they currently stand, followed by the corrected lines. Blank lines separate corrections. 
 #
-# Example call: ./fix_errors.plx --fix_file manual_fixes.txt --conll_file sv-ud.conll
+# Example call: ./fix_errors.plx --fix_file manual_fixes.txt --infile sv-ud.conllu --outfile sv-ud.fix.conllu
 
-my $fix_file = ""; 
-my $conll_file = ""; 
-GetOptions ('fix_file=s' => \$fix_file, 'conll_file=s' => \$conll_file);
+# set default names for the input/output files
+my $fix_file = "manual_fixes.txt";
+my $infile = "sv-ud.conllu"; 
+my $outfile = "";
 
-die "ERROR: conll file must have ending .conll or .conllu" unless($conll_file =~ /\.conllu?$/);
+# read in user names for input/output files
+GetOptions ('fix_file=s' => \$fix_file, 'infile=s' => \$infile, 'outfile=s' => \$outfile);
+die "ERROR: conll file must have ending .conll or .conllu" unless($infile =~ /\.conllu?$/);
+
+($outfile = $infile) =~ s/(.*)\.(conllu?)/$1.fix.$2/ if($outfile eq ""); # set output file name if not specified by user
+die "ERROR: couldn't open $outfile for writing" unless open(OUTFILE, ">$outfile");
 
 #################################################################
 
@@ -79,9 +85,9 @@ die if(scalar(@orig_lines) != scalar(@line_nos));
 ##############################################################
 
 # read conll file
-die "ERROR: couldn't open $conll_file for reading" unless open(CONLL_FILE, $conll_file);
+die "ERROR: couldn't open $infile for reading" unless open(INFILE, $infile);
 
-my @conll_lines = <CONLL_FILE>;
+my @conll_lines = <INFILE>;
 chomp(@conll_lines);
 
 # create mapping between line numbers without comments and original index numbers
@@ -108,9 +114,7 @@ for(my $i=0;$i<=$#line_nos;$i++){
 
 ################################################################
 
-# open output file and print result
-(my $outfile = $conll_file) =~ s/(.*)\.(conllu?)/$1.fix.$2/; # set output file name
-die "ERROR: couldn't open $outfile for writing" unless open(OUTFILE, ">$outfile");
+# print result
 print STDERR "Printing output to $outfile\n";
 foreach (@conll_lines){
     print OUTFILE "$_\n";
