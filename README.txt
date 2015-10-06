@@ -110,5 +110,5 @@ REFERENCES
 
 Documentation status: complete
 Data source: unknown
-Data available since: UD v1.2
+Data available since: UD v1.0
 License: CC BY-SA 4.0
