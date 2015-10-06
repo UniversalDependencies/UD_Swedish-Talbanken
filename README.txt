@@ -106,3 +106,9 @@ REFERENCES
   Department of Linguistics.
 
 
+
+
+Documentation status: complete
+Data source: unknown
+Data available since: UD v1.2
+License: CC BY-SA 4.0
