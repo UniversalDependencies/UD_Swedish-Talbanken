@@ -5,21 +5,29 @@ use Getopt::Long;
 # Perl script to read in manual fixes from file and apply them to a conll file.
 # Fix file must have the following format:
 #
-# 29952
-# 2   Paulo   Paulo   PROPN   PM|NOM  Case=Nom    1   mwe _   _   
-# 2   Paulo   Paulo   PROPN   PM|NOM  Case=Nom    1   name    _   _
+# 4112
+# 34  Västra  Västra  ADJ JJ|POS|UTR/NEU|SIN|DEF|NOM  Case=Nom|Definite=Def|Degree=Pos|Number=Sing    29  conj    _   _   
+# 35  Frölunda    Frölunda    PROPN   PM|NOM  Case=Nom    34  name    _   _   
+# ---
+# 34  Västra  Västra  ADJ JJ|POS|UTR/NEU|SIN|DEF|NOM  Case=Nom|Definite=Def|Degree=Pos|Number=Sing    35  amod    _   _   
+# 35  Frölunda    Frölunda    PROPN   PM|NOM  Case=Nom    29  conj    _   _ 
 #
-# where 29952 indicates the line number in the conll file ignoring comment lines (indexed from 1), 
-# followed by the line as it currently stands, followed by the corrected line. A blank line 
-# separates corrections. 
+# where 4112 indicates the line number of the first line in the conll file ignoring comment lines (indexed from 1), 
+# followed consecutive lines as they currently stand, followed by the corrected lines. Blank lines separate corrections. 
 #
-# Example call: ./fix_errors.plx --fix_file manual_fixes.txt --conll_file sv-ud.conll
+# Example call: ./fix_errors.plx --fix_file manual_fixes.txt --infile sv-ud.conllu --outfile sv-ud.fix.conllu
 
-my $fix_file = ""; 
-my $conll_file = ""; 
-GetOptions ('fix_file=s' => \$fix_file, 'conll_file=s' => \$conll_file);
+# set default names for the input/output files
+my $fix_file = "manual_fixes.txt";
+my $infile = "sv-ud.conllu"; 
+my $outfile = "";
 
-die "ERROR: conll file must have ending .conll or .conllu" unless($conll_file =~ /\.conllu?$/);
+# read in user names for input/output files
+GetOptions ('fix_file=s' => \$fix_file, 'infile=s' => \$infile, 'outfile=s' => \$outfile);
+die "ERROR: conll file must have ending .conll or .conllu" unless($infile =~ /\.conllu?$/);
+
+($outfile = $infile) =~ s/(.*)\.(conllu?)/$1.fix.$2/ if($outfile eq ""); # set output file name if not specified by user
+die "ERROR: couldn't open $outfile for writing" unless open(OUTFILE, ">$outfile");
 
 #################################################################
 
@@ -30,28 +38,56 @@ my @new_lines;
 
 my $fix_index = 0;
 die "Could not open $fix_file" unless open(FIXES, $fix_file);
-while(my $fix_line = <FIXES>){
-    chomp($fix_line);
-    $fix_line =~ s/^ +//; # remove any space accidentally added at beginning of line
-    $fix_line =~ s/ +$//; # remove any space accidentally added at end of line
-    if($fix_index%4 == 0){
-        push(@line_nos,$fix_line);
+my @fix_lines = <FIXES>;
+chomp(@fix_lines);
+
+for(my $index = 0; $index<scalar(@fix_lines); $index++){
+    while($fix_lines[$index] !~ /^[0-9]+$/){
+        $index++;
+        last if($index == scalar(@fix_lines));
     }
-    elsif($fix_index%4 == 1){
-        push(@orig_lines,$fix_line);
+    last if($index == scalar(@fix_lines));
+    my $line_no = $fix_lines[$index]-1;
+    $index++;
+    while($fix_lines[$index] !~ /^---/){
+        $line_no++;
+        push(@line_nos,$line_no);
+        push(@orig_lines,$fix_lines[$index]);
+        $index++;
     }
-    elsif($fix_index%4 == 2){
-        push(@new_lines,$fix_line);
+    $index++;
+    while($fix_lines[$index] !~ /^$/){
+        push(@new_lines,$fix_lines[$index]);
+        $index++;
     }
-    $fix_index++;
 }
+
+die if(scalar(@orig_lines) != scalar(@new_lines));
+die if(scalar(@orig_lines) != scalar(@line_nos));
+
+# this was an older method based on a different format for the manual_changes.txt file
+#while(my $fix_line = <FIXES>){
+#    chomp($fix_line);
+#    $fix_line =~ s/^ +//; # remove any space accidentally added at beginning of line
+#    $fix_line =~ s/ +$//; # remove any space accidentally added at end of line
+#    if($fix_index%4 == 0){
+#        push(@line_nos,$fix_line);
+#    }
+#    elsif($fix_index%4 == 1){
+#        push(@orig_lines,$fix_line);
+#    }
+#    elsif($fix_index%4 == 2){
+#        push(@new_lines,$fix_line);
+#    }
+#    $fix_index++;
+#}
 
 ##############################################################
 
 # read conll file
-die "ERROR: couldn't open $conll_file for reading" unless open(CONLL_FILE, $conll_file);
+die "ERROR: couldn't open $infile for reading" unless open(INFILE, $infile);
 
-my @conll_lines = <CONLL_FILE>;
+my @conll_lines = <INFILE>;
 chomp(@conll_lines);
 
 # create mapping between line numbers without comments and original index numbers
@@ -78,9 +114,7 @@ for(my $i=0;$i<=$#line_nos;$i++){
 
 ################################################################
 
-# open output file and print result
-(my $outfile = $conll_file) =~ s/(.*)\.(conllu?)/$1.fix.$2/; # set output file name
-die "ERROR: couldn't open $outfile for writing" unless open(OUTFILE, ">$outfile");
+# print result
 print STDERR "Printing output to $outfile\n";
 foreach (@conll_lines){
     print OUTFILE "$_\n";
