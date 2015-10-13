@@ -109,6 +109,6 @@ REFERENCES
 
 
 Documentation status: complete
-Data source: unknown
+Data source: automatic conversion + manual check
 Data available since: UD v1.0
 License: CC BY-SA 4.0
