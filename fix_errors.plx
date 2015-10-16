@@ -23,7 +23,7 @@ my $infile = "sv-ud.conllu";
 my $outfile = "";
 
 # read in user names for input/output files
-GetOptions ('fix_file=s' => \$fix_file, 'infile=s' => \$infile, 'outfile=s' => \$outfile);
+GetOptions ('fix-file=s' => \$fix_file, 'in-file=s' => \$infile, 'out-file=s' => \$outfile);
 die "ERROR: conll file must have ending .conll or .conllu" unless($infile =~ /\.conllu?$/);
 
 ($outfile = $infile) =~ s/(.*)\.(conllu?)/$1.fix.$2/ if($outfile eq ""); # set output file name if not specified by user
