@@ -1019,3 +1019,37 @@
 5	i	i	ADP	PP	_	2	advmod	_	_
 6	allmänhet	allmänhet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	mwe	_	_
 
+55331
+3	till	till	ADP	PP	_	2	compound:prt	_	_
+4	användning	användning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	mwe	_	_
+---
+3	till	till	ADP	PP	_	4	case	_	_
+4	användning	användning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	nmod	_	_
+
+16020
+4	mer	mycket	ADV	AB|KOM	Degree=Cmp	7	advmod	_	_
+5	eller	eller	CONJ	KN	_	4	cc	_	_
+6	mindre	lite	ADV	AB|KOM	Degree=Cmp	4	conj	_	_
+---
+4	mer	mycket	ADV	AB|KOM	Degree=Cmp	7	advmod	_	_
+5	eller	eller	CONJ	KN	_	4	mwe	_	_
+6	mindre	lite	ADV	AB|KOM	Degree=Cmp	4	mwe	_	_
+
+19332
+7	mer	mycket	ADV	AB|KOM	Degree=Cmp	10	advmod	_	_
+8	eller	eller	CONJ	KN	_	7	cc	_	_
+9	mindre	lite	ADV	AB|KOM	Degree=Cmp	7	conj	_	_
+---
+7	mer	mycket	ADV	AB|KOM	Degree=Cmp	10	advmod	_	_
+8	eller	eller	CONJ	KN	_	7	mwe	_	_
+9	mindre	lite	ADV	AB|KOM	Degree=Cmp	7	mwe	_	_
+
+72801
+17	mer	mycket	ADV	AB|KOM	Degree=Cmp	20	advmod	_	_
+18	eller	eller	CONJ	KN	_	17	cc	_	_
+19	mindre	lite	ADV	AB|KOM	Degree=Cmp	17	conj	_	_
+---
+17	mer	mycket	ADV	AB|KOM	Degree=Cmp	20	advmod	_	_
+18	eller	eller	CONJ	KN	_	17	mwe	_	_
+19	mindre	lite	ADV	AB|KOM	Degree=Cmp	17	mwe	_	_
+
