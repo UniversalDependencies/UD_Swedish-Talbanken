@@ -1053,3 +1053,40 @@
 18	eller	eller	CONJ	KN	_	17	mwe	_	_
 19	mindre	lite	ADV	AB|KOM	Degree=Cmp	17	mwe	_	_
 
+9591
+4	i	i	ADP	PP	_	5	case	_	_
+5	dag	dag	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	nmod	_	_
+---
+4	i	i	ADP	PP	_	7	advmod	_	_
+5	dag	dag	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	mwe	_	_
+
+18160
+16	i	i	ADP	PP	_	17	case	_	_
+17	år	år	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	15	nmod	_	_
+---
+16	i	i	ADP	PP	_	15	advmod	_	_
+17	år	år	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	16	mwe	_	_
+
+22232
+7	i	i	ADP	PP	_	8	case	_	_
+8	år	år	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	6	nmod	_	_
+---
+7	i	i	ADP	PP	_	2	advmod	_	_
+8	år	år	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	7	mwe	_	_
+
+22252
+8	i	i	ADP	PP	_	9	case	_	_
+9	år	år	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	7	nmod	_	_
+---
+8	i	i	ADP	PP	_	2	advmod	_	_
+9	år	år	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	8	mwe	_	_
+
+28269
+6	också	också	ADV	AB	_	8	advmod	_	_
+7	i	i	ADP	PP	_	8	case	_	_
+8	år	år	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	nmod	_	_
+---
+6	också	också	ADV	AB	_	3	advmod	_	_
+7	i	i	ADP	PP	_	3	advmod	_	_
+8	år	år	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	7	mwe	_	_
+
