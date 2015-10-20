@@ -1166,3 +1166,113 @@
 3	222	222	NUM	RG|NOM	Case=Nom	4	nummod	_	_
 4	Stockholmspojkar	Stockholmspojke	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	1	nmod	_	_
 
+5387
+13	Förteckning	förteckning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	nmod	_	_
+14	över	över	ADP	PP	_	13	mwe	_	_
+15	postanstalter	postanstalt	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	13	mwe	_	_
+16	i	i	ADP	PP	_	13	mwe	_	_
+17	Sverige	Sverige	PROPN	PM|NOM	Case=Nom	13	mwe	_	_
+---
+13	Förteckning	förteckning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	nmod	_	_
+14	över	över	ADP	PP	_	15	case	_	_
+15	postanstalter	postanstalt	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	13	nmod	_	_
+16	i	i	ADP	PP	_	17	case	_	_
+17	Sverige	Sverige	PROPN	PM|NOM	Case=Nom	15	nmod	_	_
+
+5679
+13	Förteckning	förteckning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	nmod	_	_
+14	över	över	ADP	PP	_	13	mwe	_	_
+15	postanstalter	postanstalt	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	13	mwe	_	_
+16	i	i	ADP	PP	_	13	mwe	_	_
+17	Sverige	Sverige	PROPN	PM|NOM	Case=Nom	13	mwe	_	_
+---
+13	Förteckning	förteckning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	nmod	_	_
+14	över	över	ADP	PP	_	15	case	_	_
+15	postanstalter	postanstalt	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	13	nmod	_	_
+16	i	i	ADP	PP	_	17	case	_	_
+17	Sverige	Sverige	PROPN	PM|NOM	Case=Nom	15	nmod	_	_
+
+88770
+7	Kibbutzchildren	Kibbutzchildren	PROPN	PM|NOM	Case=Nom	3	nmod	_	_
+8	-	-	PUNCT	MID	_	7	mwe	_	_
+9	Researchfindings	Researchfindings	PROPN	PM|NOM	Case=Nom	7	mwe	_	_
+10	to	to	PROPN	PM|NOM	Case=Nom	7	mwe	_	_
+11	Date	Date	PROPN	PM|NOM	Case=Nom	7	mwe	_	_
+12	.	.	PUNCT	MAD	_	7	punct	_	_
+---
+7	Kibbutzchildren	Kibbutzchildren	NOUN	NN	_	3	appos	_	_
+8	-	-	PUNCT	MID	_	7	punct	_	_
+9	Researchfindings	Researchfindings	NOUN	NN	_	7	appos	_	_
+10	to	to	ADP	PP	_	9	advmod	_	_
+11	Date	Date	NOUN	NN	_	10	mwe	_	_
+12	.	.	PUNCT	MAD	_	7	punct	_	_
+
+88653
+2	i	i	ADP	PP	_	3	case	_	_
+3	American	American	PROPN	PM|NOM	Case=Nom	1	nmod	_	_
+4	Journal	Journal	PROPN	PM|NOM	Case=Nom	3	mwe	_	_
+5	of	of	PROPN	PM|NOM	Case=Nom	3	mwe	_	_
+6	Orthopsychiatry	Orthopsychiatry	PROPN	PM|NOM	Case=Nom	3	mwe	_	_
+7	,	,	PUNCT	MID	_	3	punct	_	_
+8	1958	1958	NUM	RG|NOM	Case=Nom	3	nmod	_	_
+---
+2	i	i	ADP	PP	_	4	case	_	_
+3	American	American	ADJ	JJ	_	4	amod	_	_
+4	Journal	Journal	NOUN	NN	_	1	nmod	_	_
+5	of	of	ADP	PP	_	6	case	_	_
+6	Orthopsychiatry	Orthopsychiatry	NOUN	NN	_	4	nmod	_	_
+7	,	,	PUNCT	MID	_	4	punct	_	_
+8	1958	1958	NUM	RG|NOM	Case=Nom	4	nmod	_	_
+
+70462
+1	(	(	PUNCT	PAD	_	2	punct	_	_
+2	1000	1000	NUM	RG|NOM	Case=Nom	0	root	_	_
+3	husmödrar	husmor	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	mwe	_	_
+4	om	om	ADP	PP	_	2	mwe	_	_
+5	hemarbetet	hemarbete	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	mwe	_	_
+6	,	,	PUNCT	MID	_	2	punct	_	_
+7	Konsumentinstitutet	Konsumentinstitutet	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	nmod	_	_
+8	meddelar	meddela	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	mwe	_	_
+9	,	,	PUNCT	MID	_	7	punct	_	_
+10	1961:9	1961:9	NUM	RG|NOM	Case=Nom	7	nmod	_	_
+11	.	.	PUNCT	MAD	_	2	punct	_	_
+12	)	)	PUNCT	PAD	_	2	punct	_	_
+---
+1	(	(	PUNCT	PAD	_	3	punct	_	_
+2	1000	1000	NUM	RG|NOM	Case=Nom	3	nummud	_	_
+3	husmödrar	husmor	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	0	root	_	_
+4	om	om	ADP	PP	_	5	case	_	_
+5	hemarbetet	hemarbete	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	nmod	_	_
+6	,	,	PUNCT	MID	_	3	punct	_	_
+7	Konsumentinstitutet	Konsumentinstitutet	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	8	nsubj	_	_
+8	meddelar	meddela	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	appos	_	_
+9	,	,	PUNCT	MID	_	8	punct	_	_
+10	1961:9	1961:9	NUM	RG|NOM	Case=Nom	8	nmod	_	_
+11	.	.	PUNCT	MAD	_	3	punct	_	_
+12	)	)	PUNCT	PAD	_	3	punct	_	_
+
+68336
+3	Socialpolitiken	socialpolitik	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	11	nsubj	_	_
+4	i	i	ADP	PP	_	3	mwe	_	_
+5	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing	3	mwe	_	_
+6	internationellt	internationell	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	mwe	_	_
+7	perspektiv	perspektiv	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	mwe	_	_
+---
+3	Socialpolitiken	socialpolitik	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	11	nsubj	_	_
+4	i	i	ADP	PP	_	7	case	_	_
+5	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing	7	det	_	_
+6	internationellt	internationell	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	perspektiv	perspektiv	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	nmod	_	_
+
+1583
+7	i	i	ADP	PP	_	8	case	_	_
+8	form	form	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	nmod	_	_
+9	av	av	ADP	PP	_	10	case	_	_
+10	trivsel-	trivsel	NOUN	NN|UTR|-|-|SMS	Gender=Com	8	nmod	_	_
+---
+7	i	i	ADP	PP	_	10	case	_	_
+8	form	form	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	mwe	_	_
+9	av	av	ADP	PP	_	7	mwe	_	_
+10	trivsel-	trivsel	NOUN	NN|UTR|-|-|SMS	Gender=Com	2	nmod	_	_
+
+
