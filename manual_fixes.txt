@@ -1200,9 +1200,9 @@
 11	Date	Date	PROPN	PM|NOM	Case=Nom	7	mwe	_	_
 12	.	.	PUNCT	MAD	_	7	punct	_	_
 ---
-7	Kibbutzchildren	Kibbutzchildren	NOUN	NN	_	3	appos	_	_
+7	Kibbutzchildren	Kibbutzchildren	NOUN	NN	_	3	parataxis	_	_
 8	-	-	PUNCT	MID	_	7	punct	_	_
-9	Researchfindings	Researchfindings	NOUN	NN	_	7	appos	_	_
+9	Researchfindings	Researchfindings	NOUN	NN	_	7	parataxis	_	_
 10	to	to	ADP	PP	_	9	advmod	_	_
 11	Date	Date	NOUN	NN	_	10	mwe	_	_
 12	.	.	PUNCT	MAD	_	7	punct	_	_
@@ -1239,7 +1239,7 @@
 12	)	)	PUNCT	PAD	_	2	punct	_	_
 ---
 1	(	(	PUNCT	PAD	_	3	punct	_	_
-2	1000	1000	NUM	RG|NOM	Case=Nom	3	nummud	_	_
+2	1000	1000	NUM	RG|NOM	Case=Nom	3	nummod	_	_
 3	husmödrar	husmor	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	0	root	_	_
 4	om	om	ADP	PP	_	5	case	_	_
 5	hemarbetet	hemarbete	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	nmod	_	_
@@ -1275,4 +1275,79 @@
 9	av	av	ADP	PP	_	7	mwe	_	_
 10	trivsel-	trivsel	NOUN	NN|UTR|-|-|SMS	Gender=Com	2	nmod	_	_
 
+92760
+8	allt	allt	ADV	AB	_	9	advmod	_	_
+9	mer	mycket	ADV	AB|KOM	Degree=Cmp	7	advmod	_	_
+---
+8	allt	allt	ADV	AB	_	7	advmod	_	_
+9	mer	mycket	ADV	AB|KOM	Degree=Cmp	8	mwe	_	_
+
+9528
+1	På	på	ADP	PP	_	3	case	_	_
+2	så	så	ADV	AB	_	3	advmod	_	_
+3	sätt	sätt	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	4	nmod	_	_
+---
+1	På	på	ADP	PP	_	4	advmod	_	_
+2	så	så	ADV	AB	_	1	mwe	_	_
+3	sätt	sätt	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	1	mwe	_	_
+
+17832
+9	i	i	ADP	PP	_	10	case	_	_
+10	förväg	förväg	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	nmod	_	_
+---
+9	i	i	ADP	PP	_	1	advmod	_	_
+10	förväg	förväg	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	mwe	_	_
+
+33043
+31	'	'	PUNCT	PAD	_	32	punct	_	_
+32	Medicinsk	medicinsk	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	37	nsubj	_	_
+33	bildtolk	bildtolk	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	32	mwe	_	_
+34	'	'	PUNCT	PAD	_	32	punct	_	_
+---
+31	'	'	PUNCT	PAD	_	33	punct	_	_
+32	Medicinsk	medicinsk	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	33	amod	_	_
+33	bildtolk	bildtolk	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	37	nsubj	_	_
+34	'	'	PUNCT	PAD	_	33	punct	_	_
+
+33123
+1	'	'	PUNCT	PAD	_	2	punct	_	_
+2	Medicinsk	medicinsk	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	5	nsubj	_	_
+3	bildtolk	bildtolk	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	mwe	_	_
+4	'	'	PUNCT	PAD	_	2	punct	_	_
+---
+1	'	'	PUNCT	PAD	_	3	punct	_	_
+2	Medicinsk	medicinsk	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	3	amod	_	_
+3	bildtolk	bildtolk	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	nsubj	_	_
+4	'	'	PUNCT	PAD	_	3	punct	_	_
+
+33169
+1	I	i	ADP	PP	_	3	case	_	_
+2	'	'	PUNCT	PAD	_	3	punct	_	_
+3	Medicinsk	medicinsk	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	6	advmod	_	_
+4	bildtolk	bildtolk	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	mwe	_	_
+5	'	'	PUNCT	PAD	_	3	punct	_	_
+---
+1	I	i	ADP	PP	_	4	case	_	_
+2	'	'	PUNCT	PAD	_	4	punct	_	_
+3	Medicinsk	medicinsk	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	4	amod	_	_
+4	bildtolk	bildtolk	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	nmod	_	_
+5	'	'	PUNCT	PAD	_	4	punct	_	_
+
+33540
+1	Medicinsk	medicinsk	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	5	nsubj	_	_
+2	bildtolk	bildtolk	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	mwe	_	_
+---
+1	Medicinsk	medicinsk	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	2	amod	_	_
+2	bildtolk	bildtolk	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	nsubj	_	_
+
+33634
+1	'	'	PUNCT	PAD	_	2	punct	_	_
+2	Medicinsk	medicinsk	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	6	nsubj	_	_
+3	bildtolk	bildtolk	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	mwe	_	_
+4	'	'	PUNCT	PAD	_	2	punct	_	_
+---
+1	'	'	PUNCT	PAD	_	3	punct	_	_
+2	Medicinsk	medicinsk	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	3	amod	_	_
+3	bildtolk	bildtolk	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	nsubj	_	_
+4	'	'	PUNCT	PAD	_	3	punct	_	_
 
