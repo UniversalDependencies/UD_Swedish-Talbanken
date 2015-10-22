@@ -790,8 +790,8 @@
 30	Nations	nation	NOUN	UO	_	23	name	_	_
 ---
 23	Food	Food	NOUN	UO	_	26	compound	_	_
-24	and	and	CONJ	UO	_	23	cc	_
-25	Agriculture	Agriculture	NOUN	UO	_	23	conj
+24	and	and	CONJ	UO	_	23	cc	_	_
+25	Agriculture	Agriculture	NOUN	UO	_	23	conj	_	_
 26	Organization	Organization	NOUN	UO	_	21	appos	_	_
 27	of	of	ADP	UO	_	30	case	_	_
 28	the	the	DET	UO	_	30	det	_	_
