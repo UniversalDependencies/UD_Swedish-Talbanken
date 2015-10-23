@@ -1351,3 +1351,93 @@
 3	bildtolk	bildtolk	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	nsubj	_	_
 4	'	'	PUNCT	PAD	_	3	punct	_	_
 
+15587
+2	med	med	ADP	PP	_	3	case	_	_
+3	VDN	VDN	PROPN	PM|NOM	Case=Nom	1	nmod	_	_
+4	Fakta	faktum	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	3	mwe	_	_
+---
+2	med	med	ADP	PP	_	4	case	_	_
+3	VDN	VDN	PROPN	PM|NOM	Case=Nom	4	nmod	_	_
+4	Fakta	faktum	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	1	nmod	_	_
+
+15728
+12	med	med	ADP	PP	_	13	case	_	_
+13	VDN	VDN	PROPN	PM|NOM	Case=Nom	11	nmod	_	_
+14	Fakta	faktum	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	13	mwe	_	_
+---
+12	med	med	ADP	PP	_	13	case	_	_
+13	VDN	VDN	PROPN	PM|NOM	Case=Nom	11	nmod	_	_
+14	Fakta	faktum	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	13	mwe	_	_
+
+7087
+25	ATP	ATP	PROPN	PM|NOM	Case=Nom	21	dobj	_	_
+26	de	en	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur	25	mwe	_	_
+27	första	en	ADJ	RO|NOM	Case=Nom	25	mwe	_	_
+28	åren	år	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	25	mwe	_	_
+---
+25	ATP	ATP	PROPN	PM|NOM	Case=Nom	21	dobj	_	_
+26	de	en	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur	28	det	_	_
+27	första	en	ADJ	RO|NOM	Case=Nom	28	det	_	_
+28	åren	år	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	25	nmod	_	_
+
+7334
+14	ATP	ATP	PROPN	PM|NOM	Case=Nom	12	dobj	_	_
+15	de	en	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur	14	mwe	_	_
+16	första	en	ADJ	RO|NOM	Case=Nom	14	mwe	_	_
+17	åren	år	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	14	mwe	_	_
+---
+14	ATP	ATP	PROPN	PM|NOM	Case=Nom	12	dobj	_	_
+15	de	en	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur	17	det	_	_
+16	första	en	ADJ	RO|NOM	Case=Nom	17	det	_	_
+17	åren	år	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	14	nmod	_	_
+
+66243
+1	Statens	stat	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	11	nsubjpass	_	_
+2	oförmåga	oförmåga	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	mwe	_	_
+3	att	att	PART	IE	_	5	mark	_	_
+4	'	'	PUNCT	PAD	_	5	punct	_	_
+5	bygga	bygga	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	1	acl	_	_
+---
+1	Statens	stat	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	2	nmod:poss	_	_
+2	oförmåga	oförmåga	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	nsubjpass	_	_
+3	att	att	PART	IE	_	5	mark	_	_
+4	'	'	PUNCT	PAD	_	5	punct	_	_
+5	bygga	bygga	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	acl	_	_
+
+95154
+9	Hemmafru	hemmafru	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	nmod	_	_
+10	i	i	ADP	PP	_	9	mwe	_	_
+11	skatteskruv	skatteskruv	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	mwe	_	_
+---
+9	Hemmafru	hemmafru	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	nmod	_	_
+10	i	i	ADP	PP	_	11	case	_	_
+11	skatteskruv	skatteskruv	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	nmod	_	_
+
+55953
+21	av	av	ADP	PP	_	22	case	_	_
+22	havsfiskets	havsfiske	NOUN	NN|NEU|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	20	nmod	_	_
+23	fångster	fångst	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	22	mwe	_	_
+---
+21	av	av	ADP	PP	_	23	case	_	_
+22	havsfiskets	havsfiske	NOUN	NN|NEU|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	23	nmod:poss	_	_
+23	fångster	fångst	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	20	nmod	_	_
+
+25361
+13	den	en	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing	3	appos	_	_
+14	organisation	organisation	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	mwe	_	_
+15	Sverige	Sverige	PROPN	PM|NOM	Case=Nom	18	nsubj	_	_
+16	alltså	alltså	ADV	AB	_	18	advmod	_	_
+17	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	18	aux	_	_
+18	komma	komma	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	13	acl:relcl	_	_
+19	in	in	ADV	PL	_	18	compound:prt	_	_
+20	i	i	ADP	PP	_	18	nmod	_	_
+---
+13	den	en	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing	14	det	_	_
+14	organisation	organisation	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	18	nmod	_	_
+15	Sverige	Sverige	PROPN	PM|NOM	Case=Nom	18	nsubj	_	_
+16	alltså	alltså	ADV	AB	_	18	advmod	_	_
+17	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	18	aux	_	_
+18	komma	komma	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	3	appos	_	_
+19	in	in	ADV	PL	_	18	compound:prt	_	_
+20	i	i	ADP	PP	_	14	case	_	_
+
