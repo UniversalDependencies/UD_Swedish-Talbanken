@@ -1535,3 +1535,76 @@
 8	tillförd	tillföra	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	9	amod	_	_
 9	energi	energi	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	conj	_	_
 
+52993
+1	I	i	ADP	PP	_	2	case	_	_
+2	små	liten	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	4	advmod	_	_
+3	doser	dos	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	mwe	_	_
+---
+1	I	i	ADP	PP	_	3	case	_	_
+2	små	liten	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	doser	dos	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	4	nmod	_	_
+
+88370
+18	moshaverna	moshav	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	14	nmod	_	_
+19	,	,	PUNCT	MID	_	18	mwe	_	_
+---
+18	moshaverna	moshav	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	14	nmod	_	_
+19	,	,	PUNCT	MID	_	18	punct	_	_
+
+59033
+1	I	i	ADP	PP	_	3	case	_	_
+2	filmen	film	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	3	nmod	_	_
+3	Min	jag	DET	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes	5	advmod	_	_
+4	lycka	lycka	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	mwe	_	_
+---
+1	I	i	ADP	PP	_	4	case	_	_
+2	filmen	film	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	nmod	_	_
+3	Min	jag	DET	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes	4	det	_	_
+4	lycka	lycka	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	nmod	_	_
+
+39983
+3	som	som	CONJ	KN	_	4	advmod	_	_
+4	Svenska	Svenska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	2	appos	_	_
+5	Handelsbanken	handelsbank	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	mwe	_	_
+6	med	med	ADP	PP	_	8	case	_	_
+7	6000	6000	NUM	RG|NOM	Case=Nom	8	nummod	_	_
+8	anställda	anställd	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	4	nmod	_	_
+---
+3	som	som	CONJ	KN	_	5	advmod	_	_
+4	Svenska	Svenska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	5	amod	_	_
+5	Handelsbanken	handelsbank	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	appos	_	_
+6	med	med	ADP	PP	_	8	case	_	_
+7	6000	6000	NUM	RG|NOM	Case=Nom	8	nummod	_	_
+8	anställda	anställd	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	5	nmod	_	_
+
+88637
+16	Infants	Infants	PROPN	PM|NOM	Case=Nom	12	nmod	_	_
+17	and	and	PROPN	PM|NOM	Case=Nom	16	mwe	_	_
+18	Children	Children	PROPN	PM|NOM	Case=Nom	16	mwe	_	_
+19	under	under	PROPN	PM|NOM	Case=Nom	16	mwe	_	_
+20	Conditions	Conditions	PROPN	PM|NOM	Case=Nom	16	mwe	_	_
+21	of	of	PROPN	PM|NOM	Case=Nom	16	mwe	_	_
+22	'	'	PUNCT	PAD	_	16	mwe	_	_
+23	Intermittent	Intermittent	PROPN	PM|NOM	Case=Nom	16	mwe	_	_
+24	'	'	PUNCT	PAD	_	16	mwe	_	_
+25	Mothering	Mothering	PROPN	PM|NOM	Case=Nom	16	mwe	_	_
+26	in	in	PROPN	PM|NOM	Case=Nom	16	mwe	_	_
+27	the	the	PROPN	PM|NOM	Case=Nom	16	mwe	_	_
+28	Kibbutz	Kibbutz	PROPN	PM|NOM	Case=Nom	16	mwe	_	_
+29	.	.	PUNCT	MAD	_	16	punct	_	_
+---
+16	Infants	Infants	NOUN	NN	_	12	nmod	_	_
+17	and	and	CONJ	KN	_	16	cc	_	_
+18	Children	Children	NOUN	NN	_	16	conj	_	_
+19	under	under	ADP	PP	_	20	case	_	_
+20	Conditions	Conditions	NOUN	NN	_	16	nmod	_	_
+21	of	of	ADP	PP	_	25	case	_	_
+22	'	'	PUNCT	PAD	_	23	punct	_	_
+23	Intermittent	Intermittent	ADJ	JJ	_	25	amod	_	_
+24	'	'	PUNCT	PAD	_	23	punct	_	_
+25	Mothering	Mothering	NOUN	NN	_	20	nmod	_	_
+26	in	in	ADP	PP	_	28	case	_	_
+27	the	the	DET	DT	_	28	det	_	_
+28	Kibbutz	Kibbutz	PROPN	PM|NOM	Case=Nom	25	nmod	_	_
+29	.	.	PUNCT	MAD	_	16	punct	_	_
+
