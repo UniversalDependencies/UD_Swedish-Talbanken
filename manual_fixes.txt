@@ -1608,3 +1608,86 @@
 28	Kibbutz	Kibbutz	PROPN	PM|NOM	Case=Nom	25	nmod	_	_
 29	.	.	PUNCT	MAD	_	16	punct	_	_
 
+63296
+13	av	av	ADP	PP	_	14	case	_	_
+14	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing	12	nmod	_	_
+15	prestation	prestation	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	mwe	_	_
+---
+13	av	av	ADP	PP	_	15	case	_	_
+14	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing	15	det	_	_
+15	prestation	prestation	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	nmod	_	_
+
+68235
+6	295	295	NUM	RG|NOM	Case=Nom	1	nmod	_	_
+7	ff	ff	ADV	AB|AN	_	6	mwe	_	_
+---
+6	295	295	NUM	RG|NOM	Case=Nom	1	nmod	_	_
+7	ff	ff	ADV	AB|AN	_	6	advmod	_	_
+
+2141
+6	i	i	ADP	PP	_	9	case	_	_
+7	avsnittet	avsnitt	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	9	nmod	_	_
+8	'	'	PUNCT	PAD	_	9	punct	_	_
+9	Dina	du	DET	PS|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|Poss=Yes	5	advmod	_	_
+10	förmåner	förmån	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9	mwe	_	_
+11	'	'	PUNCT	PAD	_	9	punct	_	_
+---
+6	i	i	ADP	PP	_	10	case	_	_
+7	avsnittet	avsnitt	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	10	nmod	_	_
+8	'	'	PUNCT	PAD	_	10	punct	_	_
+9	Dina	du	DET	PS|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|Poss=Yes	10	det	_	_
+10	förmåner	förmån	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	5	nmod	_	_
+11	'	'	PUNCT	PAD	_	10	punct	_	_
+
+32399
+15	i	i	ADP	PP	_	14	compound:prt	_	_
+16	proportion	proportion	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	15	mwe	_	_
+17	till	till	ADP	PP	_	18	case	_	_
+---
+15	i	i	ADP	PP	_	18	case	_	_
+16	proportion	proportion	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	15	mwe	_	_
+17	till	till	ADP	PP	_	15	mwe	_	_
+
+69198
+20	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing	19	nsubj	_	_
+21	mamma	mamma	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	20	mwe	_	_
+---
+20	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing	21	det	_	_
+21	mamma	mamma	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	19	nsubj	_	_
+
+35686
+23	Undervisning	undervisning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	conj	_	_
+24	eller	eller	CONJ	KN	_	23	mwe	_	_
+25	undergång	undergång	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	23	mwe	_	_
+---
+23	Undervisning	undervisning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	conj	_	_
+24	eller	eller	CONJ	KN	_	23	cc	_	_
+25	undergång	undergång	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	23	conj	_	_
+
+63319
+19	om	om	ADP	PP	_	20	case	_	_
+20	två	två	NUM	RG|NOM	Case=Nom	18	nmod	_	_
+21	personer	person	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	20	mwe	_	_
+---
+19	om	om	ADP	PP	_	21	case	_	_
+20	två	två	NUM	RG|NOM	Case=Nom	21	nummod	_	_
+21	personer	person	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	18	nmod	_	_
+
+78167
+4	,	,	PUNCT	MID	_	6	punct	_	_
+5	kap.	kap.	NOUN	NN|AN	_	6	nmod	_	_
+6	Kriminalpolitiska	kriminalpolitisk	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	3	nmod	_	_
+7	åtgärder	åtgärd	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	6	mwe	_	_
+---
+4	,	,	PUNCT	MID	_	7	punct	_	_
+5	kap.	kap.	NOUN	NN|AN	_	7	nmod	_	_
+6	Kriminalpolitiska	kriminalpolitisk	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	åtgärder	åtgärd	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	nmod	_	_
+
+50962
+1	En	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing	3	nsubj	_	_
+2	hund	hund	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	mwe	_	_
+---
+1	En	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing	2	det	_	_
+2	hund	hund	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	nsubj	_	_
+
