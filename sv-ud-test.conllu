@@ -546,9 +546,9 @@
 23	7	7	NUM	RG|NOM	Case=Nom	21	nmod	_	_
 24	'	'	PUNCT	PAD	_	25	punct	_	_
 25	ATP	ATP	PROPN	PM|NOM	Case=Nom	21	dobj	_	_
-26	de	en	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur	25	mwe	_	_
-27	första	en	ADJ	RO|NOM	Case=Nom	25	mwe	_	_
-28	åren	år	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	25	mwe	_	_
+26	de	en	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur	28	det	_	_
+27	första	en	ADJ	RO|NOM	Case=Nom	28	det	_	_
+28	åren	år	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	25	nmod	_	_
 29	'	'	PUNCT	PAD	_	25	punct	_	_
 30	)	)	PUNCT	PAD	_	4	punct	_	_
 31	.	.	PUNCT	MAD	_	4	punct	_	_
@@ -793,9 +793,9 @@
 12	se	se	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	8	parataxis	_	_
 13	'	'	PUNCT	PAD	_	14	punct	_	_
 14	ATP	ATP	PROPN	PM|NOM	Case=Nom	12	dobj	_	_
-15	de	en	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur	14	mwe	_	_
-16	första	en	ADJ	RO|NOM	Case=Nom	14	mwe	_	_
-17	åren	år	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	14	mwe	_	_
+15	de	en	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur	17	det	_	_
+16	första	en	ADJ	RO|NOM	Case=Nom	17	det	_	_
+17	åren	år	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	14	nmod	_	_
 18	'	'	PUNCT	PAD	_	14	punct	_	_
 19	,	,	PUNCT	MID	_	12	punct	_	_
 20	sid	sid	NOUN	NN|AN	_	21	nmod	_	_
@@ -6496,7 +6496,7 @@
 31	.	.	PUNCT	MAD	_	12	punct	_	_
 
 1	Sao	Sao	PROPN	PM|NOM	Case=Nom	5	nsubj	_	_
-2	Paulo	Paulo	PROPN	PM|NOM	Case=Nom	1	mwe	_	_
+2	Paulo	Paulo	PROPN	PM|NOM	Case=Nom	1	name	_	_
 3	i	i	ADP	PP	_	4	case	_	_
 4	Brasilien	Brasilien	PROPN	PM|NOM	Case=Nom	1	nmod	_	_
 5	hade	ha	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -7023,8 +7023,8 @@
 21	studiehäfte	studiehäfte	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	23	nmod	_	_
 22	'	'	PUNCT	PAD	_	23	punct	_	_
 23	Undervisning	undervisning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	conj	_	_
-24	eller	eller	CONJ	KN	_	23	mwe	_	_
-25	undergång	undergång	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	23	mwe	_	_
+24	eller	eller	CONJ	KN	_	23	cc	_	_
+25	undergång	undergång	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	23	conj	_	_
 26	'	'	PUNCT	PAD	_	23	punct	_	_
 27	.	.	PUNCT	MAD	_	2	punct	_	_
 
@@ -12218,9 +12218,9 @@
 13	men	men	CONJ	KN	_	2	cc	_	_
 14	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur	20	nsubj	_	_
 15	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	20	aux	_	_
-16	i	i	ADP	PP	_	17	case	_	_
-17	stor	stor	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	20	advmod	_	_
-18	utsträckning	utsträckning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	17	mwe	_	_
+16	i	i	ADP	PP	_	18	case	_	_
+17	stor	stor	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	18	amod	_	_
+18	utsträckning	utsträckning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	20	nmod	_	_
 19	kunnat	kunna	AUX	VB|SUP|AKT	VerbForm=Sup|Voice=Act	20	aux	_	_
 20	ersätta	ersätta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	conj	_	_
 21	elchockbehandlingen	elchockbehandling	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	20	dobj	_	_
@@ -12645,9 +12645,9 @@
 12	nervsystemet	nervsystem	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	9	dobj	_	_
 13	.	.	PUNCT	MAD	_	1	punct	_	_
 
-1	I	i	ADP	PP	_	2	case	_	_
-2	små	liten	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	4	advmod	_	_
-3	doser	dos	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	mwe	_	_
+1	I	i	ADP	PP	_	3	case	_	_
+2	små	liten	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	doser	dos	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	4	nmod	_	_
 4	ger	ge	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur	4	nsubj	_	_
 6	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing	4	dobj	_	_
@@ -14215,9 +14215,9 @@
 4	de	en	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur	6	det	_	_
 5	reella	reell	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
 6	kostnaderna	kostnad	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	10	nsubj	_	_
-7	för	för	ADP	PP	_	8	case	_	_
-8	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing	6	nmod	_	_
-9	fastighet	fastighet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	mwe	_	_
+7	för	för	ADP	PP	_	9	case	_	_
+8	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing	9	det	_	_
+9	fastighet	fastighet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	nmod	_	_
 10	belasta	belasta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	0	root	_	_
 11	densamma	densamma	PRON	PN|UTR|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Com|Number=Sing	10	dobj	_	_
 12	.	.	PUNCT	MAD	_	10	punct	_	_
@@ -14907,11 +14907,11 @@
 7	omdiskuterad	omdiskuterad	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	.	.	PUNCT	MAD	_	7	punct	_	_
 
-1	Statens	stat	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	11	nsubjpass	_	_
-2	oförmåga	oförmåga	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	mwe	_	_
+1	Statens	stat	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	2	nmod:poss	_	_
+2	oförmåga	oförmåga	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	nsubjpass	_	_
 3	att	att	PART	IE	_	5	mark	_	_
 4	'	'	PUNCT	PAD	_	5	punct	_	_
-5	bygga	bygga	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	1	acl	_	_
+5	bygga	bygga	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	acl	_	_
 6	bort	bort	ADV	PL	_	5	compound:prt	_	_
 7	'	'	PUNCT	PAD	_	5	punct	_	_
 8	bostadsköerna	bostadskö	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	5	dobj	_	_
@@ -15308,10 +15308,10 @@
 1	(	(	PUNCT	PAD	_	2	punct	_	_
 2	Källa	källa	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	_
 3	:	:	PUNCT	MID	_	2	punct	_	_
-4	Veckans	vecka	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
-5	affärer	affär	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	4	mwe	_	_
+4	Veckans	vecka	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	5	nmod:poss	_	_
+5	affärer	affär	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	nsubj	_	_
 6	9	9	NUM	RG|NOM	Case=Nom	7	nummod	_	_
-7	oktober	oktober	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	nmod	_	_
+7	oktober	oktober	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	nmod	_	_
 8	1969	1969	NUM	RG|NOM	Case=Nom	7	nummod	_	_
 9	.	.	PUNCT	MAD	_	2	punct	_	_
 10	)	)	PUNCT	PAD	_	2	punct	_	_
@@ -16009,21 +16009,21 @@
 6	traktormotor	traktormotor	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	nmod	_	_
 7	.	.	PUNCT	MAD	_	2	punct	_	_
 
-1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing	2	expl	_	_
-2	är	vara	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	inte	inte	ADV	AB	_	2	neg	_	_
-4	minst	lite	ADV	AB|SUV	Degree=Sup	2	advmod	_	_
-5	tekniska	teknisk	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	2	dislocated	_	_
-6	framsteg	framsteg	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	5	mwe	_	_
+1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing	6	expl	_	_
+2	är	vara	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
+3	inte	inte	ADV	AB	_	6	neg	_	_
+4	minst	lite	ADV	AB|SUV	Degree=Sup	6	advmod	_	_
+5	tekniska	teknisk	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	framsteg	framsteg	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	0	root	_	_
 7	som	som	PRON	HP|-|-|-	PronType=Int,Rel	8	nsubj	_	_
-8	ger	ge	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
+8	ger	ge	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
 9	förutsättningar	förutsättning	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	8	dobj	_	_
 10	för	för	ADP	PP	_	12	case	_	_
 11	högre	hög	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	12	amod	_	_
 12	levnadsstandard	levnadsstandard	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	nmod	_	_
 13	i	i	ADP	PP	_	14	case	_	_
 14	u-länderna	u-land	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	8	nmod	_	_
-15	.	.	PUNCT	MAD	_	2	punct	_	_
+15	.	.	PUNCT	MAD	_	6	punct	_	_
 
 1	Tidningsklipp	tidningsklipp	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root	_	_
 2	DN	DN	PROPN	PM|NOM	Case=Nom	1	nmod	_	_
