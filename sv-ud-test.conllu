@@ -7890,11 +7890,11 @@
 1	1964	1964	NUM	RG|NOM	Case=Nom	2	nummod	_	_
 2	gick	gå	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	113000	113000	NUM	RG|NOM	Case=Nom	2	nsubj	_	_
-4	av	av	ADP	PP	_	3	nmod	_	_
-5	barnen	barn	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	4	mwe	_	_
+4	av	av	ADP	PP	_	5	case	_	_
+5	barnen	barn	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	3	nmod	_	_
 6	i	i	ADP	PP	_	8	case	_	_
 7	den	en	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing	8	det	_	_
-8	åldersgruppen	åldersgrupp	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	nmod	_	_
+8	åldersgruppen	åldersgrupp	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	5	nmod	_	_
 9	i	i	ADP	PP	_	10	case	_	_
 10	skolan	skola	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nmod	_	_
 11	.	.	PUNCT	MAD	_	2	punct	_	_
@@ -9256,9 +9256,9 @@
 24	process	process	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	19	nmod	_	_
 25	.	.	PUNCT	MAD	_	8	punct	_	_
 
-1	Hos	hos	ADP	PP	_	8	advmod	_	_
-2	andra	annan	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur	1	mwe	_	_
-3	däremot	däremot	ADV	AB	_	1	advmod	_	_
+1	Hos	hos	ADP	PP	_	2	case	_	_
+2	andra	annan	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur	8	nmod	_	_
+3	däremot	däremot	ADV	AB	_	8	advmod	_	_
 4	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	_
 5	nedsättningen	nedsättning	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	8	nsubj	_	_
 6	vara	vara	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	8	cop	_	_
