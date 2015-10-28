@@ -8537,15 +8537,15 @@
 6	Annika	Annika	PROPN	PM|NOM	Case=Nom	4	nmod	_	_
 7	Baude	Baude	PROPN	PM|NOM	Case=Nom	6	name	_	_
 8	,	,	PUNCT	MID	_	4	punct	_	_
-9	'	'	PUNCT	PAD	_	10	punct	_	_
-10	Att	att	PART	IE	_	4	appos	_	_
-11	bygga	bygga	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	10	mwe	_	_
-12	ekonomisk	ekonomisk	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	10	mwe	_	_
-13	trygghet	trygghet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	mwe	_	_
-14	på	på	ADP	PP	_	10	mwe	_	_
-15	känslor	känsla	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	10	mwe	_	_
-16	'	'	PUNCT	PAD	_	10	punct	_	_
-17	.	.	PUNCT	MAD	_	10	punct	_	_
+9	'	'	PUNCT	PAD	_	11	punct	_	_
+10	Att	att	PART	IE	_	11	mark	_	_
+11	bygga	bygga	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	4	parataxis	_	_
+12	ekonomisk	ekonomisk	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	13	amod	_	_
+13	trygghet	trygghet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	dobj	_	_
+14	på	på	ADP	PP	_	15	case	_	_
+15	känslor	känsla	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	13	nmod	_	_
+16	'	'	PUNCT	PAD	_	11	punct	_	_
+17	.	.	PUNCT	MAD	_	11	punct	_	_
 
 1	(	(	PUNCT	PAD	_	3	punct	_	_
 2	Ur	ur	ADP	PP	_	3	case	_	_

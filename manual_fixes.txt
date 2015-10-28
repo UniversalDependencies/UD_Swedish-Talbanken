@@ -1942,3 +1942,99 @@
 31	Värmlands	Värmland	PROPN	PM|GEN	Case=Gen	29	conj	_	_
 32	län	län	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	27	nmod	_	_
 
+96871
+9	'	'	PUNCT	PAD	_	10	punct	_	_
+10	Att	att	PART	IE	_	4	appos	_	_
+11	bygga	bygga	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	10	mwe	_	_
+12	ekonomisk	ekonomisk	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	10	mwe	_	_
+13	trygghet	trygghet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	mwe	_	_
+14	på	på	ADP	PP	_	10	mwe	_	_
+15	känslor	känsla	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	10	mwe	_	_
+16	'	'	PUNCT	PAD	_	10	punct	_	_
+17	.	.	PUNCT	MAD	_	10	punct	_	_
+---
+9	'	'	PUNCT	PAD	_	11	punct	_	_
+10	Att	att	PART	IE	_	11	mark	_	_
+11	bygga	bygga	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	4	parataxis	_	_
+12	ekonomisk	ekonomisk	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	13	amod	_	_
+13	trygghet	trygghet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	dobj	_	_
+14	på	på	ADP	PP	_	15	case	_	_
+15	känslor	känsla	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	13	nmod	_	_
+16	'	'	PUNCT	PAD	_	11	punct	_	_
+17	.	.	PUNCT	MAD	_	11	punct	_	_
+
+78105
+15	Kap.	kap.	NOUN	NN|AN	_	16	nmod	_	_
+16	Samhället	samhälle	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	13	nmod	_	_
+17	och	och	CONJ	KN	_	16	mwe	_	_
+18	ungdomsbrottslingarna	ungdomsbrottsling	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	16	mwe	_	_
+---
+15	Kap.	kap.	NOUN	NN|AN	_	16	nmod	_	_
+16	Samhället	samhälle	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	13	parataxis	_	_
+17	och	och	CONJ	KN	_	16	cc	_	_
+18	ungdomsbrottslingarna	ungdomsbrottsling	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	16	conj	_	_
+
+32508
+1	Enligt	enligt	ADP	PP	_	2	case	_	_
+2	dr	dr	NOUN	NN|AN	_	9	nmod	_	_
+3	Horn	Horn	PROPN	PM|NOM	Case=Nom	2	mwe	_	_
+---
+1	Enligt	enligt	ADP	PP	_	3	case	_	_
+2	dr	dr	NOUN	NN|AN	_	3	nmod	_	_
+3	Horn	Horn	PROPN	PM|NOM	Case=Nom	9	nmod	_	_
+
+1657
+5	i	i	ADP	PP	_	6	case	_	_
+6	olika	olik	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	3	advmod	_	_
+7	utbildningsgrenar	utbildningsgren	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	6	mwe	_	_
+---
+5	i	i	ADP	PP	_	7	case	_	_
+6	olika	olik	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	utbildningsgrenar	utbildningsgren	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	nmod	_	_
+
+49188
+9	Tjäna	tjäna	VERB	VB|IMP|AKT	Mood=Imp|VerbForm=Fin|Voice=Act	6	appos	_	_
+10	på	på	ADP	PP	_	9	mwe	_	_
+11	att	att	PART	IE	_	9	mwe	_	_
+12	veta	veta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	9	mwe	_	_
+13	om	om	ADP	PP	_	9	mwe	_	_
+14	leksaker	leksak	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9	mwe	_	_
+---
+9	Tjäna	tjäna	VERB	VB|IMP|AKT	Mood=Imp|VerbForm=Fin|Voice=Act	6	parataxis	_	_
+10	på	på	ADP	PP	_	9	compound:prt	_	_
+11	att	att	PART	IE	_	12	mark	_	_
+12	veta	veta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	9	ccomp	_	_
+13	om	om	ADP	PP	_	14	case	_	_
+14	leksaker	leksak	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	12	nmod	_	_
+
+5714
+4	på	på	ADP	PP	_	5	case	_	_
+5	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing	3	nmod	_	_
+6	graviditet	graviditet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	mwe	_	_
+---
+4	på	på	ADP	PP	_	6	case	_	_
+5	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing	6	det	_	_
+6	graviditet	graviditet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	nmod	_	_
+
+19264
+13	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing	15	amod	_	_
+14	kort	kort	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	13	mwe	_	_
+---
+13	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing	14	det	_	_
+14	kort	kort	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	15	amod	_	_
+
+99615
+12	'	'	PUNCT	PAD	_	13	punct	_	_
+13	Till	till	ADP	PP	_	10	appos	_	_
+14	storms	storm	NOUN	NN|UTR|SIN|IND|GEN	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	13	mwe	_	_
+15	mot	mot	ADP	PP	_	13	mwe	_	_
+16	äktenskapet	äktenskap	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	13	mwe	_	_
+17	'	'	PUNCT	PAD	_	13	punct	_	_
+---
+12	'	'	PUNCT	PAD	_	14	punct	_	_
+13	Till	till	ADP	PP	_	14	case	_	_
+14	storms	storm	NOUN	NN|UTR|SIN|IND|GEN	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	10	parataxis	_	_
+15	mot	mot	ADP	PP	_	16	case	_	_
+16	äktenskapet	äktenskap	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	14	nmod	_	_
+17	'	'	PUNCT	PAD	_	14	punct	_	_
+
