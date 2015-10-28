@@ -1776,3 +1776,90 @@
 17	stor	stor	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	18	amod	_	_
 18	utsträckning	utsträckning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	20	nmod	_	_
 
+36554
+4	av	av	ADP	PP	_	3	nmod	_	_
+5	barnen	barn	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	4	mwe	_	_
+6	i	i	ADP	PP	_	8	case	_	_
+7	den	en	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing	8	det	_	_
+8	åldersgruppen	åldersgrupp	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	nmod	_	_
+---
+4	av	av	ADP	PP	_	5	case	_	_
+5	barnen	barn	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	3	nmod	_	_
+6	i	i	ADP	PP	_	8	case	_	_
+7	den	en	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing	8	det	_	_
+8	åldersgruppen	åldersgrupp	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	5	nmod	_	_
+
+54223
+2	Familjen	familj	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	0	root	_	_
+3	i	i	ADP	PP	_	2	mwe	_	_
+4	samhället	samhälle	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	mwe	_	_
+---
+2	Familjen	familj	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	0	root	_	_
+3	i	i	ADP	PP	_	4	case	_	_
+4	samhället	samhälle	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	nmod	_	_
+
+74699
+4	Napoleon	Napoleon	PROPN	PM|NOM	Case=Nom	2	conj	_	_
+5	III	III	ADJ	RO|NOM	Case=Nom	4	mwe	_	_
+---
+4	Napoleon	Napoleon	PROPN	PM|NOM	Case=Nom	2	conj	_	_
+5	III	III	ADJ	RO|NOM	Case=Nom	4	name	_	_
+
+78220
+6	Kriminalvård	kriminalvård	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	nmod	_	_
+7	på	på	ADP	PP	_	6	mwe	_	_
+8	anstalt	anstalt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	mwe	_	_
+9	och	och	CONJ	KN	_	6	cc	_	_
+10	Övervakningsnämndernas	övervakningsnämnd	NOUN	NN|UTR|PLU|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Plur	6	conj	_	_
+11	organisation	organisation	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	mwe	_	_
+12	och	och	CONJ	KN	_	10	mwe	_	_
+13	verksamhet	verksamhet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	mwe	_	_
+---
+6	Kriminalvård	kriminalvård	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	nmod	_	_
+7	på	på	ADP	PP	_	8	case	_	_
+8	anstalt	anstalt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	nmod	_	_
+9	och	och	CONJ	KN	_	6	cc	_	_
+10	Övervakningsnämndernas	övervakningsnämnd	NOUN	NN|UTR|PLU|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Plur	11	nmod:poss	_	_
+11	organisation	organisation	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	conj	_	_
+12	och	och	CONJ	KN	_	11	cc	_	_
+13	verksamhet	verksamhet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	conj	_	_
+
+78128
+4	kap.	kap.	NOUN	NN|AN	_	5	nmod	_	_
+5	Självdeklarerad	självdeklarerad	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	2	nmod	_	_
+6	brottslighet	brottslighet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	mwe	_	_
+7	bland	bland	ADP	PP	_	5	mwe	_	_
+8	skolbarn	skolbarn	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	5	mwe	_	_
+9	(	(	PUNCT	PAD	_	5	punct	_	_
+10	K.	K.	PROPN	PM|NOM	Case=Nom	5	nmod	_	_
+11	Elmhorn	Elmhorn	PROPN	PM|NOM	Case=Nom	10	name	_	_
+12	)	)	PUNCT	PAD	_	5	punct	_	_
+---
+4	kap.	kap.	NOUN	NN|AN	_	6	nmod	_	_
+5	Självdeklarerad	självdeklarerad	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	6	amod	_	_
+6	brottslighet	brottslighet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	parataxis	_	_
+7	bland	bland	ADP	PP	_	8	case	_	_
+8	skolbarn	skolbarn	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	6	nmod	_	_
+9	(	(	PUNCT	PAD	_	6	punct	_	_
+10	K.	K.	PROPN	PM|NOM	Case=Nom	6	parataxis	_	_
+11	Elmhorn	Elmhorn	PROPN	PM|NOM	Case=Nom	10	name	_	_
+12	)	)	PUNCT	PAD	_	6	punct	_	_
+
+59912
+20	om	om	ADP	PP	_	19	mwe	_	_
+21	äktenskapets	äktenskap	NOUN	NN|NEU|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	22	case	_	_
+22	uppgift	uppgift	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	19	nmod	_	_
+---
+20	om	om	ADP	PP	_	22	case	_	_
+21	äktenskapets	äktenskap	NOUN	NN|NEU|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	22	nmod:poss	_	_
+22	uppgift	uppgift	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	19	nmod	_	_
+
+96888
+2	Sveriges	Sverige	PROPN	PM|GEN	Case=Gen	1	nmod	_	_
+3	Radios	radio	NOUN	NN|UTR|SIN|IND|GEN	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	2	mwe	_	_
+4	förlag	förlag	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	mwe	_	_
+---
+2	Sveriges	Sverige	PROPN	PM|GEN	Case=Gen	3	nmod:poss	_	_
+3	Radios	radio	NOUN	NN|UTR|SIN|IND|GEN	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	4	nmod:poss	_	_
+4	förlag	förlag	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	1	nmod	_	_
+
