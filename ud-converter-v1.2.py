@@ -815,7 +815,7 @@ def remove_dummies(sentence):  # Continue here: transfer deprel when shifting he
                     break
             if not found:   # If not found, look for first content word phrase
                 for w in nonword[i]:
-                    if not w[9][-2:] in ["++", "+A", "I?", "IC", "IG", "IK", "IM", "IP", "IQ", "IS", "IT", "IU", "JC", "JG", "JR", "JT", "NA", "PL", "PR", "UK", "VA", "XA", "XT"]:
+                    if not w[9][-2:] in ["++", "+A", "I?", "IC", "IG", "IK", "IM", "IP", "IQ", "IS", "IT", "IU", "JC", "JD", "JG", "JR", "JT", "NA", "PL", "PR", "UK", "VA", "XA", "XT"]:
                         ch = w
                         found = True
                         break
@@ -929,7 +929,7 @@ def dep_label(offset, root, label, word):
         return "acl"
     elif word[9][-2:] in ["FV", "IV", "IX"]:   # Note main verbs later overridden by "root", "conj", etc.
         return "aux"
-    elif word[9][-2:] in ["I?", "IC", "IG", "IK", "IP", "IQ", "IR", "IS", "IT", "IU", "JC", "JG", "JR", "JT"]:
+    elif word[9][-2:] in ["I?", "IC", "IG", "IK", "IP", "IQ", "IR", "IS", "IT", "IU", "JC", "JD", "JG", "JR", "JT"]:
         return "punct"
     elif word[9][-2:] in ["IM", "UK"]:
         return "mark"
@@ -1298,7 +1298,7 @@ def find_discontiguous(offset, phrases): # ADDED
             cc = len(deps)
             deps.append(d)
             ps.append(p)
-        elif d in deps and not d in ["", "ST", "+F", "I?", "IC", "IG", "IK", "IP", "IQ", "IR", "IS", "IT", "IU", "JC", "JG", "JR", "JT"] and p[0][2] == ps[deps.index(d)][0][2] and (p[0][6] == ps[deps.index(d)][0][6] or p[0][6][:4] == ps[deps.index(d)][0][7]) and not ps[deps.index(d)][0][9] in ["SSMS", "OOMS"]: 
+        elif d in deps and not d in ["", "ST", "+F", "I?", "IC", "IG", "IK", "IP", "IQ", "IR", "IS", "IT", "IU", "JC", "JD", "JG", "JR", "JT"] and p[0][2] == ps[deps.index(d)][0][2] and (p[0][6] == ps[deps.index(d)][0][6] or p[0][6][:4] == ps[deps.index(d)][0][7]) and not ps[deps.index(d)][0][9] in ["SSMS", "OOMS"]: 
             if cc > deps.index(d):
                 deps.append("++")
                 ps.append(p)
@@ -1349,7 +1349,7 @@ def find_head_child(offset, phrases):
             if p[0][9][offset:offset+2] == "XX":
                 return p
         for p in phrases:
-            if not p[0][9][offset:offset+2] in ["++", "+H", "+A", "CA", "MA", "I?", "IC", "IG", "IK", "IM", "IP", "IQ", "IS", "IT", "IU", "JC", "JG", "JR", "JT", "NA", "PL", "PR", "UK", "VA", "XA", "XT", "GM", "GX", "MS", "+F"]:
+            if not p[0][9][offset:offset+2] in ["++", "+H", "+A", "CA", "MA", "I?", "IC", "IG", "IK", "IM", "IP", "IQ", "IS", "IT", "IU", "JC", "JD", "JG", "JR", "JT", "NA", "PL", "PR", "UK", "VA", "XA", "XT", "GM", "GX", "MS", "+F"]:
                 found = True
                 ch = p
                 break
