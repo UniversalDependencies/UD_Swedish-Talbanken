@@ -2038,3 +2038,119 @@
 16	äktenskapet	äktenskap	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	14	nmod	_	_
 17	'	'	PUNCT	PAD	_	14	punct	_	_
 
+45372
+6	med	med	ADP	PP	_	7	case	_	_
+7	EEC:s	EEC	PROPN	PM|GEN	Case=Gen	5	nmod	_	_
+8	jordbrukspolitik	jordbrukspolitik	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	mwe	_	_
+---
+6	med	med	ADP	PP	_	8	case	_	_
+7	EEC:s	EEC	PROPN	PM|GEN	Case=Gen	8	nmod:poss	_	_
+8	jordbrukspolitik	jordbrukspolitik	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	nmod	_	_
+
+62530
+21	för	för	ADP	PP	_	22	case	_	_
+22	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing	19	advmod	_	_
+23	gäng	gäng	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	22	mwe	_	_
+---
+21	för	för	ADP	PP	_	23	case	_	_
+22	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing	23	det	_	_
+23	gäng	gäng	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	19	nmod	_	_
+
+54843
+27	till	till	ADP	PP	_	28	case	_	_
+28	sexuella	sexuell	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	26	nmod	_	_
+29	förbindelser	förbindelse	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	28	mwe	_	_
+30	utom	utom	ADP	PP	_	31	case	_	_
+31	äktenskapet	äktenskap	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	28	nmod	_	_
+---
+27	till	till	ADP	PP	_	29	case	_	_
+28	sexuella	sexuell	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	29	amod	_	_
+29	förbindelser	förbindelse	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	26	nmod	_	_
+30	utom	utom	ADP	PP	_	31	case	_	_
+31	äktenskapet	äktenskap	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	29	nmod	_	_
+
+72239
+1	Två	två	NUM	RG|NOM	Case=Nom	3	nsubj	_	_
+2	tumlare	tumlare	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	1	mwe	_	_
+---
+1	Två	två	NUM	RG|NOM	Case=Nom	2	nummod	_	_
+2	tumlare	tumlare	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	nsubj	_	_
+
+39588
+9	för	för	ADP	PP	_	10	case	_	_
+10	Gunnebo	Gunnebo	PROPN	PM|NOM	Case=Nom	8	nmod	_	_
+11	Bruk	Bruk	PROPN	PM|NOM	Case=Nom	10	mwe	_	_
+---
+9	för	för	ADP	PP	_	11	case	_	_
+10	Gunnebo	Gunnebo	PROPN	PM|NOM	Case=Nom	11	nmod	_	_
+11	Bruk	Bruk	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	8	nmod	_	_
+
+97954
+38	till	till	ADP	PP	_	37	nmod	_	_
+39	världen	värld	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	38	mwe	_	_
+40	utanför	utanför	ADV	AB	_	38	mwe	_	_
+---
+38	till	till	ADP	PP	_	39	case	_	_
+39	världen	värld	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	37	nmod	_	_
+40	utanför	utanför	ADV	AB	_	39	advmod	_	_
+
+55492
+1	Samma	samma	DET	DT|UTR/NEU|SIN/PLU|IND	Definite=Ind	0	root	_	_
+2	sluttning	sluttning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	mwe	_	_
+3	vid	vid	ADP	PP	_	4	case	_	_
+4	planteringen	plantering	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	1	nmod	_	_
+5	(	(	PUNCT	PAD	_	1	punct	_	_
+6	överst	överst	ADV	AB|SUV	Degree=Sup	1	advmod	_	_
+7	)	)	PUNCT	PAD	_	1	punct	_	_
+8	och	och	CONJ	KN	_	1	cc	_	_
+9	tio	tio	NUM	RG|NOM	Case=Nom	10	nummod	_	_
+10	år	år	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	11	nmod	_	_
+11	senare	sen	ADV	AB|KOM	Degree=Cmp	1	conj	_	_
+12	(	(	PUNCT	PAD	_	11	punct	_	_
+13	nederst	nederst	ADV	AB|SUV	Degree=Sup	11	advmod	_	_
+14	)	)	PUNCT	PAD	_	11	punct	_	_
+15	.	.	PUNCT	MAD	_	1	punct	_	_
+---
+1	Samma	samma	DET	DT|UTR/NEU|SIN/PLU|IND	Definite=Ind	2	det	_	_
+2	sluttning	sluttning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	_
+3	vid	vid	ADP	PP	_	4	case	_	_
+4	planteringen	plantering	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nmod	_	_
+5	(	(	PUNCT	PAD	_	2	punct	_	_
+6	överst	överst	ADV	AB|SUV	Degree=Sup	2	advmod	_	_
+7	)	)	PUNCT	PAD	_	2	punct	_	_
+8	och	och	CONJ	KN	_	2	cc	_	_
+9	tio	tio	NUM	RG|NOM	Case=Nom	10	nummod	_	_
+10	år	år	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	11	nmod	_	_
+11	senare	sen	ADV	AB|KOM	Degree=Cmp	2	conj	_	_
+12	(	(	PUNCT	PAD	_	11	punct	_	_
+13	nederst	nederst	ADV	AB|SUV	Degree=Sup	11	advmod	_	_
+14	)	)	PUNCT	PAD	_	11	punct	_	_
+15	.	.	PUNCT	MAD	_	2	punct	_	_
+
+54228
+7	10	10	NUM	RG|NOM	Case=Nom	2	nmod	_	_
+8	f	f	ADV	AB|AN	_	7	mwe	_	_
+---
+7	10	10	NUM	RG|NOM	Case=Nom	2	nmod	_	_
+8	f	f	ADV	AB|AN	_	7	advmod	_	_
+
+5251
+11	från	från	ADP	PP	_	9	advmod	_	_
+12	besväret	besvär	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	11	mwe	_	_
+13	att	att	PART	IE	_	14	mark	_	_
+14	hämta	hämta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	11	acl	_	_
+---
+11	från	från	ADP	PP	_	12	case	_	_
+12	besväret	besvär	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	9	nmod	_	_
+13	att	att	PART	IE	_	14	mark	_	_
+14	hämta	hämta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	12	acl	_	_
+
+42147
+17	i	i	ADP	PP	_	18	case	_	_
+18	hjärnans	hjärna	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	16	nmod	_	_
+19	funktion	funktion	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	18	mwe	_	_
+---
+17	i	i	ADP	PP	_	19	case	_	_
+18	hjärnans	hjärna	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	19	nmod:poss	_	_
+19	funktion	funktion	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	nmod	_	_
+
