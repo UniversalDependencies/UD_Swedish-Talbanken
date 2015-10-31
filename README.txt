@@ -81,8 +81,6 @@ MAMBA annotation scheme in Talbanken. The following phenomena are known to
 deviate from the general guidelines and will be fixed in future versions:
 
 - The remnant analysis of ellipsis has not been fully implemented.
-- Complex names with compositional internal structure are annotated in the 
-  same way as non-compositional cases.
 - Comparative modifiers are sometimes not attached to the comparative element 
   itself but to its head.
 
@@ -105,11 +103,21 @@ REFERENCES
 * The Stockholm Umeå Corpus. Version 2.0. 2006. Stockholm University: 
   Department of Linguistics.
 
+CHANGELOG
 
+From v1 to v1.1, an extensive (but not complete) manual validation was 
+carried out, resulting in a large number of conversion errors being 
+corrected. Specifically, all non-projective trees were validated. 
 
+From v1.1 to v1.2, complex names and multiword expressions have been
+manually validated. As a result, the annotation of complex names now
+conforms to the universal guidelines.
+
+--- Machine readable metadaa ---
 
 Documentation status: complete
 Data source: semi-automatic
 Data available since: UD v1.0
 License: CC BY-SA 4.0
 Genre: news nonfiction
+Contributors: Nivre, Joakim; Smith, Aaron
