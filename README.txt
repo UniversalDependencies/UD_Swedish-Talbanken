@@ -113,6 +113,9 @@ From v1.1 to v1.2, complex names and multiword expressions have been
 manually validated. As a result, the annotation of complex names now
 conforms to the universal guidelines.
 
+From v1.2 to v1.3, we fixed the following annotation bugs:
+- Copula verbs are now tagged VERB, not AUX
+
 --- Machine readable metadaa ---
 
 Documentation status: complete
