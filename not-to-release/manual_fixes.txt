@@ -744,6 +744,11 @@
 12	,	,	PUNCT	MID	_	11	punct	_	_
 13	en	man	PRON	PN|UTR|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Com|Number=Sing	11	appos	_	_
 
+47621
+5	göra	göra	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	3	csubj	_	_
+---
+5	göra	göra	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	3	csubjpass	_	_
+
 48158
 8	över	över	ADP	PP	_	10	case	_	_
 9	ämnet	ämne	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	10	nmod	_	_
