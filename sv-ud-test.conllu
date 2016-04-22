@@ -1696,7 +1696,7 @@
 18	Sverige	Sverige	PROPN	PM|NOM	Case=Nom	25	nmod	_	_
 19	är	vara	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	25	cop	_	_
 20	BNP	BNP	NOUN	NN|AN	_	25	nsubj	_	_
-21	/	/	PUNCT	MID	_	22	case	_	_
+21	/	/	ADP	MID	_	22	case	_	_
 22	person	person	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	20	nmod	_	_
 23	ca	ca	ADV	AB|AN	_	24	advmod	_	_
 24	13000	13000	NUM	RG|NOM	Case=Nom	25	nummod	_	_
@@ -17797,7 +17797,7 @@
 6	framför	framför	ADP	PP	_	8	advmod	_	_
 7	allt	allt	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing	6	mwe	_	_
 8	personella	personell	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	4	acl	_	_
-9	,	,	PUNCT	MID	_	4	conj	_	_
+9	,	,	PUNCT	MID	_	4	punct	_	_
 10	visar	visa	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 11	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing	13	det	_	_
 12	färsk	färsk	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	13	amod	_	_
@@ -17871,7 +17871,7 @@
 30	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing	31	nsubj	_	_
 31	borde	böra	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	29	acl:relcl	_	_
 32	vara	vara	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	31	cop	_	_
-33	,	,	PUNCT	MID	_	29	acl:relcl	_	_
+33	,	,	PUNCT	MID	_	29	punct	_	_
 34	där	där	ADV	HA	_	37	advmod	_	_
 35	varje	varje	DET	DT|UTR/NEU|SIN|IND	Definite=Ind|Number=Sing	36	det	_	_
 36	barn	barn	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	37	nsubj	_	_
@@ -18689,14 +18689,14 @@
 
 1	Men	men	CONJ	KN	_	11	cc	_	_
 2	bostadstänkandet	bostadstänkande	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	11	nsubj	_	_
-3	-	-	PUNCT	MID	_	11	punct	_	_
-4	eller	eller	CONJ	KN	_	11	cc	_	_
+3	-	-	PUNCT	MID	_	2	punct	_	_
+4	eller	eller	CONJ	KN	_	2	cc	_	_
 5	är	vara	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	_
 6	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing	8	nsubj	_	_
 7	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing	8	det	_	_
-8	statustänkande	statustänkande	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	11	conj	_	_
+8	statustänkande	statustänkande	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	parataxis	_	_
 9	?	?	PUNCT	MAD	_	8	punct	_	_
-10	-	-	PUNCT	MID	_	11	punct	_	_
+10	-	-	PUNCT	MID	_	2	punct	_	_
 11	går	gå	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 12	mot	mot	ADP	PP	_	16	case	_	_
 13	allt	all	ADV	AB	_	15	advmod	_	_

@@ -201,9 +201,24 @@ def reattach(sentence):
         for w2 in sentence:
             if w1[4] < w2[4] and head[w1[4]] == w2[4] and deprel[w1[4]] == "cc" and deprel[w2[4]] in ["conj", "parataxis"] and w2[4] in head:
 #                print("Reattached cc: " + str(w1[4]))
-                head[w1[4]] = head[w2[4]]
-                if deprel[w2[4]] == "parataxis":
-                    deprel[w2[4]] = "conj"
+                if head[w2[4]] < w2[4]:
+                    head[w1[4]] = head[w2[4]]
+                    if deprel[w2[4]] == "parataxis":
+                        deprel[w2[4]] = "conj"
+                else:
+                    h = head[w2[4]]
+                    candidates = sentence[:w1[4]-1]
+                    candidates.reverse()
+                    for w3 in candidates:
+                        if not w3[4] in nonword and head[w3[4]] == head[w2[4]] and not deprel[w3[4]] in ["punct", "neg", "cc"]:
+                            head[w2[4]] = w3[4]
+                            head[w1[4]] = w3[4]
+                            break
+                    if head[w2[4]] != h:
+                        puncts = sentence[head[w2[4]]:h-1]
+                        for w4 in puncts:
+                            if not w4 in nonword and head[w4[4]] == h and (deprel[w4[4]] in ["punct"] or (deprel[w4[4]] in ["neg"] and w4[4] < w1[4])):
+                                head[w4[4]] = head[w2[4]]
     for w1 in sentence:
         if head[w1[4]] == 0 and w1[10] in ["MAD", "MID", "PAD"]:
             new_head = 0
@@ -761,6 +776,14 @@ def retag(sentence):
                             deprel[w3[4]] = "nsubjpass"
                         if head[w3[4]] == w2[4] and deprel[w3[4]] == "aux":
                             postag[w3[4]] = "AUX"
+    for w1 in sentence:
+        if w1[10] != "_" and postag[w1[4]] == "PUNCT" and deprel[w1[4]] != "punct":
+            if deprel[w1[4]] == "cc":
+                postag[w1[4]] = "CONJ"
+            elif deprel[w1[4]] == "case":
+                postag[w1[4]] = "ADP"
+            else:
+                deprel[w1[4]] = "punct"
 
 def map_features(lem, utag, mamtag, suctag, feats):
     ufeats = []

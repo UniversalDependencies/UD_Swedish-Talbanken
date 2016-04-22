@@ -22,28 +22,36 @@
 1	Södra	Södra	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	0	root	_	_
 2	Kyrkogatan	Kyrkogatan	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	1	name	_	_
 3	1	1	NUM	RG	_	1	nummod	_	_
+4	-	-	ADP	MID	_	5	case	_	_
+5	17	17	NUM	RG	_	1	nmod	_	_
+6	,	,	PUNCT	MID	_	1	punct	_	_
+7	2	2	NUM	RG	_	1	nummod	_	_
+8	-	-	ADP	MID	_	9	case	_	_
+9	18	18	NUM	RG	_	1	nmod	_	_
+10	50232	50232	NUM	RG	_	1	nummod	_	_
+11	19	19	NUM	RG	_	1	conj	_	_
+12	-	-	ADP	MID	_	11	case	_	_
+13	,	,	PUNCT	MID	_	12	punct	_	_
+14	20	20	NUM	RG	_	11	nummod	_	_
+15	-	-	PUNCT	MID	_	12	punct	_	_
+16	50233	50233	NUM	RG	_	11	nummod	_	_
 ---
 1	Södra	södra	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	2	amod	_	_
 2	Kyrkogatan	kyrkogata	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	0	root	_	_
 3	1	1	NUM	RG	_	2	nummod	_	_
-
-4241
-5	17	17	NUM	RG	_	1	nmod	_	_
-6	,	,	PUNCT	MID	_	1	punct	_	_
-7	2	2	NUM	RG	_	1	nummod	_	_
----
-5	17	17	NUM	RG	_	2	nmod	_	_
-6	,	,	PUNCT	MID	_	2	punct	_	_
-7	2	2	NUM	RG	_	2	nummod	_	_
-
-4245
-9	18	18	NUM	RG	_	1	nmod	_	_
-10	50232	50232	NUM	RG	_	1	nummod	_	_
-11	19	19	NUM	RG	_	1	conj	_	_
----
-9	18	18	NUM	RG	_	2	nmod	_	_
+4	-	-	ADP	MID	_	5	case	_	_
+5	17	17	NUM	RG	_	3	nummod	_	_
+6	,	,	PUNCT	MID	_	3	punct	_	_
+7	2	2	NUM	RG	_	3	conj	_	_
+8	-	-	ADP	MID	_	9	case	_	_
+9	18	18	NUM	RG	_	7	nummod	_	_
 10	50232	50232	NUM	RG	_	2	nummod	_	_
 11	19	19	NUM	RG	_	2	conj	_	_
+12	-	-	ADP	MID	_	11	nummod	_	_
+13	,	,	PUNCT	MID	_	11	punct	_	_
+14	20	20	NUM	RG	_	11	conj	_	_
+15	-	-	PUNCT	MID	_	14	nummod	_	_
+16	50233	50233	NUM	RG	_	11	nummod	_	_
 
 4586
 37	Västra	Västra	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	29	conj	_	_
@@ -529,9 +537,9 @@
 13	till	till	ADP	PP	_	12	advmod	_	_
 
 35353
-3	(	(	PUNCT	PAD	_	1	conj	_	_
+3	(	(	PUNCT	PAD	_	1	punct	_	_
 4	s	s	PROPN	PM|NOM	Case=Nom	3	name	_	_
-5	)	)	PUNCT	PAD	_	3	name	_	_
+5	)	)	PUNCT	PAD	_	3	punct	_	_
 ---
 3	(	(	PUNCT	PAD	_	4	punct	_	_
 4	s	s	PROPN	PM|NOM	Case=Nom	1	conj	_	_
@@ -604,6 +612,52 @@
 15	Svenska	svensk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	16	amod	_	_
 16	ostkustfiskarnas	ostkustfisk	NOUN	NN|UTR|PLU|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Plur	17	nmod:poss	_	_
 17	centralförbund	centralförbund	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	12	nmod	_	_
+
+40557
+2	Nej	nej	INTJ	IN	_	4	conj	_	_
+3	,	,	PUNCT	MID	_	4	punct	_	_
+4	anser	anse	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	Björn	Björn	PROPN	PM|NOM	Case=Nom	4	nsubj	_	_
+6	Gillberg	Gillberg	PROPN	PM|NOM	Case=Nom	5	name	_	_
+7	vid	vid	ADP	PP	_	10	case	_	_
+8	Lantbrukshögskolans	Lantbrukshögskolan	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	10	nmod:poss	_	_
+9	mikrobiologiska	mikrobiologisk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	10	amod	_	_
+10	institution	institution	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	nmod	_	_
+11	.	.	PUNCT	MAD	_	4	punct	_	_
+---
+2	Nej	nej	INTJ	IN	_	0	root	_	_
+3	,	,	PUNCT	MID	_	2	punct	_	_
+4	anser	anse	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+5	Björn	Björn	PROPN	PM|NOM	Case=Nom	4	nsubj	_	_
+6	Gillberg	Gillberg	PROPN	PM|NOM	Case=Nom	5	name	_	_
+7	vid	vid	ADP	PP	_	10	case	_	_
+8	Lantbrukshögskolans	Lantbrukshögskolan	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	10	nmod:poss	_	_
+9	mikrobiologiska	mikrobiologisk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	10	amod	_	_
+10	institution	institution	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	nmod	_	_
+11	.	.	PUNCT	MAD	_	2	punct	_	_
+
+40577
+2	Ja	ja	INTJ	IN	_	4	conj	_	_
+3	,	,	PUNCT	MID	_	4	punct	_	_
+4	anser	anse	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	Birger	Birger	PROPN	PM|NOM	Case=Nom	4	nsubj	_	_
+6	Svensson	Svensson	PROPN	PM|NOM	Case=Nom	5	name	_	_
+7	vid	vid	ADP	PP	_	8	case	_	_
+8	institutionen	institution	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	5	nmod	_	_
+9	för	för	ADP	PP	_	10	case	_	_
+10	växtodling	växtodling	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	nmod	_	_
+11	.	.	PUNCT	MAD	_	4	punct	_	_
+---
+2	Ja	ja	INTJ	IN	_	0	root	_	_
+3	,	,	PUNCT	MID	_	2	punct	_	_
+4	anser	anse	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+5	Birger	Birger	PROPN	PM|NOM	Case=Nom	4	nsubj	_	_
+6	Svensson	Svensson	PROPN	PM|NOM	Case=Nom	5	name	_	_
+7	vid	vid	ADP	PP	_	8	case	_	_
+8	institutionen	institution	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	5	nmod	_	_
+9	för	för	ADP	PP	_	10	case	_	_
+10	växtodling	växtodling	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	nmod	_	_
+11	.	.	PUNCT	MAD	_	2	punct	_	_
 
 41572
 12	utställningslokalen	utställningslokal	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	14	nmod	_	_
@@ -750,6 +804,11 @@
 28	som	som	CONJ	KN	_	29	mark	_	_
 29	ledamot	ledamot	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	18	xcomp	_	_
 
+48753
+3	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur	4	conj	_	_
+---
+3	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur	4	nsubj	_	_
+
 50328
 7	vid	vid	ADP	PP	_	8	case	_	_
 8	Statens	stat	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	5	nmod	_	_
@@ -798,6 +857,23 @@
 29	United	United	ADJ	UO	_	30	amod	_	_
 30	Nations	nation	NOUN	UO	_	26	nmod	_	_
 
+58858
+12	uppfattning	uppfattning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	22	conj	_	_
+---
+12	uppfattning	uppfattning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	22	nsubj	_	_
+
+58868
+22	given	given	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+23	och	och	CONJ	KN	_	27	cc	_	_
+---
+22	given	given	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	2	parataxis	_	_
+23	och	och	CONJ	KN	_	22	cc	_	_
+
+58873
+27	möjligt	möjlig	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	conj	_	_
+---
+27	möjligt	möjlig	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	22	conj	_	_
+
 59012
 13	i	i	ADP	PP	_	14	case	_	_
 14	Nya	ny	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	12	nmod	_	_
@@ -841,7 +917,7 @@
 17	International	International	PROPN	PM|NOM	Case=Nom	16	name	_	_
 18	Development	Development	PROPN	PM|NOM	Case=Nom	16	name	_	_
 19	Authority	Authority	PROPN	PM|NOM	Case=Nom	16	name	_	_
-20	)	)	PUNCT	PAD	_	16	mwe	_	_
+20	)	)	PUNCT	PAD	_	16	punct	_	_
 ---
 16	Swedish	Swedish	ADJ	JJ	_	19	amod	_	_
 17	International	International	ADJ	JJ	_	18	amod	_	_
@@ -885,6 +961,23 @@
 9	i	i	ADP	PP	_	11	case	_	_
 10	Nya	ny	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	11	amod	_	_
 11	testamentet	testamente	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	16	nmod	_	_
+
+76436
+31	,	,	PUNCT	MID	_	37	punct	_	_
+32	kanske	kanske	ADV	AB	_	35	advmod	_	_
+33	också	också	ADV	AB	_	35	advmod	_	_
+34	ogifta	ogift	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	35	amod	_	_
+35	syskon	syskon	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	37	conj	_	_
+36	,	,	PUNCT	MID	_	37	punct	_	_
+37	stannade	stanna	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	15	advcl	_	_
+---
+31	,	,	PUNCT	MID	_	30	punct	_	_
+32	kanske	kanske	ADV	AB	_	35	advmod	_	_
+33	också	också	ADV	AB	_	35	advmod	_	_
+34	ogifta	ogift	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	35	amod	_	_
+35	syskon	syskon	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	30	conj	_	_
+36	,	,	PUNCT	MID	_	30	punct	_	_
+37	stannade	stanna	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	15	conj	_	_
 
 82864
 5	i	i	ADP	PP	_	6	case	_	_
@@ -1194,7 +1287,7 @@
 
 88770
 7	Kibbutzchildren	Kibbutzchildren	PROPN	PM|NOM	Case=Nom	3	nmod	_	_
-8	-	-	PUNCT	MID	_	7	mwe	_	_
+8	-	-	PUNCT	MID	_	7	punct	_	_
 9	Researchfindings	Researchfindings	PROPN	PM|NOM	Case=Nom	7	mwe	_	_
 10	to	to	PROPN	PM|NOM	Case=Nom	7	mwe	_	_
 11	Date	Date	PROPN	PM|NOM	Case=Nom	7	mwe	_	_
@@ -1546,7 +1639,7 @@
 
 88370
 18	moshaverna	moshav	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	14	nmod	_	_
-19	,	,	PUNCT	MID	_	18	mwe	_	_
+19	,	,	PUNCT	MID	_	18	punct	_	_
 ---
 18	moshaverna	moshav	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	14	nmod	_	_
 19	,	,	PUNCT	MID	_	18	punct	_	_
@@ -1584,9 +1677,9 @@
 19	under	under	PROPN	PM|NOM	Case=Nom	16	mwe	_	_
 20	Conditions	Conditions	PROPN	PM|NOM	Case=Nom	16	mwe	_	_
 21	of	of	PROPN	PM|NOM	Case=Nom	16	mwe	_	_
-22	'	'	PUNCT	PAD	_	16	mwe	_	_
+22	'	'	PUNCT	PAD	_	16	punct	_	_
 23	Intermittent	Intermittent	PROPN	PM|NOM	Case=Nom	16	mwe	_	_
-24	'	'	PUNCT	PAD	_	16	mwe	_	_
+24	'	'	PUNCT	PAD	_	16	punct	_	_
 25	Mothering	Mothering	PROPN	PM|NOM	Case=Nom	16	mwe	_	_
 26	in	in	PROPN	PM|NOM	Case=Nom	16	mwe	_	_
 27	the	the	PROPN	PM|NOM	Case=Nom	16	mwe	_	_
@@ -1914,7 +2007,7 @@
 27	Gud	Gud	PROPN	PM|NOM	Case=Nom	25	mwe	_	_
 28	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	25	mwe	_	_
 29	sammanfogat	sammanfoga	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	25	mwe	_	_
-30	...	...	PUNCT	MAD	_	25	mwe	_	_
+30	...	...	PUNCT	MAD	_	25	punct	_	_
 ---
 25	Vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	29	dobj	_	_
 26	nu	nu	ADV	AB	_	29	advmod	_	_
