@@ -735,8 +735,18 @@ def retag(sentence):
         postag[sentence[5][4]] = "NOUN"
         postag[sentence[6][4]] = "VERB"
         postag[sentence[7][4]] = "NOUN"
-        deprel[sentence[6][4]] = "foreign"
-        deprel[sentence[7][4]] = "foreign"
+        features[sentence[5][4]] = "Case=Nom|Gender=Masc|Number=Sing"
+        features[sentence[6][4]] = "Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act"
+        features[sentence[7][4]] = "Case=Acc|Gender=Fem|Number=Sing"
+        head[sentence[1][4]] = 5
+        head[sentence[4][4]] = 9
+        head[sentence[5][4]] = 7
+        head[sentence[6][4]] = 5
+        head[sentence[7][4]] = 7
+        deprel[sentence[4][4]] = "advmod"
+        deprel[sentence[5][4]] = "nsubj"
+        deprel[sentence[6][4]] = "acl"
+        deprel[sentence[7][4]] = "dobj"
     if sentence[0][0] == "P402" and sentence[0][3] == 49:
         postag[sentence[6][4]] = "NOUN"
         postag[sentence[7][4]] = "NOUN"
