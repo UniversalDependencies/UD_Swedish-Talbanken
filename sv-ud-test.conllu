@@ -1696,7 +1696,7 @@
 18	Sverige	Sverige	PROPN	PM|NOM	Case=Nom	25	nmod	_	_
 19	är	vara	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	25	cop	_	_
 20	BNP	BNP	NOUN	NN|AN	_	25	nsubj	_	_
-21	/	/	ADP	MID	_	22	case	_	_
+21	/	/	SYM	MID	_	22	case	_	_
 22	person	person	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	20	nmod	_	_
 23	ca	ca	ADV	AB|AN	_	24	advmod	_	_
 24	13000	13000	NUM	RG|NOM	Case=Nom	25	nummod	_	_

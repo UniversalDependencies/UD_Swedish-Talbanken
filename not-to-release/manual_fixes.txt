@@ -22,15 +22,15 @@
 1	Södra	Södra	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	0	root	_	_
 2	Kyrkogatan	Kyrkogatan	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	1	name	_	_
 3	1	1	NUM	RG	_	1	nummod	_	_
-4	-	-	ADP	MID	_	5	case	_	_
+4	-	-	SYM	MID	_	5	case	_	_
 5	17	17	NUM	RG	_	1	nmod	_	_
 6	,	,	PUNCT	MID	_	1	punct	_	_
 7	2	2	NUM	RG	_	1	nummod	_	_
-8	-	-	ADP	MID	_	9	case	_	_
+8	-	-	SYM	MID	_	9	case	_	_
 9	18	18	NUM	RG	_	1	nmod	_	_
 10	50232	50232	NUM	RG	_	1	nummod	_	_
 11	19	19	NUM	RG	_	1	conj	_	_
-12	-	-	ADP	MID	_	11	case	_	_
+12	-	-	SYM	MID	_	11	case	_	_
 13	,	,	PUNCT	MID	_	12	punct	_	_
 14	20	20	NUM	RG	_	11	nummod	_	_
 15	-	-	PUNCT	MID	_	12	punct	_	_
@@ -39,18 +39,18 @@
 1	Södra	södra	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	2	amod	_	_
 2	Kyrkogatan	kyrkogata	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	0	root	_	_
 3	1	1	NUM	RG	_	2	nummod	_	_
-4	-	-	ADP	MID	_	5	case	_	_
+4	-	-	SYM	MID	_	5	case	_	_
 5	17	17	NUM	RG	_	3	nummod	_	_
 6	,	,	PUNCT	MID	_	3	punct	_	_
 7	2	2	NUM	RG	_	3	conj	_	_
-8	-	-	ADP	MID	_	9	case	_	_
+8	-	-	SYM	MID	_	9	case	_	_
 9	18	18	NUM	RG	_	7	nummod	_	_
 10	50232	50232	NUM	RG	_	2	nummod	_	_
 11	19	19	NUM	RG	_	2	conj	_	_
-12	-	-	ADP	MID	_	11	nummod	_	_
+12	-	-	SYM	MID	_	11	nummod	_	_
 13	,	,	PUNCT	MID	_	11	punct	_	_
 14	20	20	NUM	RG	_	11	conj	_	_
-15	-	-	PUNCT	MID	_	14	nummod	_	_
+15	-	-	SYM	MID	_	14	nummod	_	_
 16	50233	50233	NUM	RG	_	11	nummod	_	_
 
 4586

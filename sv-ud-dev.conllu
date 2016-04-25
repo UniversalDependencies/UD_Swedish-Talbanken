@@ -3069,7 +3069,7 @@
 55	om	om	ADP	PP	_	60	case	_	_
 56	högst	hög	ADV	AB|SUV	Degree=Sup	57	advmod	_	_
 57	femton	femton	NUM	RG|NOM	Case=Nom	60	nummod	_	_
-58	-	-	ADP	MID	_	59	case	_	_
+58	-	-	SYM	MID	_	59	case	_	_
 59	tjugo	tjugo	NUM	RG|NOM	Case=Nom	60	nummod	_	_
 60	år	år	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	54	nmod	_	_
 61	av	av	ADP	PP	_	63	case	_	_
@@ -3077,7 +3077,7 @@
 63	totalaktivitet	totalaktivitet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	54	nmod	_	_
 64	om	om	ADP	PP	_	68	case	_	_
 65	fyrtio	fyrtio	NUM	RG|NOM	Case=Nom	68	nummod	_	_
-66	-	-	ADP	MID	_	67	case	_	_
+66	-	-	SYM	MID	_	67	case	_	_
 67	femtio	femtio	NUM	RG|NOM	Case=Nom	68	nummod	_	_
 68	år	år	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	63	nmod	_	_
 69	,	,	PUNCT	MID	_	36	punct	_	_
@@ -3303,7 +3303,7 @@
 10	om	om	ADP	PP	_	11	case	_	_
 11	relationen	relation	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	nmod	_	_
 12	man	man	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	nmod	_	_
-13	-	-	ADP	MID	_	14	case	_	_
+13	-	-	SYM	MID	_	14	case	_	_
 14	kvinna	kvinna	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	nmod	_	_
 15	för	för	ADP	PP	_	17	case	_	_
 16	släktets	släkte	NOUN	NN|NEU|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	17	nmod:poss	_	_
@@ -6890,7 +6890,7 @@
 10	motsättning	motsättning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	dobj	_	_
 11	mellan	mellan	ADP	PP	_	12	case	_	_
 12	hemmafruar	hemmafru	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	10	nmod	_	_
-13	/	/	CONJ	MID	_	12	cc	_	_
+13	/	/	SYM	MID	_	12	cc	_	_
 14	yrkeskvinnor	yrkeskvinna	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	12	conj	_	_
 15	.	.	PUNCT	MAD	_	5	punct	_	_
 
@@ -6964,7 +6964,7 @@
 3	inte	inte	ADV	AB	_	2	neg	_	_
 4	om	om	ADP	PP	_	5	case	_	_
 5	hemmafruar	hemmafru	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	nmod	_	_
-6	/	/	CONJ	MID	_	5	cc	_	_
+6	/	/	SYM	MID	_	5	cc	_	_
 7	yrkeskvinnor	yrkeskvinna	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	5	conj	_	_
 8	.	.	PUNCT	MAD	_	2	punct	_	_
 
@@ -9684,23 +9684,23 @@
 12	mellan	mellan	ADP	PP	_	14	case	_	_
 13	t.ex.	t.ex.	ADV	AB|AN	_	14	advmod	_	_
 14	make	make	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	nmod	_	_
-15	-	-	CONJ	MID	_	14	cc	_	_
+15	-	-	SYM	MID	_	14	cc	_	_
 16	maka	maka	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	conj	_	_
 17	?	?	PUNCT	MID	_	14	punct	_	_
 18	föräldrar	förälder	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	14	conj	_	_
-19	-	-	CONJ	MID	_	18	cc	_	_
+19	-	-	SYM	MID	_	18	cc	_	_
 20	barn	barn	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	18	conj	_	_
 21	?	?	PUNCT	MID	_	18	punct	_	_
 22	lärare	lärare	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	conj	_	_
-23	-	-	CONJ	MID	_	22	cc	_	_
+23	-	-	SYM	MID	_	22	cc	_	_
 24	elev	elev	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	22	conj	_	_
 25	?	?	PUNCT	MID	_	22	punct	_	_
 26	arbetsgivare	arbetsgivare	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	conj	_	_
-27	-	-	CONJ	MID	_	26	cc	_	_
+27	-	-	SYM	MID	_	26	cc	_	_
 28	arbetstagare	arbetstagare	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	26	conj	_	_
 29	?	?	PUNCT	MID	_	26	punct	_	_
 30	läkare	läkare	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	conj	_	_
-31	-	-	CONJ	MID	_	30	cc	_	_
+31	-	-	SYM	MID	_	30	cc	_	_
 32	patient	patient	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	30	conj	_	_
 33	?	?	PUNCT	MAD	_	5	punct	_	_
 

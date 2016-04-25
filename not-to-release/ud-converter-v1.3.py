@@ -757,6 +757,9 @@ def retag(sentence):
     if sentence[0][0] == "P407" and sentence[0][3] == 27:
         postag[sentence[26][4]] = "ADP"
         postag[sentence[27][4]] = "ADJ"
+    for w in sentence:
+        if w[10] != "_" and w[10] in ["MID", "MAD", "PAD"] and deprel[w[4]] in ["case", "cc"]:
+            postag[w[4]] = "SYM"
     for w1 in sentence:
         if w1[10] != "_" and postag[w1[4]] == "VERB":
             for w2 in sentence:
