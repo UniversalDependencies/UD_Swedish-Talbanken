@@ -784,6 +784,13 @@ def retag(sentence):
                 postag[w1[4]] = "ADP"
             else:
                 deprel[w1[4]] = "punct"
+    for w1 in sentence:
+        if deprel[w1[4]] == "appos":
+            for w2 in sentence[w1[4]:]:
+                if head[w2[4]] == w1[4] and deprel[w2[4]] == "cc":
+                    for w3 in sentence[w2[4]:]:
+                        if head[w3[4]] == w1[4] and deprel[w3[4]] == "appos":
+                            deprel[w3[4]] = "conj"
 
 def map_features(lem, utag, mamtag, suctag, feats):
     ufeats = []

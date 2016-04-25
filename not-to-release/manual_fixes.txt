@@ -93,6 +93,11 @@
 17	Kungl	Kungl	ADJ	JJ|AN	_	18	amod	_	_
 18	Maj:t	Maj:t	NOUN	NN|AN	_	15	conj	_	_
 
+14282
+7	december	december	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	appos	_	_
+---
+7	december	december	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	nmod	_	_
+
 14471
 24	från	från	ADP	PP	_	25	case	_	_
 25	Allmänna	allmän	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	23	advmod	_	_
@@ -749,6 +754,11 @@
 ---
 5	göra	göra	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	3	csubjpass	_	_
 
+47978
+31	begrepp	begrepp	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	23	appos	_	_
+---
+31	begrepp	begrepp	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	23	parataxis	_	_
+
 48158
 8	över	över	ADP	PP	_	10	case	_	_
 9	ämnet	ämne	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	10	nmod	_	_
@@ -888,6 +898,11 @@
 14	Nya	ny	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	15	amod	_	_
 15	Testamentet	testamente	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	12	nmod	_	_
 
+66925
+20	dem	de	PRON	PN|UTR/NEU|PLU|DEF|OBJ	Case=Acc|Definite=Def|Number=Plur	18	appos	_	_
+---
+20	dem	de	PRON	PN|UTR/NEU|PLU|DEF|OBJ	Case=Acc|Definite=Def|Number=Plur	18	nmod	_	_
+
 67851
 4	i	i	ADP	PP	_	7	case	_	_
 5	samarbete	samarbete	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	4	mwe	_	_
@@ -967,6 +982,11 @@
 10	Nya	ny	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	11	amod	_	_
 11	testamentet	testamente	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	16	nmod	_	_
 
+76321
+29	ensamma	ensam	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	28	appos	_	_
+---
+29	ensamma	ensam	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	28	xcomp	_	_
+
 76436
 31	,	,	PUNCT	MID	_	37	punct	_	_
 32	kanske	kanske	ADV	AB	_	35	advmod	_	_
@@ -1008,6 +1028,11 @@
 ---
 14	Katolska	katolsk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	15	amod	_	_
 15	kyrkan	kyrka	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	16	nsubj	_	_
+
+85066
+29	orimligt	orimlig	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	28	appos	_	_
+---
+29	orimligt	orimlig	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	28	xcomp	_	_
 
 94324
 15	t.ex	t.ex	ADV	AB|AN	_	16	advmod	_	_

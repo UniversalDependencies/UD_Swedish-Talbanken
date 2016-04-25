@@ -11233,7 +11233,7 @@
 12	den	en	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing	13	det	_	_
 13	manisk-depressiva	manisk-depressiv	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	5	appos	_	_
 14	och	och	CONJ	KN	_	13	cc	_	_
-15	schizofrenin	schizofreni	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	13	appos	_	_
+15	schizofrenin	schizofreni	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	13	conj	_	_
 16	.	.	PUNCT	MAD	_	2	punct	_	_
 
 1	Den	en	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing	3	det	_	_
