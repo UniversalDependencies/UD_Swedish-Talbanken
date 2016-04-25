@@ -815,6 +815,10 @@ def map_features(lem, utag, mamtag, suctag, feats):
         ufeats.append("VerbForm=Part")
         if "Mood=Ind" in ufeats:
             ufeats.remove("Mood=Ind")
+    if utag == "VERB" and lem == "jfr" and ufeats == []:
+        ufeats = ["Mood=Imp", "VerbForm=Fin", "Voice=Act"]
+    if utag == "VERB" and lem == "läsa" and ufeats == []:
+        ufeats = ["VerbForm=Stem"]
     return ufeats
 
 def map_labels(sentence):

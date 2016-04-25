@@ -1717,7 +1717,7 @@
 11	d_v_s	d_v_s	ADV	AB|AN	_	12	advmod	_	_
 12	brist	brist	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	appos	_	_
 13	på	på	ADP	PP	_	14	case	_	_
-14	läs-	läsa	VERB	VB|SMS	_	12	nmod	_	_
+14	läs-	läsa	VERB	VB|SMS	VerbForm=Stem	12	nmod	_	_
 15	och	och	CONJ	KN	_	14	cc	_	_
 16	skrivkunnighet	skrivkunnighet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	conj	_	_
 17	;	;	PUNCT	MID	_	7	punct	_	_
