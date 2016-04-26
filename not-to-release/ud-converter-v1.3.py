@@ -809,6 +809,47 @@ def retag(sentence):
             postag[w1[4]] = "SCONJ"
             features[w1[4]] = "_"
 
+def pron_type(mamtag, lem):
+    if mamtag == "XX":
+        return "PronType=Rel"
+    elif mamtag == "ID":
+        if lem in ["annan", "någon", "samma", "två"]:
+            return "PronType=Ind"
+        elif lem in ["all", "allt", "varje"]:
+            return "PronType=Tot"
+        elif lem in ["denna"]:
+            return "PronType=Dem"
+        elif lem in ["som"]:
+            return "PronType=Rel"
+        elif lem in["vad"]:
+            return "PronType=Int"
+        else:
+            return "PronType=Prs"
+    elif mamtag[:2] == "EN":
+        return "PronType=Prs"
+    elif mamtag[:2] == "AB":
+        return "PronType=Ind"
+    elif mamtag[2:4] in ["PP", "DP", "OP", "XP"]:
+        return "PronType=Prs"
+    elif mamtag[2:4] == "CP":
+        return "PronType=Rcp"
+    elif mamtag[2:4] == "FP":
+        return "PronType=Int"
+    elif mamtag[2:4] == "RP":
+        return "PronType=Rel"
+    elif mamtag[2:4] == "TP":
+        return "PronType=Tot"
+    elif mamtag[2:4] == "NP":
+        return "PronType=Neg"
+    elif mamtag[2:4] in ["KP", "SU", "ZP"]:
+        return "PronType=Ind"
+    elif lem[:3] == "vad":
+        return "PronType=Int"
+    elif lem[:3] in ["den", "jag"] or lem[:2] in ["de", "du"]:
+        return "PronType=Prs"
+    else:
+        return "PronType=?"
+
 def map_features(lem, utag, mamtag, suctag, feats):
     ufeats = []
     for f in feats:
@@ -820,8 +861,8 @@ def map_features(lem, utag, mamtag, suctag, feats):
             ufeats = ufeats + suc2ufeat[f]
     if "VerbForm=Fin" in ufeats and not "Mood=Imp" in ufeats and not "Mood=Sub" in ufeats:
         ufeats = ufeats + ["Mood=Ind"]
-    if suctag in ["HA", "HD", "HP", "HS"]:
-        ufeats = ufeats + ["PronType=Int,Rel"]
+#    if suctag in ["HA", "HD", "HP", "HS"]:
+#        ufeats = ufeats + ["PronType=Int,Rel"]
     if suctag in ["HS", "PS"]:
         ufeats = ufeats + ["Poss=Yes"] # Test this!
     if utag == "ADJ" and suctag == "PC" and "VerbForm=Fin" in ufeats:
@@ -833,6 +874,15 @@ def map_features(lem, utag, mamtag, suctag, feats):
         ufeats = ["Mood=Imp", "VerbForm=Fin", "Voice=Act"]
     if utag == "VERB" and lem == "läsa" and ufeats == []:
         ufeats = ["VerbForm=Stem"]
+    if utag in ["DET", "PRON"] and not "PronType=Int,Rel" in ufeats:
+        if utag == "DET" and (lem[:2] == "en" or mamtag[:2] == "EN"):
+            ufeats.append("PronType=Art")
+        elif utag == "DET" and mamtag[:2] == "RO":
+            ufeats.append("PronType=Tot")
+        elif lem in ["denna"]:
+            ufeats.append("PronType=Dem")
+        else:
+            ufeats.append(pron_type(mamtag, lem))
     return ufeats
 
 def map_labels(sentence):
