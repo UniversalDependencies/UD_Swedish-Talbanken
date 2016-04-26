@@ -101,7 +101,7 @@
 6	som	som	PRON	HP|-|-|-	PronType=Rel	7	nsubjpass	_	_
 7	fastställs	fastställa	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	4	acl:relcl	_	_
 8	för	för	ADP	PP	_	10	case	_	_
-9	en	en	NUM	RG|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|NumType=Card|Number=Sing	10	nummod	_	_
+9	en	en	NUM	RG|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|NumType=Card	10	nummod	_	_
 10	månad	månad	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	nmod	_	_
 11	i	i	ADP	PP	_	10	nmod	_	_
 12	taget	tag	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	11	mwe	_	_
@@ -3491,7 +3491,7 @@
 10	)	)	PUNCT	PAD	_	5	punct	_	_
 11	under	under	ADP	PP	_	14	case	_	_
 12	minst	liten	ADV	AB|SUV	Degree=Sup	13	advmod	_	_
-13	ett	en	NUM	RG|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing	14	nummod	_	_
+13	ett	en	NUM	RG|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card	14	nummod	_	_
 14	år	år	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	4	nmod	_	_
 15	,	,	PUNCT	MID	_	20	punct	_	_
 16	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	20	aux	_	_
@@ -7988,7 +7988,7 @@
 17	inte	inte	ADV	AB	_	18	neg	_	_
 18	suttit	sitta	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	15	acl:relcl	_	_
 19	kvar	kvar	ADV	PL	_	18	compound:prt	_	_
-20	ett	en	NUM	RG|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing	23	nummod	_	_
+20	ett	en	NUM	RG|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card	23	nummod	_	_
 21	eller	eller	CONJ	KN	_	20	cc	_	_
 22	flera	flera	ADJ	JJ|POS|UTR/NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	20	conj	_	_
 23	år	år	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	18	nmod	_	_
@@ -11327,7 +11327,7 @@
 11	.	.	PUNCT	MAD	_	5	punct	_	_
 
 1	Ungefär	ungefär	ADV	AB	_	2	advmod	_	_
-2	en	en	NUM	RG|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|NumType=Card|Number=Sing	3	nummod	_	_
+2	en	en	NUM	RG|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|NumType=Card	3	nummod	_	_
 3	procent	procent	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	nsubj	_	_
 4	av	av	ADP	PP	_	5	case	_	_
 5	befolkningen	befolkning	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	3	nmod	_	_
@@ -11419,7 +11419,7 @@
 4	inte	inte	ADV	AB	_	5	neg	_	_
 5	fråga	fråga	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	_
 6	om	om	ADP	PP	_	9	case	_	_
-7	en	en	NUM	RG|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|NumType=Card|Number=Sing	9	nummod	_	_
+7	en	en	NUM	RG|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|NumType=Card	9	nummod	_	_
 8	enda	enda	ADJ	JJ|POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	9	det	_	_
 9	sjukdom	sjukdom	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	nmod	_	_
 10	utan	utan	CONJ	KN	_	9	cc	_	_
@@ -13291,7 +13291,7 @@
 
 1	Lägenheter	lägenhet	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	7	nsubj	_	_
 2	på	på	ADP	PP	_	4	case	_	_
-3	ett	en	NUM	RG|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing	4	nummod	_	_
+3	ett	en	NUM	RG|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card	4	nummod	_	_
 4	rum	rum	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	1	nmod	_	_
 5	och	och	CONJ	KN	_	4	cc	_	_
 6	kök	kök	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	4	conj	_	_
@@ -13809,7 +13809,7 @@
 17	köket	kök	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	18	nmod	_	_
 18	blev	bli	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	13	advcl	_	_
 19	minst	lite	ADV	AB|SUV	Degree=Sup	20	advmod	_	_
-20	ett	en	NUM	RG|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing	21	nummod	_	_
+20	ett	en	NUM	RG|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card	21	nummod	_	_
 21	rum	rum	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	18	xcomp	_	_
 22	per	per	ADP	PP	_	24	case	_	_
 23	två	två	NUM	RG|NOM	Case=Nom|NumType=Card	24	nummod	_	_
@@ -15863,7 +15863,7 @@
 14	senast	senast	ADV	AB|SUV	Degree=Sup	15	advmod	_	_
 15	1974/75	1974/75	NUM	RG|NOM	Case=Nom|NumType=Card	16	nmod	_	_
 16	utgör	utgöra	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	_
-17	en	en	NUM	RG|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|NumType=Card|Number=Sing	18	nummod	_	_
+17	en	en	NUM	RG|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|NumType=Card	18	nummod	_	_
 18	procent	procent	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	dobj	_	_
 19	av	av	ADP	PP	_	20	case	_	_
 20	bruttonationalprodukten	bruttonationalprodukt	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	18	nmod	_	_
@@ -18280,7 +18280,7 @@
 9	ångestskapande	ångestskapande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Tense=Pres|VerbForm=Part	10	amod	_	_
 10	beroendet	beroende	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	5	nmod	_	_
 11	av	av	ADP	PP	_	14	case	_	_
-12	en	en	NUM	RG|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|NumType=Card|Number=Sing	14	nummod	_	_
+12	en	en	NUM	RG|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|NumType=Card	14	nummod	_	_
 13	enda	enda	ADJ	JJ|POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	14	det	_	_
 14	person	person	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	nmod	_	_
 15	-	-	PUNCT	MID	_	3	punct	_	_
@@ -18528,7 +18528,7 @@
 27	lilla	liten	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	28	amod	_	_
 28	familjen	familj	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	34	nsubj	_	_
 29	med	med	ADP	PP	_	33	case	_	_
-30	ett	en	NUM	RG|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing	33	nummod	_	_
+30	ett	en	NUM	RG|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card	33	nummod	_	_
 31	eller	eller	CONJ	KN	_	30	cc	_	_
 32	två	två	NUM	RG|NOM	Case=Nom|NumType=Card	30	nummod	_	_
 33	barn	barn	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	28	nmod	_	_
@@ -18554,7 +18554,7 @@
 14	sin	sig	DET	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
 15	arbetstid	arbetstid	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	nmod	_	_
 16	åt	åt	ADP	PP	_	20	case	_	_
-17	ett	en	NUM	RG|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing	20	nummod	_	_
+17	ett	en	NUM	RG|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card	20	nummod	_	_
 18	eller	eller	CONJ	KN	_	17	cc	_	_
 19	två	två	NUM	RG|NOM	Case=Nom|NumType=Card	17	nummod	_	_
 20	barn	barn	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	11	nmod	_	_
@@ -20612,7 +20612,7 @@
 9	(	(	PUNCT	PAD	_	5	punct	_	_
 10	ofta	ofta	ADV	AB|POS	Degree=Pos	13	advmod	_	_
 11	bara	bara	ADV	AB	_	13	advmod	_	_
-12	en	en	NUM	RG|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|NumType=Card|Number=Sing	13	nummod	_	_
+12	en	en	NUM	RG|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|NumType=Card	13	nummod	_	_
 13	part	part	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	parataxis	_	_
 14	)	)	PUNCT	PAD	_	5	punct	_	_
 15	.	.	PUNCT	MAD	_	5	punct	_	_

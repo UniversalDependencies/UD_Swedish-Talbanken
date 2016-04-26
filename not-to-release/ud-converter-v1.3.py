@@ -897,7 +897,7 @@ def map_labels(sentence):
             if w[11] != "_":
                 feats = w[11].split("|")
                 ufeats = map_features(w[12], postag[w[4]], w[8], w[10], feats)
-                ufeat_string = "|".join(sorted(ufeats))
+                ufeat_string = "|".join(sorted(ufeats, key=str.lower))
                 if ufeat_string != "":
                     features[w[4]] = ufeat_string
                 else:
