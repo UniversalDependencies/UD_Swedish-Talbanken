@@ -3252,7 +3252,7 @@
 6	att	att	SCONJ	SN	_	19	mark	_	_
 7	sådan	sån	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	8	det	_	_
 8	egendom	egendom	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	19	nsubj	_	_
-9	som	som	PRON	HP|-|-|-	PronType=Int,Rel	13	mark	_	_
+9	som	som	SCONJ	HP|-|-|-	_	13	mark	_	_
 10	annars	annars	ADV	AB	_	13	advmod	_	_
 11	skulle	skola	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	13	aux	_	_
 12	ha	ha	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	13	aux	_	_
@@ -9276,7 +9276,7 @@
 18	till	till	ADP	PP	_	20	case	_	_
 19	sådana	sån	ADJ	JJ|POS|UTR/NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	20	det	_	_
 20	tillstånd	tillstånd	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	17	nmod	_	_
-21	som	som	PRON	HP|-|-|-	PronType=Int,Rel	22	mark	_	_
+21	som	som	SCONJ	HP|-|-|-	_	22	mark	_	_
 22	betecknas	beteckna	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	20	acl	_	_
 23	som	som	CONJ	KN	_	25	mark	_	_
 24	senil	senil	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	25	amod	_	_
@@ -14073,7 +14073,7 @@
 9	till	till	ADP	PP	_	11	case	_	_
 10	sådan	sån	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	11	det	_	_
 11	byggnation	byggnation	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	nmod	_	_
-12	som	som	PRON	HP|-|-|-	PronType=Int,Rel	13	mark	_	_
+12	som	som	SCONJ	HP|-|-|-	_	13	mark	_	_
 13	anses	anse	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	11	acl	_	_
 14	mest	mycket	ADV	AB|SUV	Degree=Sup	15	advmod	_	_
 15	samhällsnyttig	samhällsnyttig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	13	xcomp	_	_
@@ -17339,7 +17339,7 @@
 7	,	,	PUNCT	MID	_	4	punct	_	_
 8	helst	gärna	ADV	AB|SUV	Degree=Sup	9	advmod	_	_
 9	sådana	sån	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur	4	conj	_	_
-10	som	som	PRON	HP|-|-|-	PronType=Int,Rel	12	mark	_	_
+10	som	som	SCONJ	HP|-|-|-	_	12	mark	_	_
 11	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	_
 12	kombineras	kombinera	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	9	acl	_	_
 13	med	med	ADP	PP	_	14	case	_	_
