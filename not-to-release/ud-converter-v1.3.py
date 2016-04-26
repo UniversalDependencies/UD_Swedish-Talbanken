@@ -883,6 +883,8 @@ def map_features(lem, utag, mamtag, suctag, feats):
             ufeats.append("PronType=Dem")
         else:
             ufeats.append(pron_type(mamtag, lem))
+    if utag == "NUM":
+        ufeats.append("NumType=Card")
     return ufeats
 
 def map_labels(sentence):
