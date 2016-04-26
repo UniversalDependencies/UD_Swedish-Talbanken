@@ -868,7 +868,7 @@
 25	Agriculture	Agriculture	NOUN	UO	_	23	conj	_	_
 26	Organization	Organization	NOUN	UO	_	21	appos	_	_
 27	of	of	ADP	UO	_	30	case	_	_
-28	the	the	DET	UO	_	30	det	_	_
+28	the	the	DET	UO	PronType=Art	30	det	_	_
 29	United	United	ADJ	UO	_	30	amod	_	_
 30	Nations	nation	NOUN	UO	_	26	nmod	_	_
 
@@ -1727,8 +1727,8 @@
 24	'	'	PUNCT	PAD	_	23	punct	_	_
 25	Mothering	Mothering	NOUN	NN	_	20	nmod	_	_
 26	in	in	ADP	PP	_	28	case	_	_
-27	the	the	DET	DT	_	28	det	_	_
-28	Kibbutz	Kibbutz	PROPN	PM|NOM	Case=Nom	25	nmod	_	_
+27	the	the	DET	DT	PronType=Art	28	det	_	_
+28	Kibbutz	Kibbutz	NOUN	NN	_	25	nmod	_	_
 29	.	.	PUNCT	MAD	_	16	punct	_	_
 
 63296
