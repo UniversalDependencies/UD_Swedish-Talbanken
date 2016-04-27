@@ -363,13 +363,13 @@
 14	ambassadörer	ambassadör	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	13	appos	_	_
 
 27021
-13	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	2	nsubj	_	_
+13	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	12	conj	_	_
 14	centralbanken	centralbanken	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	13	name	_	_
 15	(	(	PUNCT	PAD	_	13	punct	_	_
 16	riksbanken	riksbank	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	13	appos	_	_
 ---
 13	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	14	amod	_	_
-14	centralbanken	centralbanken	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
+14	centralbanken	centralbanken	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	conj	_	_
 15	(	(	PUNCT	PAD	_	14	punct	_	_
 16	riksbanken	riksbank	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	14	appos	_	_
 
@@ -379,14 +379,14 @@
 19	)	)	PUNCT	PAD	_	14	punct	_	_
 
 27028
-20	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	2	nsubj	_	_
+20	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	12	conj	_	_
 21	patentverket	patentverket	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	20	name	_	_
 ---
 20	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	21	amod	_	_
-21	patentverket	patentverket	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	_
+21	patentverket	patentverket	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	12	conj	_	_
 
 27030
-22	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	2	nsubj	_	_
+22	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	12	conj	_	_
 23	arbetsmarknadsverket	arbetsmarknadsverket	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	22	name	_	_
 24	(	(	PUNCT	PAD	_	22	punct	_	_
 25	arbetsförmedling	arbetsförmedling	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	22	appos	_	_
@@ -394,55 +394,55 @@
 27	)	)	PUNCT	PAD	_	22	punct	_	_
 ---
 22	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	23	amod	_	_
-23	arbetsmarknadsverket	arbetsmarknadsverket	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	_
+23	arbetsmarknadsverket	arbetsmarknadsverket	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	12	conj	_	_
 24	(	(	PUNCT	PAD	_	23	punct	_	_
 25	arbetsförmedling	arbetsförmedling	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	23	appos	_	_
 26	etc	etc	ADV	AB|AN	_	25	conj	_	_
 27	)	)	PUNCT	PAD	_	23	punct	_	_
 
 27036
-28	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	2	nsubj	_	_
+28	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	12	conj	_	_
 29	institutet	institutet	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	28	name	_	_
 30	för	för	ADP	PP	_	28	name	_	_
 31	företagsutbildning	företagsutbildning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	28	name	_	_
 ---
 28	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	29	amod	_	_
-29	institutet	institutet	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	_
+29	institutet	institutet	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	12	conj	_	_
 30	för	för	ADP	PP	_	31	case	_	_
 31	företagsutbildning	företagsutbildning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	29	nmod	_	_
 
 27040
-32	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	2	nsubj	_	_
+32	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	12	conj	_	_
 33	investeringsbanken	investeringsbank	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	32	name	_	_
 ---
 32	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	33	amod	_	_
-33	investeringsbanken	investeringsbank	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
+33	investeringsbanken	investeringsbank	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	conj	_	_
 
 27042
-34	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	2	nsubj	_	_
+34	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	12	conj	_	_
 35	forskningsnämnden	forskningsnämnd	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	34	name	_	_
 ---
 34	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	35	amod	_	_
-35	forskningsnämnden	forskningsnämnd	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
+35	forskningsnämnden	forskningsnämnd	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	conj	_	_
 
 27044
-36	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	2	nsubj	_	_
+36	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	12	conj	_	_
 37	lantbruksnämnden	lantbruksnämnd	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	36	name	_	_
 ---
 36	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	37	amod	_	_
-37	lantbruksnämnden	lantbruksnämnd	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
+37	lantbruksnämnden	lantbruksnämnd	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	conj	_	_
 
 27046
-38	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	2	nsubj	_	_
+38	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	12	conj	_	_
 39	förenade	förenade	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	38	name	_	_
 40	fackföreningsrörelsen	fackföreningsrörelse	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	38	name	_	_
 ---
 38	Europeiska	Europeiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	40	amod	_	_
 39	förenade	förenade	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	40	amod	_	_
-40	fackföreningsrörelsen	fackföreningsrörelse	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
+40	fackföreningsrörelsen	fackföreningsrörelse	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	conj	_	_
 
 27049
-41	AB	AB	PROPN	PM|NOM	Case=Nom	38	conj	_	_
+41	AB	AB	PROPN	PM|NOM	Case=Nom	12	conj	_	_
 42	Air	Air	PROPN	PM|NOM	Case=Nom	41	name	_	_
 43	Union	Union	PROPN	PM|NOM	Case=Nom	41	name	_	_
 44	(	(	PUNCT	PAD	_	41	punct	_	_
@@ -453,7 +453,7 @@
 ---
 41	AB	AB	NOUN	NN	_	43	nmod	_	_
 42	Air	Air	NOUN	NN	_	43	compound	_	_
-43	Union	Union	NOUN	NN	_	40	conj	_	_
+43	Union	Union	NOUN	NN	_	12	conj	_	_
 44	(	(	PUNCT	PAD	_	43	punct	_	_
 45	Europas	Europa	PROPN	PM|GEN	Case=Gen	47	nmod:poss	_	_
 46	samtliga	samtlig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	47	det	_	_
@@ -1077,6 +1077,11 @@
 ---
 3	Angeläget	angelägen	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
 4	nu	nu	ADV	AB	_	3	advmod	_	_
+
+101925
+17	satt	sitta	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	9	csubj	_	_
+---
+17	satt	sitta	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	_
 
 102129
 2	med	med	ADP	PP	_	5	case	_	_
@@ -2360,4 +2365,186 @@
 ---
 1	Dessa	denna	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Dem	2	det	_	_
 2	funktioner	funktion	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	nsubj	_	_
+
+19881
+14	få	få	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	19	csubj	_	_
+15	och	och	CONJ	KN	_	14	cc	_	_
+---
+14	få	få	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	5	conj	_	_
+15	och	och	CONJ	KN	_	5	cc	_	_
+
+19885
+18	utformas	utforma	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	14	csubj	_	_
+---
+18	utformas	utforma	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	5	conj	_	_
+
+99660
+27	står	stå	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	csubjpass	_	_
+---
+27	står	stå	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	_
+
+100692
+1	Vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Prs	14	nsubj	_	_
+---
+1	Vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Prs	7	nsubj	_	_
+
+100698
+7	är	vara	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	_	_
+8	dels	dels	CONJ	KN	_	14	advmod	_	_
+---
+7	är	vara	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	dels	dels	CONJ	KN	_	7	advmod	_	_
+
+100705
+14	beständig	beständig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	0	root	_	_
+---
+14	beständig	beständig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	7	ccomp	_	_
+
+17694
+17	öppen	öppen	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	10	csubj	_	_
+---
+17	öppen	öppen	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	10	conj	_	_
+
+23114
+26	fyllt	fylla	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	14	csubj	_	_
+---
+26	fyllt	fylla	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	14	conj	_	_
+
+23129
+41	söker	söka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	csubj	_	_
+---
+41	söker	söka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	conj	_	_
+
+23138
+50	medföra	medföra	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	1	csubj	_	_
+---
+50	medföra	medföra	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	14	conj	_	_
+
+23154
+66	planerats	planera	VERB	VB|SUP|SFO	VerbForm=Sup|Voice=Pass	1	csubj	_	_
+---
+66	planerats	planera	VERB	VB|SUP|SFO	VerbForm=Sup|Voice=Pass	14	conj	_	_
+
+23117
+29	(	(	PUNCT	PAD	_	1	punct	_	_
+30	undantag	undantag	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	31	nsubj	_	_
+31	finns	finnas	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+---
+29	(	(	PUNCT	PAD	_	26	punct	_	_
+30	undantag	undantag	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	31	nsubj	_	_
+31	finns	finnas	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin	26	parataxis	_	_
+
+23124
+36	)	)	PUNCT	PAD	_	1	punct	_	_
+37	.	.	PUNCT	MAD	_	1	punct	_	_
+38	-	-	PUNCT	MID	_	1	punct	_	_
+---
+36	)	)	PUNCT	PAD	_	26	punct	_	_
+37	.	.	PUNCT	MAD	_	26	punct	_	_
+38	-	-	PUNCT	MID	_	41	punct	_	_
+
+23133
+45	.	.	PUNCT	MAD	_	1	punct	_	_
+46	-	-	PUNCT	MID	_	1	punct	_	_
+---
+45	.	.	PUNCT	MAD	_	41	punct	_	_
+46	-	-	PUNCT	MID	_	50	punct	_	_
+
+23150
+62	.	.	PUNCT	MAD	_	1	punct	_	_
+63	-	-	PUNCT	MID	_	1	punct	_	_
+---
+62	.	.	PUNCT	MAD	_	50	punct	_	_
+63	-	-	PUNCT	MID	_	66	punct	_	_
+
+23110
+22	-	-	PUNCT	MID	_	14	punct	_	_
+---
+22	-	-	PUNCT	MID	_	26	punct	_	_
+
+23641
+15	-	-	PUNCT	MID	_	14	punct	_	_
+---
+15	-	-	PUNCT	MID	_	20	punct	_	_
+
+23646
+20	erhållas	erhålla	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	1	csubj	_	_
+---
+20	erhållas	erhålla	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	14	conj	_	_
+
+23653
+27	-	-	PUNCT	MID	_	20	punct	_	_
+---
+27	-	-	PUNCT	MID	_	30	punct	_	_
+
+23656
+30	gäller	gälla	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	csubj	_	_
+---
+30	gäller	gälla	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	conj	_	_
+
+23666
+40	-	-	PUNCT	MID	_	30	punct	_	_
+---
+40	-	-	PUNCT	MID	_	47	punct	_	_
+
+23673
+47	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	csubj	_	_
+---
+47	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	conj	_	_
+
+23683
+57	-	-	PUNCT	MID	_	47	punct	_	_
+---
+57	-	-	PUNCT	MID	_	60	punct	_	_
+
+23686
+60	fått	få	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	47	csubj	_	_
+---
+60	fått	få	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	14	conj	_	_
+
+100715
+24	.	.	PUNCT	MAD	_	14	punct	_	_
+---
+24	.	.	PUNCT	MAD	_	7	punct	_	_
+
+49343
+12	och	och	CONJ	KN	_	3	cc	_	_
+13	klister	klister	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	conj	_	_
+---
+12	och	och	CONJ	KN	_	11	cc	_	_
+13	klister	klister	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	11	conj	_	_
+
+53597
+12	tog	ta	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	csubj	_	_
+---
+12	tog	ta	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
+
+63166
+2	effekten	effekt	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	nsubj	_	_
+3	,	,	PUNCT	MID	_	12	punct	_	_
+---
+2	effekten	effekt	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	0	root	_	_
+3	,	,	PUNCT	MID	_	2	punct	_	_
+
+63176
+12	förefaller	förefalla	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+---
+12	förefaller	förefalla	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+
+76171
+18	utesluter	utesluta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	csubj	_	_
+---
+18	utesluter	utesluta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	_
+
+85338
+28	intresse	intresse	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	11	csubj	_	_
+---
+28	intresse	intresse	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	11	conj	_	_
+
+78485
+25	eller	eller	CONJ	KN	_	20	cc	_	_
+26	pappan	pappa	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	20	conj	_	_
+---
+25	eller	eller	CONJ	KN	_	24	cc	_	_
+26	pappan	pappa	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	24	conj	_	_
 
