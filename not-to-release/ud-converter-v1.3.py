@@ -808,6 +808,24 @@ def retag(sentence):
         if deprel[w1[4]] == "mark" and postag[w1[4]] == "PRON" and w1[7] == "som":
             postag[w1[4]] = "SCONJ"
             features[w1[4]] = "_"
+    for w1 in sentence:
+        if deprel[w1[4]] == "case":
+            for w2 in sentence[w1[4]:]:
+                if head[w1[4]] == w2[4] and deprel[w2[4]] in ["ccomp", "xcomp", "advcl", "acl", "acl:relcl"]:
+                    if postag[w2[4]] not in ["AUX", "VERB"]:
+                        for w3 in sentence[w1[4]:]:
+                            if head[w3[4]] == w2[4] and deprel[w3[4]] == "cop":
+                                deprel[w1[4]] = "mark"
+                    else:
+                        deprel[w1[4]] = "mark"
+                        for w3 in sentence[:w1[4]-1]:
+                            if w3[10] != "_" and head[w3[4]] == w2[4] and not deprel[w3[4]] in ["advmod", "mark", "punct"]:
+                                deprel[w1[4]] = "case"
+                                break
+
+# cp new -> old
+# add check for non-intervening non-mark
+# compare new old
 
 def pron_type(mamtag, lem):
     if mamtag == "XX":
