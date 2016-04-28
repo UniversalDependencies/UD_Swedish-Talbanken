@@ -812,23 +812,15 @@ def retag(sentence):
         if deprel[w1[4]] == "case":
             for w2 in sentence[w1[4]:]:
                 if head[w1[4]] == w2[4] and deprel[w2[4]] in ["ccomp", "xcomp", "advcl", "acl", "acl:relcl"]:
-# Scrap case for non-verbs; clausal structures require mark; only case for internal ones!
-#                    if postag[w2[4]] not in ["AUX", "VERB"]:
-#                        for w3 in sentence[w1[4]:]:
-#                            if head[w3[4]] == w2[4] and deprel[w3[4]] in ["cop", "mark"]:
-#                                deprel[w1[4]] = "mark"
-#                        if deprel[w1[4]] == "case" and deprel[w2[4]] in ["advcl", "acl"]:
-#                            deprel[w2[4]] = "nmod"
-#                    else:
                     deprel[w1[4]] = "mark"
                     for w3 in sentence[:w1[4]-1]:
                         if w3[10] != "_" and head[w3[4]] == w2[4] and not deprel[w3[4]] in ["advmod", "punct"]:
                             deprel[w1[4]] = "case"
                             break
-
-# cp new -> old
-# add check for non-intervening non-mark
-# compare new old
+                elif head[w1[4]] == w2[4] and deprel[w2[4]] in ["conj"]:
+                    for w3 in sentence[w1[4]:w2[4]-1]:
+                        if deprel[w3[4]] == "mark":
+                            deprel[w1[4]] = "mark"
 
 def pron_type(mamtag, lem):
     if mamtag == "XX":

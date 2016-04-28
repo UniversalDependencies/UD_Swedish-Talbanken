@@ -348,7 +348,7 @@
 27	tar	ta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	25	conj	_	_
 28	hand	hand	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	27	compound:prt	_	_
 29	om	om	ADP	PP	_	27	case	_	_
-30	dem	de	PRON	PN|UTR/NEU|PLU|DEF|OBJ	Case=Acc|Definite=Def|Number=Plur|PronType=Prs	25	nmod	_	_
+30	dem	de	PRON	PN|UTR/NEU|PLU|DEF|OBJ	Case=Acc|Definite=Def|Number=Plur|PronType=Prs	25	dobj	_	_
 31	i	i	ADP	PP	_	33	case	_	_
 32	svåra	svår	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	33	amod	_	_
 33	situationer	situation	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	25	nmod	_	_
@@ -1009,7 +1009,7 @@
 25	på	på	ADP	PP	_	26	case	_	_
 26	personlighetsutvecklingen	personlighetsutveckling	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	24	nmod	_	_
 27	och	och	CONJ	KN	_	21	cc	_	_
-28	för	för	ADP	PP	_	30	case	_	_
+28	för	för	ADP	PP	_	30	mark	_	_
 29	att	att	PART	IE	_	30	mark	_	_
 30	få	få	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	21	conj	_	_
 31	uppslag	uppslag	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	30	dobj	_	_
@@ -7027,7 +7027,7 @@
 15	hemma	hemma	ADV	AB	_	14	advmod	_	_
 16	,	,	PUNCT	MID	_	11	punct	_	_
 17	t.ex.	t.ex.	ADV	AB|AN	_	20	advmod	_	_
-18	mellan	mellan	ADP	PP	_	20	case	_	_
+18	mellan	mellan	ADP	PP	_	20	mark	_	_
 19	att	att	PART	IE	_	20	mark	_	_
 20	ha	ha	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	11	conj	_	_
 21	barn	barn	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	20	dobj	_	_
@@ -8432,7 +8432,7 @@
 11	barnfamiljerna	barnfamilj	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	8	nmod	_	_
 12	men	men	CONJ	KN	_	1	cc	_	_
 13	inte	inte	ADV	AB	_	20	neg	_	_
-14	för	för	ADP	PP	_	20	case	_	_
+14	för	för	ADP	PP	_	20	mark	_	_
 15	att	att	SCONJ	SN	_	20	mark	_	_
 16	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	20	nsubj	_	_
 17	kanske	kanske	ADV	AB	_	20	advmod	_	_
