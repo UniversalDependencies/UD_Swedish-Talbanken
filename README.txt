@@ -31,9 +31,9 @@ BASIC STATISTICS
 Tree count:  6026
 Word count:  96819
 Token count: 96819
-Dep. relations: 39 of which 4 language specific
-POS tags: 15
-Category=value feature pairs: 27
+Dep. relations: 38 of which 4 language specific
+POS tags: 16
+Category=value feature pairs: 37
 
 TOKENIZATION
 
@@ -113,8 +113,16 @@ From v1.1 to v1.2, complex names and multiword expressions have been
 manually validated. As a result, the annotation of complex names now
 conforms to the universal guidelines.
 
-From v1.2 to v1.3, we fixed the following annotation bugs:
-- Copula verbs are now tagged VERB, not AUX
+From v1.2 to v1.3, we fixed the following annotation bugs/inconsistencies:
+- All conj relations are now left-headed
+- No mark relations are filled by PRON
+- All punct relations are filled by PUNCT (and vice versa)
+- All cop relations are filled by VERB (not AUX)
+- All DET and PRON have a PronType feature
+- All AUX and VERB have a VerbType feature
+- All NUM have a NumType features
+- No predicate has more than one subject (except expl + nsubj/csubj)
+- No case relations attach to predicates
 
 --- Machine readable metadaa ---
 
