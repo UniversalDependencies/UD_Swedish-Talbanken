@@ -3028,7 +3028,7 @@
 14	levnadsåren	levnadsår	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	17	nmod	_	_
 15	är	vara	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	17	cop	_	_
 16	starkt	stark	ADV	AB|POS	Degree=Pos	17	advmod	_	_
-17	beroende	beroende	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Tense=Pres|VerbForm=Part	6	acl	_	_
+17	beroende	beroende	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Tense=Pres|VerbForm=Part	6	conj	_	_
 18	av	av	ADP	PP	_	19	case	_	_
 19	modern	mor	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	17	nmod	_	_
 20	(	(	PUNCT	PAD	_	19	punct	_	_
@@ -3844,7 +3844,7 @@
 12	kvinnans	kvinna	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	13	nmod:poss	_	_
 13	rätt	rätt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	conj	_	_
 14	att	att	PART	IE	_	16	mark	_	_
-15	själv	själv	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	16	acl	_	_
+15	själv	själv	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	16	amod	_	_
 16	bestämma	bestämma	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	13	acl	_	_
 17	över	över	ADP	PP	_	19	case	_	_
 18	sitt	sig	DET	PS|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
@@ -3862,7 +3862,7 @@
 30	förverkligas	förverkliga	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	16	advcl	_	_
 31	samtidigt	samtidig	ADV	AB	_	30	advmod	_	_
 32	eller	eller	CONJ	KN	_	30	cc	_	_
-33	var	vara	PRON	PN|UTR|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	30	acl	_	_
+33	var	vara	PRON	PN|UTR|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	30	amod	_	_
 34	för	för	ADP	PP	_	33	mwe	_	_
 35	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def|PronType=Prs	33	mwe	_	_
 36	under	under	ADP	PP	_	38	case	_	_
@@ -4503,7 +4503,7 @@
 4	varför	varför	ADV	HA	_	8	advmod	_	_
 5	han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	nsubj	_	_
 6	inte	inte	ADV	AB	_	8	neg	_	_
-7	själv	själv	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	8	acl	_	_
+7	själv	själv	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	8	amod	_	_
 8	försöker	försöka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	_
 9	delta	delta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	8	xcomp	_	_
 10	i	i	ADP	PP	_	13	case	_	_
@@ -6173,7 +6173,7 @@
 5	slantarna	slant	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	3	nmod	_	_
 6	.	.	PUNCT	MAD	_	3	punct	_	_
 
-1	Själv	själv	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	4	acl	_	_
+1	Själv	själv	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	4	amod	_	_
 2	är	vara	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	4	nsubj	_	_
 4	gift	gift	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -6209,7 +6209,7 @@
 18	arbete	arbete	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	11	nmod	_	_
 19	...	...	PUNCT	MAD	_	11	punct	_	_
 
-1	Själv	själv	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	2	acl	_	_
+1	Själv	själv	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	2	amod	_	_
 2	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	_
 4	inte	inte	ADV	AB	_	2	neg	_	_
@@ -6497,7 +6497,7 @@
 18	kvinna	kvinna	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	23	nsubj	_	_
 19	inte	inte	ADV	AB	_	23	neg	_	_
 20	längre	länge	ADV	AB|KOM	Degree=Cmp	23	advmod	_	_
-21	själv	själv	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	23	acl	_	_
+21	själv	själv	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	23	amod	_	_
 22	få	få	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	23	aux	_	_
 23	bestämma	bestämma	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	6	parataxis	_	_
 24	sin	sig	DET	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
@@ -6808,7 +6808,7 @@
 11	hur	hur	ADV	HA	_	12	advmod	_	_
 12	dåligt	dålig	ADV	AB|POS	Degree=Pos	15	advmod	_	_
 13	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	14	nsubjpass	_	_
-14	tvingas	tvinga	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	5	ccomp	_	_
+14	tvingas	tvinga	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	5	conj	_	_
 15	bo	bo	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	14	xcomp	_	_
 16	.	.	PUNCT	MAD	_	2	punct	_	_
 

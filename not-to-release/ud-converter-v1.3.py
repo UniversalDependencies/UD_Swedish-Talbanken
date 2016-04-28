@@ -811,7 +811,7 @@ def retag(sentence):
     for w1 in sentence:
         if deprel[w1[4]] == "case":
             for w2 in sentence[w1[4]:]:
-                if head[w1[4]] == w2[4] and deprel[w2[4]] in ["ccomp", "xcomp", "advcl", "acl", "acl:relcl"]:
+                if head[w1[4]] == w2[4] and deprel[w2[4]] in ["csubj", "csubjpass", "ccomp", "xcomp", "advcl", "acl", "acl:relcl"]:
                     deprel[w1[4]] = "mark"
                     for w3 in sentence[:w1[4]-1]:
                         if w3[10] != "_" and head[w3[4]] == w2[4] and not deprel[w3[4]] in ["advmod", "punct"]:
@@ -821,6 +821,13 @@ def retag(sentence):
                     for w3 in sentence[w1[4]:w2[4]-1]:
                         if deprel[w3[4]] == "mark":
                             deprel[w1[4]] = "mark"
+    for w1 in sentence:
+        if deprel[w1[4]] in ["xcomp", "ccomp", "csubj", "csubjpass", "advcl", "acl", "acl:relcl"]:
+            for w2 in sentence[w1[4]:]:
+                if deprel[w2[4]] == "cc" and head[w2[4]] == w1[4]:
+                    for w3 in sentence[w2[4]:]:
+                        if head[w3[4]] == w1[4] and deprel[w3[4]] == deprel[w1[4]]:
+                            deprel[w3[4]] = "conj"
 
 def pron_type(mamtag, lem):
     if mamtag == "XX":
@@ -1007,7 +1014,7 @@ def dep_label(offset, root, label, word):
         return "root"
     elif label != "":
         return label
-    elif word[9][-2:] in ["++", "+H"]:
+    elif word[9][-2:] in ["++", "+H"]: 
         return "cc"
     elif word[9][-2:] in ["+F", "MS"]:   # To do: Detect phrase coordination
         return "conj"
@@ -1025,7 +1032,7 @@ def dep_label(offset, root, label, word):
             return "nmod:agent"
     elif word[9][-2:] in ["AN", "AO"] or word[9][-4:] in ["ANSP", "ANSQ"]:
         return "appos"
-    elif word[9][-2:] in ["AT", "AU", "AV", "XT"]:   # To do: Check part of speech
+    elif word[9][-2:] in ["AT", "AU", "AV", "XT", "FP"]:   # To do: Check part of speech # Add FP
         return "amod"
     elif word[9][-2:] in ["DB", "XF"]:   # Wild guess
         return "dislocated"

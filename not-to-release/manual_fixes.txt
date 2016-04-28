@@ -47,10 +47,10 @@
 9	18	18	NUM	RG|NOM	Case=Nom|NumType=Card	7	nummod	_	_
 10	50232	50232	NUM	RG|NOM	Case=Nom|NumType=Card	2	nummod	_	_
 11	19	19	NUM	RG|NOM	Case=Nom|NumType=Card	2	conj	_	_
-12	-	-	SYM	MID	_	11	nummod	_	_
+12	-	-	SYM	MID	_	11	case	_	_
 13	,	,	PUNCT	MID	_	11	punct	_	_
 14	20	20	NUM	RG|NOM	Case=Nom|NumType=Card	11	conj	_	_
-15	-	-	SYM	MID	_	14	nummod	_	_
+15	-	-	SYM	MID	_	14	case	_	_
 16	50233	50233	NUM	RG|NOM	Case=Nom|NumType=Card	11	nummod	_	_
 
 4586
@@ -994,7 +994,7 @@
 34	ogifta	ogift	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	35	amod	_	_
 35	syskon	syskon	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	37	conj	_	_
 36	,	,	PUNCT	MID	_	37	punct	_	_
-37	stannade	stanna	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	15	advcl	_	_
+37	stannade	stanna	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	15	conj	_	_
 ---
 31	,	,	PUNCT	MID	_	30	punct	_	_
 32	kanske	kanske	ADV	AB	_	35	advmod	_	_
@@ -2374,7 +2374,7 @@
 15	och	och	CONJ	KN	_	5	cc	_	_
 
 19885
-18	utformas	utforma	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	14	csubj	_	_
+18	utformas	utforma	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	14	conj	_	_
 ---
 18	utformas	utforma	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	5	conj	_	_
 
@@ -2399,16 +2399,6 @@
 14	beständig	beständig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	0	root	_	_
 ---
 14	beständig	beständig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	7	ccomp	_	_
-
-17694
-17	öppen	öppen	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	10	csubj	_	_
----
-17	öppen	öppen	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	10	conj	_	_
-
-23114
-26	fyllt	fylla	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	14	csubj	_	_
----
-26	fyllt	fylla	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	14	conj	_	_
 
 23129
 41	söker	söka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	csubj	_	_
@@ -2530,16 +2520,6 @@
 12	förefaller	förefalla	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 ---
 12	förefaller	förefalla	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
-
-76171
-18	utesluter	utesluta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	csubj	_	_
----
-18	utesluter	utesluta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	_
-
-85338
-28	intresse	intresse	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	11	csubj	_	_
----
-28	intresse	intresse	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	11	conj	_	_
 
 78485
 25	eller	eller	CONJ	KN	_	20	cc	_	_
