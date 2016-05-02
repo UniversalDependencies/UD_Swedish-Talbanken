@@ -2169,13 +2169,13 @@
 28	tillhörde	tillhöra	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	25	acl:relcl	_	_
 29	England	England	PROPN	PM|NOM	Case=Nom	28	dobj	_	_
 30	,	,	PUNCT	MID	_	29	punct	_	_
-31	Frankrike	Frankrike	PROPN	PM|NOM	Case=Nom	28	dobj	_	_
-32	,	,	PUNCT	MID	_	31	punct	_	_
-33	Holland	Holland	PROPN	PM|NOM	Case=Nom	28	dobj	_	_
-34	,	,	PUNCT	MID	_	33	punct	_	_
-35	Belgien	Belgien	PROPN	PM|NOM	Case=Nom	28	dobj	_	_
-36	eller	eller	CONJ	KN	_	35	cc	_	_
-37	Portugal	Portugal	PROPN	PM|NOM	Case=Nom	35	conj	_	_
+31	Frankrike	Frankrike	PROPN	PM|NOM	Case=Nom	29	conj	_	_
+32	,	,	PUNCT	MID	_	29	punct	_	_
+33	Holland	Holland	PROPN	PM|NOM	Case=Nom	29	conj	_	_
+34	,	,	PUNCT	MID	_	29	punct	_	_
+35	Belgien	Belgien	PROPN	PM|NOM	Case=Nom	29	conj	_	_
+36	eller	eller	CONJ	KN	_	29	cc	_	_
+37	Portugal	Portugal	PROPN	PM|NOM	Case=Nom	29	conj	_	_
 38	.	.	PUNCT	MAD	_	14	punct	_	_
 
 1	Vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Prs	13	nsubjpass	_	_
@@ -10075,9 +10075,9 @@
 7	i	i	ADP	PP	_	8	case	_	_
 8	hjärnan	hjärna	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	6	nmod	_	_
 9	,	,	PUNCT	MID	_	6	punct	_	_
-10	hjärnblödning	hjärnblödning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	dobj	_	_
-11	eller	eller	CONJ	KN	_	10	cc	_	_
-12	blodpropp	blodpropp	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	conj	_	_
+10	hjärnblödning	hjärnblödning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	conj	_	_
+11	eller	eller	CONJ	KN	_	6	cc	_	_
+12	blodpropp	blodpropp	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	conj	_	_
 13	i	i	ADP	PP	_	15	case	_	_
 14	hjärnans	hjärna	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	15	nmod:poss	_	_
 15	kärl	kärl	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	12	nmod	_	_
@@ -14067,9 +14067,9 @@
 3	friställa	friställa	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	17	advcl	_	_
 4	kapital	kapital	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	dobj	_	_
 5	,	,	PUNCT	MID	_	4	punct	_	_
-6	material	material	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	dobj	_	_
-7	och	och	CONJ	KN	_	6	cc	_	_
-8	arbetskraft	arbetskraft	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	conj	_	_
+6	material	material	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	4	conj	_	_
+7	och	och	CONJ	KN	_	4	cc	_	_
+8	arbetskraft	arbetskraft	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	conj	_	_
 9	till	till	ADP	PP	_	11	case	_	_
 10	sådan	sån	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	11	det	_	_
 11	byggnation	byggnation	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	nmod	_	_
@@ -15678,10 +15678,10 @@
 12	organisera	organisera	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	10	conj	_	_
 13	kommunikationer	kommunikation	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	10	dobj	_	_
 14	,	,	PUNCT	MID	_	13	punct	_	_
-15	jordbruk	jordbruk	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	10	dobj	_	_
-16	och	och	CONJ	KN	_	15	cc	_	_
-17	industri	industri	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	15	conj	_	_
-18	,	,	PUNCT	MID	_	15	punct	_	_
+15	jordbruk	jordbruk	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	13	conj	_	_
+16	och	och	CONJ	KN	_	13	cc	_	_
+17	industri	industri	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	conj	_	_
+18	,	,	PUNCT	MID	_	13	punct	_	_
 19	skolor	skola	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	10	dobj	_	_
 20	,	,	PUNCT	MID	_	19	punct	_	_
 21	universitet	universitet	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	10	dobj	_	_
@@ -17336,9 +17336,9 @@
 4	ha	ha	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	0	root	_	_
 5	kvinnliga	kvinnlig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
 6	yrken	yrke	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	4	dobj	_	_
-7	,	,	PUNCT	MID	_	4	punct	_	_
+7	,	,	PUNCT	MID	_	6	punct	_	_
 8	helst	gärna	ADV	AB|SUV	Degree=Sup	9	advmod	_	_
-9	sådana	sån	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur|PronType=Ind	4	conj	_	_
+9	sådana	sån	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur|PronType=Ind	6	parataxis	_	_
 10	som	som	SCONJ	HP|-|-|-	_	12	mark	_	_
 11	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	_
 12	kombineras	kombinera	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	9	acl	_	_
@@ -17346,8 +17346,8 @@
 14	tillvaron	tillvaro	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	nmod	_	_
 15	som	som	CONJ	KN	_	16	mark	_	_
 16	hemmafru	hemmafru	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	appos	_	_
-17	eller	eller	CONJ	KN	_	4	cc	_	_
-18	yrken	yrke	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	4	dobj	_	_
+17	eller	eller	CONJ	KN	_	6	cc	_	_
+18	yrken	yrke	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	6	conj	_	_
 19	som	som	PRON	HP|-|-|-	PronType=Rel	20	nsubj	_	_
 20	hjälper	hjälpa	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	18	acl:relcl	_	_
 21	dem	de	PRON	PN|UTR/NEU|PLU|DEF|OBJ	Case=Acc|Definite=Def|Number=Plur|PronType=Prs	20	dobj	_	_
@@ -18919,9 +18919,9 @@
 22	barnens	barn	NOUN	NN|NEU|PLU|DEF|GEN	Case=Gen|Definite=Def|Gender=Neut|Number=Plur	23	nmod:poss	_	_
 23	hus	hus	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	21	dobj	_	_
 24	,	,	PUNCT	MID	_	23	punct	_	_
-25	ungdomsgård	ungdomsgård	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	21	dobj	_	_
-26	,	,	PUNCT	MID	_	25	punct	_	_
-27	hobbylokaler	hobbylokal	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	25	conj	_	_
+25	ungdomsgård	ungdomsgård	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	23	conj	_	_
+26	,	,	PUNCT	MID	_	23	punct	_	_
+27	hobbylokaler	hobbylokal	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	23	conj	_	_
 28	.	.	PUNCT	MAD	_	3	punct	_	_
 
 1	Barnens	barn	NOUN	NN|NEU|PLU|DEF|GEN	Case=Gen|Definite=Def|Gender=Neut|Number=Plur	2	nmod:poss	_	_
