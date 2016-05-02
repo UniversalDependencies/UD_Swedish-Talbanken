@@ -2533,3 +2533,13 @@
 25	eller	eller	CONJ	KN	_	24	cc	_	_
 26	pappan	pappa	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	24	conj	_	_
 
+17564
+19	*	*	PUNCT	MID	_	18	punct	_	_
+---
+19	*	*	PUNCT	MID	_	21	punct	_	_
+
+37440
+15	*	*	PUNCT	MID	_	14	punct	_	_
+---
+15	*	*	PUNCT	MID	_	16	punct	_	_
+
