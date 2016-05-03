@@ -15679,14 +15679,14 @@
 13	kommunikationer	kommunikation	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	10	dobj	_	_
 14	,	,	PUNCT	MID	_	13	punct	_	_
 15	jordbruk	jordbruk	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	13	conj	_	_
-16	och	och	CONJ	KN	_	13	cc	_	_
-17	industri	industri	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	conj	_	_
+16	och	och	CONJ	KN	_	15	cc	_	_
+17	industri	industri	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	15	conj	_	_
 18	,	,	PUNCT	MID	_	13	punct	_	_
-19	skolor	skola	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	10	dobj	_	_
-20	,	,	PUNCT	MID	_	19	punct	_	_
-21	universitet	universitet	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	10	dobj	_	_
-22	och	och	CONJ	KN	_	21	cc	_	_
-23	sjukhus	sjukhus	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	21	conj	_	_
+19	skolor	skola	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	13	conj	_	_
+20	,	,	PUNCT	MID	_	13	punct	_	_
+21	universitet	universitet	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	13	conj	_	_
+22	och	och	CONJ	KN	_	13	cc	_	_
+23	sjukhus	sjukhus	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	13	conj	_	_
 24	.	.	PUNCT	MAD	_	4	punct	_	_
 
 1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	4	nsubj	_	_
