@@ -3510,3 +3510,14 @@
 47	)	)	PUNCT	PAD	_	37	punct	_	_
 48	.	.	PUNCT	MAD	_	6	punct	_	_
 
+85903
+43	-	-	PUNCT	MID	_	39	punct	_	_
+44	i	i	ADP	PP	_	45	case	_	_
+45	betydelsen	betydelse	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	46	nmod	_	_
+46	realism	realism	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	39	dobj	_	_
+---
+43	-	-	PUNCT	MID	_	42	punct	_	_
+44	i	i	ADP	PP	_	45	case	_	_
+45	betydelsen	betydelse	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	46	nmod	_	_
+46	realism	realism	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	42	appos	_	_
+
