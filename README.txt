@@ -124,6 +124,9 @@ From v1.2 to v1.3, we fixed the following annotation bugs/inconsistencies:
 - No predicate has more than one subject (except expl + nsubj/csubj)
 - No case relations attach to predicates
 
+From v1.3 to v1.4, only the documentation has been updated to reflect
+the fact that there are two treebanks for Swedish.
+
 --- Machine readable metadaa ---
 
 Documentation status: complete
