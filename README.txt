@@ -43,10 +43,27 @@ standard for Swedish tokenization and part-of-speech tagging. This is a
 straightforward segmentation based on whitespace and punctuation, but the
 following special cases deserve to be mentioned:
 
+- Numerical expressions (including dates) are treated as single words and not
+  segmented into their components as long as they do not contain spaces.
 - Abbreviations are treated as single words regardless of whether they contain
-  spaces or not (and internal spaces are replaced by underscore characters).
-- Numerical expressions including dates are treated as single words and not
-  segmented into their components.
+  spaces or not. 
+
+The Swedish UD treebank contains the following tokens with spaces (all abbreviations):
+
+Bl a
+bl a
+d v s
+e d
+f n
+fr o m
+Fr o m
+m fl
+m m
+o s v
+s k
+t ex
+t o m
+t v
 
 The Swedish UD treebank does not contain multiword tokens.
 
