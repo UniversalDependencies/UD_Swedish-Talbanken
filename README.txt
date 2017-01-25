@@ -144,6 +144,23 @@ From v1.2 to v1.3, we fixed the following annotation bugs/inconsistencies:
 From v1.3 to v1.4, only the documentation has been updated to reflect
 the fact that there are two treebanks for Swedish.
 
+From v1.4 to v2, we have implemented the following changes to conform
+to v2 of the guidelines:
+- Rename CONJ -> CCONJ
+- Retag copula verbs VERB -> AUX
+- Rename dobj -> obj
+- Rename nsubjpass -> nsubj:pass
+- Rename csubjpass -> csubj:pass
+- Rename auxpass -> aux:pass
+- Rename mwe -> fixed
+- Rename name -> flat:name
+- Split nmod into obl and nmod
+- Reattach cc and punct in coordination
+- Reanalyze neg as advmod + Polarity=Neg
+- Add features Abbr=Yes and Foreign=Yes
+- Replace "_" by " " in words with spaces
+- Add # sent_id and # text for all sentences
+ 
 --- Machine readable metadaa ---
 
 Documentation status: complete
@@ -152,4 +169,5 @@ Data available since: UD v1.0
 License: CC BY-SA 4.0
 Genre: news nonfiction
 Contributors: Nivre, Joakim; Smith, Aaron
-Contact:
+Contact: joakim.nivre@lingfil.uu.se
+
