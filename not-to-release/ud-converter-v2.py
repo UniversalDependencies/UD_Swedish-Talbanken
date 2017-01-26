@@ -90,6 +90,21 @@ def fix_coordination(sentence):
                     head[word[4]] = hword[4]
                     break
 
+def fix_spacing(sentence):
+    for word in sentence:
+        nospaceafter[word[4]] = False
+    for i in range(0, len(sentence)):
+        word = sentence[i]
+        if word[7] == "(":
+            nospaceafter[word[4]] = True
+        elif word[7] == "'":
+            if head[word[4]] > word[4]:
+                nospaceafter[word[4]] = True
+            else:
+                nospaceafter[sentence[i-1][4]] = True
+        elif word[7] in [",", ";", ".", ":", "?", "!", ")"]:
+            nospaceafter[sentence[i-1][4]] = True
+ 
 def print_sentence(sentence):
     parse_sentence(sentence)
     map_labels(sentence)
@@ -99,6 +114,7 @@ def print_sentence(sentence):
         retag(sentence) # Fix remaining attachment and labeling errors too! AUX -> aux, cop; VERB -> not aux, not cop
         fix_apposition(sentence)
         fix_coordination(sentence)
+        fix_spacing(sentence)
         # Print only nonword; decrement both word[id] and head[id]
         # Check if nonword is correct; such = "_" for omitted words?
         for (doc, par, msm, sid, tid, cat, dum, tok, pos, syn, suc, fea, lem) in sentence:
@@ -110,6 +126,7 @@ def print_sentence(sentence):
                     tag = suc
                 utag = postag[tid]
                 ufea = features[tid]
+                nospace = nospaceafter[tid]
                 if utag == "VERB" and lem[-1] == "s":
                     ufeats = ufea.split("|")
                     if "Voice=Pass" in ufeats:
@@ -127,7 +144,11 @@ def print_sentence(sentence):
                     hd = -1
                 if re.search("ST$", syn):
                     print("\t".join(["#", doc + "." + str(par), "ST", "ST"]))
-                print("\t".join([str(tid), tok, lem, utag, tag, ufea, str(hd), dep, "_", "_"])) 
+                if nospace:
+                    misc = "NoSpaceAfter=Yes"
+                else:
+                    misc = "_"
+                print("\t".join([str(tid), tok, lem, utag, tag, ufea, str(hd), dep, "_", misc])) 
         print()
     else:
         print("# Sentence omitted")
@@ -1560,6 +1581,7 @@ postag = {}
 features = {}
 nonword = {}
 decrement = {}
+nospaceafter = {}
 discontiguous = False
 parbreak = False
 
@@ -1671,6 +1693,7 @@ for line in sys.stdin:
             features = {}
             nonword = {}
             decrement = {}
+            nospaceafter = {}
         mytid += 1
         if re.search("GM$", syn) and tok == "0000":
             syn = "GM"   # Single change

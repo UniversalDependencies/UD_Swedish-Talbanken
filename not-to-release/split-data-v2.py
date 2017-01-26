@@ -23,10 +23,15 @@ def text(sentence):
     tokens = []
     for line in sentence:
         columns = line.split("\t")
-        tokens.append(columns[1])
+        tokens.append(columns)
         if " " in columns[1]:
             space_tokens.append(columns[1])
-    return "# text = " + " ".join(tokens) + "\n"
+    string = []
+    for t in tokens:
+        string.append(t[1])
+        if t[9].strip() == "_":
+            string.append(" ")
+    return "# text = " + "".join(string).strip() + "\n"
 
 def print_sentence(file, id, sentence):
     file.write(id)
