@@ -90,20 +90,29 @@ def fix_coordination(sentence):
                     head[word[4]] = hword[4]
                     break
 
+def fix_orphan(sentence):
+    for word in sentence:
+        if deprel[word[4]] in ["nsubj", "nsubj:pass", "obj", "iobj", "obl", "csubj", "csubj:pass", "ccomp", "xcomp", "advcl"]:
+            for hword in sentence:
+                if head[word[4]] == hword[4] and hword[9][-2:] in ["SS", "OO", "IO"]:
+                    misc[word[4]].append("Enhanced=" + deprel[word[4]])
+                    deprel[word[4]] = "orphan"
+                    misc[hword[4]].append("Enhanced=" + dep_label(0, head[hword[4]], "", hword))
+
 def fix_spacing(sentence):
     for word in sentence:
-        nospaceafter[word[4]] = False
+        misc[word[4]] = []
     for i in range(0, len(sentence)):
         word = sentence[i]
         if word[7] == "(":
-            nospaceafter[word[4]] = True
+            misc[word[4]].append("SpaceAfter=No")
         elif word[7] == "'":
             if head[word[4]] > word[4]:
-                nospaceafter[word[4]] = True
+                misc[word[4]].append("SpaceAfter=No")
             else:
-                nospaceafter[sentence[i-1][4]] = True
+                misc[sentence[i-1][4]].append("SpaceAfter=No")
         elif word[7] in [",", ";", ".", ":", "?", "!", ")"]:
-            nospaceafter[sentence[i-1][4]] = True
+            misc[sentence[i-1][4]].append("SpaceAfter=No")
  
 def print_sentence(sentence):
     parse_sentence(sentence)
@@ -115,6 +124,7 @@ def print_sentence(sentence):
         fix_apposition(sentence)
         fix_coordination(sentence)
         fix_spacing(sentence)
+        fix_orphan(sentence)
         # Print only nonword; decrement both word[id] and head[id]
         # Check if nonword is correct; such = "_" for omitted words?
         for (doc, par, msm, sid, tid, cat, dum, tok, pos, syn, suc, fea, lem) in sentence:
@@ -126,7 +136,10 @@ def print_sentence(sentence):
                     tag = suc
                 utag = postag[tid]
                 ufea = features[tid]
-                nospace = nospaceafter[tid]
+                if misc[tid] == []:
+                    mis = "_"
+                else:
+                    mis = "|".join(sorted(set(misc[tid])))
                 if utag == "VERB" and lem[-1] == "s":
                     ufeats = ufea.split("|")
                     if "Voice=Pass" in ufeats:
@@ -144,11 +157,7 @@ def print_sentence(sentence):
                     hd = -1
                 if re.search("ST$", syn):
                     print("\t".join(["#", doc + "." + str(par), "ST", "ST"]))
-                if nospace:
-                    misc = "NoSpaceAfter=Yes"
-                else:
-                    misc = "_"
-                print("\t".join([str(tid), tok, lem, utag, tag, ufea, str(hd), dep, "_", misc])) 
+                print("\t".join([str(tid), tok, lem, utag, tag, ufea, str(hd), dep, "_", mis])) 
         print()
     else:
         print("# Sentence omitted")
@@ -548,6 +557,8 @@ def relabel_ellipsis(fun):
         return "appos"
     elif fun == "SP":
         return "xcomp"
+    elif fun == "ET":
+        return "nmod"
     else:
         return "obl"
 
@@ -1581,7 +1592,7 @@ postag = {}
 features = {}
 nonword = {}
 decrement = {}
-nospaceafter = {}
+misc = {}
 discontiguous = False
 parbreak = False
 
@@ -1693,7 +1704,7 @@ for line in sys.stdin:
             features = {}
             nonword = {}
             decrement = {}
-            nospaceafter = {}
+            misc = {}
         mytid += 1
         if re.search("GM$", syn) and tok == "0000":
             syn = "GM"   # Single change

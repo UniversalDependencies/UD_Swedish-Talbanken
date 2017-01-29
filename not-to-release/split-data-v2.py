@@ -17,7 +17,7 @@ sentence = []
 space_tokens = []
 
 def sent_id(filename, id):
-    return "# sent_id = " + filename + "-s" + str(id) + "/sv\n"
+    return "# sent_id = sv-ud-" + filename + "-" + str(id) + "\n"
 
 def text(sentence):
     tokens = []
