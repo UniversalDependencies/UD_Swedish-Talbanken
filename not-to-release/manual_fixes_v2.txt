@@ -3135,7 +3135,7 @@
 15	grundförhållandena	grundförhållande	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	14	obj	_	SpaceAfter=No
 
 59246
-33	utbryta	utbryta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	5	orphan	_	Enhanced=ccomp
+33	utbryta	utbryta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	5	ccomp	_	_
 34	till	till	ADP	PP	_	33	advmod	_	_
 35	höger	höger	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	34	fixed	_	_
 36	och	och	CCONJ	KN	_	34	fixed	_	_
@@ -3513,8 +3513,8 @@
 85903
 43	-	-	PUNCT	MID	_	39	punct	_	_
 44	i	i	ADP	PP	_	45	case	_	_
-45	betydelsen	betydelse	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	46	orphan	_	Enhanced=obl
-46	realism	realism	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	39	obj	_	Enhanced=obj|SpaceAfter=No
+45	betydelsen	betydelse	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	46	obl	_	_
+46	realism	realism	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	39	obj	_	SpaceAfter=No
 ---
 43	-	-	PUNCT	MID	_	42	punct	_	_
 44	i	i	ADP	PP	_	45	case	_	_

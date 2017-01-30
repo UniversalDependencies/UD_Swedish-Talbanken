@@ -92,9 +92,9 @@ def fix_coordination(sentence):
 
 def fix_orphan(sentence):
     for word in sentence:
-        if deprel[word[4]] in ["nsubj", "nsubj:pass", "obj", "iobj", "obl", "csubj", "csubj:pass", "ccomp", "xcomp", "advcl"]:
+        if deprel[word[4]] in ["nsubj", "nsubj:pass", "obj", "iobj", "obl", "csubj", "csubj:pass", "xcomp", "ccomp", "advcl"]:
             for hword in sentence:
-                if head[word[4]] == hword[4] and hword[9][-2:] in ["SS", "OO", "IO"]:
+                if head[word[4]] == hword[4] and hword[9][-2:] in ["SS", "OO", "IO"] and deprel[hword[4]] in ["conj", "parataxis", "root"]:
                     misc[word[4]].append("Enhanced=" + deprel[word[4]])
                     deprel[word[4]] = "orphan"
                     misc[hword[4]].append("Enhanced=" + dep_label(0, head[hword[4]], "", hword))
@@ -557,7 +557,7 @@ def relabel_ellipsis(fun):
         return "appos"
     elif fun == "SP":
         return "xcomp"
-    elif fun == "ET":
+    elif fun in ["AT", "ET", "EU"]:
         return "nmod"
     else:
         return "obl"
