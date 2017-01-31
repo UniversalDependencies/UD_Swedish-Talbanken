@@ -1,3 +1,215 @@
+28661
+6	T-sprit	T-sprit	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	conj	_	Enhanced=nsubj
+7	i	i	ADP	PP	_	8	case	_	_
+8	vindrutespolaren	vindrutespolare	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	6	orphan	_	Enhanced=obl|SpaceAfter=No
+---
+6	T-sprit	T-sprit	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	conj	_	_
+7	i	i	ADP	PP	_	8	case	_	_
+8	vindrutespolaren	vindrutespolare	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	6	nmod	_	SpaceAfter=No
+
+28672
+17	vinterolja	vinterolja	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	conj	_	Enhanced=nsubj
+18	i	i	ADP	PP	_	19	case	_	_
+19	motorn	motor	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	17	orphan	_	Enhanced=obl|SpaceAfter=No
+---
+17	vinterolja	vinterolja	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	conj	_	_
+18	i	i	ADP	PP	_	19	case	_	_
+19	motorn	motor	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	17	nmod	_	SpaceAfter=No
+
+34525
+14	kod	kod	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	conj	_	Enhanced=obj
+15	noterad	notera	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	14	orphan	_	Enhanced=xcomp
+---
+14	kod	kod	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	conj	_	_
+15	noterad	notera	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	14	xcomp	_	_
+
+34915
+7	kommuner	kommun	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	4	obl	_	_
+---
+7	kommuner	kommun	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	4	nmod	_	_
+
+35030
+22	inbrytningar	inbrytning	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	8	conj	_	Enhanced=obj
+23	i	i	ADP	PP	_	24	case	_	_
+24	städerna	stad	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	22	orphan	_	Enhanced=obl|SpaceAfter=No
+---
+22	inbrytningar	inbrytning	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	12	conj	_	_
+23	i	i	ADP	PP	_	24	case	_	_
+24	städerna	stad	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	22	nmod	_	SpaceAfter=No
+
+35380
+10	borgerliga	borgerlig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	7	advmod	_	SpaceAfter=No
+---
+10	borgerliga	borgerlig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	7	obl	_	SpaceAfter=No
+
+40089
+2	frånvaro	frånvaro	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	Enhanced=root
+3	vid	vid	ADP	PP	_	4	case	_	_
+4	SJ	SJ	PROPN	PM|NOM	Case=Nom	2	orphan	_	Enhanced=obl
+---
+2	frånvaro	frånvaro	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	_
+3	vid	vid	ADP	PP	_	4	case	_	_
+4	SJ	SJ	PROPN	PM|NOM	Case=Nom	2	nmod	_	_
+
+50278
+1	Ledarhunden	ledarhund	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	0	root	_	_
+2	för	för	ADP	PP	_	4	case	_	_
+3	den	en	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	4	det	_	_
+4	synskadade	synskadad	ADJ	PC|PRF|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Number=Sing|Tense=Past|VerbForm=Part	1	advmod	_	SpaceAfter=No
+---
+1	Ledarhunden	ledarhund	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	0	root	_	Enhanced=nsubj
+2	för	för	ADP	PP	_	4	case	_	_
+3	den	en	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	4	det	_	_
+4	synskadade	synskadad	ADJ	PC|PRF|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Number=Sing|Tense=Past|VerbForm=Part	1	orphan	_	Enhance=obl|SpaceAfter=No
+
+53928
+1	Monogami	monogami	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	Enhanced=root
+2	...	...	PUNCT	MID	_	1	punct	_	_
+3	43	43	NUM	RG|NOM	Case=Nom|NumType=Card	4	nummod	_	_
+4	samhällen	samhälle	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	1	orphan	_	Enhanced=obl
+---
+1	Monogami	monogami	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	_
+2	...	...	PUNCT	MID	_	1	punct	_	_
+3	43	43	NUM	RG|NOM	Case=Nom|NumType=Card	4	nummod	_	_
+4	samhällen	samhälle	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	1	list	_	_
+
+53935
+3	193	193	NUM	RG|NOM	Case=Nom|NumType=Card	1	nummod	_	_
+---
+3	193	193	NUM	RG|NOM	Case=Nom|NumType=Card	1	list	_	_
+
+53939
+3	2	2	NUM	RG|NOM	Case=Nom|NumType=Card	1	nummod	_	_
+---
+3	2	2	NUM	RG|NOM	Case=Nom|NumType=Card	1	list	_	_
+
+53943
+3	0	0	NUM	RG|NOM	Case=Nom|NumType=Card	1	nummod	_	_
+---
+3	0	0	NUM	RG|NOM	Case=Nom|NumType=Card	1	list	_	_
+
+53949
+5	12	12	NUM	RG|NOM	Case=Nom|NumType=Card	3	nummod	_	_
+---
+5	12	12	NUM	RG|NOM	Case=Nom|NumType=Card	3	list	_	_
+
+69820
+19	roll	roll	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	xcomp	_	_
+---
+19	roll	roll	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	appos	_	_
+
+83910
+5	bibeln	bibel	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	1	obl	_	_
+---
+5	bibeln	bibel	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	1	nmod	_	_
+
+90165
+4	,	,	PUNCT	MID	_	3	punct	_	_
+5	sjukvård	sjukvård	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	MID	_	5	punct	_	_
+7	barnavård	barnavård	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	MID	_	7	punct	_	_
+9	butiks-	butik	NOUN	NN|UTR|-|-|SMS	Gender=Com	2	xcomp	_	_
+10	och	och	CCONJ	KN	_	11	cc	_	_
+11	servicearbete	servicearbete	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	9	conj	_	_
+12	samt	samt	CCONJ	KN	_	13	cc	_	_
+13	undervisning	undervisning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	conj	_	_
+---
+4	,	,	PUNCT	MID	_	5	punct	_	_
+5	sjukvård	sjukvård	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	MID	_	7	punct	_	_
+7	barnavård	barnavård	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	MID	_	9	punct	_	_
+9	butiks-	butik	NOUN	NN|UTR|-|-|SMS	Gender=Com	3	conj	_	_
+10	och	och	CCONJ	KN	_	11	cc	_	_
+11	servicearbete	servicearbete	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	9	conj	_	_
+12	samt	samt	CCONJ	KN	_	13	cc	_	_
+13	undervisning	undervisning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	conj	_	_
+
+90181
+20	tonvikten	tonvikt	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	16	conj	_	Enhanced=obj
+---
+20	tonvikten	tonvikt	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	13	nmod	_	_
+
+90187
+26	pedagogarbetet	pedagogarbete	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	20	orphan	_	Enhanced=obl|SpaceAfter=No
+---
+26	pedagogarbetet	pedagogarbete	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	20	nmod	_	SpaceAfter=No
+
+96270
+2	,	,	PUNCT	MID	_	1	punct	_	_
+3	säger	säga	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	_
+---
+2	,	,	PUNCT	MID	_	7	punct	_	_
+3	säger	säga	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	_
+
+21942
+6	och	och	CCONJ	KN	_	5	cc	_	_
+7	var	var	ADV	HA	_	11	advmod	_	_
+8	lämplig	lämplig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	9	amod	_	_
+9	hamnplats	hamnplats	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	nsubj:pass	_	_
+10	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	_
+11	anläggas	anlägga	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	5	ccomp	_	SpaceAfter=No
+---
+6	och	och	CCONJ	KN	_	11	cc	_	_
+7	var	var	ADV	HA	_	11	advmod	_	_
+8	lämplig	lämplig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	9	amod	_	_
+9	hamnplats	hamnplats	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	nsubj:pass	_	_
+10	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	_
+11	anläggas	anlägga	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	5	conj	_	SpaceAfter=No
+
+98523
+7	eller	eller	CCONJ	KN	_	5	cc	_	_
+8	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int	11	xcomp	_	_
+9	man	man	PRON	PN|UTR|SIN|IND|SUB	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	11	nsubj	_	_
+10	vill	vilja	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	_
+11	kalla	kalla	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	5	csubj	_	_
+---
+7	eller	eller	CCONJ	KN	_	11	cc	_	_
+8	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int	11	xcomp	_	_
+9	man	man	PRON	PN|UTR|SIN|IND|SUB	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	11	nsubj	_	_
+10	vill	vilja	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	_
+11	kalla	kalla	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	5	conj	_	_
+
+83813
+10	o	o	INTJ	IN	_	2	advcl	_	_
+11	hemska	hemsk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	10	amod	_	_
+12	verklighet	verklighet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	conj	_	SpaceAfter=No
+13	!	!	PUNCT	MAD	_	10	punct	_	_
+---
+10	o	o	INTJ	IN	_	12	discourse	_	_
+11	hemska	hemsk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	12	amod	_	_
+12	verklighet	verklighet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	parataxis	_	SpaceAfter=No
+13	!	!	PUNCT	MAD	_	12	punct	_	_
+
+87094
+10	och	och	CCONJ	KN	_	14	cc	_	_
+11	annat	annan	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	det	_	_
+12	med	med	ADP	PP	_	13	case	_	_
+13	barnen	barn	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	14	orphan	_	Enhanced=obl
+14	förknippat	förknippa	ADJ	PC|PRF|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	9	conj	_	Enhanced=nsubj
+---
+10	och	och	CCONJ	KN	_	11	cc	_	_
+11	annat	annan	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	conj	_	_
+12	med	med	ADP	PP	_	13	case	_	_
+13	barnen	barn	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	14	obl	_	_
+14	förknippat	förknippa	ADJ	PC|PRF|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	11	xcomp	_	Enhanced=nsubj
+
+73364
+9	och	och	CCONJ	KN	_	10	cc	_	_
+10	ofta	ofta	ADV	AB|POS	Degree=Pos	5	conj	_	_
+11	med	med	ADP	PP	_	14	case	_	_
+12	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	14	det	_	_
+13	kvardröjande	kvardröja	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Tense=Pres|VerbForm=Part	14	amod	_	_
+14	analfabetism	analfabetism	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	obj	_	_
+---
+9	och	och	CCONJ	KN	_	14	cc	_	_
+10	ofta	ofta	ADV	AB|POS	Degree=Pos	14	advmod	_	_
+11	med	med	ADP	PP	_	14	case	_	_
+12	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	14	det	_	_
+13	kvardröjande	kvardröja	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Tense=Pres|VerbForm=Part	14	amod	_	_
+14	analfabetism	analfabetism	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	conj	_	_
+
 3349
 14	i	i	ADP	PP	_	15	case	_	_
 15	Hotell-	hotell	NOUN	NN|NEU|-|-|SMS	Gender=Neut	13	nmod	_	_

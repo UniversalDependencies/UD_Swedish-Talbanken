@@ -3078,33 +3078,33 @@
 8	:	:	PUNCT	MAD	_	2	punct	_	_
 
 # sent_id = sv-ud-dev-126
-# text = Det blir kontorsarbete, sjukvård, barnavård, butiks- och servicearbete samt undervisning på alla stadier, dock med tonviktenpå det ekonomiskt lägst värderade pedagogarbetet, t.ex. för barn i förskolåldern och på lågstadiet där män praktiskt taget helt saknas som pedagoger.
+# text = Det blir kontorsarbete, sjukvård, barnavård, butiks- och servicearbete samt undervisning på alla stadier, dock med tonvikten på det ekonomiskt lägst värderade pedagogarbetet, t.ex. för barn i förskolåldern och på lågstadiet där män praktiskt taget helt saknas som pedagoger.
 1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	2	nsubj	_	_
 2	blir	bli	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	kontorsarbete	kontorsarbete	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	xcomp	_	SpaceAfter=No
-4	,	,	PUNCT	MID	_	3	punct	_	_
-5	sjukvård	sjukvård	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	xcomp	_	SpaceAfter=No
-6	,	,	PUNCT	MID	_	5	punct	_	_
-7	barnavård	barnavård	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	xcomp	_	SpaceAfter=No
-8	,	,	PUNCT	MID	_	7	punct	_	_
-9	butiks-	butik	NOUN	NN|UTR|-|-|SMS	Gender=Com	2	xcomp	_	_
+4	,	,	PUNCT	MID	_	5	punct	_	_
+5	sjukvård	sjukvård	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	MID	_	7	punct	_	_
+7	barnavård	barnavård	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	MID	_	9	punct	_	_
+9	butiks-	butik	NOUN	NN|UTR|-|-|SMS	Gender=Com	3	conj	_	_
 10	och	och	CCONJ	KN	_	11	cc	_	_
 11	servicearbete	servicearbete	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	9	conj	_	_
 12	samt	samt	CCONJ	KN	_	13	cc	_	_
-13	undervisning	undervisning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	conj	_	_
+13	undervisning	undervisning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	conj	_	_
 14	på	på	ADP	PP	_	16	case	_	_
 15	alla	all	DET	DT|UTR/NEU|PLU|IND/DEF	Number=Plur|PronType=Tot	16	det	_	_
 16	stadier	stadium	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	13	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	MID	_	20	punct	_	_
 18	dock	dock	ADV	AB	_	20	advmod	_	_
 19	med	med	ADP	PP	_	20	case	_	_
-20	tonvikten	tonvikt	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	16	conj	_	Enhanced=obj
+20	tonvikten	tonvikt	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	13	nmod	_	_
 21	på	på	ADP	PP	_	26	case	_	_
 22	det	den	DET	DT|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	26	det	_	_
 23	ekonomiskt	ekonomisk	ADV	AB|POS	Degree=Pos	24	advmod	_	_
 24	lägst	låg	ADV	AB|SUV	Degree=Sup	25	advmod	_	_
 25	värderade	värdera	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Number=Plur|Tense=Past|VerbForm=Part	26	amod	_	_
-26	pedagogarbetet	pedagogarbete	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	20	orphan	_	Enhanced=obl|SpaceAfter=No
+26	pedagogarbetet	pedagogarbete	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	20	nmod	_	SpaceAfter=No
 27	,	,	PUNCT	MID	_	26	punct	_	_
 28	t.ex.	t.ex.	ADV	AB|AN	Abbr=Yes	30	advmod	_	_
 29	för	för	ADP	PP	_	30	case	_	_
@@ -8724,8 +8724,8 @@
 # sent_id = sv-ud-dev-394
 # text = Avlöning, säger någon, visst får jag avlöning, min man lägger alla pengarna på bordet då han kommer hem på avlöningsdagen.
 1	Avlöning	avlöning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	dislocated	_	SpaceAfter=No
-2	,	,	PUNCT	MID	_	1	punct	_	_
-3	säger	säga	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	_
+2	,	,	PUNCT	MID	_	7	punct	_	_
+3	säger	säga	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	_
 4	någon	någon	PRON	PN|UTR|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	3	nsubj	_	SpaceAfter=No
 5	,	,	PUNCT	MID	_	7	punct	_	_
 6	visst	visst	ADV	AB	_	7	advmod	_	_
