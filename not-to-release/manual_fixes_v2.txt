@@ -2097,7 +2097,7 @@
 15	.	.	PUNCT	MAD	_	2	punct	_	_
 ---
 1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	expl	_	_
-2	är	vara	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	root	_	_
+2	är	vara	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	inte	inte	ADV	AB	Polarity=Neg	2	advmod	_	_
 4	minst	lite	ADV	AB|SUV	Degree=Sup	2	advmod	_	_
 5	tekniska	teknisk	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
