@@ -1,3 +1,5 @@
+# new_doc id = P408
+# new_par id = P408.1
 # sent_id = sv-ud-dev-1
 # text = Kibbutzgrundarna kom från en miljö, som utmärktes av ett strängt patriarkaliskt system, där första budet löd:
 1	Kibbutzgrundarna	kibbutzgrundare	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	2	nsubj	_	_
@@ -421,6 +423,7 @@
 37	gruppen	grupp	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	35	nmod	_	SpaceAfter=No
 38	.	.	PUNCT	MAD	_	6	punct	_	_
 
+# new_par id = P408.2
 # sent_id = sv-ud-dev-15
 # text = När man upphävde mannens roll som familjeförsörjare ville man ge inte bara barnen utan även kvinnorna ett ekonomiskt oberoende.
 1	När	när	ADV	HA	_	3	advmod	_	_
@@ -607,6 +610,7 @@
 63	.	.	PUNCT	MAD	_	57	punct	_	SpaceAfter=No
 64	'	'	PUNCT	PAD	_	57	punct	_	_
 
+# new_par id = P408.3
 # sent_id = sv-ud-dev-21
 # text = Bördan att fostra barn - uttrycket låter negativt.
 1	Bördan	börda	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	7	dislocated	_	_
@@ -775,7 +779,7 @@
 30	.	.	PUNCT	MAD	_	21	punct	_	_
 
 # sent_id = sv-ud-dev-28
-# text = Det verkar som om kibbutzerna idag har en ganska strikt uppdelning med männen i de mer produktiva och kvinnornai de mer servicebetonadeyrkena, vilket endast delvis kan motiveras av praktiska skäl.
+# text = Det verkar som om kibbutzerna idag har en ganska strikt uppdelning med männen i de mer produktiva och kvinnorna i de mer servicebetonade yrkena, vilket endast delvis kan motiveras av praktiska skäl.
 1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	2	nsubj	_	_
 2	verkar	verka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	som	som	CCONJ	KN	_	7	mark	_	_
@@ -832,6 +836,7 @@
 17	avseendet	avseende	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	12	obl	_	SpaceAfter=No
 18	.	.	PUNCT	MAD	_	12	punct	_	_
 
+# new_par id = P408.4
 # sent_id = sv-ud-dev-30
 # text = Men för barnens del är det annorlunda.
 1	Men	men	CCONJ	KN	_	5	cc	_	_
@@ -909,6 +914,7 @@
 23	överleva	överleva	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	21	acl	_	SpaceAfter=No
 24	.	.	PUNCT	MAD	_	13	punct	_	_
 
+# new_par id = P408.5
 # sent_id = sv-ud-dev-33
 # text = Man kan fråga sig hur dessa barn blir.
 1	Man	man	PRON	PN|UTR|SIN|IND|SUB	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	3	nsubj	_	_
@@ -1217,6 +1223,7 @@
 31	sätt	sätt	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	28	obl	_	SpaceAfter=No
 32	.	.	PUNCT	MAD	_	12	punct	_	_
 
+# new_par id = P408.6
 # sent_id = sv-ud-dev-45
 # text = Exempel på vilken typ av frågor man undersökt och de resultat som kommit fram, ges av den amerikanske sociologen A. I. Rabin, som i flera omgångar studerat kibbutz- och moshavbarn ur olika aspekter.
 1	Exempel	exempel	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	16	nsubj:pass	_	_
@@ -1567,6 +1574,7 @@
 9	179-184	179-184	NUM	RG|NOM	Case=Nom|NumType=Card	7	nummod	_	_
 10	.	.	PUNCT	MAD	_	1	punct	_	_
 
+# new_par id = P408.7
 # sent_id = sv-ud-dev-58
 # text = Kvarstår denna försening i utveckling hos äldre kibbutzbarn?
 1	Kvarstår	kvarstå	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -1748,6 +1756,7 @@
 23	barn	barn	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	19	conj	_	SpaceAfter=No
 24	.	.	PUNCT	MAD	_	5	punct	_	_
 
+# new_par id = P408.8
 # sent_id = sv-ud-dev-66
 # text = Rabin tog upp ytterligare en rad frågor, vilka bland annat berörde kibbutzbarnens attityd till föräldrarna, mödrarnas inställning till den kollektiva uppfostran, olika ambitioner och förväntningar hos kibbutz- och moshavbarn, psykosexuella skillnader och skillnader i skuldkänslor och identifikation.
 1	Rabin	Rabin	PROPN	PM|NOM	Case=Nom	2	nsubj	_	_
@@ -1961,6 +1970,8 @@
 30	till	till	ADP	PP	_	28	case	_	SpaceAfter=No
 31	.	.	PUNCT	MAD	_	26	punct	_	_
 
+# new_doc id = P409
+# new_par id = P409.1
 # sent_id = sv-ud-dev-73
 # text = Knappast på något område går utvecklingen så sakta som på könsrollsområdet.
 1	Knappast	knappast	ADV	AB|SUV	Degree=Sup|Polarity=Neg	4	advmod	_	_
@@ -2022,6 +2033,7 @@
 27	fordrar	fordra	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	16	acl:relcl	_	SpaceAfter=No
 28	.	.	PUNCT	MAD	_	2	punct	_	_
 
+# new_par id = P409.2
 # sent_id = sv-ud-dev-76
 # text = Hurudan är tendensen?
 1	Hurudan	hurudan	ADV	HA	_	0	root	_	_
@@ -2079,6 +2091,7 @@
 4	hemarbetande	hemarbetande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Tense=Pres|VerbForm=Part	1	conj	_	SpaceAfter=No
 5	?	?	PUNCT	MAD	_	1	punct	_	_
 
+# new_par id = P409.3
 # sent_id = sv-ud-dev-81
 # text = Man har anledning att vara pessimistisk.
 1	Man	man	PRON	PN|UTR|SIN|IND|SUB	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	2	nsubj	_	_
@@ -2202,6 +2215,7 @@
 43	väljarna	väljare	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	38	obl	_	SpaceAfter=No
 44	.	.	PUNCT	MAD	_	2	punct	_	_
 
+# new_par id = P409.4
 # sent_id = sv-ud-dev-85
 # text = I rättvisans namn bör klarläggas att utvecklingen på vissa områden gått relativt snabbt till kvinnans förmån, särskilt om man tänker på utgångsläget från vilket kvinnan startade sin frigörelse.
 1	I	i	ADP	PP	_	3	case	_	_
@@ -2339,6 +2353,7 @@
 19	männen	man	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	14	obl	_	SpaceAfter=No
 20	.	.	PUNCT	MAD	_	8	punct	_	_
 
+# new_par id = P409.5
 # sent_id = sv-ud-dev-91
 # text = Den kvinnliga medborgarrätten är därför i praktiken ett barn av demokratins genombrott i vårt land liksom också den gifta kvinnans juridiska likställighet med mannen.
 1	Den	en	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	3	det	_	_
@@ -2395,6 +2410,7 @@
 7	förmyndarskap	förmyndarskap	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No
 8	.	.	PUNCT	MAD	_	4	punct	_	_
 
+# new_par id = P409.6
 # sent_id = sv-ud-dev-94
 # text = Man har svårt att frigöra sig från intrycket att hade inte hela den västerländska samhällsordningen hotats av social revolution och kaotisk omvälvning som skedde i första världskrigets spår skulle aldrig kvinnan så snabbt fått allmän rösträtt och medborgerliga rättigheter som hon nu fick.
 1	Man	man	PRON	PN|UTR|SIN|IND|SUB	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	2	nsubj	_	_
@@ -2608,6 +2624,7 @@
 28	regeringen	regering	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	21	obl	_	SpaceAfter=No
 29	.	.	PUNCT	MAD	_	5	punct	_	_
 
+# new_par id = P409.7
 # sent_id = sv-ud-dev-102
 # text = Kvinnans ställning i arbetslivet är kanske på sitt sätt ännu mer nedvärderad än i det politiska livet.
 1	Kvinnans	kvinna	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	2	nmod:poss	_	_
@@ -2763,6 +2780,7 @@
 18	aktioner	aktion	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	14	obj	_	SpaceAfter=No
 19	.	.	PUNCT	MAD	_	1	punct	_	_
 
+# new_par id = P409.8
 # sent_id = sv-ud-dev-109
 # text = Det bör nämligen kraftigt understrykas att inom hela arbetslivet oavsett företagsform eller ägarkategori kvinnan har genomgående de minst ansvariga och därmed lägst avlönade funktionerna.
 1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	5	expl	_	_
@@ -2854,6 +2872,7 @@
 13	lönerna	lön	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	7	conj	_	SpaceAfter=No
 14	.	.	PUNCT	MAD	_	2	punct	_	_
 
+# new_par id = P409.9
 # sent_id = sv-ud-dev-113
 # text = Mest glädjande under senare tid är de framgångar som kvinnorna utbildningsmässigt vunnit.
 1	Mest	mycket	ADV	AB|SUV	Degree=Sup	2	advmod	_	_
@@ -2985,6 +3004,7 @@
 11	överlägset	överlägsen	ADV	AB|POS	Degree=Pos	9	advmod	_	SpaceAfter=No
 12	.	.	PUNCT	MAD	_	9	punct	_	_
 
+# new_par id = P409.10
 # sent_id = sv-ud-dev-120
 # text = Nästan ännu mera könsuppdelat är valet av yrke ute i det praktiska arbetslivet.
 1	Nästan	nästan	ADV	AB	_	3	advmod	_	_
@@ -3124,6 +3144,7 @@
 43	pedagoger	pedagog	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	41	advcl	_	SpaceAfter=No
 44	.	.	PUNCT	MAD	_	2	punct	_	_
 
+# new_par id = P409.11
 # sent_id = sv-ud-dev-127
 # text = Ett sammanfattande omdöme beträffande kvinnans ställning i samhället och arbetslivet blir följande:
 1	Ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
@@ -3140,6 +3161,7 @@
 12	följande	följande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Tense=Pres|VerbForm=Part	11	xcomp	_	SpaceAfter=No
 13	:	:	PUNCT	MAD	_	11	punct	_	_
 
+# new_par id = P409.12
 # sent_id = sv-ud-dev-128
 # text = Kvinnans reella likställdhet med mannen är så lite förverkligad att det som förvånar mest är det ringa uppseende och den ringa grad av indignation detta faktum framkallar.
 1	Kvinnans	kvinna	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	3	nmod:poss	_	_
@@ -3231,6 +3253,7 @@
 24	organisationer	organisation	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	17	obl	_	SpaceAfter=No
 25	.	.	PUNCT	MAD	_	6	punct	_	_
 
+# new_par id = P409.13
 # sent_id = sv-ud-dev-131
 # text = Varför är det på detta sätt?
 1	Varför	varför	ADV	HA	_	2	advmod	_	_
@@ -3241,6 +3264,7 @@
 6	sätt	sätt	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
 7	?	?	PUNCT	MAD	_	2	punct	_	_
 
+# new_par id = P409.14
 # sent_id = sv-ud-dev-132
 # text = Två huvudfaktorer kan urskiljas som förklarar men inte ursäktar:
 1	Två	två	NUM	RG|NOM	Case=Nom|NumType=Card	2	nummod	_	_
@@ -3254,6 +3278,7 @@
 9	ursäktar	ursäkta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	SpaceAfter=No
 10	:	:	PUNCT	MAD	_	4	punct	_	_
 
+# new_par id = P409.15
 # sent_id = sv-ud-dev-133
 # text = Den olika könsrollen som barnavårdare och uppfostrare.
 1	Den	en	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	3	det	_	_
@@ -3265,6 +3290,7 @@
 7	uppfostrare	uppfostrare	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	conj	_	SpaceAfter=No
 8	.	.	PUNCT	MAD	_	3	punct	_	_
 
+# new_par id = P409.16
 # sent_id = sv-ud-dev-134
 # text = Traditionella uppfattningar och missuppfattningar om könsrollerna inom arbetsliv och på arbetsmarknaden.
 1	Traditionella	traditionell	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
@@ -3280,6 +3306,7 @@
 11	arbetsmarknaden	arbetsmarknad	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	8	conj	_	SpaceAfter=No
 12	.	.	PUNCT	MAD	_	2	punct	_	_
 
+# new_par id = P409.17
 # sent_id = sv-ud-dev-135
 # text = Det biologiska faktum att kvinnan föder barnet och att barnet under de första levnadsåren är starkt beroende av modern (eller motsvarande omsorger) sätter sin prägel på hela kvinnosläktet nära nog oavsett om kvinnan blir moder eller ej, oavsett det faktum att för de flesta kvinnor begränsar sig moderskapet till en period om högst femton - tjugo år av en totalaktivitet om fyrtio - femtio år, oavsett att kvinnan i allt större utsträckning är lika oumbärlig för familjestandarden som mannen, oavsett det förhållandet att samhället i så många olika former mer och mer, t.ex. genom förlängd skolplikt, övertar det traditionella i hemmet utförda uppfostringsarbetet.
 1	Det	en	DET	DT|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
@@ -3394,6 +3421,7 @@
 110	uppfostringsarbetet	uppfostringsarbete	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	104	obj	_	SpaceAfter=No
 111	.	.	PUNCT	MAD	_	25	punct	_	_
 
+# new_par id = P409.18
 # sent_id = sv-ud-dev-136
 # text = Vad som krävs av politikerna liksom av alla andra som önskar främja en ändring på könsrollsområdet är en ny syn på det biologiska förloppet hos kvinnan.
 1	Vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Prs	20	nsubj	_	_
@@ -3575,6 +3603,7 @@
 13	område	område	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No
 14	.	.	PUNCT	MAD	_	2	punct	_	_
 
+# new_par id = P409.19
 # sent_id = sv-ud-dev-143
 # text = Vad som måste krävas är en mer realistisk uppfattning om relationen man - kvinna för släktets bevarande.
 1	Vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Prs	9	nsubj	_	_
@@ -3664,6 +3693,7 @@
 36	nytta	nytta	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	34	acl	_	SpaceAfter=No
 37	.	.	PUNCT	MAD	_	4	punct	_	_
 
+# new_par id = P409.20
 # sent_id = sv-ud-dev-147
 # text = Först med en avromantisering av äktenskapet och giftermålet kan kvinnan psykologiskt och känslomässigt bli mer likställd med mannen.
 1	Först	först	ADV	AB	_	4	advmod	_	_
@@ -3722,6 +3752,7 @@
 4	ske	ske	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	MAD	_	4	punct	_	_
 
+# new_par id = P409.21
 # sent_id = sv-ud-dev-150
 # text = Men det är lång väg innan så sker.
 1	Men	men	CCONJ	KN	_	5	cc	_	_
@@ -3804,6 +3835,7 @@
 33	uppnåtts	uppnå	VERB	VB|SUP|SFO	VerbForm=Sup|Voice=Pass	0	root	_	SpaceAfter=No
 34	.	.	PUNCT	MAD	_	33	punct	_	_
 
+# new_par id = P409.22
 # sent_id = sv-ud-dev-154
 # text = Man får blott hoppas att, när väl den säkra, helt oskadliga tablett uppfunnits som kan starta kvinnans menstruation, eftersläpningen i uppfattningar och fördomar inte blir för lång.
 1	Man	man	PRON	PN|UTR|SIN|IND|SUB	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	4	nsubj	_	_
@@ -3857,6 +3889,7 @@
 15	möjligt	möjlig	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	advcl	_	SpaceAfter=No
 16	.	.	PUNCT	MAD	_	2	punct	_	_
 
+# new_par id = P409.23
 # sent_id = sv-ud-dev-156
 # text = Inom arbetslivet görs för varje dag små men säkra framsteg som främjar kvinnans likställdhet.
 1	Inom	inom	ADP	PP	_	2	case	_	_
@@ -4015,6 +4048,7 @@
 14	senare	sen	ADV	AB|KOM	Degree=Cmp	12	fixed	_	SpaceAfter=No
 15	.	.	PUNCT	MAD	_	3	punct	_	_
 
+# new_par id = P409.24
 # sent_id = sv-ud-dev-164
 # text = Det verkar som om samhället sent omsider tycks inse att betydligt mer måste göras för att underlätta kvinnans samtidiga moderskap och förvärvsarbete.
 1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	2	nsubj	_	_
@@ -4127,6 +4161,7 @@
 20	mannen	man	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	18	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	MAD	_	3	punct	_	_
 
+# new_par id = P409.25
 # sent_id = sv-ud-dev-168
 # text = Det behövs i dagens samhälle betydligt radikalare grepp för att kvinnans jämlikhet och likställdhet med mannen ska åstadkommas.
 1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	2	expl	_	_
@@ -4210,6 +4245,7 @@
 38	perioder	period	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	30	obl	_	SpaceAfter=No
 39	.	.	PUNCT	MAD	_	30	punct	_	_
 
+# new_par id = P409.26
 # sent_id = sv-ud-dev-171
 # text = Valfrihetens symbol måste göras till tecken för kvinnans frigörelse.
 1	Valfrihetens	valfrihet	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	2	nmod:poss	_	_
@@ -4253,6 +4289,8 @@
 26	medborgare	medborgare	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	14	obl	_	SpaceAfter=No
 27	.	.	PUNCT	MAD	_	9	punct	_	_
 
+# new_doc id = P410
+# new_par id = P410.1
 # sent_id = sv-ud-dev-173
 # text = Förverkligandet av kvinnosakens målsättning kräver en radikal förändring av genomsnittsmannens levnadsvanor, attityder och värderingar.
 1	Förverkligandet	förverkligande	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	5	nsubj	_	_
@@ -4348,6 +4386,7 @@
 10	angelägenhet	angelägenhet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	xcomp	_	SpaceAfter=No
 11	.	.	PUNCT	MAD	_	5	punct	_	_
 
+# new_par id = P410.2
 # sent_id = sv-ud-dev-177
 # text = Målet är alltså att kvinnan skall ha samma möjligheter till fri personlighetsutveckling som mannen, att hon skall ta större del i samhällsarbete och samhällsansvar, att hon skall ha möjlighet att både utöva ett yrke och ha hem och barn, att hon skall vara en självständig och fullmyndig individ.
 1	Målet	mål	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	_
@@ -4475,6 +4514,7 @@
 20	sak	sak	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	obl	_	SpaceAfter=No
 21	.	.	PUNCT	MAD	_	3	punct	_	_
 
+# new_par id = P410.3
 # sent_id = sv-ud-dev-181
 # text = Jag syftar på detta fenomen som vi alla ser exempel på runt omkring oss: kvinnor som bär hela eller större delen av hemarbetet trots heltidstjänst (för att någon måste göra det), kvinnor som avbryter sin egen utbildning för att bli hemmafruar (Han vill ha det så), kvinnor som ger upp sitt eget yrke för att med hemarbete underlätta hans karriär (den är ju mycket viktigare), kvinnor som förlöjligar kvinnorörelsen (för att framstå desto mer feminina), kvinnor som utplånar sig och blir trotjänarinnor (för att få behålla man och barn).
 1	Jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	_
@@ -4719,6 +4759,7 @@
 19	förräderiet	förräderi	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	15	obj	_	SpaceAfter=No
 20	.	.	PUNCT	MAD	_	15	punct	_	_
 
+# new_par id = P410.4
 # sent_id = sv-ud-dev-187
 # text = För två år sedan utspelades en elevdebatt i en modern svensk folkhögskola.
 1	För	för	ADP	PP	_	3	case	_	_
@@ -4820,8 +4861,9 @@
 8	alltså	alltså	ADV	AB	_	3	advmod	_	SpaceAfter=No
 9	.	.	PUNCT	MAD	_	3	punct	_	_
 
+# new_par id = P410.5
 # sent_id = sv-ud-dev-192
-# text = Men det är omöjligt och orättvist att klandra en kvinna som, för att göra sin man lycklig, barnenvälsköttaoch hemmettrivsamt, förkväver andra ambitioner och intressen.
+# text = Men det är omöjligt och orättvist att klandra en kvinna som, för att göra sin man lycklig, barnen välskötta och hemmet trivsamt, förkväver andra ambitioner och intressen.
 1	Men	men	CCONJ	KN	_	4	cc	_	_
 2	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	4	expl	_	_
 3	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
@@ -5099,6 +5141,7 @@
 27	kvinnliga	kvinnlig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	23	amod	_	SpaceAfter=No
 28	.	.	PUNCT	MAD	_	5	punct	_	_
 
+# new_par id = P410.6
 # sent_id = sv-ud-dev-203
 # text = Det är enögt och kortsynt, att som många radikala män gör, beklaga kvinnornas bristande intresse och aktivitet i politik och samhällsliv, beklaga deras bristande nutidsorientering och yrkesambitioner, utan att påtala sina medbröders ovillighet att i praktiken underlätta en genomförd kvinnoemancipation.
 1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	3	expl	_	_
@@ -5188,6 +5231,8 @@
 17	barn	barn	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	15	conj	_	SpaceAfter=No
 18	.	.	PUNCT	MAD	_	4	punct	_	_
 
+# new_doc id = P411
+# new_par id = P411.1
 # sent_id = sv-ud-dev-206
 # text = Kvinnosakskvinnorna får ursäkta.
 1	Kvinnosakskvinnorna	kvinnosakskvinna	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	3	nsubj	_	_
@@ -5218,6 +5263,7 @@
 19	program	program	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No
 20	.	.	PUNCT	MAD	_	3	punct	_	_
 
+# new_par id = P411.2
 # sent_id = sv-ud-dev-208
 # text = De utgår fortfarande från att kvinnans jämlikhet består i rätten att göra samma saker som männen.
 1	De	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	2	nsubj	_	_
@@ -5257,6 +5303,7 @@
 15	saker	sak	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	13	obj	_	SpaceAfter=No
 16	.	.	PUNCT	MAD	_	2	punct	_	_
 
+# new_par id = P411.3
 # sent_id = sv-ud-dev-210
 # text = Att kvinnor kan göra samma saker som män, är det väl ingen som betvivlar.
 1	Att	att	SCONJ	SN	_	4	mark	_	_
@@ -5276,6 +5323,7 @@
 15	betvivlar	betvivla	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl:relcl	_	SpaceAfter=No
 16	.	.	PUNCT	MAD	_	10	punct	_	_
 
+# new_par id = P411.4
 # sent_id = sv-ud-dev-211
 # text = Men vi måste framhålla att vi dessutom har uppgifter, som är viktigare på det mänskliga planet, och som vi som kvinnor är särskilt lämpade för.
 1	Men	men	CCONJ	KN	_	4	cc	_	_
@@ -5307,6 +5355,7 @@
 27	för	för	ADP	PP	_	20	case	_	SpaceAfter=No
 28	.	.	PUNCT	MAD	_	4	punct	_	_
 
+# new_par id = P411.5
 # sent_id = sv-ud-dev-212
 # text = Det är kvinnan, som föder barn till världen.
 1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	2	expl	_	_
@@ -5357,6 +5406,7 @@
 16	kvinna	kvinna	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	conj	_	SpaceAfter=No
 17	?	?	PUNCT	MAD	_	6	punct	_	_
 
+# new_par id = P411.6
 # sent_id = sv-ud-dev-216
 # text = Thord Erasmie, lektor i pedagogik och psykologi, påpekar att i de renodlade personlighetsvariablerna är skillnaderna stora och säkerställda mellan könen.
 1	Thord	Thord	PROPN	PM|NOM	Case=Nom	10	nsubj	_	_
@@ -5441,6 +5491,7 @@
 10	aktiviteter	aktivitet	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	4	obl	_	SpaceAfter=No
 11	.	.	PUNCT	MAD	_	4	punct	_	_
 
+# new_par id = P411.7
 # sent_id = sv-ud-dev-220
 # text = Till och med i Sovjetunionen, där kvinnor under de sista femtio åren utbildats och arbetat på samma villkor som männen, väljer kvinnorna gärna vårdande och undervisande yrken.
 1	Till	till	ADV	AB	_	5	advmod	_	_
@@ -5497,6 +5548,7 @@
 19	kvinnor	kvinna	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	17	obl:agent	_	SpaceAfter=No
 20	!	!	PUNCT	MAD	_	5	punct	_	_
 
+# new_par id = P411.8
 # sent_id = sv-ud-dev-222
 # text = Varför måste den kvinnliga dragningen till vårdande yrken bortförklaras som något nästan skamligt, som något som påtvingats oss genom olämpliga 'könsdiskriminerande' impulser i barn- och ungdomen?
 1	Varför	varför	ADV	HA	_	9	advmod	_	_
@@ -5530,6 +5582,7 @@
 29	ungdomen	ungdom	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	27	conj	_	SpaceAfter=No
 30	?	?	PUNCT	MAD	_	9	punct	_	_
 
+# new_par id = P411.9
 # sent_id = sv-ud-dev-223
 # text = Bör inte lusten att vårda i stället ses som en ytterligt värdefull kvinnlig egenskap, som samhället bör ta vara på, när vi inom en snar framtid enligt våra framtidsforskare får datastyrda fabriker och måste sysselsätta allt fler människor inom den vårdande sektorn?
 1	Bör	böra	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	_
@@ -5578,6 +5631,7 @@
 44	sektorn	sektor	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	37	obl	_	SpaceAfter=No
 45	?	?	PUNCT	MAD	_	8	punct	_	_
 
+# new_par id = P411.10
 # sent_id = sv-ud-dev-224
 # text = Är det jämlikt, att kvinnor för att känna sitt människovärde måste rätta sig efter manssamhället och anamma dess värderingar?
 1	Är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
@@ -5602,6 +5656,7 @@
 20	värderingar	värdering	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	18	obj	_	SpaceAfter=No
 21	?	?	PUNCT	MAD	_	3	punct	_	_
 
+# new_par id = P411.11
 # sent_id = sv-ud-dev-225
 # text = Måste vi inte på allt sätt arbeta på att förändra detta manssamhälles attityder mot det kvinnliga?
 1	Måste	måste	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
@@ -5637,6 +5692,7 @@
 11	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	10	obj	_	SpaceAfter=No
 12	.	.	PUNCT	MAD	_	2	punct	_	_
 
+# new_par id = P411.12
 # sent_id = sv-ud-dev-227
 # text = Har kanske kampen för kvinnans likaberättigande i yrkeslivet under årtiondenas lopp förblindat de kvinnor, som kämpat på barrikaderna?
 1	Har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	_
@@ -5660,6 +5716,7 @@
 19	barrikaderna	barrikad	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	17	obl	_	SpaceAfter=No
 20	?	?	PUNCT	MAD	_	12	punct	_	_
 
+# new_par id = P411.13
 # sent_id = sv-ud-dev-228
 # text = Vi måste så hårt understryka det väsentliga och betydelsefulla i vårdandet av den nya generationen, att männen får en önskan att tränga in på 'vårt' område, att få vara med om detta det mest fascinerande i människolivet, att leda, hjälpa och forma en ny människa.
 1	Vi	vi	PRON	PN|UTR|PLU|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	5	nsubj	_	_
@@ -5715,6 +5772,7 @@
 51	människa	människa	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	44	obj	_	SpaceAfter=No
 52	.	.	PUNCT	MAD	_	5	punct	_	_
 
+# new_par id = P411.14
 # sent_id = sv-ud-dev-229
 # text = Den rätten har vi kvinnor haft sedan urminnes tider.
 1	Den	en	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	2	det	_	_
@@ -5772,6 +5830,7 @@
 8	då	då	ADV	AB	_	4	advmod	_	SpaceAfter=No
 9	?	?	PUNCT	MAD	_	4	punct	_	_
 
+# new_par id = P411.15
 # sent_id = sv-ud-dev-232
 # text = I stället för att snällt anamma manssamhällets värderingar och krav ska vi ställa krav.
 1	I	i	ADP	PP	_	6	mark	_	_
@@ -5876,6 +5935,7 @@
 19	människor	människa	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	16	obl:agent	_	SpaceAfter=No
 20	.	.	PUNCT	MAD	_	10	punct	_	_
 
+# new_par id = P411.16
 # sent_id = sv-ud-dev-238
 # text = Vi lever allt fler år, håller oss vitala upp i allt högre åldrar.
 1	Vi	vi	PRON	PN|UTR|PLU|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	2	nsubj	_	_
@@ -5925,6 +5985,7 @@
 6	lägre	låg	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	5	advmod	_	SpaceAfter=No
 7	?	?	PUNCT	MAD	_	5	punct	_	_
 
+# new_par id = P411.17
 # sent_id = sv-ud-dev-241
 # text = Den period, som är den arbetsammaste men samtidigt den mest levande, betydelsefull för personlighetsutvecklingen både hos de vuxna och barnen, den period i livet när känslokontakten barn-föräldrar skapas, den perioden måste värderas särskilt högt.
 1	Den	en	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	2	det	_	_
@@ -5967,6 +6028,7 @@
 38	högt	hög	ADV	AB|POS	Degree=Pos	36	advmod	_	SpaceAfter=No
 39	.	.	PUNCT	MAD	_	36	punct	_	_
 
+# new_par id = P411.18
 # sent_id = sv-ud-dev-242
 # text = Vi har våra barn till låns en kort tid, ett par tiotal år högst.
 1	Vi	vi	PRON	PN|UTR|PLU|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	2	nsubj	_	_
@@ -6052,6 +6114,7 @@
 5	den	den	PRON	PN|UTR|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	3	obl	_	SpaceAfter=No
 6	?	?	PUNCT	MAD	_	3	punct	_	_
 
+# new_par id = P411.19
 # sent_id = sv-ud-dev-248
 # text = Ännu har vi tid att ändra den väg vi är inne på.
 1	Ännu	ännu	ADV	AB	_	2	advmod	_	_
@@ -6094,6 +6157,7 @@
 22	stadium	stadium	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No
 23	.	.	PUNCT	MAD	_	2	punct	_	_
 
+# new_par id = P411.20
 # sent_id = sv-ud-dev-250
 # text = Ännu har vi chansen att bli ett föregångsland på det här området.
 1	Ännu	ännu	ADV	AB	_	2	advmod	_	_
@@ -6133,6 +6197,8 @@
 19	livet	liv	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	17	obl	_	SpaceAfter=No
 20	.	.	PUNCT	MAD	_	5	punct	_	_
 
+# new_doc id = P413
+# new_par id = P413.1
 # sent_id = sv-ud-dev-252
 # text = Hemmafrun som förstår sitt värde kan inte skrämmas bort av någon socialistisk skatteskruv.
 1	Hemmafrun	hemmafru	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	8	nsubj:pass	_	_
@@ -6218,6 +6284,7 @@
 11	människor	människa	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9	obj	_	SpaceAfter=No
 12	.	.	PUNCT	MAD	_	2	punct	_	_
 
+# new_par id = P413.2
 # sent_id = sv-ud-dev-256
 # text = Det har blivit så att kvinnorna är livlösa.
 1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	3	nsubj	_	_
@@ -6387,6 +6454,7 @@
 20	var	vara	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	18	acl:relcl	_	SpaceAfter=No
 21	.	.	PUNCT	MAD	_	2	punct	_	_
 
+# new_par id = P413.3
 # sent_id = sv-ud-dev-269
 # text = Fatta mod, hemmakvinnor!
 1	Fatta	fatta	VERB	VB|IMP|AKT	Mood=Imp|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -6459,6 +6527,7 @@
 9	historien	historia	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	6	obl	_	SpaceAfter=No
 10	.	.	PUNCT	MAD	_	6	punct	_	_
 
+# new_par id = P413.4
 # sent_id = sv-ud-dev-274
 # text = Allt var alltså ganska bra tills vi skilde oss ...
 1	Allt	all	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Tot	5	nsubj	_	_
@@ -6530,6 +6599,7 @@
 11	plats	plats	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	obj	_	SpaceAfter=No
 12	.	.	PUNCT	MAD	_	2	punct	_	_
 
+# new_par id = P413.5
 # sent_id = sv-ud-dev-278
 # text = Många hemmamammor gör idag i mån av tid stora insatser inom ideella föreningar, t.ex Röda Korset, scouting, bilkåren, kyrkligt församlingsarbete och som sjukhusvärdinnor för att nämna några exempel.
 1	Många	många	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	2	det	_	_
@@ -6599,6 +6669,7 @@
 29	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	26	cop	_	SpaceAfter=No
 30	.	.	PUNCT	MAD	_	1	punct	_	_
 
+# new_par id = P413.6
 # sent_id = sv-ud-dev-280
 # text = Fast mycket kanske beror på en själv.
 1	Fast	fast	CCONJ	KN	_	4	cc	_	_
@@ -6644,6 +6715,7 @@
 14	glad	glad	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	12	xcomp	_	_
 15	...	...	PUNCT	MAD	_	12	punct	_	_
 
+# new_par id = P413.7
 # sent_id = sv-ud-dev-283
 # text = Har inte hemkvinnan i själva verket hand om miljonvärden i alla våra hem, som behöver ses till och vårdas - skall allt detta bara slängas?
 1	Har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -6708,6 +6780,7 @@
 30	samhället	samhälle	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	28	nmod	_	SpaceAfter=No
 31	.	.	PUNCT	MAD	_	1	punct	_	_
 
+# new_par id = P413.8
 # sent_id = sv-ud-dev-285
 # text = Erik tjänar ungefär 400 kr var fjortonde dag när skatten och hyran är dragen.
 1	Erik	Erik	PROPN	PM|NOM	Case=Nom	2	nsubj	_	_
@@ -6747,6 +6820,7 @@
 5	slantarna	slant	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	3	obl	_	SpaceAfter=No
 6	.	.	PUNCT	MAD	_	3	punct	_	_
 
+# new_par id = P413.9
 # sent_id = sv-ud-dev-288
 # text = Själv är jag gift med en distriktsveterinär och sköter telefonmottagning utan ersättning av staten.
 1	Själv	själv	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	4	amod	_	_
@@ -6830,6 +6904,7 @@
 18	viktiga	viktig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	16	xcomp	_	SpaceAfter=No
 19	.	.	PUNCT	MAD	_	2	punct	_	_
 
+# new_par id = P413.10
 # sent_id = sv-ud-dev-292
 # text = Det är bra att vara hemmafru när karln tjänar så mycket att det räcker till hyra och mat - nog är det det.
 1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	3	expl	_	_
@@ -6921,6 +6996,7 @@
 11	människovärde	människovärde	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	6	obj	_	SpaceAfter=No
 12	.	.	PUNCT	MAD	_	6	punct	_	_
 
+# new_par id = P413.11
 # sent_id = sv-ud-dev-297
 # text = Den ansvarskännande hemmamamman gör stor samhällsnytta genom att hon fostrar funktionsdugliga, självständigt tänkande individer med känsla för jämlikhet och för vad som är rätt och orätt.
 1	Den	en	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	3	det	_	_
@@ -6974,6 +7050,7 @@
 18	Mamma	mamma	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	advcl	_	SpaceAfter=No
 19	?	?	PUNCT	MAD	_	9	punct	_	_
 
+# new_par id = P413.12
 # sent_id = sv-ud-dev-299
 # text = Flickorna får göra rätt för pengarna.
 1	Flickorna	flicka	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	3	nsubj	_	_
@@ -7034,6 +7111,7 @@
 5	här	här	ADV	AB	_	3	advmod	_	SpaceAfter=No
 6	.	.	PUNCT	MAD	_	3	punct	_	_
 
+# new_par id = P413.13
 # sent_id = sv-ud-dev-303
 # text = Har tyckt mig vara ambitiös, glad och harmonisk, aldrig haft städhjälp eller motsvarande, fixat det mesta, så att min man fått tillfälle till rekreation under lunchrast och kvällstimmar för nästa dags arbete i den egna firman, tillräckligt krävande för honom.
 1	Har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	_
@@ -7112,6 +7190,7 @@
 25	arbetsplats	arbetsplats	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	23	obj	_	SpaceAfter=No
 26	?	?	PUNCT	MAD	_	6	punct	_	_
 
+# new_par id = P413.14
 # sent_id = sv-ud-dev-305
 # text = Jag blir så arg på maken.
 1	Jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	_
@@ -7277,6 +7356,7 @@
 13	sida	sida	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obl	_	SpaceAfter=No
 14	.	.	PUNCT	MAD	_	2	punct	_	_
 
+# new_par id = P413.15
 # sent_id = sv-ud-dev-317
 # text = Vad kommer resultatet på lång sikt att bli av denna familjeplanering?
 1	Vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int	8	xcomp	_	_
@@ -7354,6 +7434,7 @@
 37	överleva	överleva	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	35	xcomp	_	SpaceAfter=No
 38	.	.	PUNCT	MAD	_	6	punct	_	_
 
+# new_par id = P413.16
 # sent_id = sv-ud-dev-320
 # text = Kvinnorna hjälper industrin till stora förtjänster.
 1	Kvinnorna	kvinna	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	2	nsubj	_	_
@@ -7410,6 +7491,7 @@
 3	farliga	farlig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	MAD	_	3	punct	_	_
 
+# new_par id = P413.17
 # sent_id = sv-ud-dev-325
 # text = Likadant med utlänningarna.
 1	Likadant	likadan	ADV	AB	_	0	root	_	_
@@ -7470,6 +7552,7 @@
 15	bo	bo	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	14	xcomp	_	SpaceAfter=No
 16	.	.	PUNCT	MAD	_	2	punct	_	_
 
+# new_par id = P413.18
 # sent_id = sv-ud-dev-330
 # text = Citaten är hämtade ur Svenska Dagbladets debatt 'Hemmafru i skatteskruv' (vänstra spalten, rak stil) och Kajsa Ohrlander: Kvinnor som slavar, Aldus / Bonniers, 13:75 (högra spalten, kursiv stil).
 1	Citaten	citat	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	3	nsubj	_	_
@@ -7513,6 +7596,7 @@
 39	)	)	PUNCT	PAD	_	21	punct	_	SpaceAfter=No
 40	.	.	PUNCT	MAD	_	3	punct	_	_
 
+# new_par id = P413.19
 # sent_id = sv-ud-dev-331
 # text = De reaktionära har många sätt att göra bilden suddig.
 1	De	en	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
@@ -7631,6 +7715,7 @@
 15	illusionen	illusion	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	14	nsubj:pass	_	SpaceAfter=No
 16	.	.	PUNCT	MAD	_	14	punct	_	_
 
+# new_par id = P413.20
 # sent_id = sv-ud-dev-337
 # text = Det handlar inte om hemmafruar / yrkeskvinnor.
 1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	2	nsubj	_	_
@@ -7785,6 +7870,7 @@
 29	svek	svek	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	19	obl	_	SpaceAfter=No
 30	.	.	PUNCT	MAD	_	2	punct	_	_
 
+# new_par id = P413.21
 # sent_id = sv-ud-dev-346
 # text = Det handlar om politik.
 1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	2	nsubj	_	_
@@ -7884,6 +7970,7 @@
 35	situation	situation	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	32	obl	_	SpaceAfter=No
 36	.	.	PUNCT	MAD	_	3	punct	_	_
 
+# new_par id = P413.22
 # sent_id = sv-ud-dev-350
 # text = Det handlar om systemet.
 1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	2	nsubj	_	_
@@ -8034,6 +8121,8 @@
 15	ofarliga	ofarlig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	13	conj	_	SpaceAfter=No
 16	.	.	PUNCT	MAD	_	2	punct	_	_
 
+# new_doc id = P414
+# new_par id = P414.1
 # sent_id = sv-ud-dev-358
 # text = Dagens samhälle passar inte för kvinnorna.
 1	Dagens	dag	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	2	nmod:poss	_	_
@@ -8086,6 +8175,7 @@
 14	kvinnorna	kvinna	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	12	obl	_	SpaceAfter=No
 15	.	.	PUNCT	MAD	_	3	punct	_	_
 
+# new_par id = P414.2
 # sent_id = sv-ud-dev-361
 # text = Den gamla inflammerade debatten om hemmafru kontra yrkeskvinna har tagit ny fart igen.
 1	Den	en	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	4	det	_	_
@@ -8249,6 +8339,7 @@
 43	förutsättningar	förutsättning	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	37	obl	_	SpaceAfter=No
 44	.	.	PUNCT	MAD	_	3	punct	_	_
 
+# new_par id = P414.3
 # sent_id = sv-ud-dev-367
 # text = Skattereformen skulle medföra att valfriheten blev illusorisk säger man.
 1	Skattereformen	skattereform	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	3	nsubj	_	_
@@ -8610,6 +8701,7 @@
 3	heltidsjobb	heltidsjobb	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	MAD	_	3	punct	_	_
 
+# new_par id = P414.4
 # sent_id = sv-ud-dev-385
 # text = Men hurudana är då villkoren för denna samhällsinsats och detta heltidsjobb?
 1	Men	men	CCONJ	KN	_	2	cc	_	_
@@ -9049,6 +9141,7 @@
 16	buds	bud	NOUN	NN|NEU|SIN|IND|GEN	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	15	fixed	_	SpaceAfter=No
 17	.	.	PUNCT	MAD	_	8	punct	_	_
 
+# new_par id = P414.5
 # sent_id = sv-ud-dev-410
 # text = En hård dag på jobbet och så snabbköpet på lunchen eller efter arbetstidens slut.
 1	En	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	3	det	_	_
@@ -9080,6 +9173,7 @@
 9	arbetsdag	arbetsdag	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	obl	_	SpaceAfter=No
 10	.	.	PUNCT	MAD	_	3	punct	_	_
 
+# new_par id = P414.6
 # sent_id = sv-ud-dev-412
 # text = Så långt hemmafruns orimliga situation.
 1	Så	så	ADV	AB	_	2	advmod	_	_
@@ -9255,6 +9349,7 @@
 12	befordringsmöjligheter	befordringsmöjlighet	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9	conj	_	SpaceAfter=No
 13	.	.	PUNCT	MAD	_	6	punct	_	_
 
+# new_par id = P414.7
 # sent_id = sv-ud-dev-419
 # text = Kritisera därför gärna skattereformförslaget för att det blir ofördelaktigt för barnfamiljerna men inte för att det kanske kommer att medföra en käpp i hjulet för hemmafrusystemet.
 1	Kritisera	kritisera	VERB	VB|IMP|AKT	Mood=Imp|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -9364,6 +9459,7 @@
 23	slut	slut	ADJ	JJ|POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	17	acl:relcl	_	SpaceAfter=No
 24	.	.	PUNCT	MAD	_	4	punct	_	_
 
+# new_par id = P414.8
 # sent_id = sv-ud-dev-424
 # text = Jag fick nyligen en liten skrift i min hand.
 1	Jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	_
@@ -9440,6 +9536,7 @@
 22	ur	ur	ADP	PP	_	23	case	_	_
 23	den	en	PRON	PN|UTR|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	21	obl	_	_
 
+# new_par id = P414.9
 # sent_id = sv-ud-dev-429
 # text = 'Det moderna äktenskapet som i de flesta fall ingås uteslutande av känslomässiga motiv är rimligtvis underkastat känslornas svängningar och är därför inte en tillräckligt stabil institution för att utgöra grunden för människors långsiktiga trygghet.
 1	'	'	PUNCT	PAD	_	17	punct	_	SpaceAfter=No
@@ -9505,6 +9602,7 @@
 22	.	.	PUNCT	MAD	_	4	punct	_	SpaceAfter=No
 23	'	'	PUNCT	PAD	_	4	punct	_	_
 
+# new_par id = P414.10
 # sent_id = sv-ud-dev-431
 # text = Jag tror att först då vi verkligen nått det målet, kan vi börja tala om en reell valfrihet för alla människor.
 1	Jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	_
@@ -9531,6 +9629,8 @@
 22	människor	människa	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	19	nmod	_	SpaceAfter=No
 23	.	.	PUNCT	MAD	_	2	punct	_	_
 
+# new_doc id = P417
+# new_par id = P417.1
 # sent_id = sv-ud-dev-432
 # text = När hemproduktionen var omfattande och den ekonomiska funktionen därmed speciellt viktig, blev ekonomiska faktorer också avgörande för partnerval och familjesammanhållning.
 1	När	när	ADV	HA	_	4	advmod	_	_
@@ -9694,6 +9794,7 @@
 13	komplikationer	komplikation	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	obl	_	SpaceAfter=No
 14	.	.	PUNCT	MAD	_	2	punct	_	_
 
+# new_par id = P417.2
 # sent_id = sv-ud-dev-440
 # text = Man kan peka på ytterligare faktorer som i dag bidrar till att minska eller försvåra familjesammanhållningen.
 1	Man	man	PRON	PN|UTR|SIN|IND|SUB	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	3	nsubj	_	_
@@ -9789,6 +9890,7 @@
 22	äldre	gammal	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	20	conj	_	SpaceAfter=No
 23	.	.	PUNCT	MAD	_	4	punct	_	_
 
+# new_par id = P417.3
 # sent_id = sv-ud-dev-444
 # text = Den patriarkaliska familjen som ideal
 1	Den	en	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	3	det	_	_
@@ -9883,6 +9985,7 @@
 9	!	!	PUNCT	MAD	_	3	punct	_	SpaceAfter=No
 10	'	'	PUNCT	PAD	_	3	punct	_	_
 
+# new_par id = P417.4
 # sent_id = sv-ud-dev-451
 # text = En minoritet ställde sig dock positiv till satsen, och lustigt nog var det något vanligare bland kvinnorna: 21 procent mot 18 procent bland männen.
 1	En	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	2	det	_	_
@@ -9924,6 +10027,7 @@
 7	.	.	PUNCT	MAD	_	6	punct	_	SpaceAfter=No
 8	)	)	PUNCT	PAD	_	6	punct	_	_
 
+# new_par id = P417.5
 # sent_id = sv-ud-dev-453
 # text = Att detta med fadersmyndigheten var en fråga som intresserade framgick av att praktiskt taget varenda intervjuad deklarerade sin åsikt för eller emot.
 1	Att	att	SCONJ	SN	_	7	mark	_	_
@@ -9950,6 +10054,7 @@
 22	emot	emot	ADP	PP	_	20	conj	_	SpaceAfter=No
 23	.	.	PUNCT	MAD	_	10	punct	_	_
 
+# new_par id = P417.6
 # sent_id = sv-ud-dev-454
 # text = Man kan ju undra hur samlevnaden tar sig ut om den ena parten i ett äktenskap helhjärtat håller på husbondevälde och den andra på den likställighet som enligt svensk lag skall råda mellan makar.
 1	Man	man	PRON	PN|UTR|SIN|IND|SUB	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	4	nsubj	_	_
@@ -9988,6 +10093,7 @@
 34	makar	make	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	32	obl	_	SpaceAfter=No
 35	.	.	PUNCT	MAD	_	4	punct	_	_
 
+# new_par id = P417.7
 # sent_id = sv-ud-dev-455
 # text = Vi kan jämföra attityden mellan makarna i 177 föräldrapar.
 1	Vi	vi	PRON	PN|UTR|PLU|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	3	nsubj	_	_
@@ -10081,6 +10187,7 @@
 4	Stockholmspojkar	Stockholmspojke	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	1	obl	_	SpaceAfter=No
 5	.	.	PUNCT	MAD	_	1	punct	_	_
 
+# new_par id = P417.8
 # sent_id = sv-ud-dev-460
 # text = Familjemedlemmarnas ställning - ett samspel mellan jämlikar?
 1	Familjemedlemmarnas	familjemedlem	NOUN	NN|UTR|PLU|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Plur	2	nmod:poss	_	_
@@ -10155,6 +10262,7 @@
 25	därefter	därefter	ADV	AB	_	23	advmod	_	SpaceAfter=No
 26	.	.	PUNCT	MAD	_	5	punct	_	_
 
+# new_par id = P417.9
 # sent_id = sv-ud-dev-464
 # text = Vårt ideal i dag är ett samspel mellan jämlikar.
 1	Vårt	vi	DET	PS|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
@@ -10254,6 +10362,7 @@
 7	äktenskapet	äktenskap	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No
 8	.	.	PUNCT	MAD	_	2	punct	_	_
 
+# new_par id = P417.10
 # sent_id = sv-ud-dev-469
 # text = Den demokratiska familjen framställs som en grupp bestående av likvärdiga medlemmar, som samarbetar och samråder utan förutfattade meningar om rangordning eller arbetsfördelning, som håller ihop inåt och har kontakter utåt, som respekterar varandra och ger spelrum åt varandras egenart.
 1	Den	en	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	3	det	_	_
@@ -10300,6 +10409,7 @@
 42	egenart	egenart	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	38	obl	_	SpaceAfter=No
 43	.	.	PUNCT	MAD	_	4	punct	_	_
 
+# new_par id = P417.11
 # sent_id = sv-ud-dev-470
 # text = En omdiskuterad fråga är var vi i verkligheten står, i vilken utsträckning en ny syn satt sin prägel på olika former av mänsklig samlevnad.
 1	En	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	3	det	_	_
@@ -10439,6 +10549,7 @@
 42	barnomsorger	barnomsorg	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	40	conj	_	SpaceAfter=No
 43	.	.	PUNCT	MAD	_	3	punct	_	_
 
+# new_par id = P417.12
 # sent_id = sv-ud-dev-475
 # text = Livsstilar och meningar bryter sig inte bara människor emellan utan lika mycket inom den enskilda individen.
 1	Livsstilar	livsstil	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	4	nsubj	_	_
@@ -10534,11 +10645,13 @@
 27	tillvaro	tillvaro	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	obl	_	SpaceAfter=No
 28	.	.	PUNCT	MAD	_	16	punct	_	_
 
+# new_par id = P417.13
 # sent_id = sv-ud-dev-479
 # text = Uppgifter:
 1	Uppgifter	uppgift	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	MAD	_	1	punct	_	_
 
+# new_par id = P417.14
 # sent_id = sv-ud-dev-480
 # text = Ta med hjälp av Statistisk årsbok reda på hur många barn som enligt senaste folkräkningen tillhörde mor- eller farföräldrahushåll; hur många föräldrar som tillhörde vuxna barns hushåll; i vilken omfattning andra anhöriga ingick i släktings hushåll.
 1	Ta	ta	VERB	VB|IMP|AKT	Mood=Imp|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -10581,6 +10694,7 @@
 38	hushåll	hushåll	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	35	obl	_	SpaceAfter=No
 39	.	.	PUNCT	MAD	_	1	punct	_	_
 
+# new_par id = P417.18
 # sent_id = sv-ud-dev-481
 # text = I vilken utsträckning har vi fortfarande en tendens att placera folk i 'rangskala', att se på en del som 'finare' än andra?
 1	I	i	ADP	PP	_	3	case	_	_
@@ -10612,6 +10726,7 @@
 27	andra	annan	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur|PronType=Ind	18	advcl	_	SpaceAfter=No
 28	?	?	PUNCT	MAD	_	4	punct	_	_
 
+# new_par id = P417.19
 # sent_id = sv-ud-dev-482
 # text = Om man gör en sådan skillnad på 'folk och folk', vad går man då efter?
 1	Om	om	SCONJ	SN	_	3	mark	_	_
@@ -10634,6 +10749,7 @@
 18	efter	efter	ADP	PP	_	14	case	_	SpaceAfter=No
 19	?	?	PUNCT	MAD	_	15	punct	_	_
 
+# new_par id = P417.20
 # sent_id = sv-ud-dev-483
 # text = Hur långt har vi kommit i fråga om jämlikhet i förhållandet mellan t.ex. make - maka? föräldrar - barn? lärare - elev? arbetsgivare - arbetstagare? läkare - patient?
 1	Hur	hur	ADV	HA	_	2	advmod	_	_
@@ -10670,6 +10786,7 @@
 32	patient	patient	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	30	conj	_	SpaceAfter=No
 33	?	?	PUNCT	MAD	_	5	punct	_	_
 
+# new_par id = P417.26
 # sent_id = sv-ud-dev-484
 # text = Hur ser ni på den äldre generationens förhållande till den yngre i dagens samliv?
 1	Hur	hur	ADV	HA	_	2	advmod	_	_
@@ -10734,6 +10851,7 @@
 13	motverka	motverka	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	11	conj	_	SpaceAfter=No
 14	?	?	PUNCT	MAD	_	7	punct	_	_
 
+# new_par id = P417.27
 # sent_id = sv-ud-dev-488
 # text = Sök klargöra varför frågorna om familjeformen diskuteras så livligt i Sverige just nu.
 1	Sök	söka	VERB	VB|IMP|AKT	Mood=Imp|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -10787,6 +10905,8 @@
 9	.	.	PUNCT	MAD	_	2	punct	_	SpaceAfter=No
 10	)	)	PUNCT	PAD	_	2	punct	_	_
 
+# new_doc id = P418
+# new_par id = P418.1
 # sent_id = sv-ud-dev-492
 # text = Striden för kvinnors jämlikhet anses väl numera vara så gott som helt slutförd.
 1	Striden	strid	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	5	nsubj:pass	_	_
@@ -10850,6 +10970,7 @@
 42	större	stor	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	40	conj	_	SpaceAfter=No
 43	.	.	PUNCT	MAD	_	9	punct	_	_
 
+# new_par id = P418.2
 # sent_id = sv-ud-dev-494
 # text = Kvinnor avbryter nämligen gärna sin utbildning och sina studier på halva vägen, de utvecklar inte sina anlag och tränar inte sin intelligens till fullo, de struntar i mänsklighetens stora problem och tar ingen eller ringa del i kulturens överbyggnader (vetenskap och forskning till exempel), de gifter sig och binder sig och stagnerar mer eller mindre i sin passiva kvinnoroll.
 1	Kvinnor	kvinna	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	nsubj	_	_
@@ -10918,6 +11039,7 @@
 64	kvinnoroll	kvinnoroll	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	57	obl	_	SpaceAfter=No
 65	.	.	PUNCT	MAD	_	2	punct	_	_
 
+# new_par id = P418.3
 # sent_id = sv-ud-dev-495
 # text = När det gäller samhällsbyggandet och allt vad därtill hör, räknar heller inte männen på kvinnornas medverkan, de har ingenting att lära av dem, de reder sig på egen hand, de arbetar så att säga för kvinnorna, inte med dem.
 1	När	när	ADV	HA	_	4	case	_	_
@@ -10966,6 +11088,7 @@
 44	dem	de	PRON	PN|UTR/NEU|PLU|DEF|OBJ	Case=Acc|Definite=Def|Number=Plur|PronType=Prs	35	conj	_	SpaceAfter=No
 45	.	.	PUNCT	MAD	_	11	punct	_	_
 
+# new_par id = P418.4
 # sent_id = sv-ud-dev-496
 # text = För kvinnorna återstår så moderskapet, könet och myten om det 'kvinnliga' samt - sist men inte minst - deras värde som arbetskraft.
 1	För	för	ADP	PP	_	2	case	_	_
@@ -11026,6 +11149,7 @@
 27	tillvaro	tillvaro	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	22	nmod	_	SpaceAfter=No
 28	.	.	PUNCT	MAD	_	2	punct	_	_
 
+# new_par id = P418.5
 # sent_id = sv-ud-dev-498
 # text = Kvinnorna bildar en enklav i männens värld; det som fortfarande fattas är deras aktiva medverkan och ansvar för det som sker i samhället och världen i stort.
 1	Kvinnorna	kvinna	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	2	nsubj	_	_
@@ -11111,6 +11235,7 @@
 49	samhällsansvar	samhällsansvar	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	47	conj	_	SpaceAfter=No
 50	.	.	PUNCT	MAD	_	2	punct	_	_
 
+# new_par id = P418.6
 # sent_id = sv-ud-dev-500
 # text = Kampen för kvinnors jämlikhet måste i fortsättningen läggas på den inre fronten och föras av kvinnorna själva.
 1	Kampen	kamp	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	8	nsubj:pass	_	_
@@ -11255,6 +11380,7 @@
 39	vederlikar	vederlike	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	35	xcomp	_	SpaceAfter=No
 40	.	.	PUNCT	MAD	_	5	punct	_	_
 
+# new_par id = P418.7
 # sent_id = sv-ud-dev-504
 # text = Allt detta kommer att ta sin tid ty man måste börja med att låta flickorna växa till i ålder, visdom och medansvar i stället för att som nu hämmas i sin utveckling genom att man tilldelar dem den ovärdiga rollen som mannekäng och kläddocka på världens arena.
 1	Allt	all	DET	DT|NEU|SIN|IND/DEF	Gender=Neut|Number=Sing|PronType=Tot	2	det	_	_

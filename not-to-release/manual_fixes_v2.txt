@@ -1249,7 +1249,7 @@
 85066
 29	orimligt	orimlig	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	28	appos	_	SpaceAfter=No
 ---
-29	orimligt	orimlig	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	28	xcomp	_	SpaceAfter=Nox
+29	orimligt	orimlig	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	28	xcomp	_	SpaceAfter=No
 
 94324
 15	t.ex	t.ex	ADV	AB|AN	Abbr=Yes	16	advmod	_	_
