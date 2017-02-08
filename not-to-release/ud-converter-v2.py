@@ -114,6 +114,13 @@ def fix_spacing(sentence):
         elif word[7] in [",", ";", ".", ":", "?", "!", ")"]:
             misc[sentence[i-1][4]].append("SpaceAfter=No")
  
+def fix_det(sentence):
+    for word in sentence:
+        if deprel[word[4]] == "det" and word[10] in ["JJ", "RO"]:
+#            for dword in sentence:
+#                if head[dword[4]] == head[word[4]] and dword[4] < word[4] and deprel[dword[4]] == "det":
+            deprel[word[4]] = "amod"
+
 def print_sentence(sentence):
     parse_sentence(sentence)
     map_labels(sentence)
@@ -121,6 +128,7 @@ def print_sentence(sentence):
         reattach(sentence)
         relabel(sentence) # All verbs are labeled aux
         retag(sentence) # Fix remaining attachment and labeling errors too! AUX -> aux, cop; VERB -> not aux, not cop
+        fix_det(sentence)
         fix_apposition(sentence)
         fix_coordination(sentence)
         fix_spacing(sentence)
@@ -942,8 +950,8 @@ def map_features(lem, utag, mamtag, suctag, feats):
         ufeats.append("VerbForm=Part")
         if "Mood=Ind" in ufeats:
             ufeats.remove("Mood=Ind")
-    if utag == "VERB" and lem == "jfr" and ufeats == []:
-        ufeats = ["Mood=Imp", "VerbForm=Fin", "Voice=Act"]
+    if utag == "VERB" and lem == "jfr":
+        ufeats = ufeats + ["Mood=Imp", "VerbForm=Fin", "Voice=Act"]
     if utag == "VERB" and lem == "läsa" and ufeats == []:
         ufeats = ["VerbForm=Stem"]
     if utag in ["DET", "PRON"] and not "PronType=Int,Rel" in ufeats:

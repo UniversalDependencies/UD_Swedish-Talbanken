@@ -184,7 +184,7 @@
 
 87094
 10	och	och	CCONJ	KN	_	14	cc	_	_
-11	annat	annan	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	det	_	_
+11	annat	annan	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
 12	med	med	ADP	PP	_	13	case	_	_
 13	barnen	barn	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	14	orphan	_	Enhanced=obl
 14	förknippat	förknippa	ADJ	PC|PRF|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	9	conj	_	Enhanced=nsubj
@@ -659,7 +659,7 @@
 43	Union	Union	PROPN	PM|NOM	Case=Nom	41	flat:name	_	_
 44	(	(	PUNCT	PAD	_	41	punct	_	SpaceAfter=No
 45	Europas	Europa	PROPN	PM|GEN	Case=Gen	47	nmod:poss	_	_
-46	samtliga	samtlig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	47	det	_	_
+46	samtliga	samtlig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	47	amod	_	_
 47	flygbolag	flygbolag	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	41	appos	_	SpaceAfter=No
 48	)	)	PUNCT	PAD	_	41	punct	_	_
 ---
@@ -668,7 +668,7 @@
 43	Union	Union	NOUN	NN	_	12	conj	_	_
 44	(	(	PUNCT	PAD	_	43	punct	_	SpaceAfter=No
 45	Europas	Europa	PROPN	PM|GEN	Case=Gen	47	nmod:poss	_	_
-46	samtliga	samtlig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	47	det	_	_
+46	samtliga	samtlig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	47	amod	_	_
 47	flygbolag	flygbolag	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	43	appos	_	SpaceAfter=No
 48	)	)	PUNCT	PAD	_	43	punct	_	_
 
@@ -1275,14 +1275,14 @@
 24	församlingsarbete	församlingsarbete	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	17	conj	_	_
 
 95150
-5	Svenska	Svenska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	7	det	_	_
+5	Svenska	Svenska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	7	amod	_	_
 6	Dagbladets	Dagbladet	NOUN	NN|NEU|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	5	flat:name	_	_
 ---
 5	Svenska	Svenska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	6	amod	_	_
 6	Dagbladets	Dagbladet	NOUN	NN|NEU|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	7	nmod:poss	_	_
 
 95245
-2	Svenska	Svenska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	4	det	_	_
+2	Svenska	Svenska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	4	amod	_	_
 3	Dagbladets	Dagbladet	NOUN	NN|NEU|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	2	flat:name	_	_
 ---
 2	Svenska	Svenska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	3	amod	_	_
@@ -1322,7 +1322,7 @@
 
 87303
 15	i	i	ADP	PP	_	17	case	_	_
-16	första	en	ADJ	RO|NOM	Case=Nom	17	det	_	_
+16	första	en	ADJ	RO|NOM	Case=Nom	17	amod	_	_
 17	hand	hand	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	obl	_	SpaceAfter=No
 ---
 15	i	i	ADP	PP	_	14	advmod	_	_
@@ -1377,7 +1377,7 @@
 6	mindre	lite	ADV	AB|KOM	Degree=Cmp	4	conj	_	_
 ---
 4	mer	mycket	ADV	AB|KOM	Degree=Cmp	7	advmod	_	_
-5	eller	eller	CCONJ	KN	_	6	fixed	_	_
+5	eller	eller	CCONJ	KN	_	4	fixed	_	_
 6	mindre	lite	ADV	AB|KOM	Degree=Cmp	4	fixed	_	_
 
 19332
@@ -1386,7 +1386,7 @@
 9	mindre	lite	ADV	AB|KOM	Degree=Cmp	7	conj	_	_
 ---
 7	mer	mycket	ADV	AB|KOM	Degree=Cmp	10	advmod	_	_
-8	eller	eller	CCONJ	KN	_	9	fixed	_	_
+8	eller	eller	CCONJ	KN	_	7	fixed	_	_
 9	mindre	lite	ADV	AB|KOM	Degree=Cmp	7	fixed	_	_
 
 72801
@@ -1395,7 +1395,7 @@
 19	mindre	lite	ADV	AB|KOM	Degree=Cmp	17	conj	_	_
 ---
 17	mer	mycket	ADV	AB|KOM	Degree=Cmp	20	advmod	_	_
-18	eller	eller	CCONJ	KN	_	19	fixed	_	_
+18	eller	eller	CCONJ	KN	_	17	fixed	_	_
 19	mindre	lite	ADV	AB|KOM	Degree=Cmp	17	fixed	_	_
 
 9591
@@ -3326,7 +3326,7 @@
 8	-	-	PUNCT	MID	_	2	punct	_	_
 9	ja	ja	INTJ	IN	_	12	advmod	_	SpaceAfter=No
 10	,	,	PUNCT	MID	_	12	punct	_	_
-11	hela	hel	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	12	det	_	_
+11	hela	hel	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	12	amod	_	_
 12	samhället	samhälle	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	conj	_	SpaceAfter=No
 13	.	.	PUNCT	MAD	_	2	punct	_	_
 ---
@@ -3337,7 +3337,7 @@
 8	-	-	PUNCT	MID	_	4	punct	_	_
 9	ja	ja	INTJ	IN	_	12	advmod	_	SpaceAfter=No
 10	,	,	PUNCT	MID	_	12	punct	_	_
-11	hela	hel	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	12	det	_	_
+11	hela	hel	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	12	amod	_	_
 12	samhället	samhälle	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	4	conj	_	SpaceAfter=No
 13	.	.	PUNCT	MAD	_	2	punct	_	_
 
@@ -3383,7 +3383,7 @@
 66	hata	hata	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	64	conj	_	_
 67	varandra	varandra	PRON	PN|UTR/NEU|PLU|DEF|OBJ	Case=Acc|Definite=Def|Number=Plur|PronType=Rcp	64	obj	_	_
 68	från	från	ADP	PP	_	70	case	_	_
-69	första	en	ADJ	RO|NOM	Case=Nom	70	det	_	_
+69	första	en	ADJ	RO|NOM	Case=Nom	70	amod	_	_
 70	stund	stund	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	64	obl	_	_
 71	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	72	nsubj	_	_
 72	började	börja	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	70	acl:relcl	_	_
@@ -3393,7 +3393,7 @@
 33	utbryta	utbryta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	5	conj	_	_
 34	till	till	ADP	PP	_	33	advmod	_	_
 35	höger	höger	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	34	fixed	_	_
-36	och	och	CCONJ	KN	_	37	fixed	_	_
+36	och	och	CCONJ	KN	_	34	fixed	_	_
 37	vänster	vänster	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	34	fixed	_	_
 38	(	(	PUNCT	PAD	_	33	punct	_	SpaceAfter=No
 39	för	för	CCONJ	KN	_	33	cc	_	_
@@ -3426,7 +3426,7 @@
 66	hata	hata	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	64	conj	_	_
 67	varandra	varandra	PRON	PN|UTR/NEU|PLU|DEF|OBJ	Case=Acc|Definite=Def|Number=Plur|PronType=Rcp	64	obj	_	_
 68	från	från	ADP	PP	_	70	case	_	_
-69	första	en	ADJ	RO|NOM	Case=Nom	70	det	_	_
+69	första	en	ADJ	RO|NOM	Case=Nom	70	amod	_	_
 70	stund	stund	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	64	obl	_	_
 71	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	72	nsubj	_	_
 72	började	börja	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	70	acl:relcl	_	_
@@ -3679,7 +3679,7 @@
 32	intim	intim	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	30	xcomp	_	_
 33	även	även	ADV	AB	_	37	mark	_	_
 34	om	om	SCONJ	SN	_	33	fixed	_	_
-35	vissa	viss	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	36	det	_	_
+35	vissa	viss	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	36	amod	_	_
 36	funktioner	funktion	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	37	nsubj:pass	_	_
 37	fylls	fylla	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	30	advcl	_	_
 38	bättre	bra	ADV	AB|KOM	Degree=Cmp	37	advmod	_	_
@@ -3707,7 +3707,7 @@
 32	intim	intim	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	30	xcomp	_	_
 33	även	även	ADV	AB	_	37	mark	_	_
 34	om	om	SCONJ	SN	_	33	fixed	_	_
-35	vissa	viss	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	36	det	_	_
+35	vissa	viss	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	36	amod	_	_
 36	funktioner	funktion	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	37	nsubj:pass	_	_
 37	fylls	fylla	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	30	advcl	_	_
 38	bättre	bra	ADV	AB|KOM	Degree=Cmp	37	advmod	_	_
