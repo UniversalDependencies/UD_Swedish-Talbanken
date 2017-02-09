@@ -1,3 +1,65 @@
+5890
+2	ovan	ovan	ADV	AB	_	4	det	_	_
+3	nämnda	nämna	ADJ	PC|PRF|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Number=Sing|Tense=Past|VerbForm=Part	2	fixed	_	_
+---
+2	ovan	ovan	ADV	AB	_	3	advmod	_	_
+3	nämnda	nämna	ADJ	PC|PRF|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Number=Sing|Tense=Past|VerbForm=Part	4	amod	_	_
+
+5988
+24	ovan	ovan	ADV	AB	_	26	det	_	_
+25	nämnda	nämna	ADJ	PC|PRF|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Number=Sing|Tense=Past|VerbForm=Part	24	fixed	_	_
+---
+24	ovan	ovan	ADV	AB	_	25	advmod	_	_
+25	nämnda	nämna	ADJ	PC|PRF|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Number=Sing|Tense=Past|VerbForm=Part	26	amod	_	_
+
+35451
+10	ovan	ovan	ADV	AB	_	9	nmod	_	_
+---
+10	ovan	ovan	ADV	AB	_	9	advmod	_	_
+
+36738
+2	ovan	ovan	ADV	AB	_	1	nmod	_	_
+---
+2	ovan	ovan	ADV	AB	_	1	advmod	_	_
+
+8164
+11	100000	100000	NUM	RG|NOM	Case=Nom|NumType=Card	18	nummod	_	SpaceAfter=No
+12	,	,	PUNCT	MID	_	11	punct	_	_
+13	25000	25000	NUM	RG|NOM	Case=Nom|NumType=Card	11	nummod	_	SpaceAfter=No
+14	,	,	PUNCT	MID	_	11	punct	_	_
+15	10000	10000	NUM	RG|NOM	Case=Nom|NumType=Card	11	nummod	_	SpaceAfter=No
+16	,	,	PUNCT	MID	_	11	punct	_	_
+17	5000	5000	NUM	RG|NOM	Case=Nom|NumType=Card	11	nummod	_	_
+18	kr	kr	NOUN	NN|AN	Abbr=Yes	8	nmod	_	_
+19	etc	etc	ADV	AB|AN	Abbr=Yes	18	det	_	SpaceAfter=No
+---
+11	100000	100000	NUM	RG|NOM	Case=Nom|NumType=Card	18	nummod	_	SpaceAfter=No
+12	,	,	PUNCT	MID	_	13	punct	_	_
+13	25000	25000	NUM	RG|NOM	Case=Nom|NumType=Card	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	MID	_	15	punct	_	_
+15	10000	10000	NUM	RG|NOM	Case=Nom|NumType=Card	11	conj	_	SpaceAfter=No
+16	,	,	PUNCT	MID	_	17	punct	_	_
+17	5000	5000	NUM	RG|NOM	Case=Nom|NumType=Card	11	conj	_	_
+18	kr	kr	NOUN	NN|AN	Abbr=Yes	8	nmod	_	_
+19	etc	etc	ADV	AB|AN	Abbr=Yes	18	conj	_	SpaceAfter=No
+
+98358
+23	allt	all	ADV	AB	_	25	det	_	_
+24	mera	mycket	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	23	fixed	_	_
+---
+23	allt	all	ADV	AB	_	24	advmod	_	_
+24	mera	mycket	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	25	amod	_	_
+
+100083
+23	lite	lite	ADV	AB|POS	Degree=Pos	24	det	_	_
+---
+23	lite	lite	ADV	AB|POS	Degree=Pos	24	amod	_	_
+
+101648
+11	lika	lika	ADV	AB	_	12	det	_	_
+---
+11	lika	lika	ADV	AB	_	12	amod	_	_
+
 28661
 6	T-sprit	T-sprit	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	conj	_	Enhanced=nsubj
 7	i	i	ADP	PP	_	8	case	_	_

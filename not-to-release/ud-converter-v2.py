@@ -120,6 +120,11 @@ def fix_det(sentence):
 #            for dword in sentence:
 #                if head[dword[4]] == head[word[4]] and dword[4] < word[4] and deprel[dword[4]] == "det":
             deprel[word[4]] = "amod"
+        if deprel[word[4]] == "det" and word[12] in ["kl.", "kl"] and word[10] == "AB":
+            deprel[word[4]] = "nmod"
+            postag[word[4]] = "NOUN"
+        if deprel[word[4]] == "det" and word[12] in ["resp", "respektive"]:
+            deprel[word[4]] = "amod"
 
 def print_sentence(sentence):
     parse_sentence(sentence)

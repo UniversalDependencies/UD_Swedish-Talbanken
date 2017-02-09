@@ -10119,7 +10119,7 @@
 8	båda	båda	PRON	PN|UTR/NEU|PLU|DEF|SUB/OBJ	Definite=Def|Number=Plur|PronType=Tot	10	nsubj	_	_
 9	skall	skola	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	_	_
 10	ha	ha	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	5	advcl	_	_
-11	lika	lika	ADV	AB	_	12	det	_	_
+11	lika	lika	ADV	AB	_	12	amod	_	_
 12	mycket	mycket	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	10	obj	_	_
 13	att	att	PART	IE	_	14	mark	_	_
 14	säga	säga	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	12	acl	_	_
