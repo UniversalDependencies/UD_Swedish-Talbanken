@@ -116,7 +116,7 @@ def fix_spacing(sentence):
  
 def fix_det(sentence):
     for word in sentence:
-        if deprel[word[4]] == "det" and word[10] in ["JJ", "RO"]:
+        if deprel[word[4]] == "det" and word[10] in ["JJ", "RO", "PC"]:
 #            for dword in sentence:
 #                if head[dword[4]] == head[word[4]] and dword[4] < word[4] and deprel[dword[4]] == "det":
             deprel[word[4]] = "amod"

@@ -1453,7 +1453,7 @@
 10	bara	bara	ADV	AB	_	14	advmod	_	_
 11	för	för	ADP	PP	_	14	case	_	_
 12	det	en	DET	DT|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	_
-13	sistnämnda	sistnämnda	ADJ	PC|PRF|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Number=Sing|Tense=Past|VerbForm=Part	14	det	_	_
+13	sistnämnda	sistnämnda	ADJ	PC|PRF|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Number=Sing|Tense=Past|VerbForm=Part	14	amod	_	_
 14	testet	test	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	18	obl	_	_
 15	var	vara	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	18	cop	_	_
 16	skillnaden	skillnad	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	18	nsubj	_	_
@@ -3241,7 +3241,7 @@
 12	jämlikhetskrav	jämlikhetskrav	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	9	nmod	_	_
 13	och	och	CCONJ	KN	_	17	cc	_	_
 14	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
-15	motsvarande	motsvarande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Tense=Pres|VerbForm=Part	16	det	_	_
+15	motsvarande	motsvarande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Tense=Pres|VerbForm=Part	16	amod	_	_
 16	ointresse	ointresse	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	17	nsubj	_	_
 17	finns	finnas	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin	6	conj	_	_
 18	också	också	ADV	AB	_	17	advmod	_	_
@@ -3330,7 +3330,7 @@
 19	modern	mor	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	17	obl	_	_
 20	(	(	PUNCT	PAD	_	19	punct	_	SpaceAfter=No
 21	eller	eller	CCONJ	KN	_	23	cc	_	_
-22	motsvarande	motsvarande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Tense=Pres|VerbForm=Part	23	det	_	_
+22	motsvarande	motsvarande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Tense=Pres|VerbForm=Part	23	amod	_	_
 23	omsorger	omsorg	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	19	conj	_	SpaceAfter=No
 24	)	)	PUNCT	PAD	_	23	punct	_	_
 25	sätter	sätta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -3719,7 +3719,7 @@
 # sent_id = sv-ud-dev-148
 # text = Med nuvarande sociala tryck i våra allmänna konventioner kommer hon automatiskt i underläge bl.a. på grund av kyrkbröllop, riterna och föreställningar kring äktenskapet.
 1	Med	med	ADP	PP	_	4	case	_	_
-2	nuvarande	nuvarande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Tense=Pres|VerbForm=Part	4	det	_	_
+2	nuvarande	nuvarande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Tense=Pres|VerbForm=Part	4	amod	_	_
 3	sociala	social	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	4	amod	_	_
 4	tryck	tryck	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	9	obl	_	_
 5	i	i	ADP	PP	_	8	case	_	_
@@ -4026,7 +4026,7 @@
 6	saken	sak	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	5	obj	_	_
 7	obundna	obunden	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Number=Plur|Tense=Past|VerbForm=Part	5	advcl	_	_
 8	av	av	ADP	PP	_	10	case	_	_
-9	nuvarande	nuvarande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Tense=Pres|VerbForm=Part	10	det	_	_
+9	nuvarande	nuvarande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Tense=Pres|VerbForm=Part	10	amod	_	_
 10	konventioner	konvention	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	7	obl:agent	_	SpaceAfter=No
 11	.	.	PUNCT	MAD	_	5	punct	_	_
 
@@ -7559,7 +7559,7 @@
 2	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	hämtade	hämta	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 4	ur	ur	ADP	PP	_	9	case	_	_
-5	Svenska	Svenska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	7	amod	_	_
+5	Svenska	Svenska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	6	amod	_	_
 6	Dagbladets	Dagbladet	NOUN	NN|NEU|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	7	nmod:poss	_	_
 7	debatt	debatt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	nmod	_	_
 8	'	'	PUNCT	PAD	_	9	punct	_	SpaceAfter=No
@@ -7665,7 +7665,7 @@
 # sent_id = sv-ud-dev-335
 # text = I Svenska Dagbladets debatt använde man den falska motsättningen rent politiskt, för att genom en konstruerad lojalitet 'hemmafruar emellan' driva fram en konservativ opinion mot Strängs skatteförslag.
 1	I	i	ADP	PP	_	4	case	_	_
-2	Svenska	Svenska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	4	amod	_	_
+2	Svenska	Svenska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	3	amod	_	_
 3	Dagbladets	Dagbladet	NOUN	NN|NEU|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	4	nmod:poss	_	_
 4	debatt	debatt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	obl	_	_
 5	använde	använda	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -7843,7 +7843,7 @@
 2	tvingas	tvinga	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 3	bära	bära	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	advcl	_	_
 4	den	en	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	5	det	_	_
-5	dubbelarbetandes	dubbelarbetande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|GEN	Case=Gen|Tense=Pres|VerbForm=Part	7	det	_	_
+5	dubbelarbetandes	dubbelarbetande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|GEN	Case=Gen|Tense=Pres|VerbForm=Part	7	amod	_	_
 6	alla	all	DET	DT|UTR/NEU|PLU|IND/DEF	Number=Plur|PronType=Tot	7	det	_	_
 7	bördor	börda	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	obj	_	_
 8	i	i	ADP	PP	_	10	case	_	_
@@ -8573,7 +8573,7 @@
 19	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def|PronType=Prs	18	obj	_	SpaceAfter=No
 20	'	'	PUNCT	PAD	_	18	punct	_	_
 21	(	(	PUNCT	PAD	_	32	punct	_	SpaceAfter=No
-22	nuvarande	nuvarande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Tense=Pres|VerbForm=Part	23	det	_	_
+22	nuvarande	nuvarande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Tense=Pres|VerbForm=Part	23	amod	_	_
 23	skattefavörer	skattefavör	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	24	nsubj	_	_
 24	börjar	börja	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	32	parataxis	_	_
 25	redan	redan	ADV	AB	_	24	advmod	_	_
