@@ -1,3 +1,10 @@
+56878
+25	som	som	CCONJ	KN	_	24	det	_	_
+26	helst	gärna	ADV	AB|SUV	Degree=Sup	25	fixed	_	_
+---
+25	som	som	CCONJ	KN	_	20	fixed	_	_
+26	helst	gärna	ADV	AB|SUV	Degree=Sup	20	fixed	_	_
+
 5890
 2	ovan	ovan	ADV	AB	_	4	det	_	_
 3	nämnda	nämna	ADJ	PC|PRF|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Number=Sing|Tense=Past|VerbForm=Part	2	fixed	_	_
