@@ -26,6 +26,25 @@ Filip Salomonsson. Special thanks also to Lars Borin and Markus Forsberg at
 Språkbanken for help with the lemmatization. Finally, we owe a huge debt to the 
 team who produced the original treebank in the 1970s.
 
+## References
+
+* Lars Borin, Markus Forsberg, Lennart Lönngren. 2008. Saldo 1.0 (Svenskt
+  associationslexikon version 2). Språkbanken, Göteborg universitet.
+
+* Einarsson, Jan. 1976. Talbankens skriftspråkskonkordans. Lund University:
+  Department of Scandinavian Languages.
+
+* Joakim Nivre and Beáta Megyesi. 2007. Bootstrapping a Swedish treeebank
+  using cross-corpus harmonization and annotation projection. In Proceedings
+  of the 6th International Workshop on Treebanks and Linguistic Theories,
+  pages 97-102.
+
+* Teleman, Ulf. 1974. Manual för grammatisk beskrivning av talad och skriven
+  svenska. Studentlitteratur.
+
+* The Stockholm Umeå Corpus. Version 2.0. 2006. Stockholm University:
+  Department of Linguistics.
+
 # Data Splits
 
 The test set (sv-ud-test.conllu) is the standard test set from the Swedish
@@ -35,15 +54,6 @@ parts of the treebank.
 The rest of the treebank has been split by taking the first 90% as the
 training set (sv-ud-train.conllu) and the last 10% as the development set
 (sv-ud-dev.conllu).
-
-# Basic
-
-Tree count:  6026
-Word count:  96819
-Token count: 96819
-Dep. relations: 38 of which 4 language specific
-POS tags: 16
-Category=value feature pairs: 37
 
 # Tokenization
 
@@ -110,25 +120,6 @@ deviate from the general guidelines and will be fixed in future versions:
 - The remnant analysis of ellipsis has not been fully implemented.
 - Comparative modifiers are sometimes not attached to the comparative element
   itself but to its head.
-
-# References
-
-* Lars Borin, Markus Forsberg, Lennart Lönngren. 2008. Saldo 1.0 (Svenskt
-  associationslexikon version 2). Språkbanken, Göteborg universitet.
-
-* Einarsson, Jan. 1976. Talbankens skriftspråkskonkordans. Lund University:
-  Department of Scandinavian Languages.
-
-* Joakim Nivre and Beáta Megyesi. 2007. Bootstrapping a Swedish treeebank
-  using cross-corpus harmonization and annotation projection. In Proceedings
-  of the 6th International Workshop on Treebanks and Linguistic Theories,
-  pages 97-102.
-
-* Teleman, Ulf. 1974. Manual för grammatisk beskrivning av talad och skriven
-  svenska. Studentlitteratur.
-
-* The Stockholm Umeå Corpus. Version 2.0. 2006. Stockholm University:
-  Department of Linguistics.
 
 # Changelog
 
