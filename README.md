@@ -1,20 +1,20 @@
 # Summary
 
-UD Swedish-TP is a conversion of the Prose section of Talbanken, originally 
-annotated in the MAMBA annotation scheme, and consisting of a variety of 
-informative text genres, including textbooks, information brochures and
-newspaper articles. 
+The Swedish-TP treebank is based on Talbanken, a treebank developed at Lund University
+in the 1970s.
 
 # Introduction
 
-UD Swedish-TP is a conversion of the Prose section of Talbanken (Einarsson, 1976), 
-originally annotated by a team led by Ulf Teleman at Lund University according to 
-the MAMBA annotation scheme (Teleman, 1974). It consists of roughly 6,000 sentences 
-and 95,000 tokens taken from a variety of informative text genres, including 
-textbooks, information brochures, and newspaper articles. The syntactic annotation 
-is converted directly from the original MAMBA annotation, while the morphological 
-annotation is based on the reannotation performed when incorporating Talbanken into 
-the Swedish Treebank (Nivre and Megyesi, 2007). 
+The Swedish-TP treebank is a conversion of the Prose section of Talbanken (Einarsson, 
+1976), originally annotated by a team led by Ulf Teleman at Lund University according 
+to the MAMBA annotation scheme (Teleman, 1974). It consists of roughly 6,000 sentences 
+and 95,000 tokens taken from a variety of informative text genres, including textbooks, 
+information brochures, and newspaper articles. The syntactic annotation is converted 
+directly from the original MAMBA annotation, while the morphological annotation is 
+based on the reannotation performed when incorporating Talbanken into the Swedish 
+Treebank (Nivre and Megyesi, 2007). Tokenization mostly follows the standard of the
+Stockholm-Umeå Corpus, Version 2.0 (2006), and lemmatization is based on Saldo 
+(Borin et al., 2008).
 
 # Acknowledgments 
 
@@ -55,9 +55,13 @@ The rest of the treebank has been split by taking the first 90% as the
 training set (sv-ud-train.conllu) and the last 10% as the development set
 (sv-ud-dev.conllu).
 
+Document and paragraph boundaries are explicitly represented by comment
+lines (# newdoc id = DOC_ID, # newpar id = PAR_ID), but genre classification
+is not available for documents.
+ 
 # Tokenization
 
-The tokenization in the Swedish UD treebank follows the principles of the
+The tokenization in the Swedish-TP treebank follows the principles of the
 Stockholm-Umeå Corpus, Version 2.0 (SUC, 2006), which has become the de facto
 standard for Swedish tokenization and part-of-speech tagging. This is a
 straightforward segmentation based on whitespace and punctuation, but the
@@ -68,7 +72,7 @@ following special cases deserve to be mentioned:
 - Abbreviations are treated as single words regardless of whether they contain
   spaces or not. 
 
-The Swedish UD treebank contains the following tokens with spaces (all abbreviations):
+The Swedish-TP treebank contains the following tokens with spaces (all abbreviations):
 
 Bl a
 bl a
@@ -85,11 +89,11 @@ t ex
 t o m
 t v
 
-The Swedish UD treebank does not contain multiword tokens.
+The Swedish-TP treebank does not contain multiword tokens.
 
 # Morphology
 
-The morphological annotation in the Swedish UD treebank follows the general
+The morphological annotation in the Swedish-TP treebank follows the general
 guidelines and does not add any language-specific features. The
 language-specific tags (including features) follow the guidelines of the
 Stockholm-Umeå Corpus.
@@ -105,7 +109,7 @@ covered by SALDO, lemmas were added manually.
 
 # Syntax
 
-The syntactic annotation in the Swedish UD treebank follows the general
+The syntactic annotation in the Swedish-TP treebank follows the general
 guidelines but adds four language-specific relations:
 
 - acl:relcl for relative clauses
@@ -170,13 +174,13 @@ Data available since: UD v1.0
 License: CC BY-SA 4.0
 Includes text: yes
 Genre: news nonfiction
-Lemmas: manual native
-UPOS: converted from manual
+Lemmas: automatic with corrections
+UPOS: converted with corrections
 XPOS: manual native
-Features: converted from manual
-Relations: converted from manual
+Features: converted with corrections
+Relations: converted with corrections
 Contributors: Nivre, Joakim; Smith, Aaron
-Contributing: here
+Contributing: elsewhere
 Contact: joakim.nivre@lingfil.uu.se
 
 ============================================
