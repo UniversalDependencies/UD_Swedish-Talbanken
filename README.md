@@ -170,6 +170,7 @@ From v2.0 to v2.1, no changes have been made
 
 From v2.1 to v2.2:
 - Repository renamed from UD_Swedish to UD_Swedish-Talbanken.
+- Possessives retagged from DET to PRON.
 
 <pre>
 === Machine readable metadata ==============
