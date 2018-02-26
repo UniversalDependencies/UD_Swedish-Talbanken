@@ -166,7 +166,7 @@ to v2 of the guidelines:
 - Replace "_" by " " in words with spaces
 - Add # sent_id and # text for all sentences
 
-From v2.0 to v2.1, no changes have been made
+From v2.0 to v2.1, no changes have been made.
 
 From v2.1 to v2.2:
 - Repository renamed from UD_Swedish to UD_Swedish-Talbanken.
