@@ -3,9 +3,9 @@ import re, sys
 output = "train"
 doc = 0
 
-train_file = open("sv-ud-train-v2.conllu", "w")
-dev_file = open("sv-ud-dev-v2.conllu", "w")
-test_file = open("sv-ud-test-v2.conllu", "w")
+train_file = open("sv-train.conllu", "w")
+dev_file = open("sv-dev.conllu", "w")
+test_file = open("sv-test.conllu", "w")
 space_file = open("tokens-with-spaces.txt", "w")
 
 train_id = 1
@@ -48,9 +48,9 @@ def text(sentence):
 
 def print_sentence(file, id, new_doc, new_par, sentence):
     if new_doc != "":
-        file.write("# new_doc id = " + new_doc + "\n")
+        file.write("# newdoc id = " + new_doc + "\n")
     if new_par != "":
-        file.write("# new_par id = " + new_par + "\n")
+        file.write("# newpar id = " + new_par + "\n")
     file.write(id)
     file.write(text(sentence))
     for line in sentence:
