@@ -1,3 +1,28 @@
+10806
+9	5	5	NUM	RG|NOM	Case=Nom|NumType=Card	7	conj	_	Enhanced=obj
+10	som	som	CCONJ	KN	_	12	mark	_	_
+11	högsta	hög	ADJ	JJ|SUV|UTR/NEU|SIN/PLU|DEF|NOM	Case=Nom|Definite=Def|Degree=Sup	12	amod	_	_
+12	betyg	betyg	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	9	orphan	_	Enhanced=xcomp|SpaceAfter=No
+---
+9	5	5	NUM	RG|NOM	Case=Nom|NumType=Card	7	obl	_	_
+10	som	som	CCONJ	KN	_	12	mark	_	_
+11	högsta	hög	ADJ	JJ|SUV|UTR/NEU|SIN/PLU|DEF|NOM	Case=Nom|Definite=Def|Degree=Sup	12	amod	_	_
+12	betyg	betyg	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	xcomp	_	SpaceAfter=No
+
+19553
+8	arbetsplatser	arbetsplats	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	ccomp	_	_
+9	till	till	ADP	PP	_	10	case	_	_
+10	1985	1985	NUM	RG|NOM	Case=Nom|NumType=Card	8	obl	_	SpaceAfter=No
+---
+8	arbetsplatser	arbetsplats	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	obl	_	_
+9	till	till	ADP	PP	_	10	case	_	_
+10	1985	1985	NUM	RG|NOM	Case=Nom|NumType=Card	8	nmod	_	SpaceAfter=No
+
+77620
+22	osv	osv	ADV	AB|AN	Abbr=Yes	19	conj	_	SpaceAfter=No
+---
+22	osv	osv	ADV	AB|AN	Abbr=Yes	14	conj	_	SpaceAfter=No
+
 56878
 25	som	som	CCONJ	KN	_	24	det	_	_
 26	helst	gärna	ADV	AB|SUV	Degree=Sup	25	fixed	_	_
