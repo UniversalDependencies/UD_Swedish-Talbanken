@@ -3,7 +3,8 @@
 python3 ud-converter-v2.py < P.original.txt > sv.conllu
 perl fix_errors.plx --fix-file manual_fixes_v2.2.txt --in-file sv.conllu --out-file sv.fix.conllu
 python3 add-comments-v2.py < sv.fix.conllu 
-python3 split-data-v2.2.py < sv.comments.conllu
+python3 harmonize-sv.py sv.comments.conllu sv.harmonize.conllu
+python3 split-data-v2.2.py < sv.harmonize.conllu
 
 - The output files are:
 
