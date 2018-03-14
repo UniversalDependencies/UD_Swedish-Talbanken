@@ -52,7 +52,7 @@ def find_lemma(word):
         else:
             tmps = tmp.split("|")
             tmp = tmps[0]
-    if " " in tmp:
+    if " " in tmp and not " " in word[7]:
         if re.match("i vilket fall som helst", tmp):
             return "vilken"
         elif re.match("med berått mod", tmp):
@@ -74,6 +74,58 @@ def find_lemma(word):
     else:
         return tmp
 
+def fix_coordination(sentence):
+    for word in sentence:
+        if deprel[word[4]] == "cc" and head[word[4]] < word[4]:
+            for hword in sentence:
+                if deprel[hword[4]] == "conj" and head[hword[4]] == head[word[4]] and hword[4] > word[4] and not hword[5] in ["D", "X", "N"]:
+                    head[word[4]] = hword[4]
+                    break
+    for word in sentence:
+        if deprel[word[4]] == "punct" and head[word[4]] < word[4] and word[7] in [",", ";"]:
+            for hword in sentence:
+                if deprel[hword[4]] == "punct" and head[hword[4]] == head[word[4]] and hword[4] > word[4]:
+                    break
+                if deprel[hword[4]] == "conj" and head[hword[4]] == head[word[4]] and hword[4] > word[4] and not hword[5] in ["D", "X", "N"]:
+                    head[word[4]] = hword[4]
+                    break
+
+def fix_orphan(sentence):
+    for word in sentence:
+        if deprel[word[4]] in ["nsubj", "nsubj:pass", "obj", "iobj", "obl", "csubj", "csubj:pass", "xcomp", "ccomp", "advcl"]:
+            for hword in sentence:
+                if head[word[4]] == hword[4] and hword[9][-2:] in ["SS", "OO", "IO"] and deprel[hword[4]] in ["conj", "parataxis", "root"]:
+                    misc[word[4]].append("Enhanced=" + deprel[word[4]])
+                    deprel[word[4]] = "orphan"
+                    misc[hword[4]].append("Enhanced=" + dep_label(0, head[hword[4]], "", hword))
+
+def fix_spacing(sentence):
+    for word in sentence:
+        misc[word[4]] = []
+    for i in range(0, len(sentence)):
+        word = sentence[i]
+        if word[7] == "(":
+            misc[word[4]].append("SpaceAfter=No")
+        elif word[7] == "'":
+            if head[word[4]] > word[4]:
+                misc[word[4]].append("SpaceAfter=No")
+            else:
+                misc[sentence[i-1][4]].append("SpaceAfter=No")
+        elif word[7] in [",", ";", ".", ":", "?", "!", ")"]:
+            misc[sentence[i-1][4]].append("SpaceAfter=No")
+ 
+def fix_det(sentence):
+    for word in sentence:
+        if deprel[word[4]] == "det" and word[10] in ["JJ", "RO", "PC"]:
+#            for dword in sentence:
+#                if head[dword[4]] == head[word[4]] and dword[4] < word[4] and deprel[dword[4]] == "det":
+            deprel[word[4]] = "amod"
+        if deprel[word[4]] == "det" and word[12] in ["kl.", "kl"] and word[10] == "AB":
+            deprel[word[4]] = "nmod"
+            postag[word[4]] = "NOUN"
+        if deprel[word[4]] == "det" and word[12] in ["resp", "respektive"]:
+            deprel[word[4]] = "amod"
+
 def print_sentence(sentence):
     parse_sentence(sentence)
     map_labels(sentence)
@@ -81,7 +133,11 @@ def print_sentence(sentence):
         reattach(sentence)
         relabel(sentence) # All verbs are labeled aux
         retag(sentence) # Fix remaining attachment and labeling errors too! AUX -> aux, cop; VERB -> not aux, not cop
+        fix_det(sentence)
         fix_apposition(sentence)
+        fix_coordination(sentence)
+        fix_spacing(sentence)
+        fix_orphan(sentence)
         # Print only nonword; decrement both word[id] and head[id]
         # Check if nonword is correct; such = "_" for omitted words?
         for (doc, par, msm, sid, tid, cat, dum, tok, pos, syn, suc, fea, lem) in sentence:
@@ -93,6 +149,15 @@ def print_sentence(sentence):
                     tag = suc
                 utag = postag[tid]
                 ufea = features[tid]
+                if misc[tid] == []:
+                    mis = "_"
+                else:
+                    mis = "|".join(sorted(set(misc[tid])))
+                if utag == "VERB" and lem[-1] == "s":
+                    ufeats = ufea.split("|")
+                    if "Voice=Pass" in ufeats:
+                        ufeats.remove("Voice=Pass")
+                    ufea = "|".join(ufeats)
                 if tid in deprel:
                     dep = deprel[tid]
                 else:
@@ -105,7 +170,7 @@ def print_sentence(sentence):
                     hd = -1
                 if re.search("ST$", syn):
                     print("\t".join(["#", doc + "." + str(par), "ST", "ST"]))
-                print("\t".join([str(tid), tok, lem, utag, tag, ufea, str(hd), dep, "_", "_"])) 
+                print("\t".join([str(tid), tok, lem, utag, tag, ufea, str(hd), dep, "_", mis])) 
         print()
     else:
         print("# Sentence omitted")
@@ -181,7 +246,7 @@ def fix_apposition(sentence):
         deprel[sentence[12][4]] = "appos"
     if sentence[0][0] == "P409" and sentence[0][3] == 63:
         head[sentence[112][4]] = sentence[114][4]
-        deprel[sentence[112][4]] = "nmod"
+        deprel[sentence[112][4]] = "obl"
         head[sentence[47][4]] = sentence[39][4]
         deprel[sentence[47][4]] = "conj"
         head[sentence[74][4]] = sentence[39][4]
@@ -196,9 +261,24 @@ def reattach(sentence):
         for w2 in sentence:
             if w1[4] < w2[4] and head[w1[4]] == w2[4] and deprel[w1[4]] == "cc" and deprel[w2[4]] in ["conj", "parataxis"] and w2[4] in head:
 #                print("Reattached cc: " + str(w1[4]))
-                head[w1[4]] = head[w2[4]]
-                if deprel[w2[4]] == "parataxis":
-                    deprel[w2[4]] = "conj"
+                if head[w2[4]] < w2[4]:
+                    head[w1[4]] = head[w2[4]]
+                    if deprel[w2[4]] == "parataxis":
+                        deprel[w2[4]] = "conj"
+                else:
+                    h = head[w2[4]]
+                    candidates = sentence[:w1[4]-1]
+                    candidates.reverse()
+                    for w3 in candidates:
+                        if not w3[4] in nonword and head[w3[4]] == head[w2[4]] and not deprel[w3[4]] in ["punct", "neg", "cc"]:
+                            head[w2[4]] = w3[4]
+                            head[w1[4]] = w3[4]
+                            break
+                    if head[w2[4]] != h:
+                        puncts = sentence[head[w2[4]]:h-1]
+                        for w4 in puncts:
+                            if not w4 in nonword and head[w4[4]] == h and (deprel[w4[4]] in ["punct"] or (deprel[w4[4]] in ["neg"] and w4[4] < w1[4])):
+                                head[w4[4]] = head[w2[4]]
     for w1 in sentence:
         if head[w1[4]] == 0 and w1[10] in ["MAD", "MID", "PAD"]:
             new_head = 0
@@ -354,7 +434,7 @@ def reattach(sentence):
         head[sentence[1][4]] = sentence[5][4] # är -> Huvudpunkterna
         deprel[sentence[1][4]] = "nsubj"
         head[sentence[8][4]] = sentence[5][4] # är -> Horn
-        deprel[sentence[8][4]] = "nmod"
+        deprel[sentence[8][4]] = "obl"
         head[sentence[9][4]] = sentence[5][4] # är -> .
     if sentence[0][0] == "P209" and sentence[0][3] == 72:
         head[sentence[13][4]] = sentence[12][4]
@@ -379,7 +459,8 @@ def reattach(sentence):
         head[sentence[1][4]] = sentence[5][4] # sällskapshunden -> Och
         deprel[sentence[1][4]] = "cc"
         head[sentence[3][4]] = sentence[5][4] # sällskapshunden -> inte
-        deprel[sentence[3][4]] = "neg"
+        deprel[sentence[3][4]] = "advmod"
+        features[sentence[3][4]] = "Polarity=Neg"
         head[sentence[4][4]] = sentence[5][4] # sällskapshunden -> minst
         deprel[sentence[4][4]] = "advmod"
         head[sentence[6][4]] = sentence[5][4] # sällskapshunden -> .
@@ -464,7 +545,7 @@ def reattach(sentence):
         deprel[sentence[13][4]] = "acl"
         deprel[sentence[30][4]] = "conj"
     if sentence[0][0] == "P102" and sentence[0][3] == 87:
-        deprel[sentence[3][4]] = "dobj"
+        deprel[sentence[3][4]] = "obj"
 
 def passive(word):
     if word[12] == "fattas|fatta" and word[0] != "P113":
@@ -482,15 +563,17 @@ def relabel_ellipsis(fun):
     if fun == "SS":
         return "nsubj"
     elif fun == "OO":
-        return "dobj"
+        return "obj"
     elif fun == "AG":
-        return "nmod:agent"
+        return "obl:agent"
     elif fun == "ANSP":
         return "appos"
     elif fun == "SP":
         return "xcomp"
-    else:
+    elif fun in ["AT", "ET", "EU"]:
         return "nmod"
+    else:
+        return "obl"
 
 def relabel(sentence):
     for w1 in sentence:
@@ -513,14 +596,14 @@ def relabel(sentence):
                     deprel[w1[4]] = "xcomp"
                 elif w1[9][-4:] in ["SSIV", "ESIV"] and not ((w2[9][-4:] == w1[9][-4:-2] + "IX" or w2[9][-2:] == "SP") and len(w1[9]) == len(w2[9])):
                     deprel[w1[4]] = "csubj"
-            if w1[4] > w2[4] and head[w1[4]] == w2[4] and w1[9] == w2[9] and deprel[w1[4]] != "mwe" and deprel[w1[4]] != "parataxis":
+            if w1[4] > w2[4] and head[w1[4]] == w2[4] and w1[9] == w2[9] and deprel[w1[4]] != "fixed" and deprel[w1[4]] != "parataxis":
                 deprel[w1[4]] = "conj"
             if head[w1[4]] == w2[4] and deprel[w1[4]] == "nsubj" and re.search("SFO", w2[11]) and passive(w2):
-                deprel[w1[4]] = "nsubjpass"
+                deprel[w1[4]] = "nsubj:pass"
             if head[w1[4]] == w2[4] and deprel[w1[4]] == "csubj" and re.search("SFO", w2[11]) and passive(w2):
-                deprel[w1[4]] = "csubjpass"
+                deprel[w1[4]] = "csubj:pass"
             if head[w1[4]] == w2[4] and w1[8] == "ID" and re.match("PN", w2[8]):
-                deprel[w1[4]] = "name"
+                deprel[w1[4]] = "flat:name"
             if head[w1[4]] == w2[4] and deprel[w1[4]] == "dep" and re.match("AV", w2[8]):
                 deprel[w1[4]] = "dislocated"
                 for w3 in sentence:
@@ -532,7 +615,7 @@ def relabel(sentence):
             new_label = "nmod"
             for w2 in sentence[w1[4]:]:
 #                print(str(w2[4]) + ":" + w2[7] + ":" + str(head[w2[4]]) + ":" + deprel[w2[4]])
-                if head[w2[4]] == w1[4] and deprel[w2[4]] == "mwe" and re.search("GEN", w2[11]):
+                if head[w2[4]] == w1[4] and deprel[w2[4]] == "fixed" and re.search("GEN", w2[11]):
                     new_label = "nmod:poss"
             deprel[w1[4]] = new_label
         if w1[10] == "RG":
@@ -656,7 +739,7 @@ def retag(sentence):
         head[sentence[13][4]] = 15
         head[sentence[14][4]] = 9
         deprel[sentence[13][4]] = "compound"
-        deprel[sentence[14][4]] = "dobj"
+        deprel[sentence[14][4]] = "obj"
         for w in sentence:
             if head[w[4]] == 14:
                 head[w[4]] = 15
@@ -666,16 +749,16 @@ def retag(sentence):
         postag[sentence[13][4]] = "ADP"
         postag[sentence[14][4]] = "NOUN"
         postag[sentence[15][4]] = "NOUN"
-        deprel[sentence[12][4]] = "name"
-        deprel[sentence[13][4]] = "name"
-        deprel[sentence[14][4]] = "name"
-        deprel[sentence[15][4]] = "name"
+        deprel[sentence[12][4]] = "flat:name"
+        deprel[sentence[13][4]] = "flat:name"
+        deprel[sentence[14][4]] = "flat:name"
+        deprel[sentence[15][4]] = "flat:name"
     if sentence[0][0] == "P301" and sentence[0][3] == 24:
         postag[sentence[22][4]] = "NOUN"
         postag[sentence[23][4]] = "NOUN"
     if sentence[0][0] == "P303" and sentence[0][3] == 81:
         postag[sentence[25][4]] = "NOUN"
-        postag[sentence[26][4]] = "CONJ"
+        postag[sentence[26][4]] = "CCONJ"
         postag[sentence[27][4]] = "NOUN"
         postag[sentence[28][4]] = "NOUN"
         postag[sentence[29][4]] = "ADP"
@@ -705,7 +788,7 @@ def retag(sentence):
         head[sentence[13][4]] = 15
         head[sentence[14][4]] = 8
         deprel[sentence[13][4]] = "compound"
-        deprel[sentence[14][4]] = "nmod"
+        deprel[sentence[14][4]] = "obl"
         for w in sentence:
             if head[w[4]] == 14:
                 head[w[4]] = 15
@@ -715,8 +798,18 @@ def retag(sentence):
         postag[sentence[5][4]] = "NOUN"
         postag[sentence[6][4]] = "VERB"
         postag[sentence[7][4]] = "NOUN"
-        deprel[sentence[6][4]] = "foreign"
-        deprel[sentence[7][4]] = "foreign"
+        features[sentence[5][4]] = "Case=Nom|Gender=Masc|Number=Sing"
+        features[sentence[6][4]] = "Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act"
+        features[sentence[7][4]] = "Case=Acc|Gender=Fem|Number=Sing"
+        head[sentence[1][4]] = 5
+        head[sentence[4][4]] = 9
+        head[sentence[5][4]] = 7
+        head[sentence[6][4]] = 5
+        head[sentence[7][4]] = 7
+        deprel[sentence[4][4]] = "advmod"
+        deprel[sentence[5][4]] = "nsubj"
+        deprel[sentence[6][4]] = "acl"
+        deprel[sentence[7][4]] = "obj"
     if sentence[0][0] == "P402" and sentence[0][3] == 49:
         postag[sentence[6][4]] = "NOUN"
         postag[sentence[7][4]] = "NOUN"
@@ -737,6 +830,9 @@ def retag(sentence):
     if sentence[0][0] == "P407" and sentence[0][3] == 27:
         postag[sentence[26][4]] = "ADP"
         postag[sentence[27][4]] = "ADJ"
+    for w in sentence:
+        if w[10] != "_" and w[10] in ["MID", "MAD", "PAD"] and deprel[w[4]] in ["case", "cc"]:
+            postag[w[4]] = "SYM"
     for w1 in sentence:
         if w1[10] != "_" and postag[w1[4]] == "VERB":
             for w2 in sentence:
@@ -750,12 +846,135 @@ def retag(sentence):
                 if head[w1[4]] == w2[4] and postag[w2[4]] == "ADJ" and w2[8][-2:] == "PA" and re.match("BV", w1[8]):
                     postag[w1[4]] = "AUX"
                     postag[w2[4]] = "VERB"
-                    deprel[w1[4]] = "auxpass"
+                    deprel[w1[4]] = "aux:pass"
                     for w3 in sentence:
                         if head[w3[4]] == w2[4] and deprel[w3[4]] == "nsubj":
-                            deprel[w3[4]] = "nsubjpass"
+                            deprel[w3[4]] = "nsubj:pass"
                         if head[w3[4]] == w2[4] and deprel[w3[4]] == "aux":
                             postag[w3[4]] = "AUX"
+    for w1 in sentence:
+        if w1[10] != "_" and postag[w1[4]] == "PUNCT" and deprel[w1[4]] != "punct":
+            if deprel[w1[4]] == "cc":
+                postag[w1[4]] = "CCONJ"
+            elif deprel[w1[4]] == "case":
+                postag[w1[4]] = "ADP"
+            else:
+                deprel[w1[4]] = "punct"
+    for w1 in sentence:
+        if deprel[w1[4]] == "appos":
+            for w2 in sentence[w1[4]:]:
+                if head[w2[4]] == w1[4] and deprel[w2[4]] == "cc":
+                    for w3 in sentence[w2[4]:]:
+                        if head[w3[4]] == w1[4] and deprel[w3[4]] == "appos":
+                            deprel[w3[4]] = "conj"
+    for w1 in sentence:
+        if deprel[w1[4]] == "mark" and postag[w1[4]] == "PRON" and w1[7] == "som":
+            postag[w1[4]] = "SCONJ"
+            features[w1[4]] = "_"
+    for w1 in sentence:
+        if deprel[w1[4]] == "case":
+            for w2 in sentence[w1[4]:]:
+                if head[w1[4]] == w2[4] and deprel[w2[4]] in ["csubj", "csubj:pass", "ccomp", "xcomp", "advcl", "acl", "acl:relcl"]:
+                    deprel[w1[4]] = "mark"
+                    for w3 in sentence[:w1[4]-1]:
+                        if w3[10] != "_" and head[w3[4]] == w2[4] and not deprel[w3[4]] in ["advmod", "punct"]:
+                            deprel[w1[4]] = "case"
+                            break
+                elif head[w1[4]] == w2[4] and deprel[w2[4]] in ["conj"]:
+                    for w3 in sentence[w1[4]:w2[4]-1]:
+                        if deprel[w3[4]] == "mark":
+                            deprel[w1[4]] = "mark"
+    for w1 in sentence:
+        if deprel[w1[4]] in ["xcomp", "ccomp", "csubj", "csubj:pass", "advcl", "acl", "acl:relcl"]:
+            for w2 in sentence[w1[4]:]:
+                if deprel[w2[4]] == "cc" and head[w2[4]] == w1[4]:
+                    for w3 in sentence[w2[4]:]:
+                        if head[w3[4]] == w1[4] and deprel[w3[4]] == deprel[w1[4]]:
+                            deprel[w3[4]] = "conj"
+
+def pron_type(mamtag, lem):
+    if mamtag == "XX":
+        return "PronType=Rel"
+    elif mamtag == "ID":
+        if lem in ["annan", "någon", "samma", "två"]:
+            return "PronType=Ind"
+        elif lem in ["all", "allt", "varje"]:
+            return "PronType=Tot"
+        elif lem in ["denna"]:
+            return "PronType=Dem"
+        elif lem in ["som"]:
+            return "PronType=Rel"
+        elif lem in["vad"]:
+            return "PronType=Int"
+        else:
+            return "PronType=Prs"
+    elif mamtag[:2] == "EN":
+        return "PronType=Prs"
+    elif mamtag[:2] == "AB":
+        return "PronType=Ind"
+    elif mamtag[2:4] in ["PP", "DP", "OP", "XP"]:
+        return "PronType=Prs"
+    elif mamtag[2:4] == "CP":
+        return "PronType=Rcp"
+    elif mamtag[2:4] == "FP":
+        return "PronType=Int"
+    elif mamtag[2:4] == "RP":
+        return "PronType=Rel"
+    elif mamtag[2:4] == "TP":
+        return "PronType=Tot"
+    elif mamtag[2:4] == "NP":
+        return "PronType=Neg"
+    elif mamtag[2:4] in ["KP", "SU", "ZP"]:
+        return "PronType=Ind"
+    elif lem[:3] == "vad":
+        return "PronType=Int"
+    elif lem[:3] in ["den", "jag"] or lem[:2] in ["de", "du"]:
+        return "PronType=Prs"
+    else:
+        return "PronType=?"
+
+def map_features(lem, utag, mamtag, suctag, feats):
+    if "_" in feats:
+        feats.remove("_")
+    ufeats = []
+    for f in feats:
+        if "/" in f:
+            uf = ""
+        else:
+            uf = suc2ufeat[f]
+        if uf != "":
+            ufeats = ufeats + suc2ufeat[f]
+    if "VerbForm=Fin" in ufeats and not "Mood=Imp" in ufeats and not "Mood=Sub" in ufeats:
+        ufeats = ufeats + ["Mood=Ind"]
+#    if suctag in ["HA", "HD", "HP", "HS"]:
+#        ufeats = ufeats + ["PronType=Int,Rel"]
+    if suctag in ["HS", "PS"]:
+        ufeats = ufeats + ["Poss=Yes"] # Test this!
+    if utag == "ADJ" and suctag == "PC" and "VerbForm=Fin" in ufeats:
+        ufeats.remove("VerbForm=Fin")
+        ufeats.append("VerbForm=Part")
+        if "Mood=Ind" in ufeats:
+            ufeats.remove("Mood=Ind")
+    if utag == "VERB" and lem == "jfr":
+        ufeats = ufeats + ["Mood=Imp", "VerbForm=Fin", "Voice=Act"]
+    if utag == "VERB" and lem == "läsa" and ufeats == []:
+        ufeats = ["VerbForm=Stem"]
+    if utag in ["DET", "PRON"] and not "PronType=Int,Rel" in ufeats:
+        if utag == "DET" and (lem[:2] == "en" or mamtag[:2] == "EN"):
+            ufeats.append("PronType=Art")
+        elif utag == "DET" and mamtag[:2] == "RO":
+            ufeats.append("PronType=Tot")
+        elif lem in ["denna"]:
+            ufeats.append("PronType=Dem")
+        else:
+            ufeats.append(pron_type(mamtag, lem))
+    if utag == "NUM":
+        ufeats.append("NumType=Card")
+    if mamtag == "ABNA":
+        ufeats.append("Polarity=Neg")
+    if suctag == "UO":
+        ufeats.append("Foreign=Yes")
+    return ufeats
 
 def map_labels(sentence):
     for w in sentence:
@@ -764,23 +983,10 @@ def map_labels(sentence):
                 postag[w[4]] = mamba2utag[w[8][:2]]
             else:
                 postag[w[4]] = suc2utag[w[10]]
-            if w[11] != "_":
+            if w[11] != "_" or w[8] == "ABNA" or w[10] == "UO":
                 feats = w[11].split("|")
-                ufeats = []
-                for f in feats:
-                    if "/" in f:
-                        uf = ""
-                    else:
-                        uf = suc2ufeat[f]
-                    if uf != "":
-                        ufeats = ufeats + suc2ufeat[f]
-                if "VerbForm=Fin" in ufeats and not "Mood=Imp" in ufeats and not "Mood=Sub" in ufeats:
-                    ufeats = ufeats + ["Mood=Ind"]
-                if w[10] in ["HA", "HD", "HP", "HS"]:
-                    ufeats = ufeats + ["PronType=Int,Rel"]
-                if w[10] in ["HS", "PS"]:
-                    ufeats = ufeats + ["Poss=Yes"] # Test this!
-                ufeat_string = "|".join(sorted(ufeats))
+                ufeats = map_features(w[12], postag[w[4]], w[8], w[10], feats)
+                ufeat_string = "|".join(sorted(ufeats, key=str.lower))
                 if ufeat_string != "":
                     features[w[4]] = ufeat_string
                 else:
@@ -877,25 +1083,25 @@ def dep_label(offset, root, label, word):
         return "root"
     elif label != "":
         return label
-    elif word[9][-2:] in ["++", "+H"]:
+    elif word[9][-2:] in ["++", "+H"]: 
         return "cc"
     elif word[9][-2:] in ["+F", "MS"]:   # To do: Detect phrase coordination
         return "conj"
-    elif word[9][-2:] in ["+A", "+B", "AA", "AB", "AC", "CA", "CB", "KA", "KB", "MA", "MB", "OA", "OB", "RA", "RB", "RC", "TA", "TB", "TC", "VA", "XA"]:   # To do: Check subtypes
+    elif word[9][-2:] in ["+A", "+B", "AA", "AB", "AC", "CA", "CB", "KA", "KB", "MA", "MB", "NA", "OA", "OB", "RA", "RB", "RC", "TA", "TB", "TC", "VA", "XA"]:   # To do: Check subtypes
         if word[5] == "D":
             return "advcl"
         elif word[10] in ["NN", "PM", "PN", "RG", "HP"] or (re.match("PO", word[8]) and not re.match("JJ|AB", word[10])):
-            return "nmod"
+            return "obl"
         else:
             return "advmod" 
     elif word[9][-2:] == "AG":
         if word[5] == "D":
             return "advcl"
         else:
-            return "nmod:agent"
+            return "obl:agent"
     elif word[9][-2:] in ["AN", "AO"] or word[9][-4:] in ["ANSP", "ANSQ"]:
         return "appos"
-    elif word[9][-2:] in ["AT", "AU", "AV", "XT"]:   # To do: Check part of speech
+    elif word[9][-2:] in ["AT", "AU", "AV", "XT", "FP"]:   # To do: Check part of speech # Add FP
         return "amod"
     elif word[9][-2:] in ["DB", "XF"]:   # Wild guess
         return "dislocated"
@@ -910,7 +1116,7 @@ def dep_label(offset, root, label, word):
             else:
                 return "ccomp"
         else:
-            return "dobj"
+            return "obj"
     elif word[9][-2:] in ["ES", "SS"]:   # Investigate logical subject
         if word[5] == "D":
             return "csubj"
@@ -935,8 +1141,8 @@ def dep_label(offset, root, label, word):
         return "mark"
     elif word[9][-2:] == "IO":
         return "iobj"
-    elif word[9][-2:] == "NA":
-        return "neg"
+#    elif word[9][-2:] == "NA":  # Changed to advmod in v2
+#        return "neg" 
 #    elif word[9][-2:] == "OA":
 #        if word[5] == "D":
 #            if word[8] == "IF":
@@ -1018,7 +1224,7 @@ def build_tree(offset, root, label, words):
         deprel[words[0][4]] = dep_label(offset, root, label, words[0])
         for w in words[1:]:
             head[w[4]] = words[0][4]
-            deprel[w[4]] = "mwe"
+            deprel[w[4]] = "fixed"
     elif words[0][9][offset:offset+2] in ["+F", "MS"]:   # Coordination; removed "GX, GM"
 #        print("Main clause: " + str(words))
         head[words[0][4]] = root
@@ -1399,6 +1605,7 @@ postag = {}
 features = {}
 nonword = {}
 decrement = {}
+misc = {}
 discontiguous = False
 parbreak = False
 
@@ -1412,7 +1619,7 @@ suc2utag = {
     "IE": "PART",
     "IN": "INTJ",
     "JJ": "ADJ",
-    "KN": "CONJ",
+    "KN": "CCONJ",
     "NN": "NOUN",
     "PC": "ADJ",
     "PL": "ADP", # Fix!
@@ -1461,9 +1668,21 @@ suc2ufeat = {
     "SUP": ["VerbForm=Sup"],
     "SUV": ["Degree=Sup"],
     "UTR": ["Gender=Com"],
-    "AN": [],
+    "AN": ["Abbr=Yes"],
     "-": []
 }
+
+sent_counter = 0
+
+print("Writing to {}".format(sys.argv[2]))
+
+savein = sys.stdin
+fin = open(sys.argv[1])
+sys.stdin = fin
+
+saveout = sys.stdout
+fout = open(sys.argv[2], 'w')
+sys.stdout = fout
 
 for line in sys.stdin:
     (idx, dum, tok, pos, syn, sid, cat, suc, fea, lem) = line.strip().split("\t")
@@ -1472,9 +1691,15 @@ for line in sys.stdin:
     msm = int(idx[6:9])
     sid = int(sid)
     tid = int(idx[9:12])
+    # v2: remove underscore
+    if "_" in tok:
+        tok = tok.replace("_", " ")
+        lem = lem.replace("_", " ")
+    # v2: remove underscore
     if sid == 0:
         if sentence != []:
             print_sentence(sentence)
+            sent_counter = sent_counter + 1
             sentence = []
             dummy = []
         header.append((doc, par, msm, sid, tid, cat, dum, tok, pos, syn, suc, fea, lem))
@@ -1495,6 +1720,7 @@ for line in sys.stdin:
                 header = []
             if sentence != []:
                 print_sentence(sentence)
+                sent_counter = sent_counter + 1
                 sentence = []
                 dummy = []
             mytid = 0
@@ -1505,6 +1731,7 @@ for line in sys.stdin:
             features = {}
             nonword = {}
             decrement = {}
+            misc = {}
         mytid += 1
         if re.search("GM$", syn) and tok == "0000":
             syn = "GM"   # Single change
@@ -1534,3 +1761,11 @@ for line in sys.stdin:
 
 if sentence != []:
     print_sentence(sentence)
+    sent_counter = sent_counter + 1
+
+sys.stdin = savein
+fin.close()
+sys.stdout = saveout
+fout.close()
+
+print("Wrote {} sentences".format(sent_counter))

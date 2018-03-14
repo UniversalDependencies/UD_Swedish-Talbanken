@@ -3,15 +3,11 @@ import re, sys
 output = "train"
 doc = 0
 
-data_file = open("sv.comments.conllu", "w")
-space_file = open("tokens-with-spaces.txt", "w")
-
 train_id = 1
 dev_id = 1
 test_id = 1
 
 sentence = []
-space_tokens = []
 new_sen = True
 new_doc = ""
 new_par = ""
@@ -25,35 +21,45 @@ def insert_new_par(line):
         col9 = cols[9].split("|")
         col9.append("NewPar=Yes")
         cols[9] = "|".join(sorted(col9))
-    return "\t".join(cols) + "\n"
+    return "\t".join(cols)
               
 def sent_id(filename, id):
-    return "# sent_id = sv-ud-" + filename + "-" + str(id) + "\n"
+    return "# sent_id = sv-ud-" + filename + "-" + str(id)
 
 def text(sentence):
     tokens = []
     for line in sentence:
         columns = line.split("\t")
         tokens.append(columns)
-        if " " in columns[1]:
-            space_tokens.append(columns[1])
     string = []
     for t in tokens:
         string.append(t[1])
         if not "SpaceAfter=No" in t[9].strip().split("|"):
             string.append(" ")
-    return "# text = " + "".join(string).strip() + "\n"
+    return "# text = " + "".join(string).strip()
 
-def print_sentence(file, id, new_doc, new_par, sentence):
+def print_sentence(id, new_doc, new_par, sentence):
     if new_doc != "":
-        file.write("# newdoc id = " + new_doc + "\n")
+        print("# newdoc id = " + new_doc)
     if new_par != "":
-        file.write("# newpar id = " + new_par + "\n")
-    file.write(id)
-    file.write(text(sentence))
+        print("# newpar id = " + new_par)
+    print(id)
+    print(text(sentence))
     for line in sentence:
-        file.write(line)
-    file.write("\n")
+        print(line)
+    print()
+
+sent_counter = 0
+
+print("Writing to {}".format(sys.argv[2]))
+
+savein = sys.stdin
+fin = open(sys.argv[1])
+sys.stdin = fin
+
+saveout = sys.stdout
+fout = open(sys.argv[2], 'w')
+sys.stdout = fout
 
 for line in sys.stdin:
     if re.match("^#", line):
@@ -71,33 +77,38 @@ for line in sys.stdin:
         if new_par_sen:
             line = insert_new_par(line)
             new_par_sen = False
-        sentence.append(line)
+        sentence.append(line.strip())
         new_sen = False
     elif doc in [108, 110, 114, 122, 204, 210, 213, 214, 218, 301, 307, 311, 412, 415, 416]:
-        print_sentence(data_file, sent_id("test", test_id), new_doc, new_par, sentence)
+        print_sentence(sent_id("test", test_id), new_doc, new_par, sentence)
+        sent_counter = sent_counter + 1
         test_id = test_id + 1
         sentence = []
         new_sen = True
         new_par = ""
         new_doc = ""
     elif doc in [408, 409, 410, 411, 413, 414, 417, 418]:
-        print_sentence(data_file, sent_id("dev", dev_id), new_doc, new_par, sentence)
+        print_sentence(sent_id("dev", dev_id), new_doc, new_par, sentence)
+        sent_counter = sent_counter + 1
         dev_id = dev_id + 1
         sentence = []
         new_sen = True
         new_par = ""
         new_doc = ""
     else:
-        print_sentence(data_file, sent_id("train", train_id), new_doc, new_par, sentence)
+        print_sentence(sent_id("train", train_id), new_doc, new_par, sentence)
+        sent_counter = sent_counter + 1
         train_id = train_id + 1
         sentence = []
         new_sen = True
         new_par = ""
         new_doc = ""
 
-for tok in sorted(set(space_tokens), key=str.lower):
-    space_file.write(tok + "\n")
+sys.stdin = savein
+fin.close()
+sys.stdout = saveout
+fout.close()
 
-data_file.close()
-space_file.close()
+print("Wrote {} sentences".format(sent_counter))
+
 
