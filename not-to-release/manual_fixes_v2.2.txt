@@ -3235,6 +3235,11 @@
 21	(	(	PUNCT	PAD	_	22	punct	_	SpaceAfter=No
 22	Uppsala	Uppsala	PROPN	PM|NOM	Case=Nom	19	nmod	_	_
 
+69532
+7	föräldrarna	förälder	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	8	advcl	_	_
+---
+7	föräldrarna	förälder	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	5	advcl	_	_
+
 69820
 19	roll	roll	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	xcomp	_	_
 ---
@@ -3304,6 +3309,11 @@
 10	1961:9	1961:9	NUM	RG|NOM	Case=Nom|NumType=Card	8	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	MAD	_	3	punct	_	SpaceAfter=No
 12	)	)	PUNCT	PAD	_	3	punct	_	_
+
+71718
+7	är	vara	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	appos	_	_
+---
+7	är	vara	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
 
 72239
 1	Två	två	NUM	RG|NOM	Case=Nom|NumType=Card	3	nsubj	_	_
@@ -4222,12 +4232,22 @@
 2	Svenska	Svenska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	3	amod	_	_
 3	Dagbladets	Dagbladet	NOUN	NN|NEU|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	4	nmod:poss	_	_
 
+95729
+15	tidigare	tidig	ADV	AB|KOM	Degree=Cmp	14	nmod	_	SpaceAfter=No
+---
+15	tidigare	tidig	ADV	AB|KOM	Degree=Cmp	14	advmod	_	SpaceAfter=No
+
 96270
 2	,	,	PUNCT	MID	_	1	punct	_	_
 3	säger	säga	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	_
 ---
 2	,	,	PUNCT	MID	_	7	punct	_	_
 3	säger	säga	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	_
+
+96393
+19	får	få	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	16	acl:relcl	_	_
+---
+19	får	få	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
 
 96871
 9	'	'	PUNCT	PAD	_	10	punct	_	SpaceAfter=No
