@@ -187,7 +187,8 @@ sv-ud-train-59	5	4:ref
 sv-ud-train-59	11	8:obl:av
 sv-ud-train-59	14	8:obl:i
 sv-ud-train-59	17	14:obl:i
-sv-ud-train-60	11	14:nsubj|16:nsubj:xsubj|24:nsubj
+sv-ud-train-60	11	14:nsubj|24:nsubj
+sv-ud-train-60	15	16:nsubj:xsubj
 sv-ud-train-60	20	16:obl:med
 sv-ud-train-60	24	14:conj:och
 sv-ud-train-60	26	24:obl:med
@@ -233,10 +234,9 @@ sv-ud-train-78	10	1:xcomp|7:conj:och
 sv-ud-train-78	13	10:obl:mot
 sv-ud-train-79	4	2:conj:och|7:nsubj
 sv-ud-train-79	6	2:conj:och|7:nsubj
-sv-ud-train-82	1	5:nsubj|7:nsubj|9:nsubj
+sv-ud-train-82	1	5:nsubj|7:nsubj|9:nsubj|11:nsubj:xsubj
 sv-ud-train-82	7	5:conj:och
 sv-ud-train-82	9	5:conj:och
-sv-ud-train-82	10	9:obj|11:nsubj:xsubj
 sv-ud-train-82	13	9:obl:på
 sv-ud-train-84	7	5:nmod:av
 sv-ud-train-84	13	11:obl:med
@@ -253,8 +253,8 @@ sv-ud-train-90	7	4:nmod:för|10:nsubj:relsubj
 sv-ud-train-90	8	7:ref
 sv-ud-train-91	6	4:obl:i
 sv-ud-train-91	15	11:advcl:om
+sv-ud-train-92	1	7:nsubj|9:nsubj:xsubj
 sv-ud-train-92	6	7:obl:från
-sv-ud-train-92	8	7:obj|9:nsubj:xsubj
 sv-ud-train-92	11	7:advcl:att
 sv-ud-train-92	16	12:acl:för
 sv-ud-train-94	1	8:nsubj|10:nsubj
@@ -324,7 +324,7 @@ sv-ud-train-126	14	10:obl:för
 sv-ud-train-127	2	1:nsubj|4:nsubj:xsubj
 sv-ud-train-127	8	4:obl:före
 sv-ud-train-128	7	4:conj:och|8:nummod
-sv-ud-train-128	11	13:nsubj|15:nsubj:xsubj
+sv-ud-train-128	14	13:iobj|15:nsubj:xsubj
 sv-ud-train-128	17	15:obl:i
 sv-ud-train-131	7	3:nmod:i
 sv-ud-train-131	8	22:advcl:eftersom
@@ -364,7 +364,7 @@ sv-ud-train-144	8	6:acl:som
 sv-ud-train-144	11	9:obl:till
 sv-ud-train-145	6	4:obj|9:nsubj:relsubj
 sv-ud-train-145	8	6:ref
-sv-ud-train-146	1	4:nsubj|6:nsubj:xsubj
+sv-ud-train-146	5	4:iobj|6:nsubj:xsubj
 sv-ud-train-146	8	6:obl:i
 sv-ud-train-147	1	3:nsubj:relsubj|6:nsubj
 sv-ud-train-147	2	1:ref
@@ -639,7 +639,7 @@ sv-ud-train-239	13	23:obl:av
 sv-ud-train-239	17	15:conj|18:nmod:poss
 sv-ud-train-239	18	13:nmod:i
 sv-ud-train-239	23	3:conj:och
-sv-ud-train-240	1	2:nsubj|4:nsubj:xsubj
+sv-ud-train-240	11	2:ccomp|4:csubj:xsubj
 sv-ud-train-240	9	6:conj:och|11:nsubj:pass
 sv-ud-train-240	15	16:obl:i
 sv-ud-train-240	21	16:obl:med
@@ -1270,7 +1270,7 @@ sv-ud-train-405	11	8:obl:om
 sv-ud-train-407	13	1:conj:och|30:advcl
 sv-ud-train-407	18	13:obl:på_grund_av
 sv-ud-train-407	25	30:advcl:om
-sv-ud-train-407	26	25:obj|27:nsubj:xsubj
+sv-ud-train-407	24	25:nsubj|27:nsubj:xsubj
 sv-ud-train-409	15	11:advcl:då
 sv-ud-train-409	21	17:nmod:av
 sv-ud-train-410	5	3:obl:på
@@ -2515,7 +2515,7 @@ sv-ud-train-672	12	7:obl:på
 sv-ud-train-672	18	7:obl:med_undantag_för
 sv-ud-train-673	3	10:obl:i
 sv-ud-train-674	4	10:advcl:om
-sv-ud-train-674	5	4:obj|7:nsubj:xsubj
+sv-ud-train-674	2	4:nsubj|7:nsubj:xsubj
 sv-ud-train-674	11	10:obj|15:nsubj:xsubj
 sv-ud-train-675	1	4:nsubj:relsubj|9:nsubj
 sv-ud-train-675	2	1:ref
@@ -2643,8 +2643,8 @@ sv-ud-test-227	9	2:obl:till|5:conj:eller
 sv-ud-test-227	11	9:conj:eller
 sv-ud-test-227	13	2:obl:till|5:conj:eller
 sv-ud-test-227	15	2:obl:till|5:conj:eller
-sv-ud-train-686	1	2:nsubj|4:nsubj:xsubj|8:nsubj:xsubj
 sv-ud-train-686	6	2:obl:för
+sv-ud-train-686	8	2:xcomp|4:csubj:xsubj
 sv-ud-train-688	11	3:obl:för
 sv-ud-train-688	13	3:obl:för|11:conj:och
 sv-ud-train-689	4	2:obl:i
@@ -3032,7 +3032,7 @@ sv-ud-train-866	5	2:advcl:att
 sv-ud-train-866	6	10:obl:på
 sv-ud-train-866	9	7:conj:sym|10:nsubj
 sv-ud-train-867	10	6:obl:med
-sv-ud-train-868	7	6:obj|8:nsubj:xsubj
+sv-ud-train-868	3	6:nsubj|8:nsubj:xsubj
 sv-ud-train-868	10	6:obl:än
 sv-ud-train-868	12	6:obl:från
 sv-ud-train-869	14	6:advcl:om
@@ -3266,7 +3266,7 @@ sv-ud-train-961	16	14:obl:till
 sv-ud-train-962	7	3:obl:på
 sv-ud-train-963	8	1:obl:efter
 sv-ud-train-964	5	3:obl:vid
-sv-ud-train-966	4	2:obj|5:nsubj:xsubj
+sv-ud-train-966	3	2:nsubj|5:nsubj:xsubj
 sv-ud-train-966	12	7:obl:på
 sv-ud-train-966	14	7:obl:på|12:conj:eller
 sv-ud-train-967	5	1:conj:eller
@@ -4128,7 +4128,7 @@ sv-ud-train-1153	16	11:obl:i
 sv-ud-train-1154	4	2:nmod:för
 sv-ud-train-1155	9	6:obl:på
 sv-ud-train-1156	4	2:conj:och|5:amod
-sv-ud-train-1156	8	7:obj|10:nsubj:xsubj
+sv-ud-train-1156	5	7:nsubj|10:nsubj:xsubj
 sv-ud-train-1157	3	1:nmod:i
 sv-ud-train-1157	8	9:obl:på
 sv-ud-train-1157	12	10:nmod:om
@@ -5580,7 +5580,7 @@ sv-ud-train-1641	8	6:nmod:från
 sv-ud-train-1641	9	6:ref
 sv-ud-train-1641	15	10:obl:för
 sv-ud-train-1642	4	1:nmod:på
-sv-ud-train-1644	5	4:obj|7:nsubj:xsubj
+sv-ud-train-1644	3	4:nsubj|7:nsubj:xsubj
 sv-ud-train-1645	5	3:conj:sym|9:nsubj
 sv-ud-train-1645	7	3:conj:sym|9:nsubj
 sv-ud-train-1645	9	10:advcl:när
@@ -5651,10 +5651,10 @@ sv-ud-train-1668	8	5:obl:på
 sv-ud-train-1668	10	8:nmod:i
 sv-ud-train-1668	12	8:nmod:i|10:conj:och
 sv-ud-train-1668	22	13:obl:för
-sv-ud-train-1669	5	14:obl:relobj
+sv-ud-train-1669	5	14:obl:relobj|15:nsubj:xsubj
 sv-ud-train-1669	7	5:nmod:i
 sv-ud-train-1669	8	5:ref
-sv-ud-train-1669	11	14:nsubj|15:nsubj:xsubj|21:nsubj
+sv-ud-train-1669	11	14:nsubj|21:nsubj
 sv-ud-train-1669	19	21:obl:i
 sv-ud-train-1669	21	5:acl:relcl|14:conj
 sv-ud-train-1670	7	3:conj:eller|8:nsubj
@@ -5711,7 +5711,7 @@ sv-ud-train-1701	12	9:obl:inom
 sv-ud-train-1702	2	3:obl:under
 sv-ud-train-1703	9	6:nmod:på
 sv-ud-train-1703	16	11:obl:i
-sv-ud-train-1704	5	4:obj|7:nsubj:xsubj
+sv-ud-train-1704	1	4:nsubj|7:nsubj:xsubj
 sv-ud-train-1704	9	4:obl:i
 sv-ud-train-1704	11	4:obl:för
 sv-ud-train-1705	10	4:obl:med
@@ -6739,7 +6739,7 @@ sv-ud-train-2025	8	3:obl:i
 sv-ud-train-2025	11	3:conj:men
 sv-ud-train-2025	14	11:obj|16:nsubj:pass:relsubj
 sv-ud-train-2025	15	14:ref
-sv-ud-train-2026	1	2:nsubj|4:nsubj:xsubj
+sv-ud-train-2026	8	2:ccomp|4:csubj:xsubj
 sv-ud-train-2026	13	8:advcl:att
 sv-ud-train-2026	19	13:advcl:på
 sv-ud-train-2026	20	19:obj|21:nsubj:xsubj
@@ -7777,8 +7777,8 @@ sv-ud-train-2229	12	11:ref
 sv-ud-train-2229	17	13:obl:till
 sv-ud-train-2229	20	13:obl:med
 sv-ud-train-2231	8	2:obl:i
-sv-ud-train-2231	11	16:nsubj|18:nsubj:xsubj
 sv-ud-train-2231	15	16:obl:av
+sv-ud-train-2231	22	16:ccomp|18:csubj:xsubj
 sv-ud-train-2233	3	1:nmod:av
 sv-ud-train-2233	10	8:obl:i
 sv-ud-train-2233	12	4:appos|8:conj
@@ -7833,8 +7833,8 @@ sv-ud-train-2250	17	9:advcl:att|13:conj:och
 sv-ud-train-2250	21	17:obl:med
 sv-ud-train-2252	1	3:nsubj|9:nsubj
 sv-ud-train-2252	7	3:obl:av
-sv-ud-train-2252	13	14:nsubj|16:nsubj:xsubj|18:nsubj:xsubj
 sv-ud-train-2252	14	9:advcl:så_att
+sv-ud-train-2252	18	14:xcomp|16:nsubj:xsubj
 sv-ud-train-2252	20	18:obl:i
 sv-ud-train-2253	12	10:nmod:i
 sv-ud-train-2254	4	8:obl:med
@@ -8008,7 +8008,7 @@ sv-ud-train-2326	8	5:nmod:för
 sv-ud-train-2326	10	8:nmod:av
 sv-ud-train-2326	15	3:obj|5:conj:men
 sv-ud-train-2326	18	15:nmod:i
-sv-ud-train-2327	3	2:obj|6:nsubj:xsubj
+sv-ud-train-2327	1	2:nsubj|6:nsubj:xsubj
 sv-ud-train-2327	8	2:advcl:att
 sv-ud-train-2327	12	8:obl:i
 sv-ud-train-2328	9	4:obl:med
@@ -8576,7 +8576,7 @@ sv-ud-train-2546	26	21:obj|23:obj
 sv-ud-train-2546	28	21:obj|26:conj:och
 sv-ud-train-2547	4	19:obl:genom
 sv-ud-train-2547	8	4:nmod:av
-sv-ud-train-2547	10	19:nsubj|24:nsubj:xsubj
+sv-ud-train-2547	22	19:iobj|24:nsubj:xsubj
 sv-ud-train-2547	12	19:obl:i
 sv-ud-train-2547	15	12:nmod:på
 sv-ud-train-2547	17	15:nmod:i
@@ -8616,9 +8616,10 @@ sv-ud-train-2570	8	6:ref
 sv-ud-train-2570	16	14:nmod:av
 sv-ud-train-2570	21	16:appos|19:conj
 sv-ud-train-2570	22	16:appos|19:conj
-sv-ud-train-2571	2	5:nsubj:relsubj|10:nsubj|12:nsubj:xsubj|14:nsubj:xsubj
+sv-ud-train-2571	2	5:nsubj:relsubj|10:nsubj
 sv-ud-train-2571	4	2:ref
 sv-ud-train-2571	8	5:obl:sedan
+sv-ud-train-2571	14	10:xcomp|12:csubj:xsubj
 sv-ud-train-2571	21	14:obl:i
 sv-ud-train-2571	24	14:obl:på|21:conj:och
 sv-ud-train-2572	9	5:obl:av
@@ -8626,10 +8627,10 @@ sv-ud-train-2573	4	5:obl:i
 sv-ud-train-2574	8	2:obl:för
 sv-ud-train-2574	10	8:nmod:om
 sv-ud-train-2575	8	3:nsubj:pass|5:conj:som
-sv-ud-train-2575	10	11:nsubj|13:nsubj:xsubj|22:nsubj:xsubj
 sv-ud-train-2575	15	11:obl:för
 sv-ud-train-2575	17	11:obl:för|15:conj:och|19:nsubj:relsubj
 sv-ud-train-2575	18	17:ref
+sv-ud-train-2575	22	11:xcomp|13:csubj:xsubj
 sv-ud-train-2576	5	2:obl:på
 sv-ud-train-2576	7	5:nmod:av
 sv-ud-train-2576	12	5:appos|10:conj:och
@@ -8855,7 +8856,7 @@ sv-ud-train-2646	14	1:conj|3:nsubj:relsubj
 sv-ud-train-2646	17	14:nmod:i
 sv-ud-train-2648	2	3:obl:vid
 sv-ud-train-2648	10	5:nmod:vid
-sv-ud-train-2648	18	19:nsubj|24:nsubj:xsubj
+sv-ud-train-2648	22	19:iobj|24:nsubj:xsubj
 sv-ud-train-2649	9	2:obl:när_det_gäller
 sv-ud-train-2651	5	2:nmod:vid
 sv-ud-train-2651	7	5:nmod:i
@@ -9444,7 +9445,8 @@ sv-ud-test-771	21	19:obl:i
 sv-ud-train-2701	3	1:nmod:av
 sv-ud-train-2703	3	1:conj:och|6:nsubj
 sv-ud-train-2703	5	1:conj:och|6:nsubj
-sv-ud-train-2703	8	9:nsubj|10:nsubj:xsubj|12:nsubj:xsubj
+sv-ud-train-2703	7	6:obj|12:nsubj:xsubj
+sv-ud-train-2703	8	9:nsubj|10:nsubj:xsubj
 sv-ud-train-2704	6	2:obl:i
 sv-ud-train-2705	9	6:conj|10:amod
 sv-ud-train-2705	10	14:obl:i
@@ -9748,7 +9750,7 @@ sv-ud-train-2821	7	2:obl:inom
 sv-ud-train-2821	12	10:nmod:till
 sv-ud-train-2821	13	2:conj:men
 sv-ud-train-2821	22	13:obl:agent|17:conj:och
-sv-ud-train-2822	4	3:obj|7:nsubj:xsubj
+sv-ud-train-2822	2	3:nsubj|7:nsubj:xsubj
 sv-ud-train-2822	10	3:advcl:att
 sv-ud-train-2822	12	10:obl:inom
 sv-ud-train-2822	17	3:conj:men
@@ -9984,8 +9986,8 @@ sv-ud-train-2880	7	4:nmod:av
 sv-ud-train-2880	14	11:acl:att
 sv-ud-train-2880	15	14:obj|17:nsubj:xsubj
 sv-ud-train-2881	3	4:obl:från
+sv-ud-train-2881	4	9:csubj|13:csubj:pass:xsubj
 sv-ud-train-2881	8	4:obl:i
-sv-ud-train-2881	10	9:obj|13:nsubj:xsubj
 sv-ud-train-2882	5	2:nsubj|10:nsubj:pass:relsubj
 sv-ud-train-2882	6	5:ref
 sv-ud-train-2882	9	10:obl:på
@@ -9993,11 +9995,10 @@ sv-ud-train-2882	12	10:obl:med
 sv-ud-train-2882	15	12:nmod:av
 sv-ud-train-2882	18	12:nmod:i
 sv-ud-train-2883	8	5:obl:med
-sv-ud-train-2884	2	4:nsubj|12:nsubj
+sv-ud-train-2884	2	4:nsubj|12:nsubj|14:nsubj:xsubj|16:nsubj:xsubj
 sv-ud-train-2884	7	4:obl:på
 sv-ud-train-2884	9	4:obl:på|7:conj:och
 sv-ud-train-2884	12	4:conj:och
-sv-ud-train-2884	13	12:obj|14:nsubj:xsubj|16:nsubj:xsubj
 sv-ud-train-2884	18	12:obl:vid
 sv-ud-train-2884	20	18:nmod:av
 sv-ud-train-2884	22	18:nmod:av|20:conj:och
@@ -10151,7 +10152,7 @@ sv-ud-train-2927	7	5:conj:eller
 sv-ud-train-2927	9	7:nmod:i
 sv-ud-train-2928	6	2:obl:i
 sv-ud-train-2928	10	2:obl:som
-sv-ud-train-2930	1	2:nsubj|5:nsubj:xsubj
+sv-ud-train-2930	13	2:ccomp|5:csubj:xsubj
 sv-ud-train-2930	20	13:obl:agent|17:conj:och
 sv-ud-train-2932	3	1:nmod:i|7:nsubj:pass:relsubj
 sv-ud-train-2932	5	3:ref
@@ -10386,8 +10387,8 @@ sv-ud-train-3014	27	22:obl:till
 sv-ud-train-3015	6	7:obl:på
 sv-ud-train-3015	12	7:obl:till
 sv-ud-train-3015	19	7:advcl:att
-sv-ud-train-3015	20	19:obj|21:nsubj:xsubj
-sv-ud-train-3016	4	3:obj|6:nsubj:xsubj
+sv-ud-train-3015	17	19:nsubj|21:nsubj:xsubj
+sv-ud-train-3016	1	3:nsubj|6:nsubj:xsubj
 sv-ud-train-3016	9	3:advcl:att
 sv-ud-train-3016	15	9:obl:för
 sv-ud-train-3016	19	3:advcl:om
@@ -10442,7 +10443,7 @@ sv-ud-train-3033	66	64:conj:och
 sv-ud-train-3033	67	64:obj|66:obj
 sv-ud-train-3033	70	64:obl:från
 sv-ud-train-3033	71	72:nsubj|73:nsubj:xsubj
-sv-ud-train-3034	4	3:obj|5:nsubj:xsubj
+sv-ud-train-3034	2	3:nsubj|5:nsubj:xsubj
 sv-ud-train-3034	8	5:obl:i
 sv-ud-train-3034	15	12:obl:i
 sv-ud-train-3035	8	3:conj:och|9:advmod
@@ -10561,7 +10562,6 @@ sv-ud-train-3075	4	7:obl:på
 sv-ud-train-3075	10	7:obl:på
 sv-ud-train-3075	22	13:advcl:för_att
 sv-ud-train-3075	25	23:acl:att
-sv-ud-train-3075	26	25:obj|27:nsubj:xsubj
 sv-ud-train-3075	30	25:obl:från
 sv-ud-train-3076	5	3:nmod:mellan
 sv-ud-train-3076	7	3:nmod:mellan|5:conj:och
@@ -10642,8 +10642,8 @@ sv-ud-train-3093	7	5:obl:för
 sv-ud-train-3093	9	5:conj:och
 sv-ud-train-3093	12	9:advcl:att
 sv-ud-train-3093	15	12:obj|13:conj:och
-sv-ud-train-3094	8	9:nsubj|12:nsubj:xsubj|14:nsubj:xsubj
 sv-ud-train-3094	9	4:advcl:då
+sv-ud-train-3094	10	9:iobj|12:nsubj:xsubj|14:nsubj:xsubj
 sv-ud-train-3094	14	9:xcomp|12:conj:och
 sv-ud-train-3094	15	12:obj|14:obj
 sv-ud-train-3095	7	2:obl:inom
@@ -10846,7 +10846,7 @@ sv-ud-train-3161	9	3:advcl:att
 sv-ud-train-3161	12	9:obl:med
 sv-ud-train-3161	16	12:nmod:av
 sv-ud-train-3162	2	3:obl:trots
-sv-ud-train-3162	4	3:obj|9:nsubj:xsubj
+sv-ud-train-3162	7	3:nsubj|9:nsubj:xsubj
 sv-ud-train-3162	14	3:obl:för_sedan
 sv-ud-train-3163	8	9:obl:inom
 sv-ud-train-3163	9	27:advcl:att
@@ -11406,18 +11406,18 @@ sv-ud-train-3317	19	2:obl:ifråga_om|5:conj
 sv-ud-train-3318	4	10:obl:bakom
 sv-ud-train-3318	6	4:nmod:i
 sv-ud-train-3318	9	6:nmod:av
+sv-ud-train-3319	2	8:nsubj|11:nsubj:xsubj
 sv-ud-train-3319	4	2:nmod:hos
 sv-ud-train-3319	7	4:nmod:i
-sv-ud-train-3319	9	8:obj|11:nsubj:xsubj
 sv-ud-train-3320	6	2:obl:på
 sv-ud-train-3320	11	2:advcl:eftersom
 sv-ud-train-3320	13	11:obj|15:nsubj:relsubj
 sv-ud-train-3320	14	13:ref
-sv-ud-train-3321	3	2:obj|5:nsubj:xsubj
+sv-ud-train-3321	9	2:csubj|5:csubj:xsubj
 sv-ud-train-3321	16	9:obl:på
 sv-ud-train-3321	18	16:nmod:i
 sv-ud-train-3322	15	11:obl:av
-sv-ud-train-3323	2	3:nsubj|6:nsubj:xsubj
+sv-ud-train-3323	9	3:ccomp|6:csubj:xsubj
 sv-ud-train-3323	12	9:obl:på
 sv-ud-train-3323	14	12:nmod:i
 sv-ud-train-3323	16	9:obl:på
@@ -12284,8 +12284,7 @@ sv-ud-train-3488	11	6:xcomp|9:conj:och
 sv-ud-train-3489	2	8:obl:i
 sv-ud-train-3489	16	8:obl:när_det_gäller
 sv-ud-train-3489	18	16:nmod:av
-sv-ud-train-3491	4	10:nsubj|16:nsubj:xsubj
-sv-ud-train-3491	14	10:obl:om
+sv-ud-train-3491	14	10:obl:om|16:nsubj:xsubj
 sv-ud-train-3492	2	7:obl:i
 sv-ud-train-3492	13	7:advmod|10:conj:och|15:nsubj:relsubj
 sv-ud-train-3492	14	13:ref
@@ -13372,10 +13371,10 @@ sv-ud-train-3790	23	22.1:obj
 sv-ud-train-3790	25	22.1:obl:för
 sv-ud-train-3790	27	22.1:obl:för|25:conj:och
 sv-ud-train-3791	3	4:obl:trots
-sv-ud-train-3791	5	4:nsubj|8:nsubj:xsubj
+sv-ud-train-3791	17	4:ccomp|8:csubj:xsubj
 sv-ud-train-3791	23	17:csubj|20:conj:och
-sv-ud-train-3791	27	28:nsubj|30:nsubj:xsubj|32:nsubj:xsubj
 sv-ud-train-3791	28	4:ccomp|17:conj:och
+sv-ud-train-3791	32	28:xcomp|30:csubj:xsubj
 sv-ud-train-3792	1	2:nsubj|13:nsubj
 sv-ud-train-3792	10	8:obl:till
 sv-ud-train-3792	13	2:conj:och
@@ -13464,11 +13463,11 @@ sv-ud-train-3819	9	7:ref
 sv-ud-train-3820	10	8:nmod:mellan|12:nsubj:relsubj
 sv-ud-train-3820	11	10:ref
 sv-ud-train-3820	17	15:advcl:att
-sv-ud-train-3822	2	1:nsubj|4:nsubj:xsubj
 sv-ud-train-3822	6	1:obl:för|9:nsubj:relsubj
 sv-ud-train-3822	7	6:ref
 sv-ud-train-3822	12	9:advcl:att
 sv-ud-train-3822	17	12:obl:i
+sv-ud-train-3822	19	1:ccomp|4:csubj:xsubj
 sv-ud-train-3823	2	3:obl:i
 sv-ud-train-3823	7	3:nsubj|5:conj:och
 sv-ud-train-3824	4	5:obl:i
@@ -13541,7 +13540,7 @@ sv-ud-train-3842	15	11:advcl:att
 sv-ud-train-3843	5	10:advcl:fastän
 sv-ud-train-3843	8	5:obl:med
 sv-ud-train-3843	14	10:obj|17:nsubj:xsubj
-sv-ud-train-3844	2	3:nsubj|6:nsubj:xsubj|10:nsubj:xsubj
+sv-ud-train-3844	10	3:xcomp|6:nsubj:xsubj
 sv-ud-train-3844	13	10:obl:till
 sv-ud-train-3845	5	7:obl:i
 sv-ud-train-3845	10	7:obl:för
@@ -13983,7 +13982,7 @@ sv-ud-train-3956	19	14:obl:i_enlighet_med
 sv-ud-train-3956	22	14:obl:i_enlighet_med|19:conj:och
 sv-ud-train-3956	30	31:obl:från
 sv-ud-train-3956	32	2:ccomp|14:conj:och
-sv-ud-train-3957	7	6:nsubj|12:nsubj:xsubj|14:nsubj:xsubj|23:nsubj:xsubj|36:nsubj:xsubj
+sv-ud-train-3957	8	6:iobj|12:nsubj:xsubj|14:nsubj:xsubj|23:nsubj:xsubj|36:nsubj:xsubj
 sv-ud-train-3957	10	6:advcl:som
 sv-ud-train-3957	14	6:xcomp|12:conj:och
 sv-ud-train-3957	17	12:obj|14:obj
@@ -14326,7 +14325,7 @@ sv-ud-train-4050	10	7:acl:att
 sv-ud-train-4050	17	7:acl:att|10:conj:och
 sv-ud-train-4050	24	17:obl:på
 sv-ud-train-4051	7	5:nmod:på
-sv-ud-train-4051	12	11:obj|14:nsubj:xsubj
+sv-ud-train-4051	9	11:nsubj|14:nsubj:xsubj
 sv-ud-train-4051	18	14:obl:på
 sv-ud-train-4052	1	2:nsubj|5:nsubj
 sv-ud-train-4052	12	5:conj:och
@@ -14907,7 +14906,6 @@ sv-ud-train-4177	20	19:ref
 sv-ud-train-4178	2	8:obl:i
 sv-ud-train-4178	4	2:nmod:av
 sv-ud-train-4178	7	4:nmod:på
-sv-ud-train-4178	9	8:nsubj|11:nsubj:xsubj
 sv-ud-train-4178	15	11:advcl:att
 sv-ud-train-4178	16	15:obj|21:nsubj:xsubj
 sv-ud-train-4179	8	2:ccomp|16:nsubj:relsubj
@@ -14921,8 +14919,8 @@ sv-ud-train-4181	26	10:advcl:att
 sv-ud-train-4181	28	26:obl:till|39:nsubj:pass:relsubj|42:nsubj:xsubj
 sv-ud-train-4181	29	28:ref
 sv-ud-train-4181	35	39:obl:i
-sv-ud-train-4182	3	2:obj|14:nsubj:xsubj
-sv-ud-train-4182	10	2:nsubj|6:conj:och
+sv-ud-train-4182	6	2:nsubj|14:nsubj:xsubj
+sv-ud-train-4182	10	2:nsubj|6:conj:och|14:nsubj:xsubj
 sv-ud-train-4183	7	3:nmod:på
 sv-ud-train-4183	9	7:nmod:för
 sv-ud-train-4183	17	13:advcl:när
@@ -15052,10 +15050,9 @@ sv-ud-train-4226	27	13:obl:på|16:conj
 sv-ud-train-4226	29	27:nmod:till
 sv-ud-train-4226	30	13:obl:på|16:conj
 sv-ud-train-4227	7	4:advcl:att
-sv-ud-train-4227	8	7:obj|13:obl:relobj
+sv-ud-train-4227	8	7:obj|13:obj:relobj|15:nsubj:xsubj
 sv-ud-train-4227	10	7:obl:för
 sv-ud-train-4227	11	8:ref
-sv-ud-train-4227	12	13:nsubj|15:nsubj:xsubj
 sv-ud-train-4228	7	3:obl:i
 sv-ud-train-4228	10	12:nsubj:relsubj|16:nsubj
 sv-ud-train-4228	11	10:ref
@@ -15363,7 +15360,7 @@ sv-ud-train-4285	16	13:obl:bland
 sv-ud-train-4285	20	19:nsubj:pass|24:nsubj:pass
 sv-ud-train-4285	24	19:conj:och
 sv-ud-train-4286	3	4:obl:i
-sv-ud-train-4286	5	4:nsubj|9:nsubj:xsubj|14:nsubj:xsubj|20:nsubj:xsubj|23:nsubj:xsubj
+sv-ud-train-4286	6	4:iobj|9:nsubj:xsubj|14:nsubj:xsubj|20:nsubj:xsubj|23:nsubj:xsubj
 sv-ud-train-4286	11	9:obl:i
 sv-ud-train-4286	17	14:obl:på
 sv-ud-train-4286	22	20:obl:om
@@ -15389,7 +15386,7 @@ sv-ud-train-4290	31	28:obl:om
 sv-ud-train-4290	32	25:ref
 sv-ud-train-4290	36	25:acl:relcl|34:conj:och
 sv-ud-train-4290	38	34:advcl:än
-sv-ud-train-4291	9	8:obj|10:nsubj:xsubj
+sv-ud-train-4291	13	8:csubj|10:csubj:xsubj
 sv-ud-train-4291	17	13:obj|15:conj:och
 sv-ud-train-4291	19	8:csubj|13:conj:och
 sv-ud-train-4291	21	19:obj|22:nsubj:xsubj

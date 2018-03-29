@@ -581,6 +581,11 @@
 5	VDN	VDN	PROPN	PM|NOM	Case=Nom	6	nmod	_	_
 6	Fakta	faktum	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	3	nmod	_	_
 
+15468
+11	kalla	kalla	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	8	orphan	_	Enhanced=advcl
+---
+11	kalla	kalla	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	8	acl	_	_
+
 15489
 17	i	i	ADP	PP	_	18	case	_	_
 18	VDN	VDN	PROPN	PM|NOM	Case=Nom	16	nmod	_	_
@@ -1180,6 +1185,26 @@
 19	andra	annan	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	20	amod	_	_
 20	röstningsregler	röstningsregel	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	18	nsubj	_	SpaceAfter=No
 
+26118
+9	röster	röst	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	1	orphan	_	Enhanced=obj
+---
+9	röster	röst	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	1	parataxis	_	_
+
+26126
+5	röster	röst	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	1	orphan	_	Enhanced=obj
+---
+5	röster	röst	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	1	parataxis	_	_
+
+26138
+17	röster	röst	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	11	orphan	_	Enhanced=obj
+---
+17	röster	röst	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	11	parataxis	_	_
+
+26223
+6	EEC	EEC	PROPN	PM|NOM	Case=Nom	2	orphan	_	Enhanced=obl
+---
+6	EEC	EEC	PROPN	PM|NOM	Case=Nom	2	nmod	_	_
+
 26521
 1	EEC	EEC	PROPN	PM|NOM	Case=Nom	3	nsubj	_	SpaceAfter=No
 2	:	:	PUNCT	MID	_	3	punct	_	_
@@ -1429,6 +1454,11 @@
 18	i	i	ADP	PP	_	19	case	_	_
 19	motorn	motor	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	17	nmod	_	SpaceAfter=No
 
+29710
+20	städerna	stad	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	18	orphan	_	Enhanced=obl|SpaceAfter=No
+---
+20	städerna	stad	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	18	obl	_	_
+
 28729
 18	helt	hel	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	ccomp	_	SpaceAfter=No
 19	,	,	PUNCT	MID	_	18	punct	_	_
@@ -1454,6 +1484,11 @@
 ---
 1	Sao	Sao	PROPN	PM|NOM	Case=Nom	5	nsubj	_	_
 2	Paulo	Paulo	PROPN	PM|NOM	Case=Nom	1	flat:name	_	_
+
+30349
+4	beräkningar	beräkning	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	1	orphan	_	Enhanced=obl|SpaceAfter=No
+---
+4	beräkningar	beräkning	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	1	nmod	_	_
 
 30409
 13	Oljeprospektering	oljeprospektering	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	23	nsubj	_	_
@@ -1566,6 +1601,11 @@
 1	Enligt	enligt	ADP	PP	_	3	case	_	_
 2	dr	dr	NOUN	NN|AN	Abbr=Yes	3	nmod	_	_
 3	Horn	Horn	PROPN	PM|NOM	Case=Nom	9	obl	_	_
+
+32548
+4	söka	söka	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	1	orphan	_	Enhanced=advcl
+---
+4	söka	söka	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	1	acl	_	_
 
 33043
 31	'	'	PUNCT	PAD	_	32	punct	_	SpaceAfter=No
@@ -1901,6 +1941,15 @@
 10	Gunnebo	Gunnebo	PROPN	PM|NOM	Case=Nom	11	nmod	_	_
 11	Bruk	Bruk	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	8	nmod	_	_
 
+39891
+4	proc	proc	NOUN	NN|AN	Abbr=Yes	1	orphan	_	Enhanced=obl
+5	sen	sen	ADP	PP	_	6	case	_	_
+6	1966	1966	NUM	RG|NOM	Case=Nom|NumType=Card	1	orphan	_	Enhanced=obl
+---
+4	proc	proc	NOUN	NN|AN	Abbr=Yes	1	nmod	_	_
+5	sen	sen	ADP	PP	_	6	case	_	_
+6	1966	1966	NUM	RG|NOM	Case=Nom|NumType=Card	1	nmod	_	_
+
 39983
 3	som	som	CCONJ	KN	_	4	advmod	_	_
 4	Svenska	Svenska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	2	appos	_	_
@@ -1997,6 +2046,11 @@
 14	Den	en	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	15	det	_	_
 15	permanente	permanent	ADJ	JJ|SUV|UTR/NEU|SIN/PLU|DEF|NOM	Case=Nom|Definite=Def|Degree=Sup	17	nsubj	_	SpaceAfter=No
 16	'	'	PUNCT	PAD	_	15	punct	_	_
+
+41708
+5	räknat	räkna	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	1	orphan	_	Enhanced=advcl
+---
+5	räknat	räkna	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	1	acl	_	_
 
 41881
 23	dvs	dvs	ADV	AB|AN	Abbr=Yes	26	cc	_	_
@@ -2348,7 +2402,22 @@
 1	Ledarhunden	ledarhund	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	0	root	_	Enhanced=nsubj
 2	för	för	ADP	PP	_	4	case	_	_
 3	den	en	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	4	det	_	_
-4	synskadade	synskadad	ADJ	PC|PRF|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Number=Sing|Tense=Past|VerbForm=Part	1	orphan	_	Enhance=obl|SpaceAfter=No
+4	synskadade	synskadad	ADJ	PC|PRF|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Number=Sing|Tense=Past|VerbForm=Part	1	nmod	_	SpaceAfter=No
+
+50285
+8	den	den	PRON	PN|UTR|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	6	orphan	_	Enhanced=obl
+---
+8	den	den	PRON	PN|UTR|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	6	nmod	_	_
+
+50294
+17	ökar	öka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	13	orphan	_	Enhanced=advcl|SpaceAfter=No
+---
+17	ökar	öka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl	_	SpaceAfter=No
+
+50313
+17	narkotikaproblemet	narkotikaproblem	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	14	orphan	_	Enhanced=obl|SpaceAfter=No
+---
+17	narkotikaproblemet	narkotikaproblem	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No
 
 50328
 7	vid	vid	ADP	PP	_	8	case	_	_
@@ -2715,6 +2784,16 @@
 73	reagera	reagera	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	72	xcomp	_	SpaceAfter=No
 74	.	.	PUNCT	MAD	_	4	punct	_	_
 
+59384
+5	G	G	PROPN	PM|NOM	Case=Nom	2	orphan	_	Enhanced=obl
+---
+5	G	G	PROPN	PM|NOM	Case=Nom	2	nmod	_	_
+
+59388
+9	66	66	NUM	RG|NOM	Case=Nom|NumType=Card	2	orphan	_	Enhanced=obl|SpaceAfter=No
+---
+9	66	66	NUM	RG|NOM	Case=Nom|NumType=Card	2	nmod	_	SpaceAfter=No
+
 59595
 1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	2	nsubj	_	_
 2	blir	bli	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -3067,6 +3146,11 @@
 ---
 9	placera	placera	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	3	ccomp	_	_
 
+65334
+15	expropriation	expropriation	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	orphan	_	Enhanced=obl|SpaceAfter=No
+---
+15	expropriation	expropriation	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	nmod	_	SpaceAfter=No
+
 65551
 7	för	för	ADP	PP	_	8	case	_	_
 8	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	6	nmod	_	_
@@ -3235,11 +3319,6 @@
 21	(	(	PUNCT	PAD	_	22	punct	_	SpaceAfter=No
 22	Uppsala	Uppsala	PROPN	PM|NOM	Case=Nom	19	nmod	_	_
 
-69532
-7	föräldrarna	förälder	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	8	advcl	_	_
----
-7	föräldrarna	förälder	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	5	advcl	_	_
-
 69820
 19	roll	roll	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	xcomp	_	_
 ---
@@ -3309,11 +3388,6 @@
 10	1961:9	1961:9	NUM	RG|NOM	Case=Nom|NumType=Card	8	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	MAD	_	3	punct	_	SpaceAfter=No
 12	)	)	PUNCT	PAD	_	3	punct	_	_
-
-71718
-7	är	vara	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	appos	_	_
----
-7	är	vara	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
 
 72239
 1	Två	två	NUM	RG|NOM	Case=Nom|NumType=Card	3	nsubj	_	_
@@ -3857,6 +3931,11 @@
 29	sammanfogat	sammanfoga	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	19	parataxis	_	_
 30	...	...	PUNCT	MAD	_	29	punct	_	SpaceAfter=No
 
+84134
+9	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	8	nsubj	_	_
+---
+9	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	8	expl	_	_
+
 84462
 26	i	i	ADP	PP	_	27	case	_	_
 27	Nya	ny	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	25	advmod	_	_
@@ -3926,6 +4005,11 @@
 15	i	i	ADP	PP	_	14	advmod	_	_
 16	första	en	ADJ	RO|NOM	Case=Nom	15	fixed	_	_
 17	hand	hand	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	15	fixed	_	SpaceAfter=No
+
+88077
+23	servicebetonade	servicebetonad	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Number=Plur|Tense=Past|VerbForm=Part	19	orphan	_	Enhanced=obl
+---
+23	servicebetonade	servicebetonad	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Number=Plur|Tense=Past|VerbForm=Part	19	obl	_	_
 
 88370
 18	moshaverna	moshav	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	14	nmod	_	SpaceAfter=No
@@ -4232,22 +4316,12 @@
 2	Svenska	Svenska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	3	amod	_	_
 3	Dagbladets	Dagbladet	NOUN	NN|NEU|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	4	nmod:poss	_	_
 
-95729
-15	tidigare	tidig	ADV	AB|KOM	Degree=Cmp	14	nmod	_	SpaceAfter=No
----
-15	tidigare	tidig	ADV	AB|KOM	Degree=Cmp	14	advmod	_	SpaceAfter=No
-
 96270
 2	,	,	PUNCT	MID	_	1	punct	_	_
 3	säger	säga	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	_
 ---
 2	,	,	PUNCT	MID	_	7	punct	_	_
 3	säger	säga	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	_
-
-96393
-19	får	få	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	16	acl:relcl	_	_
----
-19	får	få	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
 
 96871
 9	'	'	PUNCT	PAD	_	10	punct	_	SpaceAfter=No
