@@ -1,0 +1,42 @@
+Running the following version of tools/evaluate_treebank.pl:
+commit 87d374bbd458d29331d76014d05c52eaac32518d
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Wed Apr 11 09:21:53 2018 +0200
+Evaluating the following revision of UD_Swedish-Talbanken:
+commit 6dff5a80605510d307f609304c8d6a8cf6af5e22
+Merge: 91c8c97 eb0aaab
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Size: counted 96819 of 96819 words (nodes).
+Size: min(0, log((N/1000)**2)) = 9.14568651202735.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Found more than 10000 training words.
+Split: Did not find at least 10000 development words.
+Split: Found at least 10000 test words.
+Lemmas: source of annotation (from README) factor is 0.5.
+Universal POS tags: 16 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 0.9.
+Features: 63212 out of 96819 total words have one or more features.
+Features: source of annotation (from README) factor is 0.9.
+Universal relations: 33 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 0.9.
+Udapi: found 196 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 96819 words.
+Genres: found 2 out of 14 known.
+validate.py --lang sv --max-err=10 UD_Swedish-Talbanken/sv_talbanken-ud-dev.conllu
+*** PASSED ***
+validate.py --lang sv --max-err=10 UD_Swedish-Talbanken/sv_talbanken-ud-test.conllu
+*** PASSED ***
+validate.py --lang sv --max-err=10 UD_Swedish-Talbanken/sv_talbanken-ud-train.conllu
+*** PASSED ***
+Validity: 1
+(weight=0.0769230769230769) * (score{features}=0.9) = 0.0692307692307692
+(weight=0.0769230769230769) * (score{genres}=0.142857142857143) = 0.010989010989011
+(weight=0.0769230769230769) * (score{lemmas}=0.5) = 0.0384615384615385
+(weight=0.256410256410256) * (score{size}=0.661986864231746) = 0.169740221597884
+(weight=0.0512820512820513) * (score{split}=0.67) = 0.0343589743589744
+(weight=0.0769230769230769) * (score{tags}=0.847058823529412) = 0.065158371040724
+(weight=0.307692307692308) * (score{udapi}=0.979756039620322) = 0.301463396806253
+(weight=0.0769230769230769) * (score{udeprels}=0.802702702702703) = 0.0617463617463617
+(TOTAL score=0.751148644231515) * (availability=1) * (validity=1) = 0.751148644231515
+STARS = 4
+UD_Swedish-Talbanken	0.751148644231515	4
