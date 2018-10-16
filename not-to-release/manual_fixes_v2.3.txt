@@ -757,8 +757,8 @@
 43	kuvert	kuvert	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	40	obl	_	SpaceAfter=No
 44	.	.	PUNCT	MAD	_	2	punct	_	_
 ---
-18	(	(	PUNCT	PAD	_	7	punct	_	_
-19	gäller	gälla	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	SpaceAfter=No
+18	(	(	PUNCT	PAD	_	7	punct	_	SpaceAfter=No
+19	gäller	gälla	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	_
 20	även	även	ADV	AB	_	19	advmod	_	_
 21	valkuverten	valkuvert	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	19	obj	_	SpaceAfter=No
 22	)	)	PUNCT	PAD	_	7	punct	_	_
