@@ -1,3 +1,19 @@
+324
+11	tillsammans	tillsammans	ADV	AB	_	10	compound:prt	_	_
+---
+11	tillsammans	tillsammans	ADV	AB	_	10	advmod	_	_
+
+
+419
+1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	2	nsubj	_	_
+---
+1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	2	expl	_	_
+
+580
+12	hemortskommunen	hemortskommun	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	10	acl	_	SpaceAfter=No
+---
+12	hemortskommunen	hemortskommun	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	obl	_	SpaceAfter=No
+
 622
 6	skattskyldig	skattskyldig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	3	advmod	_	_
 ---

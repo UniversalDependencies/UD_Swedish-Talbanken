@@ -119,7 +119,7 @@ sv-ud-train-37	19	20:obl:till
 sv-ud-train-37	21	14:nmod:av
 sv-ud-train-38	7	4:obl:från
 sv-ud-train-38	10	7:nmod:i
-sv-ud-train-38	12	10:acl:än
+sv-ud-train-38	12	9:obl:än
 sv-ud-train-39	3	4:obl:för
 sv-ud-train-39	7	5:conj:eller|11:nsubj:pass
 sv-ud-train-39	15	11:obl:till
