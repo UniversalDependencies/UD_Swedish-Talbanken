@@ -180,6 +180,8 @@ From v2.1 to v2.2:
 - Fixed a small number of annotation errors
 - Added enhanced dependencies
 
+From v2.2 to v2.3:
+- Fixed a small number of errors in both basic and enhanced dependencies
 <pre>
 === Machine readable metadata ==============
 
