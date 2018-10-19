@@ -6,11 +6,19 @@ python3 comments.py sv2.conllu sv3.conllu
 python3 harmonize-sv.py sv3.conllu sv4.conllu
 python3 insert-enhanced.py sv_talbanken-ud.enhanced.txt sv4.conllu sv5.conllu
 python3 split.py sv5.conllu sv_talbanken-ud
-python3 tokens-with-spaces.py sv5.conllu tokens-with-spaces.txt
 
-- The final output files are:
+- The final treebank files are:
 
 sv_talbanken-ud-dev.conllu
 sv_talbanken-ud-test.conllu
 sv_talbanken-ud-train.conllu
+
+- To create auxiliary files run:
+
+python3 tokens-with-spaces.py sv5.conllu tokens-with-spaces.txt
+python3 make_edeprel.py sv5.conllu edeprel.sv
+ 
+- The auxiliary files are:
+
 tokens-with-spaces.txt
+edeprel.sv

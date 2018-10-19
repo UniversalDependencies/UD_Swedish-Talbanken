@@ -1120,7 +1120,7 @@ sv-ud-train-358	9	6:obl:med
 sv-ud-train-358	13	6:obl:med|9:conj:och
 sv-ud-train-358	16	6:obl:vid
 sv-ud-train-360	4	2:acl:som
-sv-ud-train-360	8	2:conj:dvs
+sv-ud-train-360	8	2:parataxis
 sv-ud-train-360	13	11:obl:till
 sv-ud-train-360	16	8:obl:på
 sv-ud-train-360	18	16:nmod:efter
@@ -2488,7 +2488,7 @@ sv-ud-train-654	14	11:obj|12:conj:eller
 sv-ud-train-654	16	11:obj|12:conj:eller
 sv-ud-train-654	18	11:obj|12:conj:eller
 sv-ud-train-654	20	11:obj|12:conj:eller
-sv-ud-train-657	3	4:obl:j
+sv-ud-train-657	3	4:obl:i
 sv-ud-train-658	5	6:obl:i
 sv-ud-train-658	11	6:obl:agent|9:conj:sym
 sv-ud-train-658	15	6:obl:agent|9:conj:eller
@@ -2762,7 +2762,7 @@ sv-ud-train-730	1	7:nsubj|13:nsubj
 sv-ud-train-730	4	7:obl:för
 sv-ud-train-730	10	13:obl:för
 sv-ud-train-730	13	7:conj:och
-sv-ud-train-731	7	5:nmod:sym:sym
+sv-ud-train-731	7	5:nmod:sym
 sv-ud-train-731	15	13:nmod:med
 sv-ud-train-732	8	5:nmod:hos
 sv-ud-train-732	10	12:obl:i
@@ -3090,7 +3090,7 @@ sv-ud-train-899	6	4:obl:närmare
 sv-ud-train-900	8	2:advcl:att
 sv-ud-train-900	11	9:obl:i
 sv-ud-train-902	4	2:conj:och|5:nsubj:pass
-sv-ud-train-902	7	5:obl:förra
+sv-ud-train-902	7	5:obl
 sv-ud-train-902	9	5:obl:i
 sv-ud-train-904	2	3:obl:till
 sv-ud-train-904	7	3:nsubj|5:conj:och|11:nsubj
@@ -3387,7 +3387,7 @@ sv-ud-train-1001	14	5:obl:i
 sv-ud-train-1001	24	22:nmod:på
 sv-ud-train-1001	25	15:conj:men
 sv-ud-train-1002	3	1:nmod:i
-sv-ud-train-1002	6	1:obl:den
+sv-ud-train-1002	6	1:obl
 sv-ud-train-1003	9	3:advcl:som
 sv-ud-train-1003	12	3:obl:med
 sv-ud-train-1003	15	12:acl:att
@@ -7405,7 +7405,7 @@ sv-ud-train-2207	10	7:nmod:om
 sv-ud-train-2207	12	10:nmod:på
 sv-ud-train-2207	16	3:obl:på
 sv-ud-train-2207	22	16:acl:som
-sv-ud-train-2207	27	3:conj:dvs
+sv-ud-train-2207	27	3:parataxis
 sv-ud-train-2207	29	27:obl:i|32:nsubj:pass
 sv-ud-train-2207	30	29:ref
 sv-ud-train-2207	35	32:obl:ifråga_om
@@ -14542,7 +14542,7 @@ sv-ud-train-4089	2	3:obl:inom
 sv-ud-train-4089	6	3:obl:efter
 sv-ud-train-4089	9	6:nmod:på
 sv-ud-train-4089	12	13:nsubj|14:nsubj
-sv-ud-train-4089	13	3:conj:dvs
+sv-ud-train-4089	13	3:parataxis
 sv-ud-train-4089	27	24:obl:hos
 sv-ud-train-4090	10	6:nmod:på
 sv-ud-train-4090	15	6:appos|13:conj:och

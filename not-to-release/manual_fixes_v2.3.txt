@@ -2069,19 +2069,19 @@
 5	räknat	räkna	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	1	acl	_	_
 
 41881
-23	dvs	dvs	ADV	AB|AN	Abbr=Yes	26	cc	_	_
+23	dvs	dvs	ADV	AB|AN	Abbr=Yes	26	advmod	_	_
 24	hyrorna	hyra	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	26	nsubj	_	_
 25	skall	skola	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	26	aux	_	_
-26	vara	vara	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	3	conj	_	_
+26	vara	vara	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	3	parataxis	_	_
 27	lika	lika	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	26	xcomp	_	_
 28	i	i	ADP	PP	_	29	case	_	_
 29	hus	hus	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	26	obl	_	_
 ---
-23	dvs	dvs	ADV	AB|AN	Abbr=Yes	27	cc	_	_
+23	dvs	dvs	ADV	AB|AN	Abbr=Yes	27	advmod	_	_
 24	hyrorna	hyra	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	27	nsubj	_	_
 25	skall	skola	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	27	aux	_	_
 26	vara	vara	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	27	cop	_	_
-27	lika	lika	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	3	conj	_	_
+27	lika	lika	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	3	parataxis	_	_
 28	i	i	ADP	PP	_	29	case	_	_
 29	hus	hus	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	27	obl	_	_
 
