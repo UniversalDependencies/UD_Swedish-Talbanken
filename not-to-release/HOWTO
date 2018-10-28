@@ -22,3 +22,5 @@ python3 make_edeprel.py sv5.conllu edeprel.sv
 
 tokens-with-spaces.txt
 edeprel.sv
+
+NB: Merge edeprel.sv with files from PUD and LinES!
