@@ -13,7 +13,7 @@
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
     <tag name="ADJ">8500</tag><!-- stor, annan, olik, ny, viss, liten, sån, många, hög, bra -->
-    <tag name="ADP">11245</tag><!-- i, av, på, för, till, med, om, från, vid, under -->
+    <tag name="ADP">11246</tag><!-- i, av, på, för, till, med, om, från, vid, under -->
     <tag name="ADV">7025</tag><!-- så, också, mycket, hur, där, här, nu, bara, ut, även -->
     <tag name="AUX">4186</tag><!-- vara, kunna, ha, skola, måste, komma, få, vilja, böra, behöva -->
     <tag name="CCONJ">3703</tag><!-- och, eller, men, både, utan, som, dels, såväl, samt, varken -->
@@ -23,7 +23,7 @@
     <tag name="NUM">1741</tag><!-- två, en, tre, 1, 20, 2, 1970, 3, 10, 1971 -->
     <tag name="PART">1874</tag><!-- att, inte, ej, icke -->
     <tag name="PRON">6671</tag><!-- den, som, man, sig, de, vi, du, denna, han, vad -->
-    <tag name="PROPN">1361</tag><!-- Sverige, EEC, Stockholm, Gud, USA, ATP, Göteborg, Horn, Danmark, Indien -->
+    <tag name="PROPN">1360</tag><!-- Sverige, EEC, Stockholm, Gud, USA, ATP, Göteborg, Horn, Danmark, Indien -->
     <tag name="PUNCT">10368</tag><!-- ., ,, ', -, ?, (, ), :, *, ; -->
     <tag name="SCONJ">2102</tag><!-- att, som, om, när, än, eftersom, då, innan, medan, sedan -->
     <tag name="SYM">86</tag><!-- -, /, +, : -->
@@ -34,7 +34,7 @@
     <feat name="Abbr" value="Yes" upos="ADJ,ADP,ADV,NOUN,VERB">789</feat><!-- kr, t.ex., ca, t ex, %, bl.a., s k, etc, bl a, dr -->
     <feat name="Case" value="Acc" upos="NOUN,PRON">727</feat><!-- sig, dem, oss, dig, varandra, mig, henne, honom, sej, varann -->
     <feat name="Case" value="Gen" upos="ADJ,NOUN,PROPN">1157</feat><!-- äktenskapets, kvinnans, världens, barnens, familjens, Sveriges, års, dagens, samhällets, EEC:s -->
-    <feat name="Case" value="Nom" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">34745</feat><!-- man, de, vi, år, barn, du, olika, andra, del, äktenskapet -->
+    <feat name="Case" value="Nom" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">34744</feat><!-- man, de, vi, år, barn, du, olika, andra, del, äktenskapet -->
     <feat name="Definite" value="Def" upos="ADJ,DET,NOUN,PRON">15414</feat><!-- det, den, de, sig, vi, detta, du, denna, sin, dessa -->
     <feat name="Definite" value="Ind" upos="ADJ,DET,NOUN,NUM,PRON,VERB">22031</feat><!-- en, man, ett, år, barn, del, vad, varje, procent, någon -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">934</feat><!-- mer, större, mindre, tidigare, längre, bättre, högre, senare, mera, vidare -->
@@ -74,43 +74,43 @@
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="41">
-    <dep name="acl">642</dep>
+    <dep name="acl">641</dep>
     <dep name="acl:cleft">94</dep>
     <dep name="acl:relcl">1241</dep>
     <dep name="advcl">1682</dep>
-    <dep name="advmod">6948</dep>
-    <dep name="amod">6031</dep>
+    <dep name="advmod">6953</dep>
+    <dep name="amod">6032</dep>
     <dep name="appos">500</dep>
     <dep name="aux">2517</dep>
     <dep name="aux:pass">49</dep>
-    <dep name="case">9702</dep>
-    <dep name="cc">3486</dep>
+    <dep name="case">9700</dep>
+    <dep name="cc">3483</dep>
     <dep name="ccomp">512</dep>
     <dep name="compound">17</dep>
-    <dep name="compound:prt">856</dep>
-    <dep name="conj">4361</dep>
+    <dep name="compound:prt">855</dep>
+    <dep name="conj">4358</dep>
     <dep name="cop">1715</dep>
     <dep name="csubj">340</dep>
     <dep name="csubj:pass">34</dep>
-    <dep name="det">4917</dep>
+    <dep name="det">4918</dep>
     <dep name="discourse">19</dep>
     <dep name="dislocated">125</dep>
-    <dep name="expl">517</dep>
+    <dep name="expl">518</dep>
     <dep name="fixed">1749</dep>
     <dep name="flat:name">157</dep>
     <dep name="iobj">163</dep>
     <dep name="list">5</dep>
-    <dep name="mark">3884</dep>
+    <dep name="mark">3883</dep>
     <dep name="nmod">4040</dep>
     <dep name="nmod:poss">1732</dep>
-    <dep name="nsubj">7584</dep>
+    <dep name="nsubj">7583</dep>
     <dep name="nsubj:pass">1330</dep>
     <dep name="nummod">1341</dep>
     <dep name="obj">4240</dep>
-    <dep name="obl">6203</dep>
+    <dep name="obl">6204</dep>
     <dep name="obl:agent">181</dep>
     <dep name="orphan">35</dep>
-    <dep name="parataxis">420</dep>
+    <dep name="parataxis">423</dep>
     <dep name="punct">10368</dep>
     <dep name="root">6026</dep>
     <dep name="vocative">1</dep>
