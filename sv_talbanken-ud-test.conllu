@@ -118,7 +118,7 @@
 1	Basbeloppet	basbelopp	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	4	nsubj	4:nsubj	_
 2	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
 3	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	4	det	4:det	_
-4	belopp	belopp	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root	7:nsubj:pass	SpaceAfter=No
+4	belopp	belopp	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root	0:root|7:nsubj:pass	SpaceAfter=No
 5	,	,	PUNCT	MID	_	4	punct	4:punct	_
 6	som	som	PRON	HP|-|-|-	PronType=Rel	7	nsubj:pass	4:ref	_
 7	fastställs	fastställa	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	4	acl:relcl	4:acl:relcl	_
@@ -336,7 +336,7 @@
 # text = Det första år, för vilket pensionsgrundande inkomst beräknades, var år 1960.
 1	Det	en	DET	DT|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	3:det	_
 2	första	en	ADJ	RO|NOM	Case=Nom	3	amod	3:amod	_
-3	år	år	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root	9:obl	SpaceAfter=No
+3	år	år	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root	0:root|9:obl	SpaceAfter=No
 4	,	,	PUNCT	MID	_	3	punct	3:punct	_
 5	för	för	ADP	PP	_	6	case	6:case	_
 6	vilket	vilken	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Rel	9	obl	3:ref	_
@@ -4299,7 +4299,7 @@
 2	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
 3	naturligtvis	naturligtvis	ADV	AB	_	5	advmod	5:advmod	_
 4	pappan	pappa	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	5	nsubj	5:nsubj	_
-5	den	en	PRON	PN|UTR|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	0	root	9:nsubj	_
+5	den	en	PRON	PN|UTR|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	0	root	0:root|9:nsubj	_
 6	som	som	PRON	HP|-|-|-	PronType=Rel	9	nsubj	5:ref	_
 7	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	9:cop	_
 8	närmast	nära	ADV	AB|SUV	Degree=Sup	9	advmod	9:advmod	_
@@ -7439,7 +7439,7 @@
 1	Och	och	CCONJ	KN	_	4	cc	4:cc	_
 2	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	4	nsubj	4:nsubj	_
 3	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
-4	folk	folk	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	0	root	7:nsubj	_
+4	folk	folk	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	0	root	0:root|7:nsubj	_
 5	som	som	PRON	HP|-|-|-	PronType=Rel	7	nsubj	4:ref	_
 6	inte	inte	PART	AB	Polarity=Neg	7	advmod	7:advmod	_
 7	bor	bo	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	4:acl:relcl	_
@@ -8725,7 +8725,7 @@
 # sent_id = sv-ud-test-465
 # text = Andra länder som fattat liknande fast mindre drastiska beslut är Marocko, Algeriet och Nigeria.
 1	Andra	annan	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	2	amod	2:amod	_
-2	länder	land	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	0	root	4:nsubj	_
+2	länder	land	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	0	root	0:root|4:nsubj	_
 3	som	som	PRON	HP|-|-|-	PronType=Rel	4	nsubj	2:ref	_
 4	fattat	fatta	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	2	acl:relcl	2:acl:relcl	_
 5	liknande	liknande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Tense=Pres|VerbForm=Part	9	amod	9:amod	_
@@ -9358,7 +9358,7 @@
 6	uttalande	uttalande	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	nmod	2:nmod:till	_
 7	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	9:cop	_
 8	den	en	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	9	det	9:det	_
-9	larmrapport	larmrapport	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	11:nsubj:pass	_
+9	larmrapport	larmrapport	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	0:root|11:nsubj:pass	_
 10	som	som	PRON	HP|-|-|-	PronType=Rel	11	nsubj:pass	9:ref	_
 11	släpptes	släppa	VERB	VB|PRT|SFO	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	9	acl:relcl	9:acl:relcl	_
 12	ut	ut	ADV	PL	_	11	compound:prt	11:compound:prt	_
@@ -13360,7 +13360,7 @@
 10	grupp	grupp	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	nsubj:pass	13:nsubj:pass|15:nsubj:pass	_
 11	av	av	ADP	PP	_	12	case	12:case	_
 12	ämnen	ämne	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	10	nmod	10:nmod:av	_
-13	upptäckts	upptäcka	VERB	VB|SUP|SFO	VerbForm=Sup|Voice=Pass	0	root	18:nsubj	_
+13	upptäckts	upptäcka	VERB	VB|SUP|SFO	VerbForm=Sup|Voice=Pass	0	root	0:root|18:nsubj	_
 14	och	och	CCONJ	KN	_	15	cc	15:cc	_
 15	framställts	framställa	VERB	VB|SUP|SFO	VerbForm=Sup|Voice=Pass	13	conj	13:conj:och|18:nsubj	SpaceAfter=No
 16	,	,	PUNCT	MID	_	13	punct	13:punct	_
@@ -13656,7 +13656,7 @@
 # newpar id = P301.23
 # sent_id = sv-ud-test-707
 # text = Rauwolfia-växten, ur vars rötter reserpin framställes.
-1	Rauwolfia-växten	Rauwolfia-växt	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	0	root	5:nmod:poss	SpaceAfter=No
+1	Rauwolfia-växten	Rauwolfia-växt	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	0	root	0:root|5:nmod:poss	SpaceAfter=No
 2	,	,	PUNCT	MID	_	1	punct	1:punct	_
 3	ur	ur	ADP	PP	_	5	case	5:case	_
 4	vars	vars	PRON	HS|DEF	Definite=Def|Poss=Yes|PronType=Rel	5	nmod:poss	1:ref	_
@@ -13953,7 +13953,7 @@
 # text = Ett nytt medel, som har visat sig kunna förebygga depressioner hos manisk-depressiva patienter, är alkalimetallen litium, nära besläktad med natrium.
 1	Ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	3	det	3:det	_
 2	nytt	ny	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	amod	3:amod	_
-3	medel	medel	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root	7:nsubj	SpaceAfter=No
+3	medel	medel	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root	0:root|7:nsubj	SpaceAfter=No
 4	,	,	PUNCT	MID	_	3	punct	3:punct	_
 5	som	som	PRON	HP|-|-|-	PronType=Rel	7	nsubj	3:ref	_
 6	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	7:aux	_
@@ -14673,7 +14673,7 @@
 4	giftet	gifte	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	nmod	2:nmod:av	_
 5	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	7:cop	_
 6	det	en	DET	DT|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	7:det	_
-7	enda	enda	ADJ	JJ|POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	0	root	10:nsubj	_
+7	enda	enda	ADJ	JJ|POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	0	root	0:root|10:nsubj	_
 8	som	som	PRON	HP|-|-|-	PronType=Rel	10	nsubj	7:ref	_
 9	snabbt	snabb	ADV	AB|POS	Degree=Pos	10	advmod	10:advmod	_
 10	häver	häva	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	7:acl:relcl	_
@@ -16254,7 +16254,7 @@
 5	tiden	tid	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	3	nmod	3:nmod:i	_
 6	av	av	ADP	PP	_	7	case	7:case	_
 7	kostnader	kostnad	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	nmod	3:nmod:av	_
-8	motverkas	motverka	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	0	root	21:nsubj	_
+8	motverkas	motverka	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	0	root	0:root|21:nsubj	_
 9	också	också	ADV	AB	_	8	advmod	8:advmod	_
 10	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	11	det	11:det	_
 11	del	del	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	nsubj:pass	8:nsubj:pass	_
@@ -17863,7 +17863,7 @@
 1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	4	nsubj	4:nsubj	_
 2	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	4:aux	_
 3	varit	vara	AUX	VB|SUP|AKT	VerbForm=Sup|Voice=Act	4	cop	4:cop	_
-4	experter	expert	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	0	root	6:nsubj:pass	_
+4	experter	expert	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	0	root	0:root|6:nsubj:pass	_
 5	som	som	PRON	HP|-|-|-	PronType=Rel	6	nsubj:pass	4:ref	_
 6	skickats	skicka	VERB	VB|SUP|SFO	VerbForm=Sup|Voice=Pass	4	acl:relcl	4:acl:relcl	_
 7	ut	ut	ADV	AB	_	6	advmod	6:advmod	_

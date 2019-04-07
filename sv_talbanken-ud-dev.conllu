@@ -663,7 +663,7 @@
 8	kvinnans	kvinna	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	11	nmod:poss	11:nmod:poss	_
 9	'	'	PUNCT	PAD	_	11	punct	11:punct	SpaceAfter=No
 10	biologiska	biologisk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	11	amod	11:amod	_
-11	tragedi	tragedi	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	17:obl	SpaceAfter=No
+11	tragedi	tragedi	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	0:root|17:obl	SpaceAfter=No
 12	'	'	PUNCT	PAD	_	11	punct	11:punct	SpaceAfter=No
 13	,	,	PUNCT	MID	_	11	punct	11:punct	_
 14	som	som	PRON	HP|-|-|-	PronType=Rel	17	obj	11:ref	_
@@ -1139,7 +1139,7 @@
 3	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
 4	också	också	ADV	AB	_	6	advmod	6:advmod	_
 5	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	6	det	6:det	_
-6	jordbrukskollektiv	jordbrukskollektiv	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root	11:nsubj	SpaceAfter=No
+6	jordbrukskollektiv	jordbrukskollektiv	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root	0:root|11:nsubj	SpaceAfter=No
 7	,	,	PUNCT	MID	_	6	punct	6:punct	_
 8	som	som	PRON	HP|-|-|-	PronType=Rel	11	nsubj	6:ref	_
 9	i	i	ADP	PP	_	10	case	10:case	_
@@ -3658,7 +3658,7 @@
 1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	4	nsubj	4:nsubj	_
 2	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
 3	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	4	det	4:det	_
-4	jobb	jobb	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root	8:nsubj	_
+4	jobb	jobb	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root	0:root|8:nsubj	_
 5	som	som	PRON	HP|-|-|-	PronType=Rel	8	nsubj	4:ref	_
 6	inte	inte	PART	AB	Polarity=Neg	8	advmod	8:advmod	_
 7	bara	bara	ADV	AB	_	8	advmod	8:advmod	_
@@ -4336,7 +4336,7 @@
 1	Och	och	CCONJ	KN	_	4	cc	4:cc	_
 2	dessutom	dessutom	ADV	AB	_	4	advmod	4:advmod	_
 3	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	4	det	4:det	_
-4	emancipation	emancipation	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	11:obl	_
+4	emancipation	emancipation	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	0:root|11:obl	_
 5	som	som	PRON	HP|-|-|-	PronType=Rel	11	obj	4:ref	_
 6	han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	11	nsubj	11:nsubj	_
 7	själv	själv	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	6	acl	6:acl	_
@@ -6136,7 +6136,7 @@
 # sent_id = sv-ud-dev-249
 # text = Den väg, som bara mynnar ut i ett redan föråldrat, i öststaterna av allt att döma inom kort passerat stadium.
 1	Den	en	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	2	det	2:det	_
-2	väg	väg	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	6:nsubj	SpaceAfter=No
+2	väg	väg	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	0:root|6:nsubj	SpaceAfter=No
 3	,	,	PUNCT	MID	_	2	punct	2:punct	_
 4	som	som	PRON	HP|-|-|-	PronType=Rel	6	nsubj	2:ref	_
 5	bara	bara	ADV	AB	_	6	advmod	6:advmod	_
@@ -6640,7 +6640,7 @@
 
 # sent_id = sv-ud-dev-279
 # text = Verksamheter som ytterst kommer samhället till godo, verksamheter där den mänskliga, varma kontakten aldrig kan ersättas med ett kontantbidrag från socialbyrån, hur nödvändigt det än är.
-1	Verksamheter	verksamhet	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	0	root	4:nsubj	_
+1	Verksamheter	verksamhet	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	0	root	0:root|4:nsubj	_
 2	som	som	PRON	HP|-|-|-	PronType=Rel	4	nsubj	1:ref	_
 3	ytterst	ytterst	ADV	AB|SUV	Degree=Sup	4	advmod	4:advmod	_
 4	kommer	komma	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	1:acl:relcl	_
@@ -7471,7 +7471,7 @@
 # text = Det är hemmafruar som inte är beroende av förtjänsten och accepterar det som det är.
 1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	3	nsubj	3:nsubj	_
 2	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	3:cop	_
-3	hemmafruar	hemmafru	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	0	root	7:nsubj|11:nsubj	_
+3	hemmafruar	hemmafru	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	0	root	0:root|7:nsubj|11:nsubj	_
 4	som	som	PRON	HP|-|-|-	PronType=Rel	7	nsubj	3:ref	_
 5	inte	inte	PART	AB	Polarity=Neg	7	advmod	7:advmod	_
 6	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	7:cop	_
@@ -7761,7 +7761,7 @@
 
 # sent_id = sv-ud-dev-341
 # text = Kvinnor som talar om - och har - en valfrihet ingen annan grupp i samhället har.
-1	Kvinnor	kvinna	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	0	root	3:nsubj|7:nsubj	_
+1	Kvinnor	kvinna	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	0	root	0:root|3:nsubj|7:nsubj	_
 2	som	som	PRON	HP|-|-|-	PronType=Rel	3	nsubj	1:ref	_
 3	talar	tala	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	1:acl:relcl	_
 4	om	om	ADP	PP	_	10	case	10:case	_
@@ -8071,7 +8071,7 @@
 1	De	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	4	nsubj	4:nsubj	_
 2	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
 3	goda	god	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	4	amod	4:amod	_
-4	konsumenter	konsument	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	0	root	6:nsubj	_
+4	konsumenter	konsument	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	0	root	0:root|6:nsubj	_
 5	som	som	PRON	HP|-|-|-	PronType=Rel	6	nsubj	4:ref	_
 6	håller	hålla	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	4:acl:relcl	_
 7	produktionen	produktion	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	6	obj	6:obj	_
@@ -9132,7 +9132,7 @@
 5	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	8:cop	_
 6	oftast	ofta	ADV	AB|SUV	Degree=Sup	8	advmod	8:advmod	_
 7	det	en	DET	DT|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	8:det	_
-8	enda	enda	ADJ	JJ|POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	0	root	10:nsubj	_
+8	enda	enda	ADJ	JJ|POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	0	root	0:root|10:nsubj	_
 9	som	som	PRON	HP|-|-|-	PronType=Rel	10	nsubj	8:ref	_
 10	står	stå	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	8:acl:relcl	_
 11	de	en	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	12	det	12:det	_
@@ -10844,7 +10844,7 @@
 4	så	så	ADV	AB	_	3	fixed	3:fixed	_
 5	fall	fall	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	fixed	3:fixed	_
 6	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	7	det	7:det	_
-7	tendens	tendens	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	11:obl	_
+7	tendens	tendens	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	0:root|11:obl	_
 8	som	som	PRON	HP|-|-|-	PronType=Rel	11	obj	7:ref	_
 9	vi	vi	PRON	PN|UTR|PLU|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	11	nsubj	11:nsubj|13:nsubj	_
 10	bör	böra	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	11:aux	_
