@@ -1638,7 +1638,7 @@
 7	något	någon	ADV	AB	_	8	advmod	8:advmod	_
 8	högre	hög	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	9	amod	9:amod	_
 9	nivå	nivå	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obj	2:obj	_
-10	både	både	CCONJ	KN	_	13	advmod	13:advmod	_
+10	både	både	CCONJ	KN	_	13	cc	13:cc	_
 11	i	i	ADP	PP	_	13	case	13:case	_
 12	intellektuell	intellektuell	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	13	amod	13:amod	_
 13	utveckling	utveckling	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obl	2:obl:i	_
@@ -1706,7 +1706,7 @@
 2	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	7	obl	7:obl:för	_
 3	skulle	skola	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	7	aux	7:aux	_
 4	han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	7	nsubj	7:nsubj|17:nsubj	_
-5	antingen	antingen	CCONJ	KN	_	7	advmod	7:advmod	_
+5	antingen	antingen	CCONJ	KN	_	7	cc	7:cc	_
 6	behöva	behöva	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	7	aux	7:aux	_
 7	studera	studera	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	0	root	0:root	_
 8	samma	samma	DET	DT|UTR/NEU|SIN/PLU|IND	Definite=Ind|PronType=Ind	9	det	9:det	_
@@ -2181,7 +2181,7 @@
 9	politiskt	politisk	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	amod	10:amod	_
 10	reformparti	reformparti	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	23	nsubj	23:nsubj|26:nsubj|29:nsubj	SpaceAfter=No
 11	,	,	PUNCT	MID	_	10	punct	10:punct	_
-12	vare	vare	CCONJ	KN	_	16	advmod	16:advmod	_
+12	vare	vare	CCONJ	KN	_	16	cc	16:cc	_
 13	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def|PronType=Prs	12	fixed	12:fixed	_
 14	i	i	ADP	PP	_	16	case	16:case	_
 15	vårt	vi	PRON	PS|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	_
@@ -2898,7 +2898,7 @@
 5	och	och	CCONJ	KN	_	6	cc	6:cc	_
 6	barn	barn	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	4	conj	3:nsubj|4:conj:och	_
 7	att	att	SCONJ	SN	_	13	mark	13:mark	_
-8	både	både	CCONJ	KN	_	9	advmod	9:advmod	_
+8	både	både	CCONJ	KN	_	9	cc	9:cc	_
 9	flickor	flicka	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	13	nsubj	13:nsubj	_
 10	och	och	CCONJ	KN	_	11	cc	11:cc	_
 11	pojkar	pojke	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9	conj	9:conj:och|13:nsubj	_
@@ -3553,7 +3553,7 @@
 8	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	15	nsubj	15:nsubj	_
 9	var	vara	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	15	cop	15:cop	_
 10	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	15	det	15:det	_
-11	både	både	CCONJ	KN	_	12	advmod	12:advmod	_
+11	både	både	CCONJ	KN	_	12	cc	12:cc	_
 12	social	social	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	15	amod	15:amod	_
 13	och	och	CCONJ	KN	_	14	cc	14:cc	_
 14	ekonomisk	ekonomisk	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	12	conj	12:conj:och|15:amod	_
@@ -4110,7 +4110,7 @@
 31	,	,	PUNCT	MID	_	32	punct	32:punct	_
 32	blir	bli	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 33	självfallet	självfallet	ADV	AB|POS	Degree=Pos	32	advmod	32:advmod	_
-34	både	både	CCONJ	KN	_	36	advmod	36:advmod	_
+34	både	både	CCONJ	KN	_	36	cc	36:cc	_
 35	personliga	personlig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	36	amod	36:amod	_
 36	relationer	relation	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	32	nsubj	32:nsubj	_
 37	och	och	CCONJ	KN	_	38	cc	38:cc	_
@@ -4421,7 +4421,7 @@
 30	ha	ha	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	7	conj	2:ccomp|7:conj	_
 31	möjlighet	möjlighet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	30	obj	30:obj	_
 32	att	att	PART	IE	_	34	mark	34:mark	_
-33	både	både	CCONJ	KN	_	34	advmod	34:advmod	_
+33	både	både	CCONJ	KN	_	34	cc	34:cc	_
 34	utöva	utöva	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	31	acl	31:acl:att	_
 35	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	36	det	36:det	_
 36	yrke	yrke	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	34	obj	34:obj	_
@@ -6006,7 +6006,7 @@
 14	betydelsefull	betydelsefull	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	7	conj	2:acl:relcl|7:conj:men	_
 15	för	för	ADP	PP	_	16	case	16:case	_
 16	personlighetsutvecklingen	personlighetsutveckling	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	14	obl	14:obl:för	_
-17	både	både	CCONJ	KN	_	20	advmod	20:advmod	_
+17	både	både	CCONJ	KN	_	20	cc	20:cc	_
 18	hos	hos	ADP	PP	_	20	case	20:case	_
 19	de	en	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	20	det	20:det	_
 20	vuxna	vuxen	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	16	nmod	16:nmod:hos	_
@@ -9015,7 +9015,7 @@
 2	står	stå	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def|PronType=Prs	2	obj	2:obj	_
 4	ju	ju	ADV	AB	_	2	advmod	2:advmod	_
-5	både	både	CCONJ	KN	_	7	advmod	7:advmod	_
+5	både	både	CCONJ	KN	_	7	cc	7:cc	_
 6	vid	vid	ADP	PP	_	7	case	7:case	_
 7	dödsfall	dödsfall	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	obl	2:obl:vid	_
 8	och	och	CCONJ	KN	_	9	cc	9:cc	_
@@ -9950,7 +9950,7 @@
 2	stora	stor	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	3	amod	3:amod	_
 3	flertalet	flertal	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	9	nsubj	9:nsubj	_
 4	av	av	ADP	PP	_	6	case	6:case	_
-5	både	både	CCONJ	KN	_	6	advmod	6:advmod	_
+5	både	både	CCONJ	KN	_	6	cc	6:cc	_
 6	män	man	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	nmod	3:nmod:av	_
 7	och	och	CCONJ	KN	_	8	cc	8:cc	_
 8	kvinnor	kvinna	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	6	conj	3:nmod:av|6:conj:och	_
@@ -10321,7 +10321,7 @@
 18	att	att	PART	IE	_	19	mark	19:mark	_
 19	skydda	skydda	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	17	acl	17:acl:att	_
 20	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	19	obj	19:obj	_
-21	både	både	CCONJ	KN	_	23	advmod	23:advmod	_
+21	både	både	CCONJ	KN	_	23	cc	23:cc	_
 22	i	i	ADP	PP	_	23	case	23:case	_
 23	familjen	familj	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	19	obl	19:obl:i	_
 24	och	och	CCONJ	KN	_	26	cc	26:cc	_
