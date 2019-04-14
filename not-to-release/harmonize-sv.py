@@ -83,7 +83,9 @@ if __name__ == "__main__":
                     entry.cpos = "SCONJ"
                 if entry.relation == "advmod":
                     entry.cpos = "ADV"
-                    
+            # New: Konjunktionerna "både", "varken", "vare sig", "antingen"
+            if entry.lemma in ["både", "varken", "vare", "antingen"] and entry.cpos == "CCONJ" and entry.relation == "advmod":
+                entry.relation = "cc"
         # X -advcl-> Y (NOUN) -mark-> "som|än" + !(Y <-cop|nsubj- Z) -->
         # X -obl-> Y (NOUN) -case-> "som|än" (ADP) 
         for entry in conll_entries:
@@ -125,6 +127,7 @@ if __name__ == "__main__":
                     disloc_dep.relation = vara.relation
                     vara.parent_id = disloc_dep.id
                     vara.relation = "cop"
+                    vara.cpos = "AUX"
                     aclrelcl_dep.relation = "acl:cleft"
                     for entry in conll_entries:
                         if entry.parent_id == vara.id:
