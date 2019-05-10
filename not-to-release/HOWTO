@@ -1,7 +1,7 @@
 - To create treebank files for UD_Swedish-Talbanken run:
 
 python3 mamba2ud.py P.original.txt sv1.conllu
-perl fix_errors.plx --fix-file manual_fixes_v2.3.txt --in-file sv1.conllu --out-file sv2.conllu
+perl fix_errors.plx --fix-file manual_fixes.txt --in-file sv1.conllu --out-file sv2.conllu
 python3 comments.py sv2.conllu sv3.conllu 
 python3 harmonize-sv.py sv3.conllu sv4.conllu
 python3 insert-enhanced.py sv_talbanken-ud.enhanced.txt sv4.conllu sv5.conllu
