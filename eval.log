@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Swedish-Talbanken:
-commit 61aa5f25c3694f942209f6d7580c328d24f4b7f2
-Merge: 2dcd8ff ab9edc5
+commit 7c57c989ea3221ad481d88a1b104f70adc1a7a6a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Fri May 10 21:45:26 2019 +0200
 Size: counted 96819 of 96819 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.14568651202735.
 Size: maximum value 13.815511 is for 1000000 words or more.
