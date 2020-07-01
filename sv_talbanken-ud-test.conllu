@@ -4853,7 +4853,7 @@
 9	,	,	PUNCT	MID	_	5	punct	5:punct	_
 10	skillnaderna	skillnad	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	11	nsubj	11:nsubj|12:nsubj	_
 11	brukar	bruka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	5:parataxis	_
-12	jämna	jämn	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	11	xcomp	11:xcomp	_
+12	jämna	jämna	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	11	xcomp	11:xcomp	_
 13	ut	ut	ADV	PL	_	12	compound:prt	12:compound:prt	_
 14	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def|PronType=Prs	12	obj	12:obj	_
 15	på	på	ADP	PP	_	17	case	17:case	_

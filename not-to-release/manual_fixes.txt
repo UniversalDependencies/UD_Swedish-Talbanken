@@ -1184,6 +1184,11 @@
 14	den	en	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	15	det	_	_
 15	lille	liten	ADJ	JJ|POS|MAS|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	11	nmod	_	_
 
+20263
+12	jämna	jämn	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	11	xcomp	_	_
+---
+12	jämna	jämna	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	11	xcomp	_	_
+
 20360
 10	,	,	PUNCT	MID	_	18	punct	_	_
 11	benen	ben	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	12	nsubj	_	_
@@ -3786,6 +3791,11 @@
 ---
 7	tillsammans	tillsammans	ADV	AB	_	10	advmod	_	_
 
+64317
+19	satt	sitta	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	17	acl:relcl	_	_
+---
+19	satt	sätta	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	17	acl:relcl	_	_
+
 64022
 15	tillsammans	tillsammans	ADV	AB	_	16	advmod	_	_
 ---
@@ -5479,7 +5489,7 @@
 101925
 17	satt	sitta	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	9	csubj	_	_
 ---
-17	satt	sitta	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	_
+17	satt	sätta	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	_
 
 102129
 2	med	med	ADP	PP	_	5	case	_	_
