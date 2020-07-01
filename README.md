@@ -182,6 +182,10 @@ From v2.1 to v2.2:
 
 From v2.2 to v2.3:
 - Fixed a small number of errors in both basic and enhanced dependencies
+
+From v2.6 to v2.7:
+- Fixed a small number of lemma errors
+
 <pre>
 === Machine readable metadata ==============
 
