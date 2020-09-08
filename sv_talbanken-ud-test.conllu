@@ -5384,7 +5384,7 @@
 6	enstaka	enstaka	ADJ	JJ|POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	7	amod	7:amod	_
 7	orden	ord	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	3	nsubj	3:nsubj|8:nsubj|12:nsubj|13:nsubj	_
 8	komma	komma	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	3	xcomp	3:xcomp	SpaceAfter=No
-9	,	,	PUNCT	MID	_	7	punct	7:punct	_
+9	,	,	PUNCT	MID	_	12	punct	12:punct	_
 10	som	som	PRON	HP|-|-|-	PronType=Rel	12	nsubj	7:ref	_
 11	senare	sen	ADV	AB|KOM	Degree=Cmp	12	advmod	12:advmod	_
 12	blir	bli	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	7:acl:relcl	_
