@@ -143,6 +143,11 @@ if __name__ == "__main__":
                     entry.relation = "mark"
                     if entry.cpos == "ADV":
                         entry.cpos = "SCONJ"
+
+        # Hack for latin words
+        for entry in conll_entries:
+            if re.search(r'^(consensus|facit|nuptiam)$',entry.lemma):
+                entry.misc = "Lang=la"
                 
     write_conll(sys.argv[2],sents)
     
