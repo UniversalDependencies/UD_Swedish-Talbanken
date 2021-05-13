@@ -5,8 +5,8 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>6026</sentences><tokens>96819</tokens><words>96819</words><fused>0</fused></total>
-    <train><sentences>4303</sentences><tokens>66645</tokens><words>66645</words><fused>0</fused></train>
+    <total><sentences>6026</sentences><tokens>96820</tokens><words>96820</words><fused>0</fused></total>
+    <train><sentences>4303</sentences><tokens>66646</tokens><words>66646</words><fused>0</fused></train>
     <dev><sentences>504</sentences><tokens>9797</tokens><words>9797</words><fused>0</fused></dev>
     <test><sentences>1219</sentences><tokens>20377</tokens><words>20377</words><fused>0</fused></test>
   </size>
@@ -17,17 +17,17 @@
   <tags unique="16">
     <tag name="ADJ">8499</tag><!-- stor, annan, olik, ny, viss, liten, sån, många, hög, bra -->
     <tag name="ADP">11239</tag><!-- i, av, på, för, till, med, om, från, vid, under -->
-    <tag name="ADV">7031</tag><!-- så, också, mycket, hur, där, här, nu, bara, ut, även -->
+    <tag name="ADV">7036</tag><!-- så, också, mycket, hur, där, här, nu, bara, ut, även -->
     <tag name="AUX">4281</tag><!-- vara, kunna, ha, skola, måste, komma, få, böra, vilja, behöva -->
     <tag name="CCONJ">3703</tag><!-- och, eller, men, både, utan, som, dels, såväl, samt, varken -->
     <tag name="DET">4954</tag><!-- en, denna, någon, all, varje, samma, vilken, ingen, den, var -->
     <tag name="INTJ">36</tag><!-- ja, jo, nej, ha, ho, fan, ga-ga, javisst, jodå, nåväl -->
-    <tag name="NOUN">23002</tag><!-- barn, år, kvinna, äktenskap, man, del, människa, familj, samhälle, fråga -->
+    <tag name="NOUN">22997</tag><!-- barn, år, kvinna, äktenskap, man, del, människa, familj, samhälle, fråga -->
     <tag name="NUM">1740</tag><!-- två, en, tre, 1, 20, 2, 1970, 3, 10, 1971 -->
     <tag name="PART">1874</tag><!-- att, inte, ej, icke -->
     <tag name="PRON">6671</tag><!-- den, som, man, sig, de, vi, du, denna, han, vad -->
     <tag name="PROPN">1360</tag><!-- Sverige, EEC, Stockholm, Gud, USA, ATP, Göteborg, Horn, Danmark, Indien -->
-    <tag name="PUNCT">10368</tag><!-- ., ,, ', -, ?, (, ), :, *, ; -->
+    <tag name="PUNCT">10369</tag><!-- ., ,, ', -, ?, (, ), :, *, ; -->
     <tag name="SCONJ">2104</tag><!-- att, som, om, när, än, eftersom, då, innan, medan, sedan -->
     <tag name="SYM">86</tag><!-- -, /, +, : -->
     <tag name="VERB">9871</tag><!-- ha, få, bli, finnas, göra, ge, ta, gå, komma, vara -->
@@ -114,7 +114,7 @@
     <dep name="obl:agent">181</dep>
     <dep name="orphan">35</dep>
     <dep name="parataxis">418</dep>
-    <dep name="punct">10368</dep>
+    <dep name="punct">10369</dep>
     <dep name="root">6026</dep>
     <dep name="vocative">1</dep>
     <dep name="xcomp">1057</dep>

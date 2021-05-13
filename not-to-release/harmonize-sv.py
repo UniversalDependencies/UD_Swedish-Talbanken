@@ -143,6 +143,16 @@ if __name__ == "__main__":
                     entry.relation = "mark"
                     if entry.cpos == "ADV":
                         entry.cpos = "SCONJ"
+
+        # Fix inconsistent tagging of "reda" in "ta reda på"
+        for entry in conll_entries:
+            if entry.lemma == "reda" and entry.cpos == "NOUN" and entry.pos == "PL" and entry.relation == "compound:prt":
+                entry.cpos = "ADV"
+
+        # Hack for latin words
+        for entry in conll_entries:
+            if re.search(r'^(consensus|facit|nuptiam)$',entry.lemma):
+                entry.misc = "Lang=la"
                 
     write_conll(sys.argv[2],sents)
     
