@@ -4282,6 +4282,11 @@
 ---
 15	mitt	mitt	ADV	AB	_	19	advmod	_	_
 
+74332
+36	slott	slott	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	37	nsubj	_	_
+---
+36	slott	slott	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	33	appos	_	_
+
 74700
 4	Napoleon	Napoleon	PROPN	PM|NOM	Case=Nom	2	conj	_	_
 5	III	III	ADJ	RO|NOM	Case=Nom	4	fixed	_	_
