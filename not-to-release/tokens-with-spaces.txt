@@ -1,10 +1,10 @@
-Bl a
 bl a
+Bl a
 d v s
 e d
 f n
-Fr o m
 fr o m
+Fr o m
 m fl
 m m
 o s v

@@ -185,7 +185,6 @@ obl:efter
 obl:emellan
 obl:enligt
 obl:exklusive
-obl:fr_o_m
 obl:framemot
 obl:framför
 obl:från
@@ -262,7 +261,6 @@ obl:på_basis_av
 obl:på_grund_av
 obl:på_grundval_av
 obl:på_tal_om
-obl:på_tredje
 obl:runtomkring
 obl:sedan
 obl:senast
