@@ -1208,6 +1208,11 @@
 ---
 16	förrän	förrän	ADV	AB	_	19	advmod	_	_
 
+20733
+9	,	,	PUNCT	MID	_	7	punct	_	_
+---
+9	,	,	PUNCT	MID	_	12	punct	_	_
+
 20951
 18	-	-	PUNCT	MID	_	15	punct	_	_
 ---
@@ -4287,9 +4292,13 @@
 ---
 15	mitt	mitt	ADV	AB	_	19	advmod	_	_
 
-74332
+74330
+34	,	,	PUNCT	MID	_	37	punct	_	_
+35	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	36	det	_	_
 36	slott	slott	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	37	nsubj	_	_
 ---
+34	,	,	PUNCT	MID	_	36	punct	_	_
+35	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	36	det	_	_
 36	slott	slott	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	33	appos	_	_
 
 74700
