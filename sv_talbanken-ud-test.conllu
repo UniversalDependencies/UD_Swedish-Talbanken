@@ -9670,7 +9670,7 @@
 8	folket	folk	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	10	nsubj	10:nsubj	_
 9	nu	nu	ADV	AB	_	10	advmod	10:advmod	_
 10	får	få	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	csubj	5:csubj	_
-11	reda	reda	NOUN	PL	_	10	compound:prt	10:compound:prt	_
+11	reda	reda	ADV	PL	_	10	compound:prt	10:compound:prt	_
 12	på	på	ADP	PP	_	17	mark	17:mark	_
 13	att	att	SCONJ	SN	_	17	mark	17:mark	_
 14	Östersjöfisken	östersjöfisk	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	17	nsubj	17:nsubj	_

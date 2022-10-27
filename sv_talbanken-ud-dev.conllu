@@ -10662,7 +10662,7 @@
 4	av	av	ADP	PP	_	2	fixed	2:fixed	_
 5	Statistisk	statistisk	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	6	amod	6:amod	_
 6	årsbok	årsbok	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	nmod	1:nmod:med_hjälp_av	_
-7	reda	reda	NOUN	PL	_	1	compound:prt	1:compound:prt	_
+7	reda	reda	ADV	PL	_	1	compound:prt	1:compound:prt	_
 8	på	på	ADP	PP	_	16	mark	16:mark	_
 9	hur	hur	ADV	HA	_	10	advmod	10:advmod	_
 10	många	många	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	11	amod	11:amod	_
