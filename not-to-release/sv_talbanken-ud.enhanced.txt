@@ -1041,7 +1041,7 @@ sv-ud-train-335	3	1:ref
 sv-ud-train-335	9	7:advcl:att
 sv-ud-train-335	12	9:obl:på
 sv-ud-train-335	17	14:obl:till
-sv-ud-train-335	20	14:obl:på_tredje
+sv-ud-train-335	20	14:obl:på
 sv-ud-train-335	22	20:nmod:efter
 sv-ud-train-336	4	5:obl:i
 sv-ud-train-336	16	13:obl:med
@@ -4890,7 +4890,7 @@ sv-ud-train-1438	5	2:obl:på
 sv-ud-train-1440	2	3:obl:i
 sv-ud-train-1440	4	3:nsubj|11:nsubj
 sv-ud-train-1440	11	3:conj:och
-sv-ud-train-1442	5	6:obl:fr_o_m
+sv-ud-train-1442	5	6:obl:från_och_med
 sv-ud-train-1442	8	6:obj|9:nsubj
 sv-ud-train-1442	14	12:nmod:från
 sv-ud-train-1442	16	12:nmod:från|14:conj:och
