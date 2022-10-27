@@ -207,6 +207,11 @@
 13	att	att	PART	IE	_	14	mark	_	_
 14	hämta	hämta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	12	acl	_	_
 
+5200
+19	tredje	tre	ADJ	RO|NOM	Case=Nom	18	fixed	_	_
+---
+19	tredje	tre	ADJ	RO|NOM	Case=Nom	20	amod	_	_
+
 5387
 13	Förteckning	förteckning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	obl	_	_
 14	över	över	ADP	PP	_	13	fixed	_	_

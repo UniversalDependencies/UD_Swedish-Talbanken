@@ -1972,7 +1972,7 @@
 19	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	25	cop	25:cop	_
 20	BNP	BNP	NOUN	NN|AN	Abbr=Yes	25	nsubj	25:nsubj	_
 21	/	/	SYM	MID	_	22	case	22:case	_
-22	person	person	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	20	nmod	20:nmod:sym	_
+22	person	person	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	20	nmod	20:nmod	_
 23	ca	ca	ADV	AB|AN	Abbr=Yes	24	advmod	24:advmod	_
 24	13000	13000	NUM	RG|NOM	Case=Nom|NumType=Card	25	nummod	25:nummod	_
 25	kronor	krona	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	parataxis	2:parataxis	SpaceAfter=No
@@ -2443,7 +2443,7 @@
 7	till	till	ADP	PP	_	8	case	8:case	_
 8	3000	3000	NUM	RG|NOM	Case=Nom|NumType=Card	5	obl	5:obl:till	_
 9	f	f	ADP	PP|AN	Abbr=Yes	10	case	10:case	_
-10	Kr	kr	PROPN	PM|NOM	Case=Nom	8	nmod	8:nmod:f	SpaceAfter=No
+10	Kr	kr	PROPN	PM|NOM	Case=Nom	8	nmod	8:nmod:före	SpaceAfter=No
 11	.	.	PUNCT	MAD	_	5	punct	5:punct	_
 
 # sent_id = sv-ud-test-139
@@ -6722,7 +6722,7 @@
 52	människorna	människa	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	53	nsubj	53:nsubj	_
 53	lever	leva	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	50	acl:relcl	50:acl:relcl	_
 54	som	som	ADP	KN	_	55	case	50:ref	_
-55	broilers	broiler	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	53	obl	53:obl:värld	SpaceAfter=No
+55	broilers	broiler	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	53	obl	53:obl:som	SpaceAfter=No
 56	.	.	PUNCT	MAD	_	3	punct	3:punct	_
 
 # newpar id = P204.11
@@ -15077,7 +15077,7 @@
 4	och	och	CCONJ	KN	_	7	cc	7:cc	_
 5	fram	fram	ADV	AB	_	7	advmod	7:advmod	_
 6	t o m	t o m	ADV	AB|AN	Abbr=Yes	7	case	7:case	_
-7	krigsslutet	krigsslut	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	conj	1:nmod:t_o_m|3:conj:och	_
+7	krigsslutet	krigsslut	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	conj	1:nmod:till_och_med|3:conj:och	_
 
 # sent_id = sv-ud-test-776
 # text = Under 1920-talet höjdes hyrorna kraftigt i förhållande till realinkomsten och i förhållande till andra utgiftsposter.
@@ -16067,7 +16067,7 @@
 5	som	som	PRON	HP|-|-|-	PronType=Rel	6	nsubj	4:ref	_
 6	gällt	gälla	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	4	acl:relcl	4:acl:relcl	_
 7	t o m	t o m	ADV	AB|AN	Abbr=Yes	8	case	8:case	_
-8	1967	1967	NUM	RG|NOM	Case=Nom|NumType=Card	6	obl	6:obl:t_o_m	_
+8	1967	1967	NUM	RG|NOM	Case=Nom|NumType=Card	6	obl	6:obl:till_och_med	_
 9	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	11:aux	_
 10	staten	stat	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	11	nsubj	11:nsubj	_
 11	givit	ge	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	0	root	0:root	_
@@ -16170,7 +16170,7 @@
 # sent_id = sv-ud-test-838
 # text = Fr o m 1968 har den statliga bostadslånepolitiken radikalt förändrats.
 1	Fr o m	fr o m	ADV	AB|AN	Abbr=Yes	2	case	2:case	_
-2	1968	1968	NUM	RG|NOM	Case=Nom|NumType=Card	8	obl	8:obl:fr_o_m	_
+2	1968	1968	NUM	RG|NOM	Case=Nom|NumType=Card	8	obl	8:obl:från_och_med	_
 3	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	8:aux	_
 4	den	en	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	6	det	6:det	_
 5	statliga	statlig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	6	amod	6:amod	_
@@ -16892,7 +16892,7 @@
 12	standard	standard	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	conj	7:nmod:av|10:conj:och	_
 13	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	16	aux	16:aux	_
 14	fr o m	fr o m	ADV	AB|AN	Abbr=Yes	15	case	15:case	_
-15	1969	1969	NUM	RG|NOM	Case=Nom|NumType=Card	16	obl	16:obl:fr_o_m	_
+15	1969	1969	NUM	RG|NOM	Case=Nom|NumType=Card	16	obl	16:obl:från_och_med	_
 16	införts	införa	VERB	VB|SUP|SFO	VerbForm=Sup|Voice=Pass	0	root	0:root	_
 17	statliga	statlig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	20	amod	20:amod	_
 18	och	och	CCONJ	KN	_	19	cc	19:cc	_
