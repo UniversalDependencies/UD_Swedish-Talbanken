@@ -186,6 +186,10 @@ From v2.2 to v2.3:
 From v2.6 to v2.7:
 - Fixed a small number of lemma errors
 
+From v2.10 to v2,11
+- Fixed double subject error
+- Fixed unknown enhanced relations (mainly foreign and abbreviations)
+
 <pre>
 === Machine readable metadata ==============
 

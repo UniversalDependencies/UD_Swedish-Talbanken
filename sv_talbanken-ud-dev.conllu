@@ -1418,10 +1418,10 @@
 22	'	'	PUNCT	PAD	_	23	punct	23:punct	SpaceAfter=No
 23	Intermittent	Intermittent	ADJ	JJ	_	25	amod	25:amod	SpaceAfter=No
 24	'	'	PUNCT	PAD	_	23	punct	23:punct	_
-25	Mothering	Mothering	NOUN	NN	_	20	nmod	20:nmod:of	_
+25	Mothering	Mothering	NOUN	NN	_	20	nmod	20:nmod	_
 26	in	in	ADP	PP	_	28	case	28:case	_
 27	the	the	DET	DT	PronType=Art	28	det	28:det	_
-28	Kibbutz	Kibbutz	NOUN	NN	_	25	nmod	25:nmod:in	SpaceAfter=No
+28	Kibbutz	Kibbutz	NOUN	NN	_	25	nmod	25:nmod	SpaceAfter=No
 29	.	.	PUNCT	MAD	_	16	punct	16:punct	_
 
 # sent_id = sv-ud-dev-51
@@ -1431,7 +1431,7 @@
 3	American	American	ADJ	JJ	_	4	amod	4:amod	_
 4	Journal	Journal	NOUN	NN	_	1	obl	1:obl:i	_
 5	of	of	ADP	PP	_	6	case	6:case	_
-6	Orthopsychiatry	Orthopsychiatry	NOUN	NN	_	4	nmod	4:nmod:of	SpaceAfter=No
+6	Orthopsychiatry	Orthopsychiatry	NOUN	NN	_	4	nmod	4:nmod	SpaceAfter=No
 7	,	,	PUNCT	MID	_	4	punct	4:punct	_
 8	1958	1958	NUM	RG|NOM	Case=Nom|NumType=Card	4	nmod	4:nmod	SpaceAfter=No
 9	,	,	PUNCT	MID	_	8	punct	8:punct	_
@@ -3141,7 +3141,7 @@
 40	helt	helt	ADV	AB|POS	Degree=Pos	41	advmod	41:advmod	_
 41	saknas	sakna	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	35	acl:relcl	35:acl:relcl	_
 42	som	som	ADP	KN	_	43	case	35:ref	_
-43	pedagoger	pedagog	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	41	obl	41:obl:lågstadiet	SpaceAfter=No
+43	pedagoger	pedagog	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	41	obl	41:obl	SpaceAfter=No
 44	.	.	PUNCT	MAD	_	2	punct	2:punct	_
 
 # newpar id = P409.11
@@ -3619,7 +3619,7 @@
 11	relationen	relation	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	nmod	9:nmod:om	_
 12	man	man	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	nmod	11:nmod	_
 13	-	-	SYM	MID	_	14	case	14:case	_
-14	kvinna	kvinna	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	nmod	11:nmod:sym	_
+14	kvinna	kvinna	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	nmod	11:nmod	_
 15	för	för	ADP	PP	_	17	case	17:case	_
 16	släktets	släkte	NOUN	NN|NEU|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	17	nmod:poss	17:nmod:poss	_
 17	bevarande	bevarande	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	11	nmod	11:nmod:för	SpaceAfter=No
@@ -7643,7 +7643,7 @@
 11	mellan	mellan	ADP	PP	_	12	case	12:case	_
 12	hemmafruar	hemmafru	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	10	nmod	10:nmod:mellan	_
 13	/	/	SYM	MID	_	14	cc	14:cc	_
-14	yrkeskvinnor	yrkeskvinna	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	12	conj	10:nmod:mellan|12:conj:sym	SpaceAfter=No
+14	yrkeskvinnor	yrkeskvinna	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	12	conj	10:nmod:mellan|12:conj	SpaceAfter=No
 15	.	.	PUNCT	MAD	_	5	punct	5:punct	_
 
 # sent_id = sv-ud-dev-334
@@ -7726,7 +7726,7 @@
 4	om	om	ADP	PP	_	5	case	5:case	_
 5	hemmafruar	hemmafru	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	obl	2:obl:om	_
 6	/	/	SYM	MID	_	7	cc	7:cc	_
-7	yrkeskvinnor	yrkeskvinna	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	5	conj	2:obl:om|5:conj:sym	SpaceAfter=No
+7	yrkeskvinnor	yrkeskvinna	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	5	conj	2:obl:om|5:conj	SpaceAfter=No
 8	.	.	PUNCT	MAD	_	2	punct	2:punct	_
 
 # sent_id = sv-ud-dev-338
@@ -10662,7 +10662,7 @@
 4	av	av	ADP	PP	_	2	fixed	2:fixed	_
 5	Statistisk	statistisk	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	6	amod	6:amod	_
 6	årsbok	årsbok	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	nmod	1:nmod:med_hjälp_av	_
-7	reda	reda	NOUN	PL	_	1	compound:prt	1:compound:prt	_
+7	reda	reda	ADV	PL	_	1	compound:prt	1:compound:prt	_
 8	på	på	ADP	PP	_	16	mark	16:mark	_
 9	hur	hur	ADV	HA	_	10	advmod	10:advmod	_
 10	många	många	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	11	amod	11:amod	_
@@ -10769,23 +10769,23 @@
 13	t.ex.	t.ex.	ADV	AB|AN	Abbr=Yes	14	advmod	14:advmod	_
 14	make	make	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	nmod	11:nmod:mellan	_
 15	-	-	SYM	MID	_	16	cc	16:cc	_
-16	maka	maka	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	conj	11:nmod:mellan|14:conj:sym	SpaceAfter=No
+16	maka	maka	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	conj	11:nmod:mellan|14:conj	SpaceAfter=No
 17	?	?	PUNCT	MID	_	14	punct	14:punct	_
-18	föräldrar	förälder	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	14	conj	11:nmod:mellan|14:conj:sym	_
+18	föräldrar	förälder	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	14	conj	11:nmod:mellan|14:conj	_
 19	-	-	SYM	MID	_	20	cc	20:cc	_
-20	barn	barn	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	18	conj	18:conj:sym	SpaceAfter=No
+20	barn	barn	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	18	conj	18:conj	SpaceAfter=No
 21	?	?	PUNCT	MID	_	18	punct	18:punct	_
-22	lärare	lärare	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	conj	11:nmod:mellan|14:conj:sym	_
+22	lärare	lärare	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	conj	11:nmod:mellan|14:conj	_
 23	-	-	SYM	MID	_	24	cc	24:cc	_
-24	elev	elev	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	22	conj	22:conj:sym	SpaceAfter=No
+24	elev	elev	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	22	conj	22:conj	SpaceAfter=No
 25	?	?	PUNCT	MID	_	22	punct	22:punct	_
-26	arbetsgivare	arbetsgivare	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	conj	11:nmod:mellan|14:conj:sym	_
+26	arbetsgivare	arbetsgivare	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	conj	11:nmod:mellan|14:conj	_
 27	-	-	SYM	MID	_	28	cc	28:cc	_
-28	arbetstagare	arbetstagare	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	26	conj	26:conj:sym	SpaceAfter=No
+28	arbetstagare	arbetstagare	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	26	conj	26:conj	SpaceAfter=No
 29	?	?	PUNCT	MID	_	26	punct	26:punct	_
-30	läkare	läkare	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	conj	11:nmod:mellan|14:conj:sym	_
+30	läkare	läkare	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	conj	11:nmod:mellan|14:conj	_
 31	-	-	SYM	MID	_	32	cc	32:cc	_
-32	patient	patient	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	30	conj	30:conj:sym	SpaceAfter=No
+32	patient	patient	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	30	conj	30:conj	SpaceAfter=No
 33	?	?	PUNCT	MAD	_	5	punct	5:punct	_
 
 # newpar id = P417.26
