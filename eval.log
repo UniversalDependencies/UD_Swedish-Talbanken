@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 13e6b709a8bc643c3f902800321a7beda46feb8d
+commit 44d3a1ed615bec10e2c87bd84bccb1441f11c103
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 13 22:03:41 2022 +0100
+Date:   Sun Mar 12 22:57:23 2023 -0400
 Evaluating the following revision of UD_Swedish-Talbanken:
-commit 999a6cf333b969695ee563a87e3830e86e3cc925
-Merge: faebba0 84fd854
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+commit 5a662f588da8a7bcd26f3faa98f7af93a30e4d51
+Author: Joakim Nivre <joakim.nivre@lingfil.uu.se>
+Date:   Mon Mar 13 10:11:34 2023 -0400
 Size: counted 96820 of 96820 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.1457071690231.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -24,25 +24,13 @@ Udapi:
 Udapi: found 53 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 96820 words.
 Genres: found 2 out of 17 known.
-validate.py --lang sv --max-err=10 UD_Swedish-Talbanken/sv_talbanken-ud-dev.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang sv --max-err=10 UD_Swedish-Talbanken/sv_talbanken-ud-dev.conllu
 *** PASSED ***
-validate.py --lang sv --max-err=10 UD_Swedish-Talbanken/sv_talbanken-ud-test.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang sv --max-err=10 UD_Swedish-Talbanken/sv_talbanken-ud-test.conllu
 *** PASSED ***
-validate.py --lang sv --max-err=10 UD_Swedish-Talbanken/sv_talbanken-ud-train.conllu
-[Line 72317 Sent sv-ud-train-3967]: [L4 Morpho feature-value-unknown] Value Fem is not documented for feature Gender in language [sv].
-
-The following 42 feature values are currently permitted in language [sv]:
-Abbr=Yes, Case=Acc, Case=Gen, Case=Nom, Definite=Def, Definite=Ind, Degree=Cmp, Degree=Pos, Degree=Sup, Foreign=Yes, Gender=Com, Gender=Masc, Gender=Neut, Mood=Imp, Mood=Ind, Mood=Sub, NumType=Card, NumType=Ord, Number=Plur, Number=Sing, Person=3, Polarity=Neg, Poss=Yes, PronType=Art, PronType=Dem, PronType=Ind, PronType=Int, PronType=Neg, PronType=Prs, PronType=Rcp, PronType=Rel, PronType=Tot, Tense=Past, Tense=Pres, Typo=Yes, VerbForm=Fin, VerbForm=Inf, VerbForm=Part, VerbForm=Stem, VerbForm=Sup, Voice=Act, Voice=Pass
-If a language needs a feature that is not documented in the universal guidelines, the feature must
-have a language-specific documentation page in a prescribed format.
-See https://universaldependencies.org/contributing_language_specific.html for further guidelines.
-All features including universal must be specifically turned on for each language in which they are used.
-See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_feature.pl for details.
-
-Morpho errors: 1
-*** FAILED *** with 1 errors
-Exit code: 1
-Validity: 0.01
+/net/work/people/zeman/unidep/tools/validate.py --lang sv --max-err=10 UD_Swedish-Talbanken/sv_talbanken-ud-train.conllu
+*** PASSED ***
+Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.9) = 0.0692307692307692
 (weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
 (weight=0.0769230769230769) * (score{lemmas}=0.5) = 0.0384615384615385
@@ -51,6 +39,6 @@ Validity: 0.01
 (weight=0.0769230769230769) * (score{tags}=0.847058823529412) = 0.065158371040724
 (weight=0.307692307692308) * (score{udapi}=0.994525924395786) = 0.306007976737165
 (weight=0.0769230769230769) * (score{udeprels}=0.802702702702703) = 0.0617463617463617
-(TOTAL score=0.753754370314511) * (availability=1) * (validity=0.01) = 0.00753754370314511
-STARS = 0
-UD_Swedish-Talbanken	0.00753754370314511	0
+(TOTAL score=0.753754370314511) * (availability=1) * (validity=1) = 0.753754370314511
+STARS = 4
+UD_Swedish-Talbanken	0.753754370314511	4
