@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 44d3a1ed615bec10e2c87bd84bccb1441f11c103
+commit 04abe686385f14a9a6f68784bd723a6b60ded594
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Mar 12 22:57:23 2023 -0400
+Date:   Tue May 9 00:14:39 2023 +0200
 Evaluating the following revision of UD_Swedish-Talbanken:
-commit 5a662f588da8a7bcd26f3faa98f7af93a30e4d51
-Author: Joakim Nivre <joakim.nivre@lingfil.uu.se>
-Date:   Mon Mar 13 10:11:34 2023 -0400
+commit de61e28692d165f70e65d87daa84989497cf27f2
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Mar 14 23:28:50 2023 +0100
 Size: counted 96820 of 96820 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.1457071690231.
 Size: maximum value 13.815511 is for 1000000 words or more.
