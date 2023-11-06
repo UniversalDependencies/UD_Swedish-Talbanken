@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Swedish-Talbanken:
-commit de61e28692d165f70e65d87daa84989497cf27f2
+commit 5decf22cc595217922202957b731919426d7a31c
+Merge: 238c9e4 a2d46e7
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Mar 14 23:28:50 2023 +0100
 Size: counted 96820 of 96820 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.1457071690231.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,10 +25,32 @@ Udapi: found 53 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 96820 words.
 Genres: found 2 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang sv --max-err=10 UD_Swedish-Talbanken/sv_talbanken-ud-dev.conllu
+[Line 932 Sent sv-ud-dev-34 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 6, 7] 'Vad * * * * för slags'
+[Line 4765 Sent sv-ud-dev-187 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 4] 'För * * sedan'
+[Line 5800 Sent sv-ud-dev-230 Node 8]: [L3 Warning fixed-gap] Gaps in fixed expression [8, 13] 'för * * * * skull'
+[Line 5867 Sent sv-ud-dev-233 Node 12]: [L3 Warning fixed-gap] Gaps in fixed expression [12, 15, 16] 'vilket * * som helst'
+[Line 7349 Sent sv-ud-dev-316 Node 4]: [L3 Warning fixed-gap] Gaps in fixed expression [4, 6, 7] 'vilket * som helst'
+Warnings: 5
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang sv --max-err=10 UD_Swedish-Talbanken/sv_talbanken-ud-test.conllu
+[Line 2409 Sent sv-ud-test-137 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 4] 'För * * sedan'
+[Line 7057 Sent sv-ud-test-370 Node 7]: [L3 Warning fixed-gap] Gaps in fixed expression [7, 9] 'beroende * på'
+[Line 13774 Sent sv-ud-test-712 Node 15]: [L3 Warning fixed-gap] Gaps in fixed expression [15, 19] 'för * * * sedan'
+[Line 22225 Sent sv-ud-test-1117 Node 32]: [L3 Warning fixed-gap] Gaps in fixed expression [32, 35] 'för * * sedan'
+Warnings: 4
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang sv --max-err=10 UD_Swedish-Talbanken/sv_talbanken-ud-train.conllu
+[Line 6900 Sent sv-ud-train-388 Node 10]: [L3 Warning fixed-gap] Gaps in fixed expression [10, 12] 'beroende * på'
+[Line 16591 Sent sv-ud-train-990 Node 2]: [L3 Warning fixed-gap] Gaps in fixed expression [2, 4] 'för * skull'
+[Line 27454 Sent sv-ud-train-1621 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 4] 'För * * sedan'
+[Line 27634 Sent sv-ud-train-1630 Node 5]: [L3 Warning fixed-gap] Gaps in fixed expression [5, 8] 'för * * sedan'
+[Line 28755 Sent sv-ud-train-1699 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 4] 'För * * sedan'
+[Line 29323 Sent sv-ud-train-1735 Node 6]: [L3 Warning fixed-gap] Gaps in fixed expression [6, 8] 'för * sedan'
+[Line 29371 Sent sv-ud-train-1738 Node 9]: [L3 Warning fixed-gap] Gaps in fixed expression [9, 12] 'för * * sedan'
+[Line 29554 Sent sv-ud-train-1746 Node 3]: [L3 Warning fixed-gap] Gaps in fixed expression [3, 6] 'för * * sedan'
+[Line 29713 Sent sv-ud-train-1753 Node 11]: [L3 Warning fixed-gap] Gaps in fixed expression [11, 14, 15] 'vad * * för slags'
+...suppressing further errors regarding Warning
+Warnings: 35
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.9) = 0.0692307692307692
