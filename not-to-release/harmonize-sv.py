@@ -152,6 +152,22 @@ if __name__ == "__main__":
         for entry in conll_entries:
             if entry.lemma == "reda" and entry.cpos == "NOUN" and entry.pos == "PL" and entry.relation == "compound:prt":
                 entry.cpos = "ADV"
+                
+        # Fix ADV-amod inconsistencies
+        for entry in conll_entries:
+            if entry.cpos == "ADV" and entry.relation == "amod":
+                if re.search(r'^(s k|s.k.|resp|respektive|offentligt|lika|lite|litet|fixt|något|förment|strängt|ekonomiskt|formellt)$', entry.form):
+                    entry.cpos = "ADJ"
+                else:
+                    entry.relation = "advmod"
+                    if entry.form == "genuint": # unique case
+                        entry.parent_id = entry.parent_id - 1
+                    if entry.form == "sist": # unique case
+                        for new_entry in conll_entries:
+                            if new_entry.id == entry.id + 1:
+                                new_entry.parent_id = entry.parent_id
+                                new_entry.relation = "amod"
+                        entry.parent_id = entry.id + 1
 
         # Hack for latin words
         for entry in conll_entries:
