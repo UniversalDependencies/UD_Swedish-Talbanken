@@ -11364,7 +11364,7 @@
 21	därför	därför	ADV	HA	_	35	mark	35:mark	_
 22	att	att	SCONJ	SN	_	21	fixed	21:fixed	_
 23	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	35	nsubj	35:nsubj	_
-24	då	då	SCONJ	AB	_	35	mark	35:mark	_
+24	då	då	ADV	AB	_	35	advmod	35:advmod	_
 25	i	i	ADP	PP	_	27	case	27:case	_
 26	den	en	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	27	det	27:det	_
 27	gärning	gärning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	35	obl	35:obl:i	_
