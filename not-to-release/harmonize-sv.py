@@ -137,12 +137,16 @@ if __name__ == "__main__":
         # Om DEPREL = advmod, ändra till mark.
         # Om POSTAG = ADV, ändra till SCONJ.
         for entry in conll_entries:
-            if re.search(r'^(när|då)$',entry.lemma) and re.search(r'^(mark|advmod)$',entry.relation):
-                parent = conll_entries[entry.parent_id - 1]
-                if parent.relation == "advcl":
-                    entry.relation = "mark"
-                    if entry.cpos == "ADV":
-                        entry.cpos = "SCONJ"
+            if re.search(r'^(när|då)$',entry.lemma):
+                if re.search(r'^(mark|advmod)$',entry.relation):
+                    parent = conll_entries[entry.parent_id - 1]
+                    if parent.relation == "advcl":
+                        entry.relation = "mark"
+                        if entry.cpos == "ADV":
+                            entry.cpos = "SCONJ"
+                if entry.cpos == "SCONJ" and entry.pos == "AB":
+                    entry.cpos = "ADV"
+                    entry.relation = "advmod"
 
         # Fix inconsistent tagging of "reda" in "ta reda på"
         for entry in conll_entries:
