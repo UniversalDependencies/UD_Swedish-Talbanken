@@ -89,7 +89,7 @@
     <dep name="case">9700</dep>
     <dep name="cc">3581</dep>
     <dep name="ccomp">512</dep>
-    <dep name="compound">17</dep>
+    <dep name="compound">21</dep>
     <dep name="compound:prt">855</dep>
     <dep name="conj">4367</dep>
     <dep name="cop">1715</dep>
@@ -99,12 +99,12 @@
     <dep name="discourse">21</dep>
     <dep name="dislocated">125</dep>
     <dep name="expl">518</dep>
-    <dep name="fixed">1748</dep>
+    <dep name="fixed">1746</dep>
     <dep name="flat:name">157</dep>
     <dep name="iobj">163</dep>
     <dep name="list">5</dep>
     <dep name="mark">3884</dep>
-    <dep name="nmod">4039</dep>
+    <dep name="nmod">4037</dep>
     <dep name="nmod:poss">1732</dep>
     <dep name="nsubj">7581</dep>
     <dep name="nsubj:pass">1330</dep>
