@@ -26,7 +26,7 @@ def get_descriptions (path, tokenlist):
     return result
 
 if __name__ == '__main__':
-    if len(sys.argv) == 4:
+    if len(sys.argv) == 3:
         if sys.argv[-1].endswith('.txt'):
             with open(sys.argv[-1], 'r') as f:
                 tokens = [token.strip() for line in f.readlines() for token in line.split()]
