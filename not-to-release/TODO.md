@@ -1,6 +1,8 @@
 ## TODO
 ### Things to do:
-    "svart"-form -> No Gender 
+    "svart"-form -> No Gender, Number 
+    bra -> No Gender, No Number, No Definite
+
     
 
 ### Things to enforce:
@@ -14,6 +16,10 @@
     prefix utan partikelverb+particip (nygift)
 
     Should superlative 'ste' have Definite since it can occur with either and you cannot neccessarily tell from the form?
+
+    Inre, yttre, övre
+    tredje - vad är lemma
+    
     
 
 
