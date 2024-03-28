@@ -102,6 +102,8 @@ def change_adj (tok):
             tok.lemma = 'medicine'
         elif tok.form.lower() in ['fil', 'fil.']:
             tok.lemma = 'filosofie'
+        elif tok.form.lower() in ['teol', 'teol.']:
+            tok.lemma = 'teologie'
                 
         change_id = change_id + '_abbr' if change_id is not None else 'adj_abbr'
 
