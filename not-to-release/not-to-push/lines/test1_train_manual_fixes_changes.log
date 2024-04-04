@@ -1,0 +1,10 @@
+node_id='sv_lines-ud-train-doc2-765#4'
+text='Det är den andra juni, sa han sig.'
+4	andra	annan	ADJ	ORD	Case=Nom|Definite=Def|Degree=Pos|Number=Plur	5	amod	_	_
+4	andra	andra	ADJ	ORD	Case=Nom|Number=Sing|NumType=Ord	5	amod	_	_
+
+node_id='sv_lines-ud-train-doc8-3070#24'
+text='Tre par: Jove och Stella, Jove och Alice, Alice och Stella, och under vars och ens yta finns den andres ansikte.'
+24	andres	två	ADJ	SG-GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	25	nmod:poss	_	_
+24	andres	annan	ADJ	SG-GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	25	nmod:poss	_	_
+

@@ -1,0 +1,7 @@
+abbr_adj: 3
+
+abbr_adj: {'St.'}
+
+change_id='abbr_adj'	sent_id='w01010048#16'	tok.form='St.'	old_lemma='St.'	tok.lemma='sankt'	text='Ludvig den tyske invaderade Mähren och ersatte Mojmír I med dennes brorson Rastiz som blev St. Rastislav.'
+change_id='abbr_adj'	sent_id='w02001041#16'	tok.form='St.'	old_lemma='St.'	tok.lemma='sankt'	text='Grundad 1925 som spel för vem som helst drar utomhusteatern på de stora trapporna framför St. Michael fortfarande en blandad publik.'
+change_id='abbr_adj'	sent_id='w02004008#11'	tok.form='St.'	old_lemma='St.'	tok.lemma='sankt'	text='Bland dem finns det före detta klostret till klosterkyrkan för St. Petrus och Paulus.'

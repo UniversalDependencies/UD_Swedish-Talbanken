@@ -1,0 +1,5 @@
+node_id='sv-ud-train-201#16'
+text='Om du måste anlita läkare utanför sjukhuset under permissionen gäller numera samma ersättningsbestämmelser som för andra läkarbesök.'
+16	andra	andra	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	17	amod	17:amod	_
+16	andra	annan	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	17	amod	17:amod	_
+

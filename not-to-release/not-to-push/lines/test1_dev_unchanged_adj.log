@@ -1,0 +1,2360 @@
+sent_id='sv_lines-ud-dev-doc2-3400#44'
+text='Han berättade om telefonsamtalen som var ämnade för Paul Auster, sin egen oförklarliga impuls att åta sig fallet, sitt möte med Peter Stillman, sitt samtal med Virginia Stillman, sin genomgång av Stillmans bok, skuggningen av Stillman från Grand Central Station, Stillmans dagliga vandringar, nattsäcken och de trasiga föremålen, kartorna som oroande nog bildade bokstäver, sina samtal med Stillman, Stillmans försvinnande från hotellet.'
+44	Central	Central	ADJ	POS-SG-FGN	Degree=Pos	45	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc1-3222#20'
+text='XML-scheman används för att beskriva strukturen för information i ett vanligt format som kunder, andra webbläsare och många XML-kompatibla program kan identifiera.'
+20	XML-kompatibla	XML-kompatibel	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	21	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4120#33'
+text='Det finns många legender bland sjöfarande om en glänsande fisk, så het att den lyser i det djupaste vatten, en stjärna som tappats och fått fenor av Gud, ett alkemiskt mysterium, föreningen av eld och vatten, ett coniunctis oppositorum som omvandlar sig självt och andra.'
+33	alkemiskt	alkemisk	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	34	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3681#15'
+text='Jag förfogade över en hydda på gården, men för att komma ifrån den allmänna villervallan gick jag ibland in och satte mig på bokhållarens kontor.'
+15	allmänna	allmän	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	16	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-3998#27'
+text='Vi skulle också vilja påminna er om att all magisk verksamhet som riskerar att uppmärksammas av medlemmar av det icke-magiska samhället (mugglare) är en allvarlig förseelse, som faller under sektion 13 av internationella trollkarlsförbundets sekretesslag.'
+27	allvarlig	allvarlig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	28	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3914#5'
+text='Också hon talade med amerikansk brytning, och i sin praktfulla nationaldräkt, vilken hon svept om sig som om hon ryckt åt sig ett stycke tyg direkt från den färggranna packen på en butiksdisk, verkade hon på alla tänkbara sätt minst dubbelt så stor som de lokala afrikanska kvinnorna, som vanligtvis hölls i hemmet, vilket också syntes på dem.'
+5	amerikansk	amerikansk	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	6	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3912#12'
+text='Flickan bara satt där utan att se någonting, som ett andfått djur som sökte skydd undan fara i sin lya.'
+12	andfått	andfådd	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	13	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc3-3505#13'
+text='Jag gav i artiga ordalag uttryck åt en förhoppning om att den andra inställningen, den revolutionära, inte skulle överges.'
+13	andra	andra	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	14	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc5-3726#6'
+text='Införandet av villkor för den andra förskottsutbetalningen välkomnas av oss.'
+6	andra	andra	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	7	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc5-3794#2'
+text='Den andra delen klargör att förmåner av ett större värde än 100 ecu måste redovisas.'
+2	andra	andra	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	3	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc5-3803#2'
+text='Den andra frågan gäller stimulansåtgärderna som förefaller mig effektiva.'
+2	andra	andra	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	3	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3830#22'
+text='Han gick bort till andra ändan av trädgården och krängde sig igenom taggtrådsstängslet, men gräset och den torniga bushen på andra sidan (Dandos ställe låg tretton kilometer utanför staden) var alldeles för snåriga för att man skulle kunna ta sig fram där det inte fanns någon stig.'
+22	andra	andra	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	23	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4041#24'
+text='Han släppte taget om tomtens vrister, den flög sex meter upp i luften och landade med en hård duns på fältet på andra sidan häcken.'
+24	andra	andra	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	26	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3900#41'
+text='Dom vill ge sig av, dom längtar efter det, man ser på dom att dom äcklas av blotta anblicken av en när man arbetar ihop... vilket, som ni säkert kan föreställa er, gör situationen ytterst angenäm...'
+41	angenäm	angenäm	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	38	xcomp	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc1-3180#7'
+text='Detta gör det svårt att ge andra användare tillträde till Access-projektet.'
+7	andra	annan	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	8	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc1-3197#20'
+text='Microsoft Access innehåller funktioner både för att importera och exportera XML-data och för att omvandla data till och från andra format med hjälp av XML-relaterade filer.'
+20	andra	annan	ADJ	CMP-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	21	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc1-3222#16'
+text='XML-scheman används för att beskriva strukturen för information i ett vanligt format som kunder, andra webbläsare och många XML-kompatibla program kan identifiera.'
+16	andra	annan	ADJ	CMP-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	17	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc1-3227#28'
+text='Genom att använda ett schema kan du se till att alla XML-dokument som används för att importera data till Access eller exportera data från Access till något annat format innehåller specifik information och överensstämmer med en definierad struktur.'
+28	annat	annan	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	29	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc1-3228#7'
+text='Du kan också tillhandahålla schemat till andra företag och avdelningar så att de vet hur data som skickas till dig ska struktureras, och de kan i sin tur ge dig sitt schema.'
+7	andra	annan	ADJ	CMP-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	8	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc1-3232#27'
+text='En CSS-mall är emellertid inte alltid ett bra alternativ, eftersom sådana är skrivna på ett speciellt språk. Det innebär att utvecklaren måste använda ett annat språk för att skriva, ändra eller tolka strukturen i formatmallen.'
+27	annat	annan	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	28	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc1-3243#11'
+text='Resultatet av ett villkorstyrt filter påverkar inte resultatet av ett annat.'
+11	annat	annan	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc1-3262#21'
+text='Du kan ändra storleken på en kontroll med hjälp av storlekshandtagen eller använda samma höjd och bredd som för en annan kontroll.'
+21	annan	annan	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	22	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc1-3277#13'
+text='Du kan flytta en kontroll eller justera den i förhållande till en annan kontroll.'
+13	annan	annan	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	14	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3310#3'
+text='På flaggans andra sida fanns en översikt över teckenspråket – LÄR DIG ATT TALA MED DINA VÄNNER – som visade hur man med olika handrörelser kunde uttrycka alla de tjugosex bokstäverna.'
+3	andra	annan	ADJ	ORD	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	4	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3367#87'
+text='Där fanns män och kvinnor, barn och åldringar, tonåringar och spädbarn, rika människor och fattiga människor, svarta män och vita kvinnor, vita män och svarta kvinnor, orientaler och araber, män i brunt och grått och blått och grönt, kvinnor i rött och vitt och gult och skärt, barn i gymnastikskor, barn i vanliga skor, barn i cowboystövlar, tjocka människor och smala människor, långa människor och korta människor, var och en olik alla andra, var och en sitt eget oförminskbara jag.'
+87	andra	annan	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	85	obj	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc3-3507#9'
+text='Eugene Ionesco gav redaktionen en kopia och en annan överlämnades av romanförfattaren Manes Sperber.'
+9	annan	annan	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	10	nsubj:pass	_	_
+
+sent_id='sv_lines-ud-dev-doc3-3537#17'
+text='Den saken måste man diskutera med israeler innan de går med på att tala om något annat.'
+17	annat	annan	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc4-3594#12'
+text='Den gamle läkaren tog min puls, tydligen med tankarna på annat håll.'
+12	annat	annan	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3641#21'
+text='De var inte fiender, de var inte brottslingar, de var ingenting längre som hörde jorden till, ingenting annat än svarta skuggor av sjukdom och svält som vilade i ett virrvarr i det gröna dunklet.'
+21	annat	annan	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	20	acl	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3648#7'
+text='Jag kunde inte hitta på något annat att göra än att räcka honom en av mina goda svenska skeppsskorpor som jag hade i fickan.'
+7	annat	annan	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	xcomp	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3655#6'
+text='Nära samma träd satt två andra gytter av spetsiga vinklar med knäna uppdragna.'
+6	andra	annan	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	7	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3693#10'
+text='Han skickar oss lika mycket elfenben som alla de andra agenterna tillsammans...'
+10	andra	annan	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Plur	11	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc5-3733#12'
+text='Därutöver har programmet bidragit till 50000 skapande eller utövande konstnärers och andra inom kultursektorn yrkesverksamma människors verksamhet.'
+12	andra	annan	ADJ	PL	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	16	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc5-3758#3'
+text='I ett annat ändringsförslag krävs att man tar med det blotta förnyandet av odlingsytor i omstruktureringsåtgärderna.'
+3	annat	annan	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3830#5'
+text='Han gick bort till andra ändan av trädgården och krängde sig igenom taggtrådsstängslet, men gräset och den torniga bushen på andra sidan (Dandos ställe låg tretton kilometer utanför staden) var alldeles för snåriga för att man skulle kunna ta sig fram där det inte fanns någon stig.'
+5	andra	annan	ADJ	CMP-DEF	Case=Nom|Definite=Def|Degree=Cmp|Number=Sing	6	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3869#41'
+text='Han höll sig till en och samma i flera månader, varpå han plötsligt, av ständigt ungefär samma goda skäl (han tålde den bättre för magen han fick inte riktigt lika svår törst efteråt) övergick till någon annan.'
+41	annan	annan	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	38	obl	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc6-3882#12'
+text='Bray ställde massor av frågor – inte alla vänliga – om andra människor.'
+12	andra	annan	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	13	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3895#16'
+text='Med den skyddade anställning dom har haft i alla dessa år... vad kan man annat begära?'
+16	annat	annan	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	17	advmod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3903#49'
+text='... jag skulle kunna ge er dussintals exempel på hur det går till... ceremonin i eftermiddags: precis som en hästkapplöpning kan jag försäkra... arrangemangen var alldeles likadana som vid stora julderbyt för välgörande ändamål. Men jag frågar: kan dom över huvud taget nåt annat?'
+49	annat	annan	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	43	obj	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc6-3923#36'
+text='Hon höll hela tiden kontakt runt omkring sig medan de dansade, talade över axeln på honom med en bekant, sträckte ut en kraftig, valkig brun fot i guldsandal för att ge en annan en puff på smalbenet.'
+36	annan	annan	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	34	xcomp	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4091#3'
+text='"Någon annan."'
+3	annan	annan	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	0	root	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc8-4099#46'
+text='Och huruvida hon tänkte på skolan, eller på hans första manschettjobb när kamraterna gick till sjöss, eller på den enkla flickan som hade älskat honom, eller på sin egen stolthet, berättade hon aldrig för mig, inte då och inte någon annan gång heller.'
+46	annan	annan	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	47	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4113#27'
+text='Jag tror att det är detta som håller på att ske, men eftersom jag inte känner igen mig själv säger jag att det är någon annan: han, hon, de, som bär ansvaret.'
+27	annan	annan	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	21	ccomp	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc8-4120#50'
+text='Det finns många legender bland sjöfarande om en glänsande fisk, så het att den lyser i det djupaste vatten, en stjärna som tappats och fått fenor av Gud, ett alkemiskt mysterium, föreningen av eld och vatten, ett coniunctis oppositorum som omvandlar sig självt och andra.'
+50	andra	annan	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	47	conj	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc8-4129#18'
+text='Olyckligtvis motstod han alla försök från min mors sida att få honom att visa sin duglighet på andra områden.'
+18	andra	annan	ADJ	CMP-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	19	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4136#7'
+text='Det särskilde honom från de många andra som inte trodde på någonting alls.'
+7	andra	annan	ADJ	CMP-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	2	obl	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4141#24'
+text='Kanske var det där, upplyft framför spegeln och med det främmande rummet som spegelbild i bakgrunden, som jag började fantisera om andra platser, platser som glödde starkt, precis utom räckhåll.'
+24	andra	annan	ADJ	CMP-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	25	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4181#27'
+text='Han sa att det var den enda platsen i världen där man kunde vara sig själv samtidigt som man jobbade ihjäl sig för att bli någon annan."'
+27	annan	annan	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	25	xcomp	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc5-3702#10'
+text='Frågan om världsmarknadsorientering ser jag faktiskt på ett något annorlunda sätt än vad den presenterades alldeles nyss.'
+10	annorlunda	annorlunda	ADJ	POS-SG-IND	Case=Nom	11	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc5-3791#10'
+text='Dessa innefattar bestämmelser för behandling av den nye högste ansvarige för den gemensamma utrikes- och säkerhetspolitiken.'
+10	ansvarige	ansvarig	ADJ	POS-SG-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	5	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4127#9'
+text='Den unge mannen hade alldeles nyss befordrats till ansvarig för atlantfarten.'
+9	ansvarig	ansvarig	ADJ	SG-IND-NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	7	obl	_	_
+
+sent_id='sv_lines-ud-dev-doc3-3501#35'
+text='I min insändare till Le Monde hade jag förklarat att det fanns två traditionella franska inställningar till judarna: en revolutionär inställning, som ledde till att de fick medborgerliga rättigheter, och en antisemitisk.'
+35	antisemitisk	antisemitisk	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	22	conj	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc2-3328#20'
+text='Men nu när denna scen utspelade sig i verkligheten kände han sig besviken, ja, till och med arg.'
+20	arg	arg	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	13	conj	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc8-4177#4'
+text='"Alldeles för artig för att vara amerikanska."'
+4	artig	artig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	0	root	_	_
+
+sent_id='sv_lines-ud-dev-doc5-3763#8'
+text='Alla är inte uppfyllda, men en avsevärd del.'
+8	avsevärd	avsevärd	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	9	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4148#12'
+text='Tidsglappet mellan den avgörande viljan och den avgjorda händelsen tillhandahåller en behändig ursäkt för ett förnekande av kausaliteten.'
+12	behändig	behändig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	13	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3887#20'
+text='Sir Reginald Harvey var styrelseordförande i ett konsortium som bestod av de tre gruvkoncessionsbolagen, och det var allmänt bekant att han i sin egenskap av personlig vän till Redvers Ledley, den mest impopuläre guvernör som territoriet någonsin haft, hade förmått guvernören att förbjuda gruvarbetarförbundet vid en tidpunkt då Mweta och Shinza utnyttjade det för att främja frihetsrörelsen.'
+20	bekant	bekant	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	conj	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4124#13'
+text='Att möta: att stå ansikte mot ansikte med. Att bli bekant med. Att presenteras för. Att råka på. Att ta emot. Att invänta ankomsten av. Att träffa. Att möta i strid.'
+13	bekant	bekant	ADJ	POS-SG	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	12	xcomp	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3451#3'
+text='Fåtöljen var bekväm och ölet hade stigit honom lätt åt huvudet.'
+3	bekväm	bekväm	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	0	root	_	_
+
+sent_id='sv_lines-ud-dev-doc3-3525#2'
+text='En beriden eskort på omkring 30 man, alla beväpnade.'
+2	beriden	beriden	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	3	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3819#36'
+text='En röst skilde sig ur sorlet, kom närmare, så hördes ett lätt väsande ljud (en vattenslang, tänkte han) och han lyckades uppfånga ett ord: inte bara som en viss bestämd kombination av artikulerade ljud utan en mening:'
+36	bestämd	bestämd	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	37	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3328#13'
+text='Men nu när denna scen utspelade sig i verkligheten kände han sig besviken, ja, till och med arg.'
+13	besviken	besviken	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	10	xcomp	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc6-3905#45'
+text='Flickan ingick i deras konversation ungefär som ett foto som man hittar liggande mellan sidorna i en bok; Bray var inte säker på om hon var barn eller kvinna: smäckra nyckelben, lång hals och ett nätt och jämnt bredare ansikte, blekt och glåmigt: en stor, smal, osminkad mun, svart hår och glittrande, sorgsna svarta ögon.'
+45	blekt	blek	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	43	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3360#19'
+text='Tåget körde in på stationen och Quinn kände hur dess motorljud sköt genom kroppen på honom: ett blint, febrigt dån som förenade sig med hans pulsslag och pumpade runt hans blod i rossligt dunkande svallvågor.'
+19	blint	blind	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	22	amod	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc4-3646#31'
+text='Det svarta benranglet låg utsträckt med ena axeln mot ett träd, ögonlocken lyftes långsamt och de insjunkna ögonen såg upp mot mig, stora och tomma med liksom ett blint, vitt fladder längst in, som långsamt dog bort.'
+31	blint	blind	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	34	amod	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc7-4028#14'
+text='På framsidan fanns ett stort fotografi av en mycket stilig trollkarl med vågigt blont hår och klarblå ögon.'
+14	blont	blond	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	15	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3964#33'
+text='Det var på ett egendomligt sätt som ett slags fortsättning av vad han var vid de officiella mottagningarna, där åtskilliga närvarande föga anade vem den vite främlingen var som anvisats en blygsam hedersplats.'
+33	blygsam	blygsam	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	34	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc1-3253#21'
+text='När element i ett fält döljs av autofiltrering eller Filtrera enligt markering, är den nedrullningsbara pilen Fältpil i fältet blå.'
+21	blå	blå	ADJ	POS-SG-IND	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc2-3299#34'
+text='En ljuvlig vårsol sken på kullerstenarna, balkonglådorna på de små husen flödade av blommor i olika färger och långt där nere vid gatans slut låg havet med sina vita vågor och sitt blå, blå vatten.'
+34	blå	blå	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	37	amod	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc2-3299#36'
+text='En ljuvlig vårsol sken på kullerstenarna, balkonglådorna på de små husen flödade av blommor i olika färger och långt där nere vid gatans slut låg havet med sina vita vågor och sitt blå, blå vatten.'
+36	blå	blå	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	37	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3317#28'
+text='Efter att ha letat i ett par tre minuter hittade han äntligen en plats på en av bänkarna där han klämde ner sig mellan en man i blå kostym och en fetlagd ung kvinna.'
+28	blå	blå	ADJ	POS-SG-IND	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	29	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3367#43'
+text='Där fanns män och kvinnor, barn och åldringar, tonåringar och spädbarn, rika människor och fattiga människor, svarta män och vita kvinnor, vita män och svarta kvinnor, orientaler och araber, män i brunt och grått och blått och grönt, kvinnor i rött och vitt och gult och skärt, barn i gymnastikskor, barn i vanliga skor, barn i cowboystövlar, tjocka människor och smala människor, långa människor och korta människor, var och en olik alla andra, var och en sitt eget oförminskbara jag.'
+43	blått	blå	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	39	conj	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3642#13'
+text='Ditsläpade från alla kustens skrymslen, allt enligt fullt lagliga anställningskontrakt, bortkomna i en ovan miljö med främmande kost, sjuknade de, förlorade arbetsförmågan och tilläts sedan att krypa undan och vila.'
+13	bortkomna	bortkommen	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	1	conj	_	_
+
+sent_id='sv_lines-ud-dev-doc1-3232#8'
+text='En CSS-mall är emellertid inte alltid ett bra alternativ, eftersom sådana är skrivna på ett speciellt språk. Det innebär att utvecklaren måste använda ett annat språk för att skriva, ändra eller tolka strukturen i formatmallen.'
+8	bra	bra	ADJ	POS-IND	Case=Nom|Degree=Pos	9	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3423#3'
+text='Blir det bra så? undrade Auster.'
+3	bra	bra	ADJ	POS-IND	Case=Nom|Degree=Pos	1	xcomp	_	_
+
+sent_id='sv_lines-ud-dev-doc5-3740#9'
+text='Mina damer och herrar! Det är ju bra om man i efterhand rättar till uppgifter om närvaron.'
+9	bra	bra	ADJ	POS-IND	Case=Nom|Degree=Pos	0	root	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3923#28'
+text='Hon höll hela tiden kontakt runt omkring sig medan de dansade, talade över axeln på honom med en bekant, sträckte ut en kraftig, valkig brun fot i guldsandal för att ge en annan en puff på smalbenet.'
+28	brun	brun	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	29	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc3-3567#15'
+text='Han citerar ur Dostojevskijs "Döda huset" ett samtal mellan författaren och en brutal mördare, en av de där brottslingarna som fascinerade honom.'
+15	brutal	brutal	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	16	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3826#11'
+text='En yngling gick och slog det styva gräset med ett böjt järnblad.'
+11	böjt	böjd	ADJ	AD-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	12	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4052#11'
+text='Han hade på sig en lång grön klädnad som var dammig och sliten av alla resor.'
+11	dammig	dammig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	8	acl:relcl	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3357#7'
+text='Från barndom till ålderdom förblev de desamma och om man hade förmågan skulle man teoretiskt alltså kunna se på ett par pojkögon på ett fotografi och sedan känna igen samma person som gammal.'
+7	desamma	desamma	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	5	xcomp	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3696#4'
+text='Flugorna surrade i djup frid.'
+4	djup	djup	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	5	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4021#11'
+text='Hon burrade upp fjädrarna och gav honom en blick av djup avsmak.'
+11	djup	djup	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	12	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4053#5'
+text='Mr Weasley tog en djup klunk te och suckade.'
+5	djup	djup	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	6	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4140#18'
+text='När mor hade ammat mig, så där vid femtiden på morgonen, brukade hon falla i djup sömn och far smög då ofta in och tog upp mig i sina stora händer och bar mig till sitt rum, där brasan glödde.'
+18	djup	djup	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	19	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3593#5'
+text='Jag är inte så dum som jag ser ut, sa Platon till sina lärjungar, svarade han tillrättavisande och satte punkt med att tömma sitt glas; och så reste vi oss.'
+5	dum	dum	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	11	ccomp	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4095#13'
+text='Han räknade ut att om jag inte kunde dra nytta av en dyrbar uppfostran kunde jag kanske dra lärdom av erfarenheten.'
+13	dyrbar	dyrbar	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	14	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3589#35'
+text='Varpå en ung man med hatten ner mot ena ögonbrynet, kontorist skulle jag tro – det måste ju ha funnits en mängd personal i företaget fast hela huset var tyst som en de dödas boning – kom ner från de övre regionerna och tog mig med sig.'
+35	dödas	död	ADJ	POS-DEF-GEN	Case=Gen|Definite=Def|Degree=Pos|Number=Plur	36	nmod:poss	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3828#5'
+text='En mustig stank av dött djur fläktade mot honom, som något slags gas, då och då medan han drack sitt te, och han steg upp och såg sig om, som han hade gjort så många gånger förut, och lika framgångslöst, för att undersöka om en råtta eller mullvad låg och ruttnade någonstans.'
+5	dött	död	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-3991#19'
+text='Mr Mason stannade precis tillräckligt länge för att hinna tala om för familjen Dursley att hans fru var dödsförskräckt för fåglar i alla former och storlekar och fråga om det här var deras idé om ett skämt.'
+19	dödsförskräckt	dödsförskräckt	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	10	obj	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3307#23'
+text='Fästad vid pennan satt en liten vit pappersflagga på vars ena sida det stod: Denna utmärkta vara får Du av en DÖVSTUM.'
+23	DÖVSTUM	dövstum	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	19	obl:agent	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc2-3312#2'
+text='Den dövstumme nickade kort och lämnade Quinn, som stod kvar med pennan i handen.'
+2	dövstumme	dövstum	ADJ	POS-SG-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	3	nsubj	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3367#93'
+text='Där fanns män och kvinnor, barn och åldringar, tonåringar och spädbarn, rika människor och fattiga människor, svarta män och vita kvinnor, vita män och svarta kvinnor, orientaler och araber, män i brunt och grått och blått och grönt, kvinnor i rött och vitt och gult och skärt, barn i gymnastikskor, barn i vanliga skor, barn i cowboystövlar, tjocka människor och smala människor, långa människor och korta människor, var och en olik alla andra, var och en sitt eget oförminskbara jag.'
+93	eget	egen	ADJ	POS-SG-IND	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	95	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3400#13'
+text='Han berättade om telefonsamtalen som var ämnade för Paul Auster, sin egen oförklarliga impuls att åta sig fallet, sitt möte med Peter Stillman, sitt samtal med Virginia Stillman, sin genomgång av Stillmans bok, skuggningen av Stillman från Grand Central Station, Stillmans dagliga vandringar, nattsäcken och de trasiga föremålen, kartorna som oroande nog bildade bokstäver, sina samtal med Stillman, Stillmans försvinnande från hotellet.'
+13	egen	egen	ADJ	POS-SG-IND	Case=Nom|Degree=Pos|Gender=Com|Number=Sing	15	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc3-3482#10'
+text='Felet med dem är att diskussionsdeltagarna oföränderligt överför sin egen intelligens på det som de diskuterar.'
+10	egen	egen	ADJ	POS-SG-IND	Case=Nom|Degree=Pos|Gender=Com|Number=Sing	11	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc3-3545#22'
+text='Jag hoppas att den kärlek de skänker oss är av bättre kvalitet än den de får av oss, för vår egen är av en mycket lågklassig uppåtsipprande växtsaftsliknande sort som är lika kortlivad som spontan.'
+22	egen	egen	ADJ	POS-SG-IND	Case=Nom|Degree=Pos|Gender=Com|Number=Sing	23	nsubj	_	_
+
+sent_id='sv_lines-ud-dev-doc3-3557#24'
+text='New York Times har det utan tvivel, men i mina ögon är den tidningen en regering inom regeringen. Den har ett eget utrikesdepartement, och dess högsta råd har antagligen bestämt sig för att det vore oklok politik i detta ögonblick att dra uppmärksamheten till Sadats beundran för Hitler.'
+24	eget	egen	ADJ	POS-SG-IND	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc5-3800#15'
+text='låt mig börja med att säga att jag inte kommer att tala om mitt eget betänkande.'
+15	eget	egen	ADJ	POS-SG-IND	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3829#16'
+text='Vad det egentligen var kunde de aldrig komma till klarhet om; det var växtlivets egen lukt hade de för länge sedan stannat för, i Gala, förruttnelsens och pånyttfödelsens processer som hade påskyndats till den grad, kommit så tätt inpå varandra att de hade resulterat i en dunst av både död och liv på en gång.'
+16	egen	egen	ADJ	POS-SG-IND	Case=Nom|Degree=Pos|Gender=Com|Number=Sing	17	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3863#9'
+text='Ge Mweta tid att glänsa ett tag på egen hand och låta eventuella motsättningar mellan dom försvinna.'
+9	egen	egen	ADJ	POS-SG-IND	Case=Nom|Degree=Pos|Gender=Com|Number=Sing	10	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4099#32'
+text='Och huruvida hon tänkte på skolan, eller på hans första manschettjobb när kamraterna gick till sjöss, eller på den enkla flickan som hade älskat honom, eller på sin egen stolthet, berättade hon aldrig för mig, inte då och inte någon annan gång heller.'
+32	egen	egen	ADJ	POS-SG-IND	Case=Nom|Degree=Pos|Gender=Com|Number=Sing	33	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4139#9'
+text='Under de första månaderna sov han i sitt eget rum.'
+9	eget	egen	ADJ	POS-SG-IND	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4161#18'
+text='Världen skälvde till, som hade dess klocka stannat, men i själva verket var det vårt eget fartyg som hade slagit sin maskin i back.'
+18	eget	egen	ADJ	POS-SG-IND	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4171#21'
+text='Hennes bröst som mina bröst, hennes mun som min mun, blev något mer än Narkissos hypnotiserad av sin egen avbild.'
+21	egen	egen	ADJ	POS-SG-IND	Case=Nom|Degree=Pos|Gender=Com|Number=Sing	22	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3685#11'
+text='Jag brukade sitta på golvet medan han, alltid oklanderligt elegant (och till och med svagt parfymerad) satt uppflugen på sin höga stol och skrev.'
+11	elegant	elegant	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3307#11'
+text='Fästad vid pennan satt en liten vit pappersflagga på vars ena sida det stod: Denna utmärkta vara får Du av en DÖVSTUM.'
+11	ena	ena	ADJ	POS-SG-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	12	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc3-3530#5'
+text='Ryttare som red på ena sidan och trotsade farorna."'
+5	ena	ena	ADJ	POS-SG-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	6	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3584#29'
+text='Jag tänkte sedan långt därborta ofta på de där två som vaktade porten till mörkret medan de stickade sitt svarta ullgarn som till ett varmt täckelse: den ena som anmälde och anmälde strömmen av sökande till det okända, den andra som granskade de förhoppningsfulla och enfaldiga ansiktena med oberörda gamla ögon.'
+29	ena	ena	ADJ	POS-SG-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	10	appos	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3589#9'
+text='Varpå en ung man med hatten ner mot ena ögonbrynet, kontorist skulle jag tro – det måste ju ha funnits en mängd personal i företaget fast hela huset var tyst som en de dödas boning – kom ner från de övre regionerna och tog mig med sig.'
+9	ena	ena	ADJ	POS-SG-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	10	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3646#7'
+text='Det svarta benranglet låg utsträckt med ena axeln mot ett träd, ögonlocken lyftes långsamt och de insjunkna ögonen såg upp mot mig, stora och tomma med liksom ett blint, vitt fladder längst in, som långsamt dog bort.'
+7	ena	ena	ADJ	POS-SG-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	8	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3656#2'
+text='Det ena höll hakan mot knäna och stirrade på ett outhärdligt och hemskt sätt ut i tomma intet; hans medspöke vilade pannan, liksom överväldigad av oändlig trötthet; och runt omkring var andra kringspridda i varje tänkbar ställning av förvriden kollaps – som på någon tavla av en massaker eller en förhärjande farsot.'
+2	ena	ena	ADJ	POS-SG-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	3	nsubj	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3824#19'
+text='Roly var ungkarl, och hans hus var ett uttryck för den specifika blandning av stillsam lyx och enahanda tristess som är ett kännetecken för de hushåll där vita män lever helt och hållet omhändertagna av manliga svarta tjänare.'
+19	enahanda	enahanda	ADJ	POS	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	20	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3356#12'
+text='eftersom han en gång hade läst någonstans att ögonen var den enda del av ansiktet som aldrig förändrades.'
+12	enda	enda	ADJ	POS-DEF	Case=Nom|Degree=Pos	13	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3358#18'
+text='Quinn hade sina dubier, men det var ju allt han hade att gå efter, hans enda förbindelse mellan då och nu.'
+18	enda	enda	ADJ	POS-DEF	Case=Nom|Degree=Pos	19	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3385#4'
+text='Ni är den ende som står i katalogen.'
+4	ende	enda	ADJ	POS-SG-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	0	root	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3896#52'
+text='Man behöver inte kläcka några idéer, man behöver inte ens resa sig från stolen, man nöjer sig helt enkelt med att åstadkomma ljud ur den magiska lådan för att hålla infödingarna på mattan... och nu – pang! – är det slut med hela härligheten, inklusive den enda drivfjäder dom nånsin har haft, pensionen.'
+52	enda	enda	ADJ	POS-DEF	Case=Nom|Degree=Pos	53	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3967#22'
+text='Över allt frågade Bray efter Edward Shinza; i varje fall kunde han konstatera att han inte syntes till vid något enda officiellt tillfälle.'
+22	enda	enda	ADJ	POS-SG-IND	Case=Nom|Degree=Pos	24	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4015#18'
+text='Nu när Dursleys visste att de inte skulle vakna upp som bananflugor, hade han förlorat sitt enda vapen.'
+18	enda	enda	ADJ	POS-DEF	Case=Nom|Degree=Pos	19	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4019#13'
+text='Soppan var iskall, men han drack hälften av den i en enda klunk.'
+13	enda	enda	ADJ	POS-SG-IND	Case=Nom|Degree=Pos	14	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4181#7'
+text='Han sa att det var den enda platsen i världen där man kunde vara sig själv samtidigt som man jobbade ihjäl sig för att bli någon annan."'
+7	enda	enda	ADJ	POS-DEF	Case=Nom|Degree=Pos	8	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc3-3570#21'
+text='Och mördaren, som talar till ett av artonhundratalets stora genier, svarar: "Därför att ni är så enfaldig att man inte kan låta bli att tycka synd om er."'
+21	enfaldig	enfaldig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	13	parataxis	_	_
+
+sent_id='sv_lines-ud-dev-doc1-3205#25'
+text='XML-protokollet består av en uppsättning regler, riktlinjer och konventioner för utformning av dataformat och datastrukturer på ett sätt som ger filer som är enkla att skapa och enkla att läsa av olika datorer och program.'
+25	enkla	enkel	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	22	acl:relcl	_	_
+
+sent_id='sv_lines-ud-dev-doc1-3205#29'
+text='XML-protokollet består av en uppsättning regler, riktlinjer och konventioner för utformning av dataformat och datastrukturer på ett sätt som ger filer som är enkla att skapa och enkla att läsa av olika datorer och program.'
+29	enkla	enkel	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	25	conj	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4099#22'
+text='Och huruvida hon tänkte på skolan, eller på hans första manschettjobb när kamraterna gick till sjöss, eller på den enkla flickan som hade älskat honom, eller på sin egen stolthet, berättade hon aldrig för mig, inte då och inte någon annan gång heller.'
+22	enkla	enkel	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Gender=Com|Number=Sing	23	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3836#8'
+text='I likhet med många människor som lever ensamma var han indiskret och hade med sig till honom från staden – som ett barn som kommer med fickorna fullproppade med godsaker från en bjudning – massor av anekdoter och skvaller om firandet av självständigheten, öste över honom, som en sky av konfetti, gissningar och rykten, en underbar blandning av fakta och åsikter om Mwetas ställning och den krets av medarbetare som han hade samlat omkring sig.'
+8	ensamma	ensam	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	7	xcomp	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3940#6'
+text='Du lämnade henne väl inte ensam med Ras?'
+6	ensam	ensam	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	3	xcomp	_	_
+
+sent_id='sv_lines-ud-dev-doc5-3718#5'
+text='Sedan föreslår han ett europeiskt kvalitetsmärke, som baseras på respekten för kriterier för en miljövänlig produktion.'
+5	europeiskt	europeisk	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc5-3724#6'
+text='Vi stöder införandet av en europeisk kvalitetsmärkning, som tar hänsyn till djurens välbefinnande och miljön.'
+6	europeisk	europeisk	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc3-3551#8'
+text='Jag var en tänkbar proselyt, en exotisk proselyt i gamla tennisskor och tröja.'
+8	exotisk	exotisk	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	9	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc1-3196#3'
+text='XML (Extensible Markup Language) är standardspråket för att beskriva och överföra data på webbplatser, på samma sätt som HTML (Hypertext Markup Language) är standardspråket för att skapa och visa webbsidor.'
+3	Extensible	extensible	ADJ	POS-FGN	Degree=Pos	4	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc1-3213#5'
+text='Använda en XSLT-fil (Extensible Stylesheet Language Transformation) för att omvandla informationen till Access-dataformat.'
+5	Extensible	extensible	ADJ	POS-FGN	Degree=Pos	7	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc1-3234#3'
+text='XSL-formatmallar (Extensible Stylesheet Language) är däremot betydligt mer flexibla än CSS-filer.'
+3	Extensible	extensible	ADJ	POS-FGN	Degree=Pos	5	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc5-3805#4'
+text='Jag är ingen fanatisk försvarare av vinster för den multinationella läkemedelsindustrin.'
+4	fanatisk	fanatisk	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	5	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4039#22'
+text='Ron höll den på armlängds avstånd medan den sparkade mot honom med sina hårda små bruna fötter. Han tog ett fast grepp om tomtenissens vrister och vände den upp och ner.'
+22	fast	fast	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	23	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4121#17'
+text='En del författare blandar ihop stella maris med remoran, en liten fisk som suger sig fast vid ett fartygs roder och hejdar dess färd.'
+17	fast	fast	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	15	compound:prt	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3368#4'
+text='Quinn stod som fastvuxen och betraktade dem alla som vore hela hans person med ens koncentrerad till ögonen.'
+4	fastvuxen	fastvuxen	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	2	advmod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3384#8'
+text='Då har ni nog tyvärr kommit till fel Paul Auster.'
+8	fel	fel	ADJ	POS-IND	Case=Nom|Degree=Pos	9	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc1-3275#9'
+text='Du kan också göra text i en kontroll fet, kursiv eller understruken.'
+9	fet	fet	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	4	xcomp	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc2-3317#32'
+text='Efter att ha letat i ett par tre minuter hittade han äntligen en plats på en av bänkarna där han klämde ner sig mellan en man i blå kostym och en fetlagd ung kvinna.'
+32	fetlagd	fetlagd	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	34	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4199#5'
+text='Där står han i fettfläckig grovjobbarjacka och toppluva.'
+5	fettfläckig	fettfläckig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	6	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3670#20'
+text='Han såg visserligen ut som en perukmakarskylt, men i all nedsumpningen runt omkring höll han sig snygg och fin.'
+20	fin	fin	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	18	conj	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc6-3963#17'
+text='Själv kände han sig som den medelålders släktingen, en man med vaga antecedentia som kommit fjärran ifrån till bröllopet och hjälplöst och inte utan ett visst nöje dragits in i virveln av förehavanden.'
+17	fjärran	fjärran	ADJ	POS-IND	Case=Nom|Definite=Def|Degree=Pos	16	advmod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3416#7'
+text='Ni kan väl köpa er några fler böcker. Eller lite leksaker till barnet, sa han med en svepande gest.'
+7	fler	fler	ADJ	CMP-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	8	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3630#27'
+text='Av vad min moster berättade fick jag så småningom klart för mig att jag för den högre dignitärens fru och för gud allena vete hur många fler hade utmålats som en enastående och högt begåvad människa, en gudasänd tur för bolaget, en kraft som man inte fick tag i alla dagar.'
+27	fler	fler	ADJ	CMP-PL-IND	Case=Nom|Degree=Cmp	19	conj	_	_
+
+sent_id='sv_lines-ud-dev-doc1-3234#11'
+text='XSL-formatmallar (Extensible Stylesheet Language) är däremot betydligt mer flexibla än CSS-filer.'
+11	flexibla	flexibel	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	0	root	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4193#18'
+text='På den tiden låg hans rätta jag fortfarande i kamp med hans förvärvade jag och kampen var framgångsrik.'
+18	framgångsrik	framgångsrik	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	4	conj	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc7-4025#9'
+text='Skulle de kunna förmå Dursleys att släppa honom fri?'
+9	fri	fri	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	7	xcomp	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc4-3665#11'
+text='Han hade gått ut för att 'få en nypa frisk luft'.'
+11	frisk	frisk	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	12	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3591#24'
+text='Doktorn hade inte kommit än, så jag föreslog att vi skulle ta oss ett glas. Det gjorde honom så småningom helt fryntlig, och där vi satt vid vår vermouth lovsjöng han så entusiastiskt bolagets verksamhet att jag slutligen uttryckte min förvåning över att han inte själv rest dit ut.'
+24	fryntlig	fryntlig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	19	xcomp	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc3-3550#3'
+text='Han blev fuktig i ögonen.'
+3	fuktig	fuktig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	2	xcomp	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3827#28'
+text='Kraftiga, prunkande buskar, hibiskus med de stora blommorna nersölade av pollen och myror och poinsettia, som dröp av ett mjölkvitt sekret, stod i full blom och gav ett sken av fruktbarhet åt den röda, magra jorden som skymtade hård och förbränd under gräset, piskad till gyttja av regn under träden, lös och smulig bara där myror hade förtärt den och åstadkommit små spröda tunnlar.'
+28	full	full	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	29	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4034#45'
+text='Familjen Dursley skulle inte ha gillat den – det fanns massor med ogräs och gräset behövde klippas – men det växte knotiga träd överallt runt murarna, plantor som Harry aldrig hade sett vällde fram ur rabatterna och där fanns en stor grön damm full med grodor.'
+45	full	full	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	44	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3364#3'
+text='Tåget var fullsatt och när passagerarna strömmade ut på perrongen och vidare mot spärren blev de snabbt en hel folkmassa.'
+3	fullsatt	fullsatt	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	0	root	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4084#19'
+text='Mrs Weasley himlade sig över att ingen hade stoppat hålen i hans strumpor och försökte truga på honom fyrdubbla portioner varje måltid.'
+19	fyrdubbla	fyrdubbel	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	20	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4175#10'
+text='Och jag hade inte väntat mig en så intensiv fysisk njutning.'
+10	fysisk	fysisk	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	11	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3586#1'
+text='Få av dem hon tittade på återsåg henne någonsin – inte hälften på långa vägar.'
+1	Få	få	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	7	nsubj	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3848#7'
+text='Edward Shinza är en av de få som verkligen gjorde en insats och fick skallen spräckt på den tiden av Hennes Majestäts tappra gossar, och var är han nu... borta i Bashi Flats bland sina gamla hustrur för allt vad jag vet... ingen nämner nånsin ens hans namn.'
+7	få	få	ADJ	POS-DEF	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	4	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3614#9'
+text='Förlåt mina frågor, men ni är den förste engelsman som jag har haft tillfälle att iaktta...'
+9	förste	först	ADJ	ORD-SG-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	10	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3664#13'
+text='Jag skakade hand med underverket och fick veta att han var bolagets förste bokhållare och att samtliga räkenskaper fördes på denna station.'
+13	förste	först	ADJ	ORD-SG-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	14	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3691#14'
+text='På min fråga vem mr Kurtz var svarade han att det var en förstklassig agent, men då han såg min besvikelse över svaret lade han ifrån sig pennan och fortsatte långsamt: Han är en mycket märklig människa.'
+14	förstklassig	förstklassig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	15	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3839#73'
+text='Jason skulle inte komma hem med något gyllene skinn, det kan du skriva opp (Jason Malenga var den nye finansministern); nej, det var faktiskt inte så dumt att den brittiska polischefen inte fick stanna, folk jämförde alltid med Kongo, dom idioterna, men den afrikanska ställföreträdaren, Aaron Onabu, var absolut i stånd att ta vid efter den där oduglingen; Talisman Gwenzi var förstklassig och en pålitlig Mwetaman, David Sambata var än så länge en okänd storhet vad beträffar jordbruksdepartementet'
+73	förstklassig	förstklassig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	4	conj	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3932#2'
+text='En förtjust fnysning:'
+2	förtjust	förtjust	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	3	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3656#42'
+text='Det ena höll hakan mot knäna och stirrade på ett outhärdligt och hemskt sätt ut i tomma intet; hans medspöke vilade pannan, liksom överväldigad av oändlig trötthet; och runt omkring var andra kringspridda i varje tänkbar ställning av förvriden kollaps – som på någon tavla av en massaker eller en förhärjande farsot.'
+42	förvriden	förvriden	ADJ	AD-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	43	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3401#13'
+text='När han berättat färdigt sa han: Tror ni jag har blivit galen?'
+13	galen	galen	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	12	xcomp	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc2-3304#18'
+text='Därifrån vandrade hans tankar över till de beskrivningar han läst om Melvilles sista år – den tystlåtne gamle mannen som arbetade på tullen i New York och inte hade några läsare och var bortglömd av alla.'
+18	gamle	gammal	ADJ	POS-SG-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	19	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3357#33'
+text='Från barndom till ålderdom förblev de desamma och om man hade förmågan skulle man teoretiskt alltså kunna se på ett par pojkögon på ett fotografi och sedan känna igen samma person som gammal.'
+33	gammal	gammal	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	31	amod	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc3-3547#2'
+text='En gammal mormonmissionär i Nauvoo grep mig en gång hårt om knäet när vi satt bredvid varandra och la armen om mig och kallade mig "Broder".'
+2	gammal	gammal	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	3	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc3-3551#11'
+text='Jag var en tänkbar proselyt, en exotisk proselyt i gamla tennisskor och tröja.'
+11	gamla	gammal	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	12	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3584#52'
+text='Jag tänkte sedan långt därborta ofta på de där två som vaktade porten till mörkret medan de stickade sitt svarta ullgarn som till ett varmt täckelse: den ena som anmälde och anmälde strömmen av sökande till det okända, den andra som granskade de förhoppningsfulla och enfaldiga ansiktena med oberörda gamla ögon.'
+52	gamla	gammal	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	53	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3585#3'
+text='Ave, gamla svartstickerska! Morituri te salutant.'
+3	gamla	gammal	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	4	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3594#2'
+text='Den gamle läkaren tog min puls, tydligen med tankarna på annat håll.'
+2	gamle	gammal	ADJ	POS-SG-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	3	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3629#35'
+text='Jag blev bjuden på te, det sista hyggliga teet på mången god dag, och i ett rum som på det mest välgörande sätt såg ut precis som man väntade sig att en gammal dams förmak skulle se ut hade vi en lång och trevlig pratstund framför brasan.'
+35	gammal	gammal	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	36	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3831#9'
+text='Han lyssnade till bushen och greps av den gamla känslan, i bushen, av att själv vara föremål för lyssnande.'
+9	gamla	gammal	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	10	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3838#2'
+text='En gammal svart labrador med förhårdnader på armbågarna stod och viftade långsamt med svansen framför Dando medan han talade.'
+2	gammal	gammal	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	4	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3841#48'
+text='I ett slags svartsjuka som riktade sig mot de nya unga männen från Storbritannien och Amerika, vilka var så måna om att demonstrera sin frånvaro av färgtänkande genom att undvika anstötliga ord och tilltala folk i höviska vändningar, tillgrep han på ett utmanande sätt den gamla kolonistvokabulär som återspeglade en inställning som han aldrig någonsin hade hyst.'
+48	gamla	gammal	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	49	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3848#38'
+text='Edward Shinza är en av de få som verkligen gjorde en insats och fick skallen spräckt på den tiden av Hennes Majestäts tappra gossar, och var är han nu... borta i Bashi Flats bland sina gamla hustrur för allt vad jag vet... ingen nämner nånsin ens hans namn.'
+38	gamla	gammal	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	39	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3866#44'
+text='Du kan ju ta och fråga Mweta om du får en chans att tala med honom, fråga om han inte tänker försöka hitta på något litet struntjobb åt honom nånstans, nånting med en snygg och prydlig etikett på, åt stackars gamla Shinza, han som bankade på kolonialministerns dörr med en panga redan medan Mweta var en liten snorunge som satt och sjöng psalmer oppe i missionsskolan.'
+44	gamla	gammal	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	45	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3876#4'
+text='Ja, stackars gamla Shinza, det är vad alla människor säger.'
+4	gamla	gammal	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	5	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3877#2'
+text='Stackars gamla Dando!'
+2	gamla	gammal	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	3	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3935#8'
+text='Det är fasansfullt när jag sjunger dom gamla sångerna hemifrån, men det låter inte så illa på engelska... engelska låter ju i och för sig ganska ruskigt.'
+8	gamla	gammal	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	9	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3955#11'
+text='en eftermiddag kom hon för att hämta Bray i en gammal stationsvagn, bokstavligen nerlusad av karamellpapper, udda strumpor och leksaksbilar.'
+11	gammal	gammal	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	12	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc1-3281#14'
+text='Om du markerar kontroller av olika typer visas bara de egenskaper som är gemensamma för gruppen i egenskapsrutan.'
+14	gemensamma	gemensam	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	11	acl:relcl	_	_
+
+sent_id='sv_lines-ud-dev-doc5-3735#4'
+text='Jag förklarar den gemensamma debatten avslutad.'
+4	gemensamma	gemensam	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	5	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc5-3791#13'
+text='Dessa innefattar bestämmelser för behandling av den nye högste ansvarige för den gemensamma utrikes- och säkerhetspolitiken.'
+13	gemensamma	gemensam	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	14	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc1-3266#11'
+text='Du kan byta färg på en kontroll eller göra den genomskinlig.'
+11	genomskinlig	genomskinlig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	9	xcomp	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc4-3629#13'
+text='Jag blev bjuden på te, det sista hyggliga teet på mången god dag, och i ett rum som på det mest välgörande sätt såg ut precis som man väntade sig att en gammal dams förmak skulle se ut hade vi en lång och trevlig pratstund framför brasan.'
+13	god	god	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	14	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc5-3776#12'
+text='Jag hoppas att de inte godkänns, de är nämligen ett gott exempel på vad detta parlament inte får göra.'
+12	gott	god	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3890#23'
+text='Folkets frihetsparti hade vid den tiden uppfattat Harveys uttalande som en kränkande anspelning på Mwetas hår; han hade det fortfarande i gott behåll, vilket utan tvivel skulle kunna konstateras på tisdagen.'
+23	gott	god	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3400#43'
+text='Han berättade om telefonsamtalen som var ämnade för Paul Auster, sin egen oförklarliga impuls att åta sig fallet, sitt möte med Peter Stillman, sitt samtal med Virginia Stillman, sin genomgång av Stillmans bok, skuggningen av Stillman från Grand Central Station, Stillmans dagliga vandringar, nattsäcken och de trasiga föremålen, kartorna som oroande nog bildade bokstäver, sina samtal med Stillman, Stillmans försvinnande från hotellet.'
+43	Grand	grand	ADJ	POS-SG-FGN	Degree=Pos	45	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3367#41'
+text='Där fanns män och kvinnor, barn och åldringar, tonåringar och spädbarn, rika människor och fattiga människor, svarta män och vita kvinnor, vita män och svarta kvinnor, orientaler och araber, män i brunt och grått och blått och grönt, kvinnor i rött och vitt och gult och skärt, barn i gymnastikskor, barn i vanliga skor, barn i cowboystövlar, tjocka människor och smala människor, långa människor och korta människor, var och en olik alla andra, var och en sitt eget oförminskbara jag.'
+41	grått	grå	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	39	conj	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4074#17'
+text='Rons trollstav låg på fönsterbrädan ovanpå ett litet akvarium fyllt med grodyngel, bredvid hans tjocka grå råtta, Scabbers, som låg och snusade i solvärmen.'
+17	grå	grå	ADJ	POS	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	18	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3306#29'
+text='Quinn kände hur någon grep honom i armen och när han snurrade runt för att möta anfallet fick han se en kortvuxen man som tigande höll fram en grön och röd kulspetspenna mot honom.'
+29	grön	grön	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	32	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4034#43'
+text='Familjen Dursley skulle inte ha gillat den – det fanns massor med ogräs och gräset behövde klippas – men det växte knotiga träd överallt runt murarna, plantor som Harry aldrig hade sett vällde fram ur rabatterna och där fanns en stor grön damm full med grodor.'
+43	grön	grön	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	44	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4052#7'
+text='Han hade på sig en lång grön klädnad som var dammig och sliten av alla resor.'
+7	grön	grön	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3630#39'
+text='Av vad min moster berättade fick jag så småningom klart för mig att jag för den högre dignitärens fru och för gud allena vete hur många fler hade utmålats som en enastående och högt begåvad människa, en gudasänd tur för bolaget, en kraft som man inte fick tag i alla dagar.'
+39	gudasänd	gudasänd	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	40	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc3-3514#3'
+text='Den väldiga Gyllene porten som skall öppnas när Frälsaren uppenbarar sig står förseglad.'
+3	Gyllene	gyllene	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	4	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3839#8'
+text='Jason skulle inte komma hem med något gyllene skinn, det kan du skriva opp (Jason Malenga var den nye finansministern); nej, det var faktiskt inte så dumt att den brittiska polischefen inte fick stanna, folk jämförde alltid med Kongo, dom idioterna, men den afrikanska ställföreträdaren, Aaron Onabu, var absolut i stånd att ta vid efter den där oduglingen; Talisman Gwenzi var förstklassig och en pålitlig Mwetaman, David Sambata var än så länge en okänd storhet vad beträffar jordbruksdepartementet'
+8	gyllene	gyllene	ADJ	POS-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	9	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3942#14'
+text='De dansande skockade sig kring en polsk jordbrukstekniker, som försökte lära en gänglig engelsman och två unga afrikaner en östeuropeisk folkdans.'
+14	gänglig	gänglig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	15	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3364#19'
+text='Tåget var fullsatt och när passagerarna strömmade ut på perrongen och vidare mot spärren blev de snabbt en hel folkmassa.'
+19	hel	hel	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	20	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3656#13'
+text='Det ena höll hakan mot knäna och stirrade på ett outhärdligt och hemskt sätt ut i tomma intet; hans medspöke vilade pannan, liksom överväldigad av oändlig trötthet; och runt omkring var andra kringspridda i varje tänkbar ställning av förvriden kollaps – som på någon tavla av en massaker eller en förhärjande farsot.'
+13	hemskt	hemsk	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	11	conj	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3684#1'
+text='Hett var det också därinne; stora flugor surrade djävulskt och de stack inte, de gav dolkstötar.'
+1	Hett	het	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	0	root	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4120#13'
+text='Det finns många legender bland sjöfarande om en glänsande fisk, så het att den lyser i det djupaste vatten, en stjärna som tappats och fått fenor av Gud, ett alkemiskt mysterium, föreningen av eld och vatten, ett coniunctis oppositorum som omvandlar sig självt och andra.'
+13	het	het	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	10	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3678#8'
+text='Annars var allting på stationen i en hopplös röra – hjärnor, materiel, byggnader.'
+8	hopplös	hopplös	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	9	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4018#6'
+text='Harry, som var så hungrig att det värkte i magen, hoppade ner från sängen och lyfte upp den.'
+6	hungrig	hungrig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	1	acl:relcl	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4135#4'
+text='Han var inte hänsynslös men han trodde på sig själv.'
+4	hänsynslös	hänsynslös	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	0	root	_	_
+
+sent_id='sv_lines-ud-dev-doc3-3526#1'
+text='Härlig ritt.'
+1	Härlig	härlig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	2	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3884#20'
+text='de båda männen piggnade till inför de växlingar mellan häpnad, ironiskt löje och (från Dandos sida) hånfull indignation med vilka han berättade, och Bray fick höra om de snabba helomvändningar med vilka en del vita ställde sig på den nya regimens sida, medan andra redan hade packat och lämnat landet.'
+20	hånfull	hånfull	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	21	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3827#44'
+text='Kraftiga, prunkande buskar, hibiskus med de stora blommorna nersölade av pollen och myror och poinsettia, som dröp av ett mjölkvitt sekret, stod i full blom och gav ett sken av fruktbarhet åt den röda, magra jorden som skymtade hård och förbränd under gräset, piskad till gyttja av regn under träden, lös och smulig bara där myror hade förtärt den och åstadkommit små spröda tunnlar.'
+44	hård	hård	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	42	xcomp	_	_
+
+sent_id='sv_lines-ud-dev-doc7-3992#8'
+text='Harry stod i köket och höll ett hårt tag om moppen som stöd då morbror Vernon kom emot honom med en satanisk glimt i sina små grisögon.'
+8	hårt	hård	ADJ	POS-SG-IND	Case=Nom	9	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4041#19'
+text='Han släppte taget om tomtens vrister, den flög sex meter upp i luften och landade med en hård duns på fältet på andra sidan häcken.'
+19	hård	hård	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	20	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc1-3233#18'
+text='Med en CSS-formatmall kan du bara ange formateringen av varje XML-element men inte styra resultatet i särskilt hög grad.'
+18	hög	hög	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	19	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3661#1'
+text='Hög stärkkrage, vita manschetter, lätt alpackakavaj, snövita byxor, ljus halsduk och nyblankade stövlar. Ingen hatt.'
+1	Hög	hög	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	2	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc5-3792#4'
+text='Vad gäller den höge representanten vill jag inte insistera, eftersom tillräckligt har sagts om hans funktion.'
+4	höge	hög	ADJ	POS-SG-IND	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	5	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3365#8'
+text='Quinn slog nervöst sitt röda anteckningsblock mot högra låret och ställde sig på tå när han ivrigt spanade in i trängseln.'
+8	högra	höger	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	9	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3338#13'
+text='Tja, sådär, sa flickan med en ny axelryckning och en högljudd smäll med tuggummit. Det finns ett ställe där detektiven går vilse som är ganska ruskigt.'
+13	högljudd	högljudd	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	14	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3349#27'
+text='I fem år hade han bevarat hemligheten med William Wilsons identitet och det fanns ju ingen anledning att avslöja den nu, allra minst för en imbecill främling.'
+27	imbecill	imbecill	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	28	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3887#35'
+text='Sir Reginald Harvey var styrelseordförande i ett konsortium som bestod av de tre gruvkoncessionsbolagen, och det var allmänt bekant att han i sin egenskap av personlig vän till Redvers Ledley, den mest impopuläre guvernör som territoriet någonsin haft, hade förmått guvernören att förbjuda gruvarbetarförbundet vid en tidpunkt då Mweta och Shinza utnyttjade det för att främja frihetsrörelsen.'
+35	impopuläre	impopulär	ADJ	POS-SG-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	36	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc1-3217#15'
+text='Informationen måste ha ett format som kan identifieras av Access, antingen som ett inbyggt format eller med hjälp av ett schema.'
+15	inbyggt	inbyggd	ADJ	AD-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	16	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3836#11'
+text='I likhet med många människor som lever ensamma var han indiskret och hade med sig till honom från staden – som ett barn som kommer med fickorna fullproppade med godsaker från en bjudning – massor av anekdoter och skvaller om firandet av självständigheten, öste över honom, som en sky av konfetti, gissningar och rykten, en underbar blandning av fakta och åsikter om Mwetas ställning och den krets av medarbetare som han hade samlat omkring sig.'
+11	indiskret	indiskret	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	0	root	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3646#18'
+text='Det svarta benranglet låg utsträckt med ena axeln mot ett träd, ögonlocken lyftes långsamt och de insjunkna ögonen såg upp mot mig, stora och tomma med liksom ett blint, vitt fladder längst in, som långsamt dog bort.'
+18	insjunkna	insjunken	ADJ	AD-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Plur	19	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4117#4'
+text='Stjärnorna var djupt insjunkna, de låg inte på mörkrets yta utan var inhamrade i det.'
+4	insjunkna	insjunken	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	0	root	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc3-3511#4'
+text='Den är vänligare inställd till Amin än till Rabin.'
+4	inställd	inställd	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	0	root	_	_
+
+sent_id='sv_lines-ud-dev-doc3-3572#18'
+text='Navrozov, som är utomordentligt intelligent men för en västerlänning egendomligt deformerad (hur skulle en oberoende intellektuell i Sovjetunionen kunna undgå att deformeras?), ser oss amerikaner som barn vilka denna världens Stalintyper ler åt i sina mustascher.'
+18	intellektuell	intellektuell	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	22	nsubj	_	_
+
+sent_id='sv_lines-ud-dev-doc3-3572#6'
+text='Navrozov, som är utomordentligt intelligent men för en västerlänning egendomligt deformerad (hur skulle en oberoende intellektuell i Sovjetunionen kunna undgå att deformeras?), ser oss amerikaner som barn vilka denna världens Stalintyper ler åt i sina mustascher.'
+6	intelligent	intelligent	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	1	acl:relcl	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4071#27'
+text='Han spärrade upp ögonen, för det var som att vandra in i en brinnande ugn. Nästan allting i Rons rum verkade gå i en intensiv orangeröd färg: sängöverkastet, väggarna, till och med taket.'
+27	intensiv	intensiv	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	29	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4175#9'
+text='Och jag hade inte väntat mig en så intensiv fysisk njutning.'
+9	intensiv	intensiv	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	11	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3603#9'
+text='Ja, det är ju mycket omtalat. Intressant också.'
+9	Intressant	intressant	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	7	conj	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3884#12'
+text='de båda männen piggnade till inför de växlingar mellan häpnad, ironiskt löje och (från Dandos sida) hånfull indignation med vilka han berättade, och Bray fick höra om de snabba helomvändningar med vilka en del vita ställde sig på den nya regimens sida, medan andra redan hade packat och lämnat landet.'
+12	ironiskt	ironisk	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	13	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4019#3'
+text='Soppan var iskall, men han drack hälften av den i en enda klunk.'
+3	iskall	iskall	ADJ	POS-SG	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc8-4134#4'
+text='Han var en jättelik projektionsbild på omvärldens tomma filmduk och detta var grunden till hans framgång.'
+4	jättelik	jättelik	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	5	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3427#13'
+text='Auster la checken på soffbordet som för att markera att saken var klar.'
+13	klar	klar	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	9	obj	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc5-3722#9'
+text='Just därför är till att börja med en klar strategi nödvändig här.'
+9	klar	klar	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	10	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3816#22'
+text='Den unkna, svala luften i rummet hade värmts upp, men tröttheten hade försvunnit och han kände sig lätt och klar i huvudet.'
+22	klar	klar	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	20	conj	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4116#22'
+text='Det var natt, en kvart över tolv, och himlen var uppdelad i två halvor, en mulen och en klar.'
+22	klar	klar	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	19	conj	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc7-4028#17'
+text='På framsidan fanns ett stort fotografi av en mycket stilig trollkarl med vågigt blont hår och klarblå ögon.'
+17	klarblå	klarblå	ADJ	POS-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	18	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4131#18'
+text='Detta handfasta råd mottogs med avsky av min far, som redan hade fogat en fernissa av konventionell moral till sin konventionella respektabilitet.'
+18	konventionell	konventionell	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	19	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc5-3745#11'
+text='Jag tycker att kommissionens sätt att se på saken är korrekt, för att lösa problemet behövs nämligen otaliga undantagsbestämmelser.'
+11	korrekt	korrekt	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	2	ccomp	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc2-3371#3'
+text='Under ett kort ögonblick tänkte Quinn: Så här är det alltså att arbeta som detektiv, men i övrigt tänkte han inte alls.'
+3	kort	kort	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	4	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3306#22'
+text='Quinn kände hur någon grep honom i armen och när han snurrade runt för att möta anfallet fick han se en kortvuxen man som tigande höll fram en grön och röd kulspetspenna mot honom.'
+22	kortvuxen	kortvuxen	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	23	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3913#14'
+text='Bray blev tvungen att resa på sig för att bli föreställd för en kraftig kvinna som stannat till utanför virveln av dansande i sällskap med amerikanen, Curtis Pettigrew: det var en västafrikanska som Timothy Odara hade gift sig med sedan Bray senast träffat honom.'
+14	kraftig	kraftig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	15	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3923#25'
+text='Hon höll hela tiden kontakt runt omkring sig medan de dansade, talade över axeln på honom med en bekant, sträckte ut en kraftig, valkig brun fot i guldsandal för att ge en annan en puff på smalbenet.'
+25	kraftig	kraftig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	29	amod	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc1-3275#11'
+text='Du kan också göra text i en kontroll fet, kursiv eller understruken.'
+11	kursiv	kursiv	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	9	conj	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3592#6'
+text='Då blev han med ens kylig och reserverad.'
+6	kylig	kylig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	2	xcomp	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3888#4'
+text='I en vida känd tidningsintervju hade han kallat Mweta den där busen från Gala som sticker upp sitt upproriska och vilseledda huvud i de industriella relationernas plantskola i detta unga land.'
+4	känd	känd	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc3-3544#4'
+text='Vi är mycket känslosamma och besökarna är också känslosamma i motsvarande grad, och när de har trakterats med vin och mat och fester och skålar och TV-sändningar och parader och applåder och man har diskuterat lån och leveranser av atomverk och vapen är de helt förälskade i oss.'
+4	känslosamma	känslosam	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	0	root	_	_
+
+sent_id='sv_lines-ud-dev-doc3-3544#9'
+text='Vi är mycket känslosamma och besökarna är också känslosamma i motsvarande grad, och när de har trakterats med vin och mat och fester och skålar och TV-sändningar och parader och applåder och man har diskuterat lån och leveranser av atomverk och vapen är de helt förälskade i oss.'
+9	känslosamma	känslosam	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	4	conj	_	_
+
+sent_id='sv_lines-ud-dev-doc7-3995#1'
+text='KÄRE MR POTTER'
+1	KÄRE	kär	ADJ	POS-SG-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	3	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3392#5'
+text='Ja, jag är ledsen, sa Auster.'
+5	ledsen	ledsen	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	7	ccomp	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc7-4037#7'
+text='Den var verkligen inte det minsta lik en jultomte.'
+7	lik	lik	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	0	root	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3416#11'
+text='Ni kan väl köpa er några fler böcker. Eller lite leksaker till barnet, sa han med en svepande gest.'
+11	lite	lite	ADJ	POS-IND	Case=Nom	12	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3299#11'
+text='En ljuvlig vårsol sken på kullerstenarna, balkonglådorna på de små husen flödade av blommor i olika färger och långt där nere vid gatans slut låg havet med sina vita vågor och sitt blå, blå vatten.'
+11	små	liten	ADJ	PL	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3300#33'
+text='Quinn mindes att han en gång för länge sedan besökt Nantucket i sällskap med sin hustru. Det var alldeles i början av hennes havandeskap, när hans son bara var en liten mandel i hennes mage.'
+33	liten	liten	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	34	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3307#6'
+text='Fästad vid pennan satt en liten vit pappersflagga på vars ena sida det stod: Denna utmärkta vara får Du av en DÖVSTUM.'
+6	liten	liten	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	8	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc3-3571#21'
+text='Även när han var i färd med att råna Dostojevskij ömkade han honom som om han hade varit "ett litet kerubliknande barn".'
+21	litet	liten	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3597#5'
+text='Det var en orakad liten typ klädd i någonting luggslitet kaftanaktigt och med tofflor på fötterna, och jag tyckte han var en oförarglig tok.'
+5	liten	liten	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	6	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3611#4'
+text='Jag har en liten teori som ni, mina unga herrar som far dit ut, måste hjälpa mig att bevisa.'
+4	liten	liten	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	5	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3827#69'
+text='Kraftiga, prunkande buskar, hibiskus med de stora blommorna nersölade av pollen och myror och poinsettia, som dröp av ett mjölkvitt sekret, stod i full blom och gav ett sken av fruktbarhet åt den röda, magra jorden som skymtade hård och förbränd under gräset, piskad till gyttja av regn under träden, lös och smulig bara där myror hade förtärt den och åstadkommit små spröda tunnlar.'
+69	små	liten	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	71	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3866#27'
+text='Du kan ju ta och fråga Mweta om du får en chans att tala med honom, fråga om han inte tänker försöka hitta på något litet struntjobb åt honom nånstans, nånting med en snygg och prydlig etikett på, åt stackars gamla Shinza, han som bankade på kolonialministerns dörr med en panga redan medan Mweta var en liten snorunge som satt och sjöng psalmer oppe i missionsskolan.'
+27	litet	liten	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	28	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3866#61'
+text='Du kan ju ta och fråga Mweta om du får en chans att tala med honom, fråga om han inte tänker försöka hitta på något litet struntjobb åt honom nånstans, nånting med en snygg och prydlig etikett på, åt stackars gamla Shinza, han som bankade på kolonialministerns dörr med en panga redan medan Mweta var en liten snorunge som satt och sjöng psalmer oppe i missionsskolan.'
+61	liten	liten	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	62	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3881#2'
+text='Den lilla näsan verkade överraskande vass nu när huden hade skrumpnat på båda sidorna.'
+2	lilla	liten	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	3	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3901#3'
+text='En slank liten vit flicka gled ner mellan dem och lyfte Ras Asahes hand med det förgyllda urarmbandet som om den hade varit en av hennes tillhörigheter som hon hade lagt ifrån sig:'
+3	liten	liten	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	5	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3937#3'
+text='Den där lilla flickan med orientaliskt utseende som är tillsammans med Ras?'
+3	lilla	liten	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	4	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-3992#26'
+text='Harry stod i köket och höll ett hårt tag om moppen som stöd då morbror Vernon kom emot honom med en satanisk glimt i sina små grisögon.'
+26	små	liten	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	27	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4008#11'
+text='Han monterade själv in kattluckan i sovrumsdörren, så att små mängder mat kunde skjutas in genom den tre gånger om dagen.'
+11	små	liten	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	12	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4038#3'
+text='Den var liten och läderartad med ett stort, knöligt, kalt huvud som påminde om en potatis.'
+3	liten	liten	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	0	root	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4039#15'
+text='Ron höll den på armlängds avstånd medan den sparkade mot honom med sina hårda små bruna fötter. Han tog ett fast grepp om tomtenissens vrister och vände den upp och ner.'
+15	små	liten	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	17	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4046#21'
+text='Snart började tomteskaran ute på fältet ställa upp sig i ett oregelbundet led och tomtarna vandrade i väg med de små axlarna uppdragna till öronen.'
+21	små	liten	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	22	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4051#15'
+text='Han var en mager man, på väg att bli skallig, men det lilla hår han hade var lika rött som barnens.'
+15	lilla	liten	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	16	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4069#19'
+text='De klev uppför ytterligare två trappor tills de kom fram till en dörr med flagnande färg och en liten skylt där det stod "Ronalds rum".'
+19	liten	liten	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	20	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4074#8'
+text='Rons trollstav låg på fönsterbrädan ovanpå ett litet akvarium fyllt med grodyngel, bredvid hans tjocka grå råtta, Scabbers, som låg och snusade i solvärmen.'
+8	litet	liten	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4082#23'
+text='Gengångaren på vinden ylade och bankade på rören så snart den kände att det höll på att bli för stillsamt, och små explosioner från Freds och Georges sovrum betraktades som någonting helt normalt.'
+23	små	liten	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	24	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4121#12'
+text='En del författare blandar ihop stella maris med remoran, en liten fisk som suger sig fast vid ett fartygs roder och hejdar dess färd.'
+12	liten	liten	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	13	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4156#4'
+text='Vad kan en liten flicka se som astronomer och teleskop inte ser?'
+4	liten	liten	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	5	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4176#2'
+text='Den lille pojken hade aldrig sett ett spädbarn lika rosa som en vargtunga.'
+2	lille	liten	ADJ	POS-SG-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	3	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4192#16'
+text='Hans kap var de största i hela Bolaget och han överlämnade dem troget som en liten pojke.'
+16	liten	liten	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	17	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3405#14'
+text='Han greps av en lust att ta Auster i famnen och erbjuda honom livslång vänskap.'
+14	livslång	livslång	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	15	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3661#13'
+text='Hög stärkkrage, vita manschetter, lätt alpackakavaj, snövita byxor, ljus halsduk och nyblankade stövlar. Ingen hatt.'
+13	ljus	ljus	ADJ	POS-SG-IND	Case=Nom	14	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3299#2'
+text='En ljuvlig vårsol sken på kullerstenarna, balkonglådorna på de små husen flödade av blommor i olika färger och långt där nere vid gatans slut låg havet med sina vita vågor och sitt blå, blå vatten.'
+2	ljuvlig	ljuvlig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	3	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3597#10'
+text='Det var en orakad liten typ klädd i någonting luggslitet kaftanaktigt och med tofflor på fötterna, och jag tyckte han var en oförarglig tok.'
+10	luggslitet	luggsliten	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	9	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3661#7'
+text='Hög stärkkrage, vita manschetter, lätt alpackakavaj, snövita byxor, ljus halsduk och nyblankade stövlar. Ingen hatt.'
+7	lätt	lätt	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3816#20'
+text='Den unkna, svala luften i rummet hade värmts upp, men tröttheten hade försvunnit och han kände sig lätt och klar i huvudet.'
+20	lätt	lätt	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	18	xcomp	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3819#14'
+text='En röst skilde sig ur sorlet, kom närmare, så hördes ett lätt väsande ljud (en vattenslang, tänkte han) och han lyckades uppfånga ett ord: inte bara som en viss bestämd kombination av artikulerade ljud utan en mening:'
+14	lätt	lätt	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc3-3545#27'
+text='Jag hoppas att den kärlek de skänker oss är av bättre kvalitet än den de får av oss, för vår egen är av en mycket lågklassig uppåtsipprande växtsaftsliknande sort som är lika kortlivad som spontan.'
+27	lågklassig	lågklassig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	30	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3444#7'
+text='Ja, sa Quinn efter en lång tystnad.'
+7	lång	lång	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	8	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3629#44'
+text='Jag blev bjuden på te, det sista hyggliga teet på mången god dag, och i ett rum som på det mest välgörande sätt såg ut precis som man väntade sig att en gammal dams förmak skulle se ut hade vi en lång och trevlig pratstund framför brasan.'
+44	lång	lång	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	47	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3905#35'
+text='Flickan ingick i deras konversation ungefär som ett foto som man hittar liggande mellan sidorna i en bok; Bray var inte säker på om hon var barn eller kvinna: smäckra nyckelben, lång hals och ett nätt och jämnt bredare ansikte, blekt och glåmigt: en stor, smal, osminkad mun, svart hår och glittrande, sorgsna svarta ögon.'
+35	lång	lång	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	36	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4052#6'
+text='Han hade på sig en lång grön klädnad som var dammig och sliten av alla resor.'
+6	lång	lång	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	8	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4057#10'
+text='Mrs Weasley hade dykt upp. Hon höll en lång eldgaffel som ett svärd i handen.'
+10	lång	lång	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	11	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4031#4'
+text='"Var inte löjlig, Fred", sade mrs Weasley och blev lite röd om kinderna.'
+4	löjlig	löjlig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	9	xcomp	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc4-3672#4'
+text='Hans stärkkragar och lösa skjortbröst var något av en bragd.'
+4	lösa	lös	ADJ	POS-DEF	Case=Nom	5	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3827#58'
+text='Kraftiga, prunkande buskar, hibiskus med de stora blommorna nersölade av pollen och myror och poinsettia, som dröp av ett mjölkvitt sekret, stod i full blom och gav ett sken av fruktbarhet åt den röda, magra jorden som skymtade hård och förbränd under gräset, piskad till gyttja av regn under träden, lös och smulig bara där myror hade förtärt den och åstadkommit små spröda tunnlar.'
+58	lös	lös	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	44	conj	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3827#40'
+text='Kraftiga, prunkande buskar, hibiskus med de stora blommorna nersölade av pollen och myror och poinsettia, som dröp av ett mjölkvitt sekret, stod i full blom och gav ett sken av fruktbarhet åt den röda, magra jorden som skymtade hård och förbränd under gräset, piskad till gyttja av regn under träden, lös och smulig bara där myror hade förtärt den och åstadkommit små spröda tunnlar.'
+40	magra	mager	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	41	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4051#4'
+text='Han var en mager man, på väg att bli skallig, men det lilla hår han hade var lika rött som barnens.'
+4	mager	mager	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	5	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-3998#10'
+text='Vi skulle också vilja påminna er om att all magisk verksamhet som riskerar att uppmärksammas av medlemmar av det icke-magiska samhället (mugglare) är en allvarlig förseelse, som faller under sektion 13 av internationella trollkarlsförbundets sekretesslag.'
+10	magisk	magisk	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	11	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3643#2'
+text='Dessa makabra gestalter var fria som luften och inte mycket mer substantiella.'
+2	makabra	makaber	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Plur	3	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc3-3538#6'
+text='En indignerad bibliotekarie, en medelålders kvinna vars ansikte hettar så att det nästan doftar av förtrytelse, kräver mig på besked med en ytterst distingerad accent, nära nog oxfordsk: "Hur kan ni förklara det!"'
+6	medelålders	medelålders	ADJ	POS	Case=Nom	7	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3963#7'
+text='Själv kände han sig som den medelålders släktingen, en man med vaga antecedentia som kommit fjärran ifrån till bröllopet och hjälplöst och inte utan ett visst nöje dragits in i virveln av förehavanden.'
+7	medelålders	medelålders	ADJ	POS	Case=Nom	8	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3445#3'
+text='Jag är medveten om det.'
+3	medveten	medveten	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	0	root	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3948#27'
+text='De unga ungkarlarna stojade ystert, och de rufsiga flickorna, som kom gående tätt förbi eller log helt plötsligt mot personer som de inte var medvetna om, förde med sig en fläkt av kosmetika och parfym som värmts mot deras kroppar.'
+27	medvetna	medveten	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	22	acl:relcl	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4101#7'
+text='Till skillnad från honom var hon medveten om detta och satt i många timmar med huvudet i händerna för att, som jag då trodde, få orden att ramla fram.'
+7	medveten	medveten	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	0	root	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4153#15'
+text='Att som jag gjorde antyda att hjärnan är ett självreglerande system, där det medvetna och det omedvetna fungerar som balanserande hissblock, väckte en sådan vrede hos honom att jag började tro att jag hade snuddat vid något väsentligt.'
+15	medvetna	medveten	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	19	nsubj	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3327#20'
+text='Han hade till och med tänkt sig in i det samtal som skulle följa: han själv skulle med mild förlägenhet åhöra främlingens lovord över boken för att sedan under blyga protester gå med på att signera titelsidan "eftersom ni så enträget ber om det".'
+20	mild	mild	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	21	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc5-3718#16'
+text='Sedan föreslår han ett europeiskt kvalitetsmärke, som baseras på respekten för kriterier för en miljövänlig produktion.'
+16	miljövänlig	miljövänlig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	17	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3827#23'
+text='Kraftiga, prunkande buskar, hibiskus med de stora blommorna nersölade av pollen och myror och poinsettia, som dröp av ett mjölkvitt sekret, stod i full blom och gav ett sken av fruktbarhet åt den röda, magra jorden som skymtade hård och förbränd under gräset, piskad till gyttja av regn under träden, lös och smulig bara där myror hade förtärt den och åstadkommit små spröda tunnlar.'
+23	mjölkvitt	mjölkvit	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	24	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4116#19'
+text='Det var natt, en kvart över tolv, och himlen var uppdelad i två halvor, en mulen och en klar.'
+19	mulen	mulen	ADJ	POS-SG-IND-NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	16	appos	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3828#2'
+text='En mustig stank av dött djur fläktade mot honom, som något slags gas, då och då medan han drack sitt te, och han steg upp och såg sig om, som han hade gjort så många gånger förut, och lika framgångslöst, för att undersöka om en råtta eller mullvad låg och ruttnade någonstans.'
+2	mustig	mustig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	3	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc1-3182#1'
+text='Mer information om TSQL hittar du på webbplatsen http://officeupdate.microsoft.com/, Microsoft Developer Network.'
+1	Mer	mycken	ADJ	CMP-IND	Case=Nom|Degree=Cmp	2	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc1-3208#1'
+text='Mer information om XML finns på webbplatsen.'
+1	Mer	mycken	ADJ	CMP-IND	Case=Nom|Degree=Cmp	2	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc1-3256#1'
+text='Mer information om det aktuella filtret hittar du i dialogrutan Egenskaper.'
+1	Mer	mycken	ADJ	CMP-IND	Case=Nom|Degree=Cmp	2	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc1-3285#12'
+text='I ett formulär eller en rapport visas aldrig egenskapen Namn när mer än en kontroll är markerad, eftersom kontrollnamn måste vara unika.'
+12	mer	mycken	ADJ	POS-IND	Case=Nom|Degree=Cmp	17	nsubj	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3341#5'
+text='Ni skulle vilja ha mer action?'
+5	mer	mycken	ADJ	POS-IND	Case=Nom|Degree=Cmp	6	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3446#6'
+text='De hade egentligen inte något mer att tala om.'
+6	mer	mycken	ADJ	CMP-IND	Case=Nom|Degree=Cmp	2	xcomp	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3447#18'
+text='I fortsättningen kunde det inte bli annat än lösa gissningar, eftersom ingen av dem visste något mer.'
+18	mer	mycken	ADJ	CMP-IND	Case=Nom|Degree=Cmp	16	xcomp	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc2-3453#17'
+text='Och han hade läst Quinns bok, beundrat den och sett fram emot att få läsa mer.'
+17	mer	mycken	ADJ	CMP-IND	Case=Nom|Degree=Cmp	16	xcomp	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc4-3693#5'
+text='Han skickar oss lika mycket elfenben som alla de andra agenterna tillsammans...'
+5	mycket	mycken	ADJ	POS-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4171#15'
+text='Hennes bröst som mina bröst, hennes mun som min mun, blev något mer än Narkissos hypnotiserad av sin egen avbild.'
+15	mer	mycken	ADJ	CMP-IND	Case=Nom|Degree=Cmp	13	xcomp	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3691#38'
+text='På min fråga vem mr Kurtz var svarade han att det var en förstklassig agent, men då han såg min besvikelse över svaret lade han ifrån sig pennan och fortsatte långsamt: Han är en mycket märklig människa.'
+38	märklig	märklig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	39	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4073#26'
+text='Rons skolböcker i magi låg slarvigt travade i ett hörn, bredvid en hög med serietidningar som alla tycktes handla om Martin Miggs, den märklige mugglarens äventyr.'
+26	märklige	märklig	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	27	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc1-3210#10'
+text='Access innehåller flera alternativ för att använda data från många externa källor.'
+10	många	mången	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	12	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc1-3222#19'
+text='XML-scheman används för att beskriva strukturen för information i ett vanligt format som kunder, andra webbläsare och många XML-kompatibla program kan identifiera.'
+19	många	mången	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	21	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3326#3'
+text='Quinn hade många gånger föreställt sig denna situation: den plötsliga, oväntade lyckan över att träffa på en av sina läsare.'
+3	många	mången	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	4	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3374#5'
+text='Nästa morgon, liksom många morgnar därefter, fattade Quinn posto på en bänk mitt i rondellen i korsningen mellan Broadway och 99:e gatan.'
+5	många	mången	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	6	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3629#12'
+text='Jag blev bjuden på te, det sista hyggliga teet på mången god dag, och i ett rum som på det mest välgörande sätt såg ut precis som man väntade sig att en gammal dams förmak skulle se ut hade vi en lång och trevlig pratstund framför brasan.'
+12	mången	mången	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	14	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3630#26'
+text='Av vad min moster berättade fick jag så småningom klart för mig att jag för den högre dignitärens fru och för gud allena vete hur många fler hade utmålats som en enastående och högt begåvad människa, en gudasänd tur för bolaget, en kraft som man inte fick tag i alla dagar.'
+26	många	mången	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	27	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3697#11'
+text='Plötsligt hördes det växande mumlet av röster och trampet av många fötter.'
+11	många	mången	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	12	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3828#39'
+text='En mustig stank av dött djur fläktade mot honom, som något slags gas, då och då medan han drack sitt te, och han steg upp och såg sig om, som han hade gjort så många gånger förut, och lika framgångslöst, för att undersöka om en råtta eller mullvad låg och ruttnade någonstans.'
+39	många	mången	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	40	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3836#4'
+text='I likhet med många människor som lever ensamma var han indiskret och hade med sig till honom från staden – som ett barn som kommer med fickorna fullproppade med godsaker från en bjudning – massor av anekdoter och skvaller om firandet av självständigheten, öste över honom, som en sky av konfetti, gissningar och rykten, en underbar blandning av fakta och åsikter om Mwetas ställning och den krets av medarbetare som han hade samlat omkring sig.'
+4	många	mången	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	5	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3952#18'
+text='En ung kvinna gick ut och in i Bayleys hus, medförde ibland ytterligare tillskott till de många barn som lekte där, bar dem ibland med sig därifrån.'
+18	många	mången	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	19	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3961#4'
+text='Mat tillreddes av många händer.'
+4	många	mången	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	5	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4101#13'
+text='Till skillnad från honom var hon medveten om detta och satt i många timmar med huvudet i händerna för att, som jag då trodde, få orden att ramla fram.'
+13	många	mången	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	14	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4120#3'
+text='Det finns många legender bland sjöfarande om en glänsande fisk, så het att den lyser i det djupaste vatten, en stjärna som tappats och fått fenor av Gud, ett alkemiskt mysterium, föreningen av eld och vatten, ett coniunctis oppositorum som omvandlar sig självt och andra.'
+3	många	mången	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	4	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4136#6'
+text='Det särskilde honom från de många andra som inte trodde på någonting alls.'
+6	många	mången	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	7	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3677#16'
+text='Och han gick med liv och själ upp i sina böcker, som var i mönstergill ordning.'
+16	mönstergill	mönstergill	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	17	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc3-3504#19'
+text='Den position som intogs av utrikesminister Maurice Joubert under oktoberkriget 1973 gick ut på att Palestinaaraberna hade en naturlig och berättigad önskan att "återvända hem".'
+19	naturlig	naturlig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	22	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4137#6'
+text='Farmor, som inte var nervös av sig, sa för sig själv: "David måste ha fått sin befordran."'
+6	nervös	nervös	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	1	acl:relcl	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3411#8'
+text='Det ser ut att vara en alldeles normal check, sa han.'
+8	normal	normal	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	9	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc5-3708#10'
+text='Vi behöver utländska investerare på ställen som Telford, norra Shropshire, Hereford, Ross-on-Wye och Wyre Forest.'
+10	norra	norra	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	11	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc1-3240#2'
+text='Varje nytt filter som du anger läggs till de filter som du redan använder.'
+2	nytt	ny	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3338#9'
+text='Tja, sådär, sa flickan med en ny axelryckning och en högljudd smäll med tuggummit. Det finns ett ställe där detektiven går vilse som är ganska ruskigt.'
+9	ny	ny	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	10	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc5-3791#8'
+text='Dessa innefattar bestämmelser för behandling av den nye högste ansvarige för den gemensamma utrikes- och säkerhetspolitiken.'
+8	nye	ny	ADJ	POS-SG-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	9	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc5-3793#6'
+text='På tal om resurser, ny teknik och talartid så är min tid ute.'
+6	ny	ny	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	7	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3837#2'
+text='En ny bricka kom ut under träden, den här gången lastad med whisky och gin.'
+2	ny	ny	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	3	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3839#21'
+text='Jason skulle inte komma hem med något gyllene skinn, det kan du skriva opp (Jason Malenga var den nye finansministern); nej, det var faktiskt inte så dumt att den brittiska polischefen inte fick stanna, folk jämförde alltid med Kongo, dom idioterna, men den afrikanska ställföreträdaren, Aaron Onabu, var absolut i stånd att ta vid efter den där oduglingen; Talisman Gwenzi var förstklassig och en pålitlig Mwetaman, David Sambata var än så länge en okänd storhet vad beträffar jordbruksdepartementet'
+21	nye	ny	ADJ	POS-SG-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	22	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3374#1'
+text='Nästa morgon, liksom många morgnar därefter, fattade Quinn posto på en bänk mitt i rondellen i korsningen mellan Broadway och 99:e gatan.'
+1	Nästa	nästa	ADJ	POS-SG-IND	Case=Nom|Degree=Pos	2	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc3-3493#3'
+text='Vatikanen är nästa samtalsämne och röner en liknande behandling.'
+3	nästa	nästa	ADJ	POS-SG-IND	Case=Nom|Degree=Pos	4	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4125#9'
+text='Min mor låg vaken och begrundade detta och nästa morgon rådfrågade hon sin far med viss enträgenhet.'
+9	nästa	nästa	ADJ	POS-SG-IND	Case=Nom|Degree=Pos	10	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4162#1'
+text='Nästa morgon berättade min far för mig att vi hade uppfångat en okänd signal, som förmodades komma från en båt alldeles framför oss, men ingenting hade påträffats.'
+1	Nästa	nästa	ADJ	POS-SG-IND	Case=Nom|Degree=Pos	2	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc5-3722#11'
+text='Just därför är till att börja med en klar strategi nödvändig här.'
+11	nödvändig	nödvändig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	0	root	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3580#18'
+text='Två ungdomar med enfaldiga, förväntansfulla ansikten lotsades just in, och hon kastade samma blick av oberörd allvetenhet på dem.'
+18	oberörd	oberörd	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	19	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3597#24'
+text='Det var en orakad liten typ klädd i någonting luggslitet kaftanaktigt och med tofflor på fötterna, och jag tyckte han var en oförarglig tok.'
+24	oförarglig	oförarglig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	25	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4094#7'
+text='Nu när jag officiellt hade förklarats ointelligent började far ta med mig på sina affärsresor.'
+7	ointelligent	ointelligent	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	6	xcomp	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4066#14'
+text='De slank ut ur köket och genom en smal korridor fram till en ojämn trappa, som vindlade i sicksack upp genom huset.'
+14	ojämn	ojämn	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	15	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc3-3557#39'
+text='New York Times har det utan tvivel, men i mina ögon är den tidningen en regering inom regeringen. Den har ett eget utrikesdepartement, och dess högsta råd har antagligen bestämt sig för att det vore oklok politik i detta ögonblick att dra uppmärksamheten till Sadats beundran för Hitler.'
+39	oklok	oklok	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	40	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3839#86'
+text='Jason skulle inte komma hem med något gyllene skinn, det kan du skriva opp (Jason Malenga var den nye finansministern); nej, det var faktiskt inte så dumt att den brittiska polischefen inte fick stanna, folk jämförde alltid med Kongo, dom idioterna, men den afrikanska ställföreträdaren, Aaron Onabu, var absolut i stånd att ta vid efter den där oduglingen; Talisman Gwenzi var förstklassig och en pålitlig Mwetaman, David Sambata var än så länge en okänd storhet vad beträffar jordbruksdepartementet'
+86	okänd	okänd	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	87	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4162#13'
+text='Nästa morgon berättade min far för mig att vi hade uppfångat en okänd signal, som förmodades komma från en båt alldeles framför oss, men ingenting hade påträffats.'
+13	okänd	okänd	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	14	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3367#85'
+text='Där fanns män och kvinnor, barn och åldringar, tonåringar och spädbarn, rika människor och fattiga människor, svarta män och vita kvinnor, vita män och svarta kvinnor, orientaler och araber, män i brunt och grått och blått och grönt, kvinnor i rött och vitt och gult och skärt, barn i gymnastikskor, barn i vanliga skor, barn i cowboystövlar, tjocka människor och smala människor, långa människor och korta människor, var och en olik alla andra, var och en sitt eget oförminskbara jag.'
+85	olik	olik	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	2	parataxis	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4080#6'
+text='Livet i Kråkboet var så olikt livet på Privet Drive som tänkas kan.'
+6	olikt	olik	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	0	root	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4151#12'
+text='Jag har sett min far driva på världen, själv helt omedveten om vad som driver honom.'
+12	omedveten	omedveten	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	3	parataxis	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4152#6'
+text='Han trodde inte på det omedvetna, utom som en soppa av fantasier och halvminnen som förnöjde hans drömmar.'
+6	omedvetna	omedveten	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc8-4153#18'
+text='Att som jag gjorde antyda att hjärnan är ett självreglerande system, där det medvetna och det omedvetna fungerar som balanserande hissblock, väckte en sådan vrede hos honom att jag började tro att jag hade snuddat vid något väsentligt.'
+18	omedvetna	omedveten	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	15	conj	_	_
+
+sent_id='sv_lines-ud-dev-doc7-3997#37'
+text='Som ni vet har omyndiga trollkarlar inte tillåtelse att utöva magi utanför skolan, och ytterligare bruk av magi från er sida kan leda till relegering från ovannämnda skola. (Förordningen om rimlig begränsning av omyndigas trolldomsutövning, 1875, paragraf C.)'
+37	omyndigas	omyndig	ADJ	POS-PL-GEN	Case=Gen|Definite=Ind|Degree=Pos|Number=Plur	38	nmod:poss	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3395#4'
+text='Alltihop är en ond dröm.'
+4	ond	ond	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	5	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4071#28'
+text='Han spärrade upp ögonen, för det var som att vandra in i en brinnande ugn. Nästan allting i Rons rum verkade gå i en intensiv orangeröd färg: sängöverkastet, väggarna, till och med taket.'
+28	orangeröd	orangeröd	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	29	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4046#12'
+text='Snart började tomteskaran ute på fältet ställa upp sig i ett oregelbundet led och tomtarna vandrade i väg med de små axlarna uppdragna till öronen.'
+12	oregelbundet	oregelbunden	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	13	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3937#6'
+text='Den där lilla flickan med orientaliskt utseende som är tillsammans med Ras?'
+6	orientaliskt	orientalisk	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3610#12'
+text='Det måste varenda läkare vara – åtminstone något, svarade den originelle mannen orubbligt.'
+12	originelle	originell	ADJ	POS-SG-IND	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	13	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4027#22'
+text='Utmattad, med knorrande mage och huvudet surrande av alla frågor som inte gick att besvara, föll Harry i en orolig sömn.'
+22	orolig	orolig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	23	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3373#1'
+text='Orörlig mitt i den framvällande folkmassan stod han där och tittade.'
+1	Orörlig	orörlig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	7	xcomp	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4001#3'
+text='Byrån för otillåtet utövande av magi'
+3	otillåtet	otillåten	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	4	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3642#16'
+text='Ditsläpade från alla kustens skrymslen, allt enligt fullt lagliga anställningskontrakt, bortkomna i en ovan miljö med främmande kost, sjuknade de, förlorade arbetsförmågan och tilläts sedan att krypa undan och vila.'
+16	ovan	ovan	ADJ	POS-SG-IND	Case=Nom	17	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc3-3538#31'
+text='En indignerad bibliotekarie, en medelålders kvinna vars ansikte hettar så att det nästan doftar av förtrytelse, kräver mig på besked med en ytterst distingerad accent, nära nog oxfordsk: "Hur kan ni förklara det!"'
+31	oxfordsk	oxfordsk	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	27	amod	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc4-3656#28'
+text='Det ena höll hakan mot knäna och stirrade på ett outhärdligt och hemskt sätt ut i tomma intet; hans medspöke vilade pannan, liksom överväldigad av oändlig trötthet; och runt omkring var andra kringspridda i varje tänkbar ställning av förvriden kollaps – som på någon tavla av en massaker eller en förhärjande farsot.'
+28	oändlig	oändlig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	29	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3887#27'
+text='Sir Reginald Harvey var styrelseordförande i ett konsortium som bestod av de tre gruvkoncessionsbolagen, och det var allmänt bekant att han i sin egenskap av personlig vän till Redvers Ledley, den mest impopuläre guvernör som territoriet någonsin haft, hade förmått guvernören att förbjuda gruvarbetarförbundet vid en tidpunkt då Mweta och Shinza utnyttjade det för att främja frihetsrörelsen.'
+27	personlig	personlig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	28	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc5-3802#13'
+text='Det första gäller ändringen att man inte längre skall få bilda en politisk grupp med ledamöter från bara ett land.'
+13	politisk	politisk	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	14	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3942#7'
+text='De dansande skockade sig kring en polsk jordbrukstekniker, som försökte lära en gänglig engelsman och två unga afrikaner en östeuropeisk folkdans.'
+7	polsk	polsk	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3866#38'
+text='Du kan ju ta och fråga Mweta om du får en chans att tala med honom, fråga om han inte tänker försöka hitta på något litet struntjobb åt honom nånstans, nånting med en snygg och prydlig etikett på, åt stackars gamla Shinza, han som bankade på kolonialministerns dörr med en panga redan medan Mweta var en liten snorunge som satt och sjöng psalmer oppe i missionsskolan.'
+38	prydlig	prydlig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	36	conj	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4075#14'
+text='Harry klev över en självblandande kortlek på golvet och tittade ut genom det pyttelilla fönstret.'
+14	pyttelilla	pytteliten	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	15	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3839#76'
+text='Jason skulle inte komma hem med något gyllene skinn, det kan du skriva opp (Jason Malenga var den nye finansministern); nej, det var faktiskt inte så dumt att den brittiska polischefen inte fick stanna, folk jämförde alltid med Kongo, dom idioterna, men den afrikanska ställföreträdaren, Aaron Onabu, var absolut i stånd att ta vid efter den där oduglingen; Talisman Gwenzi var förstklassig och en pålitlig Mwetaman, David Sambata var än så länge en okänd storhet vad beträffar jordbruksdepartementet'
+76	pålitlig	pålitlig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	77	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3588#2'
+text='En ren formalitet, försäkrade sekreteraren, med en uppsyn som om han tog den livligaste del i alla mina vedermödor.'
+2	ren	ren	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	3	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc3-3501#21'
+text='I min insändare till Le Monde hade jag förklarat att det fanns två traditionella franska inställningar till judarna: en revolutionär inställning, som ledde till att de fick medborgerliga rättigheter, och en antisemitisk.'
+21	revolutionär	revolutionär	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	22	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc3-3455#6'
+text='Hans kyrka är vördnadsvärd, rik och vacker.'
+6	rik	rik	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	4	conj	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3370#32'
+text='De kom och gick i alltför snabb följd för att han skulle hinna uppleva någon besvikelse, men i varje gammalt ansikte tyckte han sig se en föraning om hur den riktige Stillman skulle komma att se ut och han flyttade snabbt över sina förväntningar från ansikte till ansikte, som tjänade det ackumulerade antalet åldringar som ett allt säkrare förebud om Stillmans snara ankomst.'
+32	riktige	riktig	ADJ	POS-SG-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	33	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4036#6'
+text='"det här är en riktig tomtenisse", sade han bistert.'
+6	riktig	riktig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	7	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-3997#34'
+text='Som ni vet har omyndiga trollkarlar inte tillåtelse att utöva magi utanför skolan, och ytterligare bruk av magi från er sida kan leda till relegering från ovannämnda skola. (Förordningen om rimlig begränsning av omyndigas trolldomsutövning, 1875, paragraf C.)'
+34	rimlig	rimlig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	35	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc3-3573#6'
+text='Kanske finns det en sorts romantisk Vautrinbeundran i detta.'
+6	romantisk	romantisk	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4176#10'
+text='Den lille pojken hade aldrig sett ett spädbarn lika rosa som en vargtunga.'
+10	rosa	rosa	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	8	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3323#16'
+text='På vänstra kinden hade hon ett stort antal blemmor som hon försökte dölja med någon rosaaktig smetig makeupkräm och hennes mun smackade av tuggummi.'
+16	rosaaktig	rosaaktig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	18	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3353#5'
+text='Tåget väntades in i rätt tid och Quinn ansåg sig ha goda chanser att få syn på Stillman från sin plats precis framför grinden ut till perrongen.'
+5	rätt	rätt	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	6	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3433#16'
+text='Ibland hamnar ledningarna i kors och en person kan komma fel även om han slår rätt nummer.'
+16	rätt	rätt	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	17	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3306#31'
+text='Quinn kände hur någon grep honom i armen och när han snurrade runt för att möta anfallet fick han se en kortvuxen man som tigande höll fram en grön och röd kulspetspenna mot honom.'
+31	röd	röd	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	29	conj	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3367#49'
+text='Där fanns män och kvinnor, barn och åldringar, tonåringar och spädbarn, rika människor och fattiga människor, svarta män och vita kvinnor, vita män och svarta kvinnor, orientaler och araber, män i brunt och grått och blått och grönt, kvinnor i rött och vitt och gult och skärt, barn i gymnastikskor, barn i vanliga skor, barn i cowboystövlar, tjocka människor och smala människor, långa människor och korta människor, var och en olik alla andra, var och en sitt eget oförminskbara jag.'
+49	rött	röd	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	47	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3674#5'
+text='Han blev en aning röd om kinderna och sa anspråkslöst: Jag har lärt upp en av infödingskvinnorna här vid stationen.'
+5	röd	röd	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	2	xcomp	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4031#15'
+text='"Var inte löjlig, Fred", sade mrs Weasley och blev lite röd om kinderna.'
+15	röd	röd	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	13	xcomp	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4051#21'
+text='Han var en mager man, på väg att bli skallig, men det lilla hår han hade var lika rött som barnens.'
+21	rött	röd	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	5	conj	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3605#13'
+text='Har ni något fall av galenskap i släkten? frågade han i saklig ton.'
+13	saklig	saklig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	14	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3687#25'
+text='När en fältsäng med en sjukling (en agent från någon plats längre in i landet) placerades därinne gav han luft åt en saktmodig förargelse:'
+25	saktmodig	saktmodig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	26	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc1-3190#6'
+text='SQL Server måste köras på samma dator som Access-projektet.'
+6	samma	samma	ADJ	POS-IND	Definite=Ind|PronType=Ind	7	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc1-3196#19'
+text='XML (Extensible Markup Language) är standardspråket för att beskriva och överföra data på webbplatser, på samma sätt som HTML (Hypertext Markup Language) är standardspråket för att skapa och visa webbsidor.'
+19	samma	samma	ADJ	POS-IND	Definite=Ind|PronType=Ind	20	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc1-3249#14'
+text='Om du tar bort ett fält och sedan lägger till det igen kommer samma poster som tidigare att döljas.'
+14	samma	samma	ADJ	POS-IND	Definite=Ind|PronType=Ind	15	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc1-3262#14'
+text='Du kan ändra storleken på en kontroll med hjälp av storlekshandtagen eller använda samma höjd och bredd som för en annan kontroll.'
+14	samma	samma	ADJ	POS-IND	Definite=Ind|PronType=Ind	15	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc1-3280#11'
+text='Du kan ändra egenskapsinställningar för en grupp av kontroller av samma typ eller för en grupp av kontroller av olika typer.'
+11	samma	samma	ADJ	POS-IND	Definite=Ind|PronType=Ind	12	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc1-3282#5'
+text='Om alla kontrollerna har samma egenskapsinställning visas den i egenskapsrutan. Annars är just den rutan tom.'
+5	samma	samma	ADJ	POS-IND	Definite=Ind|PronType=Ind	6	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3347#13'
+text='Han tänkte just berätta för henne vem han var men insåg i samma stund att det inte skulle göra någon som helst skillnad.'
+13	samma	samma	ADJ	POS-IND	Definite=Ind|PronType=Ind	14	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3357#30'
+text='Från barndom till ålderdom förblev de desamma och om man hade förmågan skulle man teoretiskt alltså kunna se på ett par pojkögon på ett fotografi och sedan känna igen samma person som gammal.'
+30	samma	samma	ADJ	POS-IND	Definite=Ind|PronType=Ind	31	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3399#5'
+text='Ända sedan Stillmans försvinnande samma morgon hade han känt ett växande tryck inom sig och nu utlöstes det i en strid ordström.'
+5	samma	samma	ADJ	POS-IND	Definite=Ind|PronType=Ind	6	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3580#15'
+text='Två ungdomar med enfaldiga, förväntansfulla ansikten lotsades just in, och hon kastade samma blick av oberörd allvetenhet på dem.'
+15	samma	samma	ADJ	POS-IND	Definite=Ind|PronType=Ind	16	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3655#2'
+text='Nära samma träd satt två andra gytter av spetsiga vinklar med knäna uppdragna.'
+2	samma	samma	ADJ	POS-IND	Definite=Ind|PronType=Ind	3	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc5-3753#18'
+text='Det finns alltså en konflikt mellan avgiftsmålen och skattemålen, eftersom man inte kan få allt på samma gång.'
+18	samma	samma	ADJ	POS-IND	Definite=Ind|PronType=Ind	19	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3869#7'
+text='Han höll sig till en och samma i flera månader, varpå han plötsligt, av ständigt ungefär samma goda skäl (han tålde den bättre för magen han fick inte riktigt lika svår törst efteråt) övergick till någon annan.'
+7	samma	samma	ADJ	POS-IND	Definite=Ind|PronType=Ind	5	conj	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3869#19'
+text='Han höll sig till en och samma i flera månader, varpå han plötsligt, av ständigt ungefär samma goda skäl (han tålde den bättre för magen han fick inte riktigt lika svår törst efteråt) övergick till någon annan.'
+19	samma	samma	ADJ	POS-IND	Definite=Ind|PronType=Ind	21	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3904#2'
+text='Sak samma vad man kommer med för förslag... dom pratar bara bort alltsammans i cigarrettröken, ingen människa bryr sig ens om att lyssna.'
+2	samma	samma	ADJ	POS-IND	Definite=Ind|PronType=Ind	1	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3921#16'
+text='Men i alla fall... äntligen har jag lyckats få tag på en som har samma nummer som jag.'
+16	samma	samma	ADJ	POS-IND	Definite=Ind|PronType=Ind	17	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4072#17'
+text='Sedan upptäckte Harry att Ron hade täckt varenda centimeter av den slitna tapeten med affischer av samma sju häxor och trollkarlar, som alla var iförda lysande orangefärgade klädnader, bar på kvastkäppar och vinkade ivrigt till dem.'
+17	samma	samma	ADJ	POS-IND	Definite=Ind|PronType=Ind	19	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc3-3464#6'
+text='Vi kommer snart in på samtida angelägenheter.'
+6	samtida	samtida	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	7	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3394#4'
+text='Om det är sant är allt hopp ute.'
+4	sant	sann	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	5	advmod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3938#7'
+text='Just det. Förtjusande... inte sant?'
+7	sant	sann	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	4	parataxis	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc8-4198#7'
+text='Nattetid, eller för att vara sanningsenlig, tre nätter i veckan stod han vid rodret på en bogserbåt.'
+7	sanningsenlig	sanningsenlig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	10	advcl	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc7-3992#22'
+text='Harry stod i köket och höll ett hårt tag om moppen som stöd då morbror Vernon kom emot honom med en satanisk glimt i sina små grisögon.'
+22	satanisk	satanisk	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	23	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3304#13'
+text='Därifrån vandrade hans tankar över till de beskrivningar han läst om Melvilles sista år – den tystlåtne gamle mannen som arbetade på tullen i New York och inte hade några läsare och var bortglömd av alla.'
+13	sista	sista	ADJ	SPL	Case=Nom|Definite=Ind|Degree=Sup	14	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3432#11'
+text='Ni har inte möjligen haft problem med er telefon på sista tiden?'
+11	sista	sista	ADJ	SPL	Case=Nom|Definite=Ind|Degree=Sup	12	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc3-3478#13'
+text='Jag minns mycket väl vad intelligenta, upplysta människor sa under Weimarrepublikens sista år, vad de förklarade för varandra under den första tiden då Hindenburg hade fört fram Hitler.'
+13	sista	sista	ADJ	SPL	Case=Nom|Definite=Ind|Degree=Sup	14	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc5-3770#2'
+text='En sista kommentar: de politiska områden som står i centrum för vår debatt är en del av en helhet.'
+2	sista	sista	ADJ	SPL	Case=Nom|Definite=Ind|Degree=Sup	3	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3688#2'
+text='Den sjuke stönar så att jag inte kan hålla ihop tankarna.'
+2	sjuke	sjuk	ADJ	POS-SG-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	3	nsubj	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3695#2'
+text='Den sjuke var för sjuk för att stöna.'
+2	sjuke	sjuk	ADJ	POS-SG-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	3	nsubj	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3695#5'
+text='Den sjuke var för sjuk för att stöna.'
+5	sjuk	sjuk	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	2	xcomp	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3302#11'
+text='Se på allt med Austers ögon, tillhöll han sig själv, och tänk inte på något annat!'
+11	själv	själv	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	10	amod	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc2-3325#11'
+text='Till hans stora häpnad var det en bok som han själv hade skrivit – Suicide Squeeze av William Wilson, den första av hans romaner om Max Work.'
+11	själv	själv	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	10	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3327#17'
+text='Han hade till och med tänkt sig in i det samtal som skulle följa: han själv skulle med mild förlägenhet åhöra främlingens lovord över boken för att sedan under blyga protester gå med på att signera titelsidan "eftersom ni så enträget ber om det".'
+17	själv	själv	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	16	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3337#12'
+text='Innan han hunnit resa sig och gå därifrån hörde han sig själv säga: Tycker ni den är spännande?'
+12	själv	själv	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	11	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3363#15'
+text='Men det hjälpte föga: tvärt emot vad han hade väntat sig av sig själv i ett ögonblick som detta var han mycket spänd.'
+15	själv	själv	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	14	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3408#10'
+text='Han gav checken till Auster med orden: Se själv.'
+10	själv	själv	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	9	advmod	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc2-3418#9'
+text='Det är klart att ni ska ha dem själv, sa Auster och tänkte efter en stund.'
+9	själv	själv	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	7	advmod	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc3-3535#9'
+text='Vandring bland gravarna tills jag börjar betrakta mig själv som en av de djävulsbesatta."'
+9	själv	själv	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	8	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3591#49'
+text='Doktorn hade inte kommit än, så jag föreslog att vi skulle ta oss ett glas. Det gjorde honom så småningom helt fryntlig, och där vi satt vid vår vermouth lovsjöng han så entusiastiskt bolagets verksamhet att jag slutligen uttryckte min förvåning över att han inte själv rest dit ut.'
+49	själv	själv	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	50	advmod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3831#17'
+text='Han lyssnade till bushen och greps av den gamla känslan, i bushen, av att själv vara föremål för lyssnande.'
+17	själv	själv	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	18	advmod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3885#3'
+text='Sir Reginald själv kommer att överlämna ett skrivbord i buta-trä och ett skrivställ i silver till Mweta... det ska gå av stapeln på tisdag eftermiddag.'
+3	själv	själv	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	2	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3963#1'
+text='Själv kände han sig som den medelålders släktingen, en man med vaga antecedentia som kommit fjärran ifrån till bröllopet och hjälplöst och inte utan ett visst nöje dragits in i virveln av förehavanden.'
+1	Själv	själv	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	2	dislocated	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4008#3'
+text='Han monterade själv in kattluckan i sovrumsdörren, så att små mängder mat kunde skjutas in genom den tre gånger om dagen.'
+3	själv	själv	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	2	advmod	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4113#20'
+text='Jag tror att det är detta som håller på att ske, men eftersom jag inte känner igen mig själv säger jag att det är någon annan: han, hon, de, som bär ansvaret.'
+20	själv	själv	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	19	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4135#10'
+text='Han var inte hänsynslös men han trodde på sig själv.'
+10	själv	själv	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	9	amod	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc8-4137#13'
+text='Farmor, som inte var nervös av sig, sa för sig själv: "David måste ha fått sin befordran."'
+13	själv	själv	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	12	amod	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc8-4146#6'
+text='Jag skulle kunna råda mig själv till att hålla mig borta från komplikationer, och jag ska inte ge sken av att inte ha haft något val i allt detta.'
+6	själv	själv	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	5	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4151#10'
+text='Jag har sett min far driva på världen, själv helt omedveten om vad som driver honom.'
+10	själv	själv	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	12	nsubj	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4181#16'
+text='Han sa att det var den enda platsen i världen där man kunde vara sig själv samtidigt som man jobbade ihjäl sig för att bli någon annan."'
+16	själv	själv	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	15	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4051#11'
+text='Han var en mager man, på väg att bli skallig, men det lilla hår han hade var lika rött som barnens.'
+11	skallig	skallig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	10	xcomp	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc4-3657#5'
+text='Medan jag stod där skräckslagen reste sig en av varelserna på alla fyra och kröp ner till floden för att dricka.'
+5	skräckslagen	skräckslagen	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	3	xcomp	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4079#4'
+text='Ron blev alldeles skär om öronen.'
+4	skär	skär	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	2	xcomp	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3901#2'
+text='En slank liten vit flicka gled ner mellan dem och lyfte Ras Asahes hand med det förgyllda urarmbandet som om den hade varit en av hennes tillhörigheter som hon hade lagt ifrån sig:'
+2	slank	slank	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	5	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3953#14'
+text='Det var Rebecca, Rebecca Edwards, som påminde om en stor, slarvig skolflicka i sin bomullsskjorta och sina sandaler och med bilnyckeln ständigt dinglande, rastlöst klirrande, i pekfingret.'
+14	slarvig	slarvig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	15	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4052#13'
+text='Han hade på sig en lång grön klädnad som var dammig och sliten av alla resor.'
+13	sliten	sliten	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	11	conj	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4072#12'
+text='Sedan upptäckte Harry att Ron hade täckt varenda centimeter av den slitna tapeten med affischer av samma sju häxor och trollkarlar, som alla var iförda lysande orangefärgade klädnader, bar på kvastkäppar och vinkade ivrigt till dem.'
+12	slitna	sliten	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	13	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3896#45'
+text='Man behöver inte kläcka några idéer, man behöver inte ens resa sig från stolen, man nöjer sig helt enkelt med att åstadkomma ljud ur den magiska lådan för att hålla infödingarna på mattan... och nu – pang! – är det slut med hela härligheten, inklusive den enda drivfjäder dom nånsin har haft, pensionen.'
+45	slut	slut	ADJ	POS-IND	Case=Nom|Degree=Pos	18	conj	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3905#52'
+text='Flickan ingick i deras konversation ungefär som ett foto som man hittar liggande mellan sidorna i en bok; Bray var inte säker på om hon var barn eller kvinna: smäckra nyckelben, lång hals och ett nätt och jämnt bredare ansikte, blekt och glåmigt: en stor, smal, osminkad mun, svart hår och glittrande, sorgsna svarta ögon.'
+52	smal	smal	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	55	amod	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc7-4066#9'
+text='De slank ut ur köket och genom en smal korridor fram till en ojämn trappa, som vindlade i sicksack upp genom huset.'
+9	smal	smal	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	10	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3339#4'
+text='Är det en smart detektiv?'
+4	smart	smart	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	5	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3340#5'
+text='Jadå, han är smart. Men han pratar för mycket.'
+5	smart	smart	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc8-4197#6'
+text='Dagtid var min far en smart och ständigt allt smartare man.'
+6	smart	smart	ADJ	POS-SG-IND-NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	11	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3323#17'
+text='På vänstra kinden hade hon ett stort antal blemmor som hon försökte dölja med någon rosaaktig smetig makeupkräm och hennes mun smackade av tuggummi.'
+17	smetig	smetig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	18	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3827#60'
+text='Kraftiga, prunkande buskar, hibiskus med de stora blommorna nersölade av pollen och myror och poinsettia, som dröp av ett mjölkvitt sekret, stod i full blom och gav ett sken av fruktbarhet åt den röda, magra jorden som skymtade hård och förbränd under gräset, piskad till gyttja av regn under träden, lös och smulig bara där myror hade förtärt den och åstadkommit små spröda tunnlar.'
+60	smulig	smulig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	44	conj	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3905#32'
+text='Flickan ingick i deras konversation ungefär som ett foto som man hittar liggande mellan sidorna i en bok; Bray var inte säker på om hon var barn eller kvinna: smäckra nyckelben, lång hals och ett nätt och jämnt bredare ansikte, blekt och glåmigt: en stor, smal, osminkad mun, svart hår och glittrande, sorgsna svarta ögon.'
+32	smäckra	smäcker	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	33	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3370#7'
+text='De kom och gick i alltför snabb följd för att han skulle hinna uppleva någon besvikelse, men i varje gammalt ansikte tyckte han sig se en föraning om hur den riktige Stillman skulle komma att se ut och han flyttade snabbt över sina förväntningar från ansikte till ansikte, som tjänade det ackumulerade antalet åldringar som ett allt säkrare förebud om Stillmans snara ankomst.'
+7	snabb	snabb	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	8	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3670#18'
+text='Han såg visserligen ut som en perukmakarskylt, men i all nedsumpningen runt omkring höll han sig snygg och fin.'
+18	snygg	snygg	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	15	xcomp	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3866#36'
+text='Du kan ju ta och fråga Mweta om du får en chans att tala med honom, fråga om han inte tänker försöka hitta på något litet struntjobb åt honom nånstans, nånting med en snygg och prydlig etikett på, åt stackars gamla Shinza, han som bankade på kolonialministerns dörr med en panga redan medan Mweta var en liten snorunge som satt och sjöng psalmer oppe i missionsskolan.'
+36	snygg	snygg	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	39	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4087#2'
+text='En solig morgon ungefär en vecka efter Harrys ankomst till Kråkboet fick han ett meddelande från Hogwarts.'
+2	solig	solig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	3	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3905#62'
+text='Flickan ingick i deras konversation ungefär som ett foto som man hittar liggande mellan sidorna i en bok; Bray var inte säker på om hon var barn eller kvinna: smäckra nyckelben, lång hals och ett nätt och jämnt bredare ansikte, blekt och glåmigt: en stor, smal, osminkad mun, svart hår och glittrande, sorgsna svarta ögon.'
+62	sorgsna	sorgsen	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	64	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc1-3227#31'
+text='Genom att använda ett schema kan du se till att alla XML-dokument som används för att importera data till Access eller exportera data från Access till något annat format innehåller specifik information och överensstämmer med en definierad struktur.'
+31	specifik	specifik	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	32	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc3-3532#2'
+text='De spetälskas by hus vända mot muren Sion.'
+2	spetälskas	spetälsk	ADJ	POS-PL-GEN	Case=Gen|Definite=Def|Degree=Pos|Number=Plur	3	nmod:poss	_	_
+
+sent_id='sv_lines-ud-dev-doc3-3545#36'
+text='Jag hoppas att den kärlek de skänker oss är av bättre kvalitet än den de får av oss, för vår egen är av en mycket lågklassig uppåtsipprande växtsaftsliknande sort som är lika kortlivad som spontan.'
+36	spontan	spontan	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	34	amod	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc2-3363#24'
+text='Men det hjälpte föga: tvärt emot vad han hade väntat sig av sig själv i ett ögonblick som detta var han mycket spänd.'
+24	spänd	spänd	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	3	conj	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc6-3866#43'
+text='Du kan ju ta och fråga Mweta om du får en chans att tala med honom, fråga om han inte tänker försöka hitta på något litet struntjobb åt honom nånstans, nånting med en snygg och prydlig etikett på, åt stackars gamla Shinza, han som bankade på kolonialministerns dörr med en panga redan medan Mweta var en liten snorunge som satt och sjöng psalmer oppe i missionsskolan.'
+43	stackars	stackars	ADJ	POS	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	45	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3876#3'
+text='Ja, stackars gamla Shinza, det är vad alla människor säger.'
+3	stackars	stackars	ADJ	POS	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	5	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3877#1'
+text='Stackars gamla Dando!'
+1	Stackars	stackars	ADJ	POS	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	3	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc5-3712#2'
+text='En stark euro kommer alltså att straffa exporten av europeiska jordbruksprodukter.'
+2	stark	stark	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	3	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4028#10'
+text='På framsidan fanns ett stort fotografi av en mycket stilig trollkarl med vågigt blont hår och klarblå ögon.'
+10	stilig	stilig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	11	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3601#6'
+text='Han smålog som åt något stilla skämt.'
+6	stilla	stilla	ADJ	POS-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3824#16'
+text='Roly var ungkarl, och hans hus var ett uttryck för den specifika blandning av stillsam lyx och enahanda tristess som är ett kännetecken för de hushåll där vita män lever helt och hållet omhändertagna av manliga svarta tjänare.'
+16	stillsam	stillsam	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	17	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3329#30'
+text='Han tyckte inte alls om flickan som satt där bredvid honom och det sårade honom att hon satt där och nonchalant skummade igenom de sidor som kostat honom så stor möda.'
+30	stor	stor	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	31	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3402#8'
+text='Nej, svarade Auster, som med stor uppmärksamhet lyssnat till Quinns monolog.'
+8	stor	stor	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	9	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3404#6'
+text='Dessa ord kom som en stor lättnad för Quinn, som kände att han äntligen fått någon att dela sin börda med.'
+6	stor	stor	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	7	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc3-3487#28'
+text='I Anna Scherers salong diskuterar de eleganta gästerna skandalen med Napoleon och hertigen av Enghien, och furst Andrej säger att det när allt kommer omkring är stor skillnad på kejsaren Napoleon och privatpersonen Napoleon.'
+28	stor	stor	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	29	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3662#16'
+text='Håret benat, borstat, pomaderat under ett grönfodrat parasoll som han höll med en stor, vit hand.'
+16	stor	stor	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	19	amod	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc6-3905#50'
+text='Flickan ingick i deras konversation ungefär som ett foto som man hittar liggande mellan sidorna i en bok; Bray var inte säker på om hon var barn eller kvinna: smäckra nyckelben, lång hals och ett nätt och jämnt bredare ansikte, blekt och glåmigt: en stor, smal, osminkad mun, svart hår och glittrande, sorgsna svarta ögon.'
+50	stor	stor	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	55	amod	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc6-3914#46'
+text='Också hon talade med amerikansk brytning, och i sin praktfulla nationaldräkt, vilken hon svept om sig som om hon ryckt åt sig ett stycke tyg direkt från den färggranna packen på en butiksdisk, verkade hon på alla tänkbara sätt minst dubbelt så stor som de lokala afrikanska kvinnorna, som vanligtvis hölls i hemmet, vilket också syntes på dem.'
+46	stor	stor	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	37	xcomp	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3953#12'
+text='Det var Rebecca, Rebecca Edwards, som påminde om en stor, slarvig skolflicka i sin bomullsskjorta och sina sandaler och med bilnyckeln ständigt dinglande, rastlöst klirrande, i pekfingret.'
+12	stor	stor	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	15	amod	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc7-4033#3'
+text='Trädgården var stor och i Harrys ögon såg den ut precis som en trädgård borde.'
+3	stor	stor	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	0	root	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4034#42'
+text='Familjen Dursley skulle inte ha gillat den – det fanns massor med ogräs och gräset behövde klippas – men det växte knotiga träd överallt runt murarna, plantor som Harry aldrig hade sett vällde fram ur rabatterna och där fanns en stor grön damm full med grodor.'
+42	stor	stor	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	44	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4133#15'
+text='Där var han, byggd som King-Kong, ärelysten som Empire State Building, storögd som Fay Wray och lika mycket en dröm, ett fantasifoster, som filmerna och som Amerika i sig självt.'
+15	storögd	storögd	ADJ	AD-SG-IND	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	conj	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3399#21'
+text='Ända sedan Stillmans försvinnande samma morgon hade han känt ett växande tryck inom sig och nu utlöstes det i en strid ordström.'
+21	strid	strid	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	22	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3959#7'
+text='Barn rusade ut och in på stridslysten jakt efter förströelse.'
+7	stridslysten	stridslysten	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3577#5'
+text='Hon hade någon sorts styvstärkt vitt huckle på huvudet och en vårta på näsan, och silverbågade glasögon hängde på nästippen.'
+5	styvstärkt	styvstärkt	ADJ	AD-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc3-3454#5'
+text='Ärkebiskopen är faktiskt mycket ståtlig med sina fylliga kinder, sina avlånga klara mörkgröna ögon och det korta kraftfulla skägget.'
+5	ståtlig	ståtlig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	0	root	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3838#3'
+text='En gammal svart labrador med förhårdnader på armbågarna stod och viftade långsamt med svansen framför Dando medan han talade.'
+3	svart	svart	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	4	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3905#57'
+text='Flickan ingick i deras konversation ungefär som ett foto som man hittar liggande mellan sidorna i en bok; Bray var inte säker på om hon var barn eller kvinna: smäckra nyckelben, lång hals och ett nätt och jämnt bredare ansikte, blekt och glåmigt: en stor, smal, osminkad mun, svart hår och glittrande, sorgsna svarta ögon.'
+57	svart	svart	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	58	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3869#34'
+text='Han höll sig till en och samma i flera månader, varpå han plötsligt, av ständigt ungefär samma goda skäl (han tålde den bättre för magen han fick inte riktigt lika svår törst efteråt) övergick till någon annan.'
+34	svår	svår	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	35	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4081#13'
+text='Familjen Dursley ville att allt hos dem skulle vara prydligt och i systematisk ordning; hos familjen Weasley däremot råkade man hela tiden ut för konstiga och oväntade saker.'
+13	systematisk	systematisk	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	14	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3835#18'
+text='Han kastade en ängslig blick från bilen som om han, trots telefonsamtalet, inte var riktigt säker på att Bray hade blivit ordentligt omhändertagen, men när han väl fick syn på honom uppträdde han precis som om de hade träffats för bara en vecka sedan.'
+18	säker	säker	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	2	advcl	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3905#23'
+text='Flickan ingick i deras konversation ungefär som ett foto som man hittar liggande mellan sidorna i en bok; Bray var inte säker på om hon var barn eller kvinna: smäckra nyckelben, lång hals och ett nätt och jämnt bredare ansikte, blekt och glåmigt: en stor, smal, osminkad mun, svart hår och glittrande, sorgsna svarta ögon.'
+23	säker	säker	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	2	parataxis	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4122#22'
+text='Vad det nu kan vara, detta ödesdigra ting som på ett avgörande sätt går in och förändrar en trygg och säker kurs.'
+22	säker	säker	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	20	conj	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3346#4'
+text='Det är inget särskilt med den alls. Det är ju bara en bok.'
+4	särskilt	särskild	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+
+sent_id='sv_lines-ud-dev-doc5-3811#18'
+text='Jag är mycket glad över att några av kollegerna under diskussionen också har uttalat sig för ett särskilt utskott.'
+18	särskilt	särskild	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	19	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc1-3289#21'
+text='Du kan till exempel gruppera ett fält med datumvärden i olika månader och ange intervallet till 2, och på så sätt skapa grupper som Jan-Feb, Mar-Apr, osv'
+21	så	sådan	ADJ	_	Case=Nom	22	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3634#3'
+text='En massa sån gallimatias hade varit i svang både i tal och skrift just vid den tiden och min kära moster som levde mitt i virveln av all denna humbug hade alldeles tappat sansen.'
+3	sån	sådan	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	4	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3958#5'
+text='Atmosfären på tillställningarna var sådan som han föreställde sig att den måste ha varit vid de fester som brukade skildras i ryska 1800-talsromaner.'
+5	sådan	sådan	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	0	root	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4153#26'
+text='Att som jag gjorde antyda att hjärnan är ett självreglerande system, där det medvetna och det omedvetna fungerar som balanserande hissblock, väckte en sådan vrede hos honom att jag började tro att jag hade snuddat vid något väsentligt.'
+26	sådan	sådan	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	27	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3848#23'
+text='Edward Shinza är en av de få som verkligen gjorde en insats och fick skallen spräckt på den tiden av Hennes Majestäts tappra gossar, och var är han nu... borta i Bashi Flats bland sina gamla hustrur för allt vad jag vet... ingen nämner nånsin ens hans namn.'
+23	tappra	tapper	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	24	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4044#3'
+text='Luften var tjock av flygande tomtenissar.'
+3	tjock	tjock	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	0	root	_	_
+
+sent_id='sv_lines-ud-dev-doc1-3282#17'
+text='Om alla kontrollerna har samma egenskapsinställning visas den i egenskapsrutan. Annars är just den rutan tom.'
+17	tom	tom	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	7	conj	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc2-3305#12'
+text='Sedan såg han plötsligt klart och detaljerat Bartlebys skyltfönster och den tomma tegelväggen rakt framför sig.'
+12	tomma	tom	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	13	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3646#27'
+text='Det svarta benranglet låg utsträckt med ena axeln mot ett träd, ögonlocken lyftes långsamt och de insjunkna ögonen såg upp mot mig, stora och tomma med liksom ett blint, vitt fladder längst in, som långsamt dog bort.'
+27	tomma	tom	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	25	conj	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3656#17'
+text='Det ena höll hakan mot knäna och stirrade på ett outhärdligt och hemskt sätt ut i tomma intet; hans medspöke vilade pannan, liksom överväldigad av oändlig trötthet; och runt omkring var andra kringspridda i varje tänkbar ställning av förvriden kollaps – som på någon tavla av en massaker eller en förhärjande farsot.'
+17	tomma	tom	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	18	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4020#22'
+text='Sedan gick han tvärs över rummet till Hedwigs bur och stjälpte de våta grönsakerna i bottnen på skålen ner på hennes tomma matbricka.'
+22	tomma	tom	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	23	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4022#5'
+text='Han satte tillbaka den tomma skålen på golvet intill kattluckan och lade sig ner på sängen, på något konstigt vis ännu hungrigare än han hade varit före soppan.'
+5	tomma	tom	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	6	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4134#8'
+text='Han var en jättelik projektionsbild på omvärldens tomma filmduk och detta var grunden till hans framgång.'
+8	tomma	tom	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos	9	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-3974#1'
+text='Torr i munnen och med en sjunkande känsla i magen sprang Harry efter honom så ljudlöst som möjligt.'
+1	Torr	torr	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	11	advmod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-3980#5'
+text='Dobby gav honom en tragisk blick.'
+5	tragisk	tragisk	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3629#46'
+text='Jag blev bjuden på te, det sista hyggliga teet på mången god dag, och i ett rum som på det mest välgörande sätt såg ut precis som man väntade sig att en gammal dams förmak skulle se ut hade vi en lång och trevlig pratstund framför brasan.'
+46	trevlig	trevlig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	44	conj	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4122#20'
+text='Vad det nu kan vara, detta ödesdigra ting som på ett avgörande sätt går in och förändrar en trygg och säker kurs.'
+20	trygg	trygg	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	23	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4200#15'
+text='Vinschar in den tjocka kabeln och lotsar in bananbåtarna, spannmålsbåtarna, båtarna med turkiskt silver och båtarna med irländare med treklövern närmast hjärtat.'
+15	turkiskt	turkisk	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3640#8'
+text='De dog långsamt, den saken var tydlig.'
+8	tydlig	tydlig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc4-3615#13'
+text='Jag skyndade mig att försäkra honom att jag på intet vis var typisk för min nation.'
+13	typisk	typisk	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	5	ccomp	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3377#3'
+text='Quinn satt tyst en stund. Han lät blicken svepa över rummet utan att se något och försökte tänka ut hur han skulle börja.'
+3	tyst	tyst	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	2	xcomp	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3589#31'
+text='Varpå en ung man med hatten ner mot ena ögonbrynet, kontorist skulle jag tro – det måste ju ha funnits en mängd personal i företaget fast hela huset var tyst som en de dödas boning – kom ner från de övre regionerna och tog mig med sig.'
+31	tyst	tyst	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	21	advmod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3817#3'
+text='Det var tyst, men så hörde han sorlet av röster i tystnaden någonstans; de hejdade sig för att hämta andan, skrattade... inte dämpat, men ljudet dämpades av att de befann sig nästan utom hörhåll.'
+3	tyst	tyst	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc2-3304#17'
+text='Därifrån vandrade hans tankar över till de beskrivningar han läst om Melvilles sista år – den tystlåtne gamle mannen som arbetade på tullen i New York och inte hade några läsare och var bortglömd av alla.'
+17	tystlåtne	tystlåten	ADJ	POS-SG-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	19	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc3-3551#4'
+text='Jag var en tänkbar proselyt, en exotisk proselyt i gamla tennisskor och tröja.'
+4	tänkbar	tänkbar	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	5	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3656#39'
+text='Det ena höll hakan mot knäna och stirrade på ett outhärdligt och hemskt sätt ut i tomma intet; hans medspöke vilade pannan, liksom överväldigad av oändlig trötthet; och runt omkring var andra kringspridda i varje tänkbar ställning av förvriden kollaps – som på någon tavla av en massaker eller en förhärjande farsot.'
+39	tänkbar	tänkbar	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	40	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3955#19'
+text='en eftermiddag kom hon för att hämta Bray i en gammal stationsvagn, bokstavligen nerlusad av karamellpapper, udda strumpor och leksaksbilar.'
+19	udda	udda	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	20	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3836#60'
+text='I likhet med många människor som lever ensamma var han indiskret och hade med sig till honom från staden – som ett barn som kommer med fickorna fullproppade med godsaker från en bjudning – massor av anekdoter och skvaller om firandet av självständigheten, öste över honom, som en sky av konfetti, gissningar och rykten, en underbar blandning av fakta och åsikter om Mwetas ställning och den krets av medarbetare som han hade samlat omkring sig.'
+60	underbar	underbar	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	61	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3296#5'
+text='Han undrade om den unge Auster hade varit bättre på det än han.'
+5	unge	ung	ADJ	POS-SG-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	6	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3317#33'
+text='Efter att ha letat i ett par tre minuter hittade han äntligen en plats på en av bänkarna där han klämde ner sig mellan en man i blå kostym och en fetlagd ung kvinna.'
+33	ung	ung	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	34	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3589#3'
+text='Varpå en ung man med hatten ner mot ena ögonbrynet, kontorist skulle jag tro – det måste ju ha funnits en mängd personal i företaget fast hela huset var tyst som en de dödas boning – kom ner från de övre regionerna och tog mig med sig.'
+3	ung	ung	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	4	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3647#3'
+text='Mannen verkade ung – nästan bara pojken – men man vet aldrig riktigt med de där.'
+3	ung	ung	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	2	xcomp	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3952#2'
+text='En ung kvinna gick ut och in i Bayleys hus, medförde ibland ytterligare tillskott till de många barn som lekte där, bar dem ibland med sig därifrån.'
+2	ung	ung	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	3	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4004#12'
+text='"Men jag kan tala om en nyhet för dig, unge man, jag tänker låsa in dig Du kommer aldrig att få fara tillbaka till den där skolan aldrig och om du försöker trolla dig ut kommer de att relegera dig!"'
+12	unge	ung	ADJ	POS-SG-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	13	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4127#2'
+text='Den unge mannen hade alldeles nyss befordrats till ansvarig för atlantfarten.'
+2	unge	ung	ADJ	POS-SG-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	3	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3816#2'
+text='Den unkna, svala luften i rummet hade värmts upp, men tröttheten hade försvunnit och han kände sig lätt och klar i huvudet.'
+2	unkna	unken	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	5	amod	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc6-3845#2'
+text='Varenda uppblåst fårskalle från bushen som någon gång fyllt hans pipa med tobak, köpt för bidrag från partiets lokalavdelning.'
+2	uppblåst	uppblåst	ADJ	AD-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	3	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3606#3'
+text='Jag blev uppbragt.'
+3	uppbragt	uppbragd	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	2	xcomp	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc8-4141#6'
+text='Kanske var det där, upplyft framför spegeln och med det främmande rummet som spegelbild i bakgrunden, som jag började fantisera om andra platser, platser som glödde starkt, precis utom räckhåll.'
+6	upplyft	upplyft	ADJ	AD-SG-IND	Case=Nom|Definite=Ind|Number=Sing	2	advcl	_	_
+
+sent_id='sv_lines-ud-dev-doc3-3478#8'
+text='Jag minns mycket väl vad intelligenta, upplysta människor sa under Weimarrepublikens sista år, vad de förklarade för varandra under den första tiden då Hindenburg hade fört fram Hitler.'
+8	upplysta	upplyst	ADJ	AD-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	9	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc3-3485#15'
+text='Historia och politik är inte alls som de föreställningar vilka utvecklats av intelligenta, upplysta människor.'
+15	upplysta	upplyst	ADJ	AD-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	16	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-3985#27'
+text='Först verkade det som om morbror Vernon skulle lyckas bortförklara hela saken. ("Bara vår systerson mycket förvirrad att träffa främmande människor gör honom upprörd, så vi lät honom stanna på övervåningen")'
+27	upprörd	upprörd	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	25	xcomp	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc3-3523#5'
+text='I stället kommer bistert uppsluppna pojkar galopperande i sporrsträck på sina åsnor mot Lejonporten.'
+5	uppsluppna	uppsluppen	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	6	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc5-3746#9'
+text='Fru ordförande! Kollegan Cox har utfört ett utmärkt arbete med kommissionens förslag.'
+9	utmärkt	utmärkt	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	10	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3646#5'
+text='Det svarta benranglet låg utsträckt med ena axeln mot ett träd, ögonlocken lyftes långsamt och de insjunkna ögonen såg upp mot mig, stora och tomma med liksom ett blint, vitt fladder längst in, som långsamt dog bort.'
+5	utsträckt	utsträckt	ADJ	AD-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	4	xcomp	_	_
+
+sent_id='sv_lines-ud-dev-doc3-3459#5'
+text='Den antika golvbeläggningen är utsökt.'
+5	utsökt	utsökt	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc3-3455#8'
+text='Hans kyrka är vördnadsvärd, rik och vacker.'
+8	vacker	vacker	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	4	conj	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc6-3947#11'
+text='Litet senare sjöng Odaras kvinna den nya nationalsången med sin vackra altröst. Den kraftiga magen dallrade under klänningen.'
+11	vackra	vacker	ADJ	POS-DEF	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4125#4'
+text='Min mor låg vaken och begrundade detta och nästa morgon rådfrågade hon sin far med viss enträgenhet.'
+4	vaken	vaken	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	3	xcomp	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3923#27'
+text='Hon höll hela tiden kontakt runt omkring sig medan de dansade, talade över axeln på honom med en bekant, sträckte ut en kraftig, valkig brun fot i guldsandal för att ge en annan en puff på smalbenet.'
+27	valkig	valkig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	29	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4005#7'
+text='Och medan han skrattade som en vansinnig släpade han med sig Harry uppför trappan.'
+7	vansinnig	vansinnig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	4	obl	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3881#6'
+text='Den lilla näsan verkade överraskande vass nu när huden hade skrumpnat på båda sidorna.'
+6	vass	vass	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	4	xcomp	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4185#6'
+text='Han borde ha varit en venetiansk köpman på Rialto.'
+6	venetiansk	venetiansk	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	7	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3692#19'
+text='Med ytterligare frågor lyckades jag få fram att mr Kurtz för närvarande förestod en handelsstation, en mycket viktig sådan, i det riktiga elfenbenslandet allra längst in.'
+19	viktig	viktig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	20	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc1-3243#4'
+text='Resultatet av ett villkorstyrt filter påverkar inte resultatet av ett annat.'
+4	villkorstyrt	villkorsstyrd	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	5	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc1-3245#7'
+text='Om du till exempel använder ett villkorstyrt filter för att visa de två städer med störst försäljning, och ett autofilter på fältet Leveransstad för att inkludera endast fem städer, visas de två städer med störst försäljning av dessa fem städer i pivottabellvyn.'
+7	villkorstyrt	villkorsstyrd	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc1-3255#8'
+text='När element i ett fält döljs av villkorsstyrd filtrering, visas en tratt till vänster om den nedrullningsbara pilen Fältpil.'
+8	villkorsstyrd	villkorsstyrd	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	9	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc3-3513#18'
+text='Den 3 juli 1976, innan Israel hade befriat gisslan i Entebbe, påpekade tidningen med en viss belåtenhet att Amin, "den oroande marskalken" som alla talade så illa om, nu hade blivit sina dåraktiga baktalares stöd och hopp.'
+18	viss	viss	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	19	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3595#16'
+text='Jaha, nog duger han därute, muttrade han och så frågade han med en viss iver om han fick ta mått av mitt huvud.'
+16	viss	viss	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	17	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3819#35'
+text='En röst skilde sig ur sorlet, kom närmare, så hördes ett lätt väsande ljud (en vattenslang, tänkte han) och han lyckades uppfånga ett ord: inte bara som en viss bestämd kombination av artikulerade ljud utan en mening:'
+35	viss	viss	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	37	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4125#16'
+text='Min mor låg vaken och begrundade detta och nästa morgon rådfrågade hon sin far med viss enträgenhet.'
+16	viss	viss	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	17	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3307#7'
+text='Fästad vid pennan satt en liten vit pappersflagga på vars ena sida det stod: Denna utmärkta vara får Du av en DÖVSTUM.'
+7	vit	vit	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	8	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3367#51'
+text='Där fanns män och kvinnor, barn och åldringar, tonåringar och spädbarn, rika människor och fattiga människor, svarta män och vita kvinnor, vita män och svarta kvinnor, orientaler och araber, män i brunt och grått och blått och grönt, kvinnor i rött och vitt och gult och skärt, barn i gymnastikskor, barn i vanliga skor, barn i cowboystövlar, tjocka människor och smala människor, långa människor och korta människor, var och en olik alla andra, var och en sitt eget oförminskbara jag.'
+51	vitt	vit	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	49	conj	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3577#6'
+text='Hon hade någon sorts styvstärkt vitt huckle på huvudet och en vårta på näsan, och silverbågade glasögon hängde på nästippen.'
+6	vitt	vit	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3646#33'
+text='Det svarta benranglet låg utsträckt med ena axeln mot ett träd, ögonlocken lyftes långsamt och de insjunkna ögonen såg upp mot mig, stora och tomma med liksom ett blint, vitt fladder längst in, som långsamt dog bort.'
+33	vitt	vit	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	34	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3650#5'
+text='Han hade knutit en vit ullgarnsända om halsen. Varför?'
+5	vit	vit	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	6	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3660#6'
+text='Nära byggnaderna mötte jag en vit man som var ett sådant under av elegans att jag i första ögonblicket trodde att jag såg i syne.'
+6	vit	vit	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	7	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3662#18'
+text='Håret benat, borstat, pomaderat under ett grönfodrat parasoll som han höll med en stor, vit hand.'
+18	vit	vit	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	19	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3901#4'
+text='En slank liten vit flicka gled ner mellan dem och lyfte Ras Asahes hand med det förgyllda urarmbandet som om den hade varit en av hennes tillhörigheter som hon hade lagt ifrån sig:'
+4	vit	vit	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	5	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3964#27'
+text='Det var på ett egendomligt sätt som ett slags fortsättning av vad han var vid de officiella mottagningarna, där åtskilliga närvarande föga anade vem den vite främlingen var som anvisats en blygsam hedersplats.'
+27	vite	vit	ADJ	POS-SG-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	28	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4110#6'
+text='Jag tar på mig en vit rock, samlar håret i nacken och intar den vederbörliga attityden till det som jag kallar mitt liv.'
+6	vit	vit	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	7	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4118#10'
+text='Där skeppet skar genom vattnet var det trasigt och vitt, men så snart fartyget hade passerat läkte vattenytan ihop och jag kunde inte urskilja var himlens svärta och vattnets svärta gick över i varandra.'
+10	vitt	vit	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	8	conj	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc7-3989#14'
+text='Moster Petunia höll just på att skicka runt en ask mintchoklad när en väldig tornuggla susade in genom matsalsfönstret, släppte ner ett brev på mrs Masons huvud och susade ut igen.'
+14	väldig	väldig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	15	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4003#5'
+text='Han liknade mest en väldig bulldog när han hotfullt närmade sig Harry med alla tänderna blottade.'
+5	väldig	väldig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc3-3569#6'
+text='"Varför är ni så vänlig mot mig?" frågar Dostojevskij.'
+6	vänlig	vänlig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	0	root	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3323#2'
+text='På vänstra kinden hade hon ett stort antal blemmor som hon försökte dölja med någon rosaaktig smetig makeupkräm och hennes mun smackade av tuggummi.'
+2	vänstra	vänster	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	3	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc3-3455#4'
+text='Hans kyrka är vördnadsvärd, rik och vacker.'
+4	vördnadsvärd	vördnadsvärd	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No
+
+sent_id='sv_lines-ud-dev-doc1-3204#10'
+text='XML är ett standardbaserat protokoll som definieras av World Wide Web Consortium (W3C).'
+10	Wide	wide	ADJ	POS-FGN	Case=Nom|Number=Sing	9	flat	_	_
+
+sent_id='sv_lines-ud-dev-doc1-3226#10'
+text='XSD är en standard som har föreslagits av World Wide Web Consortium (W3C) och som är utformad som en grundläggande infrastruktur för att beskriva typen och strukturen för XML-dokument.'
+10	Wide	wide	ADJ	POS-FGN	Degree=Pos	9	flat	_	_
+
+sent_id='sv_lines-ud-dev-doc7-4040#22'
+text='När Ron såg Harrys chockade ansiktsuttryck tillade han: "Det skadar dem inte, man måste bara göra dem riktigt yra i huvudet så att de inte hittar tillbaka till sina tomtebon."'
+22	yra	yra	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	19	xcomp	_	_
+
+sent_id='sv_lines-ud-dev-doc5-3733#15'
+text='Därutöver har programmet bidragit till 50000 skapande eller utövande konstnärers och andra inom kultursektorn yrkesverksamma människors verksamhet.'
+15	yrkesverksamma	yrkesverksam	ADJ	POS-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	16	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3590#27'
+text='Han var sjaskigt och vårdslöst klädd, med bläckfläckar på kavajärmarna, och nedanför hakan, som till formen påminde om en stöveltå, fladdrade en yvig halsduk.'
+27	yvig	yvig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	28	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc3-3549#6'
+text='Han slöt mig till sitt ädla bröst.'
+6	ädla	ädel	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	7	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3835#4'
+text='Han kastade en ängslig blick från bilen som om han, trots telefonsamtalet, inte var riktigt säker på att Bray hade blivit ordentligt omhändertagen, men när han väl fick syn på honom uppträdde han precis som om de hade träffats för bara en vecka sedan.'
+4	ängslig	ängslig	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	5	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4133#9'
+text='Där var han, byggd som King-Kong, ärelysten som Empire State Building, storögd som Fay Wray och lika mycket en dröm, ett fantasifoster, som filmerna och som Amerika i sig självt.'
+9	ärelysten	ärelysten	ADJ	POS-SG-IND-NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	5	conj	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3825#44'
+text='Från toalettcisternen, som inte kunde förmås att spola ur ordentligt, porlade oavbrutet en rännil ner i skålen, och handdukarna var styva som frackskjortor (det hade tagit Olivia åratal att lära folk att skölja tvätten ordentligt), men en ålderstigen figur i kockmössa serverade te under träden åt honom och tog med sig hans skrynkliga kostym för att få den pressad – utan att vara ombedd.'
+44	ålderstigen	ålderstigen	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	45	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc8-4122#8'
+text='Vad det nu kan vara, detta ödesdigra ting som på ett avgörande sätt går in och förändrar en trygg och säker kurs.'
+8	ödesdigra	ödesdiger	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos	9	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc6-3942#21'
+text='De dansande skockade sig kring en polsk jordbrukstekniker, som försökte lära en gänglig engelsman och två unga afrikaner en östeuropeisk folkdans.'
+21	östeuropeisk	östeuropeisk	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	22	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc2-3297#13'
+text='Framför honom var Kodaks stora reklamfotografi som upptog större delen av stationens östra vägg med sina bjärta, overkliga färger.'
+13	östra	östra	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	14	amod	_	_
+
+sent_id='sv_lines-ud-dev-doc4-3589#42'
+text='Varpå en ung man med hatten ner mot ena ögonbrynet, kontorist skulle jag tro – det måste ju ha funnits en mängd personal i företaget fast hela huset var tyst som en de dödas boning – kom ner från de övre regionerna och tog mig med sig.'
+42	övre	övre	ADJ	CMP	Case=Nom|Definite=Def|Degree=Pos	43	amod	_	_
+

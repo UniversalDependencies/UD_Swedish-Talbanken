@@ -1,0 +1,75 @@
+
+
+form='rädda'	lemma='rädda'	feats='Case=Nom|Degree=Pos|Number=Plur'	treebank='talbanken'
+form='buggiga'	lemma='buggiga'	feats='Case=Nom|Degree=Pos|Number=Plur'	treebank='pud'
+form='tvåpoliga'	lemma='tvåpoliga'	feats='Case=Nom|Definite=Def|Degree=Pos|Number=Sing'	treebank='pud'
+form='nyliga'	lemma='nyliga'	feats='Case=Nom|Degree=Pos|Number=Plur'	treebank='pud'
+form='nyliga'	lemma='nyliga'	feats='Case=Nom|Definite=Def|Degree=Pos|Number=Sing'	treebank='pud'
+form='10-åriga'	lemma='10-åriga'	feats='Case=Nom|Degree=Pos|Number=Plur'	treebank='talbanken'
+form='befullmäktigade'	lemma='befullmäktiga'	feats='Case=Nom|Definite=Def|Degree=Pos|Number=Plur'	treebank='lines_test'
+form='artiga'	lemma='artiga'	feats='Case=Nom|Definite=Ind|Degree=Pos|Number=Plur'	treebank='lines_test'
+
+form='Karibiska'	lemma='karibiska'	feats='Case=Nom|Definite=Def|Degree=Pos|Number=Sing'	treebank='pud'
+form='karibiska'	lemma='karibiska'	feats='Case=Nom|Definite=Def|Degree=Pos|Number=Sing'	treebank='pud'
+orm='akamenidiska'	lemma='akamenidiska'	feats='Case=Nom|Definite=Def|Degree=Pos|Number=Sing'	treebank='pud'
+form='akamenidiska'	lemma='akamenidiska'	feats='Case=Nom|Degree=Pos|Number=Plur'	treebank='pud'
+form='akemenidiska'	lemma='akemenidiska'	feats='Case=Nom|Definite=Def|Degree=Pos|Number=Sing'	treebank='pud'
+
+orm='yazidiska'	lemma='yazidiska'	feats='Case=Nom|Degree=Pos|Number=Plur'	treebank='pud'
+form='Indiska'	lemma='Indiska'	feats='Case=Nom|Definite=Def|Degree=Pos|Number=Sing'	treebank='talbanken'
+form='Sefardiska'	lemma='sefardiska'	feats='Case=Nom|Definite=Def|Degree=Pos|Number=Sing'	treebank='pud'
+form='Europeiska'	lemma='Europeiska'	feats='Case=Nom|Definite=Def|Degree=Pos|Number=Sing'	treebank='talbanken'
+form='apuliska'	lemma='apuliska'	feats='Case=Nom|Degree=Pos|Number=Plur'	treebank='pud'
+form='messeniska'	lemma='messeniska'	feats='Case=Nom|Definite=Def|Degree=Pos|Number=Sing'	treebank='pud'
+form='Mähriska'	lemma='mähriska'	feats='Case=Nom|Definite=Def|Degree=Pos|Number=Sing'	treebank='pud'
+form='logistiska'	lemma='logistiska'	feats='Case=Nom|Degree=Pos|Number=Plur'	treebank='pud'
+form='khitanska'	lemma='khitanska'	feats='Case=Nom|Definite=Def|Degree=Pos|Number=Sing'	treebank='pud'
+form='mayanska'	lemma='mayanska'	feats='Case=Nom|Degree=Pos|Number=Plur'	treebank='pud'
+form='mykenska'	lemma='mykenska'	feats='Case=Nom|Definite=Def|Degree=Pos|Number=Sing'	treebank='pud'
+form='Svenska'	lemma='Svenska'	feats='Case=Nom|Definite=Def|Degree=Pos|Number=Sing'	treebank='talbanken'
+form='svenska'	lemma='svenska'	feats='Case=Nom|Degree=Pos|Number=Plur'	treebank='talbanken'
+form='avundsjuka'	lemma='avundsjuka'	feats='Case=Nom|Degree=Pos|Number=Plur'	treebank='talbanken'
+form='autosomala'	lemma='autosomala'	feats='Case=Nom|Degree=Pos|Number=Plur'	treebank='pud'
+form='klara'	lemma='klara'	feats='Case=Nom|Degree=Pos|Number=Plur'	treebank='talbanken'
+form='mera'	lemma='mera'	feats='Case=Nom|Degree=Cmp'	treebank='lines_test'
+
+form='Förenta'	lemma='Förenta'	feats='Case=Nom|Degree=Pos|Number=Plur'	treebank='talbanken'
+form='Förenta'	lemma='förenta'	feats='Case=Nom|Degree=Pos|Number=Plur'	treebank='pud'
+form='förenta'	lemma='förenta'	feats='Case=Nom|Degree=Pos|Number=Plur'	treebank='pud'
+form='matta'	lemma='matta'	feats='Case=Nom|Degree=Pos|Number=Plur'	treebank='talbanken'
+form='Lätta'	lemma='lätta'	feats='Case=Nom|Degree=Pos|Number=Plur'	treebank='talbanken'
+form='lätta'	lemma='lätta'	feats='Case=Nom|Degree=Pos|Number=Plur'	treebank='talbanken'
+
+form='rätta'	lemma='rätta'	feats='Case=Nom|Definite=Def|Degree=Pos|Number=Sing'	treebank='talbanken'
+form='rätta'	lemma='rätta'	feats='Case=Nom|Definite=Def|Degree=Pos'	treebank='lines_dev'
+
+form='räta'	lemma='räta'	feats='Case=Nom|Definite=Ind|Degree=Pos|Number=Plur'	treebank='lines_test'
+
+
+
+form='vitas'	lemma='vitas'	feats='Case=Gen|Definite=Def|Degree=Pos|Number=Plur'	treebank='lines_test'
+form='svartas'	lemma='svartas'	feats='Case=Gen|Definite=Def|Degree=Pos|Number=Plur'	treebank='lines_test'
+
+form='tidigare'	lemma='tidigt'	feats='Case=Nom|Degree=Cmp'	treebank='pud'
+form='löjligt'	lemma='löjligt'	feats='Case=Nom|Definite=Ind|Degree=Pos|Number=Sing'	treebank='lines_dev'
+form='Otroligt'	lemma='otroligt'	feats='Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing'	treebank='lines_test'
+form='husligt'	lemma='husligt'	feats='Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing'	treebank='lines_test'
+form='kvalmigt'	lemma='kvalmigt'	feats='Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing'	treebank='lines_test'
+form='övrigt'	lemma='övrigt'	feats='Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing'	treebank='talbanken'
+
+form='sacrococcygealt'	lemma='sacrococcygealt'	feats='Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing'	treebank='pud'
+
+form='ont'	lemma='ont'	feats='Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing'	treebank='talbanken'
+form='runt'	lemma='runt'	feats='Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing'	treebank='talbanken'
+
+form='gott'	lemma='gott'	feats='Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing'	treebank='talbanken'
+form='Gott'	lemma='gott'	feats='Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing'	treebank='talbanken'
+form='ingrott'	lemma='ingrott'	feats='Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing'	treebank='lines_test'
+form='vått'	lemma='vått'	feats='Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing'	treebank='lines_test'
+
+form='yra'	lemma='yra'	feats='Case=Nom|Definite=Ind|Degree=Pos|Number=Plur'	treebank='lines_dev'
+form='reaktionärt'	lemma='reaktionärt'	feats='Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing'	treebank='lines_test'
+form='rent'	lemma='rent'	feats='Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing'	treebank='lines_test'
+form='enorma'	lemma='enorma'	feats='Case=Nom|Degree=Pos|Number=Plur'	treebank='lines_test'
+
+

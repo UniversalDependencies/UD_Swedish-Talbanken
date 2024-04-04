@@ -1,0 +1,5 @@
+adj_exception_lemma: 1
+
+adj_exception_lemma: {'översta'}
+
+change_id='adj_exception_lemma'	sent_id='sv_lines-ud-dev-doc1-3236#16'	tok.form='översta'	old_lemma='över'	tok.lemma='övre'	feats='Case=Nom|Definite=Def|Degree=Sup'	text='Du kan använda ett filter på ett rad- eller kolumnfält om du vill visa de översta eller nedersta n elementen baserat på en summa.'

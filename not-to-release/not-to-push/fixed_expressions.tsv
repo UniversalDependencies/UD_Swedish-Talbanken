@@ -1,0 +1,449 @@
+	expression	Translation	Freq	Talbanken	Lines	Pud	UPOS	Separable	Iterable	Idiom part	Morph status	Modif.	Example	Infls	Synyms	Abbr.	Pattern	Opt. part	Collapsible	Alts
+0	en och samma	one and the same	1	1	0	0	DET	No	No	No	Roots	No	No	Yes	No	No	DET CC JJ	No	No	
+1	av allt att döma	to all appearances	1	1	0	0	ADV	No	No	No	2Infl	No	No	No	Yes	No	P PR SC VB	No	No	
+2	rent av	downright	9	4	5	0	ADV	No	No	No	1Infl	No	No	No	No	No	X P	No	Yes	rentav
+3	det där	that	20	1	19	0	DET/PRON	No	No	No	1Infl	No	No	Yes	No	No	DET ADV	No	No	
+4	i pedagogik	in pedagogy	1	1	0	0	ADV	Opt	No	No	Roots	Yes	klassisk	No	No	No	P NN	No	No	
+5	allt annat än	everything but	2	0	2	0	ADV	No	No	No	2Infl	No	No	No	Yes	No	ADV JJ än	No	No	
+6	i längden	in the long run	3	3	0	0	ADV	No	No	No	2Infl	No	No	No	No	No	P NND	No	No	
+7	steg för steg	step by step	2	2	0	0	ADV	No	Yes	No	Roots	No	No	No	Yes	No	NN P NN	No	No	
+8	då och då	now and then	10	4	6	0	ADV	No	Yes	No	Roots	No	No	No	No	No	ADV CC ADV	No	No	
+9	i morgon dag	tomorrow soon	1	0	1	0	ADV	No	No	No	Roots	No	No	No	No	No	P NN NN	No	No	
+10	var sin	each their	1	1	0	0	DET/PRON	No	No	No	2Infl	No	No	Yes	No	No	DET PS	No	Yes	varsin
+11	bland annat	inter alia	8	7	1	0	ADV	Opt	No	No	2Infl	Yes	mycket	Yes	No	Yes	P NNJ	No	No	
+12	för all del	never mind	1	1	0	0	INTERJ	No	No	No	Roots	No	No	No	Yes	No	P DET NN	No	No	
+13	i och med	with	9	6	2	1	ADP	No	No	No	Roots	No	No	No	No	Yes	P CC P	No	Yes	iochmed
+14	på förhand	beforehand	1	1	0	0	ADV	No	No	No	Roots	No	No	No	No	No	P NN	No	No	
+15	en halv	a half	8	7	0	1	NUM	No	No	No	Roots	No	No	Yes	No	Yes	DET JJ	No	No	
+16	år från år	from one year to the next	1	1	0	0	ADV	No	No	No	Roots	No	No	No	No	No	NN P NN	No	No	
+17	vart och ett	each and everyone	3	3	0	0	PRON	No	No	No	1-3Infl	No	No	Yes	No	No	PR CC PR	No	No	
+18	i motsats till	in contrast to	4	2	0	2	ADP	Opt	No	No	Roots	Yes	absolut	No	No	No	P NN P	No	No	
+19	i all världen	in the whole world	1	1	0	0	ADV	No	No	No	3Infl	No	No	No	Yes	No	P DET NND	No	No	
+20	de flesta	most	1	1	0	0	DET/PRON	Opt	No	No	2Infl	Yes	allra	No	No	No	DET JJ	No	No	
+21	ännu så länge	so far	3	3	0	0	ADV	No	No	No	Roots	No	No	No	Yes	No	ADV ADV ADV	No	Yes	än sålänge
+22	upp till	up to	9	7	0	2	ADP	No	No	No	Roots	No	No	No	Yes	No	ADV P	No	No	
+23	till fots	on foot	1	0	1	0	ADV	No	No	No	2Spec	No	No	No	No	No	P NN	No	No	
+24	i proportion till	in proportion to	2	2	0	0	ADP	No	No	No	Roots	No	No	No	Yes	No	P NN P	No	No	
+25	så många	so many	1	1	0	0	ADJ	No	No	No	Roots	Yes	väldigt	No	No	No	ADV JJ 	No	No	
+26	vid sidan om	on the side	2	2	0	0	ADP	No	No	No	2Infl	No	No	No	Yes	No	P NND P	No	No	
+27	i kontakt	in contact	3	3	0	0	ADV	Opt	No	No	Roots	Yes	tät	No	No	No	P NN	No	No	
+28	i taget	at a time	1	1	0	0	ADV	No	No	No	2Infl	No	No	No	No	No	P NND	No	No	
+29	överhuvud taget	on the whole; at all	1	1	0	0	ADV	No	No	No	2Infl	No	No	No	No	Yes	ADV VB	No	Yes	överhuvudtaget
+30	från och med	from	2	2	0	0	ADP	No	No	No	Roots	No	No	No	No	Yes	P CC P	No	No	
+31	så kallad	so called	1	1	0	0	ADJ	No	No	No	2Infl	No	No	Yes	No	Yes	ADV VB	No	No	
+32	även om	even if	44	31	12	1	SCONJ	No	No	No	1Infl	No	No	No	Yes	No	ADV SC	No	No	
+33	på så sätt	I see	6	6	0	0	ADV	No	No	No	2Infl	No	No	No	Yes	No	P JJ NN	No	No	
+34	som vanligt	as usual	1	1	0	0	ADV	No	No	No	2Infl	Yes	precis	No	Yes	No	som ADV	No	No	
+35	sådan här	like this	3	3	0	0	ADJ	No	No	No	Roots	No	No	Yes	No	No	JJ ADV	No	No	
+36	i och för sej	in itself	1	1	0	0	ADV	No	No	No	Roots	Yes	själv	No	Yes	Yes	P CC P PR	No	Yes	iochförsig
+37	i runt tal	in round figures	3	3	0	0	ADV	No	No	No	2Infl	No	No	Yes	No	No	P JJ NN	No	No	
+38	mindre och mindre	less and less	1	1	0	0	ADJ	No	Yes	No	1-3Infl	No	No	No	No	No	ADV CC ADV	No	No	
+39	praktiskt taget	practically	7	5	2	0	ADV	No	No	No	Infls	No	No	No	No	No	ADV VB	No	No	
+40	det här	this	65	14	47	4	DET/PRON	No	No	No	Roots	No	No	Yes	No	No	DET ADV	No	No	
+41	hit och dit	here and there	2	0	2	0	ADV	No	No	No	Roots	No	No	No	Yes	No	ADV CC ADV	No	No	
+42	i söder	in the south	1	1	0	0	ADV	No	No	No	Roots	No	No	No	No	No	P JJ	No	No	
+43	i likhet med	similar to	1	0	1	0	ADP	No	No	No	Roots	No	No	No	No	No	P NN P	No	No	
+44	icke desto mindre	nevertheless	4	1	1	2	ADV	No	No	No	3Infl	No	No	No	Yes	No	ADV ADV ADV	No	No	
+45	en och	one and 	1	1	0	0	?	Opt	No	Yes	Roots	Yes	till	Yes	No	No	DET CC	No	No	
+46	allt fortfarande	still	3	3	0	0	ADV	No	No	No	Roots	No	No	No	Yes	No	ADV ADV	No	Yes	alltfort
+47	var tionde	every tenth	1	1	0	0	DET/PRON	Opt	No	No	2Infl	Yes	nionde eller	Yes	No	No	DET JJ	No	No	
+48	några som helst	any (at all)	1	1	0	0	DET/PRON	No	No	No	1Infl	No	No	Yes	Yes	No	DET som ADV	No	No	
+49	i runda tal	in round figures	1	1	0	0	ADV	No	No	No	2-3Infl	No	No	Yes	Yes	No	P JJ NNP	No	No	
+50	från det	since	1	1	0	0	SCONJ	No	No	No	Roots	Yes	att	No	No	No	P PR	No	No	
+51	för sedan	ago	24	18	2	4	ADP	Obl	No	No	Roots	No	No	No	Yes	No	P – P	No	No	
+52	hur som helst	anyway	3	2	1	0	ADV	Opt	No	No	Roots	Yes	fan	No	No	No	ADV som ADV	No	Yes	hursomhelst
+53	som vi	like us	1	1	0	0	ADJ	Opt	No	No	Roots	Yes	alla	No	No	No	SC PR	No	No	
+54	en känsla	a feeling	1	1	0	0	NOUN	Opt	No	No	Roots	Yes	angenäm	No	Yes	No	DET NN	No	No	
+55	med hänvisning till	with referens to	1	1	0	0	ADP	No	No	No	Roots	No	No	No	Yes	No	P NN P	No	No	
+56	oberoende av	regardless of	6	6	0	0	ADP	No	No	No	Roots	No	No	No	No	No	JJ P	No	No	
+57	med avseende på	as regards	3	3	0	0	ADP	No	No	No	Roots	No	No	No	No	Yes	P NN P	No	No	
+58	a priori	a priori	1	1	0	0	ADV	No	No	No	Foreign	No	No	No	No	No	X X	No	Yes	apriori
+59	i förväg	beforehand	5	5	0	0	ADV	No	No	No	Roots	No	No	No	No	No	P NN	No	No	
+60	på sin höjd	at most	1	1	0	0	ADV	No	No	No	Roots	No	No	No	No	No	P PS NN	No	No	
+61	utanför hemmet	outside the home	1	1	0	0	ADV	Opt	No	No	2Infl	Yes	det egna	Yes	No	No	P NND	No	No	
+62	till godo	in my favour	6	6	0	0	ADV	No	No	Yes	2Spec	No	No	No	No	No	P X	No	Yes	tillgodo
+63	en eller annan	one or the other	1	1	0	0	DET/PRON	No	No	No	3Infl	No	No	Yes	No	No	DET CC JJ	No	No	
+64	än så länge	until now	1	1	0	0	ADV	No	No	No	Roots	No	No	No	Yes	No	ADV ADV ADV	No	Yes	än sålänge
+65	på spel	at stake	1	1	0	0	ADV	No	No	Yes	Roots	No	No	No	No	No	P NN	No	No	
+66	i jämförelse med	in comparison to	2	2	0	0	ADP	No	No	No	Roots	No	No	No	No	No	P NN P	No	No	
+67	i valet och kvalet	in two minds	1	1	0	0	ADV	No	No	Yes	2-4Infl	No	No	No	No	No	P NND CC NND	No	No	
+68	något som	something that	5	5	0	0	PRON	No	No	No	1Infl	Yes	särskilt	Yes	No	No	PR PR	No	Yes	något
+69	till att börja med	to begin with	3	0	3	0	ADV	No	No	No	Roots	No	No	No	No	No	P SC VB P	No	No	
+70	poste restante	poste restante	1	1	0	0	NOUN	No	No	No	Foreign	No	No	No	No	Yes	X X	No	No	
+71	vad det gäller	regarding	1	1	0	0	ADP	No	No	No	3Infl	No	No	Yes	Yes	No	PR PR VB	No	No	
+72	med hänsyn till	with regard to	6	6	0	0	ADP	Opt	No	No	Roots	Yes	stor	No	Yes	Yes	P NN P	No	No	
+73	lite sen	while ago	1	0	1	0	PRON	No	No	Yes	Roots	No	No	No	No	No	ADV P	No	No	
+74	trots allt	in spite of everything	6	2	2	2	ADV	No	No	No	2Infl	No	No	No	No	No	P PR	No	No	
+75	med mindre	unless	1	0	1	0	SCONJ	No	No	No	2Infl	Yes	att	No	No	No	P ADV 	No	No	
+76	i hög	in a pile	1	1	0	0	ADV	Opt	No	No	Roots	Yes	en	Yes	No	No	P NN	No	No	
+77	för handlingen	for the plot	1	1	0	0	ADV	Opt	No	No	2Infl	Yes	själva	No	Yes	No	P NND	No	No	
+78	var fjärde	every fourth	2	2	0	0	DET/PRON	No	No	No	Roots	No	No	Yes	No	No	DET JJ	No	No	
+79	något av	something of	3	3	0	0	JJ	No	No	No	1Infl	No	No	No	No	No	PR P	No	No	
+80	a. a.	ibid.	1	1	0	0	ABBR	No	No	No	Abbrs	No	No	No	No	No	ABR ABR	No	Yes	a.a.
+81	helt och hållet	absolutely	5	1	2	2	ADV	No	No	No	1-3Infl	No	No	No	No	No	ADV CC X	No	No	
+82	utan tvekan	no doubt	1	1	0	0	ADV	Opt	No	No	Roots	Yes	minsta	No	No	No	P NN	No	No	
+83	efter hand som	as	1	1	0	0	SCONJ	No	No	No	Roots	No	No	No	No	No	P NN som	No	No	
+84	i första hand	first	13	13	0	0	ADV	Opt	No	No	Roots	Yes	allra	No	No	No	P JJ NN	No	No	
+85	i mångt och mycket		1	0	0	1														
+86	så snart	as soon	2	1	1	0	SCONJ	No	No	No	Roots	Yes	som	No	Yes	No	ADV ADV	No	No	
+87	i fråga om	regarding	18	18	0	0	ADP	No	No	No	Roots	No	No	Yes	No	No	P NN P	No	Yes	ifråga om
+88	så som	such as	1	0	1	0	ADP	No	No	No	Roots	No	No	No	No	No	ADV som	No	Yes	såsom
+89	långt ifrån	far from	1	1	0	0	ADP	No	No	No	1Infl	Yes	mycket	No	No	No	ADV ADV	No	Yes	långtifrån
+90	i morse	this morning	4	1	1	2	ADV	No	No	No	2Spec	No	No	No	No	No	P NN	No	Yes	imorse
+91	efter att		1	0	0	1														
+92	i bästa fall	at best	1	1	0	0	ADV	Opt	No	No	2Infl	Yes	allra	No	No	No	P JJ NN	No	No	
+93	i vad mån	to what degree	1	1	0	0	ADV	No	No	No	Roots	No	No	No	Yes	No	P DET NN	No	No	
+94	på egen hand	on one’s own	2	2	0	0	ADV	No	No	No	Roots	No	No	No	Yes	No	P JJ NN	No	No	
+95	inte alls	not at all	2	0	2	0	ADV	Opt	Yes	No	Roots	No	No	No	No	No	ADV ADV	No	No	
+96	å andra sidan	on the other hand	11	8	0	3	ADV	Opt	No	No	2-3Infl	Yes	den	No	No	No	P JJ NND	No	No	
+97	på gång	(be) happening	2	2	0	0	ADV	No	No	Yes	Roots	No	No	No	No	No	P NN	No	No	
+98	fil lic	licentiate in philosophy	1	1	0	0	ABBR	No	No	No	Abbrs	No	No	No	No	Yes	ABR ABR	No	No	
+99	så pass	sufficiently	2	1	1	0	ADV	No	No	No	2Spec	No	No	No	No	No	ADV X	No	Yes	såpass
+100	å sin sida	in his/her part	1	1	0	0	ADV	No	No	No	2Infl	No	No	Yes	No	No	P PS NN	No	No	
+101	vid sidan av	beside	7	6	0	1	ADP	No	No	No	2Infl	No	No	No	Yes	No	P NND P	No	No	
+102	på ett ungefär	thereabouts	1	1	0	0	ADV	No	No	No	2Infl	No	No	No	No	No	P DET ADV	No	No	
+103	i gång	running; course	10	10	0	0	ADV	No	No	No	Roots	No	No	No	No	No	P NN	No	Yes	igång
+104	under förutsättning att	given that	2	2	0	0	SCONJ	Opt	No	No	Roots	Yes	viss	No	Yes	No	P NN SC	No	No	
+105	jo visst	surely	1	1	0	0	INTERJ	Opt	No	No	Roots	Yes	men	No	No	No	IJ ADV	No	Yes	jovisst
+106	helt enkelt	quite simply	13	6	7	0	ADV	No	No	No	Infls	No	No	No	Yes	No	ADV ADV	No	No	
+107	i form av	in the form of	14	12	1	1	ADP	No	No	No	Roots	No	No	Yes	No	No	P NN P	No	No	
+108	relativt sett	relatively	1	1	0	0	ADV	No	No	No	2Infl	No	No	No	No	No	ADV VB	No	No	
+109	i samband med	in connection with	15	10	5	0	ADP	No	No	No	Roots	No	No	No	No	No	P NN P	No	No	
+110	bortsett från	disregarding	3	3	0	0	ADP	No	No	No	1Infl	Yes	lite	No	No	No	VB P	No	No	
+111	till exempel	for example	33	10	21	2	ADV	No	No	No	Roots	No	No	No	No	Yes	P NN	No	No	
+112	bland andra	among others	2	2	0	0	ADV	Opt	No	No	2Infl	Yes	många	Yes	No	Yes	P JJ	No	No	
+113	vid handen	by hand	1	1	0	0	ADV	No	No	Yes	2Infl	No	No	No	No	No	P NND	No	No	
+114	nära nog	almost	3	3	0	0	ADV	No	No	No	Roots	No	No	No	Yes	No	ADV ADV	No	No	
+115	upp och nedvänt	upside down	1	1	0	0	ADV	No	No	No	3Infl	No	No	No	Yes	No	ADV CC VB	No	No	
+116	för skull	for	7	7	0	0	ADP	Obl	No	No	Roots	No	No	No	No	No	P – NN	No	No	
+117	de där	those	9	0	9	0	DET/PRON	No	No	No	1Infl	No	No	Yes	No	No	DET ADV	No	No	
+118	i fatt	caught up	1	1	0	0	ADV	No	No	No	Roots	No	No	No	No	No	P X	No	Yes	ifatt
+119	på sina håll	in some quarters	1	1	0	0	ADV	No	No	No	2-3Infl	No	No	Yes	Yes	No	P PS NNP	No	No	
+120	vad för slags	what kind of	2	2	0	0	ADJ	No	No	No	3Infl	No	No	No	Yes	No	PR P NN	No	No	
+121	med hjälp av	with the aid of	28	6	21	1	ADP	Opt	No	No	Roots	No	lite	No	Yes	Yes	P NN P	No	No	
+122	per capita	per capita	1	1	0	0	ADV	No	No	No	2Foreign	No	No	No	No	No	P X	No	No	
+123	i många fall	in many cases	1	1	0	0	ADV	Opt	No	No	3Infl	Yes	väldigt	No	Yes	No	P JJ NNP	No	No	
+124	det samma	the same	1	1	0	0	PRON	No	Yes	No	Infls	Yes	alldeles	Yes	No	No	DET JJ	No	Yes	detsamma
+125	högre än	higher than	2	2	0	0	ADV:ADP	No	No	No	1Infl	Yes	mycket	No	Yes	No	JJ än	No	No	
+126	ur famn i famn	in one’s arms to another	1	1	0	0	ADV	No	Yes	No	Roots	No	No	No	No	No	P NN P NN	No	No	
+127	i kväll	tonight	2	0	2	0	ADV	No	No	No	Roots	No	No	No	Yes	No	P NN	No	Yes	ikväll
+128	efter det att	after	3	2	1	0	SCONJ	No	No	No	Roots	No	No	No	No	No	P PR SC	Yes	Yes	efter att
+129	så långt	as far	3	3	0	0	ADV	No	No	No	2Infl	Yes	som	No	Yes	No	ADV ADV	No	Yes	sålångt
+130	med fog	with good reason	1	1	0	0	ADV	Opt	No	No	Roots	Yes	visst	No	No	No	P NN	No	No	
+131	vid det laget	at that time	1	1	0	0	ADV	No	No	No	3Infl	No	No	No	Yes	No	P DET NND	No	No	
+132	i går	yesterday	11	3	8	0	ADV	No	No	No	2Rest	No	No	No	No	No	P X	No	Yes	igår
+133	i jämförelse		1	0	0	1														
+134	till dess		2	0	0	2														
+135	undan för undan	by and by	1	1	0	0	ADV	No	Yes	No	Roots	No	No	No	No	No	ADV P ADV	No	No	
+136	i stycken	in pieces	1	1	0	0	ADV	No	No	Yes	2Infl	No	No	No	Yes	No	P NNP	No	No	
+137	till följd av	following	3	1	0	2	ADP	No	No	No	Roots	No	No	No	Yes	No	P NN P	No	No	
+138	här inne	in here	1	0	1	0	ADV	No	No	No	Roots	No	No	No	No	No	ADV ADV	No	Yes	härinne
+139	vad beträffar	as regards	4	3	0	1	ADP	Opt	No	No	2Infl	Yes	mig	No	Yes	No	PR VB	No	No	
+140	en i taget	one at a time	2	2	0	0	PRON	Opt	Yes	No	3Infl	Yes	man	Yes	No	No	PR P NND	No	No	
+141	aldrig så	ever so	1	1	0	0	ADV	No	No	No	Roots	No	No	No	Yes	No	ADV ADV	No	No	
+142	i konflikt	in conflict	1	1	0	0	ADV	Opt	No	No	Roots	Yes	svår	No	No	No	P NN	No	No	
+143	samtidigt med att	at the same time as	3	3	0	0	SCONJ	No	No	No	1Infl	No	No	No	No	No	ADV P SC	No	No	
+144	till slut	finally	7	2	3	2	ADV	No	No	No	Roots	No	No	No	Yes	No	P NN	No	No	
+145	så där	like that; not very good	2	1	1	0	ADV	No	No	No	Roots	No	No	No	No	No	ADV ADV	No	Yes	sådär
+146	på känn	w. ha: sense	1	0	1	0	ADV	No	No	Yes	2Spec	Yes	lite	No	No	No	P NN	No	Yes	påkänn
+147	i morgon bitti	tomorrow morning	1	0	1	0	ADV	No	No	No	Roots	Yes	tidigt	No	No	No	P NN X	No	Yes	imorgon bitti
+148	i förbindelse med	in connection with	2	2	0	0	ADP	No	No	No	Roots	No	No	No	Yes	No	P NN P	No	No	
+149	till ro	lit. to peace	1	1	0	0	ADV	No	No	Yes	Roots	No	No	No	No	No	P NN	No	No	
+150	fler än	more than	2	1	0	1	ADJ:ADP	No	No	No	1Infl	Yes	många	Yes	No	No	JJ än	No	No	
+151	å den andra	on the other hand	1	1	0	0	ADV	No	No	No	3Infl	Yes	sidan	No	No	No	P DET JJ	No	No	
+152	inte minst	not least	2	2	0	0	ADV	No	No	No	2Infl	No	No	No	No	No	ADV ADV	No	No	
+153	i anslutning till	in connection to	2	2	0	0	ADP	Opt	No	No	Roots	Yes	omedelbar	No	No	No	P NN P	No	No	
+154	mer än	more than	25	18	0	7	ADV:ADP	No	No	No	1Infl	Yes	mycket	No	Yes	No	JJ än	No	No	
+155	på nytt	anew	9	2	7	0	ADV	No	Yes	No	2Infl	No	No	No	No	No	P NNJ	No	No	
+156	den där	that	13	0	13	0	DET	No	No	No	Roots	No	No	Yes	No	No	DET ADV	No	No	
+157	på vippen	on the point of; near	1	1	0	0	ADV	No	No	Yes	2Infl	No	No	No	No	No	P NND	No	No	
+158	för sed	as a custom	1	1	0	0	ADV	No	No	Yes	Roots	No	No	No	Yes	No	P NN	No	No	
+159	till sängs	to bed	1	1	0	0	ADV	No	No	Yes	2Spec	No	No	No	No	No	P NN	No	No	
+160	vilket som helst	whichever	2	2	0	0	DET	Opt	No	No	1Infl	No	No	Yes	No	No	DET som ADV	No	No	
+161	den här	this	55	21	19	15	DET/PRON	No	No	No	Roots	No	No	Yes	No	No	DET ADV	No	No	
+162	ett annat	another	1	1	0	0	DET	No	No	No	Infls	No	No	Yes	No	No	DET JJ	No	No	
+163	tills vidare	for the time being	1	1	0	0	ADV	No	No	No	Roots	No	No	No	No	Yes	SC ADV	No	Yes	tillsvidare
+164	det vill säga	that is to say	1	1	0	0	ADV	No	No	No	2Infl	No	No	No	Yes	Yes	PR VB VB	No	No	
+165	sån här	like this	1	1	0	0	ADJ	No	No	No	1Infl	No	No	Yes	No	No	JJ ADV	No	No	
+166	vare sig	neither	13	6	7	0	CCONJ	No	No	No	1Infl	No	No	No	No	No	VB PR	No	No	
+167	i och för sig	in itself	9	7	2	0	ADV	No	No	No	Roots	Yes	själv	No	No	Yes	P CC P PR	No	Yes	iochförsig
+168	i många år	for many years	1	1	0	0	ADV	Opt	No	No	2-3Infl	Yes	långa	No	No	No	P JJ NNP	No	No	
+169	mer och mer	more and more	8	6	1	1	ADV	No	Yes	No	1-3Infl	No	No	No	Yes	No	ADV CC ADV	No	No	
+170	i vintras	last winter	1	1	0	0	ADV	No	No	No	2Spec	No	No	No	No	No	P NN	No	No	
+171	vad gäller	as regards	5	3	0	2	ADP	Opt	No	No	2Infl	Yes	det	Yes	No	No	PR VB	No	No	
+172	och så vidare	and so on	8	2	6	0	CONJ	No	Yes	No	Roots	No	No	No	No	Yes	CC ADV ADV	No	Yes	osv
+173	i dagsläget	now and then	1	1	0	0	ADV	No	No	No	2Infl	No	No	No	Yes	No	P NND	No	No	
+174	för det mesta	mostly	3	3	0	0	ADV	Opt	No	No	2-3Infl	Yes	allra	No	No	No	P DET NNJ	No	No	
+175	dom där	those	1	0	1	0	DET/PRON	No	No	No	1Infl	No	No	Yes	No	No	DET ADV	No	No	
+176	i fjol	yesteryear	3	3	0	0	ADV	No	No	No	Roots	Yes	sommar	No	No	No	P X	No	Yes	ifjol
+177	så att	so that	71	34	36	1	SCONJ	No	No	No	Roots	No	No	No	No	No	ADV SC	Yes	No	
+178	förr i världen	in the old days	1	1	0	0	ADV	No	No	No	3Infl	No	No	No	Yes	No	ADV P NND	No	No	
+179	så mycket som	as much as	5	0	4	1	ADP	Opt	No	No	Roots	Yes	väldigt	No	No	No	ADV JJ som	No	No	
+180	över huvud	at all	1	1	0	0	ADV	No	No	No	Roots	No	No	No	No	No	P NN	No	Yes	överhuvudtaget
+181	på sistone	lately	1	1	0	0	ADV	No	No	No	2Spec	No	No	No	Yes	No	P X	No	No	
+182	i den mån som	to the extent that	1	1	0	0	SCONJ	Opt	No	No	Roots	Yes	ringa	No	Yes	No	P DET NN SC	No	No	
+183	sådana här	like these	1	1	0	0	ADJ	No	No	No	1Infl	Yes	just	Yes	No	No	JJ ADV	No	No	
+184	till höger om	to the right of	2	2	0	0	ADP	No	No	No	Roots	No	No	No	No	No	P JJ P	No	No	
+185	i fortsättningen	from now on	1	1	0	0	ADV	No	No	No	2Infl	No	No	No	No	No	P NND	No	No	
+186	var för sig	each	4	4	0	0	ADV	No	No	No	Roots	Yes	själv	No	Yes	No	PR P PR	No	No	
+187	var tredje	every third	1	1	0	0	DET/PRON	Opt	No	No	2Infl	Yes	andra eller	Yes	No	No	DET JJ	No	No	
+188	till havs	at sea	3	3	0	0	ADV	No	No	No	2Spec	No	No	No	No	No	P NN	No	No	
+189	i skuggan	in the shadow	1	1	0	0	ADV	No	No	No	2Infl	No	No	No	No	No	P NND	No	No	
+190	när som helst	whenever	4	2	2	0	ADV	Opt	No	No	Roots	Yes	fan	No	No	No	ADV som ADV	No	Yes	närsomhelst
+191	mer obundet	more free	1	1	0	0	ADV	No	No	No	Infls	Yes	lite	Yes	Yes	No	ADV ADV	No	No	
+192	vem som helst	anyone; whoever	3	2	0	1	PRON	Opt	No	No	Roots	Yes	fan	No	No	No	PR som ADV	No	Yes	vemsomhelst
+193	i linje med		1	0	0	1														
+194	i mån av	as needed	1	1	0	0	ADP	No	No	No	Roots	No	No	No	No	No	P NN P	No	No	
+195	mer eller mindre	more or less	12	11	0	1	ADV	No	No	No	Infls	No	No	No	No	No	ADV CC ADV	No	No	
+196	i övrigt	otherwise	7	7	0	0	ADV	No	No	No	2Infl	No	No	No	Yes	No	P NNJ	No	No	
+197	före detta	ex-	4	1	1	2	ADJ	No	No	No	2Infl	No	No	No	No	Yes	P PR	No	No	föredetta
+198	lägre än	lower than	1	1	0	0	ADJ:ADP	No	No	No	1Infl	Yes	mycket	No	Yes	No	JJ än	No	No	
+199	i alla fall	in any case	13	3	9	1	ADV	No	No	No	2Infl	Yes	fulla	No	Yes	Yes	P DET NNP	No	No	
+200	med utgångspunkt av	starting from	1	1	0	0	ADP	No	No	No	Roots	No	No	No	Yes	No	P NN P	No	No	
+201	en grupp	a group	1	1	0	0	NOUN	Opt	No	No	Roots	Yes	stor	No	Yes	No	DET NN	No	No	
+202	i förgrunden	in the foreground	1	1	0	0	ADV	Opt	No	No	2Infl	No	No	No	No	No	P NND	No	No	
+203	stick i stäv	contrary to	1	1	0	0	ADV	No	No	Yes	Spec	No	No	No	No	No	ADV P NN	No	No	
+204	först och främst	first and foremost	4	3	0	1	ADV	No	No	No	Roots	No	No	No	No	No	JJ CC JJ	No	No	
+205	sent omsider	much later	1	1	0	0	ADV	No	No	No	2Spec	No	No	No	No	No	ADV ADV	No	No	
+206	så småningom	in a while	20	7	8	5	ADV	No	No	No	2Spec	No	No	No	No	No	ADV X	No	No	
+207	med tanke på	considering	6	5	1	0	ADP	Opt	No	No	Roots	Yes	viss	No	No	No	P NN P	No	No	
+208	för sen	ago	4	3	1	0	ADP	Obl	No	No	2Spec	No	No	No	Yes	No	P – P	No	No	
+209	vice versa	vice versa	2	2	0	0	ADV	No	No	No	Foreign	No	No	No	No	Yes	X X	No	Yes	viceversa
+210	i söndags	last Sunday	2	2	0	0	ADV	No	No	No	2Spec	Yes	morse	No	No	No	P NN	No	No	
+211	för det andra	secondly	1	1	0	0	ADV	No	No	No	2-3Infl	No	No	No	No	No	P DET JJ	No	No	
+212	ända tills	up until	1	0	1	0	SCONJ	No	No	No	Roots	No	No	No	No	No	ADV SC	No	No	
+213	hand i hand	hand in hand	2	1	1	0	ADV	No	No	Yes	Roots	No	No	No	No	No	NN P NN	No	No	
+214	en del	some	5	0	5	0	DET/PRON	Opt	No	No	Roots	Yes	hel	No	No	No	DET NN	No	No	
+215	allt mer	more and more	7	6	0	1	ADV	No	No	No	Infls	No	No	Yes	Yes	No	ADV ADV	No	Yes	alltmer
+216	eller hur	no?	4	0	4	0	CCONJ	No	No	No	Roots	No	No	No	No	No	CC ADV	No	No	
+217	på allvar	seriously	2	2	0	0	ADV	Opt	No	No	Roots	Yes	riktigt	No	No	No	P NN	No	No	
+218	inte längre	no longer	2	0	2	0	ADV	Opt	No	No	2Infl	Yes	nu	No	No	No	ADV ADV	No	No	
+219	all dess		1	0	0	1														
+220	lika med	equal to	3	3	0	0	ADP	No	No	No	Roots	Yes	helt	No	No	Yes	JJ P	No	No	
+221	på tal	brought up	1	1	0	0	ADV	No	No	Yes	Roots	No	No	No	No	No	P NN	No	No	
+222	s. ff	p. ff.	1	1	0	0	ABBR	Opt	No	No	Abbrs	No	No	No	No	No	ABR ABR	No	No	
+223	var och en	each and everyone	20	20	0	0	PRON	No	No	No	Roots	No	No	Yes	No	No	PR CC PR	No	No	
+224	för det första	firstly	1	1	0	0	ADV	No	No	No	2-3Infl	No	No	No	No	No	P DET JJ	No	No	
+225	rättare sagt	rather	1	1	0	0	ADV	No	No	No	Infls	No	No	No	No	No	ADV VB	No	No	
+226	gång på gång	time after another	1	1	0	0	ADV	No	Yes	No	Roots	No	No	No	No	No	NN P NN	No	No	
+227	till synes	apparently	3	2	0	1	ADV	No	No	No	2Spec	No	No	No	No	No	P VB	No	No	
+228	en och en halv	one and a half	1	1	0	0	NUM	No	No	No	Roots	No	No	Yes	No	Yes	NM CC DET JJ	No	No	
+229	efter hand	as it happens	2	2	0	0	ADV	No	No	No	Roots	No	No	No	No	No	P NN	No	Yes	efterhand
+230	i kraft	in force	4	4	0	0	ADV	Opt	No	Yes	Roots	Yes	full	No	No	No	P NN	No	Yes	ikraft
+231	i princip	on principle	1	1	0	0	ADV	Opt	No	No	Roots	Yes	en,ett	No	No	No	P NN	No	No	
+232	efter ämnet	according to the subject	1	1	0	0	ADV	Opt	No	No	2Infl	Yes	det farliga	No	Yes	No	P NND	No	No	
+233	i allmänhet	in general	15	14	0	1	ADV	Opt	No	No	Roots	Yes	största	No	No	No	P NN	No	No	
+234	tack så mycket	thanks a lot	1	0	1	0	INTERJ	Opt	No	No	Roots	Yes	hemskt	No	No	No	IJ ADV ADV	No	No	
+235	ett halvt	a half; half a	3	3	0	0	NUM	No	No	No	Infls	No	No	Yes	No	Yes	DET JJ	No	No	
+236	ad calendas graecas	ad calendas graecas	1	0	1	0	ADV	No	No	No	Foreign	No	No	No	No	No	X X X	No	No	
+237	i grunden	deep down	1	1	0	0	ADV	No	No	No	2Infl	No	No	No	Yes	No	P NND	No	No	
+238	en hel del	quite a lot	1	0	1	0	DET/PRON	No	No	No	Roots	No	No	No	Yes	No	DET JJ NN	No	No	
+239	en och annan	one X or other	1	1	0	0	DET/PRON	No	No	No	Roots	No	No	Yes	No	No	DET CC JJ	No	No	
+240	fullt ut	fully	2	2	0	0	ADV	No	No	No	1Infl	Yes	helt och	No	Yes	No	ADV ADV	No	No	
+241	med ens	immediately	9	0	9	0	ADV	No	No	No	2Rest	No	No	No	No	No	P PR	No	No	
+242	till fullo	fully	3	2	1	0	ADV	No	No	No	2Spec	No	No	No	No	No	P X	No	Yes	tillfullo
+243	minst av allt	least of all	1	1	0	0	ADV	No	No	No	1-3Infl	No	No	Yes	Yes	No	ADV P PR	No	No	
+244	förr eller senare	sooner or later	3	3	0	0	ADV	No	No	No	Roots	No	No	No	No	No	ADV CC ADV	No	No	
+245	till vänster	to the left	4	4	0	0	ADV	No	No	No	Roots	Yes	längre	No	No	Yes	P JJ	No	No	
+246	om och om igen	again and again	3	0	3	0	ADV	No	Yes	No	Roots	No	No	No	Yes	No	ADV CC ADV ADV	No	No	
+247	i stånd	in order; in shape	4	1	3	0	ADV	Opt	No	Yes	Roots	Yes	full(t)	No	No	No	P NN	No	No	
+248	så fort	as soon	3	1	2	0	SCONJ	No	No	No	Roots	No	No	No	Yes	No	ADV ADV	No	No	
+249	på grund av	because of	47	24	11	12	ADP	No	No	No	Roots	No	No	No	No	Yes	P NN P	No	No	
+250	i tid	in time	2	2	0	0	ADV	Opt	No	No	Roots	Yes	rätt	No	No	No	P NN	No	No	
+251	vad för	what	4	3	0	1	ADJ	No	No	No	Roots	No	No	No	No	No	PR P	No	No	
+252	vad som	what	5	0	5	0	PRON	No	No	No	Roots	No	No	No	Yes	No	PR som	No	No	
+253	to date	to date	1	1	0	0	ADV	No	No	No	Foreign	No	No	No	No	No	X X	No	No	
+254	på grundval av	on the basis of	7	7	0	0	ADP	Opt	No	No	Roots	Yes	en	No	Yes	No	P NN P	No	No	
+255	i huvudsak	mainly	9	6	1	2	ADV	No	No	No	Roots	No	No	No	No	No	P NN	No	No	
+256	under debatt	debated	2	2	0	0	ADV	Opt	No	No	Roots	Yes	hård	No	Yes	No	P NN	No	No	
+257	i förhållande till	in relation to	11	10	0	1	ADP	No	No	No	Roots	No	No	No	Yes	No	P NN P	No	No	
+258	till höger	to the right	5	5	0	0	ADV	No	No	No	Roots	Yes	längre	No	No	Yes	P JJ	No	No	
+259	nog så	ever so	3	3	0	0	ADV	No	No	No	Roots	No	No	No	No	No	ADV ADV	No	No	
+260	i andra hand	second-hand	1	1	0	0	ADV	Opt	No	No	2Infl	No	No	No	Yes	No	P JJ NN	No	No	
+261	i stället	instead	35	22	12	1	ADV	No	No	No	2Infl	No	No	No	No	Yes	P NND	No	Yes	istället
+262	under det att	while	2	1	1	0	SCONJ	No	No	No	Roots	No	No	No	No	No	P PR SC	Yes	No	
+263	rätt så	rather	1	1	0	0	ADV	No	No	No	Roots	No	No	No	Yes	No	ADV ADV	No	Yes	rättså
+264	i livet	in life; alive	1	1	0	0	ADV	No	No	No	2Infl	No	No	No	Yes	No	P NND	No	No	
+265	i förtid	too soon	1	1	0	0	ADV	No	No	No	Roots	Yes	långt	No	No	No	P NN	No	No	
+266	i samarbete med	in cooperation with	1	1	0	0	ADP	Opt	No	No	Roots	Yes	nära	No	No	No	P NN P	No	No	
+267	till vänster om	to the left of	3	1	2	0	ADP	No	No	No	Roots	No	No	No	No	No	P JJ P	No	No	
+268	under alla förhållanden	in all circumstances	2	2	0	0	ADV	Opt	No	No	2-3Infl	Yes	såna	No	Yes	No	P DET NNP	No	No	
+269	här och var	here, there and everywhere	1	0	1	0	ADV	No	No	No	Roots	No	No	No	Yes	No	ADV CC ADV	No	No	
+270	med lic	licentiate in medicin	1	1	0	0	ABBR	No	No	No	Abbrs	No	No	No	No	Yes	ABR ABR	No	No	
+271	i regel	as a rule	28	28	0	0	ADV	No	No	No	Roots	No	No	No	No	No	P NN	No	No	
+272	ho ho	hello	1	1	0	0	INTERJ	No	Yes	No	Roots	No	No	No	Yes	No	IJ IJ	No	Yes	hoho
+273	ha ha	(laughter)	1	1	0	0	INTERJ	No	Yes	No	Roots	No	No	No	Yes	No	IJ IJ	No	Yes	haha
+274	så här	like this	20	16	3	1	ADV	No	No	No	Roots	No	No	No	No	No	ADV ADV	No	No	
+275	som om	as if	74	0	73	1	SCONJ	No	No	No	Roots	No	No	No	No	No	som SC	No	No	
+276	var femte	every fifth	1	1	0	0	PRON	No	No	No	Roots	No	No	Yes	No	No	DET JJ	No	No	
+277	mer än bara		1	0	0	1														
+278	i säng	in bed	1	1	0	0	ADV	No	No	No	Roots	No	No	No	No	No	P NN	No	No	
+279	mycket väl	very well	1	1	0	0	ADV	No	No	No	Roots	No	No	No	Yes	No	ADV ADV	No	No	
+280	runt om	around	1	0	1	0	ADV	No	No	No	Roots	No	No	No	No	No	P ADV 	No	Yes	runtom
+281	vad för något	what	1	1	0	0	DET/PRON	Opt	No	No	3Infl	No	No	Yes	No	No	PR P PR	No	No	
+282	ett dugg	(not) a bit	2	2	0	0	ADV	Opt	No	No	Roots	Yes	enda	No	Yes	No	DET NN	No	No	
+283	i undantagsfall	exceptionally	2	2	0	0	ADV	Opt	No	No	2Infl	Yes	vissa	No	No	No	P NNP	No	No	
+284	inget annat än	nothing else but	1	1	0	0	DET+än	No	No	No	1-2Infl	No	No	Yes	Yes	No	DET JJ än	No	No	
+285	till tjänst	at service	2	2	0	0	ADV	Opt	No	Yes	Roots	Yes	er	No	No	No	P NN	No	No	
+286	när det gällt	concerning	3	3	0	0	ADP	Opt	No	No	3Infl	Yes	sen	Yes	No	No	SC PR VB	No	No	
+287	å ena sidan	on the one hand	3	3	0	0	ADV	Opt	No	No	2-3Infl	Yes	den	No	No	No	P JJ NND	No	No	
+288	ett tag	a while	1	1	0	0	ADV	Opt	No	No	Roots	Yes	litet	No	No	No	DET NN	No	No	
+289	i morgon	tomorrow	6	3	3	0	ADV	No	No	No	Roots	Yes	bitti	No	No	No	P NN	No	Yes	imorgon
+290	i skydd av	in the shelter of	1	1	0	0	ADP	No	No	No	Roots	No	No	No	No	No	P NN P	No	No	
+291	om än	even if	1	0	1	0	SCONJ	Opt	No	No	Roots	No	No	No	No	No	SC ADV	No	No	
+292	på basis av	on the basis of	1	1	0	0	ADP	No	No	No	Roots	No	No	No	Yes	No	P NN P	No	No	
+293	i riktning mot	in the direction of	4	4	0	0	ADP	Opt	No	No	Roots	Yes	rak	No	No	No	P NN P	No	No	
+294	till buds	available	2	2	0	0	ADJ	No	No	Yes	2Spec	No	No	No	No	No	P NN	No	Yes	tillbuds
+295	beroende på	depending on	10	6	4	0	ADP	No	No	No	1Infl	Yes	mycket	No	No	No	JJ P	No	No	
+296	i vår	next spring	1	1	0	0	ADV	No	No	No	Roots	No	No	No	No	No	P NN	No	No	
+297	med andra ord	in other words	1	1	0	0	ADV	Opt	No	No	2-3Infl	Yes	åter	No	No	Yes	P JJ NNP	No	No	
+298	till och med	even	30	3	25	2	ADV	No	No	No	Roots	No	No	No	No	Yes	P CC P	No	Yes	tillochmed
+299	vill säja	that is to say	1	1	0	0	ADV	No	No	No	1Infl	No	No	No	Yes	No	VB VB	No	No	
+300	på väg	on one’s way	2	2	0	0	ADV	No	No	No	Roots	No	No	No	No	No	P NN	No	No	
+301	detta till trots	this notwithstanding	1	1	0	0	ADV	No	No	No	1Infl	No	No	No	No	No	PR P NN	No	No	
+302	så gott som	almost	5	4	1	0	ADP	No	No	No	2Infl	No	No	No	No	No	ADV ADV som	No	No	
+303	av principerna	of the principles	1	1	0	0	ADV	Opt	No	No	2Infl	Yes	de här	Yes	Yes	No	P NN	No	No	
+304	sist och slutligen	at the very end	1	0	1	0	ADV	No	No	No	Roots	No	No	No	No	No	ADV CC ADV	No	No	
+305	utan vidare	just like that	6	5	1	0	ADV	No	No	No	Roots	No	No	No	No	No	P ADV 	No	No	
+306	till rätta	found	1	1	0	0	ADV	No	No	Yes	2Spec	No	No	No	No	No	P ADV 	No	Yes	tillrätta
+307	i går kväll	last night	1	0	1	0	ADV	No	No	No	Roots	Yes	sent	No	Yes	No	P X NN	No	Yes	igår kväll
+308	till stånd	into shape	3	3	0	0	ADV	No	No	Yes	Roots	No	No	No	No	No	P NN	No	No	
+309	in i	into	27	0	27	0	ADP	No	No	No	Roots	No	No	No	No	No	ADV P	No	No	
+310	i förening med	jointly with	1	1	0	0	ADP	No	No	No	Roots	No	No	No	Yes	No	P NN P	No	No	
+311	som regel	usually	3	3	0	0	ADV	Opt	No	No	Roots	Yes	allmän	No	Yes	No	P NN	No	No	
+312	mindre än	less than	10	10	0	0	ADV:ADP	No	No	No	1Infl	Yes	mycket	No	Yes	No	JJ än	No	No	
+313	med ledning av	guided by	1	1	0	0	ADP	No	No	No	Roots	No	No	No	No	No	P NN P	No	No	
+314	så att säga	as a manner of speaking	3	3	0	0	ADV	No	No	No	Roots	No	No	No	No	Yes	ADV SC VB	No	No	
+315	på sätt och vis	in a way	2	0	2	0	ADV	No	No	No	Roots	No	No	No	No	No	P NN CC NN	No	No	
+316	förutsatt att	assuming that	2	2	0	0	SCONJ	No	No	No	1Infl	No	No	No	Yes	No	VB SC	No	No	
+317	hals över huvud	head over heels	2	0	2	0	ADV	No	No	No	Roots	No	No	No	No	No	NN P NN	No	No	
+318	dess utveckling	its progress	1	1	0	0	NOUN	Opt	No	No	1Infl	Yes	vidare	No	Yes	No	PS NN	No	No	
+319	alltefter som	as	1	1	0	0	ADV	No	No	No	1Infl	No	No	No	No	No	P som	No	Yes	allteftersom
+320	på frågan	to the question	1	1	0	0	ADV	No	No	Yes	2Infl	No	No	Yes	Yes	No	P NND	No	No	
+321	till skillnad mot	opposed to	3	3	0	0	ADP	No	No	No	Roots	No	No	No	No	No	P NN P	No	No	
+322	till förmån för	in favour of	1	1	0	0	ADP	No	No	No	Roots	No	No	No	Yes	No	P NN P	No	No	
+323	en viss	a certain	1	1	0	0	ADJ	No	No	No	Roots	No	No	Yes	No	No	DET JJ	No	No	
+324	på grund	because	2	2	0	0	ADV	No	No	No	Roots	Yes	härav	No	No	No	P NN	No	No	
+325	var som helst	anywhere	2	2	0	0	ADV	No	No	No	Roots	Yes	fan	No	Yes	No	P NN P	No	Yes	varsomhelst
+326	ifråga om	regarding	4	4	0	0	ADP	No	No	No	Roots	No	No	No	No	No	ADV P	No	No	
+327	så värst	(not) very	1	1	0	0	ADV	No	No	No	2Infl	No	No	No	No	No	ADV ADV	No	Yes	såvärst
+328	varje grupp	each group	1	1	0	0	NOUN	Opt	No	No	Roots	Yes	enskild	No	Yes	No	DET NN	No	No	
+329	på efterkälken	(be left) behind	1	1	0	0	ADV	No	No	Yes	2Infl	No	No	No	No	No	P NND	No	No	
+330	i så fall	in that case	5	5	0	0	ADV	No	No	No	Roots	No	No	Yes	No	No	P JJ NNP	No	No	
+331	i sämsta fall	at worst	1	1	0	0	ADV	Opt	No	No	2Infl	Yes	allra	No	No	No	P JJ NN	No	No	
+332	för alltid	forever	1	1	0	0	ADV	No	No	No	Roots	No	No	No	Yes	No	P ADV 	No	No	
+333	till sist	at last	10	1	5	4	ADV	Opt	No	No	2Infl	Yes	allra	No	No	No	P ADV 	No	Yes	tillsist
+334	framför allt	above all	14	12	2	0	ADV	No	No	No	Roots	No	No	No	No	Yes	P PR	No	Yes	framförallt
+335	ansikte mot ansikte	face to face	2	0	2	0	ADV	No	No	No	Roots	No	No	No	No	No	NN P NN	No	No	
+336	med utgångspunkt i	starting with	1	1	0	0	ADP	No	No	No	Roots	No	No	No	No	No	P NN P	No	No	
+337	istället för	instead of	1	1	0	0	ADP	No	No	No	Roots	No	No	No	No	Yes	ADV P	No	No	
+338	låt vara	let be	2	2	0	0	SCONJ	No	No	No	1Infl	No	No	No	No	No	VB VB	No	No	
+339	med sikte på	targeting	1	1	0	0	ADP	No	No	No	2Infl	No	No	Yes	Yes	No	P NN P	No	No	
+340	i somras	last summer	2	2	0	0	ADV	No	No	No	2Spec	No	No	No	No	No	P NN	No	No	
+341	annat än	other than	6	6	0	0	JJ+än	No	No	No	1Infl	Yes	stort	Yes	No	No	NNJ än	No	No	
+342	i fråga	regarding	6	6	0	0	ADV	No	No	No	Roots	No	No	No	No	No	P NN	No	Yes	ifråga
+343	utan tanke på	with no concern for	1	1	0	0	ADP	Opt	No	No	Roots	Yes	minsta	No	No	No	P NN P	No	No	
+344	på tok	far too	1	1	0	0	ADV	No	No	Yes	Roots	No	No	No	No	No	P NN	No	No	
+345	i så måtto	in that respect	2	2	0	0	ADV	No	No	No	3Spec	No	No	No	No	No	P JJ NN	No	No	
+346	i natt	tonight	1	1	0	0	ADV	No	No	No	Roots	No	No	No	No	No	P NN	No	Yes	inatt
+347	strängt taget	strictly speaking	2	2	0	0	ADV	No	No	No	Infls	No	No	Yes	No	No	ADV VB	No	No	
+348	på längre sikt	in the longer run	1	1	0	0	ADV	No	No	No	2Infl	No	No	Yes	No	No	P JJ NN	No	No	
+349	i funktion	running	2	2	0	0	ADV	Opt	No	No	Roots	Yes	omedelbar	No	No	No	P NN	No	No	
+350	under loppet av	in the course of	1	1	0	0	ADP	No	No	No	2Infl	No	No	No	No	No	P NND P	No	No	
+351	i dag	today	43	39	4	0	ADV	No	No	No	Roots	No	No	No	No	No	P NN	No	Yes	idag
+352	så kallade		2	0	0	2														
+353	där inne	in there	1	0	1	0	ADV	No	No	No	Roots	No	No	No	No	No	ADV ADV	No	Yes	därinne
+354	allt mera	even more	1	1	0	0	ADV	No	No	No	2Infl	No	No	No	Yes	No	ADV ADV	No	Yes	alltmera
+355	ur spel	out of the game	2	2	0	0	ADV	No	No	Yes	Roots	No	No	No	No	No	P NN	No	No	
+356	så här års	this time of the year	1	1	0	0	ADV	No	No	No	3Spec	No	No	No	No	No	ADV ADV NN	No	No	
+357	ett eller annat	one X or other	1	1	0	0	DET/PRON	No	No	No	1-3Infl	No	No	Yes	No	No	DET CC JJ	No	No	
+358	bak och fram		1	0	0	1														
+359	i alla händelser	in any event	1	1	0	0	ADV	No	No	No	2-3Infl	No	No	No	Yes	No	P DET NNP	No	No	
+360	i ordning	in shape	3	3	0	0	ADV	Opt	No	Yes	Roots	Yes	sin	No	No	No	P NN	No	Yes	iordning
+361	i onödan	unnecessarily	3	3	0	0	ADV	No	No	No	2Infl	Yes	helt	No	No	No	P NND	No	No	
+362	i sak	essentially	2	2	0	0	ADV	No	No	No	Roots	No	No	No	No	No	P NN	No	No	
+363	utan hänsyn till	without regard to	1	1	0	0	ADP	Opt	No	No	Roots	Yes	minsta	No	No	No	P NN P	No	No	
+364	fram och tillbaka	back and forth	4	2	1	1	ADV	No	No	No	Roots	No	No	No	Yes	No	ADV CC ADV	No	No	
+365	inom ramen för	within the limits of	3	3	0	0	ADP	No	No	No	2Infl	No	No	No	No	No	P NND P	No	No	
+366	så fan heller	hell no!	1	1	0	0	INTERJ	No	No	No	Roots	No	No	No	Yes	No	ADV IJ ADV	No	No	
+367	ända fram	all the way through	1	1	0	0	ADV	No	No	No	Roots	No	No	No	No	No	ADV ADV	No	No	
+368	just det	exactly	1	1	0	0	INTERJ	No	No	No	Roots	No	No	No	No	No	ADV PR	No	No	
+369	till uttryck	lit. to expression	1	1	0	0	ADV	No	No	Yes	Roots	No	No	No	No	No	P NN	No	No	
+370	för detta	for this	1	1	0	0	ADV	Opt	No	No	2Infl	Yes	allt	Yes	Yes	No	P PR	No	No	
+371	som bekant	as you know	2	2	0	0	ADV	No	No	No	Roots	No	No	No	No	No	som JJ	No	No	
+372	allt efter	according to	1	1	0	0	ADP	No	No	No	Roots	No	No	No	No	No	ADV P	No	Yes	alltefter
+373	jämfört med	compared to	3	3	0	0	ADP	No	No	No	1Infl	No	No	Yes	No	No	VB P	No	No	
+374	i någon mån	to some extent	1	1	0	0	ADV	No	No	No	Roots	No	No	No	Yes	No	P JJ NN	No	No	
+375	i tisdags		1	0	0	1														
+376	var sitt	each their	1	1	0	0	DET/PRON	No	No	No	2Infl	No	No	Yes	No	No	DET PS	No	Yes	varsitt
+377	i stort sett	largely	9	5	2	2	ADV	No	No	No	3Infl	No	No	Yes	Yes	No	P ADV VB	No	No	
+378	i viss mån	to a certain degree	1	1	0	0	ADV	No	No	No	Roots	No	No	No	Yes	No	P JJ NN	No	No	
+379	i kläm	jammed	1	1	0	0	ADV	No	No	Yes	Roots	No	No	No	No	No	P NN	No	No	
+380	i takt med	in time to	2	2	0	0	ADP	No	No	No	Roots	No	No	No	No	No	P NN P	No	No	
+381	i enlighet med	according to	3	3	0	0	ADP	No	No	No	Roots	No	No	No	No	No	P NN P	No	No	
+382	över huvud taget	on the whole; at all	16	5	11	0	ADV	No	No	No	Roots	No	No	No	No	Yes	P NN VB	No	Yes	överhuvudtaget
+383	i underkant av	on the small side	1	1	0	0	ADP	No	No	No	Roots	No	No	No	No	No	P NN P	No	No	
+384	tack vare	thanks to	7	3	4	0	ADP	No	No	No	2Infl	No	No	No	No	No	NN VB	No	No	
+385	i år	this year	11	9	0	2	ADV	No	No	No	Roots	No	No	No	No	No	P NN	No	No	
+386	samtidigt som	at the same time as	14	8	6	0	SCONJ	No	No	No	Roots	No	No	No	Yes	No	ADV SC	No	No	
+387	i stället för	instead of	26	15	10	1	ADP	No	No	No	2Infl	No	No	No	No	Yes	P NND P	No	No	
+388	på tal om	speaking of	1	1	0	0	ADP	No	No	No	Roots	No	No	No	No	No	P NN P	No	No	
+389	till skillnad från	different from	2	1	0	1	ADP	No	No	No	Roots	No	No	No	No	No	P NN P	No	No	
+390	i våras	last spring	1	1	0	0	ADV	No	No	No	3Spec	No	No	No	No	No	P NN	No	No	
+391	år sen	years ago	1	0	1	0	NOUN	No	No	Yes	1Infl	No	No	No	Yes	No	NN P	No	No	
+392	dag och natt	day and night	1	1	0	0	ADV	No	No	No	Roots	No	No	Yes	No	No	NN CC NN	No	No	
+393	för att	(in order) to	37	34	1	2	SCONJ	No	No	No	Roots	No	No	No	No	No	P SC	No	No	
+394	för närvarande	presently	4	3	0	1	ADV	No	No	No	2Infl	No	No	No	No	Yes	P JJ	No	No	
+395	högre grad	higher degree	1	1	0	0	NOUN	No	No	No	Roots	Yes	ännu	Yes	Yes	No	JJ NN	No	No	
+396	vart som helst	any place; wherever	1	1	0	0	ADV	Opt	No	No	Roots	Yes	fan	No	Yes	No	ADV som ADV	No	Yes	vartsomhelst
+397	i hög grad	to a large degree	1	1	0	0	ADV	Opt	No	No	Roots	Yes	mycket	Yes	No	No	P JJ NN	No	No	
+398	över allt	everywhere	2	0	2	0	ADV	No	No	No	2Infl	No	No	No	No	No	P PR	No	Yes	överallt
+399	sist men inte minst	last but not least	1	1	0	0	ADV	Opt	No	No	1-4Infl	No	No	No	Yes	No	JJ CC ADV JJ	No	No	
+400	ja tack	yes please	1	0	1	0	INTERJ	No	No	No	Roots	No	No	No	No	No	IJ IJ	No	Yes	tack
+401	allt eftersom	as	4	1	0	3	ADV	No	No	No	1Infl	No	No	No	No	No	ADV SC	No	Yes	allteftersom
+402	kosta vad det kosta ville	no matter the costs	1	0	1	0	ADV	No	No	No	4Infl	No	No	Yes	No	No	VB PR PR VB VB	No	No	
+403	vad som helst	anything	2	1	1	0	PRON	Opt	No	No	Roots	Yes	fan	No	No	No	PR som ADV	No	Yes	vadsomhelst
+404	i närheten av	near	2	2	0	0	ADP	No	No	No	2Infl	No	No	No	No	No	P NND P	No	No	
+405	på det klara	aware	1	1	0	0	ADV	No	No	Yes	2-3Infl	Yes	helt	No	No	No	P DET JJ	No	No	
+406	den andra	the other	1	1	0	0	DET/PRON	No	No	No	2Infl	No	No	Yes	No	No	DET JJ	No	No	
+407	när det gäller	regarding	24	24	0	0	ADP	Opt	No	No	3Infl	Yes	nu	Yes	No	No	SC PR VB	No	No	
+408	inom kort	shortly	1	1	0	0	ADV	No	No	No	Roots	No	No	No	No	No	P JJ	No	No	
+409	i varje fall	in any case	5	5	0	0	ADV	No	No	No	Roots	No	No	No	Yes	No	P DET NN	No	No	
+410	så när	almost	1	0	1	0	ADV	No	No	No	Roots	No	No	No	No	No	ADV ADV	No	Yes	sånär
+411	i norr	in the north	1	1	0	0	ADV	No	No	No	Roots	No	No	No	No	No	P JJ	No	No	
+412	med mera	etcetera	1	1	0	0	ADV	Opt	Yes	No	2Infl	Yes	mycket	No	No	Yes	P JJ	No	No	
+413	på sikt	in the long run	1	1	0	0	ADV	Opt	No	No	Roots	Yes	kort	No	No	No	P NN	No	No	
+414	på det	so (that)	1	1	0	0	SCONJ	No	No	No	Roots	No	No	No	No	No	P PR	Yes	No	
+415	därför att	because	41	25	16	0	SCONJ	No	No	No	Roots	No	No	No	No	No	ADV SC	No	No	
+416	med undantag för	with the exception of	2	2	0	0	ADP	Opt	No	No	Roots	Yes	något	No	No	No	P NN P	No	No	
+417	när det gällde	as regarded	2	2	0	0	ADP	Opt	No	No	3Infl	Yes	sedan	Yes	No	No	SC PR VB	No	No	
+418	såväl som	and	2	2	0	0	CCONJ	Opt	No	No	Roots	No	No	No	No	No	CC – som	No	No	
+419	till höger och vänster	all over the place	1	1	0	0	ADV	No	No	No	Roots	No	No	No	No	No	P JJ CC JJ	No	No	
+420	vad mera är	what is more	1	1	0	0	ADV	No	No	No	2-3Infl	No	No	No	Yes	No	PR ADV VB	No	No	
+421	i själva verket	actually	5	3	2	0	ADV	No	No	No	2-3Infl	No	No	No	No	No	P JJ NND	No	No	
+422	i höst	in the autumn	2	2	0	0	ADV	No	No	No	Roots	No	No	No	No	No	P NN	No	No	
+423	de här	these	19	12	7	0	DET/PRON	No	No	No	1Infl	No	No	Yes	No	No	DET ADV	No	No	
+424	en massa	a lot of	1	0	1	0	DET/PRON	No	No	No	Roots	No	No	No	Yes	No	DET NN	No	No	
+425	i de fall	in case	2	2	0	0	SCONJ	Opt	No	No	3Infl	Yes	många	No	No	No	P DET NNP	No	No	
+426	i väg	away	15	0	15	0	ADV	No	No	No	Roots	No	No	No	No	No	P NN	No	Yes	iväg
+427	hur pass	how well	2	2	0	0	ADV	No	No	No	2Spec	No	No	No	No	No	ADV ADV	No	No	
+428	så länge	as long	10	7	3	0	ADV	No	No	No	Roots	No	No	No	No	No	ADV ADV	No	No	
+429	än en gång	once more	2	0	2	0	ADV	No	No	No	Roots	No	No	No	Yes	No	ADV DET NN	No	No	
+430	förbanne mig	damned it!	1	0	1	0	INTERJ	No	No	No	1Infl	No	No	No	No	No	VB PR	No	No	
+431	för övrigt	otherwise; by the way	11	7	4	0	ADV	No	No	No	2Infl	No	No	Yes	No	Yes	P NNJ	No	No	
+432	trots att	in spite of	5	4	0	1	SCONJ	No	No	No	Roots	No	No	No	No	No	P SC	No	No	
+433	vilka som helst	whichever	2	2	0	0	PRON	Opt	No	No	1Infl	Yes	av X	Yes	No	No	PR som ADV	No	No	
+434	då det gäller	concerning	1	1	0	0	ADP	No	No	No	3Infl	No	No	Yes	Yes	No	SC PR VB	No	No	
+435	totalt sett	all in all	1	1	0	0	ADV	No	No	No	Infls	No	No	Yes	No	No	ADV VB	No	No	
+436	lustigt nog	funny enough	1	1	0	0	ADV	No	No	No	1Infl	No	No	No	Yes	No	ADV ADV	No	No	
+437	utan avseende på	without regard to	1	1	0	0	ADP	No	No	No	Roots	No	No	No	Yes	No	P NN P	No	No	
+438	i följd	in a row	1	1	0	0	ADV	Opt	No	No	Roots	Yes	rak	No	No	No	P NN	No	No	
+439	i stort	largely	3	3	0	0	ADV	No	No	No	2Infl	Yes	sett	No	No	No	P NNJ	No	No	
+440	allt efter som	as	1	1	0	0	ADV	No	No	No	1Infl	No	No	No	No	No	ADV P SC	No	Yes	allteftersom
+441	i drift	running	1	1	0	0	ADV	No	No	No	Roots	Yes	åter	No	No	No	P NN	No	No	
+442	i synnerhet	especially	2	2	0	0	ADV	Opt	No	No	Roots	Yes	all	No	No	No	P NN	No	No	
+443	på rygg	on one’s back	3	3	0	0	ADV	Opt	No	No	Roots	Yes	sin	Yes	No	No	P NN	No	No	
+444	till låns	as a loan	1	1	0	0	ADV	No	No	No	2Spec	No	No	No	Yes	No	P NN	No	No	
+445	i sin tur	in his/her/its turn	9	8	0	1	ADV	No	No	No	Roots	No	No	Yes	No	No	P PS NN	No	No	
+446	till hands	at one’s disposal	2	2	0	0	ADV	No	No	No	2Spec	Yes	nära	No	No	No	P NN	No	Yes	tillhands
+447	som synes	as you can see	1	1	0	0	ADV	No	No	No	2Infl	No	No	No	No	No	som VB	No	No	
