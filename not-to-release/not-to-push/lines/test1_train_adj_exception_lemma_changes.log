@@ -1,8 +1,0 @@
-adj_exception_lemma: 4
-
-adj_exception_lemma: {'Yttersta', 'yttersta'}
-
-change_id='adj_exception_lemma'	sent_id='sv_lines-ud-train-doc1-349#14'	tok.form='yttersta'	old_lemma='ytterst'	tok.lemma='yttre'	feats='Case=Nom|Definite=Def|Degree=Sup'	text='Kontroller i formulärets eller rapportens sidhuvudsektion blir obundna kontroller i titelsektionen av den yttersta gruppnivån.'
-change_id='adj_exception_lemma'	sent_id='sv_lines-ud-train-doc1-350#14'	tok.form='yttersta'	old_lemma='ytterst'	tok.lemma='yttre'	feats='Case=Nom|Definite=Def|Degree=Sup'	text='Kontroller i formulärets eller rapportens sidfotsektion blir obundna kontroller i navigationssektionen av den yttersta gruppnivån.'
-change_id='adj_exception_lemma'	sent_id='sv_lines-ud-train-doc4-1331#1'	tok.form='Yttersta'	old_lemma='ytterst'	tok.lemma='yttre'	feats='Case=Nom|Definite=Def|Degree=Sup'	text='Yttersta brynet av en enorm djungel, så mörkt grön att den var nästan svart, med en kant av vit bränning, löpte rakt som draget med linjal långt, långt bort utmed ett hav vars glittrande blå suddades ut av ett smygande dis.'
-change_id='adj_exception_lemma'	sent_id='sv_lines-ud-train-doc7-2599#16'	tok.form='yttersta'	old_lemma='ytterst'	tok.lemma='yttre'	feats='Case=Nom|Definite=Def|Degree=Sup'	text='Det stod ett renskurat träbord med stolar i mitten. Harry slog sig ner på yttersta kanten av stolsitsen och såg sig omkring.'

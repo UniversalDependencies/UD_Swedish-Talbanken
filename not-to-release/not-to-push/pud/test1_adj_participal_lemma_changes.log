@@ -1,8 +1,0 @@
-adj_past_participal_ett_lemma: 1
-adj_past_participal_nae_lemma: 1
-
-adj_past_participal_ett_lemma: {'sett'}
-adj_past_participal_nae_lemma: {'frusna'}
-
-change_id='adj_past_participal_ett_lemma'	sent_id='w01079057#13'	tok.form='sett'	old_lemma='se'	tok.lemma='sedd'	feats='Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part'	text='Tvångsdop stod i strid med den katolska kyrkans lag, och teoretiskt sett kunde alla som hade blivit tvingade till dop lagligen återgå till judendom.'
-change_id='adj_past_participal_nae_lemma'	sent_id='w02008038#12'	tok.form='frusna'	old_lemma='fryst'	tok.lemma='frusen'	feats='Case=Nom|Definite=Def|Number=Sing|Tense=Past|VerbForm=Part'	text='Troligtvis är den mest välkända personen från kopparåldern Ötzi, den frusna mumie som levde under 3300 f.Kr.'

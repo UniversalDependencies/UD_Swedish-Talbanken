@@ -91,7 +91,7 @@
 ### ska nästa/sista vara determinerare eller ADJ?
     ta fram alla former ordklass DET och syntaktisk funktion DET och se om det finns något som inte ska finnas
     för varje form, ta fram alla variation av taggar (ordklasser) och syntaktisk funktion
-    finns det  som finns ord som klassas både som DET och som ADJ.
+    finns det som finns ord som klassas både som DET och som ADJ.
 
 
 

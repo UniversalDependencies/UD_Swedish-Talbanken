@@ -1,0 +1,11 @@
+id=sv-ud-train-201#16
+16	andra	annan	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	17	amod	17:amod	_
+
+id=w01119076#9
+9	icke-vita	icke-vit	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	10	amod	10:amod	_
+
+id=sv_lines-ud-train-doc2-765#4
+4	andra	andra	ADJ	ORD	Case=Nom|Number=Sing|NumType=Ord	5	amod	_	_
+
+id=sv_lines-ud-train-doc8-3070#24
+24	andres	annan	ADJ	SG-GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	25	nmod:poss	_	_

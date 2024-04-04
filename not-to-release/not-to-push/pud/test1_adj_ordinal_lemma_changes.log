@@ -1,5 +1,0 @@
-adj_ordinal: 1
-
-adj_ordinal: {'45:e'}
-
-change_id='adj_ordinal'	sent_id='n01034060#9'	tok.form='45:e'	old_lemma='45'	tok.lemma='45:e'	feats='Case=Nom'	text='Trudeau kommer att utsträcka den inbjudan till USA:s 45:e president, vem han eller hon än må vara.'

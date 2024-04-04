@@ -1,5 +1,0 @@
-adj_lemma: 1
-
-adj_lemma: {'upplysta'}
-
-change_id='adj_lemma'	sent_id='sv_lines-ud-test-doc3-4517#5'	tok.form='upplysta'	old_lemma='upplysa'	tok.lemma='upplyst'	feats='Case=Nom|Definite=Ind|Degree=Pos|Number=Plur'	text='Antika föremål ligger i upplysta montrar.'

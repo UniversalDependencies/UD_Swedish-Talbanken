@@ -1,6 +1,0 @@
-adj_exception_lemma: 2
-
-adj_exception_lemma: {'yttersta', 'innersta'}
-
-change_id='adj_exception_lemma'	sent_id='sv_lines-ud-test-doc2-4413#10'	tok.form='innersta'	old_lemma='innerst'	tok.lemma='inre'	feats='Case=Nom|Definite=Ind|Degree=Sup'	text='Det var som om Auster anat sig till hans innersta längtan: att få något att äta, att få en anledning att dröja sig kvar en stund till.'
-change_id='adj_exception_lemma'	sent_id='sv_lines-ud-test-doc2-4429#8'	tok.form='yttersta'	old_lemma='ytterst'	tok.lemma='yttre'	feats='Case=Nom|Definite=Def|Degree=Sup'	text='Därefter fick han anstränga sig till det yttersta för att visa sig lugn.'
