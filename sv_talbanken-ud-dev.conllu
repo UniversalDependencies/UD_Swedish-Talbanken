@@ -502,7 +502,7 @@
 11	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	14	nsubj:pass	14:nsubj:pass	_
 12	bli	bli	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	14	aux:pass	14:aux:pass	_
 13	helt	helt	ADV	AB|POS	Degree=Pos	14	advmod	14:advmod	_
-14	emanciperade	emancipera	VERB	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Number=Plur|Tense=Past|VerbForm=Part	0	root	0:root	SpaceAfter=No
+14	emanciperade	emanciperad	VERB	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Number=Plur|Tense=Past|VerbForm=Part	0	root	0:root	SpaceAfter=No
 15	;	;	PUNCT	MID	_	14	punct	14:punct	_
 16	rollen	roll	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	19	nsubj	19:nsubj	_
 17	som	som	SCONJ	KN	_	18	mark	18:mark	_
@@ -3711,7 +3711,7 @@
 13	känslomässigt	känslomässig	ADV	AB|POS	Degree=Pos	11	conj	11:conj:och|16:advmod	_
 14	bli	bli	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	16	aux:pass	16:aux:pass	_
 15	mer	mycket	ADV	AB|KOM	Degree=Cmp	16	advmod	16:advmod	_
-16	likställd	likställa	VERB	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	_
+16	likställd	likställd	VERB	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	_
 17	med	med	ADP	PP	_	18	case	18:case	_
 18	mannen	man	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	16	obl	16:obl:med	SpaceAfter=No
 19	.	.	PUNCT	MAD	_	16	punct	16:punct	_

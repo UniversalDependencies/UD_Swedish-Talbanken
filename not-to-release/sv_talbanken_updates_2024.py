@@ -325,25 +325,34 @@ def change_adj_ordinal_lemma(doc, outfile):
                 'trettiondes', 'fyrtiondes', 'femtiondes', 'sextiondes',
                 'sjuttiondes', 'åttiondes', 'nittiondes', 'hundrades', 'tusendes', 'miljontes']
     
-    roman2swe = {'I': 'första', 'II': 'andra', 'III': 'tredje', 'IV': 'fjärde', 'V': 'femte', 
-                 'VI': 'sjätte', 'VII': 'sjunde', 'VIII': 'åttonde', 'IX': 'nionde', 'X': 'tionde', 
-                 'XI': 'elfte', 'XII': 'tolfte', 'XIII': 'trettonde', 'XIV': 'fjortonde', 'XV': 'femtonde', 
-                 'XVI': 'sextonde', 'XVII': 'sjuttonde', 'XIII': 'artonde', 'XIX': 'nittonde', 'XX': 'tjugonde'}
+    roman_num = ['I', 'II', 'III', 'IV', 'V', 
+                 'VI', 'VII', 'VIII', 'IX', 'X', 
+                 'XI', 'XII', 'XIII', 'XIV', 'XV', 
+                 'XVI', 'XVII', 'XIII', 'XIX', 'XX']
 
     for tok in doc.nodes:
         if tok.upos == 'ADJ':
             change_id = None
             old_lemma = tok.lemma
 
-            if (any(tok.form.lower().endswith(ord) for ord in ordinals) or 
-                any(tok.form.lower().endswith(ord) for ord in gen_ordinals) or
+            if (any(tok.form.lower().endswith(ord) for ord in ordinals) or
                 re.search(r'^[0-9]+:[ae]$', tok.form)):
                 tok.lemma = tok.form.lower()
 
                 change_id = 'adj_ordinal'
 
-            elif tok.form in roman2swe.keys():
-                tok.lemma = roman2swe[tok.form]
+            elif any(tok.form.lower().endswith(ord) for ord in gen_ordinals):
+                tok.lemma = tok.form.lower()[:-1]
+
+                change_id = 'adj_gen_ordinal'
+
+            elif tok.form.lower().endswith('förste') or tok.form.lower().endswith('förstes'):
+                tok.lemma = 'första'
+
+                change_id = 'adj_förste'
+
+            elif tok.form in roman_num:
+                tok.lemma = tok.form
 
                 change_id = 'adj_roman_ordinal'
 
@@ -356,6 +365,11 @@ def change_adj_ordinal_lemma(doc, outfile):
                     tok.lemma = 'annan'
 
                     change_id = 'adj_andra_annan'
+
+            elif str.isnumeric(tok.form) and (tok.xpos == 'ORD' or 'RO' in tok.xpos):
+                tok.lemma = tok.form + ':e' if tok.form[-1] != '1' else ':a'
+
+                change_id = 'adj_dates_ordinal'
 
             if change_id != None:
                 if tok.lemma != old_lemma:
@@ -479,7 +493,7 @@ def change_adj_lemma(doc, outfile):
 
     write_to_change_log(outfile.rsplit('.', maxsplit=1)[0]+'_adj_lemma_changes.log', change_ids, changed_forms_by_id, change_log)
 
-def change_adj_participal_lemma(doc, outfile):
+def change_participle_lemma(doc, outfile):
     change_ids = []
     changed_forms_by_id = defaultdict(set)
     change_log = []
@@ -493,7 +507,8 @@ def change_adj_participal_lemma(doc, outfile):
                        'sköttas': lambda form: form[:-2]}
 
     for tok in doc.nodes:
-        if tok.upos == 'ADJ':
+        if tok.upos in ('ADJ', 'VERB'):
+            change_prefix = 'adj' if tok.upos == 'ADJ' else 'verb'
             change_id = None
             old_lemma = tok.lemma
             
@@ -507,12 +522,12 @@ def change_adj_participal_lemma(doc, outfile):
                     # nominative
                     if tok.form.lower().endswith('ande') or tok.form.lower().endswith('ende'):
                         tok.lemma = tok.form.lower()
-                        change_id = 'adj_pres_nom_participal_lemma'
+                        change_id = f'{change_prefix}_pres_nom_participle_lemma'
 
                     # genetive
                     elif tok.form.lower().endswith('andes') or tok.form.lower().endswith('endes'):
                         tok.lemma = tok.form.lower()[:-1]
-                        change_id = 'adj_pres_gen_participal_lemma'
+                        change_id = f'{change_prefix}_pres_gen_participle_lemma'
       
                 elif tok.feats['Tense'] == 'Past':              
                     # for exceptions (död, smält, skött)
@@ -520,116 +535,113 @@ def change_adj_participal_lemma(doc, outfile):
                         key, rule = sorted([(key, rule) for key, rule in past_exceptions.items() if tok.form.lower().endswith(key)], key=lambda item: len(item[0]))[-1]
                         tok.lemma = rule(tok.form.lower())
 
-                        change_id = f'adj_past_participal_exception_{key}_lemma'
+                        change_id = f'{change_prefix}_past_participle_exception_{key}_lemma'
 
                     # jagad / bruten
                     elif tok.form.lower().endswith('d') or tok.form.lower().endswith('en'):
                         tok.lemma = tok.form.lower()
-                        change_id = 'adj_past_participal_utrum_sing_lemma'
+                        change_id = f'{change_prefix}_past_participle_utrum_sing_lemma'
 
                     # jagade
                     elif tok.form.lower().endswith('ade'):
                         tok.lemma = tok.form.lower()[:-1]
-                        change_id = 'adj_past_participal_ade_lemma'
+                        change_id = f'{change_prefix}_past_participle_ade_lemma'
 
                     # jagades
                     elif tok.form.lower().endswith('ades'):
                         tok.lemma = tok.form.lower()[:-2]
-                        change_id = 'adj_past_participal_ades_lemma'
+                        change_id = f'{change_prefix}_past_participle_ades_lemma'
 
                     # jagat
                     elif tok.form.lower().endswith('at'):
                         tok.lemma = tok.form.lower()[:-1] + 'd'
-                        change_id = 'adj_past_participal_at_lemma'
+                        change_id = f'{change_prefix}_past_participle_at_lemma'
 
                     # brutet
                     elif tok.form.lower().endswith('et'):
                         tok.lemma = tok.form.lower()[:-1] + 'n'
-                        change_id = 'adj_past_participal_et_lemma'
+                        change_id = f'{change_prefix}_past_participle_et_lemma'
 
                     # bortsett
                     elif tok.form.lower().endswith('ett'):
                         tok.lemma = tok.form.lower()[:-2] + 'dd'
-                        change_id = 'adj_past_participal_ett_lemma'
+                        change_id = f'{change_prefix}_past_participle_ett_lemma'
 
                     # fortsatt
                     elif tok.form.lower().endswith('att'):
                         tok.lemma = tok.form.lower()
-                        change_id = 'adj_past_participal_att_lemma'
+                        change_id = f'{change_prefix}_past_participle_att_lemma'
                     
                     # fortsatta
                     elif tok.form.lower().endswith('atta'):
                         tok.lemma = tok.form.lower()[:-1]
-                        change_id = 'adj_past_participal_atta_lemma'
+                        change_id = f'{change_prefix}_past_participle_atta_lemma'
 
                     # betalda
                     elif tok.form.lower().endswith('da'):
                         tok.lemma = tok.form.lower()[:-1]
-                        change_id = 'adj_past_participal_da_lemma'
+                        change_id = f'{change_prefix}_past_participle_da_lemma'
 
                     # betaldas
                     elif tok.form.lower().endswith('das'):
                         tok.lemma = tok.form.lower()[:-2]
-                        change_id = 'adj_past_participal_da_lemma'
+                        change_id = f'{change_prefix}_past_participle_da_lemma'
 
                     # brutna / brutne
                     elif tok.form.lower().endswith('na') or tok.form.lower().endswith('ne'):
                         tok.lemma = tok.form.lower()[:-2] + 'en'
-                        change_id = 'adj_past_participal_nae_lemma'
+                        change_id = f'{change_prefix}_past_participle_nae_lemma'
                     
                     # brutnas / brutnes
                     elif tok.form.lower().endswith('nas') or tok.form.lower().endswith('nes'):
                         tok.lemma = tok.form.lower()[:-3] + 'en'
-                        change_id = 'adj_past_participal_naes_lemma'
+                        change_id = f'{change_prefix}_past_participle_naes_lemma'
 
                     # gift / kokt / klippt / låst
                     elif tok.form.lower()[-2] in ['f', 'k', 'p', 's'] and tok.form.lower().endswith('t'):
                         tok.lemma = tok.form.lower()
-                        change_id = 'adj_past_participle_unvoiced_sing_lemma'
+                        change_id = f'{change_prefix}_past_participle_unvoiced_sing_lemma'
                     
                     # gifta / kokta / klippta / låsta
                     elif tok.form.lower()[-3] in ['f', 'k', 'p', 's'] and tok.form.lower().endswith('ta'):
                         tok.lemma = tok.form.lower()[:-1]
-                        change_id = 'adj_past_participle_unvoiced_plur_lemma'
+                        change_id = f'{change_prefix}_past_participle_unvoiced_plur_lemma'
 
                     # framlagt / höjt / särskilt / bestämt / känt / kört / framhävda
                     elif tok.form.lower()[-2] in ['g', 'j',  'l', 'm', 'n', 'r', 'v'] and tok.form.lower().endswith('t'):
                         tok.lemma = tok.form.lower()[:-1] + 'd'
-                        change_id = 'adj_past_participle_voiced_sing_lemma'
+                        change_id = f'{change_prefix}_past_participle_voiced_sing_lemma'
                     
                     # sett / fött 
                     elif tok.form.lower().endswith('tt'):
                         tok.lemma = tok.form.lower()[:-2] + 'dd'
+                        change_id = f'{change_prefix}_past_participle_tt_lemma'
 
-        
-            else:
-                
+            elif tok.upos == 'ADJ':
                 if (tok.form.lower().endswith('ande') or tok.form.lower().endswith('ende')) and (tok.form.lower() != 'ende' and tok.form.lower() != 'ande'):
                         tok.lemma = tok.form.lower()
-                        change_id = 'adj_pres_nom_participal_lemma'
+                        change_id = 'adj_pres_nom_participle_lemma'
 
                 # genetive
                 elif (tok.form.lower().endswith('andes') or tok.form.lower().endswith('endes')) and tok.form.lower() != 'endes' and tok.form.lower() != 'andes':
                     tok.lemma = tok.form.lower()[:-1]
-                    change_id = 'adj_pres_gen_participal_lemma'
+                    change_id = 'adj_pres_gen_participle_lemma'
 
                 # numrerad / väntad / älskad
                 elif tok.form.lower().endswith('ad') and ((tok.lemma.endswith('a')) or (tok.lemma.endswith('d'))):
                     tok.lemma = tok.form.lower()
-                    
-                    change_id = 'adj_past_parciple_ad_sing' 
+                    change_id = 'adj_past_participle_ad_sing' 
                     
 
                 # numrerade / väntade / älskade
                 elif tok.form.lower().endswith('ade') and ((tok.lemma.endswith('a')) or (tok.lemma.endswith('d'))):
                     tok.lemma = tok.form.lower()[:-1]
-                    change_id = 'adj_past_parciple_ade_plur'
+                    change_id = 'adj_past_participle_ade_plur'
                 
                 # ordnat / utformat / outnyttjat
                 elif tok.form.lower().endswith('at') and ((tok.lemma.endswith('a')) or (tok.lemma.endswith('d'))):
                     tok.lemma = tok.form.lower()[:-1] + 'd'
-                
-                    change_id = 'adj_past_parciple_at' 
+                    change_id = 'adj_past_participle_at' 
 
             if change_id != None:
                 if tok.lemma != old_lemma:
@@ -638,7 +650,7 @@ def change_adj_participal_lemma(doc, outfile):
                     change_log.append(f"{change_id=}\tsent_id='{tok.address()}'\t{tok.form=}\t{old_lemma=}\t{tok.lemma=}\tfeats='{tok.feats.__str__()}'\ttext='{tok.root.compute_text()}'")
         
 
-    write_to_change_log(outfile.rsplit('.', maxsplit=1)[0]+'_adj_participal_lemma_changes.log', change_ids, changed_forms_by_id, change_log)
+    write_to_change_log(outfile.rsplit('.', maxsplit=1)[0]+'_adj_participle_lemma_changes.log', change_ids, changed_forms_by_id, change_log)
 
 def change_adj_exception_lemma(doc, outfile):
     change_ids = []
@@ -800,7 +812,7 @@ if __name__ == '__main__':
 
     change_adj_lemma(doc, outfile)
     change_adj_ordinal_lemma(doc, outfile)
-    change_adj_participal_lemma(doc, outfile)
+    change_participle_lemma(doc, outfile)
     change_adj_exception_lemma(doc, outfile)
     change_abbr_lemma(doc, outfile)
 
