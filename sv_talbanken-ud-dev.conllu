@@ -10581,7 +10581,7 @@
 5	eftersläpande	eftersläpande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom	6	amod	6:amod	_
 6	gammalt	gammal	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	nmod	3:nmod:av	_
 7	och	och	CCONJ	KN	_	9	cc	9:cc	_
-8	osmält	osmäld	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	9	amod	9:amod	_
+8	osmält	osmält	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	amod	9:amod	_
 9	nytt	ny	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	conj	3:nmod:av|6:conj:och	_
 10	föds	föda	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	0:root	_
 11	lätt	lätt	ADV	AB|POS	Degree=Pos	10	advmod	10:advmod	_
