@@ -502,7 +502,7 @@
 11	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	14	nsubj:pass	14:nsubj:pass	_
 12	bli	bli	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	14	aux:pass	14:aux:pass	_
 13	helt	helt	ADV	AB|POS	Degree=Pos	14	advmod	14:advmod	_
-14	emanciperade	emanciperad	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	0	root	0:root	SpaceAfter=No
+14	emanciperade	emanciperad	VERB	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	SpaceAfter=No
 15	;	;	PUNCT	MID	_	14	punct	14:punct	_
 16	rollen	roll	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	19	nsubj	19:nsubj	_
 17	som	som	SCONJ	KN	_	18	mark	18:mark	_
@@ -860,7 +860,7 @@
 8	blivit	bli	AUX	VB|SUP|AKT	VerbForm=Sup|Voice=Act	11	aux:pass	11:aux:pass	_
 9	så	så	ADV	AB	_	10	advmod	10:advmod	_
 10	lite	lite	ADV	AB|POS	Degree=Pos	11	advmod	11:advmod	_
-11	diciplinerade	diciplinerad	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	0	root	0:root	_
+11	diciplinerade	diciplinerad	VERB	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 12	och	och	CCONJ	KN	_	13	cc	13:cc	_
 13	auktoritetsbundna	auktoritetsbunden	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Number=Plur	11	conj	11:conj:och	SpaceAfter=No
 14	,	,	PUNCT	MID	_	16	punct	16:punct	_
@@ -1529,7 +1529,7 @@
 16	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	19	nsubj:pass	19:nsubj:pass	_
 17	blev	bli	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	19	aux:pass	19:aux:pass	_
 18	mycket	mycket	ADV	AB|POS	Degree=Pos	19	advmod	19:advmod	_
-19	frusterade	frusterad	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	2	advcl	2:advcl:att	_
+19	frusterade	frusterad	VERB	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	advcl	2:advcl:att	_
 20	av	av	ADP	PP	_	25	mark	25:mark	_
 21	att	att	SCONJ	SN	_	25	mark	25:mark	_
 22	sköterskans	sköterska	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	23	nmod:poss	23:nmod:poss	_
@@ -3711,7 +3711,7 @@
 13	känslomässigt	känslomässig	ADV	AB|POS	Degree=Pos	11	conj	11:conj:och|16:advmod	_
 14	bli	bli	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	16	aux:pass	16:aux:pass	_
 15	mer	mycket	ADV	AB|KOM	Degree=Cmp	16	advmod	16:advmod	_
-16	likställd	likställd	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	_
+16	likställd	likställd	VERB	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 17	med	med	ADP	PP	_	18	case	18:case	_
 18	mannen	man	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	16	obl	16:obl:med	SpaceAfter=No
 19	.	.	PUNCT	MAD	_	16	punct	16:punct	_
@@ -5298,7 +5298,7 @@
 8	vi	vi	PRON	PN|UTR|PLU|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	11	nsubj:pass	11:nsubj:pass	_
 9	snart	snart	ADV	AB|POS	Degree=Pos	11	advmod	11:advmod	_
 10	blir	bli	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux:pass	11:aux:pass	_
-11	tvungna	tvungen	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	2	advcl	2:advcl:att	_
+11	tvungna	tvungen	VERB	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	advcl	2:advcl:att	_
 12	att	att	PART	IE	_	13	mark	13:mark	_
 13	göra	göra	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	11	advcl	11:advcl:att	_
 14	samma	samma	DET	DT|UTR/NEU|SIN/PLU|IND	Definite=Ind|PronType=Ind	15	det	15:det	_
@@ -6345,7 +6345,7 @@
 4	vi	vi	PRON	PN|UTR|PLU|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	7	nsubj:pass	7:nsubj:pass	_
 5	blev	bli	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	7	aux:pass	7:aux:pass	_
 6	lite	lite	ADV	AB|POS	Degree=Pos	7	advmod	7:advmod	_
-7	undandragna	undandragen	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	1	ccomp	1:ccomp	SpaceAfter=No
+7	undandragna	undandragen	VERB	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	1	ccomp	1:ccomp	SpaceAfter=No
 8	.	.	PUNCT	MAD	_	1	punct	1:punct	_
 
 # sent_id = sv-ud-dev-262

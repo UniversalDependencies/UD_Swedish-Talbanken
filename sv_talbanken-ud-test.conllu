@@ -6762,7 +6762,7 @@
 28	satelliterna	satellit	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	22	obl	22:obl:tack_vare	SpaceAfter=No
 29	,	,	PUNCT	MID	_	22	punct	22:punct	_
 30	bli	bli	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	31	aux:pass	31:aux:pass	_
-31	fjärrundersökta	fjärrundersökt	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	13	conj	9:acl:relcl|13:conj:och	_
+31	fjärrundersökta	fjärrundersökt	VERB	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Number=Plur|Voice=Pass	13	conj	9:acl:relcl|13:conj:och	_
 32	av	av	ADP	PP	_	33	case	33:case	_
 33	läkare	läkare	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	31	obl:agent	31:obl:agent	SpaceAfter=No
 34	,	,	PUNCT	MID	_	31	punct	31:punct	_
@@ -6817,7 +6817,7 @@
 9	att	att	SCONJ	SN	_	12	mark	12:mark	_
 10	u-länderna	u-land	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	12	nsubj:pass	12:nsubj:pass	_
 11	blir	bli	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux:pass	12:aux:pass	_
-12	utestängda	utestängd	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	8	ccomp	8:ccomp	_
+12	utestängda	utestängd	VERB	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	ccomp	8:ccomp	_
 13	från	från	ADP	PP	_	16	case	16:case	_
 14	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	16	det	16:det	_
 15	sådan	sån	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	16	amod	16:amod	_
@@ -10209,7 +10209,7 @@
 1	De	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	4	nsubj:pass	4:nsubj:pass	_
 2	blev	bli	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	4:aux:pass	_
 3	'	'	PUNCT	PAD	_	4	punct	4:punct	SpaceAfter=No
-4	tvungna	tvungen	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	0	root	0:root	_
+4	tvungna	tvungen	VERB	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 5	att	att	PART	IE	_	6	mark	6:mark	_
 6	gifta	gifta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	4	advcl	4:advcl:att	_
 7	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def|PronType=Prs	6	obj	6:obj	SpaceAfter=No
@@ -12973,7 +12973,7 @@
 6	insjuknar	insjukna	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	4:acl:relcl	_
 7	blir	bli	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux:pass	9:aux:pass	_
 8	psykiskt	psykisk	ADV	AB|POS	Degree=Pos	9	advmod	9:advmod	_
-9	invalidiserade	invalidiserad	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	0	root	0:root	_
+9	invalidiserade	invalidiserad	VERB	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 10	under	under	ADP	PP	_	12	case	12:case	_
 11	flera	flera	ADJ	JJ|POS|UTR/NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	12	amod	12:amod	_
 12	år	år	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	9	obl	9:obl:under	_
@@ -13049,7 +13049,7 @@
 2	till	till	ADP	PP	_	3	case	3:case	_
 3	omvärlden	omvärld	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	1	nmod	1:nmod:till	_
 4	blir	bli	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux:pass	5:aux:pass	_
-5	förändrad	förändrad	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	SpaceAfter=No
+5	förändrad	förändrad	VERB	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	SpaceAfter=No
 6	.	.	PUNCT	MAD	_	5	punct	5:punct	_
 
 # sent_id = sv-ud-test-676
@@ -14446,7 +14446,7 @@
 21	hjärnbarken	hjärnbark	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	16	obl	16:obl:på	SpaceAfter=No
 22	,	,	PUNCT	MID	_	13	punct	13:punct	_
 23	blir	bli	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	24	aux:pass	24:aux:pass	_
-24	bedövade	bedövad	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	8	advcl	8:advcl:att	_
+24	bedövade	bedövad	VERB	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	advcl	8:advcl:att	_
 25	och	och	CCONJ	KN	_	29	cc	29:cc	_
 26	mer	mycket	ADV	AB|KOM	Degree=Cmp	29	advmod	29:advmod	_
 27	eller	eller	CCONJ	KN	_	26	fixed	26:fixed	_
@@ -14502,7 +14502,7 @@
 13	blir	bli	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	16	aux:pass	16:aux:pass	_
 14	effekten	effekt	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	16	nsubj:pass	16:nsubj:pass	_
 15	kraftigt	kraftig	ADV	AB|POS	Degree=Pos	16	advmod	16:advmod	_
-16	förstärkt	förstärkt	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	_
+16	förstärkt	förstärkt	VERB	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 17	vid	vid	ADP	PP	_	20	case	20:case	_
 18	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	20	det	20:det	_
 19	kombinerad	kombinerad	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	20	amod	20:amod	_
@@ -19577,7 +19577,7 @@
 4	och	och	CCONJ	KN	_	7	cc	7:cc	_
 5	blir	bli	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux:pass	7:aux:pass	_
 6	ensidigt	ensidig	ADV	AB|POS	Degree=Pos	7	advmod	7:advmod	_
-7	påverkade	påverkad	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	3	conj	3:conj:och	_
+7	påverkade	påverkad	VERB	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	3	conj	3:conj:och	_
 8	från	från	ADP	PP	_	11	case	11:case	_
 9	allra	allra	ADV	AB	_	10	advmod	10:advmod	_
 10	första	första	ADJ	RO|NOM	Case=Nom	11	amod	11:amod	_
@@ -22420,7 +22420,7 @@
 15	förhållande	förhållande	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	18	nsubj:pass	18:nsubj:pass	_
 16	blir	bli	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	18	aux:pass	18:aux:pass	_
 17	rättsligt	rättslig	ADV	AB|POS	Degree=Pos	18	advmod	18:advmod	_
-18	reglerat	reglerad	ADJ	PC|PRF|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	11	acl	11:acl:att	SpaceAfter=No
+18	reglerat	reglerad	VERB	PC|PRF|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	acl	11:acl:att	SpaceAfter=No
 19	.	.	PUNCT	MAD	_	5	punct	5:punct	_
 
 # sent_id = sv-ud-test-1126
@@ -23890,7 +23890,7 @@
 6	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	8	det	8:det	_
 7	ena	ena	ADJ	JJ|POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	8	amod	8:amod	_
 8	parten	part	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	nsubj:pass	9:nsubj:pass|10:nsubj	_
-9	lämnad	lämnad	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	_
+9	lämnad	lämnad	VERB	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 10	ensam	ensam	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	9	xcomp	9:xcomp	SpaceAfter=No
 11	,	,	PUNCT	MID	_	14	punct	14:punct	_
 12	och	och	CCONJ	KN	_	14	cc	14:cc	_

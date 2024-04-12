@@ -299,7 +299,7 @@ def change_participle_lemma(doc, outfile):
             change_id = None
             old_lemma = tok.lemma
             
-            if tok.feats['VerbForm'] == 'Part':
+            if tok.feats['VerbForm'] == 'Part' or 'aux:pass' in [child.deprel for child in tok.children if child.lemma == 'bli']:
                 # if there the adjective ends in an obvious present participle ending, but for some reason has been classified as 
                 # past tense, we fix it before we fix the lemma. 
                 if any(tok.form.endswith(end) for end in ['ande', 'andes', 'ende', 'endes']):
@@ -760,37 +760,70 @@ def reclassify_participles(doc, outfile, participle_class_doc):
         change_id = None
         old_feats = tok.feats.__str__()
         was_verb = False
+        
+        
 
-        if tok.upos == 'VERB' and tok.feats['VerbForm'] == 'Part': #and not 'bli' in (child.lemma for child in tok.children):
+        if tok.upos == 'VERB' and tok.feats['VerbForm'] == 'Part' and (not 'aux:pass' in [child.deprel for child in tok.children if child.lemma == 'bli']):
+            # if tagged as a verb and does not have a child with lemma 'bli'
+            # set it as ADJ
+            # set Case=Nom/Gen depending on if it ends with "s"
+            # set Tense based on its previous Voice (Pass=Past, Act=Pres)
+            # set Definite based on Mood=In
+            # set Degree=Pos
             tok.upos = 'ADJ'
             tok.feats['Case'] = 'Nom' if not tok.form.endswith('s') else 'Gen'
+
             if tok.feats.get('Voice', None) == 'Act':
                 tok.feats['Tense'] = 'Pres'
             
             elif tok.feats.get('Voice', None) == 'Pass':
                 tok.feats['Tense'] = 'Past'
+
             tok.feats['Voice'] = None
             
             if tok.feats.get('Mood', None) == 'Ind':
                 tok.feats['Definite'] = 'Ind'
+
             tok.feats['Mood'] = None
 
             tok.feats['Degree'] = 'Pos'
 
             was_verb = True
-
         
+
         if tok.lemma in participle_classification:
+            # if the lemma is in the list of participle-like candidates, 
+            # check if it is classified as a participle or not
             if participle_classification[tok.lemma]:
+                # if it is a participle, set VerbForm=Part and Tense=Pres/Past if ADJ and also Voice=Pass if 
+                # VERB and bli-passive construction
                 if tok.upos == 'ADJ':
                     tok.feats['VerbForm'] = 'Part'
                     tok.feats['Tense'] = participle_classification[tok.lemma]
+
                     change_id = f"{'adj' if not was_verb else 'verb'}_{participle_classification[tok.lemma]}_participle"
+
+                elif tok.upos == 'VERB' and 'aux:pass' in [child.deprel for child in tok.children if child.lemma == 'bli']:
+                    tok.feats['VerbForm'] = 'Part'
+                    tok.feats['Tense'] = participle_classification[tok.lemma]
+                    tok.feats['Voice'] = 'Pass'
+
+                    change_id = f"verb_bli_pass_participle"
+
             else:
+                # if it is not considered a participle, remove VerbForm and Tense, but if VERB leave Voice=Pass
                 if tok.upos == 'ADJ':
                     tok.feats['VerbForm'] = None
                     tok.feats['Tense'] = None
+                    
                     change_id = f"{'adj' if not was_verb else 'verb'}_not_participle"
+
+                elif tok.upos == 'VERB' and 'aux:pass' in [child.deprel for child in tok.children if child.lemma == 'bli']:
+                    tok.feats['VerbForm'] = None
+                    tok.feats['Tense'] = None
+                    tok.feats['Voice'] = 'Pass'
+
+                    change_id = f"verb_bli_pass_not_participle"
                 
                     
         if change_id != None:
@@ -799,7 +832,7 @@ def reclassify_participles(doc, outfile, participle_class_doc):
                 changed_forms_by_id[change_id].add(tok.form)
                 change_log.append(f"{change_id=}\tsent_id='{tok.address()}'\tupos='{tok.upos}'\tform='{tok.form}'\t{old_feats=}\tfeats='{tok.feats.__str__()}'\ttext='{tok.root.compute_text()}'")
 
-    write_to_change_log(outfile.rsplit('.', maxsplit=1)[0]+'_participle_feats_changes.log', change_ids, changed_forms_by_id, change_log)
+    write_to_change_log(outfile.rsplit('.', maxsplit=1)[0]+'_reclassify_participle_changes.log', change_ids, changed_forms_by_id, change_log)
 
 def change_den_det_de(doc, outfile):
     change_ids = []
