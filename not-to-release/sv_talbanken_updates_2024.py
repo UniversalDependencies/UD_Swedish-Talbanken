@@ -1014,6 +1014,10 @@ def change_adj_feats(doc, outfile):
 
             # (den/det) civila / nya / statistiska
             elif not tok.form.lower().endswith('sta') and tok.form.lower() == tok.lemma + 'a' and tok.feats['Definite'] == 'Def':
+                # Kolla Number/Definite mot substantiv och artikel om de finns, flagga om de inte stämmer överens.
+                # Om Definite=Def|Number=Sing, ta bort Number
+                # Om Number=Plur, kolla substantiv och artikel, om det inte finns, flagga och ändra manuellt.
+
                 tok.feats['Case'] = 'Nom'
                 tok.feats['Degree'] = 'Pos'
                 
