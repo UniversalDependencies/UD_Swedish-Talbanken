@@ -1,0 +1,819 @@
+id=sv-ud-train-2974#8
+text='Det är makarnas uppgift att förverkliga den absoluta kärlek som Kristus fört in i världen.'
+8	absoluta	absolut	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	9	amod	9:amod	_
+
+id=sv-ud-train-3314#4
+text='Så ger den allmänna kulturella miljö vi växer upp i en konformitet som i stort skiljer oss från andra kulturmiljöer.'
+4	allmänna	allmän	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	6	amod	6:amod	_
+
+id=sv-ud-train-66#9
+text='Krav på disciplin möter du på de flesta andra områden i samhället.'
+9	andra	annan	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	10	amod	10:amod	_
+
+id=sv-ud-train-201#16
+text='Om du måste anlita läkare utanför sjukhuset under permissionen gäller numera samma ersättningsbestämmelser som för andra läkarbesök.'
+16	andra	annan	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	17	amod	17:amod	_
+
+id=sv-ud-train-2433#8
+text='Expressens erfarenheter från långtestbilar och de många andra bilar vi kör tyder på att radialvinterdäck av Pirellis och Continentals tillverkning mycket bra förenar de olika kraven på bra väggrepp, stadig gång och låg ljudnivå.'
+8	andra	annan	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	9	amod	9:amod	_
+
+id=sv-ud-train-3472#11
+text='Se figuren, som också visar barnens placering efter denna andra dimension.'
+11	andra	annan	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	12	amod	12:amod	_
+
+id=sv-ud-test-1111#20
+text='Att på det sättet öppet visa att ett barn är fött 'utom äktenskapet' skulle i de flesta andra länder vara helt otänkbart - hos oss är det väl knappast längre någon som reagerar.'
+20	andra	annan	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	21	amod	21:amod	_
+
+id=sv-ud-dev-480#33
+text='Ta med hjälp av Statistisk årsbok reda på hur många barn som enligt senaste folkräkningen tillhörde mor- eller farföräldrahushåll; hur många föräldrar som tillhörde vuxna barns hushåll; i vilken omfattning andra anhöriga ingick i släktings hushåll.'
+33	andra	annan	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	34	amod	34:amod	_
+
+id=sv-ud-test-783#5
+text='Man avvecklade t o m de begränsade insatser på bostadsmarknaden som gjorts under första världskriget.'
+5	begränsade	begränsad	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	6	amod	6:amod	_
+
+id=sv-ud-train-393#20
+text='För att RFSU-laboratoriets undersökning skall bli tillförlitlig fordras att Ni ... 1. tidigast 10 dagar efter den uteblivna menstruationens beräknade första dag eller tidigast fyra veckor efter eventuellt befruktningstillfälle tar ... 2. ett prov av Er morgonurin, ca 1/2 dl (= 50 gr), i en väl rengjord flaska (glas eller plast), som etiketteras med Ert namn och som ... 3. inlämnas eller postas till RFSU-laboratoriet tillsammans med en av Er ifylld inlämningsblankett.'
+20	beräknade	beräknad	ADJ	PC|PRF|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part	21	amod	21:amod	_
+
+id=sv-ud-train-1867#29
+text='- Att trycka och distribuera 90 miljoner valkuvert kostade samhället 3,5 miljoner kr senaste val, det nya förfarandet blir betydligt billigare, säger avdelningsdirektör Per-Ola Larsson vid Centrala folkbokförings- och uppbördsnämnden, CFU.'
+29	Centrala	central	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	30	amod	30:amod	_
+
+id=sv-ud-train-4280#10
+text='Att stödja sig på barnets behov att ha samma dagliga vårdare under de tidigaste barnaåren och därav dra slutsatsen att mamma a priori måste vara hemma hos barnet hela dagarna, är med utgångspunkt av vad som ovan sagts helt absurt.'
+10	dagliga	daglig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	11	amod	11:amod	_
+
+id=sv-ud-train-3455#10
+text='Det finns många olika sätt att familjepolitiskt lösa detta delade ansvar.'
+10	delade	delad	ADJ	PC|PRF|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part	11	amod	11:amod	_
+
+id=sv-ud-train-1813#9
+text='Tester av olika slag har genomförts under det dryga år som arbetet på bildtolken pågått.'
+9	dryga	dryg	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	10	amod	10:amod	_
+
+id=sv-ud-train-3153#9
+text='Räcker våra tillgångar av primärenergi till för denna dynamiska utveckling?'
+9	dynamiska	dynamisk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	10	amod	10:amod	_
+
+id=sv-ud-test-130#14
+text='Det finns inte två länder, som befinner sig i samma kulturella eller ekonomiska situation.'
+14	ekonomiska	ekonomisk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	12	conj	12:conj:eller|15:amod	_
+
+id=sv-ud-dev-349#28
+text='Medan arbetarkvinnorna sugs ut i sitt dubbelarbete så att de inte orkar arbeta fackligt och politiskt för att förändra sin egen situation - och på sikt det ekonomiska system som är orsaken till deras situation.'
+28	ekonomiska	ekonomisk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	29	amod	29:amod	_
+
+id=sv-ud-train-3609#4
+text='Störningar i detta elektriska fält registreras av receptorer i sidolinjeorganet.'
+4	elektriska	elektrisk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	5	amod	5:amod	_
+
+id=sv-ud-train-2679#8
+text='Vi människor kan aldrig föreställa oss den enorma doftvärld en hund lever i.'
+8	enorma	enorm	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	9	amod	9:amod	_
+
+id=sv-ud-test-820#9
+text='Ekonomiska lagar om tillgång och efterfrågan kunde inte ensamma få styra byggnationens inriktning.'
+9	ensamma	ensam	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	11	amod	11:amod	_
+
+id=sv-ud-train-4255#27
+text='För männen innebär detta en fördel i så måtto att de får möjlighet till djupare och rikare kontakt med barnen, för kvinnorna att de inte ensamma behöver ta ansvaret för barnens uppfostran och att de endast behöver göra kortare avbrott i sitt yrkesarbete.'
+27	ensamma	ensam	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	29	amod	29:amod	_
+
+id=sv-ud-dev-478#7
+text='De relativt få, fasta och entydiga normer som styrde samlevnaden i det statiska samhället räcker inte längre i dagens sammansatta, skiftande och ständigt föränderliga tillvaro.'
+7	entydiga	entydig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	5	conj	5:conj:och|8:amod	_
+
+id=sv-ud-train-307#6
+text='Men de flesta av de europeiska länder, som hittills har börjat med postnummer, vill liksom vi ha numret skrivet till vänster om adressortens namn.'
+6	europeiska	europeisk	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	7	amod	7:amod	_
+
+id=sv-ud-train-173#8
+text='I de avgifter du betalar ingår också eventuella röntgen- och laboratorieundersökningar.'
+8	eventuella	eventuell	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	9	amod	9:amod	_
+
+id=sv-ud-dev-44#2
+text='De eventuella skillnader man finner mellan kibbutz- och moshavbarn borde kunna hänföras till skillnad i uppfostran, förutsatt att de barngrupper man undersöker är tillräckligt stora och utvalda på riktigt sätt.'
+2	eventuella	eventuell	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	3	amod	3:amod	_
+
+id=sv-ud-train-4017#27
+text='Rätt framförd aktualiserar en kristen uppfattning om äktenskapet det förpliktande ansvaret i en sexuell förbindelse på samma gång som äktenskapet ger en skyddande ram för denna exklusiva kontakt mellan två människor.'
+27	exklusiva	exklusiv	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	28	amod	28:amod	_
+
+id=sv-ud-train-2797#3
+text='Om denna explosiva folkökning fortsätter, kommer jordens folkmängd att ha fördubblats några år in på 2000-talet, alltså på mindre än 40 år.'
+3	explosiva	explosiv	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	4	amod	4:amod	_
+
+id=sv-ud-train-3453#9
+text='Ungefär på detta sätt argumenterar man i de familjepolitiska reformer som håller på att genomföras i vårt land.'
+9	familjepolitiska	familjepolitisk	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	10	amod	10:amod	_
+
+id=sv-ud-train-2659#8
+text='En hundägare kan komma med de mest fantastiska skildringar om sin hunds klokhet.'
+8	fantastiska	fantastisk	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	9	amod	9:amod	_
+
+id=sv-ud-dev-348#16
+text='Dom 'vårdar miljonvärden', talar för det borgerligt-individualistiska livsmönstret, deltar i det farliga 'ideella arbete' som bara tjänar till att dölja samhällets ekonomiska och sociala orättvisor i en medlidandets och välgörenhetens dimridå.'
+16	farliga	farlig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	19	amod	19:amod	_
+
+id=sv-ud-dev-478#5
+text='De relativt få, fasta och entydiga normer som styrde samlevnaden i det statiska samhället räcker inte längre i dagens sammansatta, skiftande och ständigt föränderliga tillvaro.'
+5	fasta	fast	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	8	amod	8:amod	_
+
+id=sv-ud-train-2930#19
+text='Vi finner det numera självklart, att ett äktenskap i första hand motiveras av två människors kärlek och frivilliga överenskommelse.'
+19	frivilliga	frivillig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	20	amod	20:amod	_
+
+id=sv-ud-train-2565#3
+text='Bland de fundamentala ting som barn behöver för att utvecklas till harmoniska, självständiga människor spelar leken en stor roll.'
+3	fundamentala	fundamental	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	4	amod	4:amod	_
+
+id=sv-ud-test-762#18
+text='De ämnen, som direkt stimulerar centrala nervsystemet, t ex amfetaminer och kokain, har inte samma fysiologiska tillvänjningseffekt, men de kan leda till ett starkt psykiskt beroende och till svåra rubbningar vid långvarigt bruk.'
+18	fysiologiska	fysiologisk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	19	amod	19:amod	_
+
+id=sv-ud-train-3449#4
+text='Självfallet medför denna förlängda skolgång - utbildningssamhället - ekonomiska påfrestningar både för familje- och statsbudgeten.'
+4	förlängda	förlängd	ADJ	PC|PRF|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part	5	amod	5:amod	_
+
+id=sv-ud-train-3337#3
+text='I det förmögna Sverige saknar hälften av hushållen egendom.'
+3	förmögna	förmögen	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	4	amod	4:amod	_
+
+id=sv-ud-train-3105#26
+text='Veden, torven, kolet, oljan och naturgasen är genom olika organismer lagrad solenergi, och vattenkraften är ett resultat av den genom solstrålningen förorsakade vind- och vattencirkulationen i atmosfären.'
+26	förorsakade	förorsakad	ADJ	PC|PRF|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part	27	amod	27:amod	_
+
+id=sv-ud-test-568#5
+text='Anledningen till denna mycket försiktiga optimism är att man under senare år funnit att somliga av dessa fall har haft god nytta av ett operativt ingrepp.'
+5	försiktiga	försiktig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	6	amod	6:amod	_
+
+id=sv-ud-test-856#4
+text='Anledningarna till detta förändrade synsätt är flera.'
+4	förändrade	förändrad	ADJ	PC|PRF|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part	5	amod	5:amod	_
+
+id=sv-ud-train-745#2
+text='De gamla två- och femkronorsmynten blir inte ogiltiga, men de finns bara i mycket litet antal.'
+2	gamla	gammal	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	3	amod	3:amod	_
+
+id=sv-ud-train-3803#9
+text='I Bibeln omtalas, att det i det gamla Israel inte var ovanligt att en man hade flera hustrur.'
+9	gamla	gammal	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	10	amod	10:amod	_
+
+id=sv-ud-test-1045#10
+text='Men ett kallt faktum är att förutsättningarna för de gamla tydliga pappa- och mammarollerna har försvunnit, familjen är inte längre en praktisk nödvändighet för att tillhandahålla dagligservicen.'
+10	gamla	gammal	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	12	amod	12:amod	_
+
+id=sv-ud-train-184#10
+text='Om du besöker privatpraktiserande läkare betalar du som förut hela det arvode han begär.'
+10	hela	hel	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	12	amod	12:amod	_
+
+id=sv-ud-train-194#12
+text='De nya bestämmelserna gäller inte för pensionärer som vårdats på sjukhus hela år 1969.'
+12	hela	hel	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	13	amod	13:amod	_
+
+id=sv-ud-test-121#25
+text='Ett exempel: enbart i USA ökar BNP varje år med ett belopp, som är ungefär lika stort som den totala bruttonationalprodukten i hela Afrika eller Indien!'
+25	hela	hel	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	26	amod	26:amod	_
+
+id=sv-ud-test-341#3
+text='Det är hela detta nätverk som löper faran.'
+3	hela	hel	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	5	amod	5:amod	_
+
+id=sv-ud-test-358#4
+text='Men invånarna i hela Nordamerika, som utgör 7,5 procent av jordens befolkning, använder redan nu hälften av avkastningen av världens alla råvarutillgångar.'
+4	hela	hel	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	5	amod	5:amod	_
+
+id=sv-ud-train-3187#9
+text='Från detta verk levereras elkraft inte bara till hela Västtyskland utan också till Beneluxländerna och Frankrike.'
+9	hela	hel	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	10	amod	10:amod	_
+
+id=sv-ud-train-4164#11
+text=''Det som riktigt är jag själv' - o hemska verklighet! - skall, enligt bibelns lära om kärlek, varken blomma ut i någon sorts självständighet eller gömmas under någon annans dominans.'
+11	hemska	hemsk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	12	amod	12:amod	_
+
+id=sv-ud-dev-90#2
+text='Så hårda inkomst och medborgarstreck hade tidigare begränsat rösträtten att den knappast kunde kallas för allmän ens för männen.'
+2	hårda	hård	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	3	amod	3:amod	_
+
+id=sv-ud-train-3156#13
+text='Men om vi räknar med att alla världens länder skulle ha samma höga konsumtion per capita som USA, räcker tillgångarna bara ca 100 år.'
+13	höga	hög	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	14	amod	14:amod	_
+
+id=sv-ud-train-3193#4
+text='Kolet har dessutom höga lastnings- och lossningskostnader.'
+4	höga	hög	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	5	amod	5:amod	_
+
+id=sv-ud-train-1925#10
+text='Det finns en del församlingar i Stockholm - den högborgerliga Oscars församling till exempel - som visar ett rekordlågt valdeltagande.'
+10	högborgerliga	högborgerlig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	12	amod	12:amod	_
+
+id=sv-ud-dev-348#18
+text='Dom 'vårdar miljonvärden', talar för det borgerligt-individualistiska livsmönstret, deltar i det farliga 'ideella arbete' som bara tjänar till att dölja samhällets ekonomiska och sociala orättvisor i en medlidandets och välgörenhetens dimridå.'
+18	ideella	ideell	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	19	amod	19:amod	_
+
+id=sv-ud-dev-356#6
+text='De bevarar kärnfamiljen och den individualistiska barnuppfostran som i sin tur förhindrar människor att mötas i social gemenskap, farlig för samhället.'
+6	individualistiska	individualistisk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	7	amod	7:amod	_
+
+id=sv-ud-test-500#5
+text='Och anledningen till detta kategoriska uttalande är den larmrapport som släpptes ut förra veckan om PCB- och DDT-halterna i östersjöfisken.'
+5	kategoriska	kategorisk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	6	amod	6:amod	_
+
+id=sv-ud-train-1119#35
+text='För detta ändamål används särskilda s k kontrollstavar, som placeras i reaktorn bland bränslestavarna, dvs de rör av speciallegering, som innehåller små cylindrar eller s k kutsar av sintrad urandioxid, där det klyvbara U235 ingår.'
+35	klyvbara	klyvbar	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	36	amod	36:amod	_
+
+id=sv-ud-train-3938#23
+text='Stadsplanerings- och byggnadslagstiftning hittills har tillåtit eller snarare främjat framväxten av enorma trista förorter där man ofta inte tillfredsställt ens minimifordringar på kollektiva service- och kontaktinrättningar.'
+23	kollektiva	kollektiv	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	24	amod	24:amod	_
+
+id=sv-ud-dev-34#4
+text='Vad skapar den kollektiva barnuppfostran för slags människor?'
+4	kollektiva	kollektiv	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	5	amod	5:amod	_
+
+id=sv-ud-dev-66#22
+text='Rabin tog upp ytterligare en rad frågor, vilka bland annat berörde kibbutzbarnens attityd till föräldrarna, mödrarnas inställning till den kollektiva uppfostran, olika ambitioner och förväntningar hos kibbutz- och moshavbarn, psykosexuella skillnader och skillnader i skuldkänslor och identifikation.'
+22	kollektiva	kollektiv	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	23	amod	23:amod	_
+
+id=sv-ud-dev-70#22
+text='Rabin, och många forskare med honom, anser att resultaten ger belägg för att kibbutzbarn inte tar skada av den kollektiva uppfostran, att de tvärtom verkar välanpassade, självständiga och jämförelsevis tidigt utvecklade med undantag för de yngsta barnen.'
+22	kollektiva	kollektiv	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	23	amod	23:amod	_
+
+id=sv-ud-train-59#2
+text='Den koncentrerade militära utbildning som du får sker av praktiska skäl i en internatförläggning - i kasern.'
+2	koncentrerade	koncentrerad	ADJ	PC|PRF|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part	4	amod	4:amod	_
+
+id=sv-ud-train-3944#35
+text='Dvs bland kvinnor som ofta frivilligt av traditionstänkande och i många fall på grund av dålig eller ingen yrkesutbildning eller motvilligt på grund av frånvaron av tillräckligt antal eller inga daghemsplatser alls, mannens konventionella status- och bekvämlighetstänkande och den avskräckande skattelagstiftningen' valt' att stanna hemma.'
+35	konventionella	konventionell	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	36	amod	36:amod	_
+
+id=sv-ud-test-130#12
+text='Det finns inte två länder, som befinner sig i samma kulturella eller ekonomiska situation.'
+12	kulturella	kulturell	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	15	amod	15:amod	_
+
+id=sv-ud-train-3314#5
+text='Så ger den allmänna kulturella miljö vi växer upp i en konformitet som i stort skiljer oss från andra kulturmiljöer.'
+5	kulturella	kulturell	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	6	amod	6:amod	_
+
+id=sv-ud-train-3750#9
+text='Det fanns sedan gammalt två traditioner: de kungliga slotts- och jaktparkerna å ena sidan och allmänningarna å den andra.'
+9	kungliga	kunglig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	10	amod	10:amod	_
+
+id=sv-ud-train-3395#6
+text='AMS söker behandla manliga och kvinnliga arbetssökande lika, ingen avdelning eller linje är spärrad.'
+6	kvinnliga	kvinnlig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	4	conj	4:conj:och|7:amod	_
+
+id=sv-ud-train-2118#15
+text='Skall vi fortsätta att äta industriskalad potatis så länge det är osäkert om de små mängder bisulfit vi därmed får i oss kan vålla genetiska skador (cancerfara)?'
+15	små	liten	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	16	amod	16:amod	_
+
+id=sv-ud-train-2122#26
+text='Att hålla kvar och helst öka mängden potatis i folkkosten är så viktigt att det är orätt att motverka det på grund av de försvinnande små mängder vi kan få i oss av en sedan mansåldrar beprövad livsmedelstillsats.'
+26	små	liten	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	27	amod	27:amod	_
+
+id=sv-ud-train-3395#4
+text='AMS söker behandla manliga och kvinnliga arbetssökande lika, ingen avdelning eller linje är spärrad.'
+4	manliga	manlig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	7	amod	7:amod	_
+
+id=sv-ud-train-1794#3
+text='Denna 'medicinska bildtolk' av prof. Adams-Ray med teckningar av Claes Folkeson presenterades på onsdagen av Håkan Ohlssons förlag i Lund.'
+3	medicinska	medicinsk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	4	amod	4:amod	_
+
+id=sv-ud-train-4077#2
+text='Denna metafysiska betoning av 'feminina egenskaper och beteenden' innebär indirekt en kvinnoyrkesfientlig inställning.'
+2	metafysiska	metafysisk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	3	amod	3:amod	_
+
+id=sv-ud-train-59#3
+text='Den koncentrerade militära utbildning som du får sker av praktiska skäl i en internatförläggning - i kasern.'
+3	militära	militär	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	4	amod	4:amod	_
+
+id=sv-ud-train-4104#23
+text='Frågan är om den gifta kvinnan kommer att finna sig till rätta med den isolerade hemmafrurollen som är särskilt påtaglig i de moderna stads- och förortssamhällena.'
+23	moderna	modern	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	24	amod	24:amod	_
+
+id=sv-ud-train-3374#4
+text='De sociala och mänskliga problem socialvården i dag brottas med kommer att förvärras och fördjupas om man inte går in för att mindre söka efter fel, brister och sviktande funktioner hos enskilda personer eller primärgrupper än förekomma uppkomsten av sådana problem.'
+4	mänskliga	mänsklig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	2	conj	2:conj:och|5:amod	_
+
+id=sv-ud-train-352#8
+text='Ett ilpaket transporteras till adressorten på snabbast möjliga sätt.'
+8	möjliga	möjlig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	9	amod	9:amod	_
+
+id=sv-ud-test-54#2
+text='Högsta möjliga pensionspoäng är 6,50.'
+2	möjliga	möjlig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	3	amod	3:amod	_
+
+id=sv-ud-train-1358#13
+text='Alla slåss för sina intressen för att till slut kunna nå bästa möjliga kompromiss i Gemenskapens tecken.'
+13	möjliga	möjlig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	14	amod	14:amod	_
+
+id=sv-ud-train-3012#17
+text='Och det är naturligt, att vi frågar oss, om just engiftet ger individerna största möjliga lycka och nytta.'
+17	möjliga	möjlig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	18	amod	18:amod	_
+
+id=sv-ud-train-2983#2
+text='Den naturliga instinkt, som gör att man och kvinna dras till varandra, betraktas som en gåva av Gud.'
+2	naturliga	naturlig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	3	amod	3:amod	_
+
+id=sv-ud-test-1160#3
+text='Den starka negativa reaktion som mött direktiven beror på att dessa så detaljerat pekat ut lösningar och eftersträvade förändringar och lämnat mycket lite utrymme åt ställningstaganden från utredningens sida.'
+3	negativa	negativ	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	4	amod	4:amod	_
+
+id=sv-ud-train-2330#21
+text='Federalisterna - främst Belgien, Holland, Luxemburg - vill inte att EEC:s politiska målsättning ska uttunnas av att det neutrala Sverige kommer med.'
+21	neutrala	neutral	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	22	amod	22:amod	_
+
+id=sv-ud-train-2441#16
+text='Oss veterligt är det bara en båt som har en dylik som standardutrustning, den norrländska Orrskär.'
+16	norrländska	norrländsk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	17	amod	17:amod	_
+
+id=sv-ud-train-2475#1
+text='Nya Essingeleden innebär framför allt att bilisterna slipper ge sig in i innerstan om de ska passera Stockholm.'
+1	Nya	ny	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	2	amod	2:amod	_
+
+id=sv-ud-train-2948#2
+text='Denna nya inställning har också gett äktenskapet en ny struktur jämfört med tidigare förhållanden.'
+2	nya	ny	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	3	amod	3:amod	_
+
+id=sv-ud-test-925#18
+text='De rikaste av dem finns i Nordamerika, i Nord- och Västeuropa samt i Australien och på Nya Zeeland.'
+18	Nya	ny	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	19	amod	19:amod	_
+
+id=sv-ud-dev-29#2
+text='Det nya samhälle man ville ge kvinnorna är inte så helt olikt det gamla i det avseendet.'
+2	nya	ny	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	3	amod	3:amod	_
+
+id=sv-ud-test-47#7
+text='Full pension motsvarar 60 procent av nämnda genomsnittsinkomst.'
+7	nämnda	nämnd	ADJ	PC|PRF|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part	8	amod	8:amod	_
+
+id=sv-ud-test-445#4
+text='Vart denna (ojämna?) kapplöpning leder kan man konstatera: resurserna räcker inte till, det blir för få skolor och lärare, alltså blir undervisningen dålig och många slutar i förtid eller sitter kvar - om de ens får chansen att gå i skola.'
+4	ojämna	ojämn	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	7	amod	7:amod	SpaceAfter=No
+
+id=sv-ud-test-141#24
+text='När dagens 30-åringar gick i skolan var Afrikas och Asiens kartor i huvudsak indelade i några få färgfält - för att utmärka de olika områden, som tillhörde England, Frankrike, Holland, Belgien eller Portugal.'
+24	olika	olik	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	25	amod	25:amod	_
+
+id=sv-ud-test-531#23
+text='Däremot finns det enligt undersökningen en stor grupp kvinnor, nära 45 procent, som under graviditeten visar psykiska symptom som i olika utsträckning påverkar välbefinnandet.'
+23	olika	olik	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	24	amod	24:amod	_
+
+id=sv-ud-train-3227#29
+text='En person kan röra sig mellan olika rollförväntningar, när han flyttar sig mellan grupper som familjen, arbetsgruppen, gänget, idrottsklubben etc i vilka han intar olika status.'
+29	olika	olik	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	30	amod	30:amod	_
+
+id=sv-ud-train-3476#16
+text='Vems ord väger tyngst, Ert eller Er makes / makas om Ni är av olika mening om en sak?''
+16	olika	olik	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	17	amod	17:amod	_
+
+id=sv-ud-train-3560#14
+text='Kommunikationen mellan de olika individerna inom en art resulterar ofta i gruppbildningar av olika storlek och styrka.'
+14	olika	olik	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	15	amod	15:amod	_
+
+id=sv-ud-train-3786#19
+text='För inte länge sedan var det normalt, att flickor och pojkar gick i olika skolor och fick olika utbildning.'
+19	olika	olik	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	20	amod	20:amod	_
+
+id=sv-ud-train-3802#9
+text='Men familjen har i olika kulturmiljöer haft mycket olika utformning.'
+9	olika	olik	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	10	amod	10:amod	_
+
+id=sv-ud-train-4061#13
+text='Visst måste man också vara beredd på att acceptera att man har olika handlag men att detta givetvis inte alls behöver påverka likadelningen och att kontakten med barnet kan bli mycket intim även om vissa funktioner fylls bättre av mamman (och vice versa, naturligtvis).'
+13	olika	olik	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	14	amod	14:amod	_
+
+id=sv-ud-train-4198#20
+text='Det är helt klart att vi här har en fråga, där man kan tänka sig skiftande praxis i olika samhällssystem, och där dessa skiftningar inte i och för sig behöver tillmätas någon etisk relevans.'
+20	olika	olik	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	21	amod	21:amod	_
+
+id=sv-ud-dev-442#10
+text='Till skillnad mot förr kommer makarna ofta från helt olika bakgrundsmiljö vilket gör anpassningsprocessen mer krävande.'
+10	olika	olik	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	11	amod	11:amod	_
+
+id=sv-ud-train-3669#7
+text='Bisamhället är ett av de högst organiserade insektsamhällen.'
+7	organiserade	organiserad	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	8	amod	8:amod	_
+
+id=sv-ud-dev-154#13
+text='Man får blott hoppas att, när väl den säkra, helt oskadliga tablett uppfunnits som kan starta kvinnans menstruation, eftersläpningen i uppfattningar och fördomar inte blir för lång.'
+13	oskadliga	oskadlig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	10	conj	10:conj|14:amod	_
+
+id=sv-ud-test-1105#6
+text='Olämpliga föräldrar är inte samma outjämnbara handikapp som nu.'
+6	outjämnbara	outjämnbar	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	7	amod	7:amod	_
+
+id=sv-ud-train-65#2
+text='Den ovillkorliga och ögonblickliga lydnad som den militära verksamheten kräver, har också sin motsvarighet i det civila, t ex på de områden där liv står på spel.'
+2	ovillkorliga	ovillkorlig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	5	amod	5:amod	_
+
+id=sv-ud-train-2958#10
+text='Hur långt bör denna plikt få inkräkta på mina personliga fri- och rättigheter?'
+10	personliga	personlig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	11	amod	11:amod	_
+
+id=sv-ud-test-1150#20
+text='Skattepolitiken är ett annat verksamt medel att få ut mödrarna i förvärvslivet och därigenom förhindra att barnen får den personliga vård som ges i ett hem.'
+20	personliga	personlig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	21	amod	21:amod	_
+
+id=sv-ud-train-3702#3
+text='På tropiska plana sand- eller slamstränder finns många arter av s.k. vinkarkrabbor.'
+3	plana	plan	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	4	amod	4:amod	_
+
+id=sv-ud-dev-100#11
+text='Kvinnan har sålunda långt att gå innan hon vinner det politiska inflytande hennes ställning i samhällsarbetet och vid rösturnorna motiverar.'
+11	politiska	politisk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	12	amod	12:amod	_
+
+id=sv-ud-dev-172#2
+text='De politiska rörelser som i tid inser detta har också störst utsikt att vinna förtroende och inflytande bland ett ständigt ökat antal aktiva och beslutsamma medborgare.'
+2	politiska	politisk	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	3	amod	3:amod	_
+
+id=sv-ud-test-450#6
+text='Den lär inte ut de praktiska kunskaper som behövs för att förbättra jordbruket t ex .'
+6	praktiska	praktisk	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	7	amod	7:amod	_
+
+id=sv-ud-dev-68#13
+text='De barngrupper han arbetade med var väl små för generaliseringar och de psykologiska test som användes är överhuvudtaget mycket svårtolkade.'
+13	psykologiska	psykologisk	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	14	amod	14:amod	_
+
+id=sv-ud-train-4000#5
+text='Men samtidigt medför denna restriktiva miljö, att ett antal personer, som inte orkar motsvara de rigorösa rollförväntningarna, visar starkare tendens till sexuell promiskuitet än personer som lever i tolerantare miljö.'
+5	restriktiva	restriktiv	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	6	amod	6:amod	_
+
+id=sv-ud-train-1879#7
+text='År 1973 upplever vi vårt första riktiga hålkorts- och dataval.'
+7	riktiga	riktig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	8	amod	8:amod	_
+
+id=sv-ud-train-3629#4
+text='En ropar det rytmiska ga-ga, och hela flocken lyfter.'
+4	rytmiska	rytmisk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	5	amod	5:amod	_
+
+id=sv-ud-train-3637#19
+text='I försök med attrapper har man visat att pickningen är ett fixt rörelsemönster, vars nyckelretning är den röda fläck som gråtrutens gula näbb är försedd med.'
+19	röda	röd	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	20	amod	20:amod	_
+
+id=sv-ud-train-2971#3
+text='Enligt denna sakramentala syn på äktenskapet är det tre religiösa motiveringar som håller makarna samman.'
+3	sakramentala	sakramental	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	4	amod	4:amod	_
+
+id=sv-ud-train-4239#17
+text='Till realismen hör att i själavården ta hänsyn till t.ex. frånskildas och änkors / änklingars rent sexuella nöd.'
+17	sexuella	sexuell	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	18	amod	18:amod	_
+
+id=sv-ud-train-536#2
+text='I sistnämnda fall går eleven i vanlig klass men får vissa timmar hjälp av speciallärare, t ex i klinik.'
+2	sistnämnda	sistnämnd	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	3	amod	3:amod	_
+
+id=sv-ud-train-904#10
+text='Till detta kommer de dödade och skadade som inte själva åkte bil - fotgängare och cyklister.'
+10	själva	själv	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	11	amod	11:amod	_
+
+id=sv-ud-test-272#12
+text='Omkring halvåret brukar barnen kunna sitta med stöd, men sitta själva kan de inte förrän vid 8-10 månader.'
+12	själva	själv	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	11	amod	11:amod	_
+
+id=sv-ud-train-3323#8
+text='Men vi finner det helt naturligt att själva placera ljus på gravarna i Sverige på allhelgonadagen.'
+8	själva	själv	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	9	amod	9:amod	_
+
+id=sv-ud-train-3936#4
+text='Barnen väljer inte själva sina föräldrar - men föräldrarna kan i relativt hög grad och borde i ännu högre grad påverka förutsättningarna för barnens uppväxt och forma miljön i vilken barnen växer upp, så att den erbjuder bästa tänkbara möjligheter för rik personlighetsutveckling och psykisk balans.'
+4	själva	själv	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	2	amod	2:amod	_
+
+id=sv-ud-train-4136#1
+text='Själva denna böjelse, denna dragning mellan könen till varandra är icke i sig själv felaktig eller syndig.'
+1	Själva	själv	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	3	amod	3:amod	_
+
+id=sv-ud-dev-47#6
+text='Det har ofta framhållits den skadliga verkan det kan ha på barns utveckling att vara utan en fast, kontinuerlig kontakt med modern eller att byta mellan flera modersfigurer under de första åren, vilket är vad kibbutzbarnen gör.'
+6	skadliga	skadlig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	7	amod	7:amod	_
+
+id=sv-ud-train-3780#26
+text='Men med könsroll avser man inte bara de delar av spelet mellan man och kvinna som är direkt beroende av kroppsliga olikheter utan också de skilda roller män och kvinnor spelar i mänsklig samlevnad över huvud, i familj och i samhälle.'
+26	skilda	skild	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	27	amod	27:amod	_
+
+id=sv-ud-dev-201#2
+text='Det snedvridna livsperspektiv som många män får i dag genom att aldrig befatta sig med 'de bakre linjerna' (!) är förvisso föga bättre än den andra snedvridningen, för vilken världen utom hemmet är nästan okänd.'
+2	snedvridna	snedvriden	ADJ	PC|PRF|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part	3	amod	3:amod	_
+
+id=sv-ud-train-2946#10
+text='Tidigare inskränkande regler och tabuföreställningar, som krävde samma sociala ställning, religion eller ras för de båda kontrahenterna i ett äktenskap - har efterhand avskrivits.'
+10	sociala	social	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	11	amod	11:amod	_
+
+id=sv-ud-train-3374#2
+text='De sociala och mänskliga problem socialvården i dag brottas med kommer att förvärras och fördjupas om man inte går in för att mindre söka efter fel, brister och sviktande funktioner hos enskilda personer eller primärgrupper än förekomma uppkomsten av sådana problem.'
+2	sociala	social	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	5	amod	5:amod	_
+
+id=sv-ud-dev-148#3
+text='Med nuvarande sociala tryck i våra allmänna konventioner kommer hon automatiskt i underläge bl.a. på grund av kyrkbröllop, riterna och föreställningar kring äktenskapet.'
+3	sociala	social	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	4	amod	4:amod	_
+
+id=sv-ud-test-997#13
+text='Man har sällan tänkt på dem som inte har kunnat få den sociala status som den gifta kvinnan har.'
+13	sociala	social	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	14	amod	14:amod	_
+
+id=sv-ud-dev-393#11
+text='Och i ett nötskal har man därmed plockat fram den sociala trygghet eller rättare sagt den brist på social trygghet som tillkommer de kvinnor som väljer (tvingas in i) hemmafrutillvaron.'
+11	sociala	social	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	12	amod	12:amod	_
+
+id=sv-ud-test-1160#2
+text='Den starka negativa reaktion som mött direktiven beror på att dessa så detaljerat pekat ut lösningar och eftersträvade förändringar och lämnat mycket lite utrymme åt ställningstaganden från utredningens sida.'
+2	starka	stark	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	4	amod	4:amod	_
+
+id=sv-ud-test-832#3
+text='I den statliga bostadspolitik som gällt t o m 1967 har staten givit stora ekonomiska bidrag till bostadsbyggandet.'
+3	statliga	statlig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	4	amod	4:amod	_
+
+id=sv-ud-train-3869#5
+text='Detta beror på de stora förändringar som skett i mitten av 1960-talet: den nya brottsbalken, polisväsendets förstatligande och omläggningen av den statistiska redovisningen av brottsligheten.'
+5	stora	stor	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	6	amod	6:amod	_
+
+id=sv-ud-test-1187#15
+text='Med all sannolikhet skulle en sådan lagstiftning bidraga till att ordna upp de ofta stora svårigheter som uppkommer när förbindelsen bryts genom dödsfall eller genom separation.'
+15	stora	stor	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	16	amod	16:amod	_
+
+id=sv-ud-train-3196#20
+text='De länder som måste importera fossila bränslen, använder i första hand oljedrift för sina värmekraftverk, t ex det svenska Stenungsundsverket.'
+20	svenska	svensk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	21	amod	21:amod	_
+
+id=sv-ud-dev-154#10
+text='Man får blott hoppas att, när väl den säkra, helt oskadliga tablett uppfunnits som kan starta kvinnans menstruation, eftersläpningen i uppfattningar och fördomar inte blir för lång.'
+10	säkra	säker	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	14	amod	14:amod	SpaceAfter=No
+
+id=sv-ud-train-151#2
+text='Denna särskilda utbildning kan du ha god nytta av när du sedan söker civilt arbete.'
+2	särskilda	särskild	ADJ	PC|PRF|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part	3	amod	3:amod	_
+
+id=sv-ud-train-1210#7
+text='Fortbildningskurser ger en vidgad yrkesutbildning åt sådana arbetslösa som redan har en viss yrkeserfarenhet.'
+7	sådana	sådan	ADJ	JJ|POS|UTR/NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	8	amod	8:amod	_
+
+id=sv-ud-train-3755#5
+text='Det gäller t.ex. de talrika järnvägsparker, vilka som en grön sträng kom att skilja många stationer från den närmaste bebyggelsen.'
+5	talrika	talrik	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	6	amod	6:amod	_
+
+id=sv-ud-test-244#16
+text='Här gäller det den grundton i hemmet som vardagslivet byggs upp på - inte de tillfälliga svårigheter som då och då drabbar oss alla utan att behöva skadligt påverka våra barn.'
+16	tillfälliga	tillfällig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	17	amod	17:amod	_
+
+id=sv-ud-train-2862#28
+text='Fiskodling i dammar och grunda lagunområden ökar tillgången på proteinrik föda i de tätast befolkade områdena av världen, t.ex. Kina och Indonesien, men även i tropiska Afrika.'
+28	tropiska	tropisk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	29	amod	29:amod	_
+
+id=sv-ud-train-3702#2
+text='På tropiska plana sand- eller slamstränder finns många arter av s.k. vinkarkrabbor.'
+2	tropiska	tropisk	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	4	amod	4:amod	_
+
+id=sv-ud-test-1045#11
+text='Men ett kallt faktum är att förutsättningarna för de gamla tydliga pappa- och mammarollerna har försvunnit, familjen är inte längre en praktisk nödvändighet för att tillhandahålla dagligservicen.'
+11	tydliga	tydlig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	12	amod	12:amod	_
+
+id=sv-ud-train-3709#14
+text='De olika arterna av vinkarkrabbor är sexuellt isolerade genom denna för varje art typiska klosignalering.'
+14	typiska	typisk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	15	amod	15:amod	_
+
+id=sv-ud-train-4135#2
+text='Den tysta förutsättning han bygger på, är denna, att det existerar en naturlig dragning mellan man och kvinna, ja, mellan varje man och kvinna.'
+2	tysta	tyst	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	3	amod	3:amod	_
+
+id=sv-ud-test-1050#1
+text='Unga herr far och unga fru mor sätter fortfarande bo med eget linneförråd och servis för tolv personer - och leken går bra så länge den ingenting kräver, d v s tills barnen å ena sidan kräver en vårdare på heltid, eller i den maskinellt topprustade lägenheten, på trekvartstid, medan arbetet å andra sidan kräver heltidsengagemang.'
+1	Unga	ung	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	2	amod	2:amod	_
+
+id=sv-ud-test-1050#5
+text='Unga herr far och unga fru mor sätter fortfarande bo med eget linneförråd och servis för tolv personer - och leken går bra så länge den ingenting kräver, d v s tills barnen å ena sidan kräver en vårdare på heltid, eller i den maskinellt topprustade lägenheten, på trekvartstid, medan arbetet å andra sidan kräver heltidsengagemang.'
+5	unga	ung	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	6	amod	6:amod	_
+
+id=sv-ud-train-1105#9
+text='Ett enda i naturen förekommande ämne har den unika egenskap, att dess minsta byggstenar, atomerna, lätt kan gå i stycken eller, enligt fackspråket, klyvas utan att man behöver tillgripa bombardemang med partiklar med hög energi.'
+9	unika	unik	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	10	amod	10:amod	_
+
+id=sv-ud-train-2013#7
+text='Det säger sig självt att de utpräglade kvällsmänniskor som börjar jobba klockan 06.00 och som måste stiga upp kanske en timme tidigare för att resa till jobbet inte är alerta.'
+7	utpräglade	utpräglad	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	8	amod	8:amod	_
+
+id=sv-ud-train-1899#25
+text='Och i väntan på vad över 700000 poströster ska betyda för regeringsinnehav och riksdagssammansättning är det naturligt att undra varför betänkandet från 1965 års valtekniska utredning, framlagt i fjol höst (SOU 1969:19) och innehållande just den datavalteknik som här redovisats, inte blev omsatt i praktiken till 1970 års val.'
+25	valtekniska	valteknisk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	26	amod	26:amod	_
+
+id=sv-ud-test-614#10
+text='I dessa fall då orsaken alltså inte är den vanliga höggradig åderförkalkning, finns chansen att återföra patienten till ett normalt liv genom en operation av det slag som återges på skissen här intill'
+10	vanliga	vanlig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	12	amod	12:amod	_
+
+id=sv-ud-train-3335#17
+text='Låglöneutredningen handlar om de människor här i landet som har det ekonomiskt svårast - från de vanliga lågavlönade till dem som lever i ren misär.'
+17	vanliga	vanlig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	18	amod	18:amod	_
+
+id=sv-ud-train-3826#10
+text='Många av det monogama äktenskapets nuvarande svårigheter beror på ändrade samhälls- och försörjningsförhållanden.'
+10	ändrade	ändrad	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	11	amod	11:amod	_
+
+id=sv-ud-train-65#4
+text='Den ovillkorliga och ögonblickliga lydnad som den militära verksamheten kräver, har också sin motsvarighet i det civila, t ex på de områden där liv står på spel.'
+4	ögonblickliga	ögonblicklig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	2	conj	2:conj:och|5:amod	_
+
+id=sv-ud-test-795#11
+text='Det var väsentligt att bostadsbyggandet höll jämna steg med de ökade krav på bostäder som detta ledde till.'
+11	ökade	ökad	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	12	amod	12:amod	_
+
+id=sv-ud-train-1492#2
+text='De övriga 84 stannade hemma.'
+2	övriga	övrig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	3	amod	3:amod	_
+
+id=sv-ud-train-3416#14
+text='1960-talets socialpolitiska utredningar innehåller många sidor om förhållandena utomlands, inte minst i övriga Norden och EEC-området.'
+14	övriga	övrig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	15	amod	15:amod	_
+
+id=w01005022#26
+text='Så småningom, ungefär 512–511 f.Kr., accepterade den makedoniske kungen Amyntas I den akemenidiska överhögheten och överlämnade sitt land som en vassalstat till det akamenidiska Persien.'
+26	akamenidiska	akamenidisk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	27	amod	27:amod	_
+
+id=w01057016#7
+text='Senare skulle dramatiker, historiker och andra intellektuella skapa verk inspirerade av det trojanska kriget.'
+7	andra	annan	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	8	amod	8:amod	_
+
+id=w05004031#6
+text='Det är delen från denna andra gräns upp till den yttre gränsen, den imaginära linje som förbinder fyrlandmärket vid Punta del Este med fyrlandmärket vid Punta Rasa.'
+6	andra	annan	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	7	amod	7:amod	_
+
+id=w01132081#25
+text='Segel finns inte representerade i förhistorisk mesoamerikansk ikonografi eller texter, istället teoretiseras det att kanoter användes som den primära metoden för vattentransporter för antika maya.'
+25	antika	antik	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	26	amod	26:amod	_
+
+id=w01018029#7
+text='1 oktober 1961 förenades det tidigare brittiska Sydkamerun med franska Kamerun för att bilda Förbundsrepubliken Kamerun.'
+7	brittiska	brittisk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	8	amod	8:amod	_
+
+id=n01121032#15
+text='När Millican dog antog vi att det var det sista vi skulle se av buggiga, ryckiga Odi också.'
+15	buggiga	buggig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	18	amod	18:amod	SpaceAfter=No
+
+id=w05002032#2
+text='De centrala Anderna tillhör de så kallade ”Andes de tipo andino” som formades av subduktion av oceanskorpan.'
+2	centrala	central	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	3	amod	3:amod	_
+
+id=w01078013#11
+text='Den diskuterar särskilt i flera passager de socialt och kulturellt degenerativa effekter krig har på själva mänskligheten.'
+11	degenerativa	degenerativ	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	12	amod	12:amod	_
+
+id=w01018029#10
+text='1 oktober 1961 förenades det tidigare brittiska Sydkamerun med franska Kamerun för att bilda Förbundsrepubliken Kamerun.'
+10	franska	fransk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	11	amod	11:amod	_
+
+id=w02008038#12
+text='Troligtvis är den mest välkända personen från kopparåldern Ötzi, den frusna mumie som levde under 3300 f.Kr.'
+12	frusna	frusen	ADJ	PC|PRF|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part	13	amod	13:amod	_
+
+id=n01073023#3
+text='Var deras gudsgivna rätt till manteln som världens bästa icke längre önskade?'
+3	gudsgivna	gudsgiven	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	4	amod	4:amod	_
+
+id=w01002013#14
+text='Borträknat den nordvästra änden dominerar tajgan, och täcker en betydande andel av hela Sibirien.'
+14	hela	hel	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	15	amod	15:amod	_
+
+id=w01029049#4
+text='Inhemska amerikaner över hela Amerika förlitade sig på den som en basvara i sina medicinska kurer.'
+4	hela	hel	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	5	amod	5:amod	_
+
+id=w01056103#15
+text='Det lade grunden för integration där statens ekonomiska och juridiska maskineri kunde tillämpas genom hela Medelhavet på samma sätt som en gång gjordes från Latium för hela Italien.'
+15	hela	hel	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	16	amod	16:amod	_
+
+id=w01056103#27
+text='Det lade grunden för integration där statens ekonomiska och juridiska maskineri kunde tillämpas genom hela Medelhavet på samma sätt som en gång gjordes från Latium för hela Italien.'
+27	hela	hel	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	28	amod	28:amod	_
+
+id=w01150047#12
+text='Efter att det stod klart att det Osmanska imperiet skulle förlora hela Makedonien och dess territoriella förbindelse med Albanien förstod stormakterna att de behövde ändra sitt beslut.'
+12	hela	hel	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	13	amod	13:amod	_
+
+id=w03007039#9
+text='Handel utvecklades genom att etablera kommersiella utposter över hela Medelhavet, en teknik som inte hade använts fram till dess.'
+9	hela	hel	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	10	amod	10:amod	_
+
+id=w05007080#25
+text='Försöken att sluta fred tog till sist slut på våren 1415 och Enrique beslöt sig för att utföra sin plan: en invasion av hela kungadömet Frankrike.'
+25	hela	hel	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	27	amod	27:amod	_
+
+id=w01121052#14
+text='Emellertid fanns det inget mer allmänt erkännande av hennes motstånd under kriget och humanitära arbete fram till efter slutet på det kommunistiska styret i Polen.'
+14	humanitära	humanitär	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	15	amod	15:amod	_
+
+id=n01144021#6
+text='Snowman brukade hoppa över det höga staket som skiljde de två ägorna åt och alltid återvända dit han kände sig hemma.'
+6	höga	hög	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	7	amod	7:amod	_
+
+id=w01083007#2
+text='Denna idealiserade vision av Romanov-monarkin förblindade honom för det faktiska tillståndet i hans land.'
+2	idealiserade	idealiserad	ADJ	PC|PRF|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part	3	amod	3:amod	_
+
+id=n02042026#15
+text='Smartphonegenerationen fick en app den förtjänade där, i bästa fall, den mest idiotiska situation fick en publik på miljoner.'
+15	idiotiska	idiotisk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	16	amod	16:amod	_
+
+id=w05004031#15
+text='Det är delen från denna andra gräns upp till den yttre gränsen, den imaginära linje som förbinder fyrlandmärket vid Punta del Este med fyrlandmärket vid Punta Rasa.'
+15	imaginära	imaginär	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	16	amod	16:amod	_
+
+id=w01146051#18
+text='Bloch är intresserad av att etablera hopp som den vägledande principen för sin marxism och betonar den implicita humanism som är inneboende i mystisk tradition.'
+18	implicita	implicit	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	19	amod	19:amod	_
+
+id=w04002008#10
+text='Ett element som stöder denna hypotes skulle vara den intensiva uppfödning av hästar som ägde rum vid Villa Pelucca, i Sesto San Giovanni.'
+10	intensiva	intensiv	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	11	amod	11:amod	_
+
+id=w02003070#2
+text='De islamiska medborgare som har bosatt sig sedan början av 1960-talet emigrerade i huvudsak från Turkiet.'
+2	islamiska	islamisk	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	3	amod	3:amod	_
+
+id=n03003025#2
+text='AKP:s islamistiska konservativa har tagit denna vägran som ett rättfärdigande för utfrågningarna.'
+2	islamistiska	islamistisk	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	3	amod	3:amod	_
+
+id=w01045006#20
+text='Karibiska havet hade varit okänt för befolkningarna i Eurasien fram till 1492 när Christofer Columbus först seglade in i Karibiska vatten med uppdraget att hitta en sjöväg till Asien.'
+20	Karibiska	karibisk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	21	amod	21:amod	_
+
+id=w01094066#6
+text='Framgången för American Motors storleksmässigt kompakta Rambler sporrade GM och Ford att introducera sina egna storleksminskade bilar 1960.'
+6	kompakta	kompakt	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	7	amod	7:amod	_
+
+id=n02024008#18
+text='En svensk studie har visat att djur sällan, om alls, landar efter den 2 månader långa parningsperioden.'
+18	långa	lång	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	19	amod	19:amod	_
+
+id=w01069094#14
+text='Dess kamp mot det Osmanska imperiet i Medelhavet innebar stora begränsningar för den militära styrka det kunde sätta in mot rebellerna i Nederländerna.'
+14	militära	militär	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	15	amod	15:amod	_
+
+id=w03005012#10
+text='Under 700-talet f.Kr. började Grekland komma ut ur den mörka tidsålder som följde den mykenska civilisationens fall.'
+10	mörka	mörk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	11	amod	11:amod	_
+
+id=n01032032#15
+text='Emellertid finns det många MLA:er med djupt hållna religiösa trosuppfattningar som motsätter sig all nya lagstiftning.'
+15	nya	ny	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	16	amod	16:amod	_
+
+id=w01054107#9
+text='Fort byggdes även i de äldre delarna av Nya Frankrike som inte ännu hade sett några bosättningar.'
+9	Nya	ny	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	10	amod	10:amod	_
+
+id=n01085006#22
+text='Svavel är ett nyckelnäringsämne för växter för frisk tillväxt, men marker i Förenade kungariket har en naturlig brist på detta nödvändiga mineral.'
+22	nödvändiga	nödvändig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	23	amod	23:amod	_
+
+id=n01135002#2
+text='Kina omättliga aptit på friterad kyckling brukade vara en stor anledning till att investerare älskade KFC:s moderföretag Yum Brands.'
+2	omättliga	omättlig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	3	amod	3:amod	_
+
+id=w04004051#22
+text='Den andra apuliska och kalabriska kungliga regionen hade då etablerats, vilken också inkluderade Samnium, delar av Molise och det orientaliska Basilicata.'
+22	orientaliska	orientalisk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	23	amod	23:amod	_
+
+id=n01003012#7
+text='Sammankomsten var ursprungligen planerad till Washingtons privata Metropolitan Club på H Street några kvarter bort.'
+7	privata	privat	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	8	amod	8:amod	_
+
+id=w04008006#2
+text='Vad religiösa bruk beträffar var Fiorello utbildad inom Episkopalkyrkan och förblev medlem i den protestantiska kyrkan hela sitt liv.'
+2	religiösa	religiös	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	3	amod	3:amod	_
+
+id=n01121032#17
+text='När Millican dog antog vi att det var det sista vi skulle se av buggiga, ryckiga Odi också.'
+17	ryckiga	ryckig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	15	conj	15:conj|18:amod	_
+
+id=w01005020#3
+text='Dareios högt skattade befälhavare Megabazus hade ansvaret för att fullborda erövringen i Balkan.'
+3	skattade	skattad	ADJ	PC|PRF|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part	4	amod	4:amod	_
+
+id=w01086012#4
+text='Offensiven mot den stora armé som Venedig anlitat påbörjades från Frankrike.'
+4	stora	stor	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	5	amod	5:amod	_
+
+id=w05001045#11
+text='Traditionen säger att temat valdes medvetet på grund av det stora antal konverterade judar som bodde i Palma.'
+11	stora	stor	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	12	amod	12:amod	_
+
+id=n01058064#18
+text='Han kunde upptäcka effekterna av valet runt om honom, i de utbrott av konflikter och de underliga skärningspunkter som nya idéer bildade med gamla.'
+18	underliga	underlig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	19	amod	19:amod	_
+
+id=w01049066#13
+text='Australiens Royal National Park, upprättad 1879, var världens andra officiellt upprättade nationalpark.'
+13	upprättade	upprättad	ADJ	PC|PRF|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part	14	amod	14:amod	_
+
+id=n01048008#20
+text='Dessa uppskattningar sammanfaller med procentandelarna av andelslägenheter som dyker upp på hyresmarknaden efter färdigställande, vilket visar på den viktiga roll som (inrikes) investerare spelar på Stor-Torontoområdets bostadsmarknad.'
+20	viktiga	viktig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	21	amod	21:amod	_
+
+id=n01148029#12
+text='Det drivs också av uppväxten av moderna skyskrapor – som den visionära MahaNakhon, Bangkoks högsta byggnad.'
+12	visionära	visionär	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	13	amod	13:amod	_
+
+id=w02019085#13
+text='Följande år 1977 mottog han distinktionen av den Amerikanska vänskapsmedaljen för den vänliga inställning hans press hade gentemot USA.'
+13	vänliga	vänlig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	14	amod	14:amod	_
