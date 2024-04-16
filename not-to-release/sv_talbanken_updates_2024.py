@@ -114,8 +114,8 @@ OVERSPEC = {'diverse': {'Case': 'Nom', 'Definite': None, 'Degree': 'Pos', 'Gende
 
             'blotta': {'Case': 'Nom', 'Definite': 'Def', 'Degree': 'Pos', 'Gender': None, 'Number': 'Sing'},
 
-            'lilla': {'Case': 'Nom', 'Definite': 'Def', 'Degree': 'Pos', 'Gender': None, 'Number': 'Sing'},
-            'pyttelilla': {'Case': 'Nom', 'Definite': 'Def', 'Degree': 'Pos', 'Gender': None, 'Number': 'Sing'},
+            'lilla': {'Case': 'Nom', 'Definite': None, 'Degree': 'Pos', 'Gender': None, 'Number': 'Sing'},
+            'pyttelilla': {'Case': 'Nom', 'Definite': None, 'Degree': 'Pos', 'Gender': None, 'Number': 'Sing'},
 
             'liten': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': 'Com', 'Number': 'Sing'},
             'pytteliten': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': 'Com', 'Number': 'Sing'},
