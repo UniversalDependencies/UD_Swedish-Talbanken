@@ -72,27 +72,39 @@ ENGLISH_ADJ = ['first', 'south', 'royal', 'shaky', 'wild', 'golden',
                'national', 'international', 'north', 'strange', 'civil', 
                'breaking', 'environmental', 'political', 'universal']
 
-FOREIGN = ['priori', 'restante']
+FOREIGN = {'priori': 'la', 'restante': 'fr'}
 
-OVERSPEC = {'diverse': {'Case': 'Nom', 'Definite': None, 'Degree': 'Pos', 'Gender': None, 'Number': 'Plur'},
-            'förenta': {'Case': 'Nom', 'Definite': None, 'Degree': 'Pos', 'Gender': None, 'Number': 'Plur'},
-            'flera': {'Case': 'Nom', 'Definite': None, 'Degree': 'Pos', 'Gender': None, 'Number': 'Plur'},
-            'fler': {'Case': 'Nom', 'Definite': None, 'Degree': 'Pos', 'Gender': None, 'Number': 'Plur'},
+OVERSPEC = {'rädd': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': 'Com', 'Number': 'Sing'},
+            'humanoid': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': 'Com', 'Number': 'Sing'},
+            'liten': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': 'Com', 'Number': 'Sing'},
+            'pytteliten': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': 'Com', 'Number': 'Sing'},
 
-            'båda': {'Case': 'Nom', 'Definite': 'Def', 'Degree': 'Pos', 'Gender': None, 'Number': 'Plur'},
-            
-            'desamma': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': None, 'Number': 'Plur'},
+            'litet': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': 'Neut', 'Number': 'Sing'},
+            'pyttelitet': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': 'Neut', 'Number': 'Sing'},   
+
+            'ene': {'Case': 'Nom', 'Definite': 'Def', 'Degree': 'Pos', 'Gender': 'Com', 'Number': 'Sing'},
+            'ende': {'Case': 'Nom', 'Definite': 'Def', 'Degree': 'Pos', 'Gender': 'Com', 'Number': 'Sing'},
 
             'ljusan': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': None, 'Number': 'Sing'},
             'sakta': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': None, 'Number': 'Sing'},
-            'lika': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': None, 'Number': 'Plur'},
 
+            'desamma': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': None, 'Number': 'Plur'},
+            
+            
+            'ena': {'Case': 'Nom', 'Definite': 'Def', 'Degree': 'Pos', 'Gender': None, 'Number': 'Sing'},
+            'sankta': {'Case': 'Nom', 'Definite': 'Def', 'Degree': 'Pos', 'Gender': None, 'Number': 'Sing'},
+            'lilla': {'Case': 'Nom', 'Definite': 'Def', 'Degree': 'Pos', 'Gender': None, 'Number': 'Sing'},
+            'pyttelilla': {'Case': 'Nom', 'Definite': 'Def', 'Degree': 'Pos', 'Gender': None, 'Number': 'Sing'},
+
+            'båda': {'Case': 'Nom', 'Definite': 'Def', 'Degree': 'Pos', 'Gender': None, 'Number': 'Plur'},
+
+            'lika': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': None, 'Number': None},
             'kvitt': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': None, 'Number': None},
             'lite': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': None, 'Number': None},
             'sinom': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': None, 'Number': None},
             'redo': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': None, 'Number': None},
             'bevänt': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': None, 'Number': None},
-            
+
             'södra': {'Case': 'Nom', 'Definite': 'Def', 'Degree': 'Pos', 'Gender': None, 'Number': None},
             'norra': {'Case': 'Nom', 'Definite': 'Def', 'Degree': 'Pos', 'Gender': None, 'Number': None},
             'västra': {'Case': 'Nom', 'Definite': 'Def', 'Degree': 'Pos', 'Gender': None, 'Number': None},
@@ -101,28 +113,15 @@ OVERSPEC = {'diverse': {'Case': 'Nom', 'Definite': None, 'Degree': 'Pos', 'Gende
             'sydöstra': {'Case': 'Nom', 'Definite': 'Def', 'Degree': 'Pos', 'Gender': None, 'Number': None},
             'nordvästra': {'Case': 'Nom', 'Definite': 'Def', 'Degree': 'Pos', 'Gender': None, 'Number': None},
             'nordöstra': {'Case': 'Nom', 'Definite': 'Def', 'Degree': 'Pos', 'Gender': None, 'Number': None},
-
-            'rädd': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': 'Com', 'Number': 'Sing'},
-            'humanoid': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': 'Com', 'Number': 'Sing'},
+            'förra': {'Case': 'Nom', 'Definite': 'Def', 'Degree': 'Pos', 'Gender': None, 'Number': None},
+            'blotta': {'Case': 'Nom', 'Definite': 'Def', 'Degree': 'Pos', 'Gender': None, 'Number': None},
             
-            'sankta': {'Case': 'Nom', 'Definite': 'Def', 'Degree': 'Pos', 'Gender': None, 'Number': 'Sing'},
-            'förra': {'Case': 'Nom', 'Definite': 'Def', 'Degree': 'Pos', 'Gender': None, 'Number': 'Sing'},
-            'ena': {'Case': 'Nom', 'Definite': 'Def', 'Degree': 'Pos', 'Gender': None, 'Number': 'Sing'},
+            'förenta': {'Case': 'Nom', 'Definite': None, 'Degree': 'Pos', 'Gender': None, 'Number': 'Plur'},
+            'flera': {'Case': 'Nom', 'Definite': None, 'Degree': 'Pos', 'Gender': None, 'Number': 'Plur'},
+            'fler': {'Case': 'Nom', 'Definite': None, 'Degree': 'Pos', 'Gender': None, 'Number': 'Plur'},
 
-            'ene': {'Case': 'Nom', 'Definite': 'Def', 'Degree': 'Pos', 'Gender': 'Com', 'Number': 'Sing'},
-            'ende': {'Case': 'Nom', 'Definite': 'Def', 'Degree': 'Pos', 'Gender': 'Com', 'Number': 'Sing'},
-
-            'blotta': {'Case': 'Nom', 'Definite': 'Def', 'Degree': 'Pos', 'Gender': None, 'Number': 'Sing'},
-
-            'lilla': {'Case': 'Nom', 'Definite': None, 'Degree': 'Pos', 'Gender': None, 'Number': 'Sing'},
-            'pyttelilla': {'Case': 'Nom', 'Definite': None, 'Degree': 'Pos', 'Gender': None, 'Number': 'Sing'},
-
-            'liten': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': 'Com', 'Number': 'Sing'},
-            'pytteliten': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': 'Com', 'Number': 'Sing'},
-
-            'litet': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': 'Neut', 'Number': 'Sing'},
-            'pyttelitet': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': 'Neut', 'Number': 'Sing'},   
-
+            'diverse': {'Case': 'Nom', 'Definite': None, 'Degree': 'Pos', 'Gender': None, 'Number': None},
+            
             # words that didn't fit the rules_____________________________________________________________
 
             'tekniskt-teoretiskt': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': 'Neut', 'Number': 'Sing'},
@@ -132,9 +131,8 @@ OVERSPEC = {'diverse': {'Case': 'Nom', 'Definite': None, 'Degree': 'Pos', 'Gende
             'sånt': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': 'Neut', 'Number': 'Sing'},
             'såna': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': None, 'Number': 'Plur'},
 
-            'mantalskriven': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': 'Com', 'Number': 'Sing'},
-            'villkorstyrt': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': 'Neut', 'Number': 'Sing'},
-            
+            'mantalskriven': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': 'Com', 'Number': 'Sing', 'Typo': 'Yes'},
+            'villkorstyrt': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': 'Neut', 'Number': 'Sing', 'Typo': 'Yes'},
             }
 
 
@@ -337,6 +335,7 @@ def change_adj_lemma(doc, outfile):
         'hemskt': 'hemsk',
         'lika': 'lik',
         'sån': 'sådan',
+        'sexual-': 'sexuell'
     }
 
     for tok in doc.nodes:
@@ -1058,15 +1057,47 @@ def change_adj_feats(doc, outfile):
                     change_id = 'overspecified'
 
             elif tok.form.lower() in ENGLISH_ADJ and tok.feats['Foreign'] == 'Yes':
+                tok.feats['Degree'] = 'Pos'
+
+                tok.feats['Case'] = None
+                tok.feats['Definite'] = None
+                tok.feats['Gender'] = None
+                tok.feats['Number'] = None
+
+                tok.misc['Lang'] = 'en'
+
                 change_id = 'eng'
             
-            elif tok.form.lower() in FOREIGN or tok.feats['Foreign'] == 'Yes':
+            elif tok.form.lower() in FOREIGN.keys():
+                tok.feats['Case'] = None
+                tok.feats['Definite'] = None
+                tok.feats['Degree'] = None
+                tok.feats['Gender'] = None
+                tok.feats['Number'] = None
+                tok.feats['Foreign'] = None
+
+                tok.misc['OrigLang'] = FOREIGN[tok.form.lower()]
+                
                 change_id = 'foreign'
 
             elif tok.feats['Abbr'] == 'Yes':
+                tok.feats['Number'] = 'Sing' if tok.form.lower() in ['st', 'st.', 's:t'] else None
+                
+                tok.feats['Case'] = None
+                tok.feats['Definite'] = None
+                tok.feats['Degree'] = None
+                tok.feats['Gender'] = None
+                
                 change_id = 'abbr'
 
+            # fri- / grå- / sexual-
             elif tok.form.lower().endswith('-'):
+                tok.feats['Case'] = 'Nom'
+                tok.feats['Definite'] = 'Ind'
+                tok.feats['Degree'] = 'Pos'
+                tok.feats['Gender'] = 'Com'
+                tok.feats['Number'] = 'Sing'
+                    
                 change_id = 'ends_in_dash'
 
             # svart-types:
