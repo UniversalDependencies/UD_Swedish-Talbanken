@@ -6,7 +6,13 @@ python3 comments.py sv2.conllu sv3.conllu
 python3 harmonize-sv.py sv3.conllu sv4.conllu
 python3 insert-enhanced.py sv_talbanken-ud.enhanced.txt sv4.conllu sv5.conllu
 python3 sv_talbanken_changes_2024.py sv5.conllu sv6.conllu
-python3 split.py sv6.conllu sv_talbanken-ud
+python3 sv_talbanken_updates_2024.py \
+    --infile sv5.conllu \
+    --outfile temp/sv6.conllu \
+    --prefixes prefixes.tsv \
+    --postfixes postfixes.tsv \
+    --partlist participle_classification_list.tsv \
+    --manual_def_num manual_def_num.tsv
 
 - The final treebank files are:
 

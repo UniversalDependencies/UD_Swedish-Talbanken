@@ -42,6 +42,7 @@ BRA_ADJ = ['bra', 'enda', 'fel', 'enstaka', 'ringa', 'extra', 'många', 'bra',
            'medeltida', 'omaka', 'yttre', 'samma', 'jättebra', 'samtida', 
            'övre', 'stackars', 'fjärran', 'rosa', 'öde', 'jävla', 'jäkla', 
            'laxrosa', 'lila', 'ense', 'brunrosa', 'nästa', 'urarva', 'varse',
+           'blå', 'grå', 'olika',
            
            # PARTICIP-LIKNANDE________________________________________
            'hemmavarande', 'nedanstående', 'ensamstående', 'främmande', 
@@ -130,6 +131,9 @@ OVERSPEC = {'rädd': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender
             'sån': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': 'Com', 'Number': 'Sing'},
             'sånt': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': 'Neut', 'Number': 'Sing'},
             'såna': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': None, 'Number': 'Plur'},
+
+            'egen': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': 'Com', 'Number': 'Sing'},
+            'eget': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': 'Neut', 'Number': 'Sing'},
 
             'mantalskriven': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': 'Com', 'Number': 'Sing', 'Typo': 'Yes'},
             'villkorstyrt': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': 'Neut', 'Number': 'Sing', 'Typo': 'Yes'},
@@ -1019,12 +1023,25 @@ def change_den_det_de(doc, outfile):
 
     write_to_change_log(outfile.rsplit('.', maxsplit=1)[0]+'_den_det_de_changes.log', change_ids, changed_forms_by_id, change_log)
 
-def change_adj_feats(doc, outfile):
+def change_adj_feats(doc, outfile, manual_def_num_doc):
     change_ids = []
     changed_forms_by_id = defaultdict(set)
     change_log = []
     unchanged = []
     flagged = []
+
+    settings = {}
+    if manual_def_num_doc:
+        with open(manual_def_num_doc, 'r') as f:
+            lines = f.readlines()
+            for i, line in enumerate(lines):
+                # print(line)
+                if line.startswith('id='):
+                    node_address = line.split('=')[-1].strip("'").strip()
+                    settings[node_address] =  {('Definite' if val in ['Ind', 'Def'] else 'Number'): val for val in lines[i+3].strip().split('|')}
+                    settings[node_address].setdefault('Number', None)
+                assert all((val in ['Ind', 'Def', 'Plur'] or val is None) for setting_dict in settings.values() for val in setting_dict.values()), [val for setting_dict in settings.values() for val in setting_dict.values() if val not in ['Ind', 'Def', 'Plur']]
+
 
     ordinals = ['första', 'förste', 'andra', 'andre', 'tredje', 'fjärde', 'femte', 
                 'sjätte', 'sjunde', 'åttonde', 'nionde', 'tionde', 
@@ -1271,8 +1288,13 @@ def change_adj_feats(doc, outfile):
                     # If we do not have the necessary information in the parent 
                     # we flagg the token and move on.
                     if not parent.feats['Definite']:
-                        flagged.append(tok)
-                        continue
+                        if tok.address() in settings:
+                            for key, val in settings[tok.address()].items():
+                                tok.feats[key] = val
+                            change_id = f"{adj_type}_manual"
+                        else:
+                            flagged.append(tok)
+                            continue
                     else:
                         
                         # if the parent (noun) has Definite=Def and there is a definite article, 
@@ -1330,8 +1352,13 @@ def change_adj_feats(doc, outfile):
                         # Den stora stol som...
                         # then we flagg it for manual check
                         else:
-                            flagged.append(tok)
-                            continue
+                            if tok.address() in settings:
+                                for key, val in settings[tok.address()].items():
+                                    tok.feats[key] = val
+                                change_id = f"{adj_type}_manual"
+                            else:
+                                flagged.append(tok)
+                                continue
                     
                 # if the adjective is not amod
                 else:
@@ -1363,7 +1390,6 @@ def change_adj_feats(doc, outfile):
                   tok.form in roman_num):
                 
                 tok.feats['Case'] = 'Nom' if not tok.form.lower().endswith('s') else 'Gen'
-                tok.feats['Number'] = 'Sing'
                 tok.feats['NumType'] = 'Ord'
 
                 tok.feats['Gender'] = None if not (tok.form.lower().endswith('förste') or 
@@ -1371,7 +1397,7 @@ def change_adj_feats(doc, outfile):
                 tok.feats['Number'] = None
                 
                 change_id = 'ordinals'
-                # nfeats = 'Case=Nom|Number=Sing|NumType=Ord'
+                # nfeats = 'Case=Nom|NumType=Ord'
     
             # sjungande / dansande / gående
             elif (tok.form.lower().endswith('ande') or tok.form.lower().endswith('ende')) and tok.form.lower() not in ['ende', 'ande']:
@@ -1545,16 +1571,22 @@ def change_adj_feats(doc, outfile):
                     change_id = 'gen'
 
             elif tok.form.lower() == tok.lemma.lower():
-                if tok.feats['Number'] == 'Plur':
-                    flagged.append(tok)
-                    continue
                 tok.feats['Case'] = 'Nom'
-                tok.feats['Definite'] = 'Ind'
                 tok.feats['Degree'] = 'Pos'
                 tok.feats['Gender'] = 'Com'
-                tok.feats['Number'] = 'Sing'
+                if tok.feats['Number'] == 'Plur':
+                    if tok.address() in settings:
+                        for key, val in settings[tok.address()].items():
+                            tok.feats[key] = val
+                        change_id = 'utrum_manual'    
+                    else:
+                        flagged.append(tok)
+                        continue
+                else:
+                    tok.feats['Definite'] = 'Ind'
+                    tok.feats['Number'] = 'Sing'
                 
-                change_id = 'utrum' 
+                    change_id = 'utrum' 
 
             if change_id != None:
                 new_feats = tok.feats.__str__()
@@ -1640,7 +1672,8 @@ if __name__ == '__main__':
     parser.add_argument('--outfile', required=True)
     parser.add_argument('--prefixes')
     parser.add_argument('--postfixes')
-    parser.add_argument('--partlist')
+    parser.add_argument('--partlist', default=None)
+    parser.add_argument('--manual_def_num', default=None)
 
     args = parser.parse_args()
 
@@ -1649,6 +1682,7 @@ if __name__ == '__main__':
     prefixes_doc = args.prefixes
     postfixes_doc = args.postfixes
     partlist_doc = args.partlist
+    manual_def_num_doc = args.manual_def_num
 
     print('Reading', infile)
     doc = udapi.Document(infile)
@@ -1666,7 +1700,7 @@ if __name__ == '__main__':
         reclassify_participles(doc, outfile, partlist_doc)
 
     change_den_det_de(doc, outfile)
-    change_adj_feats(doc, outfile)
+    change_adj_feats(doc, outfile, manual_def_num_doc)
 
     if postfixes_doc:
         manual_changes(doc, outfile, postfixes_doc)

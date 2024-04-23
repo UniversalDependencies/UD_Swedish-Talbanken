@@ -340,3 +340,7 @@ id=sv_lines-ud-train-doc3-985#5
 
 id=sv_lines-ud-train-doc1-34#1
 1	Universal	universal	ADJ	POS-FGN	Degree=Pos|Foreign=Yes	0	root	_	_
+
+id=n01032032#15
+15	ny	ny	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	16	amod	16:amod	_
+

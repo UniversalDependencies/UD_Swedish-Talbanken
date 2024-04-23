@@ -13,7 +13,9 @@ python3 sv_talbanken_updates_2024.py \
     --outfile ./output/temp/sv6.conllu \
     --prefixes ./prefixes.tsv \
     --postfixes ./postfixes.tsv \
-    --partlist ./participle_classification_list.tsv
+    --partlist ./participle_classification_list.tsv \
+    --manual_def_num ./manual_def_num.tsv
+
 
 python3 split.py ./output/temp/sv6.conllu ./output/sv_talbanken-ud
 
