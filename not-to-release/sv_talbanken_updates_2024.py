@@ -3,7 +3,7 @@ import sys, re
 import argparse
 from collections import defaultdict, Counter
 
-
+# A list of adjective lemmas that behave like "svart". They do not distinguish gender
 SVART_ADJ = ['gravid', 'orange', 'mycket', 'höger', 'vänster', 'separat', 'moderat', 
              'desperat', 'privat', 'kokhet', 'konkret', 'diskret', 'indiskret', 
              'gift', 'omgift', 'ogift', 'nygift', 'oskift', 'upplyft', 'implicit', 
@@ -34,7 +34,7 @@ SVART_ADJ = ['gravid', 'orange', 'mycket', 'höger', 'vänster', 'separat', 'mod
              # OSÄKRA_______________________________________________________
              # 'gravid', 'orange', 'oskift', 'halt', 'mycket'
              
-
+# a list of words that behave like "bra". They only have one form.
 BRA_ADJ = ['bra', 'enda', 'fel', 'enstaka', 'ringa', 'extra', 'många', 'bra', 
            'tiptop', 'udda', 'inrikes', 'långväga', 'förtida', 'gratis', 
            'allsköns', 'framtida', 'slut', 'illa', 'noga', 'urminnes', 
@@ -65,6 +65,7 @@ BRA_ADJ = ['bra', 'enda', 'fel', 'enstaka', 'ringa', 'extra', 'många', 'bra',
            'intetsägande', 'stillastående', 'beklämmande', 'sjögående', 
            'dödsliknande', 'vitblänkande', 'förestående']
 
+# list of english adjectives in Talbanken, PUD and LinES (that I found)
 ENGLISH_ADJ = ['first', 'south', 'royal', 'shaky', 'wild', 'golden', 
                'extensible', 'wide', 'grand', 'visual', 'advertising', 
                'arabic', 'brave', 'free', 'american', 'strange', 'talking', 
@@ -73,8 +74,12 @@ ENGLISH_ADJ = ['first', 'south', 'royal', 'shaky', 'wild', 'golden',
                'national', 'international', 'north', 'strange', 'civil', 
                'breaking', 'environmental', 'political', 'universal']
 
+# list of non-english foreign words that I found in Talbanken, PUD and LinES (that I found)
 FOREIGN = {'priori': 'la', 'restante': 'fr'}
 
+# a dictionary of words that lack certain forms (are overspecified) and thus can be given a feature that
+# otherwise would have been undefined. This dictionary also includes a couple of words 
+# (some typos and anomalies) that otherwise were hard to change using the rules below.
 OVERSPEC = {'rädd': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': 'Com', 'Number': 'Sing'},
             'humanoid': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': 'Com', 'Number': 'Sing'},
             'liten': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': 'Com', 'Number': 'Sing'},
@@ -140,7 +145,7 @@ OVERSPEC = {'rädd': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender
             }
 
 
-
+# function for converting udapi-node to conllu string.
 def get_conllu(node):
         if node._parent is None:
             head = '_' # Empty nodes
@@ -156,6 +161,7 @@ def get_conllu(node):
                         node.raw_deps, '_' if node._misc is None else str(node.misc)))
         return conllu_str
 
+# helper function to write different changes to log-files
 def write_to_change_log(outfile, change_ids, changed_forms_by_id, change_log):
     change_ids = Counter(change_ids)
     change_log = sorted(change_log, key=lambda a: a.split('\t')[0])
@@ -168,7 +174,8 @@ def write_to_change_log(outfile, change_ids, changed_forms_by_id, change_log):
         f.write('\n')
         for line in change_log:
             f.write(line+'\n')
-        
+
+# function to update lemmas for ordinal adjectives
 def change_adj_ordinal_lemma(doc, outfile):
     change_ids = []
     changed_forms_by_id = defaultdict(set)
@@ -181,7 +188,7 @@ def change_adj_ordinal_lemma(doc, outfile):
                 'trettionde', 'fyrtionde', 'femtionde', 'sextionde',
                 'sjuttionde', 'åttionde', 'nittionde', 'hundrade', 'tusende', 'miljonte']
     
-    gen_ordinals = ['förstas', 'förstes', 'tredjes', 'fjärdes', 'femtes', 
+    gen_ordinals = ['förstas', 'tredjes', 'fjärdes', 'femtes', 
                 'sjättes', 'sjundes', 'åttondes', 'niondes', 'tiondes', 
                 'elftes', 'tolftes', 'trettondes', 'fjortondes', 'femtondes', 
                 'sextondes', 'sjuttondes', 'artondes', 'nittondes', 'tjugondes', 
@@ -198,27 +205,37 @@ def change_adj_ordinal_lemma(doc, outfile):
             change_id = None
             old_lemma = tok.lemma.lower().lower()
 
+            # if the word ends with any of the ordinal numbers in the ordinals list above, 
+            # or ends with ":e" or ":a" as in 1:a, 2:a, 3:e
             if (any(tok.form.lower().endswith(ord) for ord in ordinals) or
                 re.search(r'^[0-9]+:[ae]$', tok.form)):
                 tok.lemma = tok.form.lower()
 
                 change_id = 'adj_ordinal'
 
+            # if the ordinal has the genetive "s" at the end
+            # förstas, tredjes
             elif any(tok.form.lower().endswith(ord) for ord in gen_ordinals):
                 tok.lemma = tok.form.lower()[:-1]
 
                 change_id = 'adj_gen_ordinal'
 
+            # if the words ends in "förste(s)", we need to not only remove the "s" but also change
+            # the "e" vowel to "a" -> "första"
             elif tok.form.lower().endswith('förste') or tok.form.lower().endswith('förstes'):
                 tok.lemma = 'första'
 
                 change_id = 'adj_förste'
 
+            # if the number is a roman numeral, we keep the roman numeral as lemma
             elif tok.form in roman_num:
                 tok.lemma = tok.form
 
                 change_id = 'adj_roman_ordinal'
 
+            # if the word ends with "andra", we need to be careful not to mistake it with the
+            # homograph meaning "other". If the lemma isn't "annan" it is usually "två" and can be
+            # changed. The ordinal "andra" also doesn't occur with the feature "Plur".
             elif tok.form.lower().endswith('andra'): 
                 if tok.lemma.lower() != 'annan' and tok.feats['Number'] != 'Plur':
                     tok.lemma = 'andra'
@@ -229,20 +246,25 @@ def change_adj_ordinal_lemma(doc, outfile):
 
                     change_id = 'adj_andra_annan'
 
+            # if the form is a number (and an ADJ) as in dates and the old annotation (xpos) says it is an 
+            # ordinal, we change the lemma to the number with ":e" or ":a" and the end.
+            # such as 1 -> 1:a, 3 -> 3:e
             elif str.isnumeric(tok.form) and (tok.xpos == 'ORD' or 'RO' in tok.xpos):
-                tok.lemma = tok.form + ':e' if tok.form[-1] != '1' else ':a'
+                tok.lemma = tok.form + ':e' if tok.form[-1] not in ('1', '2') else ':a'
 
                 change_id = 'adj_dates_ordinal'
 
+            # if the lemma has been changed we add the node to the change-log
             if change_id != None:
                 if tok.lemma.lower() != old_lemma:
                     change_ids.append(change_id)
                     changed_forms_by_id[change_id].add(tok.form)
                     change_log.append(f"{change_id=}\tsent_id='{tok.address()}'\t{tok.form=}\t{old_lemma=}\t{tok.lemma=}\tfeats='{tok.feats.__str__()}'\ttext='{tok.root.compute_text()}'")
         
-
     write_to_change_log(outfile.rsplit('.', maxsplit=1)[0]+'_adj_ordinal_lemma_changes.log', change_ids, changed_forms_by_id, change_log)
-  
+
+# function changing the lemmas of non-ordinal/participle adj using a dictionary with
+# explicit form-lemma pairs
 def change_adj_lemma(doc, outfile):
     change_ids = []
     changed_forms_by_id = defaultdict(set)
@@ -360,6 +382,8 @@ def change_adj_lemma(doc, outfile):
 
     write_to_change_log(outfile.rsplit('.', maxsplit=1)[0]+'_adj_lemma_changes.log', change_ids, changed_forms_by_id, change_log)
 
+# function catching participle and participle-like adj using both old annotation and form
+# and gives them the appropriate lemmas programmatically, with a small dictionary of exceptions
 def change_participle_lemma(doc, outfile):
     change_ids = []
     changed_forms_by_id = defaultdict(set)
@@ -536,12 +560,13 @@ def change_participle_lemma(doc, outfile):
 
     write_to_change_log(outfile.rsplit('.', maxsplit=1)[0]+'_participle_lemma_changes.log', change_ids, changed_forms_by_id, change_log)
 
+# function to change the lemmas of some exceptions.
 def change_adj_exception_lemma(doc, outfile):
     change_ids = []
     changed_forms_by_id = defaultdict(set)
     change_log = []
 
-
+    
     hard_rules = {'övre': 'övre',
                   'undre': 'undre',
                   'inre': 'inre',
@@ -556,6 +581,9 @@ def change_adj_exception_lemma(doc, outfile):
                   'högraste': lambda form: form[:-3],
                   'vänstraste': lambda form: form[:-3]}
     
+    # dictionary of partial matches and functions to
+    # create lemmas from the form so as not to have to
+    # explicitly write form-lemma pairs for all.
     flexible_rules = {'södra': lambda form: form,
                       'västra': lambda form: form,
                       'östra': lambda form: form,
@@ -593,6 +621,9 @@ def change_adj_exception_lemma(doc, outfile):
 
     write_to_change_log(outfile.rsplit('.', maxsplit=1)[0]+'_adj_exception_lemma_changes.log', change_ids, changed_forms_by_id, change_log)
 
+# function with explicit rules for abbreviations for all word-classes.
+# TODO: decide what what what abbreviations should have full lemmas and which
+# should have abbreviated lemmas.
 def change_abbr_lemma(doc, outfile):
     change_ids = []
     changed_forms_by_id = defaultdict(set)
@@ -685,13 +716,11 @@ def change_abbr_lemma(doc, outfile):
                 elif tok.form.lower() in ['cl']:
                     tok.lemma = 'centiliter'
                 elif tok.form.lower() in ['cm']:
-                    tok.lemma = 'cm'
+                    tok.lemma = 'centimeter'
                 elif tok.form.lower() in ['aids']:
                     tok.lemma = 'förvärvat_immunbristsyndrom'
                 elif tok.form.lower() in ['ddt']:
                     tok.lemma = 'diklordifenyltrikloretan'
-                elif tok.form.lower() in ['dl']:
-                    tok.lemma = 'deciliter'
                 elif tok.form.lower() in ['dl']:
                     tok.lemma = 'deciliter'
                 elif tok.form.lower() in ['doc', 'doc.']:
@@ -829,6 +858,8 @@ def change_abbr_lemma(doc, outfile):
 
     write_to_change_log(outfile.rsplit('.', maxsplit=1)[0]+'_adj_abbr_lemma_changes.log', change_ids, changed_forms_by_id, change_log)
 
+# function to add and remove VerbForm=Part and Tense=Pres/Past to adjectives based on a list of manually
+# annotated participles/non-participles passed in the system arguments. 
 def reclassify_participles(doc, outfile, participle_class_doc):
     change_ids = []
     changed_forms_by_id = defaultdict(set)
@@ -921,6 +952,7 @@ def reclassify_participles(doc, outfile, participle_class_doc):
 
     write_to_change_log(outfile.rsplit('.', maxsplit=1)[0]+'_reclassify_participle_changes.log', change_ids, changed_forms_by_id, change_log)
 
+# function to change the features and lemmas of determiners and pronouns "de", "den", "det", "dem", "dom"
 def change_den_det_de(doc, outfile):
     change_ids = []
     changed_forms_by_id = defaultdict(set)
@@ -1023,6 +1055,9 @@ def change_den_det_de(doc, outfile):
 
     write_to_change_log(outfile.rsplit('.', maxsplit=1)[0]+'_den_det_de_changes.log', change_ids, changed_forms_by_id, change_log)
 
+# function for updating the features for all adjectives. This function uses both lists with explicit examples,
+# BRA_ADJ, SVART_ADJ, ENGLISH_ADJ, FOREIGN_ADJ etc., form/lemma and prevous annotation to guide the removal
+# and adding of features (primarily Definite=Def/Ind and Number=Sing/Plur)
 def change_adj_feats(doc, outfile, manual_def_num_doc):
     change_ids = []
     changed_forms_by_id = defaultdict(set)
@@ -1570,6 +1605,7 @@ def change_adj_feats(doc, outfile, manual_def_num_doc):
 
                     change_id = 'gen'
 
+            # ny / fri / söt
             elif tok.form.lower() == tok.lemma.lower():
                 tok.feats['Case'] = 'Nom'
                 tok.feats['Degree'] = 'Pos'
@@ -1599,6 +1635,7 @@ def change_adj_feats(doc, outfile, manual_def_num_doc):
 
     write_to_change_log(outfile.rsplit('.', maxsplit=1)[0]+'_adj_feats_changes.log', change_ids, changed_forms_by_id, change_log)
 
+    # writing all of the adjectives that were not caught by the rules above into a file for manual evaluation
     with open(outfile.rsplit('.', maxsplit=1)[0]+'_unchanged_adj.log', 'w') as f:
         lemma_not_form = sorted([tok for tok in unchanged if tok.form.lower() != tok.lemma.lower()], key=lambda tok: tok.lemma.lower())
         lemma_not_form = [f"sent_id='{tok.address()}'\ntext='{tok.root.compute_text()}'\n{get_conllu(tok)}\n" for tok in lemma_not_form]
@@ -1610,12 +1647,16 @@ def change_adj_feats(doc, outfile, manual_def_num_doc):
         for line in unchanged:
             f.write(line+'\n')
 
+    # writing all adjectives in their weak form which did not have enough information in the surrounding node
+    # to make automatic adjustment, to a file for manual evaluation.
     with open(outfile.rsplit('.', maxsplit=1)[0]+'_flagged_adj.log', 'w') as f:
         flagged = sorted(flagged, key=lambda tok: tok.lemma.lower())
         flagged = [f"id={tok.address()}\ntext='{tok.root.compute_text()}'\n{get_conllu(tok)}\n" for tok in flagged]
         for line in flagged:
             f.write(line+'\n')
 
+# function to extract and apply changes specified in the prefixes.tsv and postfixes.tsv before and after
+# all automated changes respectively. 
 def manual_changes(doc, outfile, manual_changes_document):
     change_log = list()
     nodes = list(doc.nodes)
