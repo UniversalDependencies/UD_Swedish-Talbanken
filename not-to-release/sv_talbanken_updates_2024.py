@@ -706,9 +706,9 @@ def change_abbr_lemma(doc, outfile):
                 elif tok.form.lower() in ['°']:
                     tok.lemma = 'grader'
                 elif tok.form.lower() in ['bb']:
-                    tok.lemma = 'barnsbördsavdelning'
+                    tok.lemma = 'BB' # 'barnsbördsavdelning'
                 elif tok.form.lower() in ['bnp']:
-                    tok.lemma = 'bruttonationalprodukt'
+                    tok.lemma = 'BNP' # 'bruttonationalprodukt'
                 elif tok.form.lower() in ['cal']:
                     tok.lemma = 'kalori'
                 elif tok.form.lower() in ['c']:
@@ -718,9 +718,9 @@ def change_abbr_lemma(doc, outfile):
                 elif tok.form.lower() in ['cm']:
                     tok.lemma = 'centimeter'
                 elif tok.form.lower() in ['aids']:
-                    tok.lemma = 'förvärvat_immunbristsyndrom'
+                    tok.lemma = 'AIDS' # 'förvärvat_immunbristsyndrom'
                 elif tok.form.lower() in ['ddt']:
-                    tok.lemma = 'diklordifenyltrikloretan'
+                    tok.lemma = 'DDT' # 'diklordifenyltrikloretan'
                 elif tok.form.lower() in ['dl']:
                     tok.lemma = 'deciliter'
                 elif tok.form.lower() in ['doc', 'doc.']:
@@ -756,7 +756,7 @@ def change_abbr_lemma(doc, outfile):
                 elif tok.form.lower() in ['kor']:
                     tok.lemma = 'korinthierbrevet'
                 elif tok.form.lower() in ['kpi']:
-                    tok.lemma = 'konsumentprisindex'
+                    tok.lemma = 'KPI' # 'konsumentprisindex'
                 elif tok.form.lower() in ['kr']:
                     tok.lemma = 'krona'
                 elif tok.form.lower() in ['kvkm']:
@@ -768,7 +768,7 @@ def change_abbr_lemma(doc, outfile):
                 elif tok.form.lower() in ['kvkm']:
                     tok.lemma = 'kvadratkilometer'
                 elif tok.form.lower() in ['lsd']:
-                    tok.lemma = 'lysergsyradietylamid'
+                    tok.lemma = 'LSD' # 'lysergsyradietylamid'
                 elif tok.form.lower() in ['m']:
                     tok.lemma = 'meter'
                 elif tok.form.lower() in ['m3/s', 'm3/sek']:
@@ -796,13 +796,17 @@ def change_abbr_lemma(doc, outfile):
                 elif tok.form.lower() in ['okt', 'okt.']:
                     tok.lemma = 'oktober'
                 elif tok.form.lower() in ['pcb']:
-                    tok.lemma = 'polyklorerade_bifenyler'
+                    tok.lemma = 'PCB' # 'polyklorerade_bifenyler'
                 elif tok.form.lower() in ['prof', 'prof.']:
                     tok.lemma = 'professor'
                 elif tok.form.lower() in ['s', 's.', 'sid', 'sid.']:
                     tok.lemma = 'sida'
                 elif tok.form.lower() in ['st']:
                     tok.lemma = 'styck'
+                elif tok.form.lower() in ['sos']:
+                    tok.lemma = 'SOS' # 'sveriges_officiella_statistik'
+                elif tok.form.lower() in ['skb']:
+                    tok.lemma = 'SKB' # meaning unknown
                 elif tok.form.lower() in ['t']:
                     tok.lemma = 'ton'
                 elif tok.form.lower() in ['tel.', 'tel']:
@@ -836,17 +840,17 @@ def change_abbr_lemma(doc, outfile):
 
             elif tok.upos == 'PROPN':
                 if tok.form.lower() in ['AKP:s']:
-                    tok.lemma = 'adalet_ve_kalkınma_partisi'
+                    tok.lemma = 'AKP' # 'adalet_ve_kalkınma_partisi'
                 elif tok.form.lower() in ['ECB:s']:
                     tok.lemma = 'europeiska_centralbanken'
                 elif tok.form.lower() in ['mps']:
-                    tok.lemma = 'miljöpartiet'
-                elif tok.form.lower() in ['mps']:
-                    tok.lemma = 'miljöpartiet'
+                    tok.lemma = 'MP' # 'miljöpartiet'
                 elif tok.form.lower() in ['rhs']:
-                    tok.lemma = 'refugee_health_screener'
+                    tok.lemma = 'RHS' # 'refugee_health_screener'
                 elif tok.form.lower() in ['RSPB:s']:
-                    tok.lemma = 'the_royal_society_for_the_protection_of_birds'
+                    tok.lemma = 'RSPB' # 'the_royal_society_for_the_protection_of_birds'
+                elif tok.form.lower() in ['B.C.']:
+                    tok.lemma = 'brittish_columbia'
 
                 change_id = 'abbr_propn'
            
