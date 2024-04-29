@@ -93,9 +93,10 @@ OVERSPEC = {'rädd': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender
 
             'ljusan': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': None, 'Number': 'Sing'},
             'sakta': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': None, 'Number': 'Sing'},
+            'varenda': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': None, 'Number': 'Sing'},
 
             'desamma': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': None, 'Number': 'Plur'},
-            
+            'samtliga': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': None, 'Number': 'Plur'},
             
             'ena': {'Case': 'Nom', 'Definite': 'Def', 'Degree': 'Pos', 'Gender': None, 'Number': 'Sing'},
             'sankta': {'Case': 'Nom', 'Definite': 'Def', 'Degree': 'Pos', 'Gender': None, 'Number': 'Sing'},
@@ -110,6 +111,7 @@ OVERSPEC = {'rädd': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender
             'sinom': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': None, 'Number': None},
             'redo': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': None, 'Number': None},
             'bevänt': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': None, 'Number': None},
+            'samma': {'Case': 'Nom', 'Definite': 'Ind', 'Degree': 'Pos', 'Gender': None, 'Number': None},
 
             'södra': {'Case': 'Nom', 'Definite': 'Def', 'Degree': 'Pos', 'Gender': None, 'Number': None},
             'norra': {'Case': 'Nom', 'Definite': 'Def', 'Degree': 'Pos', 'Gender': None, 'Number': None},
@@ -174,6 +176,130 @@ def write_to_change_log(outfile, change_ids, changed_forms_by_id, change_log):
         f.write('\n')
         for line in change_log:
             f.write(line+'\n')
+
+def change_adj_det_inconsistencies(doc, outfile):
+    change_ids = []
+    changed_forms_by_id = defaultdict(set)
+    change_log = []
+
+    flagged = []
+
+    adj = ['samtliga', 'enda', 'andra', 
+           'annan', 'samma', 'sådan',
+           'sådana', 
+           
+           # osäkra
+           'densamma', 'desamma', 
+           'varenda', 'varannan']
+    
+    det_pron = ['båda', 'någon']
+
+    for tok in doc.nodes:
+        change_id = None
+        old_upos = tok.upos
+        old_deprel = tok.deprel
+        if tok.upos == 'ADJ' and tok.form.lower() in det_pron:
+            if tok.deprel == 'amod':
+                tok.upos = 'DET'
+                tok.deprel = 'det'
+
+                tok.feats['Case'] = None
+                tok.feats['Degree'] = None
+                tok.feats['Gender'] = None
+
+                if tok.form.lower() == 'någon':
+                    tok.feats['PronType'] = 'Ind'
+                    tok.feats['Number'] = 'Sing'
+                    tok.feats['Definite'] = 'Ind'
+
+                    change_id = 'adj_det_någon'
+
+                elif tok.form.lower() == 'båda':
+                    tok.feats['PronType'] = 'Tot'
+                    tok.feats['Number'] = 'Plur'
+                    tok.feats['Definite'] = 'Def'
+
+                    change_id = 'adj_det_båda'
+            
+            # id=sv-ud-train-956#14
+            # text='En sådan varningslinje anger att sikten kan vara begränsad i den ena eller båda färdriktningarna.'
+            # 14 båda båda ADJ JJ|POS|UTR/NEU|PLU|IND/DEF|NOM Case=Nom|Degree=Pos|Number=Plur 12 conj 12:conj:eller|15:amod _
+            elif tok.address() in ['sv-ud-train-956#14']:
+                tok.upos = 'DET'
+                tok.feats['PronType'] = 'Tot'
+                tok.feats['Number'] = 'Plur'
+                tok.feats['Definite'] = 'Def'
+
+                change_id = 'adj_det_båda_keep_deprel'
+
+            # id=w04010030#13
+            # text='Emellertid har vänskapen fallit isär på grund av inofficiella samarbeten mellan de båda, vilka gett upphov till juridiska dispyter.'
+            # 13 båda båda ADJ JJ|POS|UTR/NEU|PLU|IND/DEF|NOM Case=Nom|Degree=Pos|Number=Plur 10 nmod 10:nmod:mellan|16:nsubj SpaceAfter=No
+
+            # id=w01067103#5
+            # text='Trots detta verkar de båda ha hållit åtminstone delar av Nedre Egypten.'
+            # 5 båda båda ADJ JJ|POS|UTR/NEU|PLU|IND/DEF|NOM Case=Nom|Degree=Pos|Number=Plur 3 acl 3:acl _
+
+            # id=sv-ud-train-3531#12
+            # text='Han hade haft dålig mage - av nervösa orsaker säger de båda.'
+            # 12 båda båda ADJ JJ|POS|UTR/NEU|PLU|IND/DEF|NOM Case=Nom|Degree=Pos|Number=Plur 11 acl 11:acl SpaceAfter=No
+
+            # id=sv-ud-dev-503#18
+            # text='Sedan kan valet få stå dem fritt om de vill bli enbart husmödrar, enbart yrkeskvinnor eller båda i förening därför att de då i den gärning de valt, alltid kommer att kunna hävda sig som männens vederlikar.'
+            # 18 båda båda ADJ JJ|POS|UTR/NEU|PLU|IND/DEF|NOM Case=Nom|Degree=Pos|Number=Plur 16 conj 11:xcomp|16:conj:eller _
+            elif tok.address() in ['w04010030#13', 
+                                   'w01067103#5', 
+                                   'sv-ud-train-3531#12', 
+                                   'sv-ud-dev-503#18']:
+                tok.upos = 'PRON'
+                tok.feats['PronType'] = 'Tot'
+                tok.feats['Number'] = 'Plur'
+                tok.feats['Definite'] = 'Def'
+
+                change_id = 'adj_pron_båda_keep_deprel'
+
+            else:
+                flagged.append(tok)
+                continue
+
+        elif (tok.upos == 'DET' or tok.deprel == 'det') and tok.form.lower() in adj:
+            if tok.deprel == 'det' or tok.deprel == 'amod':
+                tok.upos = 'ADJ'
+                tok.deprel = 'amod'
+                tok.feats['PronType'] = None
+                tok.feats['Case'] = 'Nom'
+                tok.feats['Degree'] = 'Pos'
+
+                change_id = 'det_to_adj_amod'
+
+            elif tok.deprel in ['fixed']:
+                tok.upos = 'ADJ'
+                tok.feats['PronType'] = None
+                tok.feats['Case'] = 'Nom'
+                tok.feats['Degree'] = 'Pos'
+
+                change_id = 'det_to_adj_fixed'
+
+            else:
+                flagged.append(tok)
+            
+            
+
+        # if the lemma has been changed we add the node to the change-log
+        if change_id != None:
+            if old_upos != tok.upos or old_deprel != tok.deprel:
+                change_ids.append(change_id)
+                changed_forms_by_id[change_id].add(tok.form)
+                change_log.append(f"{change_id=}\tsent_id='{tok.address()}'\t{tok.form=}\t{tok.lemma=}\t{old_upos=}\t{tok.upos=}\t{old_deprel=}\t{tok.deprel=}\tfeats='{tok.feats.__str__()}'\ttext='{tok.root.compute_text()}'")
+        
+    write_to_change_log(outfile.rsplit('.', maxsplit=1)[0]+'_adj_det_inconsistecies_changes.log', change_ids, changed_forms_by_id, change_log)
+
+    with open(outfile.rsplit('.', maxsplit=1)[0]+'_flagged_adj_det_inconsistencies.log', 'w') as f:
+        flagged = sorted(flagged, key=lambda tok: tok.lemma.lower())
+        flagged = [f"id={tok.address()}\ntext='{tok.root.compute_text()}'\n{get_conllu(tok)}\n" for tok in flagged]
+        for line in flagged:
+            f.write(line+'\n')
+
 
 # function to update lemmas for ordinal adjectives
 def change_adj_ordinal_lemma(doc, outfile):
@@ -844,7 +970,7 @@ def change_abbr_lemma(doc, outfile):
                 elif tok.form.lower() in ['ECB:s']:
                     tok.lemma = 'europeiska_centralbanken'
                 elif tok.form.lower() in ['mps']:
-                    tok.lemma = 'MP' # 'miljöpartiet'
+                    tok.lemma = 'Mp' # 'miljöpartiet'
                 elif tok.form.lower() in ['rhs']:
                     tok.lemma = 'RHS' # 'refugee_health_screener'
                 elif tok.form.lower() in ['RSPB:s']:
@@ -1744,6 +1870,7 @@ if __name__ == '__main__':
     if partlist_doc:
         reclassify_participles(doc, outfile, partlist_doc)
 
+    change_adj_det_inconsistencies(doc, outfile)
     change_den_det_de(doc, outfile)
     change_adj_feats(doc, outfile, manual_def_num_doc)
 
