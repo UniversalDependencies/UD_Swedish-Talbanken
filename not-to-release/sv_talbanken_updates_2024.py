@@ -198,7 +198,53 @@ def change_adj_det_inconsistencies(doc, outfile):
         change_id = None
         old_upos = tok.upos
         old_deprel = tok.deprel
-        if tok.upos == 'ADJ' and tok.form.lower() in det_pron:
+
+        # id=w04010030#13
+        # text='Emellertid har vänskapen fallit isär på grund av inofficiella samarbeten mellan de båda, vilka gett upphov till juridiska dispyter.'
+        # 13 båda båda ADJ JJ|POS|UTR/NEU|PLU|IND/DEF|NOM Case=Nom|Degree=Pos|Number=Plur 10 nmod 10:nmod:mellan|16:nsubj SpaceAfter=No
+
+        # id=w01067103#5
+        # text='Trots detta verkar de båda ha hållit åtminstone delar av Nedre Egypten.'
+        # 5 båda båda ADJ JJ|POS|UTR/NEU|PLU|IND/DEF|NOM Case=Nom|Degree=Pos|Number=Plur 3 acl 3:acl _
+
+        # id=sv-ud-train-3531#12
+        # text='Han hade haft dålig mage - av nervösa orsaker säger de båda.'
+        # 12 båda båda ADJ JJ|POS|UTR/NEU|PLU|IND/DEF|NOM Case=Nom|Degree=Pos|Number=Plur 11 acl 11:acl SpaceAfter=No
+
+        # id=sv-ud-dev-503#18
+        # text='Sedan kan valet få stå dem fritt om de vill bli enbart husmödrar, enbart yrkeskvinnor eller båda i förening därför att de då i den gärning de valt, alltid kommer att kunna hävda sig som männens vederlikar.'
+        # 18 båda båda ADJ JJ|POS|UTR/NEU|PLU|IND/DEF|NOM Case=Nom|Degree=Pos|Number=Plur 16 conj 11:xcomp|16:conj:eller _
+        if tok.address() in ['w04010030#13', 
+                                'w01067103#5', 
+                                'sv-ud-train-3531#12', 
+                                'sv-ud-dev-503#18']:
+            tok.feats['Case'] = None
+            tok.feats['Degree'] = None
+            tok.feats['Gender'] = None
+            
+            tok.upos = 'PRON'
+            tok.feats['PronType'] = 'Tot'
+            tok.feats['Number'] = 'Plur'
+            tok.feats['Definite'] = 'Def'
+
+            change_id = 'adj_pron_båda_keep_deprel'
+
+        # id=sv-ud-train-956#14
+        # text='En sådan varningslinje anger att sikten kan vara begränsad i den ena eller båda färdriktningarna.'
+        # 14 båda båda ADJ JJ|POS|UTR/NEU|PLU|IND/DEF|NOM Case=Nom|Degree=Pos|Number=Plur 12 conj 12:conj:eller|15:amod _
+        elif tok.address() in ['sv-ud-train-956#14']:
+            tok.feats['Case'] = None
+            tok.feats['Degree'] = None
+            tok.feats['Gender'] = None
+            
+            tok.upos = 'DET'
+            tok.feats['PronType'] = 'Tot'
+            tok.feats['Number'] = 'Plur'
+            tok.feats['Definite'] = 'Def'
+
+            change_id = 'adj_det_båda_keep_deprel'
+
+        elif tok.upos == 'ADJ' and tok.form.lower() in det_pron:
             if tok.deprel == 'amod':
                 tok.upos = 'DET'
                 tok.deprel = 'det'
@@ -220,43 +266,6 @@ def change_adj_det_inconsistencies(doc, outfile):
                     tok.feats['Definite'] = 'Def'
 
                     change_id = 'adj_det_båda'
-            
-            # id=sv-ud-train-956#14
-            # text='En sådan varningslinje anger att sikten kan vara begränsad i den ena eller båda färdriktningarna.'
-            # 14 båda båda ADJ JJ|POS|UTR/NEU|PLU|IND/DEF|NOM Case=Nom|Degree=Pos|Number=Plur 12 conj 12:conj:eller|15:amod _
-            elif tok.address() in ['sv-ud-train-956#14']:
-                tok.upos = 'DET'
-                tok.feats['PronType'] = 'Tot'
-                tok.feats['Number'] = 'Plur'
-                tok.feats['Definite'] = 'Def'
-
-                change_id = 'adj_det_båda_keep_deprel'
-
-            # id=w04010030#13
-            # text='Emellertid har vänskapen fallit isär på grund av inofficiella samarbeten mellan de båda, vilka gett upphov till juridiska dispyter.'
-            # 13 båda båda ADJ JJ|POS|UTR/NEU|PLU|IND/DEF|NOM Case=Nom|Degree=Pos|Number=Plur 10 nmod 10:nmod:mellan|16:nsubj SpaceAfter=No
-
-            # id=w01067103#5
-            # text='Trots detta verkar de båda ha hållit åtminstone delar av Nedre Egypten.'
-            # 5 båda båda ADJ JJ|POS|UTR/NEU|PLU|IND/DEF|NOM Case=Nom|Degree=Pos|Number=Plur 3 acl 3:acl _
-
-            # id=sv-ud-train-3531#12
-            # text='Han hade haft dålig mage - av nervösa orsaker säger de båda.'
-            # 12 båda båda ADJ JJ|POS|UTR/NEU|PLU|IND/DEF|NOM Case=Nom|Degree=Pos|Number=Plur 11 acl 11:acl SpaceAfter=No
-
-            # id=sv-ud-dev-503#18
-            # text='Sedan kan valet få stå dem fritt om de vill bli enbart husmödrar, enbart yrkeskvinnor eller båda i förening därför att de då i den gärning de valt, alltid kommer att kunna hävda sig som männens vederlikar.'
-            # 18 båda båda ADJ JJ|POS|UTR/NEU|PLU|IND/DEF|NOM Case=Nom|Degree=Pos|Number=Plur 16 conj 11:xcomp|16:conj:eller _
-            elif tok.address() in ['w04010030#13', 
-                                   'w01067103#5', 
-                                   'sv-ud-train-3531#12', 
-                                   'sv-ud-dev-503#18']:
-                tok.upos = 'PRON'
-                tok.feats['PronType'] = 'Tot'
-                tok.feats['Number'] = 'Plur'
-                tok.feats['Definite'] = 'Def'
-
-                change_id = 'adj_pron_båda_keep_deprel'
 
             else:
                 flagged.append(tok)
@@ -282,6 +291,7 @@ def change_adj_det_inconsistencies(doc, outfile):
 
             else:
                 flagged.append(tok)
+                continue
             
             
 
@@ -299,7 +309,6 @@ def change_adj_det_inconsistencies(doc, outfile):
         flagged = [f"id={tok.address()}\ntext='{tok.root.compute_text()}'\n{get_conllu(tok)}\n" for tok in flagged]
         for line in flagged:
             f.write(line+'\n')
-
 
 # function to update lemmas for ordinal adjectives
 def change_adj_ordinal_lemma(doc, outfile):
