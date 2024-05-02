@@ -11358,7 +11358,7 @@
 15	enbart	enbart	ADV	AB	_	16	advmod	16:advmod	_
 16	yrkeskvinnor	yrkeskvinna	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	11	xcomp	11:xcomp	_
 17	eller	eller	CCONJ	KN	_	18	cc	18:cc	_
-18	båda	båda	PRON	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Plur|PronType=Tot	16	conj	11:xcomp|16:conj:eller	_
+18	båda	båda	PRON	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Definite=Def|Number=Plur|PronType=Tot	16	conj	11:xcomp|16:conj:eller	_
 19	i	i	ADP	PP	_	20	case	20:case	_
 20	förening	förening	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	18	nmod	18:nmod:i	_
 21	därför	därför	ADV	HA	_	35	mark	35:mark	_

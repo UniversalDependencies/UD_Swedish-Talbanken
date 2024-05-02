@@ -225,6 +225,10 @@ def change_adj_det_inconsistencies(doc, outfile):
             # text='En sådan varningslinje anger att sikten kan vara begränsad i den ena eller båda färdriktningarna.'
             # 14 båda båda ADJ JJ|POS|UTR/NEU|PLU|IND/DEF|NOM Case=Nom|Degree=Pos|Number=Plur 12 conj 12:conj:eller|15:amod _
             elif tok.address() in ['sv-ud-train-956#14']:
+                tok.feats['Case'] = None
+                tok.feats['Degree'] = None
+                tok.feats['Gender'] = None
+                
                 tok.upos = 'DET'
                 tok.feats['PronType'] = 'Tot'
                 tok.feats['Number'] = 'Plur'
@@ -251,6 +255,10 @@ def change_adj_det_inconsistencies(doc, outfile):
                                    'w01067103#5', 
                                    'sv-ud-train-3531#12', 
                                    'sv-ud-dev-503#18']:
+                tok.feats['Case'] = None
+                tok.feats['Degree'] = None
+                tok.feats['Gender'] = None
+                
                 tok.upos = 'PRON'
                 tok.feats['PronType'] = 'Tot'
                 tok.feats['Number'] = 'Plur'
@@ -299,7 +307,6 @@ def change_adj_det_inconsistencies(doc, outfile):
         flagged = [f"id={tok.address()}\ntext='{tok.root.compute_text()}'\n{get_conllu(tok)}\n" for tok in flagged]
         for line in flagged:
             f.write(line+'\n')
-
 
 # function to update lemmas for ordinal adjectives
 def change_adj_ordinal_lemma(doc, outfile):
