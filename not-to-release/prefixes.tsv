@@ -1,0 +1,346 @@
+id=sv-ud-train-201#16
+16	andra	annan	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	17	amod	17:amod	_
+
+id=w01119076#9
+9	icke-vita	icke-vit	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	10	amod	10:amod	_
+
+id=sv_lines-ud-train-doc2-765#4
+4	andra	andra	ADJ	ORD	Case=Nom|Number=Sing|NumType=Ord	5	amod	_	_
+
+id=sv_lines-ud-train-doc8-3070#24
+24	andres	annan	ADJ	SG-GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	25	nmod:poss	_	_
+
+id=sv_lines-ud-train-doc5-1767#13
+13	s.k.	så_kallad	ADJ	AD-DEF	Abbr=Yes	17	amod	_	_
+
+id=n01035004#11
+11	B.C.	british_columbia	PROPN	PM|NOM	Abbr=Yes	9	nmod	9:nmod:i	_
+
+id=n01035013#3
+3	B.C.	british_columbia	PROPN	PM|NOM	Abbr=Yes	1	nmod	1:nmod:i	_
+
+id=n03006028#24
+24	Ms.	mistress	NOUN	NN|NOM	Abbr=Yes	25	nmod	25:nmod	_
+
+id=sv_lines-ud-dev-doc1-3223#12
+12	t.ex	till_exempel	ADV	_	Abbr=Yes	13	advmod	_	_
+
+id=sv_lines-ud-dev-doc1-3268#3
+3	t.ex	till_exempel	ADV	_	Abbr=Yes	4	advmod	_	_
+
+id=sv_lines-ud-dev-doc1-3272#9
+9	t.ex	till_exempel	ADV	_	Abbr=Yes	15	advmod	_	_
+
+id=sv_lines-ud-train-doc1-27#13
+13	t.ex	till_exempel	ADV	_	Abbr=Yes	16	advmod	_	_
+
+id=sv_lines-ud-train-doc1-127#31
+31	t.ex	till_exempel	ADV	_	Abbr=Yes	32	advmod	_	_
+
+id=sv_lines-ud-train-doc1-147#3
+3	t.ex	till_exempel	ADV	_	Abbr=Yes	4	advmod	_	_
+
+id=sv_lines-ud-train-doc1-253#4
+4	t.ex	till_exempel	ADV	_	Abbr=Yes	5	advmod	_	_
+
+id=sv_lines-ud-train-doc1-260#17
+17	t.ex	till_exempel	ADV	_	Abbr=Yes	18	advmod	_	_
+
+id=sv_lines-ud-train-doc1-307#22
+22	t.ex	till_exempel	ADV	_	Abbr=Yes	24	advmod	_	_
+
+id=sv_lines-ud-train-doc5-1568#8
+8	kl.	klockan	NOUN	SG-IND-NOM	Abbr=Yes|Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	nmod	_	_
+
+id=sv_lines-ud-train-doc5-1630#8
+8	kl.	klockan	NOUN	SG-IND-NOM	Abbr=Yes|Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	nmod	_	_
+
+id=sv_lines-ud-train-doc5-1697#3
+3	kl.	klockan	NOUN	SG-IND-NOM	Abbr=Yes|Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	nmod	_	_
+
+id=sv_lines-ud-train-doc5-1697#12
+12	kl.	klockan	NOUN	SG-IND-NOM	Abbr=Yes|Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	nmod	_	_
+
+id=sv_lines-ud-train-doc5-1757#8
+8	kl.	klockan	NOUN	SG-IND-NOM	Abbr=Yes|Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	nmod	_	_
+
+id=sv_lines-ud-train-doc5-1791#3
+3	kl.	klockan	NOUN	SG-IND-NOM	Abbr=Yes|Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	nmod	_	_
+
+id=sv_lines-ud-train-doc5-1791#7
+7	kl.	klockan	NOUN	SG-IND-NOM	Abbr=Yes|Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	nmod	_	_
+
+id=sv_lines-ud-train-doc5-1920#8
+8	kl.	klockan	NOUN	SG-IND-NOM	Abbr=Yes|Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	nmod	_	_
+
+id=sv_lines-ud-train-doc7-2730#11
+11	kl.	klockan	NOUN	SG-IND-NOM	Abbr=Yes|Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	nmod	_	_
+
+id=sv_lines-ud-dev-doc5-3773#14
+14	det	den	DET	SG-DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	det	_	_
+
+id=sv_lines-ud-dev-doc8-4147#10
+10	det	den	DET	SG-DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+
+id=sv-ud-train-3955#17
+17	kontaktoförmögna	kontaktoförmögen	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	14	conj	14:conj:och	_
+
+id=sv-ud-train-2190#15
+15	permanente	permanent	ADJ	JJ|SUV|UTR/NEU|SIN/PLU|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	17	nsubj	17:nsubj	SpaceAfter=No
+
+id=sv-ud-train-1121#9
+9	Boiling	boiling	ADJ	JJ	Foreign=Yes	10	amod	10:amod	_
+
+id=sv-ud-train-1126#8
+8	Pressurized	pressurized	ADJ	JJ	Foreign=Yes	9	amod	9:amod	_
+
+id=sv-ud-train-1454#3
+3	European	European	ADJ	UO	Foreign=Yes	5	amod	5:amod	_
+
+id=sv-ud-train-1454#4
+4	Economic	Economic	ADJ	UO	Foreign=Yes	5	amod	5:amod	_
+
+id=sv-ud-train-1455#3
+3	European	European	ADJ	JJ	Foreign=Yes	6	amod	6:amod	_
+
+id=sv-ud-train-1455#4
+4	Free	Free	ADJ	JJ	Foreign=Yes	5	compound	5:compound	_
+
+id=sv-ud-train-1456#3
+3	North	North	ADJ	JJ	Foreign=Yes	4	amod	4:amod	_
+
+id=sv-ud-train-1742#6
+6	National	National	ADJ	JJ	Foreign=Yes	7	amod	7:amod	_
+
+id=sv-ud-train-2516#10
+10	New	New	ADJ	UO	Foreign=Yes	11	amod	11:amod	_
+
+id=sv-ud-train-2874#29
+29	United	United	ADJ	UO	Foreign=Yes	30	amod	30:amod	_
+
+id=sv-ud-test-949#16
+16	Swedish	Swedish	ADJ	JJ	Foreign=Yes	19	amod	19:amod	_
+
+id=sv-ud-test-949#17
+17	International	International	ADJ	JJ	Foreign=Yes	18	amod	18:amod	_
+
+id=sv-ud-train-3753#18
+18	Central	central	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Foreign=Yes|Gender=Com|Number=Sing	19	amod	19:amod	_
+
+id=sv-ud-train-3753#21
+21	New	New	ADJ	JJ	Foreign=Yes	22	amod	22:amod	_
+
+id=sv-ud-dev-50#23
+23	Intermittent	Intermittent	ADJ	JJ	Foreign=Yes	25	amod	25:amod	SpaceAfter=No
+
+id=sv-ud-dev-51#3
+3	American	American	ADJ	JJ	Foreign=Yes	4	amod	4:amod	_
+
+id=n01054017#12
+12	First	first	ADJ	RO|POS	Case=Nom|Degree=Pos|Foreign=Yes|NumType=Ord	13	amod	13:amod	_
+
+id=n01079069#9
+9	New	New	ADJ	PM|NOM	Case=Nom|Foreign=Yes	12	compound	12:compound	_
+
+id=n01109012#17
+17	Simple	simpel	ADJ	JJ|POS|MAS|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Foreign=Yes|Gender=Masc|Number=Sing	19	compound	19:compound	_
+
+id=n01110022#10
+10	National	national	ADJ	JJ|POS	Degree=Pos|Foreign=Yes	11	compound	11:compound	_
+
+id=n01125016#3
+3	South	south	ADJ	JJ|POS	Degree=Pos|Foreign=Yes	4	compound	4:compound	_
+
+id=n01136005#4
+4	American	American	ADJ	JJ|POS	Degree=Pos|Foreign=Yes	6	amod	6:amod	_
+
+id=n01138026#10
+10	Talking	Talking	ADJ	JJ	Degree=Pos|Foreign=Yes	11	amod	11:amod	_
+
+id=w01049066#2
+2	Royal	royal	ADJ	JJ|POS	Degree=Pos|Foreign=Yes	4	amod	4:amod	_
+
+id=w01049066#3
+3	National	national	ADJ	JJ|POS	Degree=Pos|Foreign=Yes	4	amod	4:amod	_
+
+id=w01094066#3
+3	American	American	ADJ	JJ|POS	Degree=Pos|Foreign=Yes	4	amod	4:amod	_
+
+id=w01116088#13
+13	New	New	ADJ	JJ|POS	Degree=Pos|Foreign=Yes	14	amod	14:amod	_
+
+id=w01122031#14
+14	Shaky	shaky	ADJ	JJ|POS	Degree=Pos|Foreign=Yes	15	amod	15:amod	_
+
+id=w01127071#3
+3	Wild	wild	ADJ	JJ|POS	Degree=Pos|Foreign=Yes	4	amod	4:amod	_
+
+id=w02005026#1
+1	Golden	golden	ADJ	JJ|POS	Degree=Pos|Foreign=Yes	2	amod	2:amod	_
+
+id=sv_lines-ud-dev-doc1-3196#3
+3	Extensible	extensible	ADJ	POS-FGN	Degree=Pos|Foreign=Yes	4	amod	_	_
+
+id=sv_lines-ud-dev-doc1-3204#10
+10	Wide	wide	ADJ	POS-FGN	Case=Nom|Foreign=Yes|Number=Sing	9	flat	_	_
+
+id=sv_lines-ud-dev-doc1-3213#5
+5	Extensible	extensible	ADJ	POS-FGN	Degree=Pos|Foreign=Yes	7	amod	_	_
+
+id=sv_lines-ud-dev-doc1-3226#10
+10	Wide	wide	ADJ	POS-FGN	Degree=Pos|Foreign=Yes	9	flat	_	_
+
+id=sv_lines-ud-dev-doc1-3234#3
+3	Extensible	extensible	ADJ	POS-FGN	Degree=Pos|Foreign=Yes	5	amod	_	_
+
+id=sv_lines-ud-dev-doc2-3400#43
+43	Grand	grand	ADJ	POS-SG-FGN	Degree=Pos|Foreign=Yes	45	amod	_	_
+
+id=sv_lines-ud-dev-doc2-3400#44
+44	Central	Central	ADJ	POS-SG-FGN	Degree=Pos|Foreign=Yes	45	amod	_	_
+
+id=sv_lines-ud-train-doc1-7#16
+16	Visual	visual	ADJ	POS-FGN	Degree=Pos|Foreign=Yes	14	nmod	_	_
+
+id=sv_lines-ud-train-doc1-123#3
+3	Extensible	extensible	ADJ	POS-FGN	Degree=Pos|Foreign=Yes	5	amod	_	_
+
+id=sv_lines-ud-train-doc1-124#3
+3	Extensible	extensible	ADJ	POS-FGN	Degree=Pos|Foreign=Yes	5	amod	_	_
+
+id=sv_lines-ud-train-doc1-124#19
+19	Wide	wide	ADJ	POS-FGN	Degree=Pos|Foreign=Yes	18	flat	_	_
+
+id=sv_lines-ud-train-doc1-127#35
+35	Advertising	advertising	ADJ	FGN	Degree=Pos|Foreign=Yes	36	amod	_	_
+
+id=sv_lines-ud-train-doc1-136#16
+16	Extensible	extensible	ADJ	POS-FGN	Degree=Pos|Foreign=Yes	18	amod	_	_
+
+id=sv_lines-ud-train-doc1-307#1
+1	Visual	visual	ADJ	POS-FGN	Degree=Pos|Foreign=Yes	2	amod	_	_
+
+id=sv_lines-ud-train-doc3-985#4
+4	Arabic	arabic	ADJ	POS-FGN	Degree=Pos|Foreign=Yes	6	amod	_	_
+
+id=sv_lines-ud-train-doc3-1032#15
+15	brave	brave	ADJ	POS-FGN	Degree=Pos|Foreign=Yes	12	amod	_	SpaceAfter=No
+
+id=sv_lines-ud-train-doc3-1032#20
+20	free	free	ADJ	POS-FGN	Degree=Pos|Foreign=Yes	17	amod	_	SpaceAfter=No
+
+id=sv_lines-ud-train-doc8-3144#7
+7	Advanced	Advanced	ADJ	POS-FGN	Case=Nom|Degree=Pos|Foreign=Yes	8	amod	_	_
+
+id=n01137003#16
+16	Stranger	strange	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Foreign=Yes	17	amod	17:amod	_
+
+id=n01134020#9
+9	Environmental	environmental	ADJ	JJ|POS	Degree=Pos|Foreign=Yes	10	compound	10:compound	_
+
+id=n01136005#5
+5	Civil	civil	ADJ	JJ|POS	Degree=Pos|Foreign=Yes	6	compound	6:compound	_
+
+id=w05009044#38
+38	Breaking	Breaking	VERB	PC|PRS	Foreign=Yes|VerbForm=Part|Voice=Act	37	xcomp	37:xcomp	_
+
+id=sv_lines-ud-test-doc4-4691#23
+text='Stigar, stigar överallt; ett upptrampat nätverk av stigar som bredde sig över tomma ödemarker, genom långt gräs, genom avbränt gräs, genom snårskog, ned i och upp ur kyliga raviner, uppför och nedför kala berg som glödde av hetta – och ensamhet, ensamhet, inte en människa, inte en hydda.'
+23	avbränt	avbränd	ADJ	AD-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	24	amod	_	_
+
+id=sv_lines-ud-test-doc5-4732#4
+text='Det av kommissionen framlagda förslaget kan hälsas med tillfredsställelse från konsumentens sida.'
+4	framlagda	framlagd	ADJ	AD-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part	5	amod	_	_
+
+id=sv_lines-ud-test-doc6-4921#9
+text='Han gick in i rummet, som de fördragna gardinerna höll i mörker, och sov.'
+9	fördragna	fördragen	ADJ	AD-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	10	amod	_	_
+
+id=sv_lines-ud-test-doc5-4825#7
+text='Kommissionens uppskattningar av hälsovådliga värden följer genomförda undersökningar.'
+7	genomförda	genomförd	ADJ	AD-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	8	amod	_	_
+
+id=sv_lines-ud-test-doc2-4328#8
+text='Vid det bortesta bordet satt två sjaskigt klädda gubbar, den ene mycket tjock och den andre mycket smal, båda djupt försjunkna i startlistorna för morgondagens hästkapplöpningar.'
+8	klädda	klädd	ADJ	AD-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	9	amod	_	_
+
+id=sv_lines-ud-test-doc4-4647#16
+text='En smal och folktom gata i djup skugga mellan höga hus, otaliga fönster med nedfällda persienner, dödstystnad, gräs mellan kullerstenarna, ståtliga vagnsportar till vänster och höger, väldiga dubbeldörrar med hela sin massiva tyngd på glänt.'
+16	nedfällda	nedfälld	ADJ	AD-PL-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	17	amod	_	_
+
+id=sv_lines-ud-test-doc6-4918#28
+text='De bjöd på den afrikanske kockens speciallunch, som han så väl mindes: lätt vidbränd köttsoppa med massor av majs, torr, hård biff med stekt lök, en pudding som var fradgig upptill och gelédallrig undertill och smakade ägg och granadillsaft.'
+28	stekt	stekt	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part	29	amod	_	_
+
+id=sv_lines-ud-test-doc4-4695#11
+text='Då och då kom vi i alla fall igenom en övergiven by.'
+11	övergiven	övergiven	ADJ	AD-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part	12	amod	_	_
+
+id=sv_lines-ud-test-doc8-5171#18
+text='Medan QE2 så fylld av självförtroende gled fram över vattnet tänkte jag på Titanic, spöklik och övergiven där under oss, och någonstans där uppe, i det hemlighetsfulla mörkret, navigerade Dårarnas Skepp mellan stjärnorna.'
+18	övergiven	övergiven	ADJ	AD-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	16	conj	_	_
+
+id=sv_lines-ud-train-doc6-2193#2
+text='Den tjugosexåriga Vivien Bayley – drottninglik med sitt sköna, behärskade, disciplinerade ansikte – kom då och då över till Bray mellan ansvarskännande rekognosceringsturer i tältet för att övertyga sig om att den eller den unga flickan inte besvärades allt för mycket av en eller annan äldre eller mera påtagligt berusad individ, eller att den eller den unge mannen inte ignorerades av flickorna, som borde ägna honom större uppmärksamhet.'
+2	tjugosexåriga	tjugosexårig	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	3	amod	_	_
+
+id=sv_lines-ud-train-doc8-2984#13
+text='Far hade hört talas om att Cunard, det mest framstående och ansedda rederiet i Storbritannien, skulle köpas upp av Trafalgar House Investments.'
+13	ansedda	ansedd	ADJ	DEF-NOM	Case=Nom|Definite=Def|Tense=Past|VerbForm=Part	11	conj	_	_
+
+id=sv_lines-ud-train-doc5-1657#8
+text='Vi har visat att framtiden för den audio-visuella industrin är en debatt som korsar alla politiska och nationsgränser.'
+8	audio-visuella	audiovisuell	ADJ	POS-DEF	Case=Nom|Definite=Def|Degree=Pos|Gender=Com|Number=Sing	9	amod	_	_
+
+id=sv_lines-ud-train-doc4-1386#13
+text='Det ständiga bruset från forsarna längre upp svävade över denna bild av bebodd ödeläggelse.'
+13	bebodd	bebodd	ADJ	AD-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	14	amod	_	_
+
+id=sv_lines-ud-train-doc4-1226#35
+text='De hade seglat ut från Deptford, från Greenwich, från Erith; äventyrare och imperiebyggare; kungars skepp och penningfurstars; kaptener, amiraler, den österländska trafikens skumma smyghandlare och Ostindiska kompaniets befullmäktigade "generaler".'
+35	befullmäktigade	befullmäktigad	ADJ	AD-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	37	amod	_	_
+
+id=sv_lines-ud-train-doc8-3103#8
+text='"Bara om man ger dem tillräckligt betalt."'
+8	betalt	betald	ADJ	POS-SG-IND	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	5	obj	_	SpaceAfter=No
+
+id=sv_lines-ud-train-doc5-1907#12
+text='Vi vet alla att järnvägens andel har gått tillbaka under de gångna åren.'
+12	gångna	gången	ADJ	AD-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	13	amod	_	_
+
+id=sv_lines-ud-train-doc6-2060#64
+text='Dörrarna slogs upp; röster utifrån trängde in med luftströmmarna; han rörde sig mot utgången tillsammans med de andra, in i en omtumlande upplevelse av ett igenkännande med alla sinnen, gick lugnt över plattan genom fläktarna av rå potatis från undervegetationen, den vederkvickande, tidiga värmen mot händerna, den kyliga, metalliska smaken nere i strupen efter den gångna kvällens oväder,'
+64	gångna	gången	ADJ	AD-DEF	Case=Nom|Definite=Def|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	65	amod	_	_
+
+id=sv_lines-ud-train-doc4-1241#16
+text='Sjömäns historier utmärker sig för en rättfram enkelhet vars hela mening är tillfinnandes inom ett knäckt nötskal.'
+16	knäckt	knäckt	ADJ	AD-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	17	amod	_	_
+
+id=sv_lines-ud-train-doc2-524#11
+text='Och ändå höll han sig liksom avsiktligt inom ett noga kringskuret område som i norr begränsades av 110:e gatan, i söder av 72:a gatan, i väster av Riverside Park och i öster av Amsterdam Avenue.'
+11	kringskuret	kringskuren	ADJ	AD-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	12	amod	_	_
+
+id=sv_lines-ud-train-doc2-382#4
+text='På sina mest lyckade vandringar nådde han fram till känslan av att vara ingenstans.'
+4	lyckade	lyckad	ADJ	AD-DEF	Case=Nom|Definite=Def|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	5	amod	_	_
+
+id=sv_lines-ud-train-doc6-1936#15
+text='Han hade kört hem, långsamt, längs den öde vägen som genom den övergivna sommarnattens fulltoniga skymningsljus förde honom – slutligen – tillbaka till huset.'
+15	övergivna	övergiven	ADJ	AD-DEF	Case=Nom|Definite=Def|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	16	amod	_	_
+
+id=sv_lines-ud-train-doc6-2288#18
+text='Med ett frånvarande leende mot Bray tvärs över rummet tog hon för ett ögonblick hand om en övergiven skönhet.'
+18	övergiven	övergiven	ADJ	AD-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	19	amod	_	_
+
+id=sv_lines-ud-dev-doc1-3243#4
+4	villkorstyrt	villkorsstyrd	ADJ	POS-SG-IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Typo=Yes	5	amod	_	_
+
+id=sv_lines-ud-train-doc3-985#5
+5	Political	political	ADJ	POS-FGN	Degree=Pos|Foreign=Yes	6	amod	_	_
+
+id=sv_lines-ud-train-doc1-34#1
+1	Universal	universal	ADJ	POS-FGN	Degree=Pos|Foreign=Yes	0	root	_	_
+
+id=n01032032#15
+15	ny	ny	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	16	amod	16:amod	_
+
