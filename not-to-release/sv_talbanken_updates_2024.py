@@ -974,18 +974,18 @@ def change_abbr_lemma(doc, outfile):
                 change_id = 'abbr_cconj'
 
             elif tok.upos == 'PROPN':
-                if tok.form.lower() in ['AKP:s']:
+                if tok.form.lower() in ['akp:s']:
                     tok.lemma = 'AKP' # 'adalet_ve_kalkınma_partisi'
-                elif tok.form.lower() in ['ECB:s']:
-                    tok.lemma = 'europeiska_centralbanken'
+                elif tok.form.lower() in ['ecb:s']:
+                    tok.lemma = 'ECB'
                 elif tok.form.lower() in ['mps']:
                     tok.lemma = 'Mp' # 'miljöpartiet'
                 elif tok.form.lower() in ['rhs']:
                     tok.lemma = 'RHS' # 'refugee_health_screener'
-                elif tok.form.lower() in ['RSPB:s']:
+                elif tok.form.lower() in ['rspb:s']:
                     tok.lemma = 'RSPB' # 'the_royal_society_for_the_protection_of_birds'
-                elif tok.form.lower() in ['B.C.']:
-                    tok.lemma = 'brittish_columbia'
+                elif tok.form.lower() in ['b.c.']:
+                    tok.lemma = 'B.C.' # 'brittish_columbia'
 
                 change_id = 'abbr_propn'
            
