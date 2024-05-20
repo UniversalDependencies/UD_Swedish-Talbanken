@@ -191,9 +191,10 @@ From v2.10 to v2,11
 - Fixed double subject error
 - Fixed unknown enhanced relations (mainly foreign and abbreviations)
 
-<pre>
-=== Machine readable metadata ==============
+From v2.13 to v2.14:
+- Harmonized lemmas and features for adjectives and determiners across all Swedish treebanks.
 
+=== Machine readable metadata ==============
 Data available since: UD v1.0
 License: CC BY-SA 4.0
 Includes text: yes
@@ -206,6 +207,5 @@ Relations: converted with corrections
 Contributors: Nivre, Joakim; Smith, Aaron; Norrman, Victor
 Contributing: elsewhere
 Contact: joakim.nivre@lingfil.uu.se
-
 ============================================
-</pre>
+
