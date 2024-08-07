@@ -16,8 +16,12 @@ python3 sv_talbanken_updates_2024.py \
     --partlist ./participle_classification_list.tsv \
     --manual_def_num ./manual_def_num.tsv
 
+python3 ucxn_update.py \
+    --infile ./output/temp/sv6.conllu \
+    --ucxnfile ./ucxn_ud_swedish-talbanken.conllu \
+    --outfile ./output/temp/sv7.conllu
 
-python3 split.py ./output/temp/sv6.conllu ./output/sv_talbanken-ud
+python3 split.py ./output/temp/sv7.conllu ./output/sv_talbanken-ud
 
 # comment rm -r output/temp if you want to keep the intermediate generation steps
-# rm -r ./output/temp
+rm -r ./output/temp

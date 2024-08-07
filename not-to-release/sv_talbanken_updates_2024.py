@@ -1886,5 +1886,6 @@ if __name__ == '__main__':
     if postfixes_doc:
         manual_changes(doc, outfile, postfixes_doc)
 
+    print('Writing to', outfile)
     doc.store_conllu(filename=outfile)
 
