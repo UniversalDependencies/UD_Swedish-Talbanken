@@ -194,6 +194,9 @@ From v2.10 to v2,11
 From v2.13 to v2.14:
 - Harmonized lemmas and features for adjectives and determiners across all Swedish treebanks.
 
+From v2.14 to v2.15:
+- Added construction annotation according to the UCxn guidelines.
+
 === Machine readable metadata ==============
 Data available since: UD v1.0
 License: CC BY-SA 4.0
