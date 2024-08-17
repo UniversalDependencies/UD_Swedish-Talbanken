@@ -24,4 +24,4 @@ python3 ucxn_update.py \
 python3 split.py ./output/temp/sv7.conllu ./output/sv_talbanken-ud
 
 # comment rm -r output/temp if you want to keep the intermediate generation steps
-rm -r ./output/temp
+# rm -r ./output/temp

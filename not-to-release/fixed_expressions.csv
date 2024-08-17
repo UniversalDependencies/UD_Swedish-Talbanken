@@ -1,0 +1,188 @@
+rule,expression
+P_NN_P,i anslutning till
+P_NN_P,i enlighet med
+P_NN_P,i förbindelse med
+P_NN_P,i förening med
+P_NN_P,i förhållande till
+P_NN_P,i form av
+P_NN_P,i fråga om
+P_NN_P,i jämförelse med
+P_NN_P,i likhet med
+P_NN_P,i linje med
+P_NN_P,i mån av
+P_NN_P,i motsats till
+P_NN_P,i närheten av
+P_NN_P,i proportion till
+P_NN_P,i riktning mot
+P_NN_P,i samarbete med
+P_NN_P,i samband med
+P_NN_P,i skydd av
+P_NN_P,i stället för
+P_NN_P,i takt med
+P_NN_P,i underkant av
+P_NN_P,inom ramen för
+P_NN_P,med avseende på
+P_NN_P,med hänsyn till
+P_NN_P,med hänvisning till
+P_NN_P,med hjälp av
+P_NN_P,med ledning av
+P_NN_P,med sikte på
+P_NN_P,med tanke på
+P_NN_P,med undantag för
+P_NN_P,med utgångspunkt av
+P_NN_P,med utgångspunkt i
+P_NN_P,på basis av
+P_NN_P,på grund av
+P_NN_P,på grundval av
+P_NN_P,på tal om
+P_NN_P,till följd av
+P_NN_P,till förmån för
+P_NN_P,till höger om
+P_NN_P,till skillnad från
+P_NN_P,till skillnad mot
+P_NN_P,till vänster om
+P_NN_P,under loppet av
+P_NN_P,utan avseende på
+P_NN_P,utan hänsyn till
+P_NN_P,utan tanke på
+P_NN_P,vid sidan av
+P_NN_P,vid sidan om
+DET_JJ,de flesta
+DET_JJ,den andra
+DET_JJ,det samma
+DET_JJ,en halv
+DET_JJ,en viss
+DET_JJ,ett annat
+DET_JJ,ett halvt
+DET_NN,en del
+DET_NN,en grupp
+DET_NN,en hel del
+DET_NN,en känsla
+DET_NN,en massa
+DET_NN,ett dugg
+DET_NN,ett tag
+DET_NN,varje grupp
+P_NN,av principerna
+P_NN,bland annat
+P_NN,efter ämnet
+P_NN,efter hand
+P_NN,för handlingen
+P_NN,för sed
+P_NN,i allmänhet
+P_NN,i dagsläget
+P_NN,i drift
+P_NN,i följd
+P_NN,i förgrunden
+P_NN,i fortsättningen
+P_NN,i fråga
+P_NN,i funktion
+P_NN,i gång
+P_NN,i grunden
+P_NN,i hög
+P_NN,i huvudsak
+P_NN,i jämförelse
+P_NN,i kläm
+P_NN,i konflikt
+P_NN,i kontakt
+P_NN,i kraft
+P_NN,i längden
+P_NN,i livet
+P_NN,i norr
+P_NN,i onödan
+P_NN,i ordning
+P_NN,i pedagogik
+P_NN,i princip
+P_NN,i regel
+P_NN,i sak
+P_NN,i säng
+P_NN,i skuggan
+P_NN,i söder
+P_NN,i stället
+P_NN,i stånd
+P_NN,i stycken
+P_NN,i synnerhet
+P_NN,i taget
+P_NN,i tid
+P_NN,i undantagsfall
+P_NN,i väg
+P_NN,med fog
+P_NN,över huvud
+P_NN,på allvar
+P_NN,på efterkälken
+P_NN,på förhand
+P_NN,på frågan
+P_NN,på gång
+P_NN,på grund
+P_NN,på känn
+P_NN,på rygg
+P_NN,på sikt
+P_NN,på spel
+P_NN,på tal
+P_NN,på tok
+P_NN,på väg
+P_NN,på vippen
+P_NN,till buds
+P_NN,till exempel
+P_NN,till fots
+P_NN,till fullo
+P_NN,till godo
+P_NN,till hands
+P_NN,till havs
+P_NN,till höger
+P_NN,till låns
+P_NN,till ro
+P_NN,till sängs
+P_NN,till slut
+P_NN,till stånd
+P_NN,till tjänst
+P_NN,till uttryck
+P_NN,till vänster
+P_NN,to date
+P_NN,ur spel
+P_NN,utan tvekan
+P_NN,utanför hemmet
+P_NN,vid handen
+P_NN,för närvarande
+P_JJ,för övrigt
+P_JJ,i övrigt
+P_JJ_NN,å andra sidan
+P_JJ_NN,å ena sidan
+P_JJ_NN,i andra hand
+P_JJ_NN,i bästa fall
+P_JJ_NN,i första hand
+P_JJ_NN,i hög grad
+P_JJ_NN,i många år
+P_JJ_NN,i många fall
+P_JJ_NN,i runda tal
+P_JJ_NN,i runt tal
+P_JJ_NN,i sämsta fall
+P_JJ_NN,i själva verket
+P_JJ_NN,i viss mån
+P_JJ_NN,med andra ord
+P_JJ_NN,på egen hand
+P_JJ_NN,på längre sikt
+P_DET_JJ,å den andra
+P_DET_JJ,för det andra
+P_DET_JJ,för det första
+P_DET_JJ,på det klara
+P_ADV,för alltid
+P_ADV,i fatt
+P_ADV,med mindre
+P_ADV,runt om
+P_NN,till rätta
+P_ADV,till sist
+P_ADV,utan vidare
+P_ADV,i stort
+P_ADV,på nytt
+P_ADV,på sistone
+P_ADV,inom kort
+P_ADV,med mera
+P_ADV_NN,i så fall
+P_ADV_NN,i så måtto
+P_ADV_NN,på så sätt
+NN_P_NN,ansikte mot ansikte
+NN_P_NN,år från år
+NN_P_NN,gång på gång
+NN_P_NN,hals över huvud
+NN_P_NN,hand i hand
+NN_P_NN,steg för steg
