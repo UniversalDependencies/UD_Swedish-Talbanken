@@ -19,10 +19,6 @@ def get_conllu(node):
                         node.raw_deps, '_' if node._misc is None else str(node.misc)))
         return conllu_str
 
-def get_changes(root, original_copy):
-    
-    return span
-
 def get_fixed_phrase(node):
      nodes = sorted([node] + [child for child in node.children if child.deprel == 'fixed'], key=lambda n: n.ord)
      return ' '.join([node.form for node in nodes]).lower()
@@ -111,7 +107,7 @@ def DET_JJ(expression_dict):
     if det_node.deprel == 'det':
         set_new_deps(adj_node, parent_node, 'amod')
         
-        changes.append([get_conllu(node) for node in sorted([det_node, adj_node, parent_node], key=lambda n: n.ord)])
+        changes.append(expression_dict)
         # print(*[get_conllu(node) for node in det_node.root.descendants], sep='\n')
         # print(*[get_conllu(node) for node in sorted([det_node, adj_node, parent_node], key=lambda n: n.ord)], sep='\n')
         # print()
@@ -121,7 +117,7 @@ def DET_JJ(expression_dict):
         set_new_deps(det_node, adj_node, 'det')
         transfer_children(det_node, adj_node)
 
-        changes.append([get_conllu(node) for node in sorted([det_node, adj_node, parent_node], key=lambda n: n.ord)])
+        changes.append(expression_dict)
         # print(*[get_conllu(node) for node in det_node.root.descendants], sep='\n')
         # print(*[get_conllu(node) for node in sorted([det_node, adj_node, parent_node], key=lambda n: n.ord)], sep='\n')
         # print()
@@ -149,7 +145,7 @@ def DET_JJ(expression_dict):
         
         update_deprels([coordinated_node, head_noun_node])
 
-        changes.append([get_conllu(node) for node in sorted([det_node, adj_node, head_noun_node, cc_node, coordinated_node, head_noun_node.parent], key=lambda n: n.ord)])
+        changes.append(expression_dict)
         # print(*[get_conllu(node) for node in det_node.root.descendants], sep='\n')
         # print(*[get_conllu(node) for node in sorted([det_node, adj_node, parent_node], key=lambda n: n.ord)], sep='\n')
         # print()
@@ -174,7 +170,7 @@ def DET_NN(expression_dict):
 
         update_deprels([noun_node])
 
-        changes.append([get_conllu(node) for node in det_node.root.descendants])
+        changes.append(expression_dict)
         # print(*[get_conllu(node) for node in det_node.root.descendants], sep='\n')
         # print()
     else:
@@ -206,7 +202,7 @@ def P_NN_P(expression_dict):
 
         update_deprels([parent_node, head_noun])
 
-        changes.append([get_conllu(node) for node in sorted([parent_head, first_adp, head_noun, second_adp, parent_node], key=lambda n: n.ord)])
+        changes.append(expression_dict)
         # print(*[get_conllu(node) for node in sorted([parent_head, first_adp, head_noun, second_adp, parent_node], key=lambda n: n.ord)], sep='\n')
 
     elif expression_dict['head'].deprel == 'mark':
@@ -220,7 +216,7 @@ def P_NN_P(expression_dict):
 
         update_deprels([head_noun, parent_node])
 
-        changes.append([get_conllu(node) for node in sorted([parent_head, first_adp, head_noun, second_adp, parent_node], key=lambda n: n.ord)])
+        changes.append(expression_dict)
 
         # print(*[get_conllu(node) for node in sorted([parent_head, first_adp, head_noun, second_adp, parent_node], key=lambda n: n.ord)], sep='\n')
         # print()
@@ -245,8 +241,7 @@ def P_NN_P(expression_dict):
 
         update_deprels([coordinated_adp_node, head_noun, dependent_noun_node])
 
-        
-        changes.append([get_conllu(node) for node in sorted([coordinated_adp_node, dependent_noun_node.parent, dependent_noun_node, cc_node, first_adp, head_noun, second_adp, parent_node], key=lambda n: n.ord)])
+        changes.append(expression_dict)
 
         # print(*[get_conllu(node) for node in head_noun.root.descendants], sep='\n')
         # print(*[get_conllu(node) for node in sorted([parent_head, first_adp, head_noun, second_adp, parent_node], key=lambda n: n.ord)], sep='\n')
@@ -271,7 +266,7 @@ def P_NN(expression_dict):
 
         update_deprels([noun_node])
 
-        changes.append([get_conllu(node) for node in adp_node.root.descendants])
+        changes.append(expression_dict)
         # print(*[get_conllu(node) for node in adp_node.root.descendants], sep='\n')
         # print()
     elif adp_node.deprel in {'compound:prt', 'advmod'}:
@@ -281,7 +276,7 @@ def P_NN(expression_dict):
 
         update_deprels([noun_node])
         
-        changes.append([get_conllu(node) for node in adp_node.root.descendants])
+        changes.append(expression_dict)
         # print(*[get_conllu(node) for node in adp_node.root.descendants], sep='\n')
         # print()
     elif adp_node.deprel in {'case'}:
@@ -293,7 +288,7 @@ def P_NN(expression_dict):
 
         update_deprels([noun_node])
         
-        changes.append([get_conllu(node) for node in adp_node.root.descendants])
+        changes.append(expression_dict)
         # print(*[get_conllu(node) for node in adp_node.root.descendants], sep='\n')
         # print()
     else:
@@ -317,7 +312,7 @@ def P_JJ(expression_dict):
 
         update_deprels([adj_node])
         
-        changes.append([get_conllu(node) for node in sorted([adp_node, adj_node, parent_node], key=lambda n: n.ord)])
+        changes.append(expression_dict)
         # print(*[get_conllu(node) for node in adp_node.root.descendants], sep='\n')
         # print(*[get_conllu(node) for node in sorted([det_node, adj_node, parent_node], key=lambda n: n.ord)], sep='\n')
         # print()
@@ -342,6 +337,7 @@ def P_JJ_NN(expression_dict):
 
         update_deprels([noun_node])
         
+        changes.append(expression_dict)
         # print(*[get_conllu(node) for node in adp_node.root.descendants], sep='\n')
         # print(*[get_conllu(node) for node in sorted([det_node, adj_node, parent_node], key=lambda n: n.ord)], sep='\n')
         # print()
@@ -353,6 +349,8 @@ def P_JJ_NN(expression_dict):
         transfer_children(adp_node, noun_node)
 
         update_deprels([noun_node])
+        
+        changes.append(expression_dict)
 
         # # print(*[get_conllu(node) for node in adp_node.root.descendants], sep='\n')
         # print(*[get_conllu(node) for node in sorted([adp_node, noun_node, adj_node, parent_node], key=lambda n: n.ord)], sep='\n')
@@ -379,6 +377,7 @@ def P_DET_JJ(expression_dict):
 
         update_deprels([adj_node])
         
+        changes.append(expression_dict)
         # print(*[get_conllu(node) for node in adp_node.root.descendants], sep='\n')
         # # print(*[get_conllu(node) for node in sorted([adp_node, noun_node, adj_node, parent_node], key=lambda n: n.ord)], sep='\n')
         # print()
@@ -398,6 +397,7 @@ def P_ADV(expression_dict):
         set_new_deps(adv_node, parent_node, adp_node.deprel)
         set_new_deps(adp_node, adv_node, 'case')
         
+        changes.append(expression_dict)
         # print(*[get_conllu(node) for node in adp_node.root.descendants], sep='\n')
         # # print(*[get_conllu(node) for node in sorted([det_node, adj_node, parent_node], key=lambda n: n.ord)], sep='\n')
         # print()
@@ -422,10 +422,12 @@ def P_ADV_NN(expression_dict):
         transfer_children(adp_node, noun_node)
 
         update_deprels([noun_node])
-        
-        print(*[get_conllu(node) for node in adp_node.root.descendants], sep='\n')
-        # print(*[get_conllu(node) for node in sorted([det_node, adj_node, parent_node], key=lambda n: n.ord)], sep='\n')
-        print()
+
+        changes.append(expression_dict)
+
+        # print(*[get_conllu(node) for node in adp_node.root.descendants], sep='\n')
+        # # print(*[get_conllu(node) for node in sorted([det_node, adj_node, parent_node], key=lambda n: n.ord)], sep='\n')
+        # print()
     else:
         unhandled_expressions.append(expression_dict)
 
@@ -473,9 +475,12 @@ if __name__ == '__main__':
 
     apply_conversion(doc, fixed_df)
 
-    # for change in changes:
-    #     print(*change, sep='\n')
-    #     print()
+    for exp_dict in changes:
+        print('EXPRESSION:', exp_dict['expression'])
+        print('ID:', exp_dict['head'].ord)
+        print('RULE:', fixed_df.loc[fixed_df['expression']==exp_dict['expression']]['rule'].values[0])
+        print(*[get_conllu(node) for node in exp_dict['head'].root.descendants], sep='\n')
+        print()
     
     print('Writing to', outfile)
     doc.store_conllu(filename=outfile)
