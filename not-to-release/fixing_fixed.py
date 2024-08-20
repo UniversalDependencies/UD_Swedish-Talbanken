@@ -270,11 +270,17 @@ def P_NN(expression_dict):
         # print(*[get_conllu(node) for node in adp_node.root.descendants], sep='\n')
         # print()
     elif adp_node.deprel in {'compound:prt', 'advmod'}:
+        # if adp_node.deprel == 'compound:prt':
+        #     print('ERROR: compount:prt')
+        #     print(expression_dict['head'].address())
+        #     print(*[get_conllu(node) for node in adp_node.root.descendants], sep='\n')
+        
         set_new_deps(noun_node, parent_node, 'obl')
         set_new_deps(adp_node, noun_node, 'case')
         transfer_children(adp_node, noun_node)
 
         update_deprels([noun_node])
+        
         
         changes.append(expression_dict)
         # print(*[get_conllu(node) for node in adp_node.root.descendants], sep='\n')

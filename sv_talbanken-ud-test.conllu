@@ -18006,7 +18006,7 @@
 1	Siffrorna	siffra	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	3	nsubj:pass	3:nsubj:pass	_
 2	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	3:aux	_
 3	ställas	ställa	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	0	root	0:root	_
-4	under	under	ADV	AB	_	3	compound:prt	3:compound:prt	_
+4	under	under	ADP	AB	_	3	advmod	3:advmod	_
 5	debatt	debatt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	fixed	4:fixed	SpaceAfter=No
 6	.	.	PUNCT	MAD	_	3	punct	3:punct	_
 
