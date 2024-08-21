@@ -1,33 +1,26 @@
-- To create treebank files for UD_Swedish-Talbanken run:
+- To create treebank files for UD_Swedish-Talbanken requires the following packages:
+    udapi    
 
-python3 mamba2ud.py P.original.txt sv1.conllu
-perl fix_errors.plx --fix-file manual_fixes.txt --in-file sv1.conllu --out-file sv2.conllu
-python3 comments.py sv2.conllu sv3.conllu 
-python3 harmonize-sv.py sv3.conllu sv4.conllu
-python3 insert-enhanced.py sv_talbanken-ud.enhanced.txt sv4.conllu sv5.conllu
-python3 sv_talbanken_changes_2024.py sv5.conllu sv6.conllu
-python3 sv_talbanken_updates_2024.py \
-    --infile sv5.conllu \
-    --outfile temp/sv6.conllu \
-    --prefixes prefixes.tsv \
-    --postfixes postfixes.tsv \
-    --partlist participle_classification_list.tsv \
-    --manual_def_num manual_def_num.tsv
+- To install udapi:
+    pip install udapi
+
+- To test that udapi is successfully installed, use the following command in the terminal:
+    udapy -h
+
+    If udapi is giving you trouble, make sure your PATH includes the directory where pip3 installed the udapy script. Try following the instructions on https://pypi.org/project/udapi/
+
+- To create the treebank files, run the bash script "generate_conllu.sh":
+    bash generate_conllu.sh
 
 - The final treebank files are:
 
-sv_talbanken-ud-dev.conllu
-sv_talbanken-ud-test.conllu
-sv_talbanken-ud-train.conllu
+    sv_talbanken-ud-dev.conllu
+    sv_talbanken-ud-test.conllu
+    sv_talbanken-ud-train.conllu
 
-- To create auxiliary files run:
+- The "generate_conllu.sh" script also creates the following auxiliary files:
 
-python3 tokens-with-spaces.py sv5.conllu tokens-with-spaces.txt
-python3 make_edeprel.py sv5.conllu edeprel.sv
- 
-- The auxiliary files are:
-
-tokens-with-spaces.txt
-edeprel.sv
+    tokens-with-spaces.txt
+    edeprel.sv
 
 NB: Merge edeprel.sv with files from PUD and LinES!

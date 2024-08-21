@@ -45,27 +45,5 @@ if __name__ == '__main__':
             if cxn: ud_nodes[id2node[node.address()]].misc['Cxn'] = cxn
             if cxnelt: ud_nodes[id2node[node.address()]].misc['CxnElt'] = cxnelt
 
-    # ud_conllu = []
-    # ucxn_conllu = []
-    # seen_addresses = []
-
-    # for node in ucxn_doc.nodes:
-    #     cxn, cxnelt = node.misc.get('Cxn', None), node.misc.get('CxnElt', None)
-    #     if cxn or cxnelt:
-    #         for n in node.root.descendants:
-    #             if get_conllu(n) != get_conllu(ud_nodes[id2node[n.address()]]) and (n.upos != ud_nodes[id2node[n.address()]].upos or
-    #                                                                                 n.deprel != ud_nodes[id2node[n.address()]].deprel):
-    #                 ucxn_conllu.append(get_conllu(n))
-    #                 ud_conllu.append(get_conllu(ud_nodes[id2node[n.address()]]))
-    #             seen_addresses.append(n.address())
-
-    # with open('/home/norrman/GitHub/UD_Swedish-Talbanken/not-to-release/ud_nodes.conllu', 'w') as f:
-    #     for line in sorted(list(set(ud_conllu))):
-    #         f.write(line + '\n\n')
-
-    # with open('/home/norrman/GitHub/UD_Swedish-Talbanken/not-to-release/ucxn_nodes.conllu', 'w') as f:
-    #     for line in sorted(list(set(ucxn_conllu))):
-    #         f.write(line + '\n\n')
-
     print('Writing to', outfile)
     ud_doc.store_conllu(filename=outfile)
