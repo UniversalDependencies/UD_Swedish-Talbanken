@@ -1,4 +1,5 @@
 import udapi
+import sys
 import argparse
 import pandas as pd
 from copy import deepcopy
@@ -437,6 +438,39 @@ def P_ADV_NN(expression_dict):
     else:
         unhandled_expressions.append(expression_dict)
 
+def ADV_ADV(expression_dict):
+    assert expression_dict['structure'] == ['ADV', 'ADV'], expression_dict
+    assert expression_dict['head'].deprel in {'advmod'}, expression_dict['head'].deprel
+    assert len(expression_dict['children']) == 1
+
+    first_adv = expression_dict['head']
+    second_adv = expression_dict['children'][0]
+
+    set_new_deps(second_adv, first_adv.parent, first_adv.deprel)
+    set_new_deps(first_adv, second_adv, 'advmod')
+
+    transfer_children(first_adv, second_adv)
+
+    update_deprels([second_adv])
+
+    changes.append(expression_dict)
+
+def NN_P_NN(expression_dict):
+    assert expression_dict['structure'] == ['NOUN', 'ADP', 'NOUN'], expression_dict
+    assert expression_dict['head'].deprel in {'obl', 'compound:prt'}, expression_dict['head'].deprel
+
+    head_noun_node = expression_dict['head']
+    adp_node = expression_dict['children'][0]
+    second_noun_node = expression_dict['children'][1]
+
+    
+    set_new_deps(second_noun_node, head_noun_node, 'nmod')
+    set_new_deps(adp_node, second_noun_node, 'case')
+
+    
+    # print(*[get_conllu(node) for node in adp_node.root.descendants], sep='\n')
+    # # print(*[get_conllu(node) for node in sorted([det_node, adj_node, parent_node], key=lambda n: n.ord)], sep='\n')
+    # print()
 
 def apply_rules(expression_dict, rule):
     if rule in globals():
@@ -453,9 +487,18 @@ def apply_conversion(doc, fixed_df):
 
     for exp in fixed_expressions:
         if exp['expression'] in fixed_df['expression'].to_list():
-            rule = fixed_df.loc[fixed_df['expression']==exp['expression']]['rule'].values[0]
-            if rule:
-                apply_rules(exp, rule)
+            if fixed_df.loc[fixed_df['expression']==exp['expression']]['fixed'].values[0] == 'no':
+                rule = fixed_df.loc[fixed_df['expression']==exp['expression']]['rule'].values[0]
+                if rule:
+                    apply_rules(exp, rule) 
+                else:
+                    print('ERROR RULE NOT DEFINED:', rule, file=sys.stderr)
+
+            elif fixed_df.loc[fixed_df['expression']==exp['expression']]['fixed'].values[0] == 'yes':
+                extpos = fixed_df.loc[fixed_df['expression']==exp['expression']]['extpos'].values[0]
+                exp['head'].misc['ExtPos'] = extpos
+
+                changes.append(exp)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
@@ -481,12 +524,12 @@ if __name__ == '__main__':
 
     apply_conversion(doc, fixed_df)
 
-    for exp_dict in changes:
-        print('EXPRESSION:', exp_dict['expression'])
-        print('ID:', exp_dict['head'].ord)
-        print('RULE:', fixed_df.loc[fixed_df['expression']==exp_dict['expression']]['rule'].values[0])
-        print(*[get_conllu(node) for node in exp_dict['head'].root.descendants], sep='\n')
-        print()
+    # for exp_dict in changes:
+    #     print('EXPRESSION:', exp_dict['expression'])
+    #     print('ID:', exp_dict['head'].ord)
+    #     print('RULE:', fixed_df.loc[fixed_df['expression']==exp_dict['expression']]['rule'].values[0])
+    #     print(*[get_conllu(node) for node in exp_dict['head'].root.descendants], sep='\n')
+    #     print()
     
     print('Writing to', outfile)
     doc.store_conllu(filename=outfile)
