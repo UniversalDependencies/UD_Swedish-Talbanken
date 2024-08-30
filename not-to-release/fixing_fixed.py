@@ -80,7 +80,7 @@ def update_deprels(nodes:list):
             mark_nodes = [child for child in node.children if child.deprel == 'mark']
             for dep in node.deps:
                 if dep['parent'] == node.parent and dep['deprel'] in {'acl', 'advcl'}:
-                    deps.append({'parent': dep['parent'], 'deprel': f"{dep['deprel']}:{':'.join([n.lemma for n in mark_nodes])}"})  
+                    deps.append({'parent': dep['parent'], 'deprel': f"{dep['deprel']}{':' if mark_nodes else ''}{':'.join([n.lemma for n in mark_nodes])}"})  
 
         elif node.deprel in {'obl', 'nmod'}:
             case_nodes = [child for child in node.children if child.deprel == 'case']
@@ -88,10 +88,11 @@ def update_deprels(nodes:list):
                 case_nodes = [node]
             for dep in node.deps:
                 if dep['parent'] == node.parent and dep['deprel'] in {'obl', 'nmod'}:
-                    deps.append({'parent': dep['parent'], 'deprel': f"{dep['deprel']}:{':'.join([n.lemma for n in case_nodes])}"})
+                    deps.append({'parent': dep['parent'], 'deprel': f"{dep['deprel']}{':' if case_nodes else ''}{':'.join([n.lemma for n in case_nodes])}"})
 
         elif node.deprel in {'conj'}:
-            deps = node.deps
+            cc_nodes = [child for child in node.children if child.deprel == 'cc']
+            deps.append({'parent': node.parent, 'deprel': f"conj{':' if cc_nodes else ''}{':'.join([n.lemma for n in cc_nodes])}"}) 
             parent_dep = [dep for dep in node.parent.deps if dep['parent'] == node.parent.parent][0]
             deps.insert(0, parent_dep)
         
@@ -395,22 +396,18 @@ def P_ADV(expression_dict):
     assert expression_dict['structure'] == ['ADP', 'ADV'], expression_dict
     assert expression_dict['head'].deprel in {'advmod', 'nmod', 'compound:prt', 'conj'}, expression_dict['head'].deprel
     assert len(expression_dict['children']) == 1
-    adp_node = expression_dict['head']
+    head_node = expression_dict['head']
     adv_node = expression_dict['children'][0]
-    parent_node = adp_node.parent
+    parent_node = head_node.parent
 
+    set_new_deps(adv_node, parent_node, 'nmod' if parent_node.upos in {'NOUN', 'PROPN', 'PRON'} else 'obl')
+    set_new_deps(head_node, adv_node, 'case')
 
-    if expression_dict['head'].deprel in {'advmod'}:
-        set_new_deps(adv_node, parent_node, adp_node.deprel)
-        set_new_deps(adp_node, adv_node, 'case')
-        
-        changes.append(expression_dict)
-        # print(*[get_conllu(node) for node in adp_node.root.descendants], sep='\n')
-        # # print(*[get_conllu(node) for node in sorted([det_node, adj_node, parent_node], key=lambda n: n.ord)], sep='\n')
-        # print()
+    transfer_children(head_node, adv_node)
 
-    else:
-        unhandled_expressions.append(expression_dict)
+    update_deprels([adv_node])
+
+    changes.append(expression_dict)
 
 def P_ADV_NN(expression_dict):
     assert expression_dict['structure'] == ['ADP', 'ADV', 'NOUN'], expression_dict
@@ -432,9 +429,6 @@ def P_ADV_NN(expression_dict):
 
         changes.append(expression_dict)
 
-        # print(*[get_conllu(node) for node in adp_node.root.descendants], sep='\n')
-        # # print(*[get_conllu(node) for node in sorted([det_node, adj_node, parent_node], key=lambda n: n.ord)], sep='\n')
-        # print()
     else:
         unhandled_expressions.append(expression_dict)
 
@@ -458,6 +452,7 @@ def ADV_ADV(expression_dict):
 def NN_P_NN(expression_dict):
     assert expression_dict['structure'] == ['NOUN', 'ADP', 'NOUN'], expression_dict
     assert expression_dict['head'].deprel in {'obl', 'compound:prt'}, expression_dict['head'].deprel
+    assert len(expression_dict['children']) == 2
 
     head_noun_node = expression_dict['head']
     adp_node = expression_dict['children'][0]
@@ -471,6 +466,376 @@ def NN_P_NN(expression_dict):
     # print(*[get_conllu(node) for node in adp_node.root.descendants], sep='\n')
     # # print(*[get_conllu(node) for node in sorted([det_node, adj_node, parent_node], key=lambda n: n.ord)], sep='\n')
     # print()
+
+def DET_CC_JJ(expression_dict):
+    assert (expression_dict['structure'] == ['DET', 'CCONJ', 'ADJ'] or 
+            expression_dict['structure'] == ['NUM', 'CCONJ', 'ADJ']), expression_dict
+    assert expression_dict['head'].deprel in {'det', 'nummod'}, expression_dict['head'].deprel
+    assert len(expression_dict['children']) == 2
+
+    head_node = expression_dict['head']
+    cc_node = expression_dict['children'][0]
+    adj_node  = expression_dict['children'][1]
+
+    set_new_deps(adj_node, head_node, 'conj')
+    set_new_deps(cc_node, adj_node, 'cc')
+
+    update_deprels([adj_node])
+
+    changes.append(expression_dict)
+
+def DET_CC(expression_dict):
+    assert (expression_dict['structure'] == ['NUM', 'CCONJ']), expression_dict
+    assert expression_dict['head'].deprel in {'acl'}, expression_dict['head'].deprel
+    assert len(expression_dict['children']) == 1
+
+    head_node = expression_dict['head']
+    cc_node = expression_dict['children'][0]
+
+    coord_node = cc_node.next_node
+
+    assert coord_node.upos == head_node.upos
+
+    set_new_deps(cc_node, coord_node, 'cc')
+    set_new_deps(coord_node, head_node, 'conj')
+
+    update_deprels([coord_node])
+
+    changes.append(expression_dict)
+
+def NN_CC_NN(expression_dict):
+    assert expression_dict['structure'] == ['NOUN', 'CCONJ', 'NOUN'], expression_dict
+    assert expression_dict['head'].deprel in {'obl'}, expression_dict['head'].deprel
+    assert len(expression_dict['children']) == 2
+
+    head_node = expression_dict['head']
+    cc_node = expression_dict['children'][0]
+    coord_node = expression_dict['children'][1]
+
+    set_new_deps(coord_node, head_node, 'conj')
+    set_new_deps(cc_node, coord_node, 'cc')
+
+    update_deprels([coord_node])
+
+    changes.append(expression_dict)
+
+def ADV_CC_ADV(expression_dict):
+    assert expression_dict['structure'] == ['ADV', 'CCONJ', 'ADV'], expression_dict
+    assert expression_dict['head'].deprel in {'advmod'}, expression_dict['head'].deprel
+    assert len(expression_dict['children']) == 2
+
+    head_node = expression_dict['head']
+    cc_node = expression_dict['children'][0]
+    coord_node = expression_dict['children'][1]
+
+    set_new_deps(coord_node, head_node, 'conj')
+    set_new_deps(cc_node, coord_node, 'cc')
+
+    update_deprels([coord_node])
+
+    changes.append(expression_dict)
+
+def NN_CC_DET_JJ(expression_dict):
+    assert expression_dict['structure'] == ['NUM', 'CCONJ', 'DET', 'ADJ'], expression_dict
+    assert expression_dict['head'].deprel in {'nummod'}, expression_dict['head'].deprel
+    assert len(expression_dict['children']) == 3
+
+    head_node = expression_dict['head']
+    cc_node = expression_dict['children'][0]
+    det_node = expression_dict['children'][1]
+    adj_node = expression_dict['children'][2]
+
+    set_new_deps(det_node, adj_node, 'det')
+    set_new_deps(cc_node, adj_node, 'cc')
+    set_new_deps(adj_node, head_node, 'conj')
+
+    update_deprels([adj_node])
+
+    changes.append(expression_dict)
+
+def P_DET_JJ(expression_dict):
+    assert expression_dict['structure'] == ['ADP', 'DET', 'ADJ'], expression_dict
+    assert expression_dict['head'].deprel in {'conj', 'advmod', 'root'}, expression_dict['head'].deprel
+    assert len(expression_dict['children']) == 2
+
+    head_node = expression_dict['head']
+
+    det_node = expression_dict['children'][0]
+    adj_node = expression_dict['children'][1]
+
+    set_new_deps(det_node, adj_node, 'det')
+    set_new_deps(adj_node, head_node.parent, 'obl' if head_node.deprel == 'advmod' else head_node.deprel)
+    set_new_deps(head_node, adj_node, 'case')
+
+    transfer_children(head_node, adj_node)
+
+    update_deprels([adj_node])
+
+    changes.append(expression_dict)
+
+def P_CC_P(expression_dict):
+    assert (expression_dict['structure'] == ['ADP', 'CCONJ', 'ADP'] or
+            expression_dict['structure'] == ['ADV', 'CCONJ', 'ADV']), expression_dict
+    assert expression_dict['head'].deprel in {'mark', 'case', 'advmod'}, expression_dict['head'].deprel
+    assert len(expression_dict['children']) == 2
+
+    head_node = expression_dict['head']
+
+    cc_node = expression_dict['children'][0]
+    coord_node = expression_dict['children'][1]
+
+    set_new_deps(coord_node, head_node, 'conj')
+    set_new_deps(cc_node, coord_node, 'cc')
+
+    update_deprels([coord_node])
+
+    changes.append(expression_dict)
+
+    # print(*[get_conllu(node) for node in head_node.root.descendants], sep='\n')
+    # print()
+
+def P_CC_P_PR(expression_dict):
+    assert (expression_dict['structure'] == ['ADP', 'CCONJ', 'ADP', 'PRON']), expression_dict
+    assert expression_dict['head'].deprel in {'advmod', 'nmod'}, expression_dict['head'].deprel
+    assert len(expression_dict['children']) == 3
+
+    head_node = expression_dict['head']
+
+    cc_node = expression_dict['children'][0]
+    coord_node = expression_dict['children'][1]
+    pron_node = expression_dict['children'][2]
+
+    set_new_deps(coord_node, head_node, 'conj')
+    set_new_deps(cc_node, coord_node, 'cc')
+    set_new_deps(pron_node, head_node.parent, 'nmod' if head_node.parent in {'NOUN', 'PRON', 'PROPN'} else 'obl')
+    set_new_deps(head_node, pron_node, 'case')
+
+    transfer_children(head_node, pron_node)
+
+    update_deprels([pron_node, coord_node])
+
+    changes.append(expression_dict)
+
+def IJ_IJ(expression_dict):
+    assert (expression_dict['structure'] == ['INTJ', 'INTJ']), expression_dict
+    assert expression_dict['head'].deprel in {'root'}, expression_dict['head'].deprel
+    assert len(expression_dict['children']) == 1
+
+    head_node = expression_dict['head']
+
+    intj_node = expression_dict['children'][0]
+
+    set_new_deps(intj_node, head_node, 'discourse')
+
+    changes.append(expression_dict)
+
+    # print(*[get_conllu(node) for node in head_node.root.descendants], sep='\n')
+    # print()
+
+def DET_PS(expression_dict):
+    assert (expression_dict['structure'] == ['DET', 'PRON']), expression_dict
+    assert expression_dict['head'].deprel in {'det'}, expression_dict['head'].deprel
+    assert len(expression_dict['children']) == 1
+
+    head_node = expression_dict['head']
+
+    pron_node = expression_dict['children'][0]
+
+    set_new_deps(pron_node, head_node.parent, 'nmod:poss')
+
+    changes.append(expression_dict)
+
+    # print(*[get_conllu(node) for node in head_node.root.descendants], sep='\n')
+    # print()
+
+def P_NN_CC_NN(expression_dict):
+    assert (expression_dict['structure'] == ['ADP', 'NOUN', 'CCONJ', 'NOUN']), expression_dict
+    assert expression_dict['head'].deprel in {'advmod'}, expression_dict['head'].deprel
+    assert len(expression_dict['children']) == 3
+
+    head_node = expression_dict['head']
+
+    noun_node = expression_dict['children'][0]
+    cc_node = expression_dict['children'][1]
+    coord_node = expression_dict['children'][2]
+
+    set_new_deps(coord_node, noun_node, 'conj')
+    set_new_deps(cc_node, coord_node, 'cc')
+    set_new_deps(noun_node, head_node.parent, 'nmod' if head_node.parent.deprel in {'NOUN', 'PROPN', 'PRON'} else 'obl')
+    set_new_deps(head_node, noun_node, 'case')
+
+    transfer_children(head_node, noun_node)
+
+    update_deprels([noun_node, coord_node])
+    
+    changes.append(expression_dict)
+
+    # print(*[get_conllu(node) for node in head_node.root.descendants], sep='\n')
+    # print()
+
+def ADV_P(expression_dict):
+    assert (expression_dict['structure'] == ['ADV', 'ADP']), expression_dict
+    assert expression_dict['head'].deprel in {'advmod', 'case'}, expression_dict['head'].deprel
+    assert len(expression_dict['children']) == 1
+
+    head_node = expression_dict['head']
+
+    adp_node = expression_dict['children'][0]
+
+    if head_node.form == 'istället':
+        parent = head_node.parent
+        grandparent = parent.parent
+
+        set_new_deps(head_node, grandparent, parent.deprel)
+        set_new_deps(parent, head_node, 'nmod')
+        set_new_deps(adp_node, parent, 'case')
+
+        update_deprels([head_node, parent])
+
+        changes.append(expression_dict)
+
+    elif head_node.deprel in {'advmod'}:
+        set_new_deps(adp_node, head_node.parent, 'case')
+
+        update_deprels([head_node.parent])
+
+        changes.append(expression_dict)
+
+        # curr_node = head_node
+        # while curr_node.deprel != 'root' and curr_node.upos != 'VERB':
+        #     curr_node = curr_node.parent
+        
+        # if curr_node.upos == 'VERB':
+        #     set_new_deps(adp_node, head_node.parent, 'case')            
+        #     set_new_deps(head_node, curr_node, 'compound:prt')
+            
+        #     changes.append(expression_dict)
+        
+        # elif curr_node is head_node.root:
+        #     print('ERROR: NO VERB NODE FOUND')
+        #     unhandled_expressions.append(expression_dict)
+    
+    else: 
+        unhandled_expressions(expression_dict)
+
+    # print(*[get_conllu(node) for node in head_node.root.descendants], sep='\n')
+    # print()
+
+def ADV_VB(expression_dict):
+    assert (expression_dict['structure'] == ['ADV', 'VERB'] or
+            expression_dict['structure'] == ['ADV', 'ADJ']), expression_dict
+    assert expression_dict['head'].deprel in {'advmod'}, expression_dict['head'].deprel
+    assert len(expression_dict['children']) == 1
+
+    head_node = expression_dict['head']
+
+    part_node = expression_dict['children'][0]
+
+    set_new_deps(part_node, head_node.parent, 'advcl')
+    set_new_deps(head_node, part_node, 'advmod')
+
+    transfer_children(head_node, part_node)
+
+    update_deprels([part_node])
+
+    changes.append(expression_dict)
+
+    # print(*[get_conllu(node) for node in head_node.root.descendants], sep='\n')
+    # print()
+
+def ALLTEFTERSOM(expression_dict):
+    assert ''.join([node.form.lower() for node in [expression_dict['head']] + expression_dict['children']]) == 'allteftersom'
+
+    head_node = expression_dict['head']
+
+    if head_node.form.lower() == 'allt':
+        if len(expression_dict['children']) == 1:
+            eftersom = expression_dict['children'][0]
+
+            set_new_deps(eftersom, head_node.parent, 'mark')
+            set_new_deps(head_node, eftersom, 'advmod')
+
+        elif len(expression_dict['children']) == 2:
+            efter = expression_dict['children'][0]
+            som = expression_dict['children'][1]
+
+            set_new_deps(efter, head_node.parent, 'mark')
+            set_new_deps(som, efter, 'goeswith')
+            set_new_deps(head_node, efter, 'advmod')
+
+    elif head_node.form.lower() == 'alltefter':
+        som = expression_dict['children'][0]
+        set_new_deps(som, head_node.parent, 'mark')
+        set_new_deps(head_node, som, 'advmod')
+
+    changes.append(expression_dict)
+
+    # print(*[get_conllu(node) for node in head_node.root.descendants], sep='\n')
+    # print()
+
+def JJ_P(expression_dict):
+    assert (expression_dict['structure'] == ['ADJ', 'ADP'] or 
+            expression_dict['structure'] == ['ADV', 'ADP']), expression_dict
+    assert expression_dict['head'].deprel in {'mark', 'case', 'advmod'}, expression_dict['head'].deprel
+    assert len(expression_dict['children']) == 1
+
+    head_node = expression_dict['head']
+
+    adp_node = expression_dict['children'][0]
+
+    parent = head_node.parent
+    grandparent = parent.parent
+
+    set_new_deps(head_node, grandparent, 'advmod' if grandparent.upos not in {'NOUN', 'PRON', 'PROPN'} else 'amod')
+    set_new_deps(adp_node, parent, 'case')
+    set_new_deps(parent, head_node, 'obl')
+
+    update_deprels([node for node in head_node.root.descendants if node.deprel in {'obl', 'conj'}])
+
+    changes.append(expression_dict)
+
+    # print(*[get_conllu(node) for node in head_node.root.descendants], sep='\n')
+    # print()
+
+def JJ_CC_JJ(expression_dict):
+    assert (expression_dict['structure'] == ['ADJ', 'CCONJ', 'ADJ'] or
+            expression_dict['structure'] == ['ADV', 'CCONJ', 'ADV']), expression_dict
+    assert expression_dict['head'].deprel in {'advmod'}, expression_dict['head'].deprel
+    assert len(expression_dict['children']) == 2
+
+    head_node = expression_dict['head']
+    cc_node = expression_dict['children'][0]
+    adj_node  = expression_dict['children'][1]
+
+    set_new_deps(adj_node, head_node, 'conj')
+    set_new_deps(cc_node, adj_node, 'cc')
+
+    update_deprels([adj_node])
+
+    changes.append(expression_dict)
+
+    # print(*[get_conllu(node) for node in head_node.root.descendants], sep='\n')
+    # print()
+
+def JJ_CC_ADV_JJ(expression_dict):
+    assert (expression_dict['structure'] == ['ADV', 'CCONJ', 'PART', 'ADV']), expression_dict
+    assert expression_dict['head'].deprel in {'advmod'}, expression_dict['head'].deprel
+    assert len(expression_dict['children']) == 3
+
+    head_node = expression_dict['head']
+    cc_node = expression_dict['children'][0]
+    adv_node  = expression_dict['children'][1]
+    adj_node  = expression_dict['children'][2]
+
+    # set_new_deps(adj_node, head_node, 'conj')
+    # set_new_deps(cc_node, adj_node, 'cc')
+
+    # update_deprels([adj_node])
+
+    changes.append(expression_dict)
+
+    print(*[get_conllu(node) for node in head_node.root.descendants], sep='\n')
+    print()
 
 def apply_rules(expression_dict, rule):
     if rule in globals():

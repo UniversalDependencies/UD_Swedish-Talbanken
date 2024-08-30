@@ -143,6 +143,7 @@ P_NN,utan tvekan,no,-
 P_NN,utanför hemmet,no,-
 P_NN,vid handen,no,-
 P_NN,för närvarande,no,-
+P_NN,till rätta,no,-
 P_JJ,för övrigt,no,-
 P_JJ,i övrigt,no,-
 P_JJ_NN,å andra sidan,no,-
@@ -169,7 +170,6 @@ P_ADV,för alltid,no,-
 P_ADV,i fatt,no,-
 P_ADV,med mindre,no,-
 P_ADV,runt om,no,-
-P_NN,till rätta,no,-
 P_ADV,till sist,no,-
 P_ADV,utan vidare,no,-
 P_ADV,i stort,no,-
@@ -192,6 +192,61 @@ ADV_ADV,allt mera,no,-
 ADV_ADV,ända fram,no,-
 ADV_ADV,fullt ut,no,-
 ADV_ADV,helt enkelt,no,-
-ADV_ADP,långt ifrån,no,-
 ADV_ADV,mycket väl,no,-
 ADV_ADV,sent omsider,yes,ADV
+ADV_CC_ADV,bak och fram,no,-
+ADV_CC_ADV,då och då,no,-
+ADV_CC_ADV,förr eller senare,no,-
+ADV_CC_ADV,fram och tillbaka,no,-
+ADV_CC_ADV,här och var,no,-
+ADV_CC_ADV,hit och dit,no,-
+ADV_CC_ADV,mer eller mindre,no,-
+ADV_CC_ADV,mer och mer,no,-
+ADV_CC_ADV,mindre och mindre,no,-
+ADV_CC_ADV,om och om igen,no,-
+ADV_CC_ADV,sist och slutligen,no,-
+DET_CC_JJ,en eller annan,no,-
+DET_CC_JJ,en och annan,no,-
+DET_CC_JJ,en och samma,no,-
+DET_CC_JJ,ett eller annat,no,-
+DET_CC,en och,no,-
+NN_CC_NN,dag och natt,no,-
+NN_CC_DET_JJ,en och en halv,no,-
+P_DET_JJ,å den andra,no,-
+P_DET_JJ,för det andra,no,-
+P_DET_JJ,för det första,no,-
+P_DET_JJ,på det klara,no,-
+P_CC_P,från och med,no,-
+P_CC_P,i och med,no,-
+P_CC_P,till och med,no,-
+P_CC_P_PR,i och för sej,no,-
+P_CC_P_PR,i och för sig,no,-
+IJ_IJ,ha ha,no,-
+IJ_IJ,ho ho,no,-
+IJ_IJ,ja tack,no,-
+DET_PS,all dess,no,-
+DET_PS,var sin,no,-
+DET_PS,var sitt,no,-
+P_NN_CC_NN,i mångt och mycket,no,-
+P_NN_CC_NN,i valet och kvalet,no,-
+P_NN_CC_NN,på sätt och vis,no,-
+P_NN_CC_NN,till höger och vänster,no,-
+ADV_P,långt ifrån,no,-
+ADV_P,in i,no,-
+ADV_P,istället för,no,-
+ADV_P,lite sen,no,-
+ADV_P,upp till,no,-
+ADV_VB,mer obundet,no,-
+ADV_VB,överhuvud taget,no,-
+ADV_VB,praktiskt taget,no,-
+ADV_VB,rättare sagt,no,-
+ADV_VB,relativt sett,no,-
+ADV_VB,strängt taget,no,-
+ADV_VB,totalt sett,no,-
+ALLTEFTERSOM,allt efter som,no,-
+ALLTEFTERSOM,allt eftersom,no,-
+ALLTEFTERSOM,alltefter som,no,-
+JJ_P,beroende på,no,-
+JJ_P,lika med,no,-
+JJ_P,oberoende av,no,-
+JJ_CC_JJ,först och främst,no,-
