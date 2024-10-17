@@ -17,21 +17,21 @@ python3 sv_talbanken_updates_2024.py \
     --partlist ./participle_classification_list.tsv \
     --manual_def_num ./manual_def_num.tsv
 
-## IF YOU UNCOMMENT THIS SECTION, REMEMBER TO CHANGE THE FILES IN THE FOLLOWING SECTIONS
-# python3 ./fixing_fixed.py > fixed_output.conllu\
-#     --infile ./output/temp/sv6.conllu \
-#     --fixedfile fixed_expressions.csv \
-#     --outfile ./output/temp/sv7.conllu
+python3 ./update_fixed.py \
+    --infile ./output/temp/sv6.conllu \
+    --fixedfile ./fixed_expression_table.csv \
+    --outfile ./output/temp/sv7.conllu \
+    # --verbose
 
 python3 ucxn_update.py \
-    --infile ./output/temp/sv6.conllu \
+    --infile ./output/temp/sv7.conllu \
     --ucxnfile ./ucxn_ud_swedish-talbanken.conllu \
-    --outfile ./output/temp/sv7.conllu
+    --outfile ./output/temp/sv8.conllu
 
-python3 tokens-with-spaces.py ./output/temp/sv7.conllu ./output/tokens-with-spaces.txt
-python3 make_edeprel.py ./output/temp/sv7.conllu ./output/edeprel.sv
+python3 tokens-with-spaces.py ./output/temp/sv8.conllu ./output/tokens-with-spaces.txt
+python3 make_edeprel.py ./output/temp/sv8.conllu ./output/edeprel.sv
 
-python3 split.py ./output/temp/sv7.conllu ./output/sv_talbanken-ud
+python3 split.py ./output/temp/sv8.conllu ./output/sv_talbanken-ud
 
 # comment rm -r output/temp if you want to keep the intermediate generation steps
 # rm -r ./output/temp

@@ -71,8 +71,7 @@ ENGLISH_ADJ = ['first', 'south', 'royal', 'shaky', 'wild', 'golden',
                'arabic', 'brave', 'free', 'american', 'strange', 'talking', 
                'new', 'central', 'advanced', 'simple', 'boiling', 'economic',
                'european', 'intermittent', 'pressurized', 'swedish', 'united', 
-               'national', 'international', 'north', 'strange', 'civil', 
-               'breaking', 'environmental', 'political', 'universal']
+               'national', 'international', 'north', 'strange', 'civil', 'environmental', 'political', 'universal']
 
 # list of non-english foreign words that I found in Talbanken, PUD and LinES (that I found)
 FOREIGN = {'priori': 'la', 'restante': 'fr'}
@@ -540,6 +539,8 @@ def change_participle_lemma(doc, outfile):
              'mantalskriven': 'mantalsskriven'}
 
     for tok in doc.nodes:
+        if tok.misc['Lang']:
+            continue
         if tok.upos in ('ADJ', 'VERB'):
             change_prefix = 'adj' if tok.upos == 'ADJ' else 'verb'
             change_id = None
@@ -1014,6 +1015,8 @@ def reclassify_participles(doc, outfile, participle_class_doc):
                 participle_classification[lemma.lower()] = part_class if not part_class == 'No' else None
 
     for tok in doc.nodes:
+        if tok.misc['Lang']:
+            continue
         change_id = None
         old_feats = tok.feats.__str__()
         was_verb = False
@@ -1844,6 +1847,27 @@ def manual_changes(doc, outfile, manual_changes_document):
             for line in change_log:
                 f.write(line+'\n')
 
+def fix_masc_gender(doc, outfile):
+    change_ids = []
+    changed_forms_by_id = defaultdict(set)
+    change_log = []
+    for tok in doc.nodes:
+        change_id = None
+        old_feats = tok.feats.__str__()
+
+        if tok.feats['Gender'] == 'Masc' and not tok.misc['Lang']:
+            tok.feats['Gender'] = 'Com'
+            change_id = 'Masc_Gender'
+        
+        if change_id != None:
+            new_feats = tok.feats.__str__()
+            if new_feats != old_feats:
+                change_ids.append(change_id)
+                changed_forms_by_id[change_id].add(tok.form)
+                change_log.append(f"{change_id=}\tsent_id='{tok.address()}'\t{tok.form=}\t{tok.lemma=}\t{old_feats=}\t{new_feats=}\ttext='{tok.root.compute_text()}'")
+
+    write_to_change_log(outfile.rsplit('.', maxsplit=1)[0]+'_masc_gender_changes.log', change_ids, changed_forms_by_id, change_log)
+
 if __name__ == '__main__':
     
     parser = argparse.ArgumentParser()
@@ -1882,6 +1906,8 @@ if __name__ == '__main__':
     change_adj_det_inconsistencies(doc, outfile)
     change_den_det_de(doc, outfile)
     change_adj_feats(doc, outfile, manual_def_num_doc)
+
+    fix_masc_gender(doc, outfile)
 
     if postfixes_doc:
         manual_changes(doc, outfile, postfixes_doc)
