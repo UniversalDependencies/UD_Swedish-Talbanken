@@ -6747,7 +6747,7 @@
 13	flyga	flyga	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	9	acl:relcl	9:acl:relcl	_
 14	omkring	omkring	ADV	PL	_	13	compound:prt	13:compound:prt	_
 15	vart	vart	ADV	HA	_	13	advmod	13:advmod	_
-16	som	som	CCONJ	KN	_	15	advmod	15:advmod	ExtPos=TENTATIVE
+16	som	som	CCONJ	KN	_	15	advmod	15:advmod	ExtPos=ADV
 17	helst	gärna	ADV	AB|SUV	Degree=Sup	16	fixed	16:fixed	_
 18	i	i	ADP	PP	_	20	case	20:case	_
 19	tusensitsiga	tusensitsig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	20	amod	20:amod	_
@@ -7320,7 +7320,7 @@
 17	matrester	matrest	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	15	conj	14:nsubj|15:conj:och	_
 18	omkring	omkring	ADV	PL	_	14	compound:prt	14:compound:prt	_
 19	var	var	ADV	HA	_	14	advmod	14:advmod	_
-20	som	som	CCONJ	KN	_	19	advmod	19:advmod	ExtPos=TENTATIVE
+20	som	som	CCONJ	KN	_	19	advmod	19:advmod	ExtPos=ADV
 21	helst	gärna	ADV	AB|SUV	Degree=Sup	20	fixed	20:fixed	SpaceAfter=No
 22	.	.	PUNCT	MAD	_	2	punct	2:punct	_
 
@@ -15886,7 +15886,7 @@
 11	kunna	kunna	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	12	aux	12:aux	_
 12	bygga	bygga	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	0	root	0:root	_
 13	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Tot	12	obj	12:obj	_
-14	som	som	CCONJ	KN	_	13	advmod	13:advmod	ExtPos=TENTATIVE
+14	som	som	CCONJ	KN	_	13	advmod	13:advmod	ExtPos=ADV
 15	helst	gärna	ADV	AB|SUV	Degree=Sup	14	fixed	14:fixed	SpaceAfter=No
 16	.	.	PUNCT	MAD	_	12	punct	12:punct	_
 
@@ -20561,9 +20561,9 @@
 # sent_id = sv-ud-test-1065
 # text = Något av det samma kan vi studera där zigenarna ännu lever i sina ursprungliga storfamiljer.
 1	Något	någon	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	7	obj	7:obj	_
-2	av	av	ADP	PP	_	4	case	4:case	_
-3	det	den	DET	DT|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	4:det	_
-4	samma	samma	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos	1	nmod	1:nmod:av	_
+2	av	av	ADP	PP	_	3	case	3:case	_
+3	det	den	DET	DT|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	1	det	1:det	_
+4	samma	samma	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos	1	amod	1:amod	_
 5	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	7:aux	_
 6	vi	vi	PRON	PN|UTR|PLU|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	7	nsubj	7:nsubj	_
 7	studera	studera	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	0	root	0:root	_

@@ -5867,7 +5867,7 @@
 12	vilket	vilken	DET	HD|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Tot	14	det	14:det	_
 13	annat	annan	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	amod	14:amod	_
 14	yrkesarbete	yrkesarbete	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	8	obl	8:obl:som	_
-15	som	som	CCONJ	KN	_	12	advmod	12:advmod	ExtPos=TENTATIVE
+15	som	som	CCONJ	KN	_	12	advmod	12:advmod	ExtPos=ADV
 16	helst	gärna	ADV	AB|SUV	Degree=Sup	15	fixed	15:fixed	_
 17	och	och	CCONJ	KN	_	18	cc	18:cc	_
 18	berättigar	berättiga	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	3:ccomp|8:conj:och	_
@@ -7348,7 +7348,7 @@
 3	i	i	ADP	PP	_	5	case	5:case	_
 4	vilket	vilket	DET	HD|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Tot	5	det	5:det	_
 5	fall	fall	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	obl	2:obl:i	_
-6	som	som	CCONJ	KN	_	4	advmod	4:advmod	ExtPos=TENTATIVE
+6	som	som	CCONJ	KN	_	4	advmod	4:advmod	ExtPos=ADV
 7	helst	gärna	ADV	AB|SUV	Degree=Sup	6	fixed	6:fixed	_
 8	inte	inte	PART	AB	Polarity=Neg	2	advmod	2:advmod	_
 9	göra	göra	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	xcomp	2:xcomp	_

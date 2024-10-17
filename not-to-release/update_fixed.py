@@ -1618,7 +1618,7 @@ def som_helst(exp):
     set_new_deps(som_node, head_node, 'advmod')
     set_new_deps(helst_node, som_node, 'fixed')
 
-    som_node.misc['ExtPos'] = 'TENTATIVE'
+    som_node.misc['ExtPos'] = 'ADV'
 
     changes.append(exp)
 
