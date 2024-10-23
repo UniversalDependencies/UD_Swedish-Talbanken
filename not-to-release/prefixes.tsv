@@ -351,10 +351,10 @@ id=w05009044#36
 36	n't	not	PART	AB	_	37	advmod	37:advmod	Lang=en
 
 id=w05009044#37
-37	Go	go	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	parataxis	2:parataxis	Lang=en
+37	Go	go	VERB	VB|INF|AKT	VerbForm=Inf	2	parataxis	2:parataxis	Lang=en
 
 id=w05009044#38
-38	Breaking	Breaking	VERB	PC|PRS	VerbForm=Part|Voice=Act	37	xcomp	37:xcomp	Lang=en
+38	Breaking	Breaking	VERB	PC|PRS	VerbForm=Part	37	xcomp	37:xcomp	Lang=en
 
 id=w05009044#39
 39	My	my	PRON	PS|SIN	Number=Sing	40	nmod:poss	40:nmod:poss	Lang=en
