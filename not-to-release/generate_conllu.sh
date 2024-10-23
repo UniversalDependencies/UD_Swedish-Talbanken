@@ -17,6 +17,12 @@ python3 sv_talbanken_updates_2024.py \
     --partlist ./participle_classification_list.tsv \
     --manual_def_num ./manual_def_num.tsv
 
+# python3 ./update_fixed.py \
+#     --infile ./output/temp/sv6.conllu \
+#     --fixedfile ./fixed_expression_table.csv \
+#     --outfile ./output/temp/sv7.conllu \
+#     # --verbose
+
 python3 ucxn_update.py \
     --infile ./output/temp/sv6.conllu \
     --ucxnfile ./ucxn_ud_swedish-talbanken.conllu \
