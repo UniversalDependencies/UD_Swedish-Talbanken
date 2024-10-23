@@ -1,0 +1,8 @@
+id=sv-ud-train-2612#4
+4	material	material	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	nsubj	2:nsubj|15:nsubj	CxnElt=2:Existential-ExistPred.Pivot
+
+id=sv-ud-train-2612#8
+8	som	som	PRON	HP|-|-|-	PronType=Rel	15	nsubj	4:ref	_
+
+id=sv-ud-train-2612#9
+9	vi	vi	PRON	PN|UTR|PLU|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	11	nsubj	11:nsubj	_
