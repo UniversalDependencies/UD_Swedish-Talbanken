@@ -70,6 +70,21 @@ id=sv-ud-train-791#2
 id=sv-ud-train-791#6
 6	fritidsbåtar	fritidsbåt	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	1	obl	1:obl:än	_
 
+id=sv-ud-train-941#7
+7	(	(	PUNCT	PAD	_	8	punct	8:punct	SpaceAfter=No
+
+id=sv-ud-train-941#8
+8	annat	annan	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	4	obl	4:obl	_
+
+id=sv-ud-train-941#9
+9	än	än	SCONJ	KN	_	11	case	11:case	_
+
+id=sv-ud-train-941#11
+11	parkerings-	parkering	NOUN	NN|UTR|-|-|SMS	Gender=Com	8	obl	8:obl:på	_
+
+id=sv-ud-train-941#14
+14	)	)	PUNCT	PAD	_	8	punct	8:punct	SpaceAfter=No
+
 id=sv-ud-train-1000#30
 30	mer	mycket	ADV	AB|KOM	Degree=Cmp	29	obj	29:obj	_
 
@@ -247,6 +262,18 @@ id=sv-ud-train-3447#8
 id=sv-ud-train-3447#10
 10	%	%	NOUN	NN|AN	Abbr=Yes	7	obl	7:obl:än	_
 
+id=sv-ud-train-4031#5
+5	om	om	ADP	PP	_	6	case	6:case	_
+
+id=sv-ud-train-4031#6
+6	annat	annan	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	4	obl	4:obl	_
+
+id=sv-ud-train-4031#7
+7	än	än	SCONJ	KN	_	10	mark	10:mark	_
+
+id=sv-ud-train-4031#10
+10	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl	6:acl:än	_
+
 id=sv-ud-dev-62#23
 23	än	än	SCONJ	KN	_	24	advmod	24:advmod	_
 
@@ -258,6 +285,15 @@ id=sv-ud-dev-107#9
 
 id=sv-ud-dev-107#13
 13	fördelning	fördelning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	obj	9:obj	_
+
+id=sv-ud-dev-372#21
+21	annat	annan	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	10	obl	10:obl	_
+
+id=sv-ud-dev-372#22
+22	än	än	SCONJ	KN	_	29	mark	29:mark	_
+
+id=sv-ud-dev-372#29
+29	betalt	betala	ADJ	PC|PRF|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	21	acl	21:acl:än	_
 
 id=sv-ud-dev-417#11
 11	på	på	ADP	PP	_	12	case	12:case	_
@@ -310,6 +346,24 @@ id=sv-ud-test-323#6
 id=sv-ud-test-323#8
 8	år	år	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	5	obl	5:obl:än	_
 
+id=sv-ud-test-387#1
+1	Städer	stad	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	6	nsubj	6:nsubj|7:nsubj	_
+
+id=sv-ud-test-387#7
+7	annat	annan	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	6	xcomp	6:xcomp	_
+
+id=sv-ud-test-387#8
+8	än	än	SCONJ	KN	_	9	case	9:case	_
+
+id=sv-ud-test-387#9
+9	djungler	djungel	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	7	obl	7:obl	SpaceAfter=No
+
+id=sv-ud-test-387#10
+10	,	,	PUNCT	MID	_	7	punct	7:punct	_
+
+id=sv-ud-test-387#15
+15	bekämpas	bekämpa	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	7	acl:relcl	7:acl:relcl	SpaceAfter=No
+
 id=sv-ud-test-403#12
 12	mer	mycket	ADV	AB|KOM	Degree=Cmp	6	advmod	6:acl:relcl	_
 
@@ -355,6 +409,15 @@ id=sv-ud-test-637#5
 id=sv-ud-test-637#6
 6	normalt	normal	ADV	AB|POS	Degree=Pos	4	obl	4:obl:än	_
 
+id=sv-ud-test-875#19
+19	annat	annan	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	18	obl	18:obl	_
+
+id=sv-ud-test-875#20
+20	än	än	SCONJ	KN	_	24	case	24:case	_
+
+id=sv-ud-test-875#24
+24	ombyggnad	ombyggnad	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	19	obl	19:obl:än	_
+
 id=sv-ud-test-918#4
 4	med	med	ADP	PP	_	5	case	5:case	_
 
@@ -375,6 +438,15 @@ id=sv-ud-test-947#7
 
 id=sv-ud-test-947#10
 10	kronor	krona	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	6	obl	6:obl:än	_
+
+id=sv-ud-test-1069#14
+14	annat	annan	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	11	xcomp	11:xcomp	_
+
+id=sv-ud-test-1069#15
+15	än	än	SCONJ	KN	_	17	case	17:case	_
+
+id=sv-ud-test-1069#17
+17	trebarnssystem	trebarnssystem	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	14	obl	14:obl:än	_
 
 id=sv-ud-test-1171#1
 1	Vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int	2	nsubj	2:nsubj	_
