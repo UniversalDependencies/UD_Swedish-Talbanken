@@ -271,6 +271,18 @@ id=sv-ud-train-3191#3
 id=sv-ud-train-3191#13
 13	användas	använda	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	3	acl:relcl	3:acl:relcl	_
 
+id=sv-ud-train-3340#7
+7	dvs.	dvs.	ADV	AB|AN	Abbr=Yes	10	advmod	10:advmod	_
+
+id=sv-ud-train-3340#8
+8	drygt	dryg	ADV	AB|POS	Degree=Pos	10	advmod	10:advmod	_
+
+id=sv-ud-train-3340#9
+9	var	var	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	10	det	10:det	_
+
+id=sv-ud-train-3340#10
+10	tionde	tio	ADJ	RO|NOM	Case=Nom	5	appos	5:appos	SpaceAfter=No
+
 id=sv-ud-train-3352#11
 11	mindre	liten	ADV	AB|KOM	Degree=Cmp	10	obj	10:obj	_
 
