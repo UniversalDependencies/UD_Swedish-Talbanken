@@ -157,6 +157,18 @@ id=sv-ud-train-2409#7
 id=sv-ud-train-2409#9
 9	mm	mm	NOUN	NN|AN	Abbr=Yes	6	obl	6:obl:än	SpaceAfter=No
 
+id=sv-ud-train-2510#1
+1	Vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int	4	nsubj	4:nsubj	_
+
+id=sv-ud-train-2510#2
+2	sen	sen	ADV	AB	_	4	advmod	4:advmod	_
+
+id=sv-ud-train-2510#3
+3	innehållet	innehåll	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	4	obj	4:obj	_
+
+id=sv-ud-train-2510#4
+4	beträffar	beträffa	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	6:advcl	_
+
 id=sv-ud-train-2612#4
 4	material	material	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	nsubj	2:nsubj|15:nsubj	CxnElt=2:Existential-ExistPred.Pivot
 
@@ -165,6 +177,15 @@ id=sv-ud-train-2612#8
 
 id=sv-ud-train-2612#9
 9	vi	vi	PRON	PN|UTR|PLU|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	11	nsubj	11:nsubj	_
+
+id=sv-ud-train-2665#1
+1	Vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int	3	nsubj	3:nsubj	_
+
+id=sv-ud-train-2665#2
+2	synen	syn	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	3	obj	3:obj	_
+
+id=sv-ud-train-2665#3
+3	beträffar	beträffa	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	5:advcl	_
 
 id=sv-ud-train-2797#20
 20	på	på	ADP	PP	_	21	case	21:case	_
@@ -208,6 +229,15 @@ id=sv-ud-train-3447#10
 id=sv-ud-dev-62#23
 23	än	än	SCONJ	KN	_	24	advmod	24:advmod	_
 
+id=sv-ud-dev-107#8
+8	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int	9	nsubj	9:nsubj	_
+
+id=sv-ud-dev-107#9
+9	gäller	gälla	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	4:advcl	_
+
+id=sv-ud-dev-107#13
+13	fördelning	fördelning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	obj	9:obj	_
+
 id=sv-ud-test-48#5
 5	för	för	ADP	PP	_	6	case	6:case	_
 
@@ -231,6 +261,15 @@ id=sv-ud-test-91#13
 
 id=sv-ud-test-91#16
 16	belopp	belopp	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	12	obl	12:obl:än	SpaceAfter=No
+
+id=sv-ud-test-153#14
+14	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int	15	nsubj	15:nsubj	_
+
+id=sv-ud-test-153#15
+15	beträffar	beträffa	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	21	advcl	21:advcl	_
+
+id=sv-ud-test-153#16
+16	jordbruk	jordbruk	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	15	obj	15:obj	_
 
 id=sv-ud-test-323#5
 5	mer	mycket	ADV	AB|KOM	Degree=Cmp	4	obj	4:obj	_
@@ -298,7 +337,29 @@ id=sv-ud-test-918#6
 id=sv-ud-test-918#9
 9	människor	människa	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	5	obl	5:obl:än	_
 
-id=sv-ud-test-947
+id=sv-ud-test-947#6
 6	mer	mycket	ADV	AB|KOM	Degree=Cmp	5	obj	5:obj	_
+
+id=sv-ud-test-947#7
 7	än	än	SCONJ	KN	_	10	case	10:case	_
+
+id=sv-ud-test-947#10
 10	kronor	krona	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	6	obl	6:obl:än	_
+
+id=sv-ud-test-1171#1
+1	Vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int	2	nsubj	2:nsubj	_
+
+id=sv-ud-test-1171#2
+2	gäller	gälla	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	6:advcl	_
+
+id=sv-ud-test-1171#5
+5	fallet	fall	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	obj	2:obj	_
+
+id=sv-ud-test-1214#14
+14	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int	15	nsubj	15:nsubj	_
+
+id=sv-ud-test-1214#15
+15	gäller	gälla	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	13	advcl	13:advcl	_
+
+id=sv-ud-test-1214#17
+17	levnadsförhållanden	levnadsförhållande	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	15	obj	15:obj	SpaceAfter=No
