@@ -148,6 +148,15 @@ id=sv-ud-train-2085#10
 id=sv-ud-train-2085#13
 13	procent	procent	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9	obl	9:obl:än	_
 
+id=sv-ud-train-2094#10
+10	på	på	ADP	PP	_	11	case	11:case	_
+
+id=sv-ud-train-2094#11
+11	grund	grund	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	nmod	9:nmod	_
+
+id=sv-ud-train-2094#12
+12	därav	därav	ADV	AB	_	11	advmod	11:advmod	_
+
 id=sv-ud-train-2409#6
 6	mer	mycket	ADV	AB|KOM	Degree=Cmp	4	obl	4:obl	_
 
@@ -208,6 +217,18 @@ id=sv-ud-train-3123#20
 id=sv-ud-train-3123#22
 22	%	%	NOUN	NN|AN	Abbr=Yes	19	obl	19:obl:än	SpaceAfter=No
 
+id=sv-ud-train-3191#1
+1	I	i	ADP	PP	_	3	case	3:case	_
+
+id=sv-ud-train-3191#2
+2	de	en	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	3	det	3:det	_
+
+id=sv-ud-train-3191#3
+3	fall	fall	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	17	obl	17:obl:i	_
+
+id=sv-ud-train-3191#13
+13	användas	använda	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	3	acl:relcl	3:acl:relcl	_
+
 id=sv-ud-train-3352#11
 11	mindre	liten	ADV	AB|KOM	Degree=Cmp	10	obj	10:obj	_
 
@@ -237,6 +258,15 @@ id=sv-ud-dev-107#9
 
 id=sv-ud-dev-107#13
 13	fördelning	fördelning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	obj	9:obj	_
+
+id=sv-ud-dev-417#11
+11	på	på	ADP	PP	_	12	case	12:case	_
+
+id=sv-ud-dev-417#12
+12	grund	grund	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	obl	10:obl:på	_
+
+id=sv-ud-dev-417#13
+13	härav	härav	ADV	AB	_	12	advmod	12:advmod	_
 
 id=sv-ud-test-48#5
 5	för	för	ADP	PP	_	6	case	6:case	_
@@ -354,6 +384,18 @@ id=sv-ud-test-1171#2
 
 id=sv-ud-test-1171#5
 5	fallet	fall	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	obj	2:obj	_
+
+id=sv-ud-test-1185#1
+1	I	i	ADP	PP	_	3	case	3:case	_
+
+id=sv-ud-test-1185#2
+2	de	en	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	3	det	3:det	_
+
+id=sv-ud-test-1185#3
+3	fall	fall	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	12	obl	12:obl:i	_
+
+id=sv-ud-test-1185#5
+5	resulterar	resultera	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	3:acl:relcl	_
 
 id=sv-ud-test-1214#14
 14	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int	15	nsubj	15:nsubj	_
