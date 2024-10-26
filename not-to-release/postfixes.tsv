@@ -319,6 +319,21 @@ id=sv-ud-train-4263#27
 id=sv-ud-train-4263#28
 28	ingen	ingen	PRON	PN|UTR|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Com|Number=Sing|PronType=Neg	26	obl	26:obl:som	_
 
+id=sv-ud-dev-54#30
+30	särskilt	särskilt	ADV	AB	_	33	advmod	33:advmod	_
+
+id=sv-ud-dev-54#31
+31	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int	33	dislocated	33:dislocated	_
+
+id=sv-ud-dev-54#32
+32	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	33	nsubj	33:nsubj	_
+
+id=sv-ud-dev-54#33
+33	gäller	gälla	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	26	advcl	26:advcl	_
+
+id=sv-ud-dev-54#35
+35	mottaglighet	mottaglighet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	33	obj	33:obj	SpaceAfter=No
+
 id=sv-ud-dev-62#23
 23	än	än	SCONJ	KN	_	24	advmod	24:advmod	_
 
