@@ -1,3 +1,162 @@
+id=sv-ud-train-132#10
+10	mer	mycket	ADV	AB|KOM	Degree=Cmp	9	obj	9:obj	_
+
+id=sv-ud-train-132#11
+11	än	än	SCONJ	KN	_	14	case	14:case	_
+
+id=sv-ud-train-132#14
+14	del	del	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	obl	10:obl:än	_
+
+id=sv-ud-train-387#13
+13	högre	hög	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	7	ccomp	7:ccomp	_
+
+id=sv-ud-train-387#14
+14	än	än	SCONJ	KN	_	16	case	16:case	_
+
+id=sv-ud-train-387#16
+16	%	%	NOUN	NN|AN	Abbr=Yes	13	obl	13:obl:än	SpaceAfter=No
+
+id=sv-ud-train-388#1
+1	Mindre	liten	ADV	AB|KOM	Degree=Cmp	7	nsubj	7:nsubj|8:nsubj	_
+
+id=sv-ud-train-388#2
+2	än	än	SCONJ	KN	_	4	case	4:case	_
+
+id=sv-ud-train-388#4
+4	%	%	NOUN	NN|AN	Abbr=Yes	1	obl	1:obl:än	_
+
+id=sv-ud-train-444#4
+4	mindre	lite	ADV	AB|KOM	Degree=Cmp	3	obj	3:obj	_
+
+id=sv-ud-train-444#5
+5	än	än	SCONJ	KN	_	7	case	7:case	_
+
+id=sv-ud-train-444#7
+7	kronor	krona	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	4	obl	4:obl:än	_
+
+id=sv-ud-train-448#5
+5	mer	mycket	ADV	AB|KOM	Degree=Cmp	4	obj	4:obj	_
+
+id=sv-ud-train-448#6
+6	än	än	SCONJ	KN	_	8	case	8:case	_
+
+id=sv-ud-train-448#8
+8	andelar	andel	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	5	obl	5:obl:än	SpaceAfter=No
+
+id=sv-ud-train-631#4
+4	mindre	liten	ADV	AB|KOM	Degree=Cmp	3	obj	3:obj	_
+
+id=sv-ud-train-631#5
+5	än	än	SCONJ	KN	_	8	case	8:case	_
+
+id=sv-ud-train-631#8
+8	kr	kr	NOUN	NN|AN	Abbr=Yes	4	obl	4:obl:än	_
+
+id=sv-ud-train-632#4
+4	högre	hög	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	11	advcl	11:advcl:om	_
+
+id=sv-ud-train-632#5
+5	än	än	SCONJ	KN	_	8	case	8:case	_
+
+id=sv-ud-train-632#8
+8	kr	kr	NOUN	NN|AN	Abbr=Yes	4	obl	4:obl:än	_
+
+id=sv-ud-train-791#1
+1	Mer	mycket	ADV	AB|KOM	Degree=Cmp	7	nsubj	7:nsubj	_
+
+id=sv-ud-train-791#2
+2	än	än	SCONJ	KN	_	6	case	6:case	_
+
+id=sv-ud-train-791#6
+6	fritidsbåtar	fritidsbåt	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	1	obl	1:obl:än	_
+
+id=sv-ud-train-1000#30
+30	mer	mycket	ADV	AB|KOM	Degree=Cmp	29	obj	29:obj	_
+
+id=sv-ud-train-1000#31
+31	än	än	SCONJ	KN	_	33	case	33:case	_
+
+id=sv-ud-train-1000#33
+33	partibeteckning	partibeteckning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	30	obl	30:obl:än	_
+
+id=sv-ud-train-1000#36
+36	mer	mycket	ADV	AB|KOM	Degree=Cmp	40	nsubj	40:nsubj	_
+
+id=sv-ud-train-1000#37
+37	än	än	SCONJ	KN	_	39	case	39:case	_
+
+id=sv-ud-train-1000#39
+39	valsedel	valsedel	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	36	obl	36:obl	_
+
+id=sv-ud-train-1038#11
+11	mer	mycket	ADV	AB|KOM	Degree=Cmp	8	appos	8:appos	_
+
+id=sv-ud-train-1038#12
+12	än	än	SCONJ	KN	_	13	case	13:case	_
+
+id=sv-ud-train-1038#13
+13	hälften	hälft	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	11	obl	11:obl	_
+
+id=sv-ud-train-1118#7
+7	fler	fler	ADJ	JJ|POS|UTR/NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	6	nsubj:pass	6:nsubj:pass	_
+
+id=sv-ud-train-1118#8
+8	än	än	SCONJ	KN	_	10	case	10:case	_
+
+id=sv-ud-train-1118#10
+10	neutron	neutron	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	obl	7:obl:än	SpaceAfter=No
+
+id=sv-ud-train-1396#8
+8	inte	inte	PART	AB	Polarity=Neg	9	advmod	9:advmod	_
+
+id=sv-ud-train-1396#9
+9	mindre	lite	ADV	AB|KOM	Degree=Cmp	6	conj	2:obj|6:conj	_
+
+id=sv-ud-train-1396#10
+10	än	än	SCONJ	KN	_	12	case	12:case	_
+
+id=sv-ud-train-1396#12
+12	tjänstemän	tjänsteman	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9	obl	9:obl:än	SpaceAfter=No
+
+id=sv-ud-train-1600#18
+18	mindre	lite	ADV	AB|KOM	Degree=Cmp	17	obj	17:obj	_
+
+id=sv-ud-train-1600#19
+19	än	än	SCONJ	KN	_	21	case	21:case	_
+
+id=sv-ud-train-1600#21
+21	kronor	krona	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	18	obl	18:obl:än	SpaceAfter=No
+
+id=sv-ud-train-1643#7
+7	mer	mycket	ADV	AB|KOM	Degree=Cmp	3	obj	3:obj	_
+
+id=sv-ud-train-1643#8
+8	än	än	SCONJ	KN	_	11	case	11:case	_
+
+id=sv-ud-train-1643#11
+11	chans	chans	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	obl	7:obl:än	SpaceAfter=No
+
+id=sv-ud-train-2085#8
+8	dvs	dvs	ADV	AB|AN	Abbr=Yes	9	advmod	9:advmod	_
+
+id=sv-ud-train-2085#9
+9	mindre	liten	ADV	AB|KOM	Degree=Cmp	2	advmod	2:appos	_
+
+id=sv-ud-train-2085#10
+10	än	än	SCONJ	KN	_	13	case	13:case	_
+
+id=sv-ud-train-2085#13
+13	procent	procent	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9	obl	9:obl:än	_
+
+id=sv-ud-train-2409#6
+6	mer	mycket	ADV	AB|KOM	Degree=Cmp	4	obl	4:obl	_
+
+id=sv-ud-train-2409#7
+7	än	än	SCONJ	KN	_	9	case	9:case	_
+
+id=sv-ud-train-2409#9
+9	mm	mm	NOUN	NN|AN	Abbr=Yes	6	obl	6:obl:än	SpaceAfter=No
+
 id=sv-ud-train-2612#4
 4	material	material	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	nsubj	2:nsubj|15:nsubj	CxnElt=2:Existential-ExistPred.Pivot
 
@@ -6,3 +165,140 @@ id=sv-ud-train-2612#8
 
 id=sv-ud-train-2612#9
 9	vi	vi	PRON	PN|UTR|PLU|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	11	nsubj	11:nsubj	_
+
+id=sv-ud-train-2797#20
+20	på	på	ADP	PP	_	21	case	21:case	_
+
+id=sv-ud-train-2797#21
+21	mindre	lite	ADV	AB|KOM	Degree=Cmp	12	obl	12:obl:på	_
+
+id=sv-ud-train-2797#22
+22	än	än	SCONJ	KN	_	24	case	24:case	_
+
+id=sv-ud-train-2797#24
+24	år	år	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	21	obl	21:obl:än	SpaceAfter=No
+
+id=sv-ud-train-3123#19
+19	lägre	låg	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	0	root	0:root	_
+
+id=sv-ud-train-3123#20
+20	än	än	SCONJ	KN	_	22	case	22:case	_
+
+id=sv-ud-train-3123#22
+22	%	%	NOUN	NN|AN	Abbr=Yes	19	obl	19:obl:än	SpaceAfter=No
+
+id=sv-ud-train-3352#11
+11	mindre	liten	ADV	AB|KOM	Degree=Cmp	10	obj	10:obj	_
+
+id=sv-ud-train-3352#12
+12	än	än	SCONJ	KN	_	15	case	15:case	_
+
+id=sv-ud-train-3352#15
+15	kr	kr	NOUN	NN|AN	Abbr=Yes	11	obl	11:obl:än	_
+
+id=sv-ud-train-3447#7
+7	mindre	lite	ADV	AB|KOM	Degree=Cmp	5	nsubj	5:nsubj	_
+
+id=sv-ud-train-3447#8
+8	än	än	SCONJ	KN	_	10	case	10:case	_
+
+id=sv-ud-train-3447#10
+10	%	%	NOUN	NN|AN	Abbr=Yes	7	obl	7:obl:än	_
+
+id=sv-ud-dev-62#23
+23	än	än	SCONJ	KN	_	24	advmod	24:advmod	_
+
+id=sv-ud-test-48#5
+5	för	för	ADP	PP	_	6	case	6:case	_
+
+id=sv-ud-test-48#6
+6	mindre	lite	ADV	AB|KOM	Degree=Cmp	1	obl	1:obl:för	_
+
+id=sv-ud-test-48#7
+7	än	än	SCONJ	KN	_	9	case	9:case	_
+
+id=sv-ud-test-48#9
+9	år	år	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	6	obl	6:obl:än	_
+
+id=sv-ud-test-91#11
+11	till	till	ADP	PP	_	12	case	12:case	_
+
+id=sv-ud-test-91#12
+12	mer	mycket	ADV	AB|KOM	Degree=Cmp	10	obl	10:obl:till	_
+
+id=sv-ud-test-91#13
+13	än	än	SCONJ	KN	_	16	case	16:case	_
+
+id=sv-ud-test-91#16
+16	belopp	belopp	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	12	obl	12:obl:än	SpaceAfter=No
+
+id=sv-ud-test-323#5
+5	mer	mycket	ADV	AB|KOM	Degree=Cmp	4	obj	4:obj	_
+
+id=sv-ud-test-323#6
+6	än	än	SCONJ	KN	_	8	case	8:case	_
+
+id=sv-ud-test-323#8
+8	år	år	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	5	obl	5:obl:än	_
+
+id=sv-ud-test-403#12
+12	mer	mycket	ADV	AB|KOM	Degree=Cmp	6	advmod	6:acl:relcl	_
+
+id=sv-ud-test-403#13
+13	än	än	SCONJ	KN	_	16	case	16:case	_
+
+id=sv-ud-test-403#16
+16	kvantiteten	kvantitet	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	obl	12:obl:än	_
+
+id=sv-ud-test-410#14
+14	mer	mycket	ADV	AB|KOM	Degree=Cmp	13	obj	13:obj|19:nsubj	_
+
+id=sv-ud-test-410#15
+15	än	än	SCONJ	KN	_	18	case	18:case	_
+
+id=sv-ud-test-410#18
+18	invånare	invånare	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	14	obl	14:obl:än	_
+
+id=sv-ud-test-487#9
+9	mer	mycket	ADV	AB|KOM	Degree=Cmp	8	nsubj	8:nsubj	_
+
+id=sv-ud-test-487#10
+10	än	än	SCONJ	KN	_	12	case	12:case	_
+
+id=sv-ud-test-487#12
+12	elev	elev	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	obl	9:obl:än	_
+
+id=sv-ud-test-586#8
+8	mer	mycket	ADV	AB|KOM	Degree=Cmp	7	nsubj	7:nsubj	_
+
+id=sv-ud-test-586#9
+9	än	än	SCONJ	KN	_	10	case	10:case	_
+
+id=sv-ud-test-586#10
+10	hälften	hälft	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	8	obl	8:obl:än	_
+
+id=sv-ud-test-637#4
+4	mer	mycket	ADV	AB|KOM	Degree=Cmp	3	advmod	3:advmod	_
+
+id=sv-ud-test-637#5
+5	än	än	SCONJ	KN	_	6	case	6:case	_
+
+id=sv-ud-test-637#6
+6	normalt	normal	ADV	AB|POS	Degree=Pos	4	obl	4:obl:än	_
+
+id=sv-ud-test-918#4
+4	med	med	ADP	PP	_	5	case	5:case	_
+
+id=sv-ud-test-918#5
+5	mer	mycket	ADV	AB|KOM	Degree=Cmp	3	obl	3:obl:med	_
+
+id=sv-ud-test-918#6
+6	än	än	SCONJ	KN	_	9	case	9:case	_
+
+id=sv-ud-test-918#9
+9	människor	människa	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	5	obl	5:obl:än	_
+
+id=sv-ud-test-947
+6	mer	mycket	ADV	AB|KOM	Degree=Cmp	5	obj	5:obj	_
+7	än	än	SCONJ	KN	_	10	case	10:case	_
+10	kronor	krona	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	6	obl	6:obl:än	_
