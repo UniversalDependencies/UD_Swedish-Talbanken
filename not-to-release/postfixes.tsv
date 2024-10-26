@@ -223,6 +223,33 @@ id=sv-ud-train-2797#22
 id=sv-ud-train-2797#24
 24	år	år	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	21	obl	21:obl:än	SpaceAfter=No
 
+id=sv-ud-train-2871#12
+12	så	så	ADV	AB	_	13	advmod	13:advmod	_
+
+id=sv-ud-train-2871#13
+13	gott	god	ADV	AB|POS	Degree=Pos	17	nsubj:pass	17:nsubj:pass	_
+
+id=sv-ud-train-2871#14
+14	som	som	CCONJ	KN	_	16	case	16:case	_
+
+id=sv-ud-train-2871#16
+16	fångsten	fångst	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	13	obl	13:obl:som	_
+
+id=sv-ud-train-2911#27
+27	i	i	ADP	PP	_	29	case	29:case	_
+
+id=sv-ud-train-2911#28
+28	så	så	ADV	AB	_	29	advmod	29:advmod	_
+
+id=sv-ud-train-2911#29
+29	gott	god	ADV	AB|POS	Degree=Pos	26	obl	26:obl:i	_
+
+id=sv-ud-train-2911#30
+30	som	som	CCONJ	KN	_	33	case	33:case	_
+
+id=sv-ud-train-2911#33
+33	samhällen	samhälle	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	29	obl	29:obl:som	_
+
 id=sv-ud-train-3123#19
 19	lägre	låg	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	0	root	0:root	_
 
@@ -274,6 +301,24 @@ id=sv-ud-train-4031#7
 id=sv-ud-train-4031#10
 10	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl	6:acl:än	_
 
+id=sv-ud-train-4263#23
+23	,	,	PUNCT	MID	_	26	punct	26:punct	_
+
+id=sv-ud-train-4263#24
+24	men	men	CCONJ	KN	_	26	cc	26:cc	_
+
+id=sv-ud-train-4263#25
+25	så	så	ADV	AB	_	26	advmod	26:advmod	_
+
+id=sv-ud-train-4263#26
+26	gott	god	ADV	AB|POS	Degree=Pos	9	conj	9:conj	_
+
+id=sv-ud-train-4263#27
+27	som	som	CCONJ	KN	_	28	case	28:case	_
+
+id=sv-ud-train-4263#28
+28	ingen	ingen	PRON	PN|UTR|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Com|Number=Sing|PronType=Neg	26	obl	26:obl:som	_
+
 id=sv-ud-dev-62#23
 23	än	än	SCONJ	KN	_	24	advmod	24:advmod	_
 
@@ -303,6 +348,18 @@ id=sv-ud-dev-417#12
 
 id=sv-ud-dev-417#13
 13	härav	härav	ADV	AB	_	12	advmod	12:advmod	_
+
+id=sv-ud-dev-492#9
+9	så	så	ADV	AB	_	10	advmod	10:advmod	_
+
+id=sv-ud-dev-492#10
+10	gott	god	ADV	AB|POS	Degree=Pos	5	xcomp	5:xcomp	_
+
+id=sv-ud-dev-492#11
+11	som	som	CCONJ	KN	_	13	case	13:case	_
+
+id=sv-ud-dev-492#13
+13	slutförd	slutföra	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	10	obl	10:obl:som	SpaceAfter=No
 
 id=sv-ud-test-48#5
 5	för	för	ADP	PP	_	6	case	6:case	_
