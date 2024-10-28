@@ -1,3 +1,18 @@
+id=sv-ud-test-218#18
+18	utom	utom	CCONJ	KN	_	20	case	20:case	_
+
+id=sv-ud-test-218#19
+19	i	i	ADP	PP	_	20	case	20:case	_
+
+id=sv-ud-test-218#20
+20	fråga	fråga	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	obl	16:obl:utom_i	_
+
+id=sv-ud-test-218#21
+21	om	om	ADP	PP	_	23	case	23:case	_
+
+id=sv-ud-test-218#23
+23	förhållanden	förhållande	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	20	nmod	20:om	SpaceAfter=No
+
 id=sv-ud-dev-56#7
 7	Kibbutzchildren	Kibbutzchildren	NOUN	NN	_	3	parataxis	3:parataxis	Lang=en
 
