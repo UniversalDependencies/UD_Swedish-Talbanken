@@ -289,6 +289,8 @@ def ADV_PR(exp):
     set_new_deps(pr_node, parent_node, head_node.deprel)
     set_new_deps(head_node, pr_node, 'advmod')
 
+    transfer_children(head_node, pr_node)
+
     update_deprels([pr_node, head_node, parent_node])
 
     changes.append(exp)

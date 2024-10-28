@@ -304,6 +304,9 @@ id=sv-ud-train-2911#33
 id=sv-ud-train-2911#30
 30	som	som	CCONJ	KN	_	33	case	33:case	_
 
+id=sv-ud-train-3123#13
+13	,	,	PUNCT	MID	_	19	punct	19:punct	_
+
 id=sv-ud-train-3123#19
 19	lägre	låg	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	0	root	0:root	_
 
