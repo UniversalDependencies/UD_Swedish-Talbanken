@@ -1,3 +1,22 @@
+id=sv-ud-train-4141#2
+2	märke	märke	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	1	compound:prt	1:compound:prt	_
+
+id=sv-ud-train-4141#3
+3	till	till	ADP	PP	_	5	case	5:case	SpaceAfter=No
+
+id=sv-ud-train-4141#4
+4	:	:	PUNCT	MID	_	5	punct	5:punct	_
+
+id=sv-ud-train-4141#5
+5	för	för	ADP	PP	_	1	obl	1:obl:till	_
+
+id=sv-ud-train-4141#6
+6	att	att	PART	IE	_	5	dep	5:dep	SpaceAfter=No
+
+id=sv-ud-train-4141#7
+7	.	.	PUNCT	MAD	_	1	punct	1:punct	_
+
+
 id=sv-ud-train-4056#11
 11	beroende	beroende	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Tense=Pres|VerbForm=Part	2	advcl	2:advcl	_
 
