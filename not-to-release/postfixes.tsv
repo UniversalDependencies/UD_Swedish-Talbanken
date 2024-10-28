@@ -1,3 +1,24 @@
+id=sv-ud-train-4056#11
+11	beroende	beroende	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Tense=Pres|VerbForm=Part	2	advcl	2:advcl	_
+
+id=sv-ud-train-4056#12
+12	på	på	ADP	PP	_	18	mark	18:mark	_
+
+id=sv-ud-train-4056#13
+13	om	om	SCONJ	SN	_	18	mark	18:mark	_
+
+id=sv-ud-train-4056#14
+14	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	18	nsubj	18:nsubj	_
+
+id=sv-ud-train-4056#18
+18	förmån	förmån	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	obl	11:obl:på_om	CxnElt=2:Conditional-Marker.Protasis
+
+id=sv-ud-train-4056#20
+20	ej	ej	PART	AB	Polarity=Neg	18	conj	11:advcl:på_om|18:conj	SpaceAfter=No
+
+id=sv-ud-train-4056#19
+19	eller	eller	CCONJ	KN	_	20	cc	20:cc	_
+
 id=sv-ud-dev-442#4
 4	förr	förr	ADJ	JJ|-|-|-|-	_	5	obl	5:obl:till_skillnad_mot	_
 
