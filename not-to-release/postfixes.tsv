@@ -530,11 +530,11 @@ id=sv-ud-test-875#24
 id=sv-ud-test-875#20
 20	än	än	SCONJ	KN	_	22	case	24:case	_
 
-id=sv-ud-test-875#21
-21	i	i	ADP	PP	_	22	case	22:case	_
-
 id=sv-ud-test-875#22
 22	samband	samband	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	19	obl	19:obl:än_i	_
+
+id=sv-ud-test-875#21
+21	i	i	ADP	PP	_	22	case	22:case	_
 
 id=sv-ud-test-875#23
 23	med	med	ADP	PP	_	24	case	24:case	_

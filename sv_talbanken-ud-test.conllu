@@ -3991,7 +3991,7 @@
 20	fråga	fråga	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	obl	16:obl:utom_i	_
 21	om	om	ADP	PP	_	23	case	23:case	_
 22	ekonomiska	ekonomisk	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	23	amod	23:amod	_
-23	förhållanden	förhållande	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	20	nmod	20:om	SpaceAfter=No
+23	förhållanden	förhållande	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	20	nmod	20:nmod:om	SpaceAfter=No
 24	.	.	PUNCT	MAD	_	16	punct	16:punct	_
 
 # newpar id = P114.13
@@ -16849,13 +16849,13 @@
 17	kunnat	kunna	AUX	VB|SUP|AKT	VerbForm=Sup|Voice=Act	18	aux	18:aux	_
 18	höjas	höja	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	0	root	0:root	_
 19	annat	annan	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	18	obl	18:obl	_
-20	än	än	SCONJ	KN	_	24	case	24:case	_
+20	än	än	SCONJ	KN	_	22	case	24:case	_
 21	i	i	ADP	PP	_	22	case	22:case	_
-22	samband	samband	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	19	obl	19:obl:i	_
+22	samband	samband	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	19	obl	19:obl:än_i	_
 23	med	med	ADP	PP	_	24	case	24:case	_
-24	ombyggnad	ombyggnad	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	22	nmod	22:nmod:än_med	_
+24	ombyggnad	ombyggnad	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	22	nmod	22:nmod:med	_
 25	och	och	CCONJ	KN	_	26	cc	26:cc	_
-26	förbättring	förbättring	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	24	conj	18:obl:i_samband_med|24:conj:och	SpaceAfter=No
+26	förbättring	förbättring	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	24	conj	22:nmod:med|24:conj	_
 27	.	.	PUNCT	MAD	_	18	punct	18:punct	_
 
 # sent_id = sv-ud-test-876
