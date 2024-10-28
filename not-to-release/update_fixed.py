@@ -398,8 +398,9 @@ def ALLTEFTERSOM_1(exp):
     som_node = exp['children'][1]
 
     efter_node.lemma = 'eftersom'
+    efter_node.feats = 'Typo=Yes'
     som_node.lemma = '_'
-    set_new_pos(som_node, 'X', 'HA', 'Typo=Yes')
+    som_node.upos = 'X'
 
     set_new_deps(efter_node, parent_node, 'mark')
     set_new_deps(som_node, efter_node, 'goeswith')
