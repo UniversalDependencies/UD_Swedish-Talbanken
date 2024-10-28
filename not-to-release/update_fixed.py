@@ -1339,6 +1339,8 @@ def PR_ADV_VB(exp):
 
     if head_node.form in {'vad'}:
         set_new_pos(head_node, 'PRON', 'HP|NEU|SIN|IND', 'Definite=Ind|Gender=Neut|Number=Sing|PronType=Int')
+    if vb_node.upos == 'VERB':
+        set_new_pos(vb_node, 'AUX', 'VB|PRS|AKT', 'Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act')
 
     set_new_deps(adv_node, parent_node, 'parataxis')
     set_new_deps(head_node, adv_node, 'nsubj')
