@@ -527,6 +527,18 @@ id=sv-ud-test-637#6
 id=sv-ud-test-637#5
 5	än	än	SCONJ	KN	_	6	case	6:case	_
 
+id=sv-ud-test-1065#1
+1	Något	någon	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	7	obj	7:obj	_
+
+id=sv-ud-test-1065#2
+2	av	av	ADP	PP	_	4	case	4:case	_
+
+id=sv-ud-test-1065#4
+4	samma	samma	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos	1	nmod	1:nmod:av	_
+
+id=sv-ud-test-1065#3
+3	det	den	DET	DT|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	4:det	_
+
 id=sv-ud-test-875#19
 19	annat	annan	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	18	obl	18:obl	_
 
