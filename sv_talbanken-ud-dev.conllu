@@ -207,7 +207,7 @@
 12	samtidigt	samtidig	ADV	AB	_	21	advcl	21:advcl	_
 13	med	med	ADP	PP	_	15	mark	15:mark	_
 14	att	att	PART	IE	_	15	mark	15:mark	_
-15	ge	ge	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	12	advcl	12:advcl:med:att	_
+15	ge	ge	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	12	advcl	12:advcl:med_att	_
 16	barnen	barn	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	15	iobj	15:iobj	_
 17	vänskap	vänskap	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	15	obj	15:obj	_
 18	och	och	CCONJ	KN	_	19	cc	19:cc	_
@@ -2323,7 +2323,7 @@
 18	med	med	ADP	PP	_	21	mark	21:mark	_
 19	att	att	SCONJ	SN	_	21	mark	21:mark	_
 20	rösträtten	rösträtt	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	21	nsubj	21:nsubj|22:nsubj	_
-21	blev	bli	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	17	advcl	17:advcl:med:att	_
+21	blev	bli	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	17	advcl	17:advcl:med_att	_
 22	allmän	allmän	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	21	xcomp	21:xcomp	_
 23	även	även	ADV	AB	_	25	advmod	25:advmod	_
 24	för	för	ADP	PP	_	25	case	25:case	_
@@ -8316,7 +8316,7 @@
 18	kvinnor	kvinna	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	22	nsubj:pass	22:nsubj:pass|28:nsubj	_
 19	såväl	såväl	CCONJ	KN	_	21	cc	21:cc	_
 20	som	som	CCONJ	KN	_	21	cc	21:cc	_
-21	män	man	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	18	conj	18:conj:såväl:som|22:nsubj:pass	_
+21	män	man	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	18	conj	18:conj:såväl_som|22:nsubj:pass	_
 22	tillåts	tillåta	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	16	acl:relcl	16:acl:relcl	_
 23	först	först	ADV	AB	_	28	advmod	28:advmod	_
 24	och	och	CCONJ	KN	_	25	cc	25:cc	_
@@ -9598,7 +9598,7 @@
 16	av	av	ADP	PP	_	19	mark	19:mark	_
 17	om	om	SCONJ	SN	_	19	mark	19:mark	_
 18	äktenskapet	äktenskap	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	19	nsubj	19:nsubj|21:nsubj	_
-19	består	bestå	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	15:advcl:av:om	CxnElt=13:Conditional-Marker.Protasis
+19	består	bestå	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	15:advcl:av_om	CxnElt=13:Conditional-Marker.Protasis
 20	eller	eller	CCONJ	KN	_	21	cc	21:cc	_
 21	upplöses	upplösa	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	19	conj	13:advcl:oberoende_av|19:conj:eller	SpaceAfter=No
 22	.	.	PUNCT	MAD	_	4	punct	4:punct	SpaceAfter=No
