@@ -83,7 +83,7 @@ def update_deprels(nodes:list):
             mark_nodes = [child for child in node.children if child.deprel == 'mark']
             for dep in node.deps:
                 if dep['parent'] == node.parent and dep['deprel'] in {'acl', 'advcl'}:
-                    deps.append({'parent': dep['parent'], 'deprel': f"{dep['deprel']}{':' if mark_nodes else ''}{':'.join([n.lemma for n in mark_nodes])}"})  
+                    deps.append({'parent': dep['parent'], 'deprel': f"{dep['deprel']}{':' if mark_nodes else ''}{'_'.join([n.lemma for n in mark_nodes])}"})  
 
         elif node.deprel in {'obl', 'nmod'}:
             case_nodes = [child for child in node.children if child.deprel == 'case']
@@ -91,11 +91,11 @@ def update_deprels(nodes:list):
                 case_nodes = [node]
             for dep in node.deps:
                 if dep['parent'] == node.parent and dep['deprel'] in {'obl', 'nmod'}:
-                    deps.append({'parent': dep['parent'], 'deprel': f"{dep['deprel']}{':' if case_nodes else ''}{':'.join([n.lemma for n in case_nodes])}"})
+                    deps.append({'parent': dep['parent'], 'deprel': f"{dep['deprel']}{':' if case_nodes else ''}{'_'.join([n.lemma for n in case_nodes])}"})
 
         elif node.deprel in {'conj'}:
             cc_nodes = [child for child in node.children if child.deprel == 'cc']
-            deps.append({'parent': node.parent, 'deprel': f"conj{':' if cc_nodes else ''}{':'.join([n.lemma for n in cc_nodes])}"}) 
+            deps.append({'parent': node.parent, 'deprel': f"conj{':' if cc_nodes else ''}{'_'.join([n.lemma for n in cc_nodes])}"}) 
             parent_dep = [dep for dep in node.parent.deps if dep['parent'] == node.parent.parent]
             if parent_dep:
                 deps.insert(0, parent_dep[0])
