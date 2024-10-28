@@ -17,16 +17,16 @@ python3 sv_talbanken_updates_2024.py \
     --partlist ./participle_classification_list.tsv \
     --manual_def_num ./manual_def_num.tsv
 
-python3 ./update_fixed.py \
-    --infile ./output/temp/sv6.conllu \
-    --fixedfile ./fixed_expression_table.csv \
-    --outfile ./output/temp/sv7.conllu \
-    # --verbose
-
 python3 ucxn_update.py \
-    --infile ./output/temp/sv7.conllu \
+    --infile ./output/temp/sv6.conllu \
     --ucxnfile ./ucxn_ud_swedish-talbanken.conllu \
-    --outfile ./output/temp/sv8.conllu
+    --outfile ./output/temp/sv7.conllu
+
+python3 ./update_fixed.py \
+    --infile ./output/temp/sv7.conllu \
+    --fixedfile ./fixed_expression_table.csv \
+    --outfile ./output/temp/sv8.conllu \
+    # --verbose
 
 python3 tokens-with-spaces.py ./output/temp/sv8.conllu ./output/tokens-with-spaces.txt
 python3 make_edeprel.py ./output/temp/sv8.conllu ./output/edeprel.sv
