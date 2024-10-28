@@ -11,7 +11,7 @@ id=sv-ud-train-4056#14
 14	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	18	nsubj	18:nsubj	_
 
 id=sv-ud-train-4056#18
-18	förmån	förmån	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	obl	11:obl:på_om	CxnElt=2:Conditional-Marker.Protasis
+18	förmån	förmån	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	advcl	11:advcl:på_om	CxnElt=2:Conditional-Marker.Protasis
 
 id=sv-ud-train-4056#20
 20	ej	ej	PART	AB	Polarity=Neg	18	conj	11:advcl:på_om|18:conj	SpaceAfter=No
