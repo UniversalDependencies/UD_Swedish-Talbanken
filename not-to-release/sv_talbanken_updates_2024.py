@@ -205,6 +205,7 @@ def update_deprels(nodes:list):
             if parent_dep:
                 deps.insert(0, parent_dep[0])
         
+        deps = sorted(deps, key=lambda a: a['parent'])
         node.deps = deps if deps else node.deps
 
     

@@ -100,6 +100,7 @@ def update_deprels(nodes:list):
             if parent_dep:
                 deps.insert(0, parent_dep[0])
         
+        deps = sorted(deps, key=lambda a: a['parent'])
         node.deps = deps if deps else node.deps
 
 def ABBR(exp):
@@ -1247,7 +1248,7 @@ def P_TID_TAG(exp):
 
     nn_node.upos = 'NOUN'
     nn_node.feats = {'Case': 'Nom',
-                     'Defininte': 'Ind'}
+                     'Definite': 'Ind'}
     
     if head_node.deprel in {'advmod'}:
         set_new_deps(nn_node, parent_node, 
@@ -1294,11 +1295,11 @@ def P_TID_TID_TAG(exp):
     if nn1_node.upos != 'NOUN':
         nn1_node.upos = 'NOUN'
         nn1_node.feats = {'Case': 'Nom',
-                        'Defininte': 'Ind'}
+                        'Definite': 'Ind'}
     if nn2_node.upos != 'NOUN':
         nn2_node.upos = 'NOUN'
         nn2_node.feats = {'Case': 'Nom',
-                        'Defininte': 'Ind'}
+                        'Definite': 'Ind'}
         
     set_new_deps(nn1_node, parent_node, head_node.deprel)
     set_new_deps(nn2_node, nn1_node, 'nmod')
@@ -1695,10 +1696,17 @@ def SC_PR_VB(exp):
     pr_node = exp['children'][0]
     vb_node = exp['children'][1]
 
-    set_new_deps(vb_node, parent_node.parent, parent_node.deprel)
-    set_new_deps(parent_node, vb_node, 'advcl')
-    set_new_deps(pr_node, vb_node, 'nsubj')
-    set_new_deps(head_node, vb_node, 'mark')
+    if parent_node.deprel in ['nmod', 'acl']:
+        set_new_deps(vb_node, parent_node.parent, 'acl')
+    else:
+        set_new_deps(vb_node, parent_node.parent, 'advcl')
+
+    if parent_node.deprel in ['nmod', 'obl']:
+        set_new_deps(parent_node, vb_node, 'obj')
+    elif parent_node.feats['VerbForm'] == 'Fin':
+        set_new_deps(parent_node, vb_node, 'ccomp')
+    else:
+        set_new_deps(parent_node, vb_node, 'xcomp')
 
     transfer_children(head_node, vb_node)
 
@@ -1877,9 +1885,6 @@ def VB_P(exp):
     else:
         set_new_deps(parent_node, head_node, 'advcl')
         set_new_deps(p_node, parent_node, 'mark')
-
-    
-
 
     update_deprels([head_node, parent_node])
 
