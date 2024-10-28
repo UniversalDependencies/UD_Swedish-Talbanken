@@ -140,8 +140,8 @@
 # sent_id = sv-ud-test-9
 # text = Allt efter som prisläget förändras, ändras också basbeloppet.
 1	Allt	all	ADV	AB	_	2	advmod	2:advmod	_
-2	efter	efter	ADP	PP	_	5	mark	5:mark	_
-3	som	som	ADV	HA	_	2	goeswith	2:goeswith	_
+2	efter	eftersom	ADP	PP	_	5	mark	5:mark	_
+3	som	_	X	HA	Typo=Yes	2	goeswith	2:goeswith	_
 4	prisläget	prisläge	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	5	nsubj:pass	5:nsubj:pass	_
 5	förändras	förändra	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	7	advcl	7:advcl:allt_efter_som	SpaceAfter=No
 6	,	,	PUNCT	MID	_	7	punct	7:punct	_
