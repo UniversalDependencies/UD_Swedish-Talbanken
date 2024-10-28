@@ -1672,7 +1672,7 @@
 20	hinder	hinder	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	17	obj	17:obj	_
 21	och	och	CCONJ	KN	_	24	cc	24:cc	_
 22	mer	mycket	ADV	AB|KOM	Degree=Cmp	24	advmod	24:advmod	_
-23	än	än	SCONJ	KN	_	24	advmod	24:advmod	_
+23	än	än	SCONJ	KN	_	24	mark	24:mark	_
 24	kompenserar	kompensera	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	conj	2:acl:relcl|14:conj:och	_
 25	för	för	ADP	PP	_	27	case	27:case	_
 26	de	de	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	27	det	27:det	_

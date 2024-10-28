@@ -374,7 +374,7 @@ id=sv-ud-dev-54#35
 35	mottaglighet	mottaglighet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	33	obj	33:obj	SpaceAfter=No
 
 id=sv-ud-dev-62#23
-23	än	än	SCONJ	KN	_	24	advmod	24:advmod	_
+23	än	än	SCONJ	KN	_	24	mark	24:mark	_
 
 id=sv-ud-dev-107#9
 9	gäller	gälla	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	4:advcl	_
