@@ -4878,7 +4878,7 @@
 13	,	,	PUNCT	MID	_	12	punct	12:punct	_
 14	t.ex.	till_exempel	ADV	AB|AN	Abbr=Yes	19	advmod	19:advmod	_
 15	när	när	ADV	HA	_	19	case	19:case	_
-16	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	17	fixed	17:fixed	_
+16	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	17	nsubj	17:nsubj	_
 17	gäller	gälla	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	12:advcl	_
 18	att	att	PART	IE	_	19	mark	19:mark	_
 19	gå	gå	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	17	xcomp	17:xcomp	SpaceAfter=No
@@ -11386,7 +11386,7 @@
 # sent_id = sv-ud-test-594
 # text = När det gäller de äldre patienterna där man önskar undersöka hjärnvätskans cirkulation sprutas det radioaktiva ämnet in i ryggmärgsvätskan och man kan med hjälp av gammakameran följa ämnets passage, om denna är fördröjd eller sker på vägar som avviker från det normala mönstret.
 1	När	när	ADV	HA	_	6	case	6:case	_
-2	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	3	fixed	3:fixed	_
+2	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	3	nsubj	3:nsubj	_
 3	gäller	gälla	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	13	advcl	13:advcl	_
 4	de	de	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	6	det	6:det	_
 5	äldre	gammal	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	6	amod	6:amod	_
@@ -16617,7 +16617,7 @@
 17	önskade	önskad	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Tense=Past|VerbForm=Part	18	amod	18:amod	_
 18	gränserna	gräns	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	13	obl	13:obl:inom	_
 19	när	när	ADV	HA	_	22	case	22:case	_
-20	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	21	fixed	21:fixed	_
+20	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	21	nsubj	21:nsubj	_
 21	gällt	gälla	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	13	advcl	13:advcl	_
 22	nyproduktion	nyproduktion	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	21	obj	21:obj	SpaceAfter=No
 23	.	.	PUNCT	MAD	_	3	punct	3:punct	_
@@ -19522,7 +19522,7 @@
 5	med	med	ADP	PP	_	6	case	6:case	_
 6	undervisningen	undervisning	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	3	obl	3:obl:med	_
 7	när	när	SCONJ	HA	_	11	mark	11:mark	_
-8	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	9	fixed	9:fixed	_
+8	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	9	nsubj	9:nsubj	_
 9	gäller	gälla	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	3:advcl	_
 10	att	att	PART	IE	_	11	mark	11:mark	_
 11	sudda	sudda	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	9	xcomp	9:xcomp	_
@@ -22721,7 +22721,7 @@
 3	drar	dra	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	3	nsubj	3:nsubj	_
 5	när	när	ADV	HA	_	8	case	8:case	_
-6	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	7	fixed	7:fixed	_
+6	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	7	nsubj	7:nsubj	_
 7	gäller	gälla	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	3:advcl	_
 8	direktiven	direktiv	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	7	obj	7:obj	_
 9	till	till	ADP	PP	_	10	case	10:case	_

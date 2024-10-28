@@ -1710,6 +1710,8 @@ def SC_PR_VB(exp):
     else:
         set_new_deps(parent_node, vb_node, 'xcomp')
 
+    set_new_deps(pr_node, vb_node, 'nsubj')
+
     transfer_children(head_node, vb_node)
 
     update_deprels([vb_node, pr_node, parent_node])
