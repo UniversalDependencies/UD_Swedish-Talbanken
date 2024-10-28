@@ -4300,13 +4300,13 @@
 3	naturligtvis	naturligtvis	ADV	AB	_	5	advmod	5:advmod	_
 4	pappan	pappa	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	5	nsubj	5:nsubj	_
 5	den	den	PRON	PN|UTR|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	0	root	0:root|9:nsubj	_
-6	som	som	PRON	HP|-|-|-	PronType=Rel	9	nsubj	5:ref	_
-7	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	9:cop	_
-8	närmast	nära	ADV	AB|SUV	Degree=Sup	9	advmod	9:advmod	_
+6	som	som	PRON	HP|-|-|-	PronType=Rel	10	nsubj	10:nsubj	_
+7	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	10:cop	_
+8	närmast	nära	ADV	AB|SUV	Degree=Sup	10	advmod	10:advmod	_
 9	till	till	ADP	PP	_	10	case	10:case	_
 10	hands	hands	NOUN	NN|UTR|SIN|IND|GEN	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	5	acl:relcl	5:acl:relcl	_
 11	att	att	PART	IE	_	12	mark	12:mark	_
-12	dela	dela	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	9	advcl	9:advcl:att	_
+12	dela	dela	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	10	advcl	10:advcl	_
 13	både	både	CCONJ	KN	_	14	cc	14:cc	_
 14	bekymmer	bekymmer	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	12	nsubj	12:nsubj	_
 15	och	och	CCONJ	KN	_	16	cc	16:cc	_
@@ -6295,7 +6295,7 @@
 11	alla	all	DET	DT|UTR/NEU|PLU|IND/DEF	Number=Plur|PronType=Tot	13	det	13:det	_
 12	sådana	sådan	ADJ	JJ|POS|UTR/NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	13	amod	13:amod	_
 13	beräkningar	beräkning	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	10	obj	10:obj	_
-14	hopplöst	hopplös	ADV	AB|POS	Degree=Pos	15	advmod	15:advmod	_
+14	hopplöst	hopplös	ADV	AB|POS	Degree=Pos	16	advmod	16:advmod	_
 15	på	på	ADP	PP	_	16	case	16:case	_
 16	efterkälken	efterkälken	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	10	obl	10:obl:på	SpaceAfter=No
 17	.	.	PUNCT	MAD	_	3	punct	3:punct	_
@@ -6317,7 +6317,7 @@
 # text = Våra miljövårdsproblem av i dag kommer att framstå som idylliska.
 1	Våra	vi	PRON	PS|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	_
 2	miljövårdsproblem	miljövårdsproblem	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	8	nsubj	8:nsubj|10:nsubj	_
-3	av	av	ADP	PP	_	4	case	4:case	_
+3	av	av	ADP	PP	_	5	case	5:case	_
 4	i	i	ADP	PP	_	5	case	5:case	_
 5	dag	dag	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	nmod	2:nmod:i	_
 6	kommer	komma	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	8:aux	_
@@ -12223,14 +12223,14 @@
 3	stor	stor	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	4	amod	4:amod	_
 4	skillnad	skillnad	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	nsubj	5:nsubj	_
 5	ligger	ligga	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-6	däri	däri	ADV	AB	_	10	mark	10:mark	_
-7	att	att	SCONJ	SN	_	10	mark	10:mark	_
-8	människan	människa	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	10	nsubj	10:nsubj	_
-9	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	10:cop	_
+6	däri	däri	ADV	AB	_	11	mark	11:mark	_
+7	att	att	SCONJ	SN	_	11	mark	11:mark	_
+8	människan	människa	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	11	nsubj	11:nsubj	_
+9	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	11:cop	_
 10	i	i	ADP	PP	_	11	case	11:case	_
 11	stånd	stånd	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	5	advcl	5:advcl	_
 12	att	att	PART	IE	_	13	mark	13:mark	_
-13	utforska	utforska	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	10	advcl	10:advcl:att	_
+13	utforska	utforska	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	11	advcl	11:advcl	_
 14	sitt	sig	PRON	PS|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	_
 15	eget	egen	ADJ	JJ|POS|NEU|SIN|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	16	amod	16:amod	_
 16	psyke	psyke	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	13	obj	13:obj	_
@@ -14578,7 +14578,7 @@
 7	efter	efter	ADP	PP	_	8	case	8:case	_
 8	ämnet	ämne	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	6	nmod	6:nmod:efter	_
 9	i	i	ADP	PP	_	10	case	10:case	_
-10	fråga	fråga	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	nmod	7:nmod:i	_
+10	fråga	fråga	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	nmod	8:nmod:i	_
 11	och	och	CCONJ	KN	_	19	cc	19:cc	_
 12	mer	mycket	ADV	AB|KOM	Degree=Cmp	15	advmod	15:advmod	_
 13	eller	eller	CCONJ	KN	_	14	cc	14:cc	_
@@ -20561,9 +20561,9 @@
 # sent_id = sv-ud-test-1065
 # text = Något av det samma kan vi studera där zigenarna ännu lever i sina ursprungliga storfamiljer.
 1	Något	någon	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	7	obj	7:obj	_
-2	av	av	ADP	PP	_	4	case	4:case	_
-3	det	den	DET	DT|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	4:det	_
-4	samma	samma	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos	1	nmod	1:nmod:av	_
+2	av	av	ADP	PP	_	3	case	3:case	_
+3	det	den	DET	DT|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	1	det	1:det	_
+4	samma	samma	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos	1	amod	1:amod	_
 5	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	7:aux	_
 6	vi	vi	PRON	PN|UTR|PLU|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	7	nsubj	7:nsubj	_
 7	studera	studera	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	0	root	0:root	_

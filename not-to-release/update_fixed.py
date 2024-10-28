@@ -499,6 +499,8 @@ def CASE(exp):
 
     update_deprels([head_node, second_node])
 
+    transfer_children(head_node, second_node)
+
     changes.append(exp) 
 
 def CASE_DET(exp):
