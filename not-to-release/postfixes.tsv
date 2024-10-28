@@ -11,7 +11,7 @@ id=sv-ud-test-218#21
 21	om	om	ADP	PP	_	23	case	23:case	_
 
 id=sv-ud-test-218#23
-23	förhållanden	förhållande	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	20	nmod	20:om	SpaceAfter=No
+23	förhållanden	förhållande	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	20	nmod	20:nmod:om	SpaceAfter=No
 
 id=sv-ud-dev-56#7
 7	Kibbutzchildren	Kibbutzchildren	NOUN	NN	_	3	parataxis	3:parataxis	Lang=en
@@ -528,7 +528,22 @@ id=sv-ud-test-875#24
 24	ombyggnad	ombyggnad	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	19	obl	19:obl:än	_
 
 id=sv-ud-test-875#20
-20	än	än	SCONJ	KN	_	24	case	24:case	_
+20	än	än	SCONJ	KN	_	22	case	24:case	_
+
+id=sv-ud-test-875#21
+21	i	i	ADP	PP	_	22	case	22:case	_
+
+id=sv-ud-test-875#22
+22	samband	samband	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	19	obl	19:obl:än_i	_
+
+id=sv-ud-test-875#23
+23	med	med	ADP	PP	_	24	case	24:case	_
+
+id=sv-ud-test-875#24
+24	ombyggnad	ombyggnad	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	22	nmod	22:nmod:med	_
+
+id=sv-ud-test-875#26
+26	förbättring	förbättring	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	24	conj	22:nmod:med|24:conj	_
 
 id=sv-ud-test-918#5
 5	mer	mycket	ADV	AB|KOM	Degree=Cmp	3	obl	3:obl:med	_
