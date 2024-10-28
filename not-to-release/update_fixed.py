@@ -486,7 +486,7 @@ def CASE(exp):
 
     if head_node.deprel in {'advmod', 'compound:prt'}:
         set_new_deps(second_node, parent_node, 
-                    'nmod' if not parent_node.upos in {'NOUN', 'PRON', 'PROPN', 'NUM'} else 'obl')
+                    'nmod' if parent_node.upos in {'NOUN', 'PRON', 'PROPN', 'NUM'} else 'obl')
     else:
         set_new_deps(second_node, parent_node, 
                     head_node.deprel)
@@ -507,7 +507,7 @@ def CASE_DET(exp):
 
     if head_node.deprel in {'advmod'}:
         set_new_deps(noun_node, parent_node, 
-                    'nmod' if not parent_node.upos in {'NOUN', 'PRON', 'PROPN', 'NUM'} else 'obl')
+                    'nmod' if parent_node.upos in {'NOUN', 'PRON', 'PROPN', 'NUM'} else 'obl')
     else:
         set_new_deps(noun_node, parent_node, 
                     head_node.deprel)
@@ -676,7 +676,7 @@ def DET_NN(exp):
     nn_node = exp['children'][0]
 
     if head_node.deprel in {'advmod'}:
-        set_new_deps(nn_node, parent_node, 'nmod' if not parent_node.upos in {'NOUN', 'PRON', 'PROPN', 'NUM'} else 'obl')
+        set_new_deps(nn_node, parent_node, 'nmod' if parent_node.upos in {'NOUN', 'PRON', 'PROPN', 'NUM'} else 'obl')
         set_new_deps(head_node, nn_node, 'det')
         transfer_children(head_node, nn_node)
     else:
@@ -762,6 +762,8 @@ def IJ_X(exp):
     parent_node = head_node.parent
 
     adv_node = exp['children'][0]
+
+    set_new_pos(adv_node, 'ADV', 'AB', '_')
 
     set_new_deps(head_node, parent_node, 'discourse')
     set_new_deps(adv_node, parent_node, 'advmod')
@@ -851,7 +853,7 @@ def JJ_NN(exp):
     nn_node = exp['children'][0]
     if head_node.deprel in {'advmod'}:
         set_new_deps(nn_node, parent_node, 
-                    'nmod' if not parent_node.upos in {'NOUN', 'PRON', 'PROPN', 'NUM'} else 'obl')
+                    'nmod' if parent_node.upos in {'NOUN', 'PRON', 'PROPN', 'NUM'} else 'obl')
     else:
         set_new_deps(nn_node, parent_node, head_node.deprel)
     set_new_deps(head_node, nn_node, 'amod')
@@ -921,7 +923,7 @@ def P_ADV_NN(exp):
     
     if head_node.deprel in {'advmod'}:
         set_new_deps(nn_node, parent_node, 
-                     'nmod' if not parent_node.upos in {'NOUN', 'PRON', 'PROPN', 'NUM'} else 'obl')
+                     'nmod' if parent_node.upos in {'NOUN', 'PRON', 'PROPN', 'NUM'} else 'obl')
     else:    
         set_new_deps(nn_node, parent_node, head_node.deprel)
     set_new_deps(head_node, nn_node, 'case')
@@ -1023,7 +1025,7 @@ def P_JJ_NN(exp):
 
     if head_node.deprel in {'advmod'}:
         set_new_deps(nn_node, parent_node, 
-                    'nmod' if not parent_node.upos in {'NOUN', 'PRON', 'PROPN', 'NUM'} else 'obl')
+                    'nmod' if parent_node.upos in {'NOUN', 'PRON', 'PROPN', 'NUM'} else 'obl')
     else:
         set_new_deps(nn_node, parent_node, 
                     head_node.deprel)
@@ -1068,7 +1070,7 @@ def P_NN_CC_NN(exp):
 
     if head_node.deprel in {'advmod'}:
         set_new_deps(jj1_node, parent_node, 
-                    'nmod' if not parent_node.upos in {'NOUN', 'PRON', 'PROPN', 'NUM'} else 'obl')
+                    'nmod' if parent_node.upos in {'NOUN', 'PRON', 'PROPN', 'NUM'} else 'obl')
     else:
         set_new_deps(jj1_node, parent_node, 
                     head_node.deprel)
@@ -1091,10 +1093,11 @@ def P_NN_P(exp):
     nn_node = exp['children'][0]
     p_node = exp['children'][1]
 
+
     set_new_deps(nn_node, parent_node.parent, parent_node.deprel)
     set_new_deps(head_node, nn_node, 'case')
-    set_new_deps(parent_node, nn_node, 'nmod')
     set_new_deps(p_node, parent_node, 'case')
+    set_new_deps(parent_node, nn_node, 'nmod')
 
     transfer_children(head_node, nn_node)
 
@@ -1114,7 +1117,7 @@ def P_NN_P_NN(exp):
 
     if head_node.deprel in {'advmod'}:
         set_new_deps(nn1_node, parent_node, 
-                    'nmod' if not parent_node.upos in {'NOUN', 'PRON', 'PROPN', 'NUM'} else 'obl')
+                    'nmod' if parent_node.upos in {'NOUN', 'PRON', 'PROPN', 'NUM'} else 'obl')
     else:
         set_new_deps(nn1_node, parent_node, 
                     head_node.deprel)
@@ -1162,7 +1165,7 @@ def P_NN_TAG(exp):
     
     if head_node.deprel in {'advmod'}:
         set_new_deps(nn_node, parent_node, 
-                    'nmod' if not parent_node.upos in {'NOUN', 'PRON', 'PROPN', 'NUM'} else 'obl')
+                    'nmod' if parent_node.upos in {'NOUN', 'PRON', 'PROPN', 'NUM'} else 'obl')
     else:
         set_new_deps(nn_node, parent_node, 
                     head_node.deprel)
@@ -1225,7 +1228,7 @@ def P_PS_NN(exp):
 
     if head_node.deprel in {'advmod'}:
         set_new_deps(nn_node, parent_node, 
-                    'nmod' if not parent_node.upos in {'NOUN', 'PRON', 'PROPN', 'NUM'} else 'obl')
+                    'nmod' if parent_node.upos in {'NOUN', 'PRON', 'PROPN', 'NUM'} else 'obl')
     else:
         set_new_deps(nn_node, parent_node, 
                     head_node.deprel)
@@ -1252,7 +1255,7 @@ def P_TID_TAG(exp):
     
     if head_node.deprel in {'advmod'}:
         set_new_deps(nn_node, parent_node, 
-                    'nmod' if not parent_node.upos in {'NOUN', 'PRON', 'PROPN', 'NUM'} else 'obl')
+                    'nmod' if parent_node.upos in {'NOUN', 'PRON', 'PROPN', 'NUM'} else 'obl')
     else:
         set_new_deps(nn_node, parent_node, 
                     head_node.deprel)
@@ -1506,7 +1509,7 @@ def PS_NN(exp):
 
     if head_node.deprel in {'advmod'}:
         set_new_deps(nn_node, parent_node, 
-                    'nmod' if not parent_node.upos in {'NOUN', 'PRON', 'PROPN', 'NUM'} else 'obl')
+                    'nmod' if parent_node.upos in {'NOUN', 'PRON', 'PROPN', 'NUM'} else 'obl')
     else:
         set_new_deps(nn_node, parent_node, 
                     head_node.deprel)

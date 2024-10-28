@@ -1,3 +1,9 @@
+id=sv-ud-dev-442#4
+4	förr	förr	ADJ	JJ|-|-|-|-	_	5	obl	5:obl:till_skillnad_mot	_
+
+id=sv-ud-test-1203#14
+14	gifta	gift	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	4	obl	4:obl:i_förhållande_till	SpaceAfter=No
+
 id=sv-ud-test-218#20
 20	fråga	fråga	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	obl	16:obl:utom_i	_
 
