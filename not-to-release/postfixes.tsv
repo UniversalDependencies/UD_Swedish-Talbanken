@@ -4,11 +4,11 @@ id=sv-ud-dev-56#7
 id=sv-ud-dev-56#9
 9	Researchfindings	Researchfindings	NOUN	NN	_	7	parataxis	7:parataxis	Lang=en
 
-id=sv-ud-dev-56#10
-10	to	to	ADP	PP	_	11	case	11:case	Lang=en
-
 id=sv-ud-dev-56#11
 11	Date	Date	NOUN	NN	_	9	obl	9:obl:to	Lang=en|SpaceAfter=No
+
+id=sv-ud-dev-56#10
+10	to	to	ADP	PP	_	11	case	11:case	Lang=en
 
 id=sv-ud-train-132#10
 10	mer	mycket	ADV	AB|KOM	Degree=Cmp	9	obj	9:obj	_
