@@ -1,11 +1,11 @@
+id=sv-ud-test-218#20
+20	fråga	fråga	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	obl	16:obl:utom_i	_
+
 id=sv-ud-test-218#18
 18	utom	utom	CCONJ	KN	_	20	case	20:case	_
 
 id=sv-ud-test-218#19
 19	i	i	ADP	PP	_	20	case	20:case	_
-
-id=sv-ud-test-218#20
-20	fråga	fråga	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	obl	16:obl:utom_i	_
 
 id=sv-ud-test-218#21
 21	om	om	ADP	PP	_	23	case	23:case	_
