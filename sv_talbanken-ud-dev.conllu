@@ -1558,7 +1558,7 @@
 8	-	-	PUNCT	MID	_	7	punct	7:punct	_
 9	Researchfindings	Researchfindings	NOUN	NN	_	7	parataxis	7:parataxis	Lang=en
 10	to	to	ADP	PP	_	11	case	11:case	Lang=en
-11	Date	Date	NOUN	NN	_	9	obl	9:obl:to	Lang=en|SpaceAfter=No
+11	Date	Date	NOUN	NN	_	9	obl	9:obl	Lang=en|SpaceAfter=No
 12	.	.	PUNCT	MAD	_	7	punct	7:punct	_
 
 # sent_id = sv-ud-dev-57
