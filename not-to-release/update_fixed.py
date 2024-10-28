@@ -433,6 +433,8 @@ def ALLTEFTERSOM_3(exp):
 
     som_node = exp['children'][0]
 
+    set_new_pos(head_node, 'ADV', 'AB', '_')
+
     set_new_deps(som_node, parent_node, 'mark')
     set_new_deps(head_node, som_node, 'advmod')
 
