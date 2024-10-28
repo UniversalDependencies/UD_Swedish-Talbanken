@@ -1949,6 +1949,9 @@ def X_att(exp):
 
     att_node = exp['children'][0]
 
+    if att_node.form == 'det':
+        set_new_pos(att_node, 'SCONJ', 'SN', '_')
+
     set_new_deps(head_node, parent_node, 'mark')
     set_new_deps(att_node, parent_node, 'mark')
 
