@@ -549,7 +549,7 @@ id=sv-ud-test-875#24
 24	ombyggnad	ombyggnad	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	22	nmod	22:nmod:med	_
 
 id=sv-ud-test-875#26
-26	förbättring	förbättring	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	24	conj	22:nmod:med|24:conj	_
+26	förbättring	förbättring	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	24	conj	22:nmod:med|24:conj	SpaceAfter=No
 
 id=sv-ud-test-918#5
 5	mer	mycket	ADV	AB|KOM	Degree=Cmp	3	obl	3:obl:med	_
