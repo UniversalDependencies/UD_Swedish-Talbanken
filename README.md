@@ -195,6 +195,7 @@ From v2.13 to v2.14:
 - Harmonized lemmas and features for adjectives and determiners across all Swedish treebanks.
 
 From v2.14 to v2.15:
+- Revised the annotation of fixed expressions, reducing the number of fixed expressions in Swedish to 27.
 - Added construction annotation according to the UCxn guidelines.
 
 === Machine readable metadata ==============
