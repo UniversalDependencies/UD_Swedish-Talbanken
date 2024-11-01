@@ -196,8 +196,11 @@ From v2.13 to v2.14:
 
 From v2.14 to v2.15:
 - Revised the annotation of fixed expressions, reducing the number of fixed expressions in Swedish to 27.
-- Added construction annotation according to the UCxn guidelines.
+- Construction annotations in the [UCxn](https://github.com/LeonieWeissweiler/UCxn) framework added to MISC
+  - This release adds rule-based annotations of Interrogatives, Conditionals, Existentials, and NPN (noun-preposition-noun) constructions on the head of the respective phrase, plus construction elements.
+  - The UCxn v1 notation and categories are documented [here](https://github.com/LeonieWeissweiler/UCxn/blob/main/docs/UCxn-v1.pdf).
 
+<pre>
 === Machine readable metadata ==============
 Data available since: UD v1.0
 License: CC BY-SA 4.0
@@ -212,4 +215,4 @@ Contributors: Nivre, Joakim; Smith, Aaron; Norrman, Victor
 Contributing: elsewhere
 Contact: joakim.nivre@lingfil.uu.se
 ============================================
-
+<pre>
