@@ -19,12 +19,13 @@ Stockholm-Umeå Corpus, Version 2.0 (2006), and lemmatization is based on Saldo
 # Acknowledgments
 
 The new conversion has been performed by Joakim Nivre and Aaron Smith at Uppsala
-University. We thank everyone who has been involved in previous conversion efforts
-at Växjö University and Uppsala University, including Bengt Dahlqvist, Sofia
-Gustafson-Capkova, Johan Hall, Anna Sågvall Hein, Beáta Megyesi, Jens Nilsson, and
-Filip Salomonsson. Special thanks also to Lars Borin and Markus Forsberg at
-Språkbanken for help with the lemmatization. Finally, we owe a huge debt to the
-team who produced the original treebank in the 1970s.
+University. A semi-automatic correction of features and lemmas was done by Victor 
+Norrman and Joakim Nivre. We thank everyone who has been involved in previous 
+conversion efforts at Växjö University and Uppsala University, including Bengt 
+Dahlqvist, Sofia Gustafson-Capkova, Johan Hall, Anna Sågvall Hein, Beáta Megyesi, 
+Jens Nilsson, and Filip Salomonsson. Special thanks also to Lars Borin and Markus 
+Forsberg at Språkbanken for help with the lemmatization. Finally, we owe a huge 
+debt to the team who produced the original treebank in the 1970s.
 
 ## References
 
@@ -193,9 +194,13 @@ From v2.10 to v2,11
 From v2.13 to v2.14:
 - Harmonized lemmas and features for adjectives and determiners across all Swedish treebanks.
 
-From v2.14 to v2.15
-- Added construction annotation according to the UCxn guidlines
+From v2.14 to v2.15:
+- Revised the annotation of fixed expressions, reducing the number of fixed expressions in Swedish to 27.
+- Construction annotations in the [UCxn](https://github.com/LeonieWeissweiler/UCxn) framework added to MISC
+  - This release adds rule-based annotations of Interrogatives, Conditionals, Existentials, and NPN (noun-preposition-noun) constructions on the head of the respective phrase, plus construction elements.
+  - The UCxn v1 notation and categories are documented [here](https://github.com/LeonieWeissweiler/UCxn/blob/main/docs/UCxn-v1.pdf).
 
+<pre>
 === Machine readable metadata ==============
 Data available since: UD v1.0
 License: CC BY-SA 4.0
@@ -210,4 +215,4 @@ Contributors: Nivre, Joakim; Smith, Aaron; Norrman, Victor
 Contributing: elsewhere
 Contact: joakim.nivre@lingfil.uu.se
 ============================================
-
+<pre>

@@ -344,3 +344,20 @@ id=sv_lines-ud-train-doc1-34#1
 id=n01032032#15
 15	ny	ny	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	16	amod	16:amod	_
 
+id=sv-ud-test-942#4
+4	under	under	ADP	AB	_	3	advmod	3:advmod	_
+
+id=w05009044#36
+36	n't	not	PART	AB	_	37	advmod	37:advmod	Lang=en
+
+id=w05009044#37
+37	Go	go	VERB	VB|INF|AKT	VerbForm=Inf	2	parataxis	2:parataxis	Lang=en
+
+id=w05009044#38
+38	Breaking	Breaking	VERB	PC|PRS	VerbForm=Part	37	xcomp	37:xcomp	Lang=en
+
+id=w05009044#39
+39	My	my	PRON	PS|SIN	Number=Sing	40	nmod:poss	40:nmod:poss	Lang=en
+
+id=w05009044#40
+40	Heart	heart	NOUN	NN|SIN	Number=Sing	38	obj	38:obj	Lang=en|SpaceAfter=No

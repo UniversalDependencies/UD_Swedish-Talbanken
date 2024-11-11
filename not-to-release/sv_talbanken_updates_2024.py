@@ -71,8 +71,7 @@ ENGLISH_ADJ = ['first', 'south', 'royal', 'shaky', 'wild', 'golden',
                'arabic', 'brave', 'free', 'american', 'strange', 'talking', 
                'new', 'central', 'advanced', 'simple', 'boiling', 'economic',
                'european', 'intermittent', 'pressurized', 'swedish', 'united', 
-               'national', 'international', 'north', 'strange', 'civil', 
-               'breaking', 'environmental', 'political', 'universal']
+               'national', 'international', 'north', 'strange', 'civil', 'environmental', 'political', 'universal']
 
 # list of non-english foreign words that I found in Talbanken, PUD and LinES (that I found)
 FOREIGN = {'priori': 'la', 'restante': 'fr'}
@@ -177,6 +176,40 @@ def write_to_change_log(outfile, change_ids, changed_forms_by_id, change_log):
         for line in change_log:
             f.write(line+'\n')
 
+def set_new_deps(node, parent, deprel):
+    node.parent, node.deprel = parent, deprel
+    node.deps = [{'parent': parent, 'deprel': deprel}]
+
+def update_deprels(nodes:list):
+    assert isinstance(nodes, list)
+    for node in nodes:
+        deps = []
+        if node.deprel in {'acl', 'advcl'}:
+            mark_nodes = [child for child in node.children if child.deprel == 'mark']
+            for dep in node.deps:
+                if dep['parent'] == node.parent and dep['deprel'] in {'acl', 'advcl'}:
+                    deps.append({'parent': dep['parent'], 'deprel': f"{dep['deprel']}{':' if mark_nodes else ''}{':'.join([n.lemma for n in mark_nodes])}"})  
+
+        elif node.deprel in {'obl', 'nmod'}:
+            case_nodes = [child for child in node.children if child.deprel == 'case']
+            if not len(case_nodes) and node.upos == 'ADP' and [child for child in node.children if child.deprel == 'conj']:
+                case_nodes = [node]
+            for dep in node.deps:
+                if dep['parent'] == node.parent and dep['deprel'] in {'obl', 'nmod'}:
+                    deps.append({'parent': dep['parent'], 'deprel': f"{dep['deprel']}{':' if case_nodes else ''}{':'.join([n.lemma for n in case_nodes])}"})
+
+        elif node.deprel in {'conj'}:
+            cc_nodes = [child for child in node.children if child.deprel == 'cc']
+            deps.append({'parent': node.parent, 'deprel': f"conj{':' if cc_nodes else ''}{':'.join([n.lemma for n in cc_nodes])}"}) 
+            parent_dep = [dep for dep in node.parent.deps if dep['parent'] == node.parent.parent]
+            if parent_dep:
+                deps.insert(0, parent_dep[0])
+        
+        deps = sorted(deps, key=lambda a: a['parent'])
+        node.deps = deps if deps else node.deps
+
+    
+
 def change_adj_det_inconsistencies(doc, outfile):
     change_ids = []
     changed_forms_by_id = defaultdict(set)
@@ -247,7 +280,8 @@ def change_adj_det_inconsistencies(doc, outfile):
         elif tok.upos == 'ADJ' and tok.form.lower() in det_pron:
             if tok.deprel == 'amod':
                 tok.upos = 'DET'
-                tok.deprel = 'det'
+                set_new_deps(tok, tok.parent, 'det')
+                update_deprels([tok])
 
                 tok.feats['Case'] = None
                 tok.feats['Degree'] = None
@@ -274,7 +308,9 @@ def change_adj_det_inconsistencies(doc, outfile):
         elif (tok.upos == 'DET' or tok.deprel == 'det') and tok.form.lower() in adj:
             if tok.deprel == 'det' or tok.deprel == 'amod':
                 tok.upos = 'ADJ'
-                tok.deprel = 'amod'
+                set_new_deps(tok, tok.parent, 'amod')
+                update_deprels([tok])
+
                 tok.feats['PronType'] = None
                 tok.feats['Case'] = 'Nom'
                 tok.feats['Degree'] = 'Pos'
@@ -540,6 +576,8 @@ def change_participle_lemma(doc, outfile):
              'mantalskriven': 'mantalsskriven'}
 
     for tok in doc.nodes:
+        if tok.misc['Lang']:
+            continue
         if tok.upos in ('ADJ', 'VERB'):
             change_prefix = 'adj' if tok.upos == 'ADJ' else 'verb'
             change_id = None
@@ -974,18 +1012,18 @@ def change_abbr_lemma(doc, outfile):
                 change_id = 'abbr_cconj'
 
             elif tok.upos == 'PROPN':
-                if tok.form.lower() in ['AKP:s']:
+                if tok.form.lower() in ['akp:s']:
                     tok.lemma = 'AKP' # 'adalet_ve_kalkınma_partisi'
-                elif tok.form.lower() in ['ECB:s']:
-                    tok.lemma = 'europeiska_centralbanken'
+                elif tok.form.lower() in ['ecb:s']:
+                    tok.lemma = 'ECB'
                 elif tok.form.lower() in ['mps']:
                     tok.lemma = 'Mp' # 'miljöpartiet'
                 elif tok.form.lower() in ['rhs']:
                     tok.lemma = 'RHS' # 'refugee_health_screener'
-                elif tok.form.lower() in ['RSPB:s']:
+                elif tok.form.lower() in ['rspb:s']:
                     tok.lemma = 'RSPB' # 'the_royal_society_for_the_protection_of_birds'
-                elif tok.form.lower() in ['B.C.']:
-                    tok.lemma = 'brittish_columbia'
+                elif tok.form.lower() in ['b.c.']:
+                    tok.lemma = 'B.C.' # 'brittish_columbia'
 
                 change_id = 'abbr_propn'
            
@@ -1014,6 +1052,8 @@ def reclassify_participles(doc, outfile, participle_class_doc):
                 participle_classification[lemma.lower()] = part_class if not part_class == 'No' else None
 
     for tok in doc.nodes:
+        if tok.misc['Lang']:
+            continue
         change_id = None
         old_feats = tok.feats.__str__()
         was_verb = False
@@ -1844,6 +1884,27 @@ def manual_changes(doc, outfile, manual_changes_document):
             for line in change_log:
                 f.write(line+'\n')
 
+def fix_masc_gender(doc, outfile):
+    change_ids = []
+    changed_forms_by_id = defaultdict(set)
+    change_log = []
+    for tok in doc.nodes:
+        change_id = None
+        old_feats = tok.feats.__str__()
+
+        if tok.feats['Gender'] == 'Masc' and not tok.misc['Lang']:
+            tok.feats['Gender'] = 'Com'
+            change_id = 'Masc_Gender'
+        
+        if change_id != None:
+            new_feats = tok.feats.__str__()
+            if new_feats != old_feats:
+                change_ids.append(change_id)
+                changed_forms_by_id[change_id].add(tok.form)
+                change_log.append(f"{change_id=}\tsent_id='{tok.address()}'\t{tok.form=}\t{tok.lemma=}\t{old_feats=}\t{new_feats=}\ttext='{tok.root.compute_text()}'")
+
+    write_to_change_log(outfile.rsplit('.', maxsplit=1)[0]+'_masc_gender_changes.log', change_ids, changed_forms_by_id, change_log)
+
 if __name__ == '__main__':
     
     parser = argparse.ArgumentParser()
@@ -1883,8 +1944,11 @@ if __name__ == '__main__':
     change_den_det_de(doc, outfile)
     change_adj_feats(doc, outfile, manual_def_num_doc)
 
+    fix_masc_gender(doc, outfile)
+
     if postfixes_doc:
         manual_changes(doc, outfile, postfixes_doc)
 
+    print('Writing to', outfile)
     doc.store_conllu(filename=outfile)
 
