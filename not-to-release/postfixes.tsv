@@ -1,3 +1,168 @@
+id=sv-ud-train-84#1
+1	Märker	märka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	11:advcl	_
+
+id=sv-ud-train-84#10
+10	så	så	ADV	AB	_	11	advmod	11:advmod	_
+
+id=sv-ud-train-112#1
+1	Äger	äga	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	8:advcl	_
+
+id=sv-ud-train-112#7
+7	så	så	ADV	AB	_	8	advmod	8:advmod	_
+
+id=sv-ud-train-711#4
+4	anses	anse	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	10	advcl	10:advcl	_
+
+id=sv-ud-train-711#4
+7	så	så	ADV	AB	_	10	advmod	10:advmod	_
+
+id=sv-ud-train-914#3
+3	flyter	flyta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	17	advcl	17:advcl	_
+
+id=sv-ud-train-914#16
+16	så	så	ADV	AB	_	17	advmod	17:advmod	_
+
+id=sv-ud-train-1301#1
+1	Hör	höra	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	15:advcl	_
+
+id=sv-ud-train-1301#11
+11	så	så	ADV	AB	_	15	advmod	15:advmod	_
+
+id=sv-ud-train-1362#4
+4	vara	vara	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	12	advcl	12:advcl	_
+
+id=sv-ud-train-1362#8
+8	så	så	ADV	AB	_	12	advmod	12:advmod	_
+
+id=sv-ud-train-1432#2
+2	blir	bli	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	7:advcl	_
+
+id=sv-ud-train-1432#6
+6	så	så	ADV	AB	_	7	advmod	7:advmod	_
+
+id=sv-ud-train-1452#2
+2	Släpper	släppa	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	8:advcl	_
+
+id=sv-ud-train-1452#7
+7	så	så	ADV	AB	_	8	advmod	8:advmod	_
+
+id=sv-ud-train-1462#1
+1	Kommer	komma	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	13	advcl	13:advcl	_
+
+id=sv-ud-train-1462#12
+12	så	så	ADV	AB	_	13	advmod	13:advmod	_
+
+id=sv-ud-train-1570#3
+3	kompletteras	komplettera	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	5	advcl	5:advcl	_
+
+id=sv-ud-train-1570#4
+4	så	så	ADV	AB	_	5	advmod	5:advmod	_
+
+id=sv-ud-train-1619#3
+3	finns	finnas	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin	19	dislocated	19:dislocated	_
+
+id=sv-ud-train-1619#16
+16	så	så	ADV	AB	_	19	advmod	19:advmod	_
+
+id=sv-ud-train-1644#4
+4	visat	visa	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	9	advcl	9:advcl	_
+
+id=sv-ud-train-1644#8
+8	så	så	ADV	AB	_	9	advmod	9:advmod	_
+
+id=sv-ud-train-1833#1
+1	Får	få	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+
+id=sv-ud-train-1833#18
+18	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	19	nsubj	19:nsubj	_
+
+id=sv-ud-train-1833#19
+19	går	gå	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	0:parataxos	_
+
+id=sv-ud-train-1911#4
+4	ropar	ropa	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	8:advcl	_
+
+id=sv-ud-train-1911#7
+7	så	så	ADV	AB	_	8	advmod	8:advmod	_
+
+id=sv-ud-train-2066#5
+5	stigit	stiga	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	16	advcl	16:advcl	_
+
+id=sv-ud-train-2066#13
+13	så	så	ADV	AB	_	16	advmod	16:advmod	_
+
+id=sv-ud-train-2425#1
+1	Tänker	tänka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	11:advcl	_
+
+id=sv-ud-train-2425#6
+6	så	så	ADV	AB	_	11	advmod	11:advmod	_
+
+id=sv-ud-train-2506#2
+2	ser	se	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	7:advcl	_
+
+id=sv-ud-train-2506#6
+6	så	så	ADV	AB	_	7	advmod	7:advmod	_
+
+id=sv-ud-train-2536#5
+5	jämför	jämföra	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	16	advcl	16:advcl	_
+
+id=sv-ud-train-2536#15
+15	så	så	ADV	AB	_	16	advmod	16:advmod	_
+
+id=sv-ud-train-2541#1
+1	Tar	ta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	16	advcl	16:advcl	_
+
+id=sv-ud-train-2541#12
+12	så	så	ADV	AB	_	16	advmod	16:advmod	_
+
+id=sv-ud-train-2543#5
+5	tolkar	tolka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	11:advcl	_
+
+id=sv-ud-train-2543#7
+7	så	så	ADV	AB	_	11	advmod	11:advmod	_
+
+id=sv-ud-train-2544#6
+6	producerade	producerad	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	17	advcl	17:advcl	_
+
+id=sv-ud-train-2544#12
+12	så	så	ADV	AB	_	17	advmod	17:advmod	_
+
+id=sv-ud-train-2597#7
+7	behöver	behöva	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	20	advcl	20:advcl	_
+
+id=sv-ud-train-2597#19
+19	så	så	ADV	AB	_	20	advmod	20:advmod	_
+
+id=sv-ud-train-3226#6
+6	knutna	knyta	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Number=Plur|Tense=Past|VerbForm=Part	12	csubj	12:csubj	_
+
+id=sv-ud-train-3226#11
+11	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	12	expl	12:expl	_
+
+id=sv-ud-train-3454#9
+9	grunden	grund	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	22	advcl	22:advcl	_
+
+id=sv-ud-train-3454#13
+13	så	så	ADV	AB	_	22	advmod	22:advmod	_
+
+id=sv-ud-train-3459#5
+5	behöver	behöva	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	7:advcl	_
+
+id=sv-ud-train-3459#6
+6	så	så	ADV	AB	_	7	advmod	7:advmod	_
+
+id=sv-ud-train-4066#8
+8	olämplig	olämplig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	19	advcl	19:advcl	_
+
+id=sv-ud-train-4066#16
+16	så	så	ADV	AB	_	19	advmod	19:advmod	_
+
+id=sv-ud-train-4069#6
+6	gift	gift	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	32	advcl	32:advcl	_
+
+id=sv-ud-train-4069#10
+10	så	så	ADV	AB	_	32	advmod	32:advmod	_
+
 id=sv-ud-train-4141#2
 2	märke	märke	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	1	compound:prt	1:compound:prt	_
 
@@ -15,7 +180,6 @@ id=sv-ud-train-4141#6
 
 id=sv-ud-train-4141#7
 7	.	.	PUNCT	MAD	_	1	punct	1:punct	_
-
 
 id=sv-ud-train-4056#11
 11	beroende	beroende	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Tense=Pres|VerbForm=Part	2	advcl	2:advcl	_
@@ -37,6 +201,48 @@ id=sv-ud-train-4056#20
 
 id=sv-ud-train-4056#19
 19	eller	eller	CCONJ	KN	_	20	cc	20:cc	_
+
+id=sv-ud-train-4177#7
+7	behållit	behålla	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	0	root	0:root	_
+
+id=sv-ud-train-4177#14
+14	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	12	nmod	12:nmod:till	_
+
+id=sv-ud-train-4177#15
+15	ligger	ligga	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	7:parataxis	_
+
+id=sv-ud-train-4185#4
+4	tänker	tänka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	38	advcl	38:advcl	_
+
+id=sv-ud-train-4185#34
+34	så	så	ADV	AB	_	38	advmod	38:advmod	_
+
+id=sv-ud-train-4262#10
+10	behöver	behöva	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	16	advcl	16:advcl	_
+
+id=sv-ud-train-4262#13
+13	så	så	ADV	AB	_	16	advmod	16:advmod	_
+
+id=sv-ud-train-4274#3
+3	skriver	skriva	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	9:advcl	_
+
+id=sv-ud-train-4274#8
+8	så	så	ADV	AB	_	9	advmod	9:advmod	_
+
+id=sv-ud-train-4285#4
+4	tar	ta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+
+id=sv-ud-train-4285#18
+18	därom	därom	ADV	AB	_	19	advmod	19:advmod	_
+
+id=sv-ud-train-4285#19
+19	talas	tala	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	4	parataxis	4:parataxis	_
+
+id=sv-ud-train-4290#1
+1	Ser	se	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	11:advcl	_
+
+id=sv-ud-train-4290#7
+7	så	så	ADV	AB	_	11	advmod	11:advmod	_
 
 id=sv-ud-dev-442#4
 4	förr	förr	ADJ	JJ|-|-|-|-	_	5	obl	5:obl:till_skillnad_mot	_
@@ -428,12 +634,17 @@ id=sv-ud-dev-62#23
 id=sv-ud-dev-107#9
 9	gäller	gälla	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	4:advcl	_
 
-
 id=sv-ud-dev-107#8
 8	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int	9	nsubj	9:nsubj	_
 
 id=sv-ud-dev-107#13
 13	fördelning	fördelning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	obj	9:obj	_
+
+id=sv-ud-dev-186#6
+6	håller	hålla	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	15:advcl	_
+
+id=sv-ud-dev-186#14
+14	så	så	ADV	AB	_	15	advmod	15:advmod	_
 
 id=sv-ud-dev-372#21
 21	annat	annan	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	10	obl	10:obl	_
@@ -444,6 +655,18 @@ id=sv-ud-dev-372#29
 id=sv-ud-dev-372#22
 22	än	än	SCONJ	KN	_	29	mark	29:mark	_
 
+id=sv-ud-dev-377#3
+3	motstår	motstå	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	32	advcl	32:advcl	_
+
+id=sv-ud-dev-377#31
+31	så	så	ADV	AB	_	32	advmod	32:advmod	_
+
+id=sv-ud-dev-401#28
+28	gift	gift	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	35	advcl	35:advcl	_
+
+id=sv-ud-dev-401#34
+34	så	så	ADV	AB	_	35	advmod	35:advmod	_
+
 id=sv-ud-dev-417#12
 12	grund	grund	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	obl	10:obl:på	_
 
@@ -452,6 +675,12 @@ id=sv-ud-dev-417#11
 
 id=sv-ud-dev-417#13
 13	härav	härav	ADV	AB	_	12	advmod	12:advmod	_
+
+id=sv-ud-dev-482#3
+3	gör	göra	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	15:advcl	_
+
+id=sv-ud-dev-482#17
+17	då	då	ADV	AB	_	15	advmod	15:advmod	_
 
 id=sv-ud-dev-492#10
 10	gott	god	ADV	AB|POS	Degree=Pos	5	xcomp	5:xcomp	_
@@ -507,6 +736,18 @@ id=sv-ud-test-323#8
 id=sv-ud-test-323#6
 6	än	än	SCONJ	KN	_	8	case	8:case	_
 
+id=sv-ud-test-352#10
+10	lyckas	lyckas	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin	29	advcl	29:advcl	_
+
+id=sv-ud-test-352#28
+28	så	så	ADV	AB	_	29	advmod	29:advmod	_
+
+id=sv-ud-test-355#5
+5	börjar	börja	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	58	advcl	58:advcl	_
+
+id=sv-ud-test-355#57
+57	så	så	ADV	AB	_	58	advmod	58:advmod	_
+
 id=sv-ud-test-387#1
 1	Städer	stad	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	6	nsubj	6:nsubj|7:nsubj	_
 
@@ -524,6 +765,12 @@ id=sv-ud-test-387#10
 
 id=sv-ud-test-387#15
 15	bekämpas	bekämpa	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	7	acl:relcl	7:acl:relcl	SpaceAfter=No
+
+id=sv-ud-test-397#4
+4	visa	visa	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	18	advcl	18:advcl	_
+
+id=sv-ud-test-397#15
+15	så	så	ADV	AB	_	18	advmod	18:advmod	_
 
 id=sv-ud-test-403#12
 12	mer	mycket	ADV	AB|KOM	Degree=Cmp	6	advmod	6:acl:relcl	_
@@ -543,6 +790,12 @@ id=sv-ud-test-410#18
 id=sv-ud-test-410#15
 15	än	än	SCONJ	KN	_	18	case	18:case	_
 
+id=sv-ud-test-441#4
+4	säger	säga	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	15:advcl	_
+
+id=sv-ud-test-441#11
+11	så	så	ADV	AB	_	15	advmod	15:advmod	_
+
 id=sv-ud-test-487#9
 9	mer	mycket	ADV	AB|KOM	Degree=Cmp	8	nsubj	8:nsubj	_
 
@@ -551,6 +804,12 @@ id=sv-ud-test-487#12
 
 id=sv-ud-test-487#10
 10	än	än	SCONJ	KN	_	12	case	12:case	_
+
+id=sv-ud-test-492#9
+9	ha	ha	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	19	advcl	19:advcl	_
+
+id=sv-ud-test-492#18
+18	så	så	ADV	AB	_	19	advmod	19:advmod	_
 
 id=sv-ud-test-586#8
 8	mer	mycket	ADV	AB|KOM	Degree=Cmp	7	nsubj	7:nsubj	_
@@ -561,6 +820,12 @@ id=sv-ud-test-586#10
 id=sv-ud-test-586#9
 9	än	än	SCONJ	KN	_	10	case	10:case	_
 
+id=sv-ud-test-587#10
+10	erbjudas	erbjuda	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	25	advcl	25:advcl	_
+
+id=sv-ud-test-587#20
+20	så	så	ADV	AB	_	25	advcl	25:advcl	_
+
 id=sv-ud-test-637#4
 4	mer	mycket	ADV	AB|KOM	Degree=Cmp	3	advmod	3:advmod	_
 
@@ -569,6 +834,18 @@ id=sv-ud-test-637#6
 
 id=sv-ud-test-637#5
 5	än	än	SCONJ	KN	_	6	case	6:case	_
+
+id=sv-ud-test-1117#12
+12	förnekar	förneka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	15:advcl	_
+
+id=sv-ud-test-1117#14
+14	så	så	ADV	AB	_	15	advmod	15:advmod	_
+
+id=sv-ud-test-1162#6
+6	övertygad	övertygad	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	19	advcl	19:advcl	_
+
+id=sv-ud-test-1162#18
+18	så	så	ADV	AB	_	19	advmod	19:advmod	_
 
 id=sv-ud-train-1258#21
 21	i	i	ADP	PP	_	7	obl	7:obl:i	_
