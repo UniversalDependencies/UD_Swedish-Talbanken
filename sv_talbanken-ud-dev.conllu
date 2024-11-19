@@ -641,7 +641,7 @@
 14	och	och	CCONJ	KN	_	15	cc	15:cc	_
 15	fostra	fostra	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	13	conj	12:xcomp|13:conj:och	_
 16	barnen	barn	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	13	obj	13:obj|15:obj	_
-17	därför	därför	ADV	HA	_	21	mark	21:mark	ExtPos=SCONJ
+17	därför	därför	ADV	HA	ExtPos=SCONJ	21	mark	21:mark	_
 18	att	att	SCONJ	SN	_	17	fixed	17:fixed	_
 19	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	21	expl	21:expl	_
 20	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	21	cop	21:cop	_
@@ -2181,7 +2181,7 @@
 9	politiskt	politisk	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	amod	10:amod	_
 10	reformparti	reformparti	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	23	nsubj	23:nsubj|26:nsubj|29:nsubj	SpaceAfter=No
 11	,	,	PUNCT	MID	_	10	punct	10:punct	_
-12	vare	vare	CCONJ	KN	_	16	cc	16:cc	ExtPos=CCONJ
+12	vare	vare	CCONJ	KN	ExtPos=CCONJ	16	cc	16:cc	_
 13	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def|PronType=Prs	12	fixed	12:fixed	_
 14	i	i	ADP	PP	_	16	case	16:case	_
 15	vårt	vi	PRON	PS|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	_
@@ -2481,7 +2481,7 @@
 1	Sakta	sakta	ADJ	JJ|POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	10	nsubj	10:nsubj	_
 2	och	och	CCONJ	KN	_	6	cc	6:cc	_
 3	kanske	kanske	ADV	AB	_	6	advmod	6:advmod	_
-4	rent	ren	ADV	AB|POS	Degree=Pos	6	advmod	6:advmod	ExtPos=ADV
+4	rent	ren	ADV	AB|POS	Degree=Pos|ExtPos=ADV	6	advmod	6:advmod	_
 5	av	av	ADP	PP	_	4	fixed	4:fixed	_
 6	avsaktande	avsaktande	ADJ	JJ|POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	1	conj	1:conj:och|10:nsubj	_
 7	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	10:cop	_
@@ -3982,7 +3982,7 @@
 
 # sent_id = sv-ud-dev-160
 # text = I och med att kvinnan axlar mer krävande uppgifter får hon högre lön.
-1	I	i	ADP	PP	_	6	mark	6:mark	ExtPos=ADP
+1	I	i	ADP	PP	ExtPos=ADP	6	mark	6:mark	_
 2	och	och	CCONJ	KN	_	1	fixed	1:fixed	_
 3	med	med	ADP	PP	_	1	fixed	1:fixed	_
 4	att	att	SCONJ	SN	_	6	mark	6:mark	_
@@ -4056,7 +4056,7 @@
 3	som	som	SCONJ	KN	_	8	mark	8:mark	_
 4	om	om	SCONJ	SN	_	8	mark	8:mark	_
 5	samhället	samhälle	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	8	nsubj	8:nsubj|9:nsubj	_
-6	sent	sen	ADV	AB|POS	Degree=Pos	8	advmod	8:advmod	ExtPos=ADV
+6	sent	sen	ADV	AB|POS	Degree=Pos|ExtPos=ADV	8	advmod	8:advmod	_
 7	omsider	omsider	ADV	AB	_	6	fixed	6:fixed	_
 8	tycks	tyckas	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin	2	advcl	2:advcl:om	CxnElt=2:Conditional-Marker.Protasis
 9	inse	inse	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	8	xcomp	8:xcomp	_
@@ -4762,7 +4762,7 @@
 # newpar id = P410.4
 # sent_id = sv-ud-dev-187
 # text = För två år sedan utspelades en elevdebatt i en modern svensk folkhögskola.
-1	För	för	ADP	PP	_	3	case	3:case	ExtPos=ADP
+1	För	för	ADP	PP	ExtPos=ADP	3	case	3:case	_
 2	två	två	NUM	RG|NOM	Case=Nom|NumType=Card	3	nummod	3:nummod	_
 3	år	år	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	5	obl	5:obl:för_sedan	_
 4	sedan	sedan	ADV	AB	_	1	fixed	1:fixed	_
@@ -5496,7 +5496,7 @@
 # newpar id = P411.7
 # sent_id = sv-ud-dev-220
 # text = Till och med i Sovjetunionen, där kvinnor under de sista femtio åren utbildats och arbetat på samma villkor som männen, väljer kvinnorna gärna vårdande och undervisande yrken.
-1	Till	till	ADV	AB	_	5	advmod	5:advmod	ExtPos=ADV
+1	Till	till	ADV	AB	ExtPos=ADV	5	advmod	5:advmod	_
 2	och	och	CCONJ	KN	_	1	fixed	1:fixed	_
 3	med	med	ADV	AB	_	1	fixed	1:fixed	_
 4	i	i	ADP	PP	_	5	case	5:case	_
@@ -5797,7 +5797,7 @@
 5	den	den	PRON	PN|UTR|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	4	obj	4:obj	_
 6	ifrån	ifrån	ADP	PP	_	7	case	7:case	_
 7	oss	vi	PRON	PN|UTR|PLU|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	4	obl	4:obl:ifrån	_
-8	för	för	ADP	PP	_	12	case	12:case	ExtPos=ADP
+8	för	för	ADP	PP	ExtPos=ADP	12	case	12:case	_
 9	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	12	det	12:det	_
 10	så	så	ADV	AB	_	11	advmod	11:advmod	_
 11	futtig	futtig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	12	amod	12:amod	_
@@ -5867,7 +5867,7 @@
 12	vilket	vilken	DET	HD|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Tot	14	det	14:det	_
 13	annat	annan	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	amod	14:amod	_
 14	yrkesarbete	yrkesarbete	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	8	obl	8:obl:som	_
-15	som	som	CCONJ	KN	_	12	advmod	12:advmod	ExtPos=ADV
+15	som	som	CCONJ	KN	ExtPos=ADV	12	advmod	12:advmod	_
 16	helst	gärna	ADV	AB|SUV	Degree=Sup	15	fixed	15:fixed	_
 17	och	och	CCONJ	KN	_	18	cc	18:cc	_
 18	berättigar	berättiga	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	3:ccomp|8:conj:och	_
@@ -5880,7 +5880,7 @@
 1	Då	då	ADV	AB	_	7	advmod	7:advmod	_
 2	kanske	kanske	ADV	AB	_	3	advmod	3:advmod	_
 3	männen	man	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	7	nsubj	7:nsubj|10:nsubj	_
-4	rent	ren	ADV	AB|POS	Degree=Pos	7	advmod	7:advmod	ExtPos=ADV
+4	rent	ren	ADV	AB|POS	Degree=Pos|ExtPos=ADV	7	advmod	7:advmod	_
 5	av	av	ADP	PP	_	4	fixed	4:fixed	_
 6	vill	vilja	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	7:aux	_
 7	vara	vara	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	0	root	0:root	_
@@ -7238,7 +7238,7 @@
 2	säger	säga	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	2:nsubj	_
 4	'	'	PUNCT	PAD	_	11	punct	11:punct	SpaceAfter=No
-5	så	så	ADV	AB	Polarity=Neg	11	advmod	11:advmod	ExtPos=ADV
+5	så	så	ADV	AB	ExtPos=ADV|Polarity=Neg	11	advmod	11:advmod	_
 6	fan	fan	INTJ	IN	_	5	fixed	5:fixed	_
 7	heller	heller	ADV	AB	_	5	fixed	5:fixed	_
 8	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	11:cop	_
@@ -7348,7 +7348,7 @@
 3	i	i	ADP	PP	_	5	case	5:case	_
 4	vilket	vilket	DET	HD|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Tot	5	det	5:det	_
 5	fall	fall	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	obl	2:obl:i	_
-6	som	som	CCONJ	KN	_	4	advmod	4:advmod	ExtPos=ADV
+6	som	som	CCONJ	KN	ExtPos=ADV	4	advmod	4:advmod	_
 7	helst	gärna	ADV	AB|SUV	Degree=Sup	6	fixed	6:fixed	_
 8	inte	inte	PART	AB	Polarity=Neg	2	advmod	2:advmod	_
 9	göra	göra	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	xcomp	2:xcomp	_
@@ -7781,7 +7781,7 @@
 
 # sent_id = sv-ud-dev-342
 # text = Därför att de har råd att välja t.ex. mellan att arbeta borta och arbeta hemma, t.ex. mellan att ha barn och ta abort.
-1	Därför	därför	ADV	HA	_	4	mark	4:mark	ExtPos=SCONJ
+1	Därför	därför	ADV	HA	ExtPos=SCONJ	4	mark	4:mark	_
 2	att	att	SCONJ	SN	_	1	fixed	1:fixed	_
 3	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	4	nsubj	4:nsubj	_
 4	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
@@ -8004,7 +8004,7 @@
 
 # sent_id = sv-ud-dev-352
 # text = Därför att det kapitalistiska systemet tjänar på hemmafruarna.
-1	Därför	därför	ADV	HA	_	6	mark	6:mark	ExtPos=SCONJ
+1	Därför	därför	ADV	HA	ExtPos=SCONJ	6	mark	6:mark	_
 2	att	att	SCONJ	SN	_	1	fixed	1:fixed	_
 3	det	den	DET	DT|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	5:det	_
 4	kapitalistiska	kapitalistisk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	5	amod	5:amod	_
@@ -8641,7 +8641,7 @@
 8	kanske	kanske	ADV	AB	_	14	advmod	14:advmod	_
 9	får	få	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	14:aux	_
 10	mannen	man	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	14	nsubj	14:nsubj	_
-11	till	till	ADV	AB	_	14	advmod	14:advmod	ExtPos=ADV
+11	till	till	ADV	AB	ExtPos=ADV	14	advmod	14:advmod	_
 12	och	och	CCONJ	KN	_	11	fixed	11:fixed	_
 13	med	med	ADV	AB	_	11	fixed	11:fixed	_
 14	lägga	lägga	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	parataxis	2:parataxis	_
@@ -10944,7 +10944,7 @@
 14	tidigare	tidig	ADV	AB|KOM	Degree=Cmp	9	advcl	9:advcl:än	SpaceAfter=No
 15	,	,	PUNCT	MID	_	9	punct	9:punct	_
 16	detta	denna	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	9	parataxis	9:parataxis	_
-17	därför	därför	ADV	HA	_	27	mark	27:mark	ExtPos=SCONJ
+17	därför	därför	ADV	HA	ExtPos=SCONJ	27	mark	27:mark	_
 18	att	att	SCONJ	SN	_	17	fixed	17:fixed	_
 19	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	21	det	21:det	_
 20	enorma	enorm	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	21	amod	21:amod	_
@@ -11079,7 +11079,7 @@
 33	,	,	PUNCT	MID	_	11	punct	11:punct	_
 34	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	35	nsubj	35:nsubj|44:nsubj	_
 35	arbetar	arbeta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	parataxis	11:parataxis	_
-36	så	så	ADV	AB	_	35	advmod	35:advmod	ExtPos=ADV
+36	så	så	ADV	AB	ExtPos=ADV	35	advmod	35:advmod	_
 37	att	att	PART	IE	_	36	fixed	36:fixed	_
 38	säga	säga	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	36	fixed	36:fixed	_
 39	för	för	ADP	PP	_	40	case	40:case	_
@@ -11361,7 +11361,7 @@
 18	båda	båda	PRON	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Definite=Def|Number=Plur|PronType=Tot	16	conj	11:xcomp|16:conj:eller	_
 19	i	i	ADP	PP	_	20	case	20:case	_
 20	förening	förening	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	18	nmod	18:nmod:i	_
-21	därför	därför	ADV	HA	_	35	mark	35:mark	ExtPos=SCONJ
+21	därför	därför	ADV	HA	ExtPos=SCONJ	35	mark	35:mark	_
 22	att	att	SCONJ	SN	_	21	fixed	21:fixed	_
 23	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	35	nsubj	35:nsubj	_
 24	då	då	ADV	AB	_	35	advmod	35:advmod	_
