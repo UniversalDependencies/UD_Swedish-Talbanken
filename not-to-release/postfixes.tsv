@@ -747,6 +747,39 @@ id=sv-ud-train-3447#8
 id=sv-ud-train-3447#10
 10	%	%	NOUN	NN|AN	Abbr=Yes	7	obl	7:obl:än	_
 
+id=sv-ud-train-3956#16
+16	enlighet	enlighet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	obl	14:obl:i	_
+
+id=sv-ud-train-3956#15
+15	i	i	ADP	PP	_	16	case	16:case	_
+
+id=sv-ud-train-3956#17
+17	med	med	ADP	PP	_	19	case	19:case	_
+
+id=sv-ud-train-3956#19
+19	begåvning	begåvning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	nmod	14:nmod:med	_
+
+id=sv-ud-train-3956#20
+20	och	och	CCONJ	KN	_	22	cc	22:cc	_
+
+id=sv-ud-train-3956#23
+23	och	och	CCONJ	KN	_	26	cc	26:cc	_
+
+id=sv-ud-train-3956#24
+24	inte	inte	PART	AB	Polarity=Neg	26	advmod	26:advmod	_
+
+id=sv-ud-train-3956#26
+26	enlighet	enlighet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	conj	14:obl:i|16:conj:och	_
+
+id=sv-ud-train-3956#25
+25	i	i	ADP	PP	_	26	case	26:case	_
+
+id=sv-ud-train-3956#27
+27	med	med	ADP	PP	_	32	case	32:case	_
+
+id=sv-ud-train-3956#32
+32	könsrollsmönstret	könsrollsmönster	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	26	nmod	26:nmod:med	SpaceAfter=No
+
 id=sv-ud-train-4031#6
 6	annat	annan	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	4	obl	4:obl	_
 
@@ -758,6 +791,51 @@ id=sv-ud-train-4031#10
 
 id=sv-ud-train-4031#7
 7	än	än	SCONJ	KN	_	10	mark	10:mark	_
+
+id=sv-ud-train-4073#7
+7	bl.a.	bl.a.	ADV	AB|AN	Abbr=Yes	8	advmod	8:advmod	_
+
+id=sv-ud-train-4073#8
+8	beroende	beroende	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Tense=Pres|VerbForm=Part	5	advcl	5:advcl	_
+
+id=sv-ud-train-4073#9
+9	på	på	ADP	PP	_	11	case	11:case	_
+
+id=sv-ud-train-4073#11
+11	förankring	förankring	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	obl	8:obl:på	_
+
+id=sv-ud-train-4158#1
+1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	7	expl	7:expl	_
+
+id=sv-ud-train-4158#2
+2	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	7:cop	_
+
+id=sv-ud-train-4158#4
+4	stället	ställe	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	7	obl	7:obl:i	_
+
+id=sv-ud-train-4158#3
+3	i	i	ADP	PP	_	4	case	4:case	_
+
+id=sv-ud-train-4158#7
+7	mån	mån	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	0:root	SpaceAfter=No
+
+id=sv-ud-train-4158#5
+5	i	i	ADP	PP	_	7	case	7:case	_
+
+id=sv-ud-train-4158#6
+6	den	en	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	7	det	7:det	_
+
+id=sv-ud-train-4158#8
+8	,	,	PUNCT	MID	_	13	punct	13:punct	_
+
+id=sv-ud-train-4158#9
+9	som	som	ADV	HA	_	13	mark	13:mark	_
+
+id=sv-ud-train-4158#13
+13	prägla	prägla	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	7	acl	7:acl:som	_
+
+id=sv-ud-train-4158#24
+24	.	.	PUNCT	MAD	_	7	punct	7:punct	_
 
 id=sv-ud-train-4263#26
 26	gott	god	ADV	AB|POS	Degree=Pos	9	conj	9:conj	_
@@ -1031,6 +1109,33 @@ id=sv-ud-test-637#6
 
 id=sv-ud-test-637#5
 5	än	än	SCONJ	KN	_	6	case	6:case	_
+
+id=sv-ud-test-776#7
+7	förhållande	förhållande	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	obl	3:obl:i	_
+
+id=sv-ud-test-776#6
+6	i	i	ADP	PP	_	7	case	7:case	_
+
+id=sv-ud-test-776#8
+8	till	till	ADP	PP	_	9	case	9:case	_
+
+id=sv-ud-test-776#9
+9	realinkomsten	realinkomst	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	7	nmod	7:nmod:till	_
+
+id=sv-ud-test-776#10
+10	och	och	CCONJ	KN	_	12	cc	12:cc	_
+
+id=sv-ud-test-776#12
+12	förhållande	förhållande	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	7	conj	3:obl:i|7:conj:och	_
+
+id=sv-ud-test-776#11
+11	i	i	ADP	PP	_	12	case	12:case	_
+
+id=sv-ud-test-776#13
+13	till	till	ADP	PP	_	15	case	15:case	_
+
+id=sv-ud-test-776#15
+15	utgiftsposter	utgiftspost	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	12	nmod	12:nmod:till	SpaceAfter=No
 
 id=sv-ud-test-1117#12
 12	förnekar	förneka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	15:advcl	_
