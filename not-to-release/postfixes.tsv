@@ -13,7 +13,7 @@ id=sv-ud-train-112#7
 id=sv-ud-train-711#4
 4	anses	anse	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	10	advcl	10:advcl	_
 
-id=sv-ud-train-711#4
+id=sv-ud-train-711#7
 7	så	så	ADV	AB	_	10	advmod	10:advmod	_
 
 id=sv-ud-train-914#3
@@ -77,7 +77,7 @@ id=sv-ud-train-1833#18
 18	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	19	nsubj	19:nsubj	_
 
 id=sv-ud-train-1833#19
-19	går	gå	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	0:parataxos	_
+19	går	gå	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	1:parataxis	_
 
 id=sv-ud-train-1911#4
 4	ropar	ropa	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	8:advcl	_
