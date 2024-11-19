@@ -528,6 +528,12 @@ id=sv-ud-train-1000#37
 id=sv-ud-train-1000#39
 39	valsedel	valsedel	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	36	obl	36:obl	_
 
+id=sv-ud-train-1038#9
+9	,	,	PUNCT	MID	_	11	punct	11:punct	_
+
+id=sv-ud-train-1038#10
+10	dvs	dvs	ADV	AB|AN	Abbr=Yes	11	advmod	11:advmod	_
+
 id=sv-ud-train-1038#11
 11	mer	mycket	ADV	AB|KOM	Degree=Cmp	8	appos	8:appos	_
 
@@ -545,6 +551,9 @@ id=sv-ud-train-1118#8
 
 id=sv-ud-train-1118#10
 10	neutron	neutron	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	obl	7:obl:än	SpaceAfter=No
+
+id=sv-ud-train-1396#7
+7	och	och	CCONJ	KN	_	9	cc	9:cc	_
 
 id=sv-ud-train-1396#8
 8	inte	inte	PART	AB	Polarity=Neg	9	advmod	9:advmod	_
@@ -605,6 +614,9 @@ id=sv-ud-train-2409#7
 
 id=sv-ud-train-2409#9
 9	mm	mm	NOUN	NN|AN	Abbr=Yes	6	obl	6:obl:än	SpaceAfter=No
+
+id=sv-ud-train-2409#13
+13	mm	mm	NOUN	NN|AN	Abbr=Yes	9	conj	4:obl|6:conj	SpaceAfter=No
 
 id=sv-ud-train-2510#4
 4	beträffar	beträffa	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	6:advcl	_
