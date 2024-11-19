@@ -279,11 +279,11 @@ id=sv-ud-train-4069#6
 id=sv-ud-train-4069#10
 10	så	så	ADV	AB	_	32	advmod	32:advmod	_
 
-id=sv-ud-train-4101#11
-13	i	i	ADP	PP	_	14	case	14:case	_
-
 id=sv-ud-train-4101#14
 14	samband	samband	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	25	obl	25:obl	_
+
+id=sv-ud-train-4101#13
+13	i	i	ADP	PP	_	14	case	14:case	_
 
 id=sv-ud-train-4101#15
 15	med	med	ADP	PP	_	19	mark	19:mark	_
