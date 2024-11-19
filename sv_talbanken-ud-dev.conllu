@@ -4743,7 +4743,7 @@
 3	hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	6	nsubj	6:nsubj|11:nsubj	_
 4	i	i	ADP	PP	_	5	case	5:case	_
 5	allmänhet	allmänhet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	obl	6:obl:i	_
-6	håller	hålla	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	dislocated	15:dislocated	_
+6	håller	hålla	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	15:advcl	_
 7	av	av	ADP	PL	_	6	compound:prt	6:compound:prt	_
 8	mannen	man	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	6	obj	6:obj	_
 9	och	och	CCONJ	KN	_	11	cc	11:cc	_
@@ -4751,7 +4751,7 @@
 11	hålla	hålla	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	6	conj	6:conj:och	_
 12	ihop	ihop	ADV	PL	_	11	compound:prt	11:compound:prt	_
 13	äktenskapet	äktenskap	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	11	obj	11:obj	_
-14	så	så	ADV	AB	_	15	advcl	15:advcl	_
+14	så	så	ADV	AB	_	15	advmod	15:advmod	_
 15	begår	begå	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 16	hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	15	nsubj	15:nsubj	_
 17	det	den	DET	DT|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	det	19:det	_
@@ -8556,7 +8556,7 @@
 # text = Om kvinnan motstår det första trycket och fortsätter att arbeta efter giftermålet 'trots att det inte lönar sig' (nuvarande skattefavörer börjar redan med äktenskapets ingående), så kommer hon snart fram till nästa hinder: det första barnet.
 1	Om	om	SCONJ	SN	_	3	mark	3:mark	_
 2	kvinnan	kvinna	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	3	nsubj	3:nsubj|8:nsubj|10:nsubj	_
-3	motstår	motstå	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	32	dislocated	32:dislocated	_
+3	motstår	motstå	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	32	advcl	32:advcl	_
 4	det	den	DET	DT|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	6:det	_
 5	första	första	ADJ	RO|NOM	Case=Nom|NumType=Ord	6	amod	6:amod	_
 6	trycket	tryck	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	obj	3:obj	_
@@ -8584,7 +8584,7 @@
 28	ingående	ingående	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	24	obl	24:obl:med	SpaceAfter=No
 29	)	)	PUNCT	PAD	_	32	punct	32:punct	SpaceAfter=No
 30	,	,	PUNCT	MID	_	32	punct	32:punct	_
-31	så	så	ADV	AB	_	32	advcl	32:advcl	_
+31	så	så	ADV	AB	_	32	advmod	32:advmod	_
 32	kommer	komma	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 33	hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	32	nsubj	32:nsubj	_
 34	snart	snart	ADV	AB|POS	Degree=Pos	32	advmod	32:advmod	_
@@ -8964,13 +8964,13 @@
 25	inte	inte	PART	AB	Polarity=Neg	28	advmod	28:advmod	_
 26	längre	länge	ADV	AB|KOM	Degree=Cmp	28	advmod	28:advmod	_
 27	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	28	cop	28:cop	_
-28	gift	gift	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part	35	dislocated	35:dislocated	_
+28	gift	gift	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	35	advcl	35:advcl	_
 29	med	med	ADP	PP	_	30	case	30:case	_
 30	honom	han	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	28	obl	28:obl:med	_
 31	när	när	SCONJ	HA	_	33	mark	33:mark	_
 32	pensionsåldern	pensionsålder	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	33	nsubj	33:nsubj	_
 33	inträffar	inträffa	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	28	advcl	28:advcl:när	_
-34	så	så	ADV	AB	_	35	advcl	35:advcl	_
+34	så	så	ADV	AB	_	35	advmod	35:advmod	_
 35	får	få	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	3:conj:och	_
 36	Du	du	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	35	nsubj	35:nsubj	_
 37	ingen	ingen	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Neg	38	det	38:det	_
@@ -10733,7 +10733,7 @@
 # text = Om man gör en sådan skillnad på 'folk och folk', vad går man då efter?
 1	Om	om	SCONJ	SN	_	3	mark	3:mark	_
 2	man	man	PRON	PN|UTR|SIN|IND|SUB	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	3	nsubj	3:nsubj	_
-3	gör	göra	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	dislocated	15:dislocated	_
+3	gör	göra	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	15:advcl	_
 4	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	6	det	6:det	_
 5	sådan	sådan	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	6	amod	6:amod	_
 6	skillnad	skillnad	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	obj	3:obj	_
@@ -10747,7 +10747,7 @@
 14	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int	15	obl	15:obl:efter	CxnElt=15:Interrogative-WHInfo-Direct.WHWord
 15	går	gå	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Cxn=Interrogative-WHInfo-Direct|CxnElt=15:Interrogative-WHInfo-Direct.Clause
 16	man	man	PRON	PN|UTR|SIN|IND|SUB	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	15	nsubj	15:nsubj	_
-17	då	då	ADV	AB	_	15	advcl	15:advcl	_
+17	då	då	ADV	AB	_	15	advmod	15:advmod	_
 18	efter	efter	ADP	PP	_	14	case	14:case	SpaceAfter=No
 19	?	?	PUNCT	MAD	_	15	punct	15:punct	_
 
