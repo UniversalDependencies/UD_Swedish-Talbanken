@@ -20868,7 +20868,7 @@
 18	vuxna	vuxen	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	9	conj	7:appos|9:conj:och	_
 19	att	att	PART	IE	_	20	mark	20:mark	_
 20	lita	lita	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	18	acl	18:acl:på	_
-21	på	på	ADP	PP	_	20	case	20:case	_
+21	på	på	ADP	PP	_	20	obl	20:obl:på	_
 22	och	och	CCONJ	KN	_	23	cc	23:cc	_
 23	tycka	tycka	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	20	conj	18:acl:på|20:conj:och	_
 24	om	om	ADP	PL	_	23	compound:prt	23:compound:prt	SpaceAfter=No

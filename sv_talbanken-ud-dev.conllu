@@ -1939,7 +1939,7 @@
 # sent_id = sv-ud-dev-72
 # text = Men för att ge ett ökat perspektiv åt hela diskussionen om föräldrar-barn-relationer och speciellt om moderns betydelse för barnen, så är kibbutzernas metoder väl värda att lägga märke till.
 1	Men	men	CCONJ	KN	_	26	cc	26:cc	_
-2	för	för	ADP	PP	_	4	case	4:case	_
+2	för	för	ADP	PP	_	4	mark	4:mark	_
 3	att	att	PART	IE	_	4	mark	4:mark	_
 4	ge	ge	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	26	dislocated	26:dislocated	_
 5	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	7	det	7:det	_
@@ -8051,8 +8051,8 @@
 11	i	i	ADP	PP	_	15	obl	15:obl:i	_
 12	och	och	CCONJ	KN	_	13	cc	13:cc	_
 13	tas	ta	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	9	conj	6:acl:relcl|9:conj:och	_
-14	ur	ur	ADP	PP	_	13	case	13:case	_
-15	arbetsmarknaden	arbetsmarknad	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	obl	9:obl:i	_
+14	ur	ur	ADP	PP	_	15	case	15:case	_
+15	arbetsmarknaden	arbetsmarknad	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	obl	9:obl:ur	_
 16	där	där	ADV	HA	_	19	advmod	19:advmod	_
 17	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	19	nsubj	19:nsubj	_
 18	bäst	bra	ADV	AB|SUV	Degree=Sup	19	advmod	19:advmod	_
