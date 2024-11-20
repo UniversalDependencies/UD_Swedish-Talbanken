@@ -375,7 +375,7 @@
 26	och	och	CCONJ	KN	_	27	cc	27:cc	_
 27	tar	ta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	25	conj	23:acl:relcl|25:conj:och	_
 28	hand	hand	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	27	compound:prt	27:compound:prt	_
-29	om	om	ADP	PP	_	27	case	27:case	_
+29	om	om	ADP	PP	_	27	obl	27:obl:om	_
 30	dem	de	PRON	PN|UTR/NEU|PLU|DEF|OBJ	Case=Acc|Definite=Def|Number=Plur|PronType=Prs	25	obj	25:obj|27:obj	_
 31	i	i	ADP	PP	_	33	case	33:case	_
 32	svåra	svår	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	33	amod	33:amod	_
@@ -1967,7 +1967,7 @@
 27	att	att	PART	IE	_	28	mark	28:mark	_
 28	lägga	lägga	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	26	xcomp	26:xcomp	_
 29	märke	märke	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	28	obj	28:obj	_
-30	till	till	ADP	PP	_	28	case	28:case	SpaceAfter=No
+30	till	till	ADP	PP	_	28	obl	28:obl:till	SpaceAfter=No
 31	.	.	PUNCT	MAD	_	26	punct	26:punct	_
 
 # newdoc id = P409
@@ -5837,7 +5837,7 @@
 # text = I stället för att snällt anamma manssamhällets värderingar och krav ska vi ställa krav.
 1	I	i	ADP	PP	_	2	case	2:case	_
 2	stället	ställe	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	13	obl	13:obl	_
-3	för	för	ADP	PP	_	6	case	6:case	_
+3	för	för	ADP	PP	_	6	mark	6:mark	_
 4	att	att	PART	IE	_	6	mark	6:mark	_
 5	snällt	snäll	ADV	AB|POS	Degree=Pos	6	advmod	6:advmod	_
 6	anamma	anamma	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	acl	2:acl:för	_
@@ -6251,7 +6251,7 @@
 2	rätt	rätt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	0:root	_
 3	att	att	PART	IE	_	4	mark	4:mark	_
 4	utvecklas	utveckla	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	2	acl	2:acl:till	_
-5	till	till	ADP	PP	_	4	case	4:case	_
+5	till	till	ADP	PP	_	4	obl	4:obl:till	_
 6	och	och	CCONJ	KN	_	8	cc	8:cc	_
 7	få	få	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	8	aux	8:aux	_
 8	leva	leva	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	4	conj	2:acl:till|4:conj:och	_
@@ -6357,7 +6357,7 @@
 5	att	att	PART	IE	_	6	mark	6:mark	_
 6	hävda	hävda	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	4	acl	4:acl:med	_
 7	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def|PronType=Prs	6	obj	6:obj	_
-8	med	med	ADP	PP	_	6	case	6:case	SpaceAfter=No
+8	med	med	ADP	PP	_	6	obl	6:obl:med	SpaceAfter=No
 9	.	.	PUNCT	MAD	_	2	punct	2:punct	_
 
 # sent_id = sv-ud-dev-263
@@ -8048,7 +8048,7 @@
 8	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	9:aux	_
 9	sättas	sätta	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	6	acl:relcl	6:acl:relcl	_
 10	in	in	ADV	PL	_	9	compound:prt	9:compound:prt	_
-11	i	i	ADP	PP	_	15	case	15:case	_
+11	i	i	ADP	PP	_	15	obl	15:obl:i	_
 12	och	och	CCONJ	KN	_	13	cc	13:cc	_
 13	tas	ta	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	9	conj	6:acl:relcl|9:conj:och	_
 14	ur	ur	ADP	PP	_	13	case	13:case	_
@@ -8810,7 +8810,7 @@
 27	(	(	PUNCT	PAD	_	28	punct	28:punct	SpaceAfter=No
 28	tvingas	tvinga	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	26	conj	24:acl:relcl|26:conj	_
 29	in	in	ADV	PL	_	28	compound:prt	28:compound:prt	_
-30	i	i	ADP	PP	_	28	case	28:case	SpaceAfter=No
+30	i	i	ADP	PP	_	28	obl	28:obl:i	SpaceAfter=No
 31	)	)	PUNCT	PAD	_	28	punct	28:punct	_
 32	hemmafrutillvaron	hemmafrutillvaro	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	26	obj	26:obj|28:obj	SpaceAfter=No
 33	.	.	PUNCT	MAD	_	8	punct	8:punct	_
@@ -9843,7 +9843,7 @@
 22	att	att	PART	IE	_	23	mark	23:mark	_
 23	leva	leva	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	21	acl	21:acl:till	_
 24	upp	upp	ADV	PL	_	23	compound:prt	23:compound:prt	_
-25	till	till	ADP	PP	_	23	case	23:case	SpaceAfter=No
+25	till	till	ADP	PP	_	23	obl	23:obl:till	SpaceAfter=No
 26	.	.	PUNCT	MAD	_	13	punct	13:punct	_
 
 # sent_id = sv-ud-dev-442
@@ -10126,7 +10126,7 @@
 13	att	att	PART	IE	_	14	mark	14:mark	_
 14	säga	säga	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	12	acl	12:acl:att	_
 15	till	till	ADP	PL	_	14	compound:prt	14:compound:prt	_
-16	om	om	ADP	PP	_	14	case	14:case	SpaceAfter=No
+16	om	om	ADP	PP	_	14	obl	14:obl:om	SpaceAfter=No
 17	.	.	PUNCT	MAD	_	5	punct	5:punct	_
 
 # sent_id = sv-ud-dev-457
@@ -11410,7 +11410,7 @@
 23	medansvar	medansvar	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	19	conj	16:obl:i|19:conj:och	_
 24	i	i	ADP	PP	_	25	case	25:case	_
 25	stället	ställe	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	16	obl	16:obl	_
-26	för	för	ADP	PP	_	30	case	30:case	_
+26	för	för	ADP	PP	_	30	mark	30:mark	_
 27	att	att	PART	IE	_	30	mark	30:mark	_
 28	som	som	SCONJ	KN	_	29	mark	29:mark	_
 29	nu	nu	ADV	AB	_	30	advcl	30:advcl:som	_

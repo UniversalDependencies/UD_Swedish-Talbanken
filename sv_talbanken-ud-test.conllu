@@ -4311,7 +4311,7 @@
 14	bekymmer	bekymmer	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	12	nsubj	12:nsubj	_
 15	och	och	CCONJ	KN	_	16	cc	16:cc	_
 16	glädjeämnen	glädjeämne	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	14	conj	12:nsubj|14:conj:och	_
-17	med	med	ADP	PP	_	12	case	12:case	SpaceAfter=No
+17	med	med	ADP	PP	_	12	obl	12:obl:med	SpaceAfter=No
 18	.	.	PUNCT	MAD	_	5	punct	5:punct	_
 
 # sent_id = sv-ud-test-235
@@ -4998,7 +4998,7 @@
 15	att	att	PART	IE	_	16	mark	16:mark	_
 16	oroa	oroa	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	14	acl	14:acl:att	_
 17	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def|PronType=Prs	16	obj	16:obj	_
-18	för	för	ADP	PP	_	16	case	16:case	SpaceAfter=No
+18	för	för	ADP	PP	_	16	obl	16:obl:för	SpaceAfter=No
 19	.	.	PUNCT	MAD	_	4	punct	4:punct	_
 
 # sent_id = sv-ud-test-266
@@ -5927,7 +5927,7 @@
 19	att	att	PART	IE	_	20	mark	20:mark	_
 20	oroa	oroa	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	18	acl	18:acl:för	_
 21	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def|PronType=Prs	20	obj	20:obj	_
-22	för	för	ADP	PP	_	20	case	20:case	SpaceAfter=No
+22	för	för	ADP	PP	_	20	obl	20:obl:för	SpaceAfter=No
 23	.	.	PUNCT	MAD	_	3	punct	3:punct	_
 
 # sent_id = sv-ud-test-311
@@ -8624,7 +8624,7 @@
 10	mycket	mycken	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	2	conj	2:conj:men	_
 11	att	att	PART	IE	_	12	mark	12:mark	_
 12	hoppas	hoppas	VERB	VB|INF|SFO	VerbForm=Inf	10	acl	10:acl:på	_
-13	på	på	ADP	PP	_	12	case	12:case	SpaceAfter=No
+13	på	på	ADP	PP	_	12	obl	12:obl:på	SpaceAfter=No
 14	.	.	PUNCT	MAD	_	2	punct	2:punct	_
 
 # newpar id = P210.19
@@ -11461,7 +11461,7 @@
 4	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	22	aux	22:aux	_
 5	i	i	ADP	PP	_	6	case	6:case	_
 6	stället	ställe	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	22	obl	22:obl	_
-7	för	för	ADP	PP	_	15	case	15:case	_
+7	för	för	ADP	PP	_	15	mark	15:mark	_
 8	att	att	PART	IE	_	15	mark	15:mark	_
 9	som	som	ADP	KN	_	14	case	14:case	_
 10	i	i	ADP	PP	_	14	case	14:case	_
@@ -13215,7 +13215,7 @@
 18	också	också	ADV	AB	_	19	advmod	19:advmod	_
 19	begagnat	begagnad	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	13	conj	13:conj:och	_
 20	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def|PronType=Prs	19	obj	19:obj	_
-21	av	av	ADP	PP	_	19	case	19:case	SpaceAfter=No
+21	av	av	ADP	PP	_	19	obl	19:obl:av	SpaceAfter=No
 22	.	.	PUNCT	MAD	_	13	punct	13:punct	_
 
 # sent_id = sv-ud-test-684
@@ -14109,7 +14109,7 @@
 12	rubbningar	rubbning	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	10	obj	10:obj	_
 13	i	i	ADP	PP	_	14	case	14:case	_
 14	stället	ställe	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	10	obl	10:obl	_
-15	för	för	ADP	PP	_	17	case	17:case	_
+15	för	för	ADP	PP	_	17	mark	17:mark	_
 16	att	att	PART	IE	_	17	mark	17:mark	_
 17	bota	bota	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	14	acl	14:acl:för	_
 18	sådana	sån	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur|PronType=Ind	17	obj	17:obj	SpaceAfter=No
@@ -19021,7 +19021,7 @@
 24	mycket	mycket	ADV	AB|POS	Degree=Pos	20	advmod	20:advmod	_
 25	att	att	PART	IE	_	26	mark	26:mark	_
 26	tala	tala	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	20	advcl	20:advcl:om	_
-27	om	om	ADP	PP	_	26	case	26:case	SpaceAfter=No
+27	om	om	ADP	PP	_	26	obl	26:obl:om	SpaceAfter=No
 28	.	.	PUNCT	MAD	_	5	punct	5:punct	_
 
 # sent_id = sv-ud-test-1000
@@ -20755,7 +20755,7 @@
 6	mycket	mycket	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	3	obj	3:obj	_
 7	att	att	PART	IE	_	8	mark	8:mark	_
 8	utgå	utgå	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	6	acl	6:acl:från	_
-9	från	från	ADP	PP	_	8	case	8:case	SpaceAfter=No
+9	från	från	ADP	PP	_	8	obl	8:obl:från	SpaceAfter=No
 10	:	:	PUNCT	MID	_	3	punct	3:punct	_
 11	vi	vi	PRON	PN|UTR|PLU|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	14	nsubj	14:nsubj|16:nsubj	_
 12	måste	måste	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	14:aux	_
@@ -20890,7 +20890,7 @@
 40	gemenskap	gemenskap	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	conj	7:appos|9:conj:och	_
 41	att	att	PART	IE	_	42	mark	42:mark	_
 42	höra	höra	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	40	acl	40:acl:till	_
-43	till	till	ADP	PP	_	42	case	42:case	SpaceAfter=No
+43	till	till	ADP	PP	_	42	obl	42:obl:till	SpaceAfter=No
 44	,	,	PUNCT	MID	_	45	punct	45:punct	_
 45	någon	någon	PRON	PN|UTR|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	9	conj	7:appos|9:conj:och|47:nsubj	_
 46	som	som	PRON	HP|-|-|-	PronType=Rel	47	nsubj	45:ref	_
@@ -21377,7 +21377,7 @@
 # text = I stället för att sprida bostäderna kring ett renodlat kommersiellt centrum kunde vi knyta dem till en verklig samhällskärna, som tillgodosåg behoven av service, kultur, umgänge.
 1	I	i	ADP	PP	_	2	case	2:case	_
 2	stället	ställe	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	14	obl	14:obl	_
-3	för	för	ADP	PP	_	5	case	5:case	_
+3	för	för	ADP	PP	_	5	mark	5:mark	_
 4	att	att	PART	IE	_	5	mark	5:mark	_
 5	sprida	sprida	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	acl	2:acl:för	_
 6	bostäderna	bostad	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	5	obj	5:obj	_
@@ -23962,7 +23962,7 @@
 18	levt	leva	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	15	acl:relcl	15:acl:relcl	_
 19	och	och	CCONJ	KN	_	20	cc	20:cc	_
 20	bott	bo	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	18	conj	15:acl:relcl|18:conj:och	_
-21	med	med	ADP	PP	_	18	case	18:case	_
+21	med	med	ADP	PP	_	18	obl	18:obl:med	_
 22	fram	fram	ADV	AB	_	24	advmod	24:advmod	_
 23	till	till	ADP	PP	_	24	case	24:case	_
 24	dödsfallet	dödsfall	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	18	obl	18:obl:till	SpaceAfter=No
