@@ -736,7 +736,7 @@
 12	man	man	PRON	PN|UTR|SIN|IND|SUB	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	11	nsubj	11:nsubj	_
 13	inte	inte	PART	AB	Polarity=Neg	11	advmod	11:advmod	_
 14	konsekvent	konsekvent	ADV	AB|POS	Degree=Pos	11	advmod	11:advmod	_
-15	när	när	ADV	HA	_	18	case	18:case	_
+15	när	när	ADV	HA	_	17	mark	17:mark	_
 16	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	17	nsubj	17:nsubj	_
 17	gäller	gälla	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	11:advcl	_
 18	arbetsfördelningen	arbetsfördelning	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	17	obj	17:obj	_
@@ -2465,7 +2465,7 @@
 3	sedan	sedan	ADV	AB	_	4	advmod	4:advmod	_
 4	gått	gå	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	0	root	0:root	_
 5	saktare	sakta	ADV	AB|KOM	Degree=Cmp	4	advmod	4:advmod	_
-6	när	när	ADV	HA	_	14	case	14:case	_
+6	när	när	ADV	HA	_	8	mark	8:mark	_
 7	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	8	nsubj	8:nsubj	_
 8	gällt	gälla	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	4	advcl	4:advcl	_
 9	kvinnans	kvinna	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	14	nmod:poss	14:nmod:poss	_
@@ -5814,7 +5814,7 @@
 22	goda	god	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	16	ccomp	16:ccomp	_
 23	som	som	ADP	KN	_	24	case	24:case	_
 24	männen	man	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	22	obl	22:obl:som	_
-25	när	när	ADV	HA	_	28	case	28:case	_
+25	när	när	ADV	HA	_	27	mark	27:mark	_
 26	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	27	nsubj	27:nsubj	_
 27	gäller	gälla	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	22	advcl	22:advcl	_
 28	yrkesarbete	yrkesarbete	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	27	obj	27:obj	SpaceAfter=No
@@ -6922,7 +6922,7 @@
 11	mycket	mycket	ADV	AB|POS	Degree=Pos	9	obj	9:obj	_
 12	att	att	SCONJ	SN	_	14	mark	14:mark	_
 13	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	14	nsubj	14:nsubj	_
-14	räcker	räcka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl	11:acl:att	_
+14	räcker	räcka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	11:advcl:att	_
 15	till	till	ADP	PP	_	16	case	16:case	_
 16	hyra	hyra	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	obl	14:obl:till	_
 17	och	och	CCONJ	KN	_	18	cc	18:cc	_
@@ -7630,7 +7630,7 @@
 
 # sent_id = sv-ud-dev-333
 # text = När det gäller kvinnorna brukar man utnyttja en fiktiv motsättning mellan hemmafruar / yrkeskvinnor.
-1	När	när	ADV	HA	_	4	case	4:case	_
+1	När	när	ADV	HA	_	3	mark	3:mark	_
 2	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	3	nsubj	3:nsubj	_
 3	gäller	gälla	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	5:advcl	_
 4	kvinnorna	kvinna	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	3	obj	3:obj	_
@@ -10918,7 +10918,7 @@
 5	anses	anse	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	0:root	_
 6	väl	väl	ADV	AB	_	5	advmod	5:advmod	_
 7	numera	numera	ADV	AB	_	5	advmod	5:advmod	_
-8	vara	vara	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	13	cop	13:cop	_
+8	vara	vara	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	10	cop	10:cop	_
 9	så	så	ADV	AB	_	10	advmod	10:advmod	_
 10	gott	god	ADV	AB|POS	Degree=Pos	5	xcomp	5:xcomp	_
 11	som	som	CCONJ	KN	_	13	case	13:case	_
@@ -11044,7 +11044,7 @@
 # newpar id = P418.3
 # sent_id = sv-ud-dev-495
 # text = När det gäller samhällsbyggandet och allt vad därtill hör, räknar heller inte männen på kvinnornas medverkan, de har ingenting att lära av dem, de reder sig på egen hand, de arbetar så att säga för kvinnorna, inte med dem.
-1	När	när	ADV	HA	_	4	case	4:case	_
+1	När	när	ADV	HA	_	3	mark	3:mark	_
 2	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	3	nsubj	3:nsubj	_
 3	gäller	gälla	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	11:advcl	_
 4	samhällsbyggandet	samhällsbyggande	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	obj	3:obj	_
