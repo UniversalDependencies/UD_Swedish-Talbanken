@@ -204,7 +204,7 @@
 9	särskilt	särskilt	ADV	AB	_	10	advmod	10:advmod	_
 10	fadern	far	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	7	appos	7:appos	SpaceAfter=No
 11	,	,	PUNCT	MID	_	7	punct	7:punct	_
-12	samtidigt	samtidig	ADV	AB	_	21	advcl	21:advcl	_
+12	samtidigt	samtidig	ADV	AB	_	21	advmod	21:advmod	_
 13	med	med	ADP	PP	_	15	mark	15:mark	_
 14	att	att	PART	IE	_	15	mark	15:mark	_
 15	ge	ge	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	12	advcl	12:advcl:med_att	_
@@ -2318,8 +2318,8 @@
 13	förutsättningarna	förutsättning	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	9	nmod	9:nmod:av	_
 14	-	-	PUNCT	MID	_	5	punct	5:punct	_
 15	praktiskt	praktisk	ADV	AB|POS	Degree=Pos	16	advmod	16:advmod	_
-16	taget	tagen	ADJ	PC|PRF|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	21	advcl	21:advcl	_
-17	samtidigt	samtidig	ADV	AB	_	5	advcl	5:advcl	_
+16	taget	tagen	ADJ	PC|PRF|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	17	advcl	17:advcl	_
+17	samtidigt	samtidig	ADV	AB	_	5	advmod	5:advmod	_
 18	med	med	ADP	PP	_	21	mark	21:mark	_
 19	att	att	SCONJ	SN	_	21	mark	21:mark	_
 20	rösträtten	rösträtt	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	21	nsubj	21:nsubj|22:nsubj	_
