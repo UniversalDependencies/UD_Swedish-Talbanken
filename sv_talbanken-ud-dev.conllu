@@ -9099,8 +9099,8 @@
 7	antingen	antingen	CCONJ	KN	_	9	mark	9:mark	_
 8	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	9	nsubj	9:nsubj|10:nsubj	_
 9	vill	vilja	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	6:advcl:antingen	_
-10	eller	eller	CCONJ	KN	_	9	conj	6:advcl:antingen|9:conj	_
-11	inte	inte	PART	AB	Polarity=Neg	10	advmod	10:advmod	SpaceAfter=No
+10	eller	eller	CCONJ	KN	_	11	cc	11:cc	_
+11	inte	inte	PART	AB	Polarity=Neg	9	conj	6:advcl:antingen|9:conj	SpaceAfter=No
 12	.	.	PUNCT	MAD	_	6	punct	6:punct	_
 
 # sent_id = sv-ud-dev-408
