@@ -10409,7 +10409,7 @@
 6	barnet	barn	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	8	nsubj	8:nsubj|9:nsubj	_
 7	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	8:cop	_
 8	önskat	önskad	ADJ	PC|PRF|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	3	acl	3:acl:om	_
-9	eller	eller	CCONJ	KN	_	9	cc	9:cc	_
+9	eller	eller	CCONJ	KN	_	10	cc	10:cc	_
 10	inte	inte	PART	AB	Polarity=Neg	8	conj	3:acl:om|8:conj	_
 11	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	13	det	13:det	_
 12	stor	stor	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	13	amod	13:amod	_
