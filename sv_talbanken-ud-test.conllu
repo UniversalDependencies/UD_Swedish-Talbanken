@@ -8016,7 +8016,7 @@
 21	studiehäfte	studiehäfte	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	23	nmod	23:nmod	_
 22	'	'	PUNCT	PAD	_	23	punct	23:punct	SpaceAfter=No
 23	Undervisning	undervisning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	conj	2:obl:på|6:conj:och	_
-24	eller	eller	CCONJ	KN	_	23	cc	23:cc	_
+24	eller	eller	CCONJ	KN	_	25	cc	25:cc	_
 25	undergång	undergång	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	23	conj	23:conj	SpaceAfter=No
 26	'	'	PUNCT	PAD	_	23	punct	23:punct	SpaceAfter=No
 27	.	.	PUNCT	MAD	_	2	punct	2:punct	_
