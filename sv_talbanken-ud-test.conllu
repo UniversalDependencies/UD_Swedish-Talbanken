@@ -23862,7 +23862,7 @@
 5	så	så	ADV	AB	_	4	advmod	4:advmod	_
 6	glömmer	glömma	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	1:acl:relcl	_
 7	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	14:cop	_
-8	dels	dels	CCONJ	KN	_	7	advmod	7:advmod	_
+8	dels	dels	CCONJ	KN	_	14	advmod	14:advmod	_
 9	att	att	SCONJ	SN	_	14	mark	14:mark	_
 10	kärleken	kärlek	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	14	nsubj	14:nsubj	_
 11	inte	inte	PART	AB	Polarity=Neg	14	advmod	14:advmod	_
