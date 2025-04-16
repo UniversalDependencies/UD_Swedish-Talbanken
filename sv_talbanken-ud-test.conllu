@@ -23855,20 +23855,20 @@
 
 # sent_id = sv-ud-test-1190
 # text = Vad de som resonerar så glömmer är dels att kärleken inte alltid är beständig och att den i alla händelser inte är evig.
-1	Vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Prs	7	nsubj	7:nsubj	_
+1	Vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Prs	14	nsubj:outer	14:nsubj:outer|23:nsubj:outer	_
 2	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	6	nsubj	4:nsubj|6:nsubj	_
 3	som	som	PRON	HP|-|-|-	PronType=Rel	4	nsubj	2:ref	_
 4	resonerar	resonera	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	2:acl:relcl	_
 5	så	så	ADV	AB	_	4	advmod	4:advmod	_
 6	glömmer	glömma	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	1:acl:relcl	_
-7	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+7	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	14:cop	_
 8	dels	dels	CCONJ	KN	_	7	advmod	7:advmod	_
 9	att	att	SCONJ	SN	_	14	mark	14:mark	_
 10	kärleken	kärlek	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	14	nsubj	14:nsubj	_
 11	inte	inte	PART	AB	Polarity=Neg	14	advmod	14:advmod	_
 12	alltid	alltid	ADV	AB	_	14	advmod	14:advmod	_
 13	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	14:cop	_
-14	beständig	beständig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	7	ccomp	7:ccomp	_
+14	beständig	beständig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	0	root	0:root	_
 15	och	och	CCONJ	KN	_	23	cc	23:cc	_
 16	att	att	SCONJ	SN	_	23	mark	23:mark	_
 17	den	den	PRON	PN|UTR|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	23	nsubj	23:nsubj	_
@@ -23877,8 +23877,8 @@
 20	händelser	händelse	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	23	obl	23:obl:i	_
 21	inte	inte	PART	AB	Polarity=Neg	23	advmod	23:advmod	_
 22	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	23	cop	23:cop	_
-23	evig	evig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	14	conj	7:ccomp|14:conj:och	SpaceAfter=No
-24	.	.	PUNCT	MAD	_	7	punct	7:punct	_
+23	evig	evig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	14	conj	14:conj:och	SpaceAfter=No
+24	.	.	PUNCT	MAD	_	14	punct	14:punct	_
 
 # sent_id = sv-ud-test-1191
 # text = Förr eller senare blir alltid den ena parten lämnad ensam, och då kommer svårigheterna.
