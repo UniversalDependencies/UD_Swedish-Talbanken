@@ -19007,8 +19007,8 @@
 10	för	för	ADP	PP	_	12	case	12:case	_
 11	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	12	det	12:det	_
 12	rollen	roll	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	obl	9:obl:för	SpaceAfter=No
-13	,	,	PUNCT	MID	_	20	punct	20:punct	_
-14	och	och	CCONJ	KN	_	20	cc	20:cc	_
+13	,	,	PUNCT	MID	_	24	punct	24:punct	_
+14	och	och	CCONJ	KN	_	24	cc	24:cc	_
 15	om	om	SCONJ	SN	_	18	mark	18:mark	_
 16	hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	18	nsubj	18:nsubj	_
 17	inte	inte	PART	AB	Polarity=Neg	18	advmod	18:advmod	_
