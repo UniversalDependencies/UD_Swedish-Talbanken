@@ -6434,8 +6434,8 @@
 4	sett	se	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	0	root	0:root	_
 5	några	någon	DET	DT|UTR/NEU|PLU|IND	Definite=Ind|Number=Plur|PronType=Ind	6	det	6:det	_
 6	symtom	symtom	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	4	obj	4:obj	SpaceAfter=No
-7	,	,	PUNCT	MID	_	11	punct	11:punct	_
-8	men	men	CCONJ	KN	_	11	cc	11:cc	_
+7	,	,	PUNCT	MID	_	17	punct	17:punct	_
+8	men	men	CCONJ	KN	_	17	cc	17:cc	_
 9	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	10	det	10:det	_
 10	skrämmande	skrämmande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Tense=Pres|VerbForm=Part	17	nsubj:outer	17:nsubj:outer	_
 11	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	17	cop	17:cop	_
@@ -15803,10 +15803,10 @@
 2	bestämmer	bestämma	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	sedan	sedan	ADV	AB	_	2	advmod	2:advmod	_
 4	själv	själv	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	2	amod	2:amod	_
-5	hur	hur	ADV	HA	_	2	ccomp	2:ccomp	Cxn=Interrogative-WHInfo-Indirect|CxnElt=5:Interrogative-WHInfo-Indirect.Clause|CxnElt=8:Interrogative-WHInfo-Indirect.WHWord|SpaceAfter=No
+5	hur	hur	ADV	HA	_	2	ccomp	2:ccomp	Cxn=Interrogative-WHInfo-Indirect|CxnElt=5:Interrogative-WHInfo-Indirect.Clause|CxnElt=5:Interrogative-WHInfo-Indirect.WHWord
 6	rumsindelningen	rumsindelning	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	5	nsubj	5:nsubj	_
 7	skall	skola	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	5:aux	_
-8	vara	vara	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	5	cop	5:cop	_
+8	vara	vara	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	5	cop	5:cop	SpaceAfter=No
 9	.	.	PUNCT	MAD	_	2	punct	2:punct	_
 
 # sent_id = sv-ud-test-817
@@ -17719,8 +17719,8 @@
 2	utvecklingsländer	utvecklingsland	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	3	nsubj	3:nsubj	_
 3	tar	ta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	fasta	fast	ADV	PL	_	3	compound:prt	3:compound:prt	_
-5	på	på	ADP	PP	_	11	mark	11:mark	_
-6	att	att	SCONJ	SN	_	11	mark	11:mark	_
+5	på	på	ADP	PP	_	13	mark	13:mark	_
+6	att	att	SCONJ	SN	_	13	mark	13:mark	_
 7	man	man	PRON	PN|UTR|SIN|IND|SUB	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	13	nsubj	13:nsubj|19:nsubj|34:nsubj	_
 8	i	i	ADP	PP	_	10	case	10:case	_
 9	dessa	denna	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Dem	10	det	10:det	_
@@ -18747,7 +18747,7 @@
 7	,	,	PUNCT	MID	_	1	punct	1:punct	_
 8	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	10	nsubj	10:nsubj|19:nsubj	_
 9	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	10:aux	_
-10	haft	ha	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	4	parataxis	4:parataxis	_
+10	haft	ha	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	1	parataxis	1:parataxis	_
 11	tankarna	tanke	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	10	obj	10:obj|12:nsubj	_
 12	springande	springande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Tense=Pres|VerbForm=Part	10	xcomp	10:xcomp	_
 13	i	i	ADP	PP	_	15	case	15:case	_
@@ -19012,7 +19012,7 @@
 15	om	om	SCONJ	SN	_	18	mark	18:mark	_
 16	hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	18	nsubj	18:nsubj	_
 17	inte	inte	PART	AB	Polarity=Neg	18	advmod	18:advmod	_
-18	klarar	klara	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	20	advcl	20:advcl:om	CxnElt=20:Conditional-Marker.Protasis
+18	klarar	klara	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	24	advcl	24:advcl:om	CxnElt=24:Conditional-Marker.Protasis
 19	den	den	PRON	PN|UTR|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	18	obj	18:obj	_
 20	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	24	cop	24:cop	_
 21	hennes	hon	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	22	nmod:poss	22:nmod:poss	_
