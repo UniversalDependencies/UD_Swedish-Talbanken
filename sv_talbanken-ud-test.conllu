@@ -908,16 +908,16 @@
 # sent_id = sv-ud-test-56
 # text = Att märka är att de angivna beloppen utgår utöver folkpensionen.
 1	Att	att	PART	IE	_	2	mark	2:mark	_
-2	märka	märka	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	3	ccomp	3:ccomp	_
-3	är	vara	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	märka	märka	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	0	root	0:root	_
+3	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	2:cop	_
 4	att	att	SCONJ	SN	_	8	mark	8:mark	_
 5	de	de	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	7	det	7:det	_
 6	angivna	angiven	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Tense=Past|VerbForm=Part	7	amod	7:amod	_
 7	beloppen	belopp	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	8	nsubj	8:nsubj	_
-8	utgår	utgå	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	csubj	3:csubj	_
+8	utgår	utgå	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	csubj:outer	2:csubj:outer	_
 9	utöver	utöver	ADP	PP	_	10	case	10:case	_
 10	folkpensionen	folkpension	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	8	obl	8:obl:utöver	SpaceAfter=No
-11	.	.	PUNCT	MAD	_	3	punct	3:punct	_
+11	.	.	PUNCT	MAD	_	2	punct	2:punct	_
 
 # newpar id = P108.28
 # sent_id = sv-ud-test-57
