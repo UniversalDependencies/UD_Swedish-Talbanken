@@ -24437,8 +24437,8 @@
 6	om	om	ADP	PP	_	7	case	7:case	_
 7	äktenskapet	äktenskap	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	4	obl	4:obl:om	_
 8	-	-	PUNCT	MID	_	4	punct	4:punct	_
-9	medan	medan	SCONJ	SN	_	11	mark	11:mark	_
-10	tid	tid	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	nsubj	11:nsubj	_
-11	är	vara	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	4:advcl:medan	SpaceAfter=No
+9	medan	medan	SCONJ	SN	_	10	mark	10:mark	_
+10	tid	tid	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	advcl	4:advcl	_
+11	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	10:cop	SpaceAfter=No
 12	.	.	PUNCT	MAD	_	4	punct	4:punct	_
 
