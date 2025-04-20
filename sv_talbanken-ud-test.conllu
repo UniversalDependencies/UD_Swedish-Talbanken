@@ -3885,25 +3885,25 @@
 
 # sent_id = sv-ud-test-214
 # text = Då behöver inte annat skäl uppges än att de är överens om att inte fortsätta att leva tillsammans.
-1	Då	då	ADV	AB	_	6	advmod	6:advmod	_
-2	behöver	behöva	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	6:aux	_
-3	inte	inte	PART	AB	Polarity=Neg	6	advmod	6:advmod	_
+1	Då	då	ADV	AB	_	2	advmod	2:advmod	_
+2	behöver	behöva	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	inte	inte	PART	AB	Polarity=Neg	2	advmod	2:advmod	_
 4	annat	annan	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	amod	5:amod	_
-5	skäl	skäl	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	6	nsubj:pass	6:nsubj:pass	_
-6	uppges	uppge	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	0	root	0:root	_
+5	skäl	skäl	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	nsubj	2:nsubj|6:nsubj:pass	_
+6	uppges	uppge	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	2	xcomp	2:xcomp	_
 7	än	än	SCONJ	KN	_	11	mark	11:mark	_
 8	att	att	SCONJ	SN	_	11	mark	11:mark	_
 9	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	11	nsubj	11:nsubj	_
 10	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	11:cop	_
-11	överens	överens	ADV	AB	_	6	advcl	6:advcl:att	Cxn=Conditional-Marker|CxnElt=11:Conditional-Marker.Apodosis
+11	överens	överens	ADV	AB	_	2	advcl	2:advcl:att	_
 12	om	om	ADP	PP	_	15	mark	15:mark	_
 13	att	att	PART	IE	_	15	mark	15:mark	_
 14	inte	inte	PART	AB	Polarity=Neg	15	advmod	15:advmod	_
-15	fortsätta	fortsätta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	11	advcl	11:advcl:att	CxnElt=11:Conditional-Marker.Protasis
+15	fortsätta	fortsätta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	11	advcl	11:advcl:att	_
 16	att	att	PART	IE	_	17	mark	17:mark	_
 17	leva	leva	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	15	xcomp	15:xcomp	_
 18	tillsammans	tillsammans	ADV	AB	_	17	compound:prt	17:compound:prt	SpaceAfter=No
-19	.	.	PUNCT	MAD	_	6	punct	6:punct	_
+19	.	.	PUNCT	MAD	_	2	punct	2:punct	_
 
 # newpar id = P114.10
 # sent_id = sv-ud-test-215
@@ -4531,11 +4531,11 @@
 22	drabbar	drabba	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	17	acl:relcl	17:acl:relcl	_
 23	oss	vi	PRON	PN|UTR|PLU|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	22	obj	22:obj	_
 24	alla	all	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur|PronType=Tot	23	acl	23:acl	_
-25	utan	utan	ADP	PP	_	29	mark	29:mark	_
-26	att	att	PART	IE	_	29	mark	29:mark	_
-27	behöva	behöva	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	29	aux	29:aux	_
+25	utan	utan	ADP	PP	_	27	mark	27:mark	_
+26	att	att	PART	IE	_	27	mark	27:mark	_
+27	behöva	behöva	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	22	advcl	22:advcl:att	_
 28	skadligt	skadlig	ADV	AB|POS	Degree=Pos	29	advmod	29:advmod	_
-29	påverka	påverka	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	22	advcl	22:advcl:att	_
+29	påverka	påverka	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	27	xcomp	27:xcomp	_
 30	våra	vi	PRON	PS|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|Poss=Yes|PronType=Prs	31	nmod:poss	31:nmod:poss	_
 31	barn	barn	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	29	obj	29:obj	SpaceAfter=No
 32	.	.	PUNCT	MAD	_	2	punct	2:punct	_
@@ -5707,25 +5707,25 @@
 
 # sent_id = sv-ud-test-300
 # text = Man behöver inte heller väcka det till målen, utan kan vänta tills det vaknar av sig självt.
-1	Man	man	PRON	PN|UTR|SIN|IND|SUB	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	5	nsubj	5:nsubj|12:nsubj	_
-2	behöver	behöva	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	5:aux	_
-3	inte	inte	PART	AB	Polarity=Neg	5	advmod	5:advmod	_
-4	heller	heller	ADV	AB	_	5	advmod	5:advmod	_
-5	väcka	väcka	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	0	root	0:root	_
+1	Man	man	PRON	PN|UTR|SIN|IND|SUB	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	2	nsubj	2:nsubj|5:nsubj|12:nsubj	_
+2	behöver	behöva	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	inte	inte	PART	AB	Polarity=Neg	2	advmod	2:advmod	_
+4	heller	heller	ADV	AB	_	2	advmod	2:advmod	_
+5	väcka	väcka	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	xcomp	2:xcomp	_
 6	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	5	obj	5:obj	_
 7	till	till	ADP	PP	_	8	case	8:case	_
 8	målen	mål	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	5	obl	5:obl:till	SpaceAfter=No
 9	,	,	PUNCT	MID	_	12	punct	12:punct	_
 10	utan	utan	CCONJ	KN	_	12	cc	12:cc	_
 11	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	12:aux	_
-12	vänta	vänta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	5	conj	5:conj:utan	_
+12	vänta	vänta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	conj	2:conj:utan	_
 13	tills	tills	SCONJ	SN	_	15	mark	15:mark	_
 14	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	15	nsubj	15:nsubj	_
 15	vaknar	vakna	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	12:advcl:tills	_
 16	av	av	ADP	PP	_	17	case	17:case	_
 17	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def|PronType=Prs	15	obl	15:obl:av	_
 18	självt	själv	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	17	acl	17:acl	SpaceAfter=No
-19	.	.	PUNCT	MAD	_	5	punct	5:punct	_
+19	.	.	PUNCT	MAD	_	2	punct	2:punct	_
 
 # sent_id = sv-ud-test-301
 # text = De flesta barn ställer in sig på ganska regelbundna mål efter någon tid.
@@ -5809,15 +5809,15 @@
 5	om	om	ADV	PL	_	4	compound:prt	4:compound:prt	_
 6	att	att	PART	IE	_	7	mark	7:mark	_
 7	suga	suga	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	4	xcomp	4:xcomp	_
-8	och	och	CCONJ	KN	_	12	cc	12:cc	_
-9	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	12	nsubj	12:nsubj	_
-10	behöver	behöva	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	12:aux	_
-11	också	också	ADV	AB	_	12	advmod	12:advmod	_
-12	göra	göra	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	4	conj	4:conj:och	_
+8	och	och	CCONJ	KN	_	10	cc	10:cc	_
+9	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	10	nsubj	10:nsubj|12:nsubj	_
+10	behöver	behöva	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	4:conj:och	_
+11	också	också	ADV	AB	_	10	advmod	10:advmod	_
+12	göra	göra	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	10	xcomp	10:xcomp	_
 13	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	12	obj	12:obj	_
 14	för	för	ADP	PP	_	16	mark	16:mark	_
 15	att	att	PART	IE	_	16	mark	16:mark	_
-16	känna	känna	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	12	advcl	12:advcl:att	_
+16	känna	känna	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	10	advcl	10:advcl:att	_
 17	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def|PronType=Prs	16	obj	16:obj|18:nsubj|20:nsubj	_
 18	nöjda	nöjd	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	16	xcomp	16:xcomp	_
 19	och	och	CCONJ	KN	_	20	cc	20:cc	_
@@ -6129,20 +6129,20 @@
 
 # sent_id = sv-ud-test-323
 # text = Det behöver inte ta mer än 100 år om allting fortsätter så här.
-1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	4	nsubj	4:nsubj	_
-2	behöver	behöva	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	4:aux	_
-3	inte	inte	PART	AB	Polarity=Neg	4	advmod	4:advmod	_
-4	ta	ta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	0	root	0:root	Cxn=Conditional-Marker|CxnElt=4:Conditional-Marker.Apodosis
+1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	2	nsubj	2:nsubj|4:nsubj	_
+2	behöver	behöva	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Cxn=Conditional-Marker|CxnElt=2:Conditional-Marker.Apodosis
+3	inte	inte	PART	AB	Polarity=Neg	2	advmod	2:advmod	_
+4	ta	ta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	xcomp	2:xcomp	_
 5	mer	mycket	ADV	AB|KOM	Degree=Cmp	4	obj	4:obj	_
 6	än	än	SCONJ	KN	_	8	case	8:case	_
 7	100	100	NUM	RG|NOM	Case=Nom|NumType=Card	8	nummod	8:nummod	_
 8	år	år	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	5	obl	5:obl:än	_
 9	om	om	SCONJ	SN	_	11	mark	11:mark	_
 10	allting	allting	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Tot	11	nsubj	11:nsubj	_
-11	fortsätter	fortsätta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	4:advcl:om	CxnElt=4:Conditional-Marker.Protasis
+11	fortsätter	fortsätta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	2:advcl:om	CxnElt=2:Conditional-Marker.Protasis
 12	så	så	ADV	AB	_	11	advmod	11:advmod	_
 13	här	här	ADV	AB	_	12	advmod	12:advmod	SpaceAfter=No
-14	.	.	PUNCT	MAD	_	4	punct	4:punct	_
+14	.	.	PUNCT	MAD	_	2	punct	2:punct	_
 
 # newpar id = P204.2
 # sent_id = sv-ud-test-324
@@ -11898,16 +11898,16 @@
 19	men	men	CCONJ	KN	_	34	cc	34:cc	_
 20	med	med	ADP	PP	_	22	case	22:case	_
 21	de	de	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	22	det	22:det	_
-22	mängder	mängd	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	34	obl	27:nsubj:pass|34:obl:med	_
-23	som	som	PRON	HP|-|-|-	PronType=Rel	27	nsubj:pass	22:ref	_
+22	mängder	mängd	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	34	obl	26:nsubj|27:nsubj:pass|34:obl:med	_
+23	som	som	PRON	HP|-|-|-	PronType=Rel	26	nsubj	22:ref	_
 24	i	i	ADP	PP	_	25	case	25:case	_
-25	dag	dag	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	27	obl	27:obl:i	_
-26	behöver	behöva	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	27	aux	27:aux	_
-27	användas	använda	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	22	acl:relcl	22:acl:relcl	_
+25	dag	dag	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	26	obl	26:obl:i	_
+26	behöver	behöva	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	22	acl:relcl	22:acl:relcl	_
+27	användas	använda	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	26	xcomp	26:xcomp	_
 28	för	för	ADP	PP	_	31	case	31:case	_
 29	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	31	det	31:det	_
 30	gott	god	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	31	amod	31:amod	_
-31	resultat	resultat	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	27	obl	27:obl:för	_
+31	resultat	resultat	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	26	obl	26:obl:för	_
 32	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	34	cop	34:cop	_
 33	stråldosen	stråldos	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	34	nsubj	34:nsubj|41:nsubj	_
 34	mindre	liten	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	3	conj	3:conj:men	SpaceAfter=No
@@ -19298,13 +19298,13 @@
 
 # sent_id = sv-ud-test-1014
 # text = Kontakten mellan familjemedlemmarna behöver inte vara kontinuerlig, men den bör vara av bra kvalitet.
-1	Kontakten	kontakt	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	7	nsubj	7:nsubj	_
+1	Kontakten	kontakt	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	nsubj	4:nsubj|7:nsubj	_
 2	mellan	mellan	ADP	PP	_	3	case	3:case	_
 3	familjemedlemmarna	familjemedlem	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	1	nmod	1:nmod:mellan	_
-4	behöver	behöva	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	7:aux	_
-5	inte	inte	PART	AB	Polarity=Neg	7	advmod	7:advmod	_
+4	behöver	behöva	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+5	inte	inte	PART	AB	Polarity=Neg	4	advmod	4:advmod	_
 6	vara	vara	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	7	cop	7:cop	_
-7	kontinuerlig	kontinuerlig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	0	root	0:root	SpaceAfter=No
+7	kontinuerlig	kontinuerlig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	4	xcomp	4:xcomp	SpaceAfter=No
 8	,	,	PUNCT	MID	_	15	punct	15:punct	_
 9	men	men	CCONJ	KN	_	15	cc	15:cc	_
 10	den	den	PRON	PN|UTR|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	15	nsubj	15:nsubj	_
@@ -19312,8 +19312,8 @@
 12	vara	vara	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	15	cop	15:cop	_
 13	av	av	ADP	PP	_	15	case	15:case	_
 14	bra	bra	ADJ	JJ|POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	15	amod	15:amod	_
-15	kvalitet	kvalitet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	conj	7:conj:men	SpaceAfter=No
-16	.	.	PUNCT	MAD	_	7	punct	7:punct	_
+15	kvalitet	kvalitet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	conj	4:conj:men	SpaceAfter=No
+16	.	.	PUNCT	MAD	_	4	punct	4:punct	_
 
 # newpar id = P412.7
 # sent_id = sv-ud-test-1015
@@ -22006,11 +22006,11 @@
 11	annorlunda	annorlunda	ADJ	JJ|POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	12	amod	12:amod	_
 12	människa	människa	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	obj	9:obj	_
 13	-	-	PUNCT	MID	_	9	punct	9:punct	_
-14	men	men	CCONJ	KN	_	18	cc	18:cc	_
-15	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	18	nsubj	18:nsubj|20:nsubj	_
-16	behöver	behöva	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	18	aux	18:aux	_
-17	inte	inte	PART	AB	Polarity=Neg	18	advmod	18:advmod	_
-18	bli	bli	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	9	conj	9:conj:men	_
+14	men	men	CCONJ	KN	_	16	cc	16:cc	_
+15	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	16	nsubj	16:nsubj|18:nsubj|20:nsubj	_
+16	behöver	behöva	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	9:conj:men	_
+17	inte	inte	PART	AB	Polarity=Neg	16	advmod	16:advmod	_
+18	bli	bli	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	16	xcomp	16:xcomp	_
 19	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	20	det	20:det	_
 20	sämre	dålig	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	18	xcomp	18:xcomp	SpaceAfter=No
 21	.	.	PUNCT	MAD	_	9	punct	9:punct	_
