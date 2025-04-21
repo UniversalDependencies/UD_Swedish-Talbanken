@@ -2846,7 +2846,7 @@
 7	bland	bland	ADP	PP	_	10	case	10:case	_
 8	de	de	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	10	det	10:det	_
 9	lägst	låg	ADV	AB|SUV	Degree=Sup	10	advmod	10:advmod	_
-10	avlönade	avlönad	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Tense=Past|VerbForm=Part	2	advmod	2:advmod	_
+10	avlönade	avlönad	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Tense=Past|VerbForm=Part	2	obl	2:obl	_
 11	och	och	CCONJ	KN	_	2	cc	2:cc	_
 12	med	med	ADP	PP	_	16	case	16:case	_
 13	de	de	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	16	det	16:det	_
@@ -5755,11 +5755,11 @@
 32	få	få	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	33	aux	33:aux	_
 33	vara	vara	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	23	acl	23:acl:att	_
 34	med	med	ADP	PL	_	33	compound:prt	33:compound:prt	_
-35	om	om	ADP	PP	_	39	case	39:case	_
-36	detta	denna	DET	DT|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	39	det	39:det	_
+35	om	om	ADP	PP	_	35	case	35:case	_
+36	detta	denna	PRON	DT|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	33	obl	33:obl	_
 37	det	den	DET	DT|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	39	det	39:det	_
 38	mest	mycket	ADV	AB|SUV	Degree=Sup	39	advmod	39:advmod	_
-39	fascinerande	fascinerande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Tense=Pres|VerbForm=Part	33	advmod	33:advmod	_
+39	fascinerande	fascinerande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Tense=Pres|VerbForm=Part	36	appos	36:appos	_
 40	i	i	ADP	PP	_	41	case	41:case	_
 41	människolivet	människoliv	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	39	nmod	39:nmod:i	SpaceAfter=No
 42	,	,	PUNCT	MID	_	39	punct	39:punct	_
@@ -9764,7 +9764,7 @@
 18	fast	fast	SCONJ	SN	_	20	mark	20:mark	_
 19	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	20	nsubj	20:nsubj	_
 20	lever	leva	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	12:advcl:fast	_
-21	åtskilda	åtskild	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	20	advmod	20:advmod	_
+21	åtskilda	åtskild	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	20	advcl	20:advcl	_
 22	och	och	CCONJ	KN	_	28	cc	28:cc	_
 23	fast	fast	SCONJ	SN	_	28	mark	28:mark	_
 24	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	25	det	25:det	_

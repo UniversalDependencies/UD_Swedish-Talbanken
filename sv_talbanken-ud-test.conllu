@@ -9378,7 +9378,7 @@
 1	Visserligen	visserligen	ADV	AB	_	5	advmod	5:advmod	_
 2	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
 3	halterna	halt	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	5	nsubj	5:nsubj	_
-4	oroande	oroande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Tense=Pres|VerbForm=Part	5	advmod	5:advmod	_
+4	oroande	oroande	ADV	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Tense=Pres|VerbForm=Part	5	advmod	5:advmod	_
 5	höga	hög	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	0	root	0:root	SpaceAfter=No
 6	,	,	PUNCT	MID	_	9	punct	9:punct	_
 7	men	men	CCONJ	KN	_	9	cc	9:cc	_
@@ -21383,7 +21383,7 @@
 6	bostäderna	bostad	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	5	obj	5:obj	_
 7	kring	kring	ADP	PP	_	11	case	11:case	_
 8	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	11	det	11:det	_
-9	renodlat	renodlad	ADJ	PC|PRF|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	10	advmod	10:advmod	_
+9	renodlat	renodlad	ADV	PC|PRF|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	10	advmod	10:advmod	_
 10	kommersiellt	kommersiell	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	amod	11:amod	_
 11	centrum	centrum	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	5	obl	5:obl:kring	_
 12	kunde	kunna	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	14	aux	14:aux	_
@@ -24064,7 +24064,7 @@
 2	brister	brista	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	2	nsubj	2:nsubj	_
 4	i	i	ADP	PP	_	7	case	7:case	_
-5	förfärande	förfärande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Tense=Pres|VerbForm=Part	6	advmod	6:advmod	_
+5	förfärande	förfärande	ADV	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Tense=Pres|VerbForm=Part	6	advmod	6:advmod	_
 6	hög	hög	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	7	amod	7:amod	_
 7	grad	grad	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obl	2:obl:i	SpaceAfter=No
 8	.	.	PUNCT	MAD	_	2	punct	2:punct	_
