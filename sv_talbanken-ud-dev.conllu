@@ -8445,7 +8445,7 @@
 26	möjligen	möjligen	ADV	AB	_	29	advmod	29:advmod	_
 27	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	29	cop	29:cop	_
 28	sämre	illa	ADV	AB|KOM	Degree=Cmp	29	advmod	29:advmod	_
-29	betalt	betala	ADJ	PC|PRF|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	21	acl	21:acl:än	_
+29	betalt	betalad	ADJ	PC|PRF|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	21	acl	21:acl:än	_
 30	än	än	ADP	KN	_	34	case	34:case	_
 31	de	de	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	34	det	34:det	_
 32	flesta	mången	ADJ	JJ|SUV|UTR/NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Degree=Sup	34	amod	34:amod	_
@@ -10923,7 +10923,7 @@
 10	gott	god	ADV	AB|POS	Degree=Pos	5	xcomp	5:xcomp	_
 11	som	som	CCONJ	KN	_	13	case	13:case	_
 12	helt	helt	ADV	AB|POS	Degree=Pos	13	advmod	13:advmod	_
-13	slutförd	slutföra	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	10	obl	10:obl:som	SpaceAfter=No
+13	slutförd	slutförd	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	10	obl	10:obl:som	SpaceAfter=No
 14	.	.	PUNCT	MAD	_	5	punct	5:punct	_
 
 # sent_id = sv-ud-dev-493
