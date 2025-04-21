@@ -5755,14 +5755,14 @@
 32	få	få	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	33	aux	33:aux	_
 33	vara	vara	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	23	acl	23:acl:att	_
 34	med	med	ADP	PL	_	33	compound:prt	33:compound:prt	_
-35	om	om	ADP	PP	_	35	case	35:case	_
+35	om	om	ADP	PP	_	36	case	36:case	_
 36	detta	denna	PRON	DT|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	33	obl	33:obl	_
 37	det	den	DET	DT|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	39	det	39:det	_
 38	mest	mycket	ADV	AB|SUV	Degree=Sup	39	advmod	39:advmod	_
 39	fascinerande	fascinerande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Tense=Pres|VerbForm=Part	36	appos	36:appos	_
 40	i	i	ADP	PP	_	41	case	41:case	_
 41	människolivet	människoliv	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	39	nmod	39:nmod:i	SpaceAfter=No
-42	,	,	PUNCT	MID	_	39	punct	39:punct	_
+42	,	,	PUNCT	MID	_	44	punct	44:punct	_
 43	att	att	PART	IE	_	44	mark	44:mark	_
 44	leda	leda	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	39	appos	39:appos	SpaceAfter=No
 45	,	,	PUNCT	MID	_	46	punct	46:punct	_
