@@ -1259,7 +1259,7 @@
 31	och	och	CCONJ	KN	_	32	cc	32:cc	_
 32	moshavbarn	moshavbarn	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	30	conj	29:obj|30:conj:och	_
 33	ur	ur	ADP	PP	_	35	case	35:case	_
-34	olika	olik	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	35	amod	35:amod	_
+34	olika	olik	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	35	amod	35:amod	_
 35	aspekter	aspekt	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	29	obl	29:obl:ur	SpaceAfter=No
 36	.	.	PUNCT	MAD	_	16	punct	16:punct	_
 
@@ -1359,7 +1359,7 @@
 1	Med	med	ADP	PP	_	2	case	2:case	_
 2	hjälp	hjälp	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	obl	9:obl:med	_
 3	av	av	ADP	PP	_	6	case	6:case	_
-4	olika	olik	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	6	amod	6:amod	_
+4	olika	olik	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	6	amod	6:amod	_
 5	psykologiska	psykologisk	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	6	amod	6:amod	_
 6	test	test	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	2	nmod	2:nmod:av	_
 7	kunde	kunna	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	9	aux	9:aux	_
@@ -1717,7 +1717,7 @@
 13	av	av	ADP	PP	_	14	case	14:case	_
 14	år	år	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	12	nmod	12:nmod:av	_
 15	eller	eller	CCONJ	KN	_	17	cc	17:cc	_
-16	olika	olik	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	17	amod	17:amod	_
+16	olika	olik	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	17	amod	17:amod	_
 17	barn	barn	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	7	conj	7:conj:eller	_
 18	på	på	ADP	PP	_	20	case	20:case	_
 19	varje	varje	DET	DT|UTR/NEU|SIN|IND	Definite=Ind|Number=Sing|PronType=Tot	20	det	20:det	_
@@ -1783,7 +1783,7 @@
 22	kollektiva	kollektiv	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	23	amod	23:amod	_
 23	uppfostran	uppfostran	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	19	nmod	19:nmod:till	SpaceAfter=No
 24	,	,	PUNCT	MID	_	26	punct	26:punct	_
-25	olika	olik	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	26	amod	26:amod	_
+25	olika	olik	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	26	amod	26:amod	_
 26	ambitioner	ambition	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	14	conj	12:obj|14:conj	_
 27	och	och	CCONJ	KN	_	28	cc	28:cc	_
 28	förväntningar	förväntning	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	26	conj	26:conj:och	_
@@ -3282,7 +3282,7 @@
 # sent_id = sv-ud-dev-133
 # text = Den olika könsrollen som barnavårdare och uppfostrare.
 1	Den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	3	det	3:det	_
-2	olika	olik	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	3	amod	3:amod	_
+2	olika	olik	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	3	amod	3:amod	_
 3	könsrollen	könsroll	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	0	root	0:root	_
 4	som	som	SCONJ	KN	_	5	mark	5:mark	_
 5	barnavårdare	barnavårdare	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	appos	3:appos	_
@@ -3401,7 +3401,7 @@
 90	i	i	ADP	PP	_	94	case	94:case	_
 91	så	så	ADV	AB	_	92	advmod	92:advmod	_
 92	många	många	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	94	amod	94:amod	_
-93	olika	olik	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	94	amod	94:amod	_
+93	olika	olik	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	94	amod	94:amod	_
 94	former	form	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	104	obl	104:obl:i	_
 95	mer	mycket	ADV	AB|KOM	Degree=Cmp	104	advmod	104:advmod	_
 96	och	och	CCONJ	KN	_	97	cc	97:cc	_
@@ -3672,7 +3672,7 @@
 15	från	från	ADP	PP	_	19	case	19:case	_
 16	så	så	ADV	AB	_	17	advmod	17:advmod	_
 17	många	många	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	19	amod	19:amod	_
-18	olika	olik	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	19	amod	19:amod	_
+18	olika	olik	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	19	amod	19:amod	_
 19	håll	håll	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	14	nmod	14:nmod:från	SpaceAfter=No
 20	,	,	PUNCT	MID	_	14	punct	14:punct	_
 21	där	där	ADV	HA	_	31	advmod	31:advmod	_
@@ -5449,7 +5449,7 @@
 10	skillnader	skillnad	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	11	nsubj	11:nsubj	_
 11	beror	bero	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	xcomp	6:xcomp	_
 12	på	på	ADP	PP	_	14	case	14:case	_
-13	olika	olik	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	14	amod	14:amod	_
+13	olika	olik	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	14	amod	14:amod	_
 14	sätt	sätt	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	11	obl	11:obl:på	_
 15	att	att	PART	IE	_	16	mark	16:mark	_
 16	sublimera	sublimera	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	14	acl	14:acl:att	_
@@ -6471,7 +6471,7 @@
 2	av	av	ADP	PL	_	1	compound:prt	1:compound:prt	_
 3	er	ni	PRON	PN|UTR|PLU|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	1	obj	1:obj	_
 4	i	i	ADP	PP	_	6	case	6:case	_
-5	olika	olik	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	6	amod	6:amod	_
+5	olika	olik	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	6	amod	6:amod	_
 6	sammanhang	sammanhang	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	1	obl	1:obl:i	SpaceAfter=No
 7	.	.	PUNCT	MAD	_	1	punct	1:punct	_
 
@@ -9214,7 +9214,7 @@
 5	med	med	ADP	PP	_	6	case	6:case	_
 6	serviceinrättningar	serviceinrättning	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	4	nmod	4:nmod:med	_
 7	av	av	ADP	PP	_	9	case	9:case	_
-8	olika	olik	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	9	amod	9:amod	_
+8	olika	olik	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	9	amod	9:amod	_
 9	slag	slag	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	6	nmod	6:nmod:av	SpaceAfter=No
 10	,	,	PUNCT	MID	_	17	punct	17:punct	_
 11	butikers	butik	NOUN	NN|UTR|PLU|IND|GEN	Case=Gen|Definite=Ind|Gender=Com|Number=Plur	17	nmod:poss	17:nmod:poss	SpaceAfter=No
@@ -9857,7 +9857,7 @@
 7	ofta	ofta	ADV	AB|POS	Degree=Pos	5	advmod	5:advmod	_
 8	från	från	ADP	PP	_	11	case	11:case	_
 9	helt	helt	ADV	AB|POS	Degree=Pos	10	advmod	10:advmod	_
-10	olika	olik	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	11	amod	11:amod	_
+10	olika	olik	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	11	amod	11:amod	_
 11	bakgrundsmiljö	bakgrundsmiljö	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	obl	5:obl:från	_
 12	vilket	vilken	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Rel	13	nsubj	13:nsubj	_
 13	gör	göra	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	appos	5:appos	_
@@ -10434,7 +10434,7 @@
 18	sin	sig	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	19	nmod:poss	19:nmod:poss	_
 19	prägel	prägel	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	17	obj	17:obj	_
 20	på	på	ADP	PP	_	22	case	22:case	_
-21	olika	olik	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	22	amod	22:amod	_
+21	olika	olik	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	22	amod	22:amod	_
 22	former	form	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	17	obl	17:obl:på	_
 23	av	av	ADP	PP	_	25	case	25:case	_
 24	mänsklig	mänsklig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	25	amod	25:amod	_
