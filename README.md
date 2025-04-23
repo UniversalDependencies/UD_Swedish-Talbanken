@@ -205,6 +205,7 @@ From v2.15 to v2.16
 - Removed "behöva" (need) from the inventory of auxiliaries. 
 - Harmonized lemmas, UPOS and features for participles.
 - Fixed a number of miscellaneous reported errors.
+- Added features to lemma "olik".
 
 <pre>
 === Machine readable metadata ==============
