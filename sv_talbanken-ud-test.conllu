@@ -5163,7 +5163,7 @@
 10	väg	väg	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	obl	7:obl:i	_
 11	och	och	CCONJ	KN	_	12	cc	12:cc	_
 12	stoppar	stoppa	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	2:conj:och	_
-13	allting	allting	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Tot	12	obj	12:obj	_
+13	allting	allting	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Def|Number=Sing|PronType=Tot	12	obj	12:obj	_
 14	i	i	ADP	PP	_	15	case	15:case	_
 15	munnen	mun	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	obl	12:obl:i	SpaceAfter=No
 16	.	.	PUNCT	MAD	_	2	punct	2:punct	_
@@ -6138,7 +6138,7 @@
 7	100	100	NUM	RG|NOM	Case=Nom|NumType=Card	8	nummod	8:nummod	_
 8	år	år	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	5	obl	5:obl:än	_
 9	om	om	SCONJ	SN	_	11	mark	11:mark	_
-10	allting	allting	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Tot	11	nsubj	11:nsubj	_
+10	allting	allting	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Def|Number=Sing|PronType=Tot	11	nsubj	11:nsubj	_
 11	fortsätter	fortsätta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	2:advcl:om	CxnElt=2:Conditional-Marker.Protasis
 12	så	så	ADV	AB	_	11	advmod	11:advmod	_
 13	här	här	ADV	AB	_	12	advmod	12:advmod	SpaceAfter=No
@@ -19509,7 +19509,7 @@
 13	tar	ta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	17	advcl	17:advcl:när	_
 14	över	över	ADV	PL	_	13	compound:prt	13:compound:prt	_
 15	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	17	cop	17:cop	_
-16	allting	allting	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Tot	17	nsubj	17:nsubj	_
+16	allting	allting	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Def|Number=Sing|PronType=Tot	17	nsubj	17:nsubj	_
 17	bra	bra	ADJ	JJ|POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	9	ccomp	9:ccomp	SpaceAfter=No
 18	.	.	PUNCT	MAD	_	9	punct	9:punct	_
 

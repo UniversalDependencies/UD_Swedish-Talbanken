@@ -10046,7 +10046,7 @@
 12	att	att	SCONJ	SN	_	17	mark	17:mark	_
 13	praktiskt	praktisk	ADV	AB|POS	Degree=Pos	14	advmod	14:advmod	_
 14	taget	tagen	ADJ	PC|PRF|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	15	advcl	15:advcl	_
-15	varenda	varenda	ADJ	DT|UTR/NEU|SIN|IND	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	16	amod	16:amod	_
+15	varenda	varenda	DET	DT|UTR/NEU|SIN|IND	Definite=Def|Number=Sing|PronType=Tot	16	det	16:det	_
 16	intervjuad	intervjuad	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	17	nsubj	17:nsubj	_
 17	deklarerade	deklarera	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	10	advcl	10:advcl:att	_
 18	sin	sig	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	19	nmod:poss	19:nmod:poss	_
