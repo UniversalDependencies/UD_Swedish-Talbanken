@@ -9109,7 +9109,7 @@
 8	slutar	sluta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 9	mer	mycket	ADV	AB|KOM	Degree=Cmp	8	nsubj	8:nsubj	_
 10	än	än	SCONJ	KN	_	12	case	12:case	_
-11	varannan	varannan	ADJ	DT|UTR|SIN|IND	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	12	amod	12:amod	_
+11	varannan	varannan	DET	DT|UTR|SIN|IND	Definite=Def|Gender=Com|Number=Sing|PronType=Tot	12	amod	12:amod	_
 12	elev	elev	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	obl	9:obl:än	_
 13	efter	efter	ADP	PP	_	15	case	15:case	_
 14	två	två	NUM	RG|NOM	Case=Nom|NumType=Card	15	nummod	15:nummod	_
