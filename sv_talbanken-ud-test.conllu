@@ -16149,7 +16149,7 @@
 
 # sent_id = sv-ud-test-837
 # text = Samtliga dessa lån och bidrag har förutsatt att de nyproducerade bostäderna hållit en viss minimistandard.
-1	Samtliga	samtlig	ADJ	JJ|POS|UTR/NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	3	amod	3:amod	_
+1	Samtliga	samtlig	ADJ	JJ|POS|UTR/NEU|PLU|IND|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Plur	3	amod	3:amod	_
 2	dessa	denna	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Dem	3	det	3:det	_
 3	lån	lån	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	7	nsubj	7:nsubj	_
 4	och	och	CCONJ	KN	_	5	cc	5:cc	_
