@@ -2492,7 +2492,7 @@
 14	indelade	indelad	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	0	root	0:root	_
 15	i	i	ADP	PP	_	18	case	18:case	_
 16	några	någon	DET	DT|UTR/NEU|PLU|IND	Definite=Ind|Number=Plur|PronType=Ind	18	det	18:det	_
-17	få	få	ADJ	JJ|POS|UTR/NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Plur	18	amod	18:amod	_
+17	få	få	ADJ	JJ|POS|UTR/NEU|PLU|IND|NOM	Case=Nom|Degree=Pos|Number=Plur	18	amod	18:amod	_
 18	färgfält	färgfält	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	14	obl	14:obl:i	_
 19	-	-	PUNCT	MID	_	14	punct	14:punct	_
 20	för	för	ADP	PP	_	22	mark	22:mark	_
@@ -3177,7 +3177,7 @@
 
 # sent_id = sv-ud-test-174
 # text = Färre barn skaffar man sig först då man ser en utväg ur sin fattigdom.
-1	Färre	få	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	2	amod	2:amod	_
+1	Färre	få	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp|Number=Plur	2	amod	2:amod	_
 2	barn	barn	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	3	obj	3:obj	_
 3	skaffar	skaffa	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	man	man	PRON	PN|UTR|SIN|IND|SUB	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	3	nsubj	3:nsubj	_
@@ -8397,7 +8397,7 @@
 18	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	19	nsubj	19:nsubj|22:nsubj|24:nsubj	_
 19	blir	bli	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	parataxis	11:parataxis	_
 20	för	för	ADV	AB	_	21	advmod	21:advmod	_
-21	få	få	ADJ	JJ|POS|UTR/NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Plur	22	amod	22:amod	_
+21	få	få	ADJ	JJ|POS|UTR/NEU|PLU|IND|NOM	Case=Nom|Degree=Pos|Number=Plur	22	amod	22:amod	_
 22	skolor	skola	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	19	xcomp	19:xcomp	_
 23	och	och	CCONJ	KN	_	24	cc	24:cc	_
 24	lärare	lärare	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	22	conj	19:xcomp|22:conj:och	SpaceAfter=No
@@ -19735,7 +19735,7 @@
 2	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
 3	ju	ju	ADV	AB	_	5	advmod	5:advmod	_
 4	kvinnorna	kvinna	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	5	nsubj	5:nsubj	_
-5	färre	få	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	0	root	0:root	_
+5	färre	få	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp|Number=Plur	0	root	0:root	_
 6	i	i	ADP	PP	_	9	case	9:case	_
 7	de	de	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	9	det	9:det	_
 8	tekniska	teknisk	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	9	amod	9:amod	_
@@ -20820,7 +20820,7 @@
 15	rivalisera	rivalisera	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	14	advcl	14:advcl	_
 16	om	om	ADP	PP	_	19	case	19:case	_
 17	några	någon	DET	DT|UTR/NEU|PLU|IND	Definite=Ind|Number=Plur|PronType=Ind	19	det	19:det	_
-18	få	få	ADJ	JJ|POS|UTR/NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Plur	19	amod	19:amod	_
+18	få	få	ADJ	JJ|POS|UTR/NEU|PLU|IND|NOM	Case=Nom|Degree=Pos|Number=Plur	19	amod	19:amod	_
 19	vuxna	vuxen	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	15	advmod	15:advmod|22:nsubj|23:nsubj	_
 20	som	som	PRON	HP|-|-|-	PronType=Rel	22	nsubj	19:ref	_
 21	inte	inte	PART	AB	Polarity=Neg	22	advmod	22:advmod	_

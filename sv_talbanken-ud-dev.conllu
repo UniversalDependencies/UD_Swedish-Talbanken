@@ -3513,7 +3513,7 @@
 21	klokt	klok	ADV	AB|POS	Degree=Pos	22	advmod	22:advmod	_
 22	planerar	planera	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	19	acl:relcl	19:acl:relcl	_
 23	för	för	ADP	PP	_	25	case	25:case	_
-24	få	få	ADJ	JJ|POS|UTR/NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Plur	25	amod	25:amod	_
+24	få	få	ADJ	JJ|POS|UTR/NEU|PLU|IND|NOM	Case=Nom|Degree=Pos|Number=Plur	25	amod	25:amod	_
 25	barn	barn	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	22	obl	22:obl:för	_
 26	eller	eller	CCONJ	KN	_	30	cc	30:cc	_
 27	av	av	ADP	PP	_	29	case	29:case	_
@@ -5215,7 +5215,7 @@
 # sent_id = sv-ud-dev-205
 # text = Mycket få kvinnor orkar framhärda i en livsform eller attityd som försvårar förhållandet till man och barn.
 1	Mycket	mycket	ADV	AB|POS	Degree=Pos	2	advmod	2:advmod	_
-2	få	få	ADJ	JJ|POS|UTR/NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Plur	3	amod	3:amod	_
+2	få	få	ADJ	JJ|POS|UTR/NEU|PLU|IND|NOM	Case=Nom|Degree=Pos|Number=Plur	3	amod	3:amod	_
 3	kvinnor	kvinna	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	4	nsubj	4:nsubj|5:nsubj	_
 4	orkar	orka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 5	framhärda	framhärda	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	4	xcomp	4:xcomp	_
@@ -10620,7 +10620,7 @@
 # text = De relativt få, fasta och entydiga normer som styrde samlevnaden i det statiska samhället räcker inte längre i dagens sammansatta, skiftande och ständigt föränderliga tillvaro.
 1	De	de	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	8	det	8:det	_
 2	relativt	relativt	ADV	AB|POS	Degree=Pos	3	advmod	3:advmod	_
-3	få	få	ADJ	JJ|POS|UTR/NEU|PLU|IND|NOM	Case=Nom|Definite=Def|Degree=Pos|Gender=Com	8	amod	8:amod	SpaceAfter=No
+3	få	få	ADJ	JJ|POS|UTR/NEU|PLU|IND|NOM	Case=Nom|Degree=Pos|Number=Plur	8	amod	8:amod	SpaceAfter=No
 4	,	,	PUNCT	MID	_	8	punct	8:punct	_
 5	fasta	fast	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	8	amod	8:amod	_
 6	och	och	CCONJ	KN	_	7	cc	7:cc	_
