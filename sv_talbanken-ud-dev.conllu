@@ -2850,7 +2850,7 @@
 11	och	och	CCONJ	KN	_	2	cc	2:cc	_
 12	med	med	ADP	PP	_	16	case	16:case	_
 13	de	de	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	16	det	16:det	_
-14	minst	liten	ADV	AB|SUV	Degree=Sup	15	advmod	15:advmod	_
+14	minst	lite	ADV	AB|SUV	Degree=Sup	15	advmod	15:advmod	_
 15	bestämmande	bestämmande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Tense=Pres|VerbForm=Part	16	amod	16:amod	_
 16	funktionerna	funktion	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	2	obl	2:obl:med	SpaceAfter=No
 17	.	.	PUNCT	MAD	_	2	punct	2:punct	_

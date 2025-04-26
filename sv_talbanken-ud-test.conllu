@@ -327,7 +327,7 @@
 9	pensionsgrundande	pensionsgrundande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	10	amod	10:amod	_
 10	inkomst	inkomst	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	obj	8:obj	_
 11	för	för	ADP	PP	_	14	case	14:case	_
-12	minst	liten	ADV	AB|SUV	Degree=Sup	13	advmod	13:advmod	_
+12	minst	lite	ADV	AB|SUV	Degree=Sup	13	advmod	13:advmod	_
 13	3	3	NUM	RG|NOM	Case=Nom|NumType=Card	14	nummod	14:nummod	_
 14	år	år	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	8	obl	8:obl:för	SpaceAfter=No
 15	.	.	PUNCT	MAD	_	4	punct	4:punct	_
@@ -4012,7 +4012,7 @@
 9	hemskilda	hemskild	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	5	appos	5:appos	SpaceAfter=No
 10	)	)	PUNCT	PAD	_	5	punct	5:punct	_
 11	under	under	ADP	PP	_	14	case	14:case	_
-12	minst	liten	ADV	AB|SUV	Degree=Sup	13	advmod	13:advmod	_
+12	minst	lite	ADV	AB|SUV	Degree=Sup	13	advmod	13:advmod	_
 13	ett	en	NUM	RG|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card	14	nummod	14:nummod	_
 14	år	år	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	4	obl	4:obl:under	SpaceAfter=No
 15	,	,	PUNCT	MID	_	20	punct	20:punct	_
@@ -8969,7 +8969,7 @@
 # newpar id = P210.27
 # sent_id = sv-ud-test-477
 # text = Minst var tredje människa är analfabet, kan varken läsa eller skriva.
-1	Minst	liten	ADV	AB|SUV	Degree=Sup	2	advmod	2:advmod	_
+1	Minst	lite	ADV	AB|SUV	Degree=Sup	2	advmod	2:advmod	_
 2	var	vara	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Tot	4	det	4:det	_
 3	tredje	tredje	ADJ	RO|NOM	Case=Nom|NumType=Ord	4	amod	4:amod	_
 4	människa	människa	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	nsubj	6:nsubj|10:nsubj	_
@@ -11627,7 +11627,7 @@
 10	hela	hel	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	11	amod	11:amod	_
 11	proceduren	procedur	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	nsubj	9:nsubj	_
 12	utan	utan	ADP	PP	_	14	case	14:case	_
-13	minsta	liten	ADJ	JJ|SUV|UTR/NEU|SIN/PLU|DEF|NOM	Case=Nom|Definite=Def|Degree=Sup	14	amod	14:amod	_
+13	minsta	lite	DET	JJ|SUV|UTR/NEU|SIN/PLU|DEF|NOM	Definite=Ind|PronType=Ind	14	amod	14:amod	_
 14	besvär	besvär	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	9	obl	9:obl:utan	_
 15	för	för	ADP	PP	_	16	case	16:case	_
 16	patienten	patient	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	14	nmod	14:nmod:för	_
@@ -16592,7 +16592,7 @@
 17	andra	annan	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur|PronType=Ind	19	nsubj	19:nsubj	_
 18	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	19	aux	19:aux	_
 19	fått	få	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	9	parataxis	9:parataxis	_
-20	mindre	liten	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	19	obj	19:obj	SpaceAfter=No
+20	mindre	lite	PRON	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Definite=Ind|PronType=Ind	19	obj	19:obj	SpaceAfter=No
 21	.	.	PUNCT	MAD	_	9	punct	9:punct	_
 
 # newpar id = P307.23
@@ -20931,7 +20931,7 @@
 # sent_id = sv-ud-test-1076
 # text = Så lite beskärning som möjligt av växandets oerhörda glädje?
 1	Så	så	ADV	AB	_	2	advmod	2:advmod	_
-2	lite	lite	ADJ	AB|POS	Case=Nom|Definite=Ind|Degree=Pos	3	amod	3:amod	_
+2	lite	lite	DET	AB|POS	Definite=Ind|PronType=Ind	3	amod	3:amod	_
 3	beskärning	beskärning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	0:root	_
 4	som	som	SCONJ	KN	_	5	mark	5:mark	_
 5	möjligt	möjlig	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	acl	3:acl:som	_
@@ -21066,7 +21066,7 @@
 1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	6	expl	6:expl	_
 2	kommer	komma	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	6:aux	_
 3	ännu	ännu	ADV	AB	_	4	advmod	4:advmod	_
-4	mindre	liten	ADV	AB|KOM	Degree=Cmp	6	advmod	6:advmod	_
+4	mindre	lite	ADV	AB|KOM	Degree=Cmp	6	advmod	6:advmod	_
 5	att	att	PART	IE	_	6	mark	6:mark	_
 6	löna	löna	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	0	root	0:root	_
 7	sej	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def|PronType=Prs	6	obj	6:obj	_
@@ -21368,7 +21368,7 @@
 31	mer	mycket	ADV	AB|KOM	Degree=Cmp	32	advmod	32:advmod	_
 32	samhälleligt	samhällelig	ADV	AB|POS	Degree=Pos	25	advmod	25:advmod	SpaceAfter=No
 33	,	,	PUNCT	MID	_	35	punct	35:punct	_
-34	mindre	liten	ADV	AB|KOM	Degree=Cmp	35	advmod	35:advmod	_
+34	mindre	lite	ADV	AB|KOM	Degree=Cmp	35	advmod	35:advmod	_
 35	lägenhetslåst	lägenhetslåst	ADV	AB|POS	Degree=Pos	32	conj	25:advmod|32:conj	SpaceAfter=No
 36	.	.	PUNCT	MAD	_	24	punct	24:punct	_
 
@@ -23177,7 +23177,7 @@
 20	och	och	CCONJ	KN	_	21	cc	21:cc	_
 21	lämnat	lämna	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	14	conj	8:advcl:att|14:conj:och	_
 22	mycket	mycket	ADV	AB|POS	Degree=Pos	23	advmod	23:advmod	_
-23	lite	lite	ADJ	AB|POS	Case=Nom|Definite=Ind|Degree=Pos	24	amod	24:amod	_
+23	lite	lite	DET	AB|POS	Definite=Ind|PronType=Ind	24	amod	24:amod	_
 24	utrymme	utrymme	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	21	obj	21:obj	_
 25	åt	åt	ADP	PP	_	26	case	26:case	_
 26	ställningstaganden	ställningstagande	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	21	obl	21:obl:åt	_
@@ -23584,7 +23584,7 @@
 34	som	som	PRON	HP|-|-|-	PronType=Rel	35	nsubj	33:ref	_
 35	önskar	önska	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	33	acl:relcl	33:acl:relcl	_
 36	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	39	det	39:det	_
-37	mindre	liten	ADV	AB|KOM	Degree=Cmp	38	advmod	38:advmod	_
+37	mindre	lite	ADV	AB|KOM	Degree=Cmp	38	advmod	38:advmod	_
 38	formellt	formell	ADJ	AB|POS	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	39	amod	39:amod	_
 39	ingående	ingående	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	35	obj	35:obj	SpaceAfter=No
 40	.	.	PUNCT	MAD	_	5	punct	5:punct	_
@@ -24028,7 +24028,7 @@
 2	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	3:cop	_
 3	märkvärdigt	märkvärdig	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	0:root	_
 4	så	så	ADV	AB	_	5	advmod	5:advmod	_
-5	litet	litet	ADV	AB|POS	Degree=Pos	3	obj	3:obj	_
+5	litet	lite	ADV	AB|POS	Degree=Pos	3	obj	3:obj	_
 6	moderna	modern	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	7	amod	7:amod	_
 7	ungdomar	ungdom	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	8	nsubj	8:nsubj	_
 8	vet	veta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl	5:acl	_
@@ -24165,7 +24165,7 @@
 # sent_id = sv-ud-test-1207
 # text = Genom litet 'skicklighet' kan de få dubbelt barntillägg.
 1	Genom	genom	ADP	PP	_	4	case	4:case	_
-2	litet	liten	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	amod	4:amod	_
+2	litet	lite	DET	JJ|POS|NEU|SIN|IND|NOM	Definite=Ind|PronType=Ind	4	amod	4:amod	_
 3	'	'	PUNCT	PAD	_	4	punct	4:punct	SpaceAfter=No
 4	skicklighet	skicklighet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	obl	8:obl:genom	SpaceAfter=No
 5	'	'	PUNCT	PAD	_	4	punct	4:punct	_
