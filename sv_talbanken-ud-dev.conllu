@@ -7013,7 +7013,7 @@
 10	fostrar	fostra	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	4:advcl:att	_
 11	funktionsdugliga	funktionsduglig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	15	amod	15:amod	SpaceAfter=No
 12	,	,	PUNCT	MID	_	14	punct	14:punct	_
-13	självständigt	självständigt	ADV	JJ|POS|NEU|SIN|IND|NOM	 Degree=Pos	14	advmod	14:advmod	_
+13	självständigt	självständigt	ADV	JJ|POS|NEU|SIN|IND|NOM	Degree=Pos	14	advmod	14:advmod	_
 14	tänkande	tänkande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Tense=Pres|VerbForm=Part	11	conj	11:conj|15:amod	_
 15	individer	individ	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	10	obj	10:obj	_
 16	med	med	ADP	PP	_	17	case	17:case	_
