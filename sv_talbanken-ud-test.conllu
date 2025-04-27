@@ -688,7 +688,7 @@
 3	pensionsgrundande	pensionsgrundande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	4	amod	4:amod	_
 4	inkomst	inkomst	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	obj	1:obj	_
 5	för	för	ADP	PP	_	6	case	6:case	_
-6	mindre	lite	ADV	AB|KOM	Degree=Cmp	1	obl	1:obl:för	_
+6	mindre	lite	PRON	AB|KOM	Definite=Ind|PronType=Ind	1	obl	1:obl:för	_
 7	än	än	SCONJ	KN	_	9	case	9:case	_
 8	30	30	NUM	RG|NOM	Case=Nom|NumType=Card	9	nummod	9:nummod	_
 9	år	år	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	6	obl	6:obl:än	_
@@ -11205,7 +11205,7 @@
 5	procent	procent	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	10	nsubj:pass	10:nsubj:pass	_
 6	eller	eller	CCONJ	KN	_	8	cc	8:cc	_
 7	ännu	ännu	ADV	AB	_	8	advmod	8:advmod	_
-8	mindre	lite	ADV	AB|KOM	Degree=Cmp	5	conj	5:conj:eller|10:nsubj:pass	_
+8	mindre	lite	PRON	AB|KOM	Definite=Ind|PronType=Ind	5	conj	5:conj:eller|10:nsubj:pass	_
 9	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	10:aux	_
 10	erbjudas	erbjuda	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	25	advcl	25:advcl	_
 11	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	12	det	12:det	_
