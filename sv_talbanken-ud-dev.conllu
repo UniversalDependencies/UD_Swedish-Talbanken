@@ -84,7 +84,7 @@
 11	göra	göra	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	8	appos	8:appos	_
 12	motsatsen	motsats	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	11	obj	11:obj	_
 13	mot	mot	ADP	PP	_	17	mark	17:mark	_
-14	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int	17	obj	17:obj	_
+14	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Number=Sing|PronType=Rel	17	obj	17:obj	_
 15	vi	vi	PRON	PN|UTR|PLU|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	17	nsubj	17:nsubj|19:nsubj	_
 16	själva	själv	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	15	acl	15:acl	_
 17	erfor	erfara	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	12	acl	12:acl:mot	_
@@ -316,7 +316,7 @@
 16	sida	sida	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	nmod	13:nmod:från	_
 17	och	och	CCONJ	KN	_	25	cc	25:cc	SpaceAfter=No
 18	,	,	PUNCT	MID	_	20	punct	20:punct	_
-19	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int	20	nsubj	20:nsubj	_
+19	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Number=Sing|PronType=Int	20	nsubj	20:nsubj	_
 20	mera	mycket	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	8	parataxis	8:parataxis	_
 21	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	20	cop	20:cop	SpaceAfter=No
 22	,	,	PUNCT	MID	_	20	punct	20:punct	_
@@ -929,7 +929,7 @@
 
 # sent_id = sv-ud-dev-34
 # text = Vad skapar den kollektiva barnuppfostran för slags människor?
-1	Vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int	2	obj	2:obj	_
+1	Vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Number=Sing|PronType=Int	2	obj	2:obj	_
 2	skapar	skapa	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Cxn=Interrogative-Polar-Direct|CxnElt=2:Interrogative-Polar-Direct.Clause
 3	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	5	det	5:det	_
 4	kollektiva	kollektiv	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	5	amod	5:amod	_
@@ -1106,7 +1106,7 @@
 
 # sent_id = sv-ud-dev-41
 # text = Vad som gör kibbutzerna särskilt lämpliga för undersökningar av den här typen är förekomsten av de s.k. moshaverna, som kan användas som jämförelsegrupper.
-1	Vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Prs	14	nsubj	3:nsubj|14:nsubj	_
+1	Vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Number=Sing|PronType=Rel	14	nsubj	3:nsubj|14:nsubj	_
 2	som	som	PRON	HP|-|-|-	PronType=Rel	3	nsubj	1:ref	_
 3	gör	göra	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	1:acl:relcl	_
 4	kibbutzerna	kibbutz	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	3	obj	3:obj|6:nsubj	_
@@ -1319,7 +1319,7 @@
 34	,	,	PUNCT	MID	_	26	punct	26:punct	_
 35	vilket	vilken	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Rel	37	nsubj	37:nsubj	_
 36	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	37	cop	37:cop	_
-37	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Prs	26	appos	26:appos	_
+37	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Number=Sing|PronType=Rel	26	appos	26:appos	_
 38	kibbutzbarnen	kibbutzbarn	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	39	nsubj	39:nsubj	_
 39	gör	göra	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	37	acl:relcl	37:acl:relcl	SpaceAfter=No
 40	.	.	PUNCT	MAD	_	4	punct	4:punct	_
@@ -1502,7 +1502,7 @@
 28	utveckling	utveckling	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	26	obj	26:obj	SpaceAfter=No
 29	,	,	PUNCT	MID	_	26	punct	26:punct	_
 30	särskilt	särskilt	ADV	AB	_	33	advmod	33:advmod	_
-31	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int	33	dislocated	33:dislocated	_
+31	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Number=Sing|PronType=Int	33	dislocated	33:dislocated	_
 32	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	33	nsubj	33:nsubj	_
 33	gäller	gälla	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	26	advcl	26:advcl	_
 34	social	social	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	35	amod	35:amod	_
@@ -1689,7 +1689,7 @@
 3	kunde	kunna	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	aux	5:aux	_
 4	inte	inte	PART	AB	Polarity=Neg	5	advmod	5:advmod	_
 5	besvara	besvara	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	0	root	0:root	_
-6	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int	8	dislocated	8:dislocated	CxnElt=8:Interrogative-WHInfo-Indirect.WHWord
+6	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Number=Sing|PronType=Int	8	dislocated	8:dislocated	CxnElt=8:Interrogative-WHInfo-Indirect.WHWord
 7	som	som	PRON	HP|-|-|-	PronType=Rel	8	nsubj	8:nsubj	_
 8	hände	hända	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	ccomp	5:ccomp	Cxn=Interrogative-WHInfo-Indirect|CxnElt=8:Interrogative-WHInfo-Indirect.Clause
 9	med	med	ADP	PP	_	10	case	10:case	_
@@ -2742,7 +2742,7 @@
 5	fortfarande	fortfarande	ADV	AB	_	4	advmod	4:advmod	_
 6	besvärande	besvärande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Tense=Pres|VerbForm=Part	7	amod	7:amod	_
 7	skillnader	skillnad	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	4	nsubj	4:nsubj	_
-8	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int	9	nsubj	9:nsubj	_
+8	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Number=Sing|PronType=Int	9	nsubj	9:nsubj	_
 9	gäller	gälla	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	4:advcl	_
 10	mäns	man	NOUN	NN|UTR|PLU|IND|GEN	Case=Gen|Definite=Ind|Gender=Com|Number=Plur	13	nmod:poss	13:nmod:poss	_
 11	och	och	CCONJ	KN	_	12	cc	12:cc	_
@@ -3424,7 +3424,7 @@
 # newpar id = P409.18
 # sent_id = sv-ud-dev-136
 # text = Vad som krävs av politikerna liksom av alla andra som önskar främja en ändring på könsrollsområdet är en ny syn på det biologiska förloppet hos kvinnan.
-1	Vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Prs	20	nsubj	3:nsubj:pass|20:nsubj	_
+1	Vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Number=Sing|PronType=Rel	20	nsubj	3:nsubj:pass|20:nsubj	_
 2	som	som	PRON	HP|-|-|-	PronType=Rel	3	nsubj:pass	1:ref	_
 3	krävs	kräva	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	1	acl:relcl	1:acl:relcl	_
 4	av	av	ADP	PP	_	5	case	5:case	_
@@ -3606,7 +3606,7 @@
 # newpar id = P409.19
 # sent_id = sv-ud-dev-143
 # text = Vad som måste krävas är en mer realistisk uppfattning om relationen man - kvinna för släktets bevarande.
-1	Vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Prs	9	nsubj	4:nsubj:pass|9:nsubj	_
+1	Vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Number=Sing|PronType=Rel	9	nsubj	4:nsubj:pass|9:nsubj	_
 2	som	som	PRON	HP|-|-|-	PronType=Rel	4	nsubj:pass	1:ref	_
 3	måste	måste	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	4:aux	_
 4	krävas	kräva	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	1	acl:relcl	1:acl:relcl	_
@@ -4119,7 +4119,7 @@
 40	övrigt	övrig	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	38	nmod	38:nmod:i	_
 41	annorlunda	annorlunda	ADV	AB	_	32	advmod	32:advmod	_
 42	än	än	SCONJ	KN	_	43	mark	43:mark	_
-43	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int	32	advcl	32:advcl:än	_
+43	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Number=Sing|PronType=Int	32	advcl	32:advcl:än	_
 44	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	43	nsubj	43:nsubj	_
 45	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	43	cop	43:cop	_
 46	idag	idag	ADV	AB	_	43	advmod	43:advmod	SpaceAfter=No
@@ -6191,7 +6191,7 @@
 11	krassa	krass	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	7	conj	7:conj:och|12:amod	_
 12	syn	syn	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	obj	5:obj	_
 13	på	på	ADP	PP	_	17	mark	17:mark	_
-14	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int	17	dislocated	17:dislocated	_
+14	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Number=Sing|PronType=Int	17	dislocated	17:dislocated	_
 15	som	som	PRON	HP|-|-|-	PronType=Rel	17	nsubj	17:nsubj	_
 16	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	17	cop	17:cop	_
 17	väsentligt	väsentlig	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	acl	12:acl:på	_
@@ -6451,7 +6451,7 @@
 15	leva	leva	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	13	advcl	13:advcl:att	_
 16	tillsammans	tillsammans	ADV	AB	_	15	compound:prt	15:compound:prt	_
 17	än	än	ADP	KN	_	18	case	18:case	_
-18	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Prs	13	obl	13:obl:än	CxnElt=13:Interrogative-WHInfo-Indirect.WHWord
+18	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Number=Sing|PronType=Rel	13	obl	13:obl:än	CxnElt=13:Interrogative-WHInfo-Indirect.WHWord
 19	vi	vi	PRON	PN|UTR|PLU|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	20	nsubj	20:nsubj	_
 20	var	vara	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	18	acl:relcl	18:acl:relcl	SpaceAfter=No
 21	.	.	PUNCT	MAD	_	2	punct	2:punct	_
@@ -7022,7 +7022,7 @@
 19	jämlikhet	jämlikhet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	17	nmod	17:nmod:för	_
 20	och	och	CCONJ	KN	_	19	cc	19:cc	_
 21	för	för	ADP	PP	_	25	mark	25:mark	_
-22	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int	25	dislocated	25:dislocated	_
+22	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Number=Sing|PronType=Int	25	dislocated	25:dislocated	_
 23	som	som	PRON	HP|-|-|-	PronType=Rel	25	nsubj	25:nsubj|27:nsubj	_
 24	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	25	cop	25:cop	_
 25	rätt	rätt	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	19	acl	19:acl:för	_
@@ -7361,7 +7361,7 @@
 # newpar id = P413.15
 # sent_id = sv-ud-dev-317
 # text = Vad kommer resultatet på lång sikt att bli av denna familjeplanering?
-1	Vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int	8	xcomp	8:xcomp	CxnElt=8:Interrogative-WHInfo-Direct.WHWord
+1	Vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Number=Sing|PronType=Int	8	xcomp	8:xcomp	CxnElt=8:Interrogative-WHInfo-Direct.WHWord
 2	kommer	komma	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	8:aux	_
 3	resultatet	resultat	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	8	nsubj	1:nsubj|8:nsubj	_
 4	på	på	ADP	PP	_	6	case	6:case	_
@@ -10744,7 +10744,7 @@
 11	folk	folk	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	9	conj	3:obl:på|9:conj:och	SpaceAfter=No
 12	'	'	PUNCT	PAD	_	11	punct	11:punct	SpaceAfter=No
 13	,	,	PUNCT	MID	_	15	punct	15:punct	_
-14	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int	15	obl	15:obl:efter	CxnElt=15:Interrogative-WHInfo-Direct.WHWord
+14	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Number=Sing|PronType=Int	15	obl	15:obl:efter	CxnElt=15:Interrogative-WHInfo-Direct.WHWord
 15	går	gå	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Cxn=Interrogative-WHInfo-Direct|CxnElt=15:Interrogative-WHInfo-Direct.Clause
 16	man	man	PRON	PN|UTR|SIN|IND|SUB	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	15	nsubj	15:nsubj	_
 17	då	då	ADV	AB	_	15	advmod	15:advmod	_
@@ -11050,7 +11050,7 @@
 4	samhällsbyggandet	samhällsbyggande	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	obj	3:obj	_
 5	och	och	CCONJ	KN	_	9	cc	9:cc	_
 6	allt	all	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Tot	4	conj	4:conj|11:obl:när_det_gäller	_
-7	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int	9	nsubj	9:nsubj	_
+7	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Number=Sing|PronType=Rel	9	nsubj	9:nsubj	_
 8	därtill	därtill	ADV	AB	_	9	advmod	9:advmod	_
 9	hör	höra	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	6:acl:relcl	SpaceAfter=No
 10	,	,	PUNCT	MID	_	3	punct	3:punct	_
