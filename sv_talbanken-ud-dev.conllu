@@ -3355,7 +3355,7 @@
 44	att	att	SCONJ	SN	_	49	mark	49:mark	_
 45	för	för	ADP	PP	_	48	case	48:case	_
 46	de	de	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	48	det	48:det	_
-47	flesta	mången	ADJ	JJ|SUV|UTR/NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Degree=Sup	48	amod	48:amod	_
+47	flesta	många	ADJ	JJ|SUV|UTR/NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Degree=Sup	48	amod	48:amod	_
 48	kvinnor	kvinna	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	49	obl	49:obl:för	_
 49	begränsar	begränsa	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	43	acl	43:acl:att	_
 50	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def|PronType=Prs	49	obj	49:obj	_
@@ -3950,7 +3950,7 @@
 2	framsteg	framsteg	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	3	nsubj:pass	3:nsubj:pass	_
 3	görs	göra	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	0:root	_
 4	och	och	CCONJ	KN	_	8	cc	8:cc	_
-5	fler	mången	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur|PronType=Ind	8	nsubj:pass	8:nsubj:pass	_
+5	fler	många	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur|PronType=Ind	8	nsubj:pass	8:nsubj:pass	_
 6	kommer	komma	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	8:aux	_
 7	att	att	PART	IE	_	8	mark	8:mark	_
 8	göras	göra	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	3	conj	3:conj:och	_
@@ -4004,7 +4004,7 @@
 3	frågan	fråga	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	2:nsubj	_
 4	i	i	ADP	PP	_	7	case	7:case	_
 5	allt	allt	ADV	AB	_	6	advmod	6:advmod	_
-6	fler	mången	ADJ	JJ|POS|UTR/NEU|PLU|IND|NOM	Case=Nom|Degree=Pos|Number=Plur	7	amod	7:amod	_
+6	fler	många	ADJ	JJ|POS|UTR/NEU|PLU|IND|NOM	Case=Nom|Degree=Cmp|Number=Plur	7	amod	7:amod	_
 7	hem	hem	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	2	obl	2:obl:i	_
 8	vem	vem	PRON	HP|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Int	12	dislocated	12:dislocated	_
 9	som	som	PRON	HP|-|-|-	PronType=Rel	12	nsubj	12:nsubj	_
@@ -4496,7 +4496,7 @@
 2	förutan	förutan	ADP	PP	_	1	case	1:case	_
 3	begår	begå	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	de	de	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	6	det	6:det	_
-5	flesta	mången	ADJ	JJ|SUV|UTR/NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Degree=Sup	6	amod	6:amod	_
+5	flesta	många	ADJ	JJ|SUV|UTR/NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Degree=Sup	6	amod	6:amod	_
 6	kvinnor	kvinna	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	nsubj	3:nsubj	SpaceAfter=No
 7	,	,	PUNCT	MID	_	3	punct	3:punct	_
 8	mer	mycket	ADV	AB|KOM	Degree=Cmp	11	advmod	11:advmod	_
@@ -4625,7 +4625,7 @@
 
 # sent_id = sv-ud-dev-182
 # text = Många tror kanske, att allt detta är på avskrivning i den unga generationen, att full jämställdhet nu råder i unga äktenskap.
-1	Många	mången	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur|PronType=Ind	2	nsubj	2:nsubj	_
+1	Många	många	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur|PronType=Ind	2	nsubj	2:nsubj	_
 2	tror	tro	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	kanske	kanske	ADV	AB	_	2	advmod	2:advmod	SpaceAfter=No
 4	,	,	PUNCT	MID	_	2	punct	2:punct	_
@@ -8448,7 +8448,7 @@
 29	betalt	betalad	ADJ	PC|PRF|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	21	acl	21:acl:än	_
 30	än	än	ADP	KN	_	34	case	34:case	_
 31	de	de	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	34	det	34:det	_
-32	flesta	mången	ADJ	JJ|SUV|UTR/NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Degree=Sup	34	amod	34:amod	_
+32	flesta	många	ADJ	JJ|SUV|UTR/NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Degree=Sup	34	amod	34:amod	_
 33	manliga	manlig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	34	amod	34:amod	_
 34	kamraternas	kamrat	NOUN	NN|UTR|PLU|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Plur	29	obl	29:obl:än	SpaceAfter=No
 35	.	.	PUNCT	MAD	_	10	punct	10:punct	_
@@ -9038,7 +9038,7 @@
 12	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 13	för	för	ADP	PP	_	16	case	16:case	_
 14	de	de	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	16	det	16:det	_
-15	flesta	mången	ADJ	JJ|SUV|UTR/NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Degree=Sup	16	amod	16:amod	_
+15	flesta	många	ADJ	JJ|SUV|UTR/NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Degree=Sup	16	amod	16:amod	_
 16	människor	människa	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	12	obl	12:obl:för	_
 17	i	i	ADP	PP	_	19	case	19:case	_
 18	dagens	dag	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	19	nmod:poss	19:nmod:poss	_
@@ -9076,7 +9076,7 @@
 3	upplösning	upplösning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	obl	10:obl:vid	_
 4	får	få	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	10:aux	_
 5	de	de	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	7	det	7:det	_
-6	flesta	mången	ADJ	JJ|SUV|UTR/NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Degree=Sup	7	amod	7:amod	_
+6	flesta	många	ADJ	JJ|SUV|UTR/NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Degree=Sup	7	amod	7:amod	_
 7	kvinnor	kvinna	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	10	nsubj	10:nsubj	_
 8	på	på	ADP	PP	_	9	case	9:case	_
 9	nytt	ny	ADJ	JJ|POS|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	obl	10:obl:på	_
@@ -9548,7 +9548,7 @@
 5	som	som	PRON	HP|-|-|-	PronType=Rel	10	nsubj:pass	4:ref	_
 6	i	i	ADP	PP	_	9	case	9:case	_
 7	de	de	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	9	det	9:det	_
-8	flesta	mången	ADJ	JJ|SUV|UTR/NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Degree=Sup	9	amod	9:amod	_
+8	flesta	många	ADJ	JJ|SUV|UTR/NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Degree=Sup	9	amod	9:amod	_
 9	fall	fall	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	10	obl	10:obl:i	_
 10	ingås	ingå	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	4	acl:relcl	4:acl:relcl	_
 11	uteslutande	uteslutande	ADV	AB	_	14	advmod	14:advmod	_
