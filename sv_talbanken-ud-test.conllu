@@ -4406,7 +4406,7 @@
 11	utan	utan	CCONJ	KN	_	14	cc	14:cc	_
 12	också	också	ADV	AB	_	14	advmod	14:advmod	_
 13	på	på	ADP	PP	_	14	case	14:case	_
-14	sådant	sån	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	2	conj	2:conj:utan	_
+14	sådant	sådan	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	2	conj	2:conj:utan	_
 15	som	som	SCONJ	KN	_	17	mark	17:mark	_
 16	t.ex.	till_exempel	ADV	AB|AN	Abbr=Yes	17	advmod	17:advmod	_
 17	begåvning	begåvning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	acl	14:acl:som	_
@@ -12684,7 +12684,7 @@
 5	lätt	lätt	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	3	obj	3:obj	_
 6	att	att	PART	IE	_	7	mark	7:mark	_
 7	utstå	utstå	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	3	advcl	3:advcl:att	_
-8	sådana	sån	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur|PronType=Ind	7	obj	7:obj	SpaceAfter=No
+8	sådana	sådan	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur|PronType=Ind	7	obj	7:obj	SpaceAfter=No
 9	.	.	PUNCT	MAD	_	3	punct	3:punct	_
 
 # sent_id = sv-ud-test-651
@@ -14112,7 +14112,7 @@
 15	för	för	ADP	PP	_	17	mark	17:mark	_
 16	att	att	PART	IE	_	17	mark	17:mark	_
 17	bota	bota	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	14	acl	14:acl:för	_
-18	sådana	sån	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur|PronType=Ind	17	obj	17:obj	SpaceAfter=No
+18	sådana	sådan	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur|PronType=Ind	17	obj	17:obj	SpaceAfter=No
 19	.	.	PUNCT	MAD	_	5	punct	5:punct	_
 
 # sent_id = sv-ud-test-729
@@ -19765,7 +19765,7 @@
 6	yrken	yrke	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	4	obj	4:obj	SpaceAfter=No
 7	,	,	PUNCT	MID	_	9	punct	9:punct	_
 8	helst	gärna	ADV	AB|SUV	Degree=Sup	9	advmod	9:advmod	_
-9	sådana	sån	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur|PronType=Ind	6	parataxis	6:parataxis	_
+9	sådana	sådan	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur|PronType=Ind	6	parataxis	6:parataxis	_
 10	som	som	SCONJ	HP|-|-|-	_	12	mark	12:mark	_
 11	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	12:aux	_
 12	kombineras	kombinera	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	9	acl	9:acl:som	_

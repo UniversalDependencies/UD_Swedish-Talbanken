@@ -464,7 +464,7 @@
 # text = Men en sådan uppnås inte automatiskt anser man, genom lika politiska och juridiska rättigheter om de inte åtföljs av kvinnornas ekonomiska oberoende.
 1	Men	men	CCONJ	KN	_	4	cc	4:cc	_
 2	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	3	det	3:det	_
-3	sådan	sådan	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	4	nsubj:pass	4:nsubj:pass	_
+3	sådan	sådan	PRON	JJ|POS|UTR|SIN|IND|NOM	Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	4	nsubj:pass	4:nsubj:pass	_
 4	uppnås	uppnå	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	0:root	Cxn=Conditional-Marker,Conditional-SubjVerbInversion|CxnElt=4:Conditional-Marker.Apodosis,4:Conditional-SubjVerbInversion.Apodosis
 5	inte	inte	PART	AB	Polarity=Neg	4	advmod	4:advmod	_
 6	automatiskt	automatisk	ADV	AB|POS	Degree=Pos	4	advmod	4:advmod	_
