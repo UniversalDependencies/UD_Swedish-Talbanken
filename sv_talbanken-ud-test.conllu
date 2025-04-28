@@ -11627,7 +11627,7 @@
 10	hela	hel	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	11	amod	11:amod	_
 11	proceduren	procedur	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	nsubj	9:nsubj	_
 12	utan	utan	ADP	PP	_	14	case	14:case	_
-13	minsta	lite	DET	JJ|SUV|UTR/NEU|SIN/PLU|DEF|NOM	Definite=Ind|PronType=Ind	14	det	14:det	_
+13	minsta	lite	ADJ	JJ|SUV|UTR/NEU|SIN/PLU|DEF|NOM	Case=Nom|Degree=Sup	14	amod	14:amod	_
 14	besvär	besvär	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	9	obl	9:obl:utan	_
 15	för	för	ADP	PP	_	16	case	16:case	_
 16	patienten	patient	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	14	nmod	14:nmod:för	_
@@ -20931,7 +20931,7 @@
 # sent_id = sv-ud-test-1076
 # text = Så lite beskärning som möjligt av växandets oerhörda glädje?
 1	Så	så	ADV	AB	_	2	advmod	2:advmod	_
-2	lite	lite	DET	AB|POS	Definite=Ind|PronType=Ind	3	det	3:det	_
+2	lite	lite	ADJ	AB|POS	Case=Nom|Degree=Pos	3	amod	3:amod	_
 3	beskärning	beskärning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	0:root	_
 4	som	som	SCONJ	KN	_	5	mark	5:mark	_
 5	möjligt	möjlig	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	acl	3:acl:som	_
@@ -23177,7 +23177,7 @@
 20	och	och	CCONJ	KN	_	21	cc	21:cc	_
 21	lämnat	lämna	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	14	conj	8:advcl:att|14:conj:och	_
 22	mycket	mycket	ADV	AB|POS	Degree=Pos	23	advmod	23:advmod	_
-23	lite	lite	DET	AB|POS	Definite=Ind|PronType=Ind	24	det	24:det	_
+23	lite	lite	ADJ	AB|POS	Case=Nom|Degree=Pos	24	amod	24:amod	_
 24	utrymme	utrymme	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	21	obj	21:obj	_
 25	åt	åt	ADP	PP	_	26	case	26:case	_
 26	ställningstaganden	ställningstagande	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	21	obl	21:obl:åt	_
@@ -24165,7 +24165,7 @@
 # sent_id = sv-ud-test-1207
 # text = Genom litet 'skicklighet' kan de få dubbelt barntillägg.
 1	Genom	genom	ADP	PP	_	4	case	4:case	_
-2	litet	lite	DET	JJ|POS|NEU|SIN|IND|NOM	Definite=Ind|PronType=Ind	4	det	4:det	_
+2	litet	lite	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Degree=Pos	4	amod	4:amod	_
 3	'	'	PUNCT	PAD	_	4	punct	4:punct	SpaceAfter=No
 4	skicklighet	skicklighet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	obl	8:obl:genom	SpaceAfter=No
 5	'	'	PUNCT	PAD	_	4	punct	4:punct	_
