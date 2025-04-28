@@ -3922,7 +3922,7 @@
 12	hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	10	conj	10:conj:eller|13:nsubj	_
 13	stämma	stämma	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	0	root	0:root	Cxn=Conditional-Marker|CxnElt=13:Conditional-Marker.Apodosis
 14	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	15	det	15:det	_
-15	andra	andra	PRON	JJ|POS|UTR/NEU|SIN|DEF|NOM	Definite=Def|Degree=Pos|PronType=Ind	13	obj	13:obj	_
+15	andra	andra	PRON	JJ|POS|UTR/NEU|SIN|DEF|NOM	Definite=Def|PronType=Ind	13	obj	13:obj	_
 16	inför	inför	ADP	PP	_	17	case	17:case	_
 17	domstol	domstol	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	obl	13:obl:inför	SpaceAfter=No
 18	.	.	PUNCT	MAD	_	13	punct	13:punct	_
