@@ -874,7 +874,7 @@
 22	lagt	lägga	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	11	advcl	11:advcl:samtidigt_som	_
 23	ned	ned	ADV	PL	_	22	compound:prt	22:compound:prt	_
 24	så	så	ADV	AB	_	25	advmod	25:advmod	_
-25	mycket	mycket	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	26	amod	26:amod	_
+25	mycket	mycket	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Degree=Pos	26	amod	26:amod	_
 26	tid	tid	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	22	obj	22:obj	_
 27	och	och	CCONJ	KN	_	28	cc	28:cc	_
 28	möda	möda	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	26	conj	22:obj|26:conj:och	_
@@ -1143,7 +1143,7 @@
 7	,	,	PUNCT	MID	_	6	punct	6:punct	_
 8	som	som	PRON	HP|-|-|-	PronType=Rel	11	nsubj	6:ref	_
 9	i	i	ADP	PP	_	10	case	10:case	_
-10	mycket	mycken	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	11	obl	11:obl:i	_
+10	mycket	mycket	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|PronType=Ind	11	obl	11:obl:i	_
 11	liknar	likna	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	6:acl:relcl	_
 12	kibbutzerna	kibbutz	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	11	obj	11:obj	_
 13	utom	utom	ADP	PP	_	16	case	16:case	_
@@ -4062,7 +4062,7 @@
 9	inse	inse	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	8	xcomp	8:xcomp	_
 10	att	att	SCONJ	SN	_	14	mark	14:mark	_
 11	betydligt	betydlig	ADV	AB	_	12	advmod	12:advmod	_
-12	mer	mycket	ADV	AB|KOM	Degree=Cmp	14	nsubj:pass	14:nsubj:pass	_
+12	mer	mycket	PRON	AB|KOM	Definite=Ind|PronType=Ind	14	nsubj:pass	14:nsubj:pass	_
 13	måste	måste	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	14:aux	_
 14	göras	göra	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	9	ccomp	9:ccomp	_
 15	för	för	ADP	PP	_	17	mark	17:mark	_
@@ -4654,7 +4654,7 @@
 # text = Tyvärr tyder mycket på, att full demokrati i äktenskapet ännu är mer undantagsfall än regel.
 1	Tyvärr	tyvärr	ADV	AB	_	2	advmod	2:advmod	_
 2	tyder	tyda	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-3	mycket	mycket	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	2	nsubj	2:nsubj	_
+3	mycket	mycket	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|PronType=Ind	2	nsubj	2:nsubj	_
 4	på	på	ADP	PP	_	14	mark	14:mark	SpaceAfter=No
 5	,	,	PUNCT	MID	_	14	punct	14:punct	_
 6	att	att	SCONJ	SN	_	14	mark	14:mark	_
@@ -6675,7 +6675,7 @@
 # sent_id = sv-ud-dev-280
 # text = Fast mycket kanske beror på en själv.
 1	Fast	fast	CCONJ	KN	_	4	cc	4:cc	_
-2	mycket	mycket	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	4	nsubj	4:nsubj	_
+2	mycket	mycket	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|PronType=Ind	4	nsubj	4:nsubj	_
 3	kanske	kanske	ADV	AB	_	4	advmod	4:advmod	_
 4	beror	bero	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 5	på	på	ADP	PP	_	6	case	6:case	_
@@ -6919,7 +6919,7 @@
 8	karln	karl	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	nsubj	9:nsubj	_
 9	tjänar	tjäna	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	3:advcl:när	_
 10	så	så	ADV	AB	_	11	advmod	11:advmod	_
-11	mycket	mycket	ADV	AB|POS	Degree=Pos	9	obj	9:obj	_
+11	mycket	mycket	PRON	AB|POS	Definite=Ind|PronType=Ind	9	obj	9:obj	_
 12	att	att	SCONJ	SN	_	14	mark	14:mark	_
 13	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	14	nsubj	14:nsubj	_
 14	räcker	räcka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	11:advcl:att	_
@@ -7134,7 +7134,7 @@
 16	,	,	PUNCT	MID	_	17	punct	17:punct	_
 17	fixat	fixa	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	2	conj	2:conj	_
 18	det	den	DET	DT|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	det	19:det	_
-19	mesta	mycken	ADJ	JJ|SUV|UTR/NEU|SIN/PLU|DEF|NOM	Case=Nom|Definite=Def|Degree=Sup	17	obj	17:obj	SpaceAfter=No
+19	mesta	mycket	PRON	JJ|SUV|UTR/NEU|SIN/PLU|DEF|NOM	Definite=Def|PronType=Ind	17	obj	17:obj	SpaceAfter=No
 20	,	,	PUNCT	MID	_	17	punct	17:punct	_
 21	så	så	ADV	AB	_	25	mark	25:mark	_
 22	att	att	SCONJ	SN	_	25	mark	25:mark	_
@@ -7412,7 +7412,7 @@
 13	vi	vi	PRON	PN|UTR|PLU|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	15	nsubj	15:nsubj	_
 14	måste	måste	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux	15:aux	_
 15	importera	importera	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	6	conj	6:conj:och	_
-16	mer	mycket	ADV	AB|KOM	Degree=Cmp	17	advmod	17:advmod	_
+16	mer	mycket	ADJ	AB|KOM	Case=Nom|Degree=Cmp	18	amod	18:amod	_
 17	utländsk	utländsk	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	18	amod	18:amod	_
 18	arbetskraft	arbetskraft	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	15	obj	15:obj	_
 19	och	och	CCONJ	KN	_	24	cc	24:cc	_
@@ -9164,7 +9164,7 @@
 
 # sent_id = sv-ud-dev-411
 # text = Mycket skall pressas in i den dubbelarbetande kvinnans arbetsdag.
-1	Mycket	mycken	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	3	nsubj:pass	3:nsubj:pass	_
+1	Mycket	mycket	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|PronType=Ind	3	nsubj:pass	3:nsubj:pass	_
 2	skall	skola	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	3:aux	_
 3	pressas	pressa	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	0	root	0:root	_
 4	in	in	ADV	PL	_	3	compound:prt	3:compound:prt	_
@@ -10122,7 +10122,7 @@
 9	skall	skola	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	10:aux	_
 10	ha	ha	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	5	advcl	5:advcl:att	CxnElt=5:Conditional-Marker.Protasis
 11	lika	lik	ADJ	AB	Case=Nom|Definite=Ind|Degree=Pos	12	amod	12:amod	_
-12	mycket	mycket	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	10	obj	10:obj	_
+12	mycket	mycket	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|PronType=Ind	10	obj	10:obj	_
 13	att	att	PART	IE	_	14	mark	14:mark	_
 14	säga	säga	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	12	acl	12:acl:att	_
 15	till	till	ADP	PL	_	14	compound:prt	14:compound:prt	_

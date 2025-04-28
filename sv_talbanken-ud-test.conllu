@@ -1478,7 +1478,7 @@
 9	folkpensionen	folkpension	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	7	nmod	7:nmod:utöver	_
 10	uppgår	uppgå	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	5:advcl:om	CxnElt=5:Conditional-Marker.Protasis
 11	till	till	ADP	PP	_	12	case	12:case	_
-12	mer	mycket	ADV	AB|KOM	Degree=Cmp	10	obl	10:obl:till	_
+12	mer	mycket	PRON	AB|KOM	Definite=Ind|PronType=Ind	10	obl	10:obl:till	_
 13	än	än	SCONJ	KN	_	16	case	16:case	_
 14	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	15	det	15:det	_
 15	visst	viss	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	16	amod	16:amod	_
@@ -3376,7 +3376,7 @@
 14	,	,	PUNCT	MID	_	10	punct	10:punct	_
 15	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 16	vi	vi	PRON	PN|UTR|PLU|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	15	nsubj	15:nsubj	_
-17	mer	mycket	ADV	AB|KOM	Degree=Cmp	15	obj	15:obj	_
+17	mer	mycket	PRON	AB|KOM	Definite=Ind|PronType=Ind	15	obj	15:obj	_
 18	än	än	SCONJ	KN	_	21	mark	21:mark	_
 19	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int	21	obj	21:obj	_
 20	vi	vi	PRON	PN|UTR|PLU|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	21	nsubj	21:nsubj	_
@@ -4548,7 +4548,7 @@
 3	trygg	trygg	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	4	amod	4:amod	_
 4	omvårdnad	omvårdnad	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obj	2:obj	_
 5	och	och	CCONJ	KN	_	7	cc	7:cc	_
-6	mycket	mycket	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	7	amod	7:amod	_
+6	mycket	mycket	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Degree=Pos	7	amod	7:amod	_
 7	ömhet	ömhet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	conj	2:obj|4:conj:och	_
 8	för	för	ADP	PP	_	10	mark	10:mark	_
 9	att	att	PART	IE	_	10	mark	10:mark	_
@@ -5323,7 +5323,7 @@
 3	tiden	tid	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	obl	4:obl:från	_
 4	behöver	behöva	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 5	barnet	barn	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	4	nsubj	4:nsubj	_
-6	mer	mycket	ADV	AB|KOM	Degree=Cmp	4	obj	4:obj	_
+6	mer	mycket	PRON	AB|KOM	Definite=Ind|PronType=Ind	4	obj	4:obj	_
 7	av	av	ADP	PP	_	8	case	8:case	_
 8	lek	lek	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	nmod	6:nmod:av	_
 9	och	och	CCONJ	KN	_	10	cc	10:cc	_
@@ -5421,7 +5421,7 @@
 1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	4	expl	4:expl	_
 2	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
 3	så	så	ADV	AB	_	4	advmod	4:advmod	_
-4	mycket	mycken	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	0	root	0:root	_
+4	mycket	mycket	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|PronType=Ind	0	root	0:root	_
 5	som	som	PRON	HP|-|-|-	PronType=Rel	6	nsubj	6:nsubj	_
 6	händer	hända	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:cleft	4:acl:cleft	_
 7	under	under	ADP	PP	_	10	case	10:case	_
@@ -5768,7 +5768,7 @@
 # text = Man undgår mycket skrik och onödig oro genom att ge dem detta i början och det brukar inte dröja länge förrän de sover över av sig själva.
 1	Man	man	PRON	PN|UTR|SIN|IND|SUB	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	2	nsubj	2:nsubj	_
 2	undgår	undgå	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-3	mycket	mycket	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	4	amod	4:amod	_
+3	mycket	mycket	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Degree=Pos	4	amod	4:amod	_
 4	skrik	skrik	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	obj	2:obj	_
 5	och	och	CCONJ	KN	_	7	cc	7:cc	_
 6	onödig	onödig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	7	amod	7:amod	_
@@ -6112,7 +6112,7 @@
 6	inte	inte	PART	AB	Polarity=Neg	7	advmod	7:advmod	_
 7	få	få	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	0	root	0:root	_
 8	för	för	ADV	AB	_	9	advmod	9:advmod	_
-9	mycket	mycken	ADV	AB|POS	Degree=Pos	7	obj	7:obj	_
+9	mycket	mycket	ADV	AB|POS	Degree=Pos	7	advmod	7:advmod	_
 10	av	av	ADP	PP	_	1	case	1:case	SpaceAfter=No
 11	.	.	PUNCT	MAD	_	7	punct	7:punct	_
 
@@ -6133,7 +6133,7 @@
 2	behöver	behöva	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Cxn=Conditional-Marker|CxnElt=2:Conditional-Marker.Apodosis
 3	inte	inte	PART	AB	Polarity=Neg	2	advmod	2:advmod	_
 4	ta	ta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	xcomp	2:xcomp	_
-5	mer	mycket	ADV	AB|KOM	Degree=Cmp	4	obj	4:obj	_
+5	mer	mycket	PRON	AB|KOM	Definite=Ind|PronType=Ind	4	obj	4:obj	_
 6	än	än	SCONJ	KN	_	8	case	8:case	_
 7	100	100	NUM	RG|NOM	Case=Nom|NumType=Card	8	nummod	8:nummod	_
 8	år	år	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	5	obl	5:obl:än	_
@@ -7749,7 +7749,7 @@
 9	,	,	PUNCT	MID	_	12	punct	12:punct	_
 10	vilket	vilken	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Rel	12	nsubj	6:ref	_
 11	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	12:cop	_
-12	mer	mycket	ADV	AB|KOM	Degree=Cmp	6	acl:relcl	6:acl:relcl	_
+12	mer	mycket	ADJ	AB|KOM	Case=Nom|Degree=Cmp	6	acl:relcl	6:acl:relcl	_
 13	än	än	SCONJ	KN	_	16	case	16:case	_
 14	dubbla	dubbel	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	16	amod	16:amod	_
 15	tillåtna	tillåten	ADJ	PC|PRF|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Tense=Past|VerbForm=Part	16	amod	16:amod	_
@@ -7850,7 +7850,7 @@
 11	städer	stad	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	8	appos	8:appos|13:nsubj	_
 12	som	som	PRON	HP|-|-|-	PronType=Rel	13	nsubj	11:ref	_
 13	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	11:acl:relcl	_
-14	mer	mycket	ADV	AB|KOM	Degree=Cmp	13	obj	13:obj|19:nsubj	_
+14	mer	mycket	PRON	AB|KOM	Definite=Ind|PronType=Ind	13	obj	13:obj|19:nsubj	_
 15	än	än	SCONJ	KN	_	18	case	18:case	_
 16	2,5	2,5	NUM	RG|NOM	Case=Nom|NumType=Card	17	nummod	17:nummod	_
 17	miljoner	miljon	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	18	nmod	18:nmod	_
@@ -8191,7 +8191,7 @@
 # sent_id = sv-ud-test-432
 # text = Mycket mer skall in i utvecklingsbilden, men en djärv satsning på utbildning kan ge resultat.
 1	Mycket	mycket	ADV	AB|POS	Degree=Pos	2	advmod	2:advmod	_
-2	mer	mycket	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	3	nsubj	3:nsubj	_
+2	mer	mycket	PRON	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Definite=Ind|PronType=Ind	3	nsubj	3:nsubj	_
 3	skall	skola	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	in	in	ADV	PL	_	3	compound:prt	3:compound:prt	_
 5	i	i	ADP	PP	_	6	case	6:case	_
@@ -8349,7 +8349,7 @@
 3	roten	rot	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	0	root	0:root	_
 4	till	till	ADP	PP	_	7	case	7:case	_
 5	det	den	DET	DT|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	7:det	_
-6	mesta	mycken	ADJ	JJ|SUV|UTR/NEU|SIN/PLU|DEF|NOM	Case=Nom|Definite=Def|Degree=Sup	7	amod	7:amod	_
+6	mesta	mycket	ADJ	JJ|SUV|UTR/NEU|SIN/PLU|DEF|NOM	Case=Nom|Definite=Def|Degree=Sup	7	amod	7:amod	_
 7	onda	ond	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	3	nmod	3:nmod:till	_
 8	i	i	ADP	PP	_	10	case	10:case	_
 9	u-ländernas	u-land	NOUN	NN|NEU|PLU|DEF|GEN	Case=Gen|Definite=Def|Gender=Neut|Number=Plur	10	nmod:poss	10:nmod:poss	_
@@ -8621,7 +8621,7 @@
 7	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	10	nsubj	10:nsubj	_
 8	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	10:cop	_
 9	inte	inte	PART	AB	Polarity=Neg	10	advmod	10:advmod	_
-10	mycket	mycken	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	2	conj	2:conj:men	_
+10	mycket	mycket	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|PronType=Ind	2	conj	2:conj:men	_
 11	att	att	PART	IE	_	12	mark	12:mark	_
 12	hoppas	hoppas	VERB	VB|INF|SFO	VerbForm=Inf	10	acl	10:acl:på	_
 13	på	på	ADP	PP	_	12	obl	12:obl:på	SpaceAfter=No
@@ -9107,7 +9107,7 @@
 6	och	och	CCONJ	KN	_	7	cc	7:cc	_
 7	Latinamerika	Latinamerika	PROPN	PM|NOM	Case=Nom	5	conj	3:nmod:av|5:conj:och	_
 8	slutar	sluta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-9	mer	mycket	ADV	AB|KOM	Degree=Cmp	8	nsubj	8:nsubj	_
+9	mer	mycket	PRON	AB|KOM	Definite=Ind|PronType=Ind	8	nsubj	8:nsubj	_
 10	än	än	SCONJ	KN	_	12	case	12:case	_
 11	varannan	varannan	DET	DT|UTR|SIN|IND	Definite=Def|Gender=Com|Number=Sing|PronType=Tot	12	det	12:det	_
 12	elev	elev	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	obl	9:obl:än	_
@@ -9249,7 +9249,7 @@
 2	ovan	ovan	ADV	AB	_	1	advmod	1:advmod	_
 3	visar	visa	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	hur	hur	ADV	HA	_	5	advmod	5:advmod	_
-5	mycket	mycket	ADV	AB|POS	Degree=Pos	7	obj	7:obj	_
+5	mycket	mycket	ADV	AB|POS	Degree=Pos	7	advmod	7:advmod	_
 6	världen	värld	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	7	nsubj	7:nsubj	_
 7	satsar	satsa	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	3:ccomp	_
 8	i	i	ADP	PP	_	11	case	11:case	_
@@ -11182,7 +11182,7 @@
 5	i	i	ADP	PP	_	6	case	6:case	_
 6	Lund	Lund	PROPN	PM|NOM	Case=Nom	4	nmod	4:nmod:i	_
 7	tillhör	tillhöra	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-8	mer	mycket	ADV	AB|KOM	Degree=Cmp	7	nsubj	7:nsubj	_
+8	mer	mycket	PRON	AB|KOM	Definite=Ind|PronType=Ind	7	nsubj	7:nsubj	_
 9	än	än	SCONJ	KN	_	10	case	10:case	_
 10	hälften	hälft	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	8	obl	8:obl:än	_
 11	av	av	ADP	PP	_	13	case	13:case	_
@@ -11953,7 +11953,7 @@
 20	beror	bero	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	17	ccomp	17:ccomp	_
 21	på	på	ADP	PP	_	24	case	24:case	_
 22	för	för	ADV	AB	_	23	advmod	23:advmod	_
-23	mycket	mycket	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	24	amod	24:amod	_
+23	mycket	mycket	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Degree=Pos	24	amod	24:amod	_
 24	hjärnvätska	hjärnvätska	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	20	obl	20:obl:på|30:obl	_
 25	som	som	PRON	HP|-|-|-	PronType=Rel	30	obj	24:ref	_
 26	hjärnans	hjärna	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	27	nmod:poss	27:nmod:poss	_
@@ -16582,7 +16582,7 @@
 7	vissa	viss	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	8	amod	8:amod	_
 8	fastighetsägare	fastighetsägare	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9	nsubj	9:nsubj	_
 9	fått	få	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	0	root	0:root	_
-10	mera	mycket	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	9	obj	9:obj	_
+10	mera	mycket	PRON	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Definite=Ind|PronType=Ind	9	obj	9:obj	_
 11	än	än	ADP	KN	_	12	case	12:case	_
 12	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Prs	9	obl	9:obl:än|14:nsubj	_
 13	som	som	PRON	HP|-|-|-	PronType=Rel	14	nsubj	12:ref	_
@@ -17555,7 +17555,7 @@
 2	befolkning	befolkning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	nsubj	3:nsubj	_
 3	ökar	öka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	med	med	ADP	PP	_	5	case	5:case	_
-5	mer	mycket	ADV	AB|KOM	Degree=Cmp	3	obl	3:obl:med	_
+5	mer	mycket	PRON	AB|KOM	Definite=Ind|PronType=Ind	3	obl	3:obl:med	_
 6	än	än	SCONJ	KN	_	9	case	9:case	_
 7	50	50	NUM	RG|NOM	Case=Nom|NumType=Card	8	nummod	8:nummod	_
 8	miljoner	miljon	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9	nmod	9:nmod	_
@@ -18096,7 +18096,7 @@
 3	då	då	ADV	AB	_	5	advmod	5:advmod	_
 4	att	att	PART	IE	_	5	mark	5:mark	_
 5	omfatta	omfatta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	0	root	0:root	_
-6	mer	mycket	ADV	AB|KOM	Degree=Cmp	5	obj	5:obj	_
+6	mer	mycket	PRON	AB|KOM	Definite=Ind|PronType=Ind	5	obj	5:obj	_
 7	än	än	SCONJ	KN	_	10	case	10:case	_
 8	två	två	NUM	RG|NOM	Case=Nom|NumType=Card	9	nummod	9:nummod	_
 9	miljarder	miljard	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	10	nmod	10:nmod	_
@@ -19018,7 +19018,7 @@
 21	hennes	hon	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	22	nmod:poss	22:nmod:poss	_
 22	egenvärde	egenvärde	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	24	nsubj	24:nsubj	_
 23	inte	inte	PART	AB	Polarity=Neg	24	advmod	24:advmod	_
-24	mycket	mycket	ADV	AB|POS	Degree=Pos	5	conj	5:conj	Cxn=Conditional-Marker|CxnElt=20:Conditional-Marker.Apodosis
+24	mycket	mycket	PRON	AB|POS	Definite=Ind|PronType=Ind	5	conj	5:conj	Cxn=Conditional-Marker|CxnElt=20:Conditional-Marker.Apodosis
 25	att	att	PART	IE	_	26	mark	26:mark	_
 26	tala	tala	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	24	advcl	24:advcl:om	_
 27	om	om	ADP	PP	_	26	obl	26:obl:om	SpaceAfter=No
@@ -20752,7 +20752,7 @@
 3	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	vi	vi	PRON	PN|UTR|PLU|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	3	nsubj	3:nsubj	_
 5	inte	inte	PART	AB	Polarity=Neg	3	advmod	3:advmod	_
-6	mycket	mycket	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	3	obj	3:obj	_
+6	mycket	mycket	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|PronType=Ind	3	obj	3:obj	_
 7	att	att	PART	IE	_	8	mark	8:mark	_
 8	utgå	utgå	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	6	acl	6:acl:från	_
 9	från	från	ADP	PP	_	8	obl	8:obl:från	SpaceAfter=No
@@ -24336,7 +24336,7 @@
 4	går	gå	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 5	miste	miste	ADV	PL	_	4	compound:prt	4:compound:prt	_
 6	om	om	ADP	PP	_	7	case	7:case	_
-7	mycket	mycken	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	4	obl	4:obl:om|9:nsubj	_
+7	mycket	mycket	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|PronType=Ind	4	obl	4:obl:om|9:nsubj	_
 8	som	som	PRON	HP|-|-|-	PronType=Rel	9	nsubj	7:ref	CxnElt=9:Existential-ExistPred.Pivot
 9	fanns	finnas	VERB	VB|PRT|SFO	Mood=Ind|Tense=Past|VerbForm=Fin	7	acl:relcl	7:acl:relcl	Cxn=Existential-ExistPred
 10	i	i	ADP	PP	_	14	case	14:case	_
