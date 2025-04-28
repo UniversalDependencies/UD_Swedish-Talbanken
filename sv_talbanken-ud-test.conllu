@@ -3711,7 +3711,7 @@
 13	hälften	hälft	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	11	nmod	11:nmod:till	_
 14	av	av	ADP	PP	_	18	case	18:case	_
 15	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	17	det	17:det	_
-16	andre	annan	ADJ	JJ|POS|MAS|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Gender=Com|NumType=Ord	17	amod	17:amod	_
+16	andre	annan	ADJ	JJ|POS|MAS|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	17	amod	17:amod	_
 17	makens	make	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	18	nmod:poss	18:nmod:poss	_
 18	tillgångar	tillgång	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	13	nmod	13:nmod:av	SpaceAfter=No
 19	.	.	PUNCT	MAD	_	2	punct	2:punct	_
@@ -3922,7 +3922,7 @@
 12	hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	10	conj	10:conj:eller|13:nsubj	_
 13	stämma	stämma	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	0	root	0:root	Cxn=Conditional-Marker|CxnElt=13:Conditional-Marker.Apodosis
 14	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	15	det	15:det	_
-15	andra	andra	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|NumType=Ord	13	obj	13:obj	_
+15	andra	andra	PRON	JJ|POS|UTR/NEU|SIN|DEF|NOM	Definite=Def|Degree=Pos|PronType=Ind	13	obj	13:obj	_
 16	inför	inför	ADP	PP	_	17	case	17:case	_
 17	domstol	domstol	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	obl	13:obl:inför	SpaceAfter=No
 18	.	.	PUNCT	MAD	_	13	punct	13:punct	_
@@ -6629,7 +6629,7 @@
 1	Om	om	SCONJ	SN	_	10	mark	10:mark	_
 2	människan	människa	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	10	nsubj:pass	10:nsubj:pass	_
 3	å	å	ADP	PP	_	5	case	5:case	_
-4	andra	annan	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	5	amod	5:amod	_
+4	andra	annan	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	5	amod	5:amod	_
 5	sidan	sida	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	10	obl	10:obl:å	_
 6	tack	tack	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|ExtPos=ADP|Gender=Neut|Number=Sing	9	case	9:case	_
 7	vare	vara	VERB	VB|KON|PRS|AKT	Mood=Sub|Tense=Pres|VerbForm=Fin|Voice=Act	6	fixed	6:fixed	_
@@ -9400,7 +9400,7 @@
 4	gifthalterna	gifthalt	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	2	nmod	2:nmod:om	_
 5	i	i	ADP	PP	_	8	case	8:case	_
 6	bland	bland	ADP	PP	_	7	case	7:case	_
-7	annat	annan	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Prs	8	nmod	8:nmod:bland	_
+7	annat	annan	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	8	nmod	8:nmod:bland	_
 8	strömming	strömming	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	nmod	4:nmod:i	_
 9	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	10:aux	_
 10	resulterat	resultera	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	0	root	0:root	_
@@ -11121,7 +11121,7 @@
 2	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	9:cop	_
 3	emellertid	emellertid	ADV	AB	_	9	advmod	9:advmod	_
 4	å	å	ADP	PP	_	6	case	6:case	_
-5	andra	annan	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	6	amod	6:amod	_
+5	andra	annan	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	6	amod	6:amod	_
 6	sidan	sida	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	obl	9:obl:å	_
 7	i	i	ADP	PP	_	8	case	8:case	_
 8	grunden	grund	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	obl	9:obl:i	_
@@ -13717,7 +13717,7 @@
 # sent_id = sv-ud-test-710
 # text = Ett annat är Lergigan, som användes mot sjösjuka och allergier men också som lugnande medel och sömnmedel.
 1	Ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	2	det	2:det	_
-2	annat	annan	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	0:root	_
+2	annat	annan	PRON	JJ|POS|NEU|SIN|IND|NOM	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	0	root	0:root	_
 3	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	2:cop	_
 4	Lergigan	Lergigan	PROPN	PM|NOM	Case=Nom	2	nsubj	2:nsubj|7:nsubj:pass|16:nsubj:pass	SpaceAfter=No
 5	,	,	PUNCT	MID	_	4	punct	4:punct	_
@@ -20115,7 +20115,7 @@
 52	medan	medan	SCONJ	SN	_	57	mark	57:mark	_
 53	arbetet	arbete	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	57	nsubj	57:nsubj	_
 54	å	å	ADP	PP	_	56	case	56:case	_
-55	andra	annan	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	56	amod	56:amod	_
+55	andra	annan	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	56	amod	56:amod	_
 56	sidan	sida	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	57	obl	57:obl:å	_
 57	kräver	kräva	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	36	advcl	36:advcl:medan	_
 58	heltidsengagemang	heltidsengagemang	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	57	obj	57:obj	SpaceAfter=No
@@ -21865,7 +21865,7 @@
 20	utlämnad	utlämnad	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	9	conj	9:conj:men	_
 21	åt	åt	ADP	PP	_	24	case	24:case	_
 22	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	24	det	24:det	_
-23	andra	andra	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|NumType=Ord	24	amod	24:amod	_
+23	andra	annan	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	24	amod	24:amod	_
 24	parten	part	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	20	obl	20:obl:åt	_
 25	så	så	ADV	AB	_	20	advmod	20:advmod	_
 26	som	som	SCONJ	KN	_	30	mark	30:mark	_
@@ -22608,7 +22608,7 @@
 12	gemenskap	gemenskap	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	obl	9:obl:i	_
 13	med	med	ADP	PP	_	15	case	15:case	_
 14	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	15	det	15:det	_
-15	annan	annan	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	9	obl	9:obl	_
+15	annan	annan	PRON	JJ|POS|UTR|SIN|IND|NOM	Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	9	obl	9:obl	_
 16	utgjort	utgöra	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	0	root	0:root	_
 17	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	19	det	19:det	_
 18	ovärderlig	ovärderlig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	19	amod	19:amod	_
@@ -22861,7 +22861,7 @@
 7	samhället	samhälle	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	8	nsubj	8:nsubj	_
 8	kommer	komma	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	2:parataxis	_
 9	i	i	ADP	PP	_	11	case	11:case	_
-10	andra	annan	ADJ	RO|NOM	Case=Nom|Definite=Def|Degree=Pos	11	amod	11:amod	_
+10	andra	andra	ADJ	RO|NOM	Case=Nom|NumType=Ord	11	amod	11:amod	_
 11	rummet	rum	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	8	obl	8:obl:i	SpaceAfter=No
 12	;	;	PUNCT	MID	_	2	punct	2:punct	_
 13	förhållanden	förhållande	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	2	parataxis	2:parataxis|19:obl	_
@@ -23667,7 +23667,7 @@
 # sent_id = sv-ud-test-1183
 # text = Den andra orsaken till att man inte gifter sig, man vill inte binda sig, kan man knappast komma åt lagstiftningsvägen.
 1	Den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	3	det	3:det	_
-2	andra	annan	ADJ	RO|NOM	Case=Nom|Definite=Def|Degree=Pos	3	amod	3:amod	_
+2	andra	andra	ADJ	RO|NOM	Case=Nom|NumType=Ord	3	amod	3:amod	_
 3	orsaken	orsak	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	20	obj	20:obj	_
 4	till	till	ADP	PP	_	8	mark	8:mark	_
 5	att	att	SCONJ	SN	_	8	mark	8:mark	_

@@ -385,7 +385,7 @@
 # sent_id = sv-ud-dev-14
 # text = Å andra sidan kan det skapa en osäkerhet och villrådighet hos kibbutzbarnen att inte ha bara en utan flera personer som kanske betyder lika mycket för dem: föräldrarna, sköterskan och de övriga barnen i gruppen.
 1	Å	å	ADP	PP	_	3	case	3:case	_
-2	andra	annan	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	3	amod	3:amod	_
+2	andra	annan	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	3	amod	3:amod	_
 3	sidan	sida	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	6	obl	6:obl:å	_
 4	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	6:aux	_
 5	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	6	expl	6:expl	_
@@ -1769,7 +1769,7 @@
 8	,	,	PUNCT	MID	_	7	punct	7:punct	_
 9	vilka	vilken	PRON	HP|UTR/NEU|PLU|IND	Definite=Ind|Number=Plur|PronType=Rel	12	nsubj	7:ref	_
 10	bland	bland	ADP	PP	_	11	case	11:case	_
-11	annat	annan	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Prs	12	obl	12:obl:bland	_
+11	annat	annan	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	12	obl	12:obl:bland	_
 12	berörde	beröra	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	7	acl:relcl	7:acl:relcl	_
 13	kibbutzbarnens	kibbutzbarn	NOUN	NN|NEU|PLU|DEF|GEN	Case=Gen|Definite=Def|Gender=Neut|Number=Plur	14	nmod:poss	14:nmod:poss	_
 14	attityd	attityd	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	obj	12:obj	_
@@ -2531,7 +2531,7 @@
 # text = I riksdagens andra kammare finns idag 32 kvinnliga ledamöter, därav 24 socialdemokrater, men 201 män, därav 89 socialdemokrater.
 1	I	i	ADP	PP	_	4	case	4:case	_
 2	riksdagens	riksdag	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	4	nmod:poss	4:nmod:poss	_
-3	andra	annan	ADJ	RO|NOM	Case=Nom|Definite=Def|Degree=Pos	4	amod	4:amod	_
+3	andra	andra	ADJ	RO|NOM	Case=Nom|NumType=Ord	4	amod	4:amod	_
 4	kammare	kammare	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	obl	5:obl:i	_
 5	finns	finnas	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-ExistPred
 6	idag	idag	ADV	AB	_	5	advmod	5:advmod	_
@@ -2736,7 +2736,7 @@
 # sent_id = sv-ud-dev-107
 # text = Å andra sidan föreligger fortfarande besvärande skillnader vad gäller mäns och kvinnors fördelning på arbetsuppgifter som ger högre respektive lägre lön.
 1	Å	å	ADP	PP	_	3	case	3:case	_
-2	andra	annan	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	3	amod	3:amod	_
+2	andra	annan	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	3	amod	3:amod	_
 3	sidan	sida	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	obl	4:obl:å	_
 4	föreligger	föreligga	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 5	fortfarande	fortfarande	ADV	AB	_	4	advmod	4:advmod	_
@@ -10081,7 +10081,7 @@
 20	husbondevälde	husbondevälde	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	18	obl	18:obl:på	_
 21	och	och	CCONJ	KN	_	23	cc	23:cc	_
 22	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	23	det	23:det	_
-23	andra	andra	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|NumType=Ord	18	conj	7:advcl:om|18:conj:och	_
+23	andra	annan	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	18	conj	7:advcl:om|18:conj:och	_
 24	på	på	ADP	PP	_	26	case	26:case	_
 25	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	26	det	26:det	_
 26	likställighet	likställighet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	23	obl	23:obl:på|32:nsubj	_
