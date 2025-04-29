@@ -3450,7 +3450,7 @@
 6	vuxit	växa	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	0	root	0:root	_
 7	upp	upp	ADV	PL	_	6	compound:prt	6:compound:prt	_
 8	i	i	ADP	PP	_	11	case	11:case	_
-9	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	11	det	11:det	_
+9	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Dem	11	det	11:det	_
 10	här	här	ADV	AB	_	11	advmod	11:advmod	_
 11	byn	by	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	6	obl	6:obl:i	_
 12	i	i	ADP	PP	_	16	case	16:case	_
@@ -8032,7 +8032,7 @@
 6	tar	ta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	3:acl:relcl	_
 7	att	att	PART	IE	_	8	mark	8:mark	_
 8	läsa	läsa	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	6	csubj	6:csubj	_
-9	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	11	det	11:det	_
+9	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Dem	11	det	11:det	_
 10	här	här	ADV	AB	_	11	advmod	11:advmod	_
 11	meningen	mening	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	8	obj	8:obj	_
 12	föds	föda	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	0:root	_
@@ -9725,7 +9725,7 @@
 8	på	på	ADP	PP	_	9	case	9:case	_
 9	myndigheterna	myndighet	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	6	obl	6:obl:på	_
 10	i	i	ADP	PP	_	13	case	13:case	_
-11	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	13	det	13:det	_
+11	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Dem	13	det	13:det	_
 12	här	här	ADV	AB	_	13	advmod	13:advmod	_
 13	frågan	fråga	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	6	obl	6:obl:i	SpaceAfter=No
 14	.	.	PUNCT	MAD	_	6	punct	6:punct	_
@@ -9741,7 +9741,7 @@
 7	tar	ta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	2:ccomp	_
 8	itu	itu	ADV	PL	_	7	compound:prt	7:compound:prt	_
 9	med	med	ADP	PP	_	12	case	12:case	_
-10	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	12	det	12:det	_
+10	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Dem	12	det	12:det	_
 11	här	här	ADV	AB	_	12	advmod	12:advmod	_
 12	saken	sak	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	7	obl	7:obl:med	SpaceAfter=No
 13	.	.	PUNCT	MAD	_	2	punct	2:punct	_
@@ -19026,7 +19026,7 @@
 
 # sent_id = sv-ud-test-1000
 # text = Den här typen av uttalanden förekommer i press och veckotidningar vecka efter vecka.
-1	Den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	3	det	3:det	_
+1	Den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Dem	3	det	3:det	_
 2	här	här	ADV	AB	_	3	advmod	3:advmod	_
 3	typen	typ	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	6	nsubj	6:nsubj	_
 4	av	av	ADP	PP	_	5	case	5:case	_
@@ -19611,7 +19611,7 @@
 3	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	4	det	4:det	_
 4	uppfattningen	uppfattning	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	obj	2:obj	_
 5	att	att	SCONJ	SN	_	12	mark	12:mark	_
-6	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	12	nsubj	12:nsubj	_
+6	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	12	nsubj	12:nsubj	_
 7	där	där	ADV	AB	_	6	advmod	6:advmod	_
 8	med	med	ADP	PP	_	9	case	9:case	_
 9	barn	barn	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	6	nmod	6:nmod:med	_
