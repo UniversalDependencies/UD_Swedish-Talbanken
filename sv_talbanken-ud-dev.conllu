@@ -1855,7 +1855,7 @@
 4	ifrågasätta	ifrågasätta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	19	advcl	19:advcl:att	_
 5	och	och	CCONJ	KN	_	6	cc	6:cc	_
 6	pröva	pröva	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	4	conj	4:conj:och|19:advcl:att	_
-7	några	någon	DET	DT|UTR/NEU|PLU|IND	Definite=Ind|Number=Plur|PronType=Ind	4	obj	4:obj|6:obj	_
+7	några	någon	PRON	DT|UTR/NEU|PLU|IND	Definite=Ind|Number=Plur|PronType=Ind	4	obj	4:obj|6:obj	_
 8	av	av	ADP	PP	_	11	case	11:case	_
 9	våra	vi	PRON	PS|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	_
 10	vanligaste	vanlig	ADJ	JJ|SUV|UTR/NEU|SIN/PLU|DEF|NOM	Case=Nom|Definite=Def|Degree=Sup	11	amod	11:amod	_
