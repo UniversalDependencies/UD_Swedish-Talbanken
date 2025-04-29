@@ -24000,7 +24000,7 @@
 14	kärlek	kärlek	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	nsubj	16:nsubj	_
 15	skall	skola	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	16	aux	16:aux	_
 16	klara	klara	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	9	ccomp	9:ccomp	_
-17	alla	all	DET	DT|UTR/NEU|PLU|IND/DEF	Number=Plur|PronType=Tot	18	acl	18:acl	_
+17	alla	all	DET	DT|UTR/NEU|PLU|IND/DEF	Number=Plur|PronType=Tot	18	det	18:det	_
 18	problem	problem	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	16	obj	16:obj	_
 19	övervägde	överväga	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	ccomp	3:ccomp	_
 20	följderna	följd	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	19	obj	19:obj	_
