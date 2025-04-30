@@ -207,6 +207,7 @@ From v2.15 to v2.16
 - Fixed a number of miscellaneous reported errors.
 - Added features to lemma "olik".
 - Harmonized lemmas, UPOS and features for DET/PRON/ADJ.
+- Implemented code-switched analysis for cross-lingual content.
 
 <pre>
 === Machine readable metadata ==============
