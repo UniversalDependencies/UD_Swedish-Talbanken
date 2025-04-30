@@ -12640,8 +12640,8 @@
 16	psykiska	psykisk	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	17	amod	17:amod	_
 17	orsaker	orsak	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	15	obj	15:obj	_
 18	och	och	CCONJ	KN	_	19	cc	19:cc	_
-19	vice	vice	NOUN	UO	ExtPos=ADV|Foreign=Yes	15	conj	3:advcl:eftersom|15:conj:och	_
-20	versa	versa	NOUN	UO	Foreign=Yes	19	fixed	19:fixed	SpaceAfter=No
+19	vice	vice	NOUN	UO	ExtPos=ADV	15	conj	3:advcl:eftersom|15:conj:och	_
+20	versa	versa	NOUN	UO	_	19	fixed	19:fixed	SpaceAfter=No
 21	.	.	PUNCT	MAD	_	3	punct	3:punct	_
 
 # sent_id = sv-ud-test-648
@@ -18139,10 +18139,10 @@
 13	av	av	ADP	PP	_	14	case	14:case	_
 14	SIDA	SIDA	PROPN	PM|NOM	Case=Nom	12	obl:agent	12:obl:agent|26:nsubj	_
 15	(	(	PUNCT	PAD	_	14	punct	14:punct	SpaceAfter=No
-16	Swedish	Swedish	ADJ	JJ	Degree=Pos|Foreign=Yes	19	amod	19:amod	Lang=en
-17	International	International	ADJ	JJ	Degree=Pos|Foreign=Yes	18	amod	18:amod	Lang=en
-18	Development	Development	NOUN	NN	_	19	compound	19:compound	_
-19	Authority	Authority	NOUN	NN	_	14	appos	14:appos	SpaceAfter=No
+16	Swedish	Swedish	ADJ	JJ	Foreign=Yes	19	amod	19:amod	Lang=en
+17	International	International	ADJ	JJ	Foreign=Yes	18	amod	18:amod	Lang=en
+18	Development	Development	NOUN	NN	Foreign=Yes	19	compound	19:compound	Lang=en
+19	Authority	Authority	NOUN	NN	Foreign=Yes	14	appos	14:appos	Lang=en|SpaceAfter=No
 20	)	)	PUNCT	PAD	_	19	punct	19:punct	SpaceAfter=No
 21	,	,	PUNCT	MID	_	14	punct	14:punct	_
 22	som	som	PRON	HP|-|-|-	PronType=Rel	26	nsubj	14:ref	_

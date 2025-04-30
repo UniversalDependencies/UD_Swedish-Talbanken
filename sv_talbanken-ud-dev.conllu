@@ -1409,29 +1409,29 @@
 13	I.	I.	PROPN	PM|NOM	Case=Nom	12	flat:name	12:flat:name	_
 14	Rabin	Rabin	PROPN	PM|NOM	Case=Nom	12	flat:name	12:flat:name	SpaceAfter=No
 15	:	:	PUNCT	MID	_	12	punct	12:punct	_
-16	Infants	Infants	NOUN	NN	_	12	nmod	12:nmod	_
-17	and	and	CCONJ	KN	_	16	cc	16:cc	_
-18	Children	Children	NOUN	NN	_	16	conj	12:nmod|16:conj	_
-19	under	under	ADP	PP	_	20	case	20:case	_
-20	Conditions	Conditions	NOUN	NN	_	16	nmod	16:nmod:under	_
-21	of	of	ADP	PP	_	25	case	25:case	_
+16	Infants	Infants	NOUN	NN	Foreign=Yes	12	nmod	12:nmod	Lang=en
+17	and	and	CCONJ	KN	Foreign=Yes	16	cc	16:cc	Lang=en
+18	Children	Children	NOUN	NN	Foreign=Yes	16	conj	12:nmod|16:conj	Lang=en
+19	under	under	ADP	PP	Foreign=Yes	20	case	20:case	Lang=en
+20	Conditions	Conditions	NOUN	NN	Foreign=Yes	16	nmod	16:nmod:under	Lang=en
+21	of	of	ADP	PP	Foreign=Yes	25	case	25:case	Lang=en
 22	'	'	PUNCT	PAD	_	23	punct	23:punct	SpaceAfter=No
-23	Intermittent	Intermittent	ADJ	JJ	Degree=Pos|Foreign=Yes	25	amod	25:amod	Lang=en|SpaceAfter=No
+23	Intermittent	Intermittent	ADJ	JJ	Foreign=Yes	25	amod	25:amod	Lang=en|SpaceAfter=No
 24	'	'	PUNCT	PAD	_	23	punct	23:punct	_
-25	Mothering	Mothering	NOUN	NN	_	20	nmod	20:nmod	_
-26	in	in	ADP	PP	_	28	case	28:case	_
-27	the	the	DET	DT	PronType=Art	28	det	28:det	_
-28	Kibbutz	Kibbutz	NOUN	NN	_	25	nmod	25:nmod	SpaceAfter=No
+25	Mothering	Mothering	NOUN	NN	Foreign=Yes	20	nmod	20:nmod	Lang=en
+26	in	in	ADP	PP	Foreign=Yes	28	case	28:case	Lang=en
+27	the	the	DET	DT	Foreign=Yes	28	det	28:det	Lang=en
+28	Kibbutz	Kibbutz	NOUN	NN	Foreign=Yes	25	nmod	25:nmod	Lang=en|SpaceAfter=No
 29	.	.	PUNCT	MAD	_	16	punct	16:punct	_
 
 # sent_id = sv-ud-dev-51
 # text = Publicerad i American Journal of Orthopsychiatry, 1958, xxviii 577-584 .
 1	Publicerad	publicerad	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	_
 2	i	i	ADP	PP	_	4	case	4:case	_
-3	American	American	ADJ	JJ	Degree=Pos|Foreign=Yes	4	amod	4:amod	Lang=en
-4	Journal	Journal	NOUN	NN	_	1	obl	1:obl:i	_
-5	of	of	ADP	PP	_	6	case	6:case	_
-6	Orthopsychiatry	Orthopsychiatry	NOUN	NN	_	4	nmod	4:nmod	SpaceAfter=No
+3	American	American	ADJ	JJ	Foreign=Yes	4	amod	4:amod	Lang=en
+4	Journal	Journal	NOUN	NN	Foreign=Yes	1	obl	1:obl:i	Lang=en
+5	of	of	ADP	PP	Foreign=Yes	6	case	6:case	Lang=en
+6	Orthopsychiatry	Orthopsychiatry	NOUN	NN	Foreign=Yes	4	nmod	4:nmod	Lang=en|SpaceAfter=No
 7	,	,	PUNCT	MID	_	4	punct	4:punct	_
 8	1958	1958	NUM	RG|NOM	Case=Nom|NumType=Card	4	nmod	4:nmod	SpaceAfter=No
 9	,	,	PUNCT	MID	_	8	punct	8:punct	_
