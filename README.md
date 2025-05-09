@@ -200,6 +200,15 @@ From v2.14 to v2.15:
   - This release adds rule-based annotations of Interrogatives, Conditionals, Existentials, and NPN (noun-preposition-noun) constructions on the head of the respective phrase, plus construction elements.
   - The UCxn v1 notation and categories are documented [here](https://github.com/LeonieWeissweiler/UCxn/blob/main/docs/UCxn-v1.pdf).
 
+From v2.15 to v2.16
+- Fixed errors in the annotation of "vara" (be) as AUX vs. VERB.
+- Removed "behöva" (need) from the inventory of auxiliaries. 
+- Harmonized lemmas, UPOS and features for participles.
+- Fixed a number of miscellaneous reported errors.
+- Added features to lemma "olik".
+- Harmonized lemmas, UPOS and features for DET/PRON/ADJ.
+- Implemented code-switched analysis for cross-lingual content.
+
 <pre>
 === Machine readable metadata ==============
 Data available since: UD v1.0
