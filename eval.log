@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Swedish-Talbanken:
-commit b01280c9ad47d61c03426d683689dd04a792ed3f
-Merge: 5f12612 a409eb7
+commit 6b6de32cbd2c644dae9b7fb739fce9ffd9200e05
+Merge: 5e7aa7b 3fd9c41
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 96820 of 96820 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.1457071690231.
@@ -15,15 +15,15 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.5.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.9.
-Features: 63253 out of 96820 total words have one or more features.
+Features: 63378 out of 96820 total words have one or more features.
 Features: source of annotation (from README) factor is 0.9.
 Universal relations: 35 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.9.
 Udapi:
-               TOTAL         61
-Udapi: found 61 bugs.
+               TOTAL         16
+Udapi: found 16 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 96820 words.
-Genres: found 2 out of 17 known.
+Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang sv --max-err=10 UD_Swedish-Talbanken/sv_talbanken-ud-dev.conllu
 [Line 4765 Sent sv-ud-dev-187 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 4] 'För * * sedan'
 [Line 5800 Sent sv-ud-dev-230 Node 8]: [L3 Warning fixed-gap] Gaps in fixed expression [8, 13] 'för * * * * skull'
@@ -51,13 +51,13 @@ Warnings: 23
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.9) = 0.0692307692307692
-(weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
+(weight=0.0769230769230769) * (score{genres}=0.111111111111111) = 0.00854700854700855
 (weight=0.0769230769230769) * (score{lemmas}=0.5) = 0.0384615384615385
 (weight=0.256410256410256) * (score{size}=0.661988359434957) = 0.169740604983322
 (weight=0.0512820512820513) * (score{split}=0.67) = 0.0343589743589744
 (weight=0.0769230769230769) * (score{tags}=0.9) = 0.0692307692307692
-(weight=0.307692307692308) * (score{udapi}=0.993699648832886) = 0.305753738102426
+(weight=0.307692307692308) * (score{udapi}=0.9983474488742) = 0.307183830422831
 (weight=0.0769230769230769) * (score{udeprels}=0.851351351351351) = 0.0654885654885655
-(TOTAL score=0.761314733612022) * (availability=1) * (validity=1) = 0.761314733612022
+(TOTAL score=0.762242060723778) * (availability=1) * (validity=1) = 0.762242060723778
 STARS = 4
-UD_Swedish-Talbanken	0.761314733612022	4
+UD_Swedish-Talbanken	0.762242060723778	4
