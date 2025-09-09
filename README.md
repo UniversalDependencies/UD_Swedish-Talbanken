@@ -214,6 +214,7 @@ From v2.15 to v2.16
 Data available since: UD v1.0
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: news nonfiction
 Lemmas: automatic with corrections
 UPOS: converted with corrections
