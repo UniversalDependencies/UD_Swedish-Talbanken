@@ -209,6 +209,9 @@ From v2.15 to v2.16
 - Harmonized lemmas, UPOS and features for DET/PRON/ADJ.
 - Implemented code-switched analysis for cross-lingual content.
 
+From v2.16 to 2.17
+- Fixed the annotation of "själv" as a depictive.
+
 <pre>
 === Machine readable metadata ==============
 Data available since: UD v1.0
