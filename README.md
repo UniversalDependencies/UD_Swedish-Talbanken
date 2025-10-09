@@ -211,6 +211,7 @@ From v2.15 to v2.16
 
 From v2.16 to 2.17
 - Fixed the annotation of "själv" as a depictive.
+- Fixed a number of errors related to the obl/nmod distinction.
 
 <pre>
 === Machine readable metadata ==============
