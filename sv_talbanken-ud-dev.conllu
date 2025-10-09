@@ -1420,7 +1420,7 @@
 24	'	'	PUNCT	PAD	_	23	punct	23:punct	_
 25	Mothering	Mothering	NOUN	NN	Foreign=Yes	20	nmod	20:nmod	Lang=en
 26	in	in	ADP	PP	Foreign=Yes	28	case	28:case	Lang=en
-27	the	the	DET	DT	Foreign=Yes	28	det	28:det	Lang=en
+27	the	the	DET	DT	Foreign=Yes|PronType=Art	28	det	28:det	Lang=en
 28	Kibbutz	Kibbutz	NOUN	NN	Foreign=Yes	25	nmod	25:nmod	Lang=en|SpaceAfter=No
 29	.	.	PUNCT	MAD	_	16	punct	16:punct	_
 
@@ -2616,12 +2616,12 @@
 20	bara	bara	ADV	AB	_	21	advmod	21:advmod	_
 21	finns	finnas	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin	8	conj	5:csubj:pass|8:conj:och	_
 22	en	en	NUM	RG|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|NumType=Card	26	nummod	26:nummod	SpaceAfter=No
-23	,	,	PUNCT	MID	_	24	punct	24:punct	_
-24	säger	säga	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	5:parataxis	_
-25	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing	26	det	26:det	_
-26	kvinna	kvinna	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	24	nsubj	24:nsubj	_
+23	,	,	PUNCT	MID	_	25	punct	25:punct	_
+24	säger	säga	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	25	discourse	25:discourse	_
+25	en	en	NUM	RG|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|NumType=Card	26	nummod	26:nummod	_
+26	kvinna	kvinna	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	21	nsubj	21:nsubj	_
 27	i	i	ADP	PP	_	28	case	28:case	_
-28	regeringen	regering	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	26	nmod	21:obl:i	SpaceAfter=No
+28	regeringen	regering	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	21	obl	21:obl:i	SpaceAfter=No
 29	.	.	PUNCT	MAD	_	5	punct	5:punct	_
 
 # newpar id = P409.7
@@ -8048,7 +8048,7 @@
 8	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	9:aux	_
 9	sättas	sätta	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	6	acl:relcl	6:acl:relcl	_
 10	in	in	ADV	PL	_	9	compound:prt	9:compound:prt	_
-11	i	i	ADP	PP	_	15	obl	15:obl:i	_
+11	i	i	ADP	PP	_	9	obl	9:obl:i	_
 12	och	och	CCONJ	KN	_	13	cc	13:cc	_
 13	tas	ta	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	9	conj	6:acl:relcl|9:conj:och	_
 14	ur	ur	ADP	PP	_	15	case	15:case	_
@@ -9882,14 +9882,14 @@
 12	generationerna	generation	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	9	obl	9:obl:mellan	SpaceAfter=No
 13	,	,	PUNCT	MID	_	12	punct	12:punct	_
 14	mellan	mellan	ADP	PP	_	15	case	15:case	_
-15	unga	ung	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	12	obl	12:obl	_
+15	unga	ung	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	12	conj	9:obl:mellan|12:conj	_
 16	och	och	CCONJ	KN	_	17	cc	17:cc	_
-17	medelålders	medelålder	NOUN	NN|UTR|SIN|IND|GEN	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	15	conj	12:obl|15:conj:och	SpaceAfter=No
+17	medelålders	medelålder	NOUN	NN|UTR|SIN|IND|GEN	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	15	conj	9:obl:mellan|12:conj|15:conj:och	SpaceAfter=No
 18	,	,	PUNCT	MID	_	20	punct	20:punct	_
 19	mellan	mellan	ADP	PP	_	20	case	20:case	_
-20	medelålders	medelålder	NOUN	NN|UTR|SIN|IND|GEN	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	15	conj	12:obl|15:conj:och	_
+20	medelålders	medelålder	NOUN	NN|UTR|SIN|IND|GEN	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	12	conj	9:obl:mellan|12:conj	_
 21	och	och	CCONJ	KN	_	22	cc	22:cc	_
-22	äldre	gammal	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	20	conj	20:conj:och	SpaceAfter=No
+22	äldre	gammal	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	20	conj	9:obl:mellan|12:conj|20:conj:och	SpaceAfter=No
 23	.	.	PUNCT	MAD	_	4	punct	4:punct	_
 
 # newpar id = P417.3
