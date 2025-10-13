@@ -6296,7 +6296,7 @@
 5	att	att	SCONJ	SN	_	8	mark	8:mark	_
 6	kvinnorna	kvinna	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	8	nsubj	8:nsubj	_
 7	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	8:cop	_
-8	livlösa	livlös	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	3	advcl	3:advcl:att	SpaceAfter=No
+8	livlösa	livlös	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	4	advcl	4:advcl:att	SpaceAfter=No
 9	.	.	PUNCT	MAD	_	3	punct	3:punct	_
 
 # sent_id = sv-ud-dev-257
@@ -7085,7 +7085,7 @@
 9	man	man	PRON	PN|UTR|SIN|IND|SUB	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	12	nsubj	12:nsubj	_
 10	inte	inte	PART	AB	Polarity=Neg	12	advmod	12:advmod	_
 11	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	12:aux	_
-12	höja	höja	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	5	advcl	5:advcl:att	_
+12	höja	höja	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	7	advcl	7:advcl:att	_
 13	lönen	lön	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	obj	12:obj	_
 14	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	15	det	15:det	_
 15	dugg	dugg	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	12	obl	12:obl	SpaceAfter=No
@@ -10152,7 +10152,7 @@
 5	så	så	ADV	AB	_	2	advmod	2:advmod	_
 6	att	att	SCONJ	SN	_	8	mark	8:mark	_
 7	modern	mor	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	8	nsubj	8:nsubj	_
-8	höll	hålla	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	2:advcl:att	_
+8	höll	hålla	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	advcl	5:advcl:att	_
 9	på	på	ADP	PP	_	10	case	10:case	_
 10	fadersdominans	fadersdominans	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	obl	8:obl:på	_
 11	i	i	ADP	PP	_	13	case	13:case	_

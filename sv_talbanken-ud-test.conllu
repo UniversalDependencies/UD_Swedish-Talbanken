@@ -6567,7 +6567,7 @@
 # sent_id = sv-ud-test-351
 # text = Inte så att jorden går under precis, men han menar att vid det laget är människans situation så olidlig på grund av överbefolkning med åtföljande stress, nersjaskad miljö och anhopningar av allsköns djävligheter att det kommer till en social kollaps som innebär en drastisk reduktion av jordens befolkning till så där 2 miljarder.
 1	Inte	inte	PART	AB	Polarity=Neg	5	advmod	5:advmod	_
-2	så	så	ADV	AB	_	5	advmod	5:advmod	_
+2	så	så	SCONJ	AB	_	5	mark	5:mark	_
 3	att	att	SCONJ	SN	_	5	mark	5:mark	_
 4	jorden	jord	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	5	nsubj	5:nsubj	_
 5	går	gå	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
@@ -20629,7 +20629,7 @@
 3	på	på	ADP	PP	_	5	case	5:case	_
 4	några	någon	DET	DT|UTR/NEU|PLU|IND	Definite=Ind|Number=Plur|PronType=Ind	5	det	5:det	_
 5	håll	håll	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	2	obl	2:obl:på	_
-6	så	så	ADV	AB	_	2	advmod	2:advmod	_
+6	så	så	SCONJ	AB	_	13	mark	13:mark	_
 7	att	att	SCONJ	SN	_	13	mark	13:mark	_
 8	några	någon	DET	DT|UTR/NEU|PLU|IND	Definite=Ind|Number=Plur|PronType=Ind	9	det	9:det	_
 9	familjer	familj	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	13	nsubj	11:nsubj|13:nsubj|16:nsubj	_
@@ -21314,7 +21314,7 @@
 20	att	att	SCONJ	SN	_	23	mark	23:mark	_
 21	den	den	PRON	PN|UTR|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	23	nsubj	23:nsubj	_
 22	ska	skola	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	23	aux	23:aux	_
-23	inge	inge	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	15	advcl	15:advcl:att	_
+23	inge	inge	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	19	advcl	19:advcl:att	_
 24	sina	sig	PRON	PS|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|Poss=Yes|PronType=Prs	25	nmod:poss	25:nmod:poss	_
 25	bebyggare	bebyggare	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	23	iobj	23:iobj	_
 26	hoppet	hopp	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	23	obj	23:obj	_
