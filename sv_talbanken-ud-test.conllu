@@ -4901,7 +4901,7 @@
 4	barnet	barn	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	obj	2:obj	_
 5	genom	genom	ADP	PP	_	7	mark	7:mark	_
 6	att	att	PART	IE	_	7	mark	7:mark	_
-7	skynda	skynda	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	xcomp	2:xcomp:att	_
+7	skynda	skynda	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	xcomp	2:xcomp	_
 8	på	på	ADP	PL	_	7	compound:prt	7:compound:prt	_
 9	dess	den	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	_
 10	utveckling	utveckling	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	obj	7:obj	SpaceAfter=No
