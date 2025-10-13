@@ -213,6 +213,7 @@ From v2.16 to 2.17
 - Fixed a number of validation errors related to the obl/nmod distinction.
 - Fixed the annotation of "själv" as a depictive (Issue #1126).
 - Changed deprel from advcl to ccomp for "NOUN går att VERB" (Issue #1128).
+- Changed deprel from advcl to xcomp for "hjälpa NOUN att VERB" (Issue #1129).
 
 <pre>
 === Machine readable metadata ==============

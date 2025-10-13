@@ -1666,7 +1666,7 @@
 14	hjälper	hjälpa	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	2:acl:relcl	_
 15	dem	de	PRON	PN|UTR/NEU|PLU|DEF|OBJ	Case=Acc|Definite=Def|Number=Plur|PronType=Prs	14	obj	14:obj	_
 16	att	att	PART	IE	_	17	mark	17:mark	_
-17	komma	komma	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	14	advcl	14:advcl:att	_
+17	komma	komma	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	14	xcomp	14:xcomp:att	_
 18	över	över	ADP	PL	_	17	compound:prt	17:compound:prt	_
 19	tidigare	tidig	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	20	amod	20:amod	_
 20	hinder	hinder	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	17	obj	17:obj	_
