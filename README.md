@@ -216,6 +216,7 @@ From v2.16 to 2.17
 - Changed deprel from advcl to ccomp for "NOUN går att VERB" (Issue #1128).
 - Changed deprel from advcl to xcomp for "hjälpa NOUN att VERB" (Issue #1129).
 - Fixed "så att" and postag of "än" (Issue #1092).
+- Fixed a number of annotation errors (Issue #1132).
 
 <pre>
 === Machine readable metadata ==============
