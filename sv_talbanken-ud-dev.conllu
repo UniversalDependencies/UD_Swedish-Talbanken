@@ -1319,7 +1319,7 @@
 34	,	,	PUNCT	MID	_	26	punct	26:punct	_
 35	vilket	vilken	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Rel	37	nsubj	37:nsubj	_
 36	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	37	cop	37:cop	_
-37	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Number=Sing|PronType=Rel	26	appos	26:appos	_
+37	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Number=Sing|PronType=Rel	26	advcl:relcl	26:advcl:relcl	_
 38	kibbutzbarnen	kibbutzbarn	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	39	nsubj	39:nsubj	_
 39	gör	göra	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	37	acl:relcl	37:acl:relcl	SpaceAfter=No
 40	.	.	PUNCT	MAD	_	4	punct	4:punct	_
@@ -9860,7 +9860,7 @@
 10	olika	olik	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	11	amod	11:amod	_
 11	bakgrundsmiljö	bakgrundsmiljö	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	obl	5:obl:från	_
 12	vilket	vilken	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Rel	13	nsubj	13:nsubj	_
-13	gör	göra	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	appos	5:appos	_
+13	gör	göra	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl:relcl	5:advcl:relcl	_
 14	anpassningsprocessen	anpassningsprocess	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	13	obj	13:obj|16:nsubj	_
 15	mer	mycket	ADV	AB|KOM	Degree=Cmp	16	advmod	16:advmod	_
 16	krävande	krävande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Tense=Pres|VerbForm=Part	13	xcomp	13:xcomp	SpaceAfter=No

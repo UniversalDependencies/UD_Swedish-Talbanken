@@ -3982,7 +3982,7 @@
 11	vilket	vilken	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Rel	14	obj	14:obj	_
 12	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	14	nsubj	14:nsubj	_
 13	får	få	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	14:aux	_
-14	göra	göra	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	4	appos	4:appos	SpaceAfter=No
+14	göra	göra	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	4	advcl:relcl	4:advcl:relcl	SpaceAfter=No
 15	,	,	PUNCT	MID	_	16	punct	16:punct	_
 16	upphävs	upphäva	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	0:root	Cxn=Conditional-Marker|CxnElt=16:Conditional-Marker.Apodosis
 17	hemskillnaden	hemskillnad	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	16	nsubj:pass	16:nsubj:pass	_
@@ -11605,7 +11605,7 @@
 28	,	,	PUNCT	MID	_	13	punct	13:punct	_
 29	vilket	vilken	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Rel	31	nsubj	31:nsubj	_
 30	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	31	aux	31:aux	_
-31	ske	ske	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	13	appos	13:appos	_
+31	ske	ske	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	13	advcl:relcl	13:advcl:relcl	_
 32	under	under	ADP	PP	_	33	case	33:case	_
 33	loppet	lopp	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	31	obl	31:obl:under	_
 34	av	av	ADP	PP	_	36	case	36:case	_
@@ -13801,7 +13801,7 @@
 13	man	man	PRON	PN|UTR|SIN|IND|SUB	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	16	nsubj	16:nsubj	_
 14	numera	numera	ADV	AB	_	16	advmod	16:advmod	_
 15	inte	inte	PART	AB	Polarity=Neg	16	advmod	16:advmod	_
-16	använder	använda	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	appos	7:appos	_
+16	använder	använda	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl:relcl	7:advcl:relcl	_
 17	dem	de	PRON	PN|UTR/NEU|PLU|DEF|OBJ	Case=Acc|Definite=Def|Number=Plur|PronType=Prs	16	obj	16:obj	_
 18	så	så	ADV	AB	_	19	advmod	19:advmod	_
 19	mycket	mycket	ADV	AB|POS	Degree=Pos	16	advmod	16:advmod	SpaceAfter=No
@@ -13861,7 +13861,7 @@
 14	aptitnedsättande	aptitnedsättande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	2	conj	2:conj:och	SpaceAfter=No
 15	,	,	PUNCT	MID	_	14	punct	14:punct	_
 16	vilket	vilken	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Rel	17	nsubj	17:nsubj	_
-17	gör	göra	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	appos	14:appos	_
+17	gör	göra	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	advcl:relcl	14:advcl:relcl	_
 18	att	att	SCONJ	SN	_	20	mark	20:mark	_
 19	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	20	nsubj:pass	20:nsubj:pass|22:nsubj	_
 20	användes	använda	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	17	ccomp	17:ccomp	_
@@ -15792,9 +15792,9 @@
 8	bärande	bärande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Tense=Pres|VerbForm=Part	9	amod	9:amod	_
 9	väggar	vägg	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	5	appos	5:appos	_
 10	samt	samt	CCONJ	KN	_	9	cc	9:cc	_
-11	vatten	vatten	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	9	nsubj	9:nsubj	_
+11	vatten	vatten	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	9	conj	5:appos|9:conj	_
 12	och	och	CCONJ	KN	_	13	cc	13:cc	_
-13	avlopp	avlopp	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	11	conj	9:nsubj|11:conj:och	SpaceAfter=No
+13	avlopp	avlopp	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	11	conj	5:appos|11:conj:och	SpaceAfter=No
 14	.	.	PUNCT	MAD	_	3	punct	3:punct	_
 
 # sent_id = sv-ud-test-816
@@ -17954,7 +17954,7 @@
 15	de	de	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	17	det	17:det	_
 16	största	stor	ADJ	JJ|SUV|UTR/NEU|SIN/PLU|DEF|NOM	Case=Nom|Definite=Def|Degree=Sup	17	amod	17:amod	_
 17	beloppen	belopp	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	18	nsubj	18:nsubj	_
-18	gick	gå	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	appos	2:appos	_
+18	gick	gå	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl:relcl	2:advcl:relcl	_
 19	till	till	ADP	PP	_	20	case	20:case	_
 20	Sydvietnam	Sydvietnam	PROPN	PM|NOM	Case=Nom	18	obl	18:obl:till	SpaceAfter=No
 21	,	,	PUNCT	MID	_	22	punct	22:punct	_
@@ -20096,7 +20096,7 @@
 33	å	å	ADP	PP	_	35	case	35:case	_
 34	ena	ena	ADJ	JJ|POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	35	amod	35:amod	_
 35	sidan	sida	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	36	obl	36:obl:å	_
-36	kräver	kräva	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	28	appos	28:appos	_
+36	kräver	kräva	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	28	parataxis	28:parataxis	_
 37	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	38	det	38:det	_
 38	vårdare	vårdare	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	36	obj	36:obj	_
 39	på	på	ADP	PP	_	40	case	40:case	_
