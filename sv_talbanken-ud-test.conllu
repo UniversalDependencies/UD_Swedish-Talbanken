@@ -4877,7 +4877,7 @@
 12	område	område	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	9	obl	9:obl:på	SpaceAfter=No
 13	,	,	PUNCT	MID	_	12	punct	12:punct	_
 14	t.ex.	till_exempel	ADV	AB|AN	Abbr=Yes	19	advmod	19:advmod	_
-15	när	när	ADV	HA	_	17	mark	17:mark	_
+15	när	när	SCONJ	HA	_	17	mark	17:mark	_
 16	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	17	nsubj	17:nsubj	_
 17	gäller	gälla	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	12:advcl	_
 18	att	att	PART	IE	_	19	mark	19:mark	_
@@ -6732,7 +6732,7 @@
 
 # sent_id = sv-ud-test-355
 # text = När de optimistiska framtidsprofeterna börjar tala om en värld där vi skall flyga omkring vart som helst i tusensitsiga överljudsplan, ringa hem från djungeln tack vare satelliterna, bli fjärrundersökta av läkare, få all vår undervisning via datorer, äta samma mat, framställd av sojabönor och proppas med elektronisk kultur via TV, så låter det visserligen som skolpojksfantasier, men det är säkerligen inte tekniskt omöjligt.
-1	När	när	ADV	HA	_	5	advmod	5:advmod	_
+1	När	när	SCONJ	HA	_	5	mark	5:mark	_
 2	de	de	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	4	det	4:det	_
 3	optimistiska	optimistisk	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	4	amod	4:amod	_
 4	framtidsprofeterna	framtidsprofet	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	5	nsubj	5:nsubj|6:nsubj	_
@@ -8325,7 +8325,7 @@
 # sent_id = sv-ud-test-441
 # text = Så när man säger att var tredje människa är analfabet så är det en underskattning.
 1	Så	så	ADV	AB	_	15	cc	15:cc	_
-2	när	när	ADV	HA	_	4	advmod	4:advmod	_
+2	när	när	SCONJ	HA	_	4	mark	4:mark	_
 3	man	man	PRON	PN|UTR|SIN|IND|SUB	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	4	nsubj	4:nsubj	_
 4	säger	säga	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	15:advcl	_
 5	att	att	SCONJ	SN	_	10	mark	10:mark	_
@@ -11385,7 +11385,7 @@
 
 # sent_id = sv-ud-test-594
 # text = När det gäller de äldre patienterna där man önskar undersöka hjärnvätskans cirkulation sprutas det radioaktiva ämnet in i ryggmärgsvätskan och man kan med hjälp av gammakameran följa ämnets passage, om denna är fördröjd eller sker på vägar som avviker från det normala mönstret.
-1	När	när	ADV	HA	_	3	mark	3:mark	_
+1	När	när	SCONJ	HA	_	3	mark	3:mark	_
 2	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	3	nsubj	3:nsubj	_
 3	gäller	gälla	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	13	advcl	13:advcl	_
 4	de	de	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	6	det	6:det	_
@@ -11641,7 +11641,7 @@
 24	samma	samma	ADJ	DT|UTR/NEU|SIN/PLU|IND	Case=Nom|Definite=Ind|Degree=Pos	25	amod	25:amod	_
 25	sätt	sätt	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	19	nmod	19:nmod:på	_
 26	som	som	SCONJ	KN	_	29	mark	29:mark	_
-27	när	när	ADV	HA	_	29	advmod	29:advmod	_
+27	när	när	SCONJ	HA	_	29	mark	29:mark	_
 28	sänka	sänka	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	29	nsubj:pass	29:nsubj:pass	_
 29	tages	ta	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	25	acl	25:acl:som	SpaceAfter=No
 30	.	.	PUNCT	MAD	_	6	punct	6:punct	_
@@ -16616,7 +16616,7 @@
 16	de	de	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	18	det	18:det	_
 17	önskade	önskad	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Tense=Past|VerbForm=Part	18	amod	18:amod	_
 18	gränserna	gräns	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	13	obl	13:obl:inom	_
-19	när	när	ADV	HA	_	21	mark	21:mark	_
+19	när	när	SCONJ	HA	_	21	mark	21:mark	_
 20	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	21	nsubj	21:nsubj	_
 21	gällt	gälla	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	13	advcl	13:advcl	_
 22	nyproduktion	nyproduktion	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	21	obj	21:obj	SpaceAfter=No
@@ -20675,7 +20675,7 @@
 
 # sent_id = sv-ud-test-1069
 # text = När de vuxna är hemma vill säja - på vardagarna blir det knappast annat än ett trebarnssystem i fast lokal, kanske med en större syskonskara bara.
-1	När	när	ADV	HA	_	5	advmod	5:advmod	_
+1	När	när	SCONJ	HA	_	5	mark	5:mark	_
 2	de	de	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	3	det	3:det	_
 3	vuxna	vuxen	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	5	nsubj	5:nsubj	_
 4	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
@@ -22720,7 +22720,7 @@
 2	slutsats	slutsats	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	obj	3:obj	_
 3	drar	dra	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	3	nsubj	3:nsubj	_
-5	när	när	ADV	HA	_	7	mark	7:mark	_
+5	när	när	SCONJ	HA	_	7	mark	7:mark	_
 6	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	7	nsubj	7:nsubj	_
 7	gäller	gälla	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	3:advcl	_
 8	direktiven	direktiv	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	7	obj	7:obj	_
