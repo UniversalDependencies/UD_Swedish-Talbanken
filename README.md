@@ -220,6 +220,7 @@ From v2.16 to 2.17
 - Fixed a number of annotation errors (Issue #1132).
 - Changed appos to a(dv)cl:relcl for non-adnominal relative clauses (Issue #1139).
 - Harmonised analysis of "när" (Issue #1148).
+- Harmonised tagging of "som" (Issue #1149).
 
 <pre>
 === Machine readable metadata ==============
