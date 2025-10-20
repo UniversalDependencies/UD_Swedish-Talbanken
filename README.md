@@ -222,6 +222,7 @@ From v2.16 to 2.17
 - Changed appos to a(dv)cl:relcl for non-adnominal relative clauses (Issue #1139).
 - Harmonised analysis of "när" (Issue #1148).
 - Harmonised tagging of "som" (Issue #1149).
+- Fixed lemmas of truncated compounds (Issue #1150).
 
 <pre>
 === Machine readable metadata ==============
