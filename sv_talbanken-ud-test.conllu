@@ -6627,7 +6627,7 @@
 # sent_id = sv-ud-test-352
 # text = Om människan å andra sidan tack vare teknokraternas ansträngningar lyckas avgifta marken, rena luften så pass att man kan andas och rena åtminstone några vattendrag, så skapas därmed ett liv som knappt är värt att leva.
 1	Om	om	SCONJ	SN	_	10	mark	10:mark	_
-2	människan	människa	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	10	nsubj:pass	10:nsubj:pass	_
+2	människan	människa	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	10	nsubj	10:nsubj	_
 3	å	å	ADP	PP	_	5	case	5:case	_
 4	andra	annan	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	5	amod	5:amod	_
 5	sidan	sida	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	10	obl	10:obl:å	_
@@ -15624,7 +15624,7 @@
 2	dessa	denna	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Dem	3	det	3:det	_
 3	metoder	metod	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	4	obl	4:obl:med	_
 4	lyckades	lyckas	VERB	VB|PRT|SFO	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_
-5	man	man	PRON	PN|UTR|SIN|IND|SUB	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	4	nsubj:pass	4:nsubj:pass	_
+5	man	man	PRON	PN|UTR|SIN|IND|SUB	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	4	nsubj	4:nsubj	_
 6	hålla	hålla	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	4	advcl	4:advcl	_
 7	hyrorna	hyra	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	6	obj	6:obj	_
 8	under	under	ADP	PP	_	9	case	9:case	_

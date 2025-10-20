@@ -213,6 +213,7 @@ From v2.16 to 2.17
 - Fixed a number of validation errors related to the obl/nmod distinction.
 - Removed the feature Mood=Ind from participles used as adjectives.
 - Resegmented sentences: sv-ud-train-1337, sv-ud-train-3727.
+- Fixed Voice=Pass errors (Issue #1122).
 - Fixed the annotation of "själv" as a depictive (Issue #1126).
 - Changed deprel from advcl to ccomp for "NOUN går att VERB" (Issue #1128).
 - Changed deprel from advcl to xcomp for "hjälpa NOUN att VERB" (Issue #1129).

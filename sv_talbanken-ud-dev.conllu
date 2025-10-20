@@ -1529,7 +1529,7 @@
 16	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	19	nsubj:pass	19:nsubj:pass	_
 17	blev	bli	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	19	aux:pass	19:aux:pass	_
 18	mycket	mycket	ADV	AB|POS	Degree=Pos	19	advmod	19:advmod	_
-19	frusterade	frusterad	VERB	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Number=Plur|Tense=Past|VerbForm=Part	13	acl	13:acl:att	_
+19	frusterade	frusterad	VERB	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	13	acl	13:acl:att	_
 20	av	av	ADP	PP	_	25	mark	25:mark	_
 21	att	att	SCONJ	SN	_	25	mark	25:mark	_
 22	sköterskans	sköterska	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	23	nmod:poss	23:nmod:poss	_
