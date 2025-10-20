@@ -5863,7 +5863,7 @@
 8	värderas	värdera	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	3	ccomp	3:ccomp	_
 9	lika	lika	ADV	AB	_	10	advmod	10:advmod	_
 10	högt	hög	ADV	AB|POS	Degree=Pos	8	advmod	8:advmod	_
-11	som	som	ADP	KN	_	14	case	14:case	_
+11	som	som	SCONJ	KN	_	14	case	14:case	_
 12	vilket	vilken	DET	HD|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Tot	14	det	14:det	_
 13	annat	annan	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	amod	14:amod	_
 14	yrkesarbete	yrkesarbete	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	8	obl	8:obl:som	_
@@ -7348,7 +7348,7 @@
 3	i	i	ADP	PP	_	5	case	5:case	_
 4	vilket	vilket	DET	HD|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Tot	5	det	5:det	_
 5	fall	fall	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	obl	2:obl:i	_
-6	som	som	CCONJ	KN	ExtPos=ADV	4	advmod	4:advmod	_
+6	som	som	SCONJ	KN	ExtPos=ADV	4	advmod	4:advmod	_
 7	helst	gärna	ADV	AB|SUV	Degree=Sup	6	fixed	6:fixed	_
 8	inte	inte	PART	AB	Polarity=Neg	2	advmod	2:advmod	_
 9	göra	göra	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	xcomp	2:xcomp	_
@@ -9769,7 +9769,7 @@
 23	fast	fast	SCONJ	SN	_	28	mark	28:mark	_
 24	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	25	det	25:det	_
 25	separation	separation	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	28	nsubj	28:nsubj	_
-26	som	som	CCONJ	KN	_	27	case	27:case	_
+26	som	som	SCONJ	KN	_	27	case	27:case	_
 27	regel	regel	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	28	obl	28:obl:som	_
 28	betyder	betyda	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	20	conj	12:advcl:fast|20:conj:och	_
 29	sänkt	sänkt	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part	30	amod	30:amod	_
@@ -10921,7 +10921,7 @@
 8	vara	vara	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	10	cop	10:cop	_
 9	så	så	ADV	AB	_	10	advmod	10:advmod	_
 10	gott	god	ADV	AB|POS	Degree=Pos	5	xcomp	5:xcomp	_
-11	som	som	CCONJ	KN	_	13	case	13:case	_
+11	som	som	SCONJ	KN	_	13	case	13:case	_
 12	helt	helt	ADV	AB|POS	Degree=Pos	13	advmod	13:advmod	_
 13	slutförd	slutförd	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	10	obl	10:obl:som	SpaceAfter=No
 14	.	.	PUNCT	MAD	_	5	punct	5:punct	_
