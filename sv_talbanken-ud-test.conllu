@@ -2325,8 +2325,8 @@
 # text = I oljeländer som Saudi-Arabien lever en del i ofattbart överflöd.
 1	I	i	ADP	PP	_	2	case	2:case	_
 2	oljeländer	oljeland	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	5	obl	5:obl:i	_
-3	som	som	SCONJ	KN	_	4	advmod	4:advmod	_
-4	Saudi-Arabien	Saudi-Arabien	PROPN	PM|NOM	Case=Nom	2	appos	2:appos	_
+3	som	som	SCONJ	KN	_	4	case	4:case	_
+4	Saudi-Arabien	Saudi-Arabien	PROPN	PM|NOM	Case=Nom	2	nmod	2:nmod	_
 5	lever	leva	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 6	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	7	det	7:det	_
 7	del	del	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	nsubj	5:nsubj	_
@@ -3205,8 +3205,8 @@
 1	Många	många	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	3	amod	3:amod	_
 2	svåra	svår	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	3	amod	3:amod	_
 3	sjukdomar	sjukdom	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	10	nsubj:pass	10:nsubj:pass	_
-4	som	som	SCONJ	KN	_	5	advmod	5:advmod	_
-5	malaria	malaria	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	appos	3:appos	SpaceAfter=No
+4	som	som	SCONJ	KN	_	5	case	5:case	_
+5	malaria	malaria	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	nmod	3:nmod	SpaceAfter=No
 6	,	,	PUNCT	MID	_	7	punct	7:punct	_
 7	smittkoppor	smittkoppa	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	5	conj	3:appos|5:conj:och	_
 8	och	och	CCONJ	KN	_	9	cc	9:cc	_
@@ -12438,8 +12438,8 @@
 10	'	'	PUNCT	PAD	_	11	punct	11:punct	SpaceAfter=No
 11	stressjukdomar	stressjukdom	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	8	obl	8:obl:till	SpaceAfter=No
 12	'	'	PUNCT	PAD	_	11	punct	11:punct	_
-13	som	som	SCONJ	KN	_	14	advmod	14:advmod	_
-14	magsår	magsår	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	11	appos	11:appos	SpaceAfter=No
+13	som	som	SCONJ	KN	_	14	case	14:case	_
+14	magsår	magsår	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	11	nmod	11:nmod	SpaceAfter=No
 15	,	,	PUNCT	MID	_	16	punct	16:punct	_
 16	hjärtbesvär	hjärtbesvär	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	14	conj	11:appos|14:conj:och	_
 17	och	och	CCONJ	KN	_	19	cc	19:cc	_
@@ -13283,15 +13283,15 @@
 2	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	3:aux	_
 3	nämna	nämna	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	0	root	0:root	_
 4	bedövningsmedel	bedövningsmedel	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	3	obj	3:obj	_
-5	som	som	SCONJ	KN	_	6	advmod	6:advmod	_
-6	kloroform	kloroform	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	appos	4:appos	_
+5	som	som	SCONJ	KN	_	6	case	6:case	_
+6	kloroform	kloroform	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	nmod	4:nmod	_
 7	och	och	CCONJ	KN	_	8	cc	8:cc	_
 8	eter	eter	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	conj	4:appos|6:conj:och	SpaceAfter=No
 9	,	,	PUNCT	MID	_	11	punct	11:punct	_
 10	smärtstillande	smärtstillande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	11	amod	11:amod	_
 11	medel	medel	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	4	conj	3:obj|4:conj	_
-12	som	som	SCONJ	KN	_	13	advmod	13:advmod	_
-13	morfin-	morfin	NOUN	NN|NEU|-|-|SMS	Gender=Neut	11	appos	11:appos	_
+12	som	som	SCONJ	KN	_	13	case	13:case	_
+13	morfin-	morfin	NOUN	NN|NEU|-|-|SMS	Gender=Neut	11	nmod	11:nmod	_
 14	och	och	CCONJ	KN	_	15	cc	15:cc	_
 15	barbitursyrepreparat	barbitursyrepreparat	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	13	conj	11:appos|13:conj:och	_
 16	m fl	med_flera	ADV	AB|AN	Abbr=Yes	13	conj	11:appos|13:conj:och	_
