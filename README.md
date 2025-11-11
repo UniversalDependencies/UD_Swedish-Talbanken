@@ -209,11 +209,27 @@ From v2.15 to v2.16
 - Harmonized lemmas, UPOS and features for DET/PRON/ADJ.
 - Implemented code-switched analysis for cross-lingual content.
 
+From v2.16 to 2.17
+- Fixed a number of validation errors related to the obl/nmod distinction.
+- Removed the feature Mood=Ind from participles used as adjectives.
+- Resegmented sentences: sv-ud-train-1337, sv-ud-train-3727.
+- Fixed Voice=Pass errors (Issue #1122).
+- Fixed the annotation of "själv" as a depictive (Issue #1126).
+- Changed deprel from advcl to ccomp for "NOUN går att VERB" (Issue #1128).
+- Changed deprel from advcl to xcomp for "hjälpa NOUN att VERB" (Issue #1129).
+- Fixed "så att" and postag of "än" (Issue #1092).
+- Fixed a number of annotation errors (Issue #1132).
+- Changed appos to a(dv)cl:relcl for non-adnominal relative clauses (Issue #1139).
+- Harmonised analysis of "när" (Issue #1148).
+- Harmonised tagging of "som" (Issue #1149).
+- Fixed lemmas of truncated compounds (Issue #1150).
+
 <pre>
 === Machine readable metadata ==============
 Data available since: UD v1.0
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: news nonfiction
 Lemmas: automatic with corrections
 UPOS: converted with corrections
