@@ -1,11 +1,15 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Swedish-Talbanken:
-commit 6b6de32cbd2c644dae9b7fb739fce9ffd9200e05
-Merge: 5e7aa7b 3fd9c41
+commit 487c480632b496e0edf3b7d07875e4cc6b43044a
+Merge: e4725e8 463c1eb
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'sv_talbanken'
+Language code (from CoNLL-U file name) = 'sv'
+Found the following data files: sv_talbanken-ud-dev.conllu, sv_talbanken-ud-test.conllu, sv_talbanken-ud-train.conllu
 Size: counted 96820 of 96820 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.1457071690231.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -15,49 +19,44 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.5.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.9.
-Features: 63378 out of 96820 total words have one or more features.
+Features: 63375 out of 96820 total words have one or more features.
 Features: source of annotation (from README) factor is 0.9.
 Universal relations: 35 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.9.
-Udapi:
-               TOTAL         16
-Udapi: found 16 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 96820 words.
 Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang sv --max-err=10 UD_Swedish-Talbanken/sv_talbanken-ud-dev.conllu
-[Line 4765 Sent sv-ud-dev-187 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 4] 'För * * sedan'
-[Line 5800 Sent sv-ud-dev-230 Node 8]: [L3 Warning fixed-gap] Gaps in fixed expression [8, 13] 'för * * * * skull'
+[Line 4765 Sent sv-ud-dev-187]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 4] 'För * * sedan'
+[Line 5800 Sent sv-ud-dev-230]: [L3 Warning fixed-gap] Gaps in fixed expression [8, 13] 'för * * * * skull'
 Warnings: 2
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang sv --max-err=10 UD_Swedish-Talbanken/sv_talbanken-ud-test.conllu
-[Line 2409 Sent sv-ud-test-137 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 4] 'För * * sedan'
-[Line 13774 Sent sv-ud-test-712 Node 15]: [L3 Warning fixed-gap] Gaps in fixed expression [15, 19] 'för * * * sedan'
-[Line 22225 Sent sv-ud-test-1117 Node 32]: [L3 Warning fixed-gap] Gaps in fixed expression [32, 35] 'för * * sedan'
+[Line 2409 Sent sv-ud-test-137]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 4] 'För * * sedan'
+[Line 13774 Sent sv-ud-test-712]: [L3 Warning fixed-gap] Gaps in fixed expression [15, 19] 'för * * * sedan'
+[Line 22225 Sent sv-ud-test-1117]: [L3 Warning fixed-gap] Gaps in fixed expression [32, 35] 'för * * sedan'
 Warnings: 3
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang sv --max-err=10 UD_Swedish-Talbanken/sv_talbanken-ud-train.conllu
-[Line 16591 Sent sv-ud-train-990 Node 2]: [L3 Warning fixed-gap] Gaps in fixed expression [2, 4] 'för * skull'
-[Line 27454 Sent sv-ud-train-1621 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 4] 'För * * sedan'
-[Line 27634 Sent sv-ud-train-1630 Node 5]: [L3 Warning fixed-gap] Gaps in fixed expression [5, 8] 'för * * sedan'
-[Line 28755 Sent sv-ud-train-1699 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 4] 'För * * sedan'
-[Line 29323 Sent sv-ud-train-1735 Node 6]: [L3 Warning fixed-gap] Gaps in fixed expression [6, 8] 'för * sedan'
-[Line 29371 Sent sv-ud-train-1738 Node 9]: [L3 Warning fixed-gap] Gaps in fixed expression [9, 12] 'för * * sedan'
-[Line 29554 Sent sv-ud-train-1746 Node 3]: [L3 Warning fixed-gap] Gaps in fixed expression [3, 6] 'för * * sedan'
-[Line 29739 Sent sv-ud-train-1754 Node 2]: [L3 Warning fixed-gap] Gaps in fixed expression [2, 8] 'För * * * * * sedan'
-[Line 30283 Sent sv-ud-train-1785 Node 5]: [L3 Warning fixed-gap] Gaps in fixed expression [5, 9] 'för * * * sedan'
-[Line 31273 Sent sv-ud-train-1844 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3] 'För * skull'
+[Line 16591 Sent sv-ud-train-990]: [L3 Warning fixed-gap] Gaps in fixed expression [2, 4] 'för * skull'
+[Line 27457 Sent sv-ud-train-1621]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 4] 'För * * sedan'
+[Line 27637 Sent sv-ud-train-1630]: [L3 Warning fixed-gap] Gaps in fixed expression [5, 8] 'för * * sedan'
+[Line 28758 Sent sv-ud-train-1699]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 4] 'För * * sedan'
+[Line 29326 Sent sv-ud-train-1735]: [L3 Warning fixed-gap] Gaps in fixed expression [6, 8] 'för * sedan'
+[Line 29374 Sent sv-ud-train-1738]: [L3 Warning fixed-gap] Gaps in fixed expression [9, 12] 'för * * sedan'
+[Line 29557 Sent sv-ud-train-1746]: [L3 Warning fixed-gap] Gaps in fixed expression [3, 6] 'för * * sedan'
+[Line 29742 Sent sv-ud-train-1754]: [L3 Warning fixed-gap] Gaps in fixed expression [2, 8] 'För * * * * * sedan'
+[Line 30286 Sent sv-ud-train-1785]: [L3 Warning fixed-gap] Gaps in fixed expression [5, 9] 'för * * * sedan'
+[Line 31276 Sent sv-ud-train-1844]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3] 'För * skull'
 ...suppressing further errors regarding Warning
 Warnings: 23
 *** PASSED ***
 Validity: 1
-(weight=0.0769230769230769) * (score{features}=0.9) = 0.0692307692307692
-(weight=0.0769230769230769) * (score{genres}=0.111111111111111) = 0.00854700854700855
-(weight=0.0769230769230769) * (score{lemmas}=0.5) = 0.0384615384615385
-(weight=0.256410256410256) * (score{size}=0.661988359434957) = 0.169740604983322
-(weight=0.0512820512820513) * (score{split}=0.67) = 0.0343589743589744
-(weight=0.0769230769230769) * (score{tags}=0.9) = 0.0692307692307692
-(weight=0.307692307692308) * (score{udapi}=0.9983474488742) = 0.307183830422831
-(weight=0.0769230769230769) * (score{udeprels}=0.851351351351351) = 0.0654885654885655
-(TOTAL score=0.762242060723778) * (availability=1) * (validity=1) = 0.762242060723778
-STARS = 4
-UD_Swedish-Talbanken	0.762242060723778	4
+(weight=0.111111111111111) * (score{features}=0.9) = 0.1
+(weight=0.111111111111111) * (score{genres}=0.111111111111111) = 0.0123456790123457
+(weight=0.111111111111111) * (score{lemmas}=0.5) = 0.0555555555555556
+(weight=0.37037037037037) * (score{size}=0.661988359434957) = 0.245180873864799
+(weight=0.0740740740740741) * (score{split}=0.67) = 0.0496296296296296
+(weight=0.111111111111111) * (score{tags}=0.9) = 0.1
+(weight=0.111111111111111) * (score{udeprels}=0.851351351351351) = 0.0945945945945946
+(TOTAL score=0.657306332656924) * (availability=1) * (validity=1) = 0.657306332656924
+STARS = 3.5
+UD_Swedish-Talbanken	0.657306332656924	3.5
