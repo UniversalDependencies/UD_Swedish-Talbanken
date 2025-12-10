@@ -14,18 +14,25 @@ directly from the original MAMBA annotation, while the morphological annotation 
 based on the reannotation performed when incorporating Talbanken into the Swedish
 Treebank (Nivre and Megyesi, 2007). Tokenization mostly follows the standard of the
 Stockholm-Umeå Corpus, Version 2.0 (2006), and lemmatization is based on Saldo
-(Borin et al., 2008).
+(Borin et al., 2008), with some revisions to harmonize with other Swedish treebanks. 
 
 # Acknowledgments
 
 The new conversion has been performed by Joakim Nivre and Aaron Smith at Uppsala
 University. A semi-automatic correction of features and lemmas was done by Victor 
-Norrman and Joakim Nivre. We thank everyone who has been involved in previous 
-conversion efforts at Växjö University and Uppsala University, including Bengt 
-Dahlqvist, Sofia Gustafson-Capkova, Johan Hall, Anna Sågvall Hein, Beáta Megyesi, 
-Jens Nilsson, and Filip Salomonsson. Special thanks also to Lars Borin and Markus 
-Forsberg at Språkbanken for help with the lemmatization. Finally, we owe a huge 
-debt to the team who produced the original treebank in the 1970s.
+Norrman and Joakim Nivre. Recent harmonization efforts were carried out in collaboration
+with Lars Ahrenberg, Aleksandrs Berdicevskis, and Adriana Masciolini. Recent work to 
+improve the annotation has benefited greatly from discussions within UniDive (COST 
+Action CA21167).
+
+We thank everyone who has been involved in previous conversion efforts at Växjö 
+University and Uppsala University, including Bengt Dahlqvist, Sofia Gustafson-Capkova, 
+Johan Hall, Anna Sågvall Hein, Beáta Megyesi, Jens Nilsson, and Filip Salomonsson. 
+Special thanks also to Lars Borin and Markus Forsberg at Språkbanken for help with 
+the lemmatization. Finally, we owe a huge debt to the team who produced the original 
+treebank in the 1970s.
+
+
 
 ## References
 
