@@ -224,6 +224,9 @@ From v2.16 to 2.17
 - Harmonised tagging of "som" (Issue #1149).
 - Fixed lemmas of truncated compounds (Issue #1150).
 
+From v2.17 to 2.18
+- Fixed incorrect lemmas of "mån" ("måndag" -> "månad")
+
 <pre>
 === Machine readable metadata ==============
 Data available since: UD v1.0
