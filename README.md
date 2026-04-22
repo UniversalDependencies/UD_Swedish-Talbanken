@@ -226,6 +226,7 @@ From v2.16 to 2.17
 
 From v2.17 to 2.18
 - Fixed incorrect lemmas of "mån" ("måndag" -> "månad")
+- Fixed annotation of passives (Issue #1122)
 
 <pre>
 === Machine readable metadata ==============
