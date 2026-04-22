@@ -8358,17 +8358,17 @@
 
 # sent_id = sv-ud-test-443
 # text = Undervisningsbudgeten måste ständigt och kraftigt utvidgas i takt med folkökningen.
-1	Undervisningsbudgeten	undervisningsbudget	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	2:nsubj|6:nsubj	_
-2	måste	måste	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-3	ständigt	ständig	ADV	AB|POS	Degree=Pos	2	advmod	2:advmod	_
-4	och	och	CCONJ	KN	_	6	cc	6:cc	_
-5	kraftigt	kraftig	ADV	AB|POS	Degree=Pos	2	advmod	2:advmod	_
-6	utvidgas	utvidga	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	2	conj	2:conj:och	_
+1	Undervisningsbudgeten	undervisningsbudget	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	6	nsubj:pass	6:nsubj:pass	_
+2	måste	måste	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	6:aux	_
+3	ständigt	ständig	ADV	AB|POS	Degree=Pos	6	advmod	6:advmod	_
+4	och	och	CCONJ	KN	_	5	cc	5:cc	_
+5	kraftigt	kraftig	ADV	AB|POS	Degree=Pos	3	conj	3:conj:och|6:advmod	_
+6	utvidgas	utvidga	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	0	root	0:root	_
 7	i	i	ADP	PP	_	8	case	8:case	_
-8	takt	takt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obl	2:obl:i	_
+8	takt	takt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	obl	6:obl:i	_
 9	med	med	ADP	PP	_	10	case	10:case	_
 10	folkökningen	folkökning	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	8	nmod	8:nmod:med	SpaceAfter=No
-11	.	.	PUNCT	MAD	_	2	punct	2:punct	_
+11	.	.	PUNCT	MAD	_	6	punct	6:punct	_
 
 # newpar id = P210.13
 # sent_id = sv-ud-test-444
@@ -10620,8 +10620,8 @@
 18	till	till	ADP	PP	_	20	case	20:case	_
 19	sådana	sådan	ADJ	JJ|POS|UTR/NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	20	amod	20:amod	_
 20	tillstånd	tillstånd	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	17	obl	17:obl:till	_
-21	som	som	SCONJ	HP|-|-|-	_	22	mark	22:mark	_
-22	betecknas	beteckna	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	20	acl	20:acl:som	_
+21	som	som	PRON	HP|-|-|-	PronType=Rel	22	nsubj:pass	22:nsubj:pass	_
+22	betecknas	beteckna	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	20	acl:relcl	20:acl:relcl	_
 23	som	som	SCONJ	KN	_	25	mark	25:mark	_
 24	senil	senil	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	25	amod	25:amod	_
 25	demens	demens	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	22	xcomp	22:xcomp	SpaceAfter=No
@@ -10927,7 +10927,7 @@
 4	övrigt	övrig	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	nmod	6:nmod:för	_
 5	samma	samma	ADJ	DT|UTR/NEU|SIN/PLU|IND	Case=Nom|Definite=Ind|Degree=Pos	6	amod	6:amod	_
 6	operationsmetod	operationsmetod	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	0:root	_
-7	som	som	SCONJ	HA	_	8	mark	8:mark	_
+7	som	som	PRON	HA	PronType=Rel	8	nsubj:pass	8:nsubj:pass	_
 8	användes	använda	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	6	acl	6:acl:som	_
 9	hos	hos	ADP	PP	_	10	case	10:case	_
 10	barn	barn	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	8	obl	8:obl:hos|12:nsubj:pass	_
@@ -16032,7 +16032,7 @@
 9	till	till	ADP	PP	_	11	case	11:case	_
 10	sådan	sådan	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	11	amod	11:amod	_
 11	byggnation	byggnation	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	obl	3:obl:till	_
-12	som	som	SCONJ	HP|-|-|-	_	13	mark	13:mark	_
+12	som	som	PRON	HP|-|-|-	PronType=Rel	13	nsubj:pass	13:nsubj:pass	_
 13	anses	anse	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	11	acl	11:acl:som	_
 14	mest	mycket	ADV	AB|SUV	Degree=Sup	15	advmod	15:advmod	_
 15	samhällsnyttig	samhällsnyttig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	13	xcomp	13:xcomp	SpaceAfter=No
@@ -18291,7 +18291,7 @@
 8	definition	definition	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	nsubj	2:nsubj	CxnElt=2:Existential-ExistPred.Pivot
 9	på	på	ADP	PP	_	12	mark	12:mark	_
 10	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Number=Sing|PronType=Int	12	dislocated	12:dislocated	_
-11	som	som	PRON	HP|-|-|-	PronType=Rel	12	nsubj	12:nsubj	_
+11	som	som	PRON	HP|-|-|-	PronType=Rel	12	nsubj:pass	12:nsubj:pass	_
 12	menas	mena	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	2	advcl	2:advcl:på	_
 13	med	med	ADP	PP	_	15	case	15:case	_
 14	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	15	det	15:det	_
@@ -19766,7 +19766,7 @@
 7	,	,	PUNCT	MID	_	9	punct	9:punct	_
 8	helst	gärna	ADV	AB|SUV	Degree=Sup	9	advmod	9:advmod	_
 9	sådana	sådan	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur|PronType=Ind	6	parataxis	6:parataxis	_
-10	som	som	SCONJ	HP|-|-|-	_	12	mark	12:mark	_
+10	som	som	PRON	HP|-|-|-	PronType=Rel	12	nsubj:pass	12:nsubj:pass	_
 11	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	12:aux	_
 12	kombineras	kombinera	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	9	acl	9:acl:som	_
 13	med	med	ADP	PP	_	14	case	14:case	_

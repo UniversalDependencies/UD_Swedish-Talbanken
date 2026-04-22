@@ -4007,7 +4007,7 @@
 6	fler	många	ADJ	JJ|POS|UTR/NEU|PLU|IND|NOM	Case=Nom|Degree=Cmp|Number=Plur	7	amod	7:amod	_
 7	hem	hem	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	2	obl	2:obl:i	_
 8	vem	vem	PRON	HP|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Int	12	dislocated	12:dislocated	_
-9	som	som	PRON	HP|-|-|-	PronType=Rel	12	nsubj	12:nsubj	_
+9	som	som	PRON	HP|-|-|-	PronType=Rel	12	nsubj:pass	12:nsubj:pass	_
 10	huvudsakligen	huvudsakligen	ADV	AB	_	12	advmod	12:advmod	_
 11	ska	skola	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	12:aux	_
 12	anförtros	anförtro	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	3	acl	3:acl	_

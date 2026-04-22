@@ -1570,7 +1570,7 @@
 9	och	och	CCONJ	KN	_	10	cc	10:cc	_
 10	höra	höra	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	8	conj	8:conj:och	_
 11	sådant	sådan	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	8	obj	8:obj|10:obj	_
-12	som	som	SCONJ	HP|-|-|-	_	14	mark	14:mark	_
+12	som	som	PRON	HP|-|-|-	PronType=Rel	14	nsubj:pass	14:nsubj:pass	_
 13	måste	måste	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	14:aux	_
 14	hållas	hålla	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	11	acl	11:acl:som	_
 15	hemligt	hemlig	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	xcomp	14:xcomp	SpaceAfter=No
@@ -8705,7 +8705,7 @@
 11	elever	elev	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9	conj	7:nmod:med|9:conj:och	_
 12	vilka	vilken	DET	HD|UTR/NEU|PLU|IND	Definite=Ind|Number=Plur|PronType=Int	13	det	13:det	_
 13	aktiviteter	aktivitet	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	16	dislocated	16:dislocated	_
-14	som	som	PRON	HP|-|-|-	PronType=Rel	16	nsubj	16:nsubj	_
+14	som	som	PRON	HP|-|-|-	PronType=Rel	16	nsubj:pass	16:nsubj:pass	_
 15	skall	skola	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	16	aux	16:aux	_
 16	erbjudas	erbjuda	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	5	ccomp	5:ccomp	_
 17	eleverna	elev	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	16	obj	16:obj	SpaceAfter=No
@@ -8899,7 +8899,7 @@
 3	hur	hur	ADV	HA	_	4	advmod	4:advmod	_
 4	många	många	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	5	amod	5:amod	_
 5	timmar	timme	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9	dislocated	9:dislocated	_
-6	som	som	PRON	HP|-|-|-	PronType=Rel	9	nsubj	9:nsubj	_
+6	som	som	PRON	HP|-|-|-	PronType=Rel	9	nsubj:pass	9:nsubj:pass	_
 7	ungefärligen	ungefärligen	ADV	AB	_	9	advmod	9:advmod	_
 8	skall	skola	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	9:aux	_
 9	användas	använda	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	2	ccomp	2:ccomp	_
@@ -14132,7 +14132,7 @@
 # sent_id = sv-ud-train-841
 # text = Vilken som väljs är alltså en avvägning mellan tycke och ekonomi.
 1	Vilken	vilken	PRON	HP|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Int	3	dislocated	3:dislocated	_
-2	som	som	PRON	HP|-|-|-	PronType=Rel	3	nsubj	3:nsubj	_
+2	som	som	PRON	HP|-|-|-	PronType=Rel	3	nsubj:pass	3:nsubj:pass	_
 3	väljs	välja	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	7	csubj	7:csubj	_
 4	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	7:cop	_
 5	alltså	alltså	ADV	AB	_	7	advmod	7:advmod	_
@@ -23162,7 +23162,7 @@
 
 # sent_id = sv-ud-train-1358
 # text = Alla slåss för sina intressen för att till slut kunna nå bästa möjliga kompromiss i Gemenskapens tecken.
-1	Alla	all	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur|PronType=Tot	2	nsubj:pass	2:nsubj:pass	_
+1	Alla	all	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur|PronType=Tot	2	nsubj	2:nsubj	_
 2	slåss	slåss	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	för	för	ADP	PP	_	5	case	5:case	_
 4	sina	sig	PRON	PS|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	_
@@ -26339,7 +26339,7 @@
 # newpar id = P203.11
 # sent_id = sv-ud-train-1554
 # text = Dubbdäcken du köpte förra hösten behöver antagligen kompletteras.
-1	Dubbdäcken	dubbdäck	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	6	nsubj:pass	6:nsubj|8:nsubj:pass	_
+1	Dubbdäcken	dubbdäck	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	6	nsubj	6:nsubj|8:nsubj:pass	_
 2	du	du	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	3	nsubj	3:nsubj	_
 3	köpte	köpa	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	1	acl:relcl	1:acl:relcl	_
 4	förra	förra	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	5	amod	5:amod	_
@@ -26492,7 +26492,7 @@
 8	,	,	PUNCT	MID	_	21	punct	21:punct	_
 9	men	men	CCONJ	KN	_	21	cc	21:cc	_
 10	behöver	behöva	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	21	advcl	21:advcl	_
-11	däcken	däck	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	10	nsubj:pass	10:nsubj|15:nsubj:pass	_
+11	däcken	däck	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	10	nsubj	10:nsubj|15:nsubj:pass	_
 12	dubbas	dubba	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	10	xcomp	10:xcomp	_
 13	om	om	ADV	PL	_	12	compound:prt	12:compound:prt	_
 14	och	och	CCONJ	KN	_	15	cc	15:cc	_
@@ -39251,7 +39251,7 @@
 7	samma	samma	ADJ	DT|UTR/NEU|SIN/PLU|IND	Case=Nom|Definite=Ind|Degree=Pos	8	amod	8:amod	_
 8	åldersgrupp	åldersgrupp	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	nmod	5:nmod:i	_
 9	blev	bli	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	12	aux:pass	12:aux:pass	_
-10	36	36	NUM	RG|NOM	Case=Nom|NumType=Card	12	nummod	12:nummod	_
+10	36	36	NUM	RG|NOM	Case=Nom|NumType=Card	12	nsubj:pass	12:nsubj:pass	_
 11	sexuellt	sexuell	ADV	AB|POS	Degree=Pos	12	advmod	12:advmod	_
 12	påverkade	påverkad	VERB	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	SpaceAfter=No
 13	.	.	PUNCT	MAD	_	12	punct	12:punct	_
@@ -44991,7 +44991,7 @@
 3	biten	bit	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	nsubj	4:nsubj	_
 4	inrymmer	inrymma	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 5	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Number=Sing|PronType=Rel	8	dislocated	8:dislocated	CxnElt=8:Interrogative-WHInfo-Indirect.WHWord
-6	som	som	PRON	HP|-|-|-	PronType=Rel	8	nsubj	8:nsubj	_
+6	som	som	PRON	HP|-|-|-	PronType=Rel	8	nsubj:pass	8:nsubj:pass	_
 7	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	8:aux	_
 8	behövas	behöva	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	4	ccomp	4:ccomp	Cxn=Interrogative-WHInfo-Indirect|CxnElt=8:Interrogative-WHInfo-Indirect.Clause
 9	för	för	ADP	PP	_	10	case	10:case	_
@@ -59102,7 +59102,7 @@
 16	belöningar	belöning	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	21	dislocated	21:dislocated	_
 17	och	och	CCONJ	KN	_	18	cc	18:cc	_
 18	straff	straff	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	16	conj	16:conj:och	_
-19	som	som	PRON	HP|-|-|-	PronType=Rel	21	nsubj	21:nsubj	_
+19	som	som	PRON	HP|-|-|-	PronType=Rel	21	nsubj:pass	21:nsubj:pass	_
 20	ska	skola	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	21	aux	21:aux	_
 21	utdelas	utdela	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	14	ccomp	14:ccomp	_
 22	för	för	ADP	PP	_	24	case	24:case	_
@@ -59117,7 +59117,7 @@
 3	också	också	ADV	AB	_	2	advmod	2:advmod	_
 4	vilka	vilken	DET	HD|UTR/NEU|PLU|IND	Definite=Ind|Number=Plur|PronType=Int	5	det	5:det	_
 5	beteenden	beteende	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	9	dislocated	9:dislocated	_
-6	som	som	PRON	HP|-|-|-	PronType=Rel	9	nsubj	9:nsubj|11:nsubj	_
+6	som	som	PRON	HP|-|-|-	PronType=Rel	9	nsubj:pass	9:nsubj:pass|11:nsubj	_
 7	kommer	komma	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	9:aux	_
 8	att	att	PART	IE	_	9	mark	9:mark	_
 9	förstärkas	förstärka	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	2	csubj:pass	2:csubj:pass	_
@@ -76272,7 +76272,7 @@
 4	med	med	ADP	PP	_	6	case	6:case	_
 5	äktenskapets	äktenskap	NOUN	NN|NEU|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	6	nmod:poss	6:nmod:poss	_
 6	stiftelse	stiftelse	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	nmod	3:nmod:med	_
-7	som	som	PRON	HP|-|-|-	PronType=Rel	11	nsubj	11:nsubj	_
+7	som	som	PRON	HP|-|-|-	PronType=Rel	11	nsubj:pass	11:nsubj:pass	_
 8	härutöver	härutöver	ADV	AB	_	11	advmod	11:advmod	_
 9	än	än	ADV	AB	_	11	advmod	11:advmod	_
 10	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	11:aux	_
