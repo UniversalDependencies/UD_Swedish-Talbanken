@@ -225,8 +225,9 @@ From v2.16 to 2.17
 - Fixed lemmas of truncated compounds (Issue #1150).
 
 From v2.17 to 2.18
-- Fixed incorrect lemmas of "mån" ("måndag" -> "månad")
-- Fixed annotation of passives (Issue #1122)
+- Fixed incorrect lemmas of "mån" ("måndag" -> "månad").
+- Fixed annotation of passives (Issue #1122).
+- Fixed lemmas for adverbs derived from adjectives with "-t" (Issue #1165).
 
 <pre>
 === Machine readable metadata ==============
