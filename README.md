@@ -228,6 +228,10 @@ From v2.17 to 2.18
 - Fixed incorrect lemmas of "mån" ("måndag" -> "månad").
 - Fixed annotation of passives (Issue #1122).
 - Fixed lemmas for adverbs derived from adjectives with "-t" (Issue #1165).
+- Multiword expression (MWE) annotations in the PARSEME framework added to MISC, with the prefix "ParsemeMWE"
+  - This release adds manual annotation of multiword expressions according to the [PARSEME guidelines, version 2.0](https://parsemefr.lis-lab.fr/parseme-st-guidelines/2.0/), whethere is an overview of all categories. 
+  - See  [Sara Stymne, Astrid Berntsson Ingelstam, and Eva Pettersson. 2026. Swedish Multiword Expression Corpora in PARSEME. In Proceedings of the 22nd Workshop on Multiword Expressions (MWE 2026), pages 27–37, Rabat, Marocco. Association for Computational Linguistics.](https://aclanthology.org/2026.mwe-1.3/) for more information about these annotations
+
 
 <pre>
 === Machine readable metadata ==============
