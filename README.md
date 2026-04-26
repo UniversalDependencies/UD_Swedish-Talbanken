@@ -24,8 +24,10 @@ Norrman and Joakim Nivre. We thank everyone who has been involved in previous
 conversion efforts at Växjö University and Uppsala University, including Bengt 
 Dahlqvist, Sofia Gustafson-Capkova, Johan Hall, Anna Sågvall Hein, Beáta Megyesi, 
 Jens Nilsson, and Filip Salomonsson. Special thanks also to Lars Borin and Markus 
-Forsberg at Språkbanken for help with the lemmatization. Finally, we owe a huge 
-debt to the team who produced the original treebank in the 1970s.
+Forsberg at Språkbanken for help with the lemmatization. Further work on refining 
+and harmonizing the treebank with other treebanks for Swedish has been supported 
+by the UniDive COST Action (CA21167). Finally, we owe a huge debt to the team who 
+produced the original treebank in the 1970s.
 
 ## References
 
