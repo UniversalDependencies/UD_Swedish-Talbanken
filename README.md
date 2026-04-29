@@ -27,7 +27,10 @@ Jens Nilsson, and Filip Salomonsson. Special thanks also to Lars Borin and Marku
 Forsberg at Språkbanken for help with the lemmatization. Further work on refining 
 and harmonizing the treebank with other treebanks for Swedish has been supported 
 by the UniDive COST Action (CA21167). Finally, we owe a huge debt to the team who 
-produced the original treebank in the 1970s.
+produced the original treebank in the 1970s. Annotations for multiword expressions 
+according to the PARSEME framework were added by Sara Stymne, based on manual 
+annotations by  Astrid Berntsson Ingelstam, Sara Stymne, Eva Petterson, Stella 
+Lundqvist, and Ida Nilsson.
 
 ## References
 
@@ -231,7 +234,7 @@ From v2.17 to 2.18
 - Fixed annotation of passives (Issue #1122).
 - Fixed lemmas for adverbs derived from adjectives with "-t" (Issue #1165).
 - Multiword expression (MWE) annotations in the PARSEME framework added to MISC, with the prefix "ParsemeMWE"
-  - This release adds manual annotation of multiword expressions according to the [PARSEME guidelines, version 2.0](https://parsemefr.lis-lab.fr/parseme-st-guidelines/2.0/), whethere is an overview of all categories. 
+  - This release adds manual annotation of multiword expressions according to the [PARSEME guidelines, version 2.0](https://parsemefr.lis-lab.fr/parseme-st-guidelines/2.0/), where there is an overview of all categories. 
   - See  [Sara Stymne, Astrid Berntsson Ingelstam, and Eva Pettersson. 2026. Swedish Multiword Expression Corpora in PARSEME. In Proceedings of the 22nd Workshop on Multiword Expressions (MWE 2026), pages 27–37, Rabat, Marocco. Association for Computational Linguistics.](https://aclanthology.org/2026.mwe-1.3/) for more information about these annotations
 
 
