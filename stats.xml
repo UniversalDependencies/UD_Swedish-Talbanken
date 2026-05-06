@@ -10,7 +10,7 @@
     <dev><sentences>504</sentences><tokens>9797</tokens><words>9797</words><fused>0</fused></dev>
     <test><sentences>1219</sentences><tokens>20377</tokens><words>20377</words><fused>0</fused></test>
   </size>
-  <lemmas unique="10495" /><!-- ., ,, den, och, i, en, att, vara, som, av, för, på, de, ha, till -->
+  <lemmas unique="10630" /><!-- ., ,, den, och, i, en, att, vara, som, av, för, på, de, ha, till -->
   <forms unique="15094" /><!-- ., ,, och, i, att, som, en, det, är, av, för, på, den, de, till -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -18,19 +18,19 @@
     <tag name="ADJ">8553</tag><!-- stor, annan, många, olik, ny, viss, liten, sådan, hög, samma -->
     <tag name="ADP">11176</tag><!-- i, av, på, för, till, med, om, från, vid, under -->
     <tag name="ADV">6928</tag><!-- också, så, mycket, hur, där, här, nu, bara, ut, även -->
-    <tag name="AUX">4363</tag><!-- vara, kunna, ha, skola, måste, komma, få, böra, vilja, bli -->
+    <tag name="AUX">4364</tag><!-- vara, kunna, ha, skola, måste, komma, få, böra, vilja, bli -->
     <tag name="CCONJ">3670</tag><!-- och, eller, men, både, utan, som, dels, såväl, samt, varken -->
     <tag name="DET">4893</tag><!-- en, den, de, denna, någon, all, varje, vilken, ingen, båda -->
     <tag name="INTJ">35</tag><!-- ja, jo, nej, ha, ho, fan, ga-ga, javisst, jodå, nåväl -->
     <tag name="NOUN">22995</tag><!-- barn, år, kvinna, äktenskap, man, del, procent, människa, familj, krona -->
     <tag name="NUM">1740</tag><!-- två, en, tre, 1, 20, 2, 1970, 3, 10, 1971 -->
     <tag name="PART">1874</tag><!-- att, inte, ej, icke -->
-    <tag name="PRON">6746</tag><!-- den, som, man, sig, de, vi, du, denna, han, vad -->
+    <tag name="PRON">6751</tag><!-- den, som, man, sig, de, vi, du, denna, han, vad -->
     <tag name="PROPN">1360</tag><!-- Sverige, EEC, Stockholm, Gud, USA, ATP, Göteborg, Horn, Danmark, Indien -->
     <tag name="PUNCT">10369</tag><!-- ., ,, ', -, ?, (, ), :, *, ; -->
-    <tag name="SCONJ">2241</tag><!-- att, som, om, än, när, eftersom, innan, då, medan, sedan -->
+    <tag name="SCONJ">2236</tag><!-- att, som, om, än, när, eftersom, innan, då, medan, sedan -->
     <tag name="SYM">86</tag><!-- -, /, +, : -->
-    <tag name="VERB">9790</tag><!-- ha, få, bli, finnas, göra, ge, ta, gå, komma, se -->
+    <tag name="VERB">9789</tag><!-- ha, få, bli, finnas, göra, ge, ta, gå, komma, se -->
     <tag name="X">1</tag><!-- _ -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -71,7 +71,7 @@
     <feat name="PronType" value="Neg" upos="DET,PRON">93</feat><!-- ingen, inget, inga, ingenting, ingendera, någon -->
     <feat name="PronType" value="Prs" upos="DET,PRON">4069</feat><!-- det, de, sig, vi, den, du, sin, dem, han, sina -->
     <feat name="PronType" value="Rcp" upos="PRON">43</feat><!-- varandra, varann, varandras -->
-    <feat name="PronType" value="Rel" upos="PRON">1216</feat><!-- som, vad, vilket, vilka, vars, vilken, något, vilkas, man -->
+    <feat name="PronType" value="Rel" upos="PRON">1221</feat><!-- som, vad, vilket, vilka, vars, vilken, något, vilkas, man -->
     <feat name="PronType" value="Tot" upos="DET,PRON">473</feat><!-- alla, varje, var, allt, båda, all, ena, bägge, vart, allting -->
     <feat name="Tense" value="Past" upos="ADJ,ADV,AUX,VERB">1944</feat><!-- skulle, var, hade, kunde, fick, blev, ökade, kom, särskild, särskilda -->
     <feat name="Tense" value="Pres" upos="ADJ,ADV,AUX,VERB">8886</feat><!-- är, har, kan, får, måste, finns, blir, skall, kommer, ska -->
@@ -86,15 +86,15 @@
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="47">
-    <dep name="acl">667</dep>
+    <dep name="acl">666</dep>
     <dep name="acl:cleft">101</dep>
-    <dep name="acl:relcl">1246</dep>
+    <dep name="acl:relcl">1247</dep>
     <dep name="advcl">1741</dep>
     <dep name="advcl:relcl">24</dep>
-    <dep name="advmod">6583</dep>
+    <dep name="advmod">6582</dep>
     <dep name="amod">6116</dep>
     <dep name="appos">454</dep>
-    <dep name="aux">2466</dep>
+    <dep name="aux">2467</dep>
     <dep name="aux:pass">49</dep>
     <dep name="case">10344</dep>
     <dep name="cc">3660</dep>
@@ -117,13 +117,13 @@
     <dep name="goeswith">1</dep>
     <dep name="iobj">163</dep>
     <dep name="list">5</dep>
-    <dep name="mark">3989</dep>
+    <dep name="mark">3984</dep>
     <dep name="nmod">4371</dep>
     <dep name="nmod:poss">1750</dep>
-    <dep name="nsubj">7584</dep>
+    <dep name="nsubj">7577</dep>
     <dep name="nsubj:outer">33</dep>
-    <dep name="nsubj:pass">1318</dep>
-    <dep name="nummod">1338</dep>
+    <dep name="nsubj:pass">1331</dep>
+    <dep name="nummod">1337</dep>
     <dep name="obj">4268</dep>
     <dep name="obl">6615</dep>
     <dep name="obl:agent">181</dep>

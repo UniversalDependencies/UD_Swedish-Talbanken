@@ -14,25 +14,30 @@ directly from the original MAMBA annotation, while the morphological annotation 
 based on the reannotation performed when incorporating Talbanken into the Swedish
 Treebank (Nivre and Megyesi, 2007). Tokenization mostly follows the standard of the
 Stockholm-Umeå Corpus, Version 2.0 (2006), and lemmatization is based on Saldo
-(Borin et al., 2008), with some revisions to harmonize with other Swedish treebanks. 
+(Borin et al., 2008), with some revisions to harmonize with other Swedish treebanks.
 
 # Acknowledgments
 
 The new conversion has been performed by Joakim Nivre and Aaron Smith at Uppsala
 University. A semi-automatic correction of features and lemmas was done by Victor 
-Norrman and Joakim Nivre. Recent harmonization efforts were carried out in collaboration
+Norrman and Joakim Nivre. Recent harmonization efforts were carried out in collaboration 
 with Lars Ahrenberg, Aleksandrs Berdicevskis, and Adriana Masciolini. Recent work to 
-improve the annotation has benefited greatly from discussions within UniDive (COST 
-Action CA21167).
+improve the annotation has benefited greatly from discussions within UniDive 
+(COST Action CA21167).
 
 We thank everyone who has been involved in previous conversion efforts at Växjö 
 University and Uppsala University, including Bengt Dahlqvist, Sofia Gustafson-Capkova, 
 Johan Hall, Anna Sågvall Hein, Beáta Megyesi, Jens Nilsson, and Filip Salomonsson. 
 Special thanks also to Lars Borin and Markus Forsberg at Språkbanken for help with 
 the lemmatization. Finally, we owe a huge debt to the team who produced the original 
-treebank in the 1970s.
+treebank in the 1970s. 
 
+Annotations for constructions according to the UCxn framework were added by Joakim
+Nivre and Victor Norrman.
 
+Annotations for multiword expressions according to the PARSEME framework were added 
+by Sara Stymne, based on manual annotations by  Astrid Berntsson Ingelstam, 
+Sara Stymne, Eva Petterson, Stella Lundqvist, and Ida Nilsson.
 
 ## References
 
@@ -230,6 +235,14 @@ From v2.16 to 2.17
 - Harmonised analysis of "när" (Issue #1148).
 - Harmonised tagging of "som" (Issue #1149).
 - Fixed lemmas of truncated compounds (Issue #1150).
+
+From v2.17 to 2.18
+- Fixed incorrect lemmas of "mån" ("måndag" -> "månad").
+- Fixed annotation of passives (Issue #1122).
+- Fixed lemmas for adverbs derived from adjectives with "-t" (Issue #1165).
+- Multiword expression (MWE) annotations in the PARSEME framework added to MISC, with the prefix "ParsemeMWE"
+  - This release adds manual annotation of multiword expressions according to the [PARSEME guidelines, version 2.0](https://parsemefr.lis-lab.fr/parseme-st-guidelines/2.0/), where there is an overview of all categories. 
+  - See [Sara Stymne, Astrid Berntsson Ingelstam, and Eva Pettersson. 2026. Swedish Multiword Expression Corpora in PARSEME. In Proceedings of the 22nd Workshop on Multiword Expressions (MWE 2026), pages 27–37, Rabat, Marocco. Association for Computational Linguistics.](https://aclanthology.org/2026.mwe-1.3/) for more information about these annotations
 
 <pre>
 === Machine readable metadata ==============
