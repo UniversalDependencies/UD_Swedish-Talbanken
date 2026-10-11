@@ -28442,9 +28442,9 @@
 1	Problemet	problem	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	nsubj	2:nsubj|4:nsubj|6:nsubj	_
 2	blir	bli	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	bara	bara	ADV	AB	_	2	advmod	2:advmod	_
-4	värre	ond	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	2	xcomp	2:xcomp	_
+4	värre	illa	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	2	xcomp	2:xcomp	_
 5	och	och	CCONJ	KN	_	6	cc	6:cc	_
-6	värre	ond	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	4	conj	2:xcomp|4:conj:och	SpaceAfter=No
+6	värre	illa	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	4	conj	2:xcomp|4:conj:och	SpaceAfter=No
 7	.	.	PUNCT	MAD	_	2	punct	2:punct	_
 
 # sent_id = sv-ud-train-1678
@@ -28457,7 +28457,7 @@
 6	och	och	CCONJ	KN	_	7	cc	7:cc	_
 7	pansarvärnssoldater	pansarvärnssoldat	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	1	conj	1:conj:och|10:nsubj	_
 8	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	10:cop	_
-9	värst	värst	ADV	AB|SUV	Degree=Sup	10	advmod	10:advmod	_
+9	värst	illa	ADV	AB|SUV	Degree=Sup	10	advmod	10:advmod	_
 10	utsatta	utsatt	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	0	root	0:root	SpaceAfter=No|ParsemeMWE=1:NotMWE
 11	.	.	PUNCT	MAD	_	10	punct	10:punct	_
 
@@ -30381,7 +30381,7 @@
 5	sjukhuset	sjukhus	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	nmod	3:nmod:på	_
 6	var	vara	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	8:cop	_
 7	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	8	nsubj	8:nsubj	_
-8	värre	ond	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	0	root	0:root	SpaceAfter=No
+8	värre	illa	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	0	root	0:root	SpaceAfter=No
 9	.	.	PUNCT	MAD	_	8	punct	8:punct	_
 
 # sent_id = sv-ud-train-1789

@@ -244,6 +244,10 @@ From v2.17 to 2.18
   - This release adds manual annotation of multiword expressions according to the [PARSEME guidelines, version 2.0](https://parsemefr.lis-lab.fr/parseme-st-guidelines/2.0/), where there is an overview of all categories. 
   - See [Sara Stymne, Astrid Berntsson Ingelstam, and Eva Pettersson. 2026. Swedish Multiword Expression Corpora in PARSEME. In Proceedings of the 22nd Workshop on Multiword Expressions (MWE 2026), pages 27–37, Rabat, Marocco. Association for Computational Linguistics.](https://aclanthology.org/2026.mwe-1.3/) for more information about these annotations
 
+From v2.18 to 2.19
+- Changed the annotation of "för ... skull" from fixed expression to compositional.
+- Fixed lemmas for "värre" and "värst" (ADJ = ond, ADV = illa).
+
 <pre>
 === Machine readable metadata ==============
 Data available since: UD v1.0

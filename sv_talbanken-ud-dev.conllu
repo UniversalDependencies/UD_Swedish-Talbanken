@@ -5207,7 +5207,7 @@
 11	skall	skola	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	12:aux	_
 12	komma	komma	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	7	csubj	7:csubj	_
 13	så	så	ADV	AB	_	14	advmod	14:advmod	_
-14	värst	värst	ADV	AB|SUV	Degree=Sup	15	advmod	15:advmod	_
+14	värst	illa	ADV	AB|SUV	Degree=Sup	15	advmod	15:advmod	_
 15	mycket	mycket	ADV	AB|POS	Degree=Pos	16	advmod	16:advmod	_
 16	längre	länge	ADV	AB|KOM	Degree=Cmp	12	advmod	12:advmod	SpaceAfter=No
 17	.	.	PUNCT	MAD	_	5	punct	5:punct	_
