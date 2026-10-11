@@ -6043,7 +6043,7 @@
 8	kort	kort	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	9	amod	9:amod	_
 9	tid	tid	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obl	2:obl	SpaceAfter=No
 10	,	,	PUNCT	MID	_	2	punct	2:punct	_
-11	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	13	det	13:det	ParsemeMWE=2:DetID
+11	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	12	det	12:det	ParsemeMWE=2:DetID
 12	par	par	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	13	nmod	13:nmod	ParsemeMWE=2
 13	tiotal	tiotal	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	14	nmod	14:nmod	_
 14	år	år	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	2	obl	2:obl	_
