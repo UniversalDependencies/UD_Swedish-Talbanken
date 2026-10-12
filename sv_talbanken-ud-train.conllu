@@ -696,7 +696,7 @@
 4	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	ParsemeMWE=1:LVC.full
 5	dock	dock	ADV	AB	_	4	advmod	4:advmod	_
 6	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	8	det	8:det	_
-7	andra	annan	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	8	amod	8:amod	_
+7	andra	annan	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	8	amod	8:amod	_
 8	maken	make	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	nsubj	4:nsubj	_
 9	rätt	rätt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	obj	4:obj	ParsemeMWE=1
 10	till	till	ADP	PP	_	11	case	11:case	_
@@ -3313,7 +3313,7 @@
 14	som	som	SCONJ	KN	_	17	mark	17:mark	_
 15	för	för	ADP	PP	_	17	case	17:case	_
 16	andra	annan	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	17	amod	17:amod	_
-17	läkarbesök	läkarbesök	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	13	acl	13:acl:för	SpaceAfter=No
+17	läkarbesök	läkarbesök	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	13	acl	13:acl:för	SpaceAfter=No
 18	.	.	PUNCT	MAD	_	10	punct	10:punct	_
 
 # newpar id = P103.24
@@ -22056,7 +22056,7 @@
 7	ensamstående	ensamstående	ADJ	JJ|POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	5	conj	5:conj:eller|10:amod	_
 8	eller	eller	CCONJ	KN	_	9	cc	9:cc	_
 9	äldre	gammal	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	5	conj	5:conj:eller|10:amod	_
-10	arbetstagare	arbetstagare	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	obl	3:obl:till|15:nsubj	SpaceAfter=No
+10	arbetstagare	arbetstagare	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	obl	3:obl:till|15:nsubj	SpaceAfter=No
 11	,	,	PUNCT	MID	_	15	punct	15:punct	_
 12	som	som	PRON	HP|-|-|-	PronType=Rel	15	nsubj	10:ref	_
 13	inte	inte	PART	AB	Polarity=Neg	15	advmod	15:advmod	_
@@ -23921,7 +23921,7 @@
 2	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	3:cop	_
 3	tjänstemän	tjänsteman	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	0	root	0:root|9:nsubj	_
 4	från	från	ADP	PP	_	6	case	6:case	_
-5	respektive	respektive	ADJ	AB	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	6	amod	6:amod	_
+5	respektive	respektive	ADJ	AB	Case=Nom|Definite=Ind|Degree=Pos	6	amod	6:amod	_
 6	medlemsländer	medlemsland	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	3	nmod	3:nmod:från	SpaceAfter=No
 7	,	,	PUNCT	MID	_	3	punct	3:punct	_
 8	som	som	PRON	HP|-|-|-	PronType=Rel	9	nsubj	3:ref	_
@@ -23931,7 +23931,7 @@
 12	tillbaka	tillbaka	ADV	AB	_	10	conj	9:advmod|10:conj:och	ParsemeMWE=1
 13	mellan	mellan	ADP	PP	_	16	case	16:case	_
 14	sina	sig	PRON	PS|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|Poss=Yes|PronType=Prs	16	nmod:poss	16:nmod:poss	_
-15	respektive	respektive	ADJ	AB	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	16	amod	16:amod	_
+15	respektive	respektive	ADJ	AB	Case=Nom|Definite=Ind|Degree=Pos	16	amod	16:amod	_
 16	huvudstäder	huvudstad	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	10	obl	10:obl:mellan	_
 17	och	och	CCONJ	KN	_	18	cc	18:cc	_
 18	EEC-högkvarteret	EEC-högkvarter	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	16	conj	10:obl:mellan|16:conj:och	_
@@ -25265,7 +25265,7 @@
 40	Bryssel	Bryssel	PROPN	PM|NOM	Case=Nom	36	obl	36:obl:mellan	_
 41	och	och	CCONJ	KN	_	40	cc	40:cc	_
 42	sina	sig	PRON	PS|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|Poss=Yes|PronType=Prs	44	nmod:poss	44:nmod:poss	_
-43	respektive	respektive	ADJ	AB	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	44	amod	44:amod	_
+43	respektive	respektive	ADJ	AB	Case=Nom|Definite=Ind|Degree=Pos	44	amod	44:amod	_
 44	hemländers	hemland	NOUN	NN|NEU|PLU|IND|GEN	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur	45	nmod:poss	45:nmod:poss	ParsemeMWE=7:NID
 45	huvudstäder	huvudstad	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	40	conj	36:obl:mellan|40:conj	_
 
@@ -76289,7 +76289,7 @@
 # sent_id = sv-ud-train-4121
 # text = Å andra sidan följer härav, att där viljan till och längtan efter att 'vara fruktsamma' inte finns hos två makar, är det inte längre tal om ett äktenskap på biblisk grund.
 1	Å	å	ADP	PP	_	3	case	3:case	ParsemeMWE=1:ConjID
-2	andra	annan	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	3	amod	3:amod	ParsemeMWE=1
+2	andra	annan	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	3	amod	3:amod	ParsemeMWE=1
 3	sidan	sida	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	obl	4:obl:å	ParsemeMWE=1
 4	följer	följa	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 5	härav	härav	ADV	AB	_	4	advmod	4:advmod	SpaceAfter=No
