@@ -12954,7 +12954,7 @@
 7	effekt	effekt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	obj	3:obj	ParsemeMWE=1
 8	på	på	ADP	PP	_	11	case	11:case	_
 9	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	10	det	10:det	_
-10	sjukes	sjuk	ADJ	JJ|POS|MAS|SIN|DEF|GEN	Case=Gen|Definite=Def|Degree=Pos|Gender=Com|Number=Sing	11	amod	11:amod	_
+10	sjukes	sjuk	ADJ	JJ|POS|MAS|SIN|DEF|GEN	Case=Gen|Definite=Def|Degree=Pos|Gender=Com|Number=Sing	11	nmod:poss	11:nmod:poss	_
 11	själsliv	själsliv	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	obl	3:obl:på	SpaceAfter=No
 12	,	,	PUNCT	MID	_	16	punct	16:punct	_
 13	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	16:cop	_
@@ -23918,7 +23918,7 @@
 6	skett	ske	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	0	root	0:root	_
 7	i	i	ADP	PP	_	10	case	10:case	_
 8	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	9	det	9:det	_
-9	avlidnes	avliden	ADJ	PC|PRF|MAS|SIN|DEF|GEN	Case=Gen|Definite=Def|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	10	amod	10:amod	_
+9	avlidnes	avliden	ADJ	PC|PRF|MAS|SIN|DEF|GEN	Case=Gen|Definite=Def|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	10	nmod:poss	10:nmod:poss	_
 10	namn	namn	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	6	obl	6:obl:i	SpaceAfter=No
 11	,	,	PUNCT	MID	_	15	punct	15:punct	_
 12	och	och	CCONJ	KN	_	15	cc	15:cc	_
