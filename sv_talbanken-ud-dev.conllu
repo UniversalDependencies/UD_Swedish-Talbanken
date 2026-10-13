@@ -4713,7 +4713,7 @@
 39	och	och	CCONJ	KN	_	40	cc	40:cc	_
 40	barn	barn	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	38	conj	36:nmod:av|38:conj:och	_
 41	utan	utan	ADP	PP	_	42	case	42:case	ParsemeMWE=2:AdvID
-42	vidare	vidare	ADJ	JJ|KOM|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	43	obl	43:obl:utan	ParsemeMWE=2
+42	vidare	vidare	ADV	AB|KOM	_	43	obl	43:obl:utan	ParsemeMWE=2
 43	betraktas	betrakta	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	25	ccomp	25:ccomp	_
 44	som	som	SCONJ	KN	_	46	mark	46:mark	_
 45	hustruns	hustru	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	46	nmod:poss	46:nmod:poss	_
@@ -7336,7 +7336,7 @@
 2	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
 3	inte	inte	PART	AB	Polarity=Neg	6	advmod	6:advmod	_
 4	något	något	ADV	AB	_	5	advmod	5:advmod	_
-5	vidare	vid	ADV	AB|KOM	Degree=Cmp	6	advmod	6:advmod	_
+5	vidare	vid	ADV	AB|KOM	_	6	advmod	6:advmod	_
 6	aktiva	aktiv	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	0	root	0:root	_
 7	annars	annars	ADV	AB	_	6	advmod	6:advmod	SpaceAfter=No
 8	.	.	PUNCT	MAD	_	6	punct	6:punct	_

@@ -530,7 +530,7 @@
 # text = (Se vidare sid 8 ff.)
 1	(	(	PUNCT	PAD	_	2	punct	2:punct	SpaceAfter=No
 2	Se	se	VERB	VB|IMP|AKT	Mood=Imp|VerbForm=Fin|Voice=Act	0	root	0:root	_
-3	vidare	vidare	ADV	AB|KOM	Degree=Cmp	2	advmod	2:advmod	_
+3	vidare	vidare	ADV	AB|KOM	_	2	advmod	2:advmod	_
 4	sid	sida	NOUN	NN|AN	Abbr=Yes	5	nmod	5:nmod	_
 5	8	8	NUM	RG|NOM	Case=Nom|NumType=Card	2	obj	2:obj	_
 6	ff	och_följande_sidor	ADV	AB|AN	Abbr=Yes	5	nmod	5:nmod	SpaceAfter=No
@@ -1540,7 +1540,7 @@
 # text = Det fordras vidare att makarna varit gifta i 5 år för att hustrutillägg skall kunna utgå.
 1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	2	expl	2:expl	_
 2	fordras	fordras	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-3	vidare	vidare	ADV	AB|KOM	Degree=Cmp	2	advmod	2:advmod	_
+3	vidare	vidare	ADV	AB|KOM	_	2	advmod	2:advmod	_
 4	att	att	SCONJ	SN	_	7	mark	7:mark	_
 5	makarna	make	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	7	nsubj	7:nsubj	_
 6	varit	vara	AUX	VB|SUP|AKT	VerbForm=Sup|Voice=Act	7	cop	7:cop	_
@@ -3536,7 +3536,7 @@
 1	I	i	ADP	PP	_	2	case	2:case	_
 2	Socialkatalogen	socialkatalog	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	3	obl	3:obl:i	_
 3	finns	finnas	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-ExistPred
-4	vidare	vid	ADV	AB|KOM	Degree=Cmp	3	advmod	3:advmod	_
+4	vidare	vidare	ADV	AB|KOM	_	3	advmod	3:advmod	_
 5	upplysningar	upplysning	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	nsubj	3:nsubj	CxnElt=3:Existential-ExistPred.Pivot
 6	om	om	ADP	PP	_	8	case	8:case	_
 7	bl.a.	bland_annat	ADV	AB|AN	Abbr=Yes	8	advmod	8:advmod	ParsemeMWE=1:AdvID
@@ -3689,7 +3689,7 @@
 # newpar id = P114.5
 # sent_id = sv-ud-test-199
 # text = Vidare uppkommer giftorätt.
-1	Vidare	vidare	ADV	AB|KOM	Degree=Cmp	2	advmod	2:advmod	_
+1	Vidare	vidare	ADV	AB|KOM	_	2	advmod	2:advmod	_
 2	uppkommer	uppkomma	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	giftorätt	giftorätt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	nsubj	2:nsubj	SpaceAfter=No
 4	.	.	PUNCT	MAD	_	2	punct	2:punct	_
@@ -4099,7 +4099,7 @@
 # text = Domstolen avgör vidare om det ska betalas underhållsbidrag, hur boet ska delas och om eventuellt skadestånd.
 1	Domstolen	domstol	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	2:nsubj|17:nsubj	ParsemeMWE=1:NID
 2	avgör	avgöra	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-3	vidare	vidare	ADV	AB|KOM	Degree=Cmp	2	advmod	2:advmod	_
+3	vidare	vidare	ADV	AB|KOM	_	2	advmod	2:advmod	_
 4	om	om	SCONJ	SN	_	7	mark	7:mark	_
 5	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	7	expl	7:expl	_
 6	ska	skola	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	7:aux	_
@@ -7640,7 +7640,7 @@
 30	höja	höja	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	28	advcl	28:advcl:att	_
 31	den	den	PRON	PN|UTR|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	30	obj	30:obj	_
 32	utan	utan	ADP	PP	_	33	case	33:case	ParsemeMWE=2:AdvID
-33	vidare	vidare	ADJ	JJ|KOM|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	30	obl	30:obl:utan	ParsemeMWE=2
+33	vidare	vidare	ADV	AB|KOM	_	30	obl	30:obl:utan	ParsemeMWE=2
 34	med	med	ADP	PP	_	35	case	35:case	_
 35	motiveringen	motivering	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	30	obl	30:obl:med	SpaceAfter=No
 36	:	:	PUNCT	MAD	_	35	punct	35:punct	_
@@ -10904,7 +10904,7 @@
 6	huden	hud	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	obl	4:obl:under	_
 7	på	på	ADP	PP	_	8	case	8:case	_
 8	halsen	hals	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	6	nmod	6:nmod:på	_
-9	vidare	vidare	ADV	AB|KOM	Degree=Cmp	10	advmod	10:advmod	_
+9	vidare	vidare	ADV	AB|KOM	_	10	advmod	10:advmod	_
 10	in	in	ADV	AB	_	2	conj	2:conj:och	_
 11	i	i	ADP	PP	_	12	case	12:case	_
 12	en	en	PRON	PN|UTR|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Com|Number=Sing|PronType=Prs	10	obl	10:obl:i	_
@@ -12025,7 +12025,7 @@
 # text = Den leds vidare under huden bakom örat, in i en av halsvenerna och utmynnar i hjärtat.
 1	Den	den	PRON	PN|UTR|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj:pass	2:nsubj:pass|15:nsubj:pass	_
 2	leds	leda	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	0:root	_
-3	vidare	vidare	ADV	AB|KOM	Degree=Cmp	2	advmod	2:advmod	_
+3	vidare	vidare	ADV	AB|KOM	_	2	advmod	2:advmod	_
 4	under	under	ADP	PP	_	5	case	5:case	_
 5	huden	hud	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	3	obl	3:obl:under	_
 6	bakom	bakom	ADP	PP	_	7	case	7:case	_
@@ -15735,7 +15735,7 @@
 # text = Den skulle vidare vara försedd med vatten, avlopp, centralvärme och badrum.
 1	Den	den	PRON	PN|UTR|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	5	nsubj	5:nsubj	_
 2	skulle	skola	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	aux	5:aux	_
-3	vidare	vidare	ADV	AB|KOM	Degree=Cmp	5	advmod	5:advmod	_
+3	vidare	vidare	ADV	AB|KOM	_	5	advmod	5:advmod	_
 4	vara	vara	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	5	cop	5:cop	_
 5	försedd	försedd	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	_
 6	med	med	ADP	PP	_	7	case	7:case	_
