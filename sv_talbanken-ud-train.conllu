@@ -75554,7 +75554,7 @@
 4	familjen	familj	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	nsubj	9:nsubj|11:nsubj	_
 5	hos	hos	ADP	PP	_	8	case	8:case	_
 6	sina	sig	PRON	PS|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	_
-7	olika	olik	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	8	amod	8:amod	_
+7	olika	olik	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	8	amod	8:amod	_
 8	medlemmar	medlem	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9	obl	9:obl:hos	_
 9	stärker	stärka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	3:acl:relcl	_
 10	och	och	CCONJ	KN	_	11	cc	11:cc	_
