@@ -6747,7 +6747,7 @@
 13	flyga	flyga	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	9	acl:relcl	9:acl:relcl	_
 14	omkring	omkring	ADV	PL	_	13	compound:prt	13:compound:prt	_
 15	vart	vart	ADV	HA	_	13	advmod	13:advmod	_
-16	som	som	CCONJ	KN	ExtPos=ADV	15	advmod	15:advmod	_
+16	som	som	ADP	KN	ExtPos=ADV	15	advmod	15:advmod	_
 17	helst	gärna	ADV	AB|SUV	Degree=Sup	16	fixed	16:fixed	_
 18	i	i	ADP	PP	_	20	case	20:case	_
 19	tusensitsiga	tusensitsig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	20	amod	20:amod	_
@@ -7320,7 +7320,7 @@
 17	matrester	matrest	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	15	conj	14:nsubj|15:conj:och	_
 18	omkring	omkring	ADV	PL	_	14	compound:prt	14:compound:prt	_
 19	var	var	ADV	HA	_	14	advmod	14:advmod	_
-20	som	som	CCONJ	KN	ExtPos=ADV	19	advmod	19:advmod	_
+20	som	som	ADP	KN	ExtPos=ADV	19	advmod	19:advmod	_
 21	helst	gärna	ADV	AB|SUV	Degree=Sup	20	fixed	20:fixed	SpaceAfter=No
 22	.	.	PUNCT	MAD	_	2	punct	2:punct	_
 
@@ -15886,7 +15886,7 @@
 11	kunna	kunna	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	12	aux	12:aux	_
 12	bygga	bygga	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	0	root	0:root	_
 13	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Number=Sing|PronType=Int	12	obj	12:obj	ParsemeMWE=2:PronID
-14	som	som	SCONJ	KN	ExtPos=ADV	13	advmod	13:advmod	ParsemeMWE=2
+14	som	som	ADP	KN	ExtPos=ADV	13	advmod	13:advmod	ParsemeMWE=2
 15	helst	gärna	ADV	AB|SUV	Degree=Sup	14	fixed	14:fixed	SpaceAfter=No|ParsemeMWE=2
 16	.	.	PUNCT	MAD	_	12	punct	12:punct	_
 

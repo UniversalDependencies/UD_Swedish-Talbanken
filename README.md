@@ -248,6 +248,7 @@ From v2.18 to 2.19
 - Changed the annotation of "för ... skull" from fixed expression to compositional.
 - Fixed lemmas for "värre" and "värst" (ADJ = ond, ADV = illa).
 - Fixed various feature errors.
+- Changed tag for "som" in "som helst" to ADP.
 
 <pre>
 === Machine readable metadata ==============
