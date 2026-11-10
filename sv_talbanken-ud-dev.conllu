@@ -4713,7 +4713,7 @@
 39	och	och	CCONJ	KN	_	40	cc	40:cc	_
 40	barn	barn	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	38	conj	36:nmod:av|38:conj:och	_
 41	utan	utan	ADP	PP	_	42	case	42:case	ParsemeMWE=2:AdvID
-42	vidare	vidare	ADJ	JJ|KOM|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	43	obl	43:obl:utan	ParsemeMWE=2
+42	vidare	vidare	ADV	AB|KOM	_	43	obl	43:obl:utan	ParsemeMWE=2
 43	betraktas	betrakta	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	25	ccomp	25:ccomp	_
 44	som	som	SCONJ	KN	_	46	mark	46:mark	_
 45	hustruns	hustru	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	46	nmod:poss	46:nmod:poss	_
@@ -5207,7 +5207,7 @@
 11	skall	skola	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	12:aux	_
 12	komma	komma	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	7	csubj	7:csubj	_
 13	så	så	ADV	AB	_	14	advmod	14:advmod	_
-14	värst	värst	ADV	AB|SUV	Degree=Sup	15	advmod	15:advmod	_
+14	värst	illa	ADV	AB|SUV	Degree=Sup	15	advmod	15:advmod	_
 15	mycket	mycket	ADV	AB|POS	Degree=Pos	16	advmod	16:advmod	_
 16	längre	länge	ADV	AB|KOM	Degree=Cmp	12	advmod	12:advmod	SpaceAfter=No
 17	.	.	PUNCT	MAD	_	5	punct	5:punct	_
@@ -5797,15 +5797,15 @@
 5	den	den	PRON	PN|UTR|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	4	obj	4:obj	_
 6	ifrån	ifrån	ADP	PP	_	7	case	7:case	ParsemeMWE=1
 7	oss	vi	PRON	PN|UTR|PLU|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	4	obl	4:obl:ifrån	ParsemeMWE=1
-8	för	för	ADP	PP	ExtPos=ADP	12	case	12:case	_
+8	för	för	ADP	PP	ExtPos=ADP	13	case	13:case	_
 9	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	12	det	12:det	_
 10	så	så	ADV	AB	_	11	advmod	11:advmod	_
 11	futtig	futtig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	12	amod	12:amod	_
-12	orsaks	orsak	NOUN	NN|UTR|SIN|IND|GEN	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	4	obl	4:obl:för_skull	_
-13	skull	skull	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	fixed	8:fixed	_
+12	orsaks	orsak	NOUN	NN|UTR|SIN|IND|GEN	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	13	nmod:poss	13:nmod:poss	_
+13	skull	skull	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	obl	4:obl	_
 14	som	som	SCONJ	KN	_	16	mark	16:mark	_
 15	att	att	PART	IE	_	16	mark	16:mark	_
-16	bevisa	bevisa	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	12	acl	12:acl:att	_
+16	bevisa	bevisa	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	13	acl	13:acl:att	_
 17	att	att	SCONJ	SN	_	22	mark	22:mark	_
 18	vi	vi	PRON	PN|UTR|PLU|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	22	nsubj	22:nsubj	_
 19	minsann	minsann	ADV	AB	_	22	advmod	22:advmod	_
@@ -5867,7 +5867,7 @@
 12	vilket	vilken	DET	HD|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Tot	14	det	14:det	ParsemeMWE=1:DetID
 13	annat	annan	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	amod	14:amod	_
 14	yrkesarbete	yrkesarbete	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	8	obl	8:obl:som	_
-15	som	som	CCONJ	KN	ExtPos=ADV	12	advmod	12:advmod	ParsemeMWE=1
+15	som	som	ADP	KN	ExtPos=ADV	12	advmod	12:advmod	ParsemeMWE=1
 16	helst	gärna	ADV	AB|SUV	Degree=Sup	15	fixed	15:fixed	ParsemeMWE=1
 17	och	och	CCONJ	KN	_	18	cc	18:cc	_
 18	berättigar	berättiga	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	3:ccomp|8:conj:och	_
@@ -6043,7 +6043,7 @@
 8	kort	kort	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	9	amod	9:amod	_
 9	tid	tid	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obl	2:obl	SpaceAfter=No
 10	,	,	PUNCT	MID	_	2	punct	2:punct	_
-11	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	13	det	13:det	ParsemeMWE=2:DetID
+11	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	12	det	12:det	ParsemeMWE=2:DetID
 12	par	par	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	13	nmod	13:nmod	ParsemeMWE=2
 13	tiotal	tiotal	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	14	nmod	14:nmod	_
 14	år	år	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	2	obl	2:obl	_
@@ -7336,7 +7336,7 @@
 2	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
 3	inte	inte	PART	AB	Polarity=Neg	6	advmod	6:advmod	_
 4	något	något	ADV	AB	_	5	advmod	5:advmod	_
-5	vidare	vid	ADV	AB|KOM	Degree=Cmp	6	advmod	6:advmod	_
+5	vidare	vid	ADV	AB|KOM	_	6	advmod	6:advmod	_
 6	aktiva	aktiv	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	0	root	0:root	_
 7	annars	annars	ADV	AB	_	6	advmod	6:advmod	SpaceAfter=No
 8	.	.	PUNCT	MAD	_	6	punct	6:punct	_
@@ -7348,7 +7348,7 @@
 3	i	i	ADP	PP	_	5	case	5:case	ParsemeMWE=1:AdvID
 4	vilket	vilket	DET	HD|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Tot	5	det	5:det	ParsemeMWE=1
 5	fall	fall	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	obl	2:obl:i	ParsemeMWE=1
-6	som	som	SCONJ	KN	ExtPos=ADV	4	advmod	4:advmod	ParsemeMWE=1
+6	som	som	ADP	KN	ExtPos=ADV	4	advmod	4:advmod	ParsemeMWE=1
 7	helst	gärna	ADV	AB|SUV	Degree=Sup	6	fixed	6:fixed	ParsemeMWE=1
 8	inte	inte	PART	AB	Polarity=Neg	2	advmod	2:advmod	_
 9	göra	göra	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	xcomp	2:xcomp	_

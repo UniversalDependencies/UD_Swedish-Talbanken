@@ -530,7 +530,7 @@
 # text = (Se vidare sid 8 ff.)
 1	(	(	PUNCT	PAD	_	2	punct	2:punct	SpaceAfter=No
 2	Se	se	VERB	VB|IMP|AKT	Mood=Imp|VerbForm=Fin|Voice=Act	0	root	0:root	_
-3	vidare	vidare	ADV	AB|KOM	Degree=Cmp	2	advmod	2:advmod	_
+3	vidare	vidare	ADV	AB|KOM	_	2	advmod	2:advmod	_
 4	sid	sida	NOUN	NN|AN	Abbr=Yes	5	nmod	5:nmod	_
 5	8	8	NUM	RG|NOM	Case=Nom|NumType=Card	2	obj	2:obj	_
 6	ff	och_följande_sidor	ADV	AB|AN	Abbr=Yes	5	nmod	5:nmod	SpaceAfter=No
@@ -1540,7 +1540,7 @@
 # text = Det fordras vidare att makarna varit gifta i 5 år för att hustrutillägg skall kunna utgå.
 1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	2	expl	2:expl	_
 2	fordras	fordras	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-3	vidare	vidare	ADV	AB|KOM	Degree=Cmp	2	advmod	2:advmod	_
+3	vidare	vidare	ADV	AB|KOM	_	2	advmod	2:advmod	_
 4	att	att	SCONJ	SN	_	7	mark	7:mark	_
 5	makarna	make	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	7	nsubj	7:nsubj	_
 6	varit	vara	AUX	VB|SUP|AKT	VerbForm=Sup|Voice=Act	7	cop	7:cop	_
@@ -3536,7 +3536,7 @@
 1	I	i	ADP	PP	_	2	case	2:case	_
 2	Socialkatalogen	socialkatalog	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	3	obl	3:obl:i	_
 3	finns	finnas	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-ExistPred
-4	vidare	vid	ADV	AB|KOM	Degree=Cmp	3	advmod	3:advmod	_
+4	vidare	vidare	ADV	AB|KOM	_	3	advmod	3:advmod	_
 5	upplysningar	upplysning	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	nsubj	3:nsubj	CxnElt=3:Existential-ExistPred.Pivot
 6	om	om	ADP	PP	_	8	case	8:case	_
 7	bl.a.	bland_annat	ADV	AB|AN	Abbr=Yes	8	advmod	8:advmod	ParsemeMWE=1:AdvID
@@ -3689,7 +3689,7 @@
 # newpar id = P114.5
 # sent_id = sv-ud-test-199
 # text = Vidare uppkommer giftorätt.
-1	Vidare	vidare	ADV	AB|KOM	Degree=Cmp	2	advmod	2:advmod	_
+1	Vidare	vidare	ADV	AB|KOM	_	2	advmod	2:advmod	_
 2	uppkommer	uppkomma	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	giftorätt	giftorätt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	nsubj	2:nsubj	SpaceAfter=No
 4	.	.	PUNCT	MAD	_	2	punct	2:punct	_
@@ -4099,7 +4099,7 @@
 # text = Domstolen avgör vidare om det ska betalas underhållsbidrag, hur boet ska delas och om eventuellt skadestånd.
 1	Domstolen	domstol	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	2:nsubj|17:nsubj	ParsemeMWE=1:NID
 2	avgör	avgöra	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-3	vidare	vidare	ADV	AB|KOM	Degree=Cmp	2	advmod	2:advmod	_
+3	vidare	vidare	ADV	AB|KOM	_	2	advmod	2:advmod	_
 4	om	om	SCONJ	SN	_	7	mark	7:mark	_
 5	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	7	expl	7:expl	_
 6	ska	skola	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	7:aux	_
@@ -6506,7 +6506,7 @@
 20	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	22	det	22:det	_
 21	globala	global	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	22	amod	22:amod	_
 22	miljöförstöringens	miljöförstöring	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	23	nmod:poss	23:nmod:poss	_
-23	argument	argument	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	18	obj	18:obj	_
+23	argument	argument	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	18	obj	18:obj	_
 24	till	till	ADP	PP	_	27	case	27:case	_
 25	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	27	det	27:det	_
 26	förkrossande	förkrossande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Tense=Pres|VerbForm=Part	27	amod	27:amod	_
@@ -6747,7 +6747,7 @@
 13	flyga	flyga	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	9	acl:relcl	9:acl:relcl	_
 14	omkring	omkring	ADV	PL	_	13	compound:prt	13:compound:prt	_
 15	vart	vart	ADV	HA	_	13	advmod	13:advmod	_
-16	som	som	CCONJ	KN	ExtPos=ADV	15	advmod	15:advmod	_
+16	som	som	ADP	KN	ExtPos=ADV	15	advmod	15:advmod	_
 17	helst	gärna	ADV	AB|SUV	Degree=Sup	16	fixed	16:fixed	_
 18	i	i	ADP	PP	_	20	case	20:case	_
 19	tusensitsiga	tusensitsig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	20	amod	20:amod	_
@@ -7320,7 +7320,7 @@
 17	matrester	matrest	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	15	conj	14:nsubj|15:conj:och	_
 18	omkring	omkring	ADV	PL	_	14	compound:prt	14:compound:prt	_
 19	var	var	ADV	HA	_	14	advmod	14:advmod	_
-20	som	som	CCONJ	KN	ExtPos=ADV	19	advmod	19:advmod	_
+20	som	som	ADP	KN	ExtPos=ADV	19	advmod	19:advmod	_
 21	helst	gärna	ADV	AB|SUV	Degree=Sup	20	fixed	20:fixed	SpaceAfter=No
 22	.	.	PUNCT	MAD	_	2	punct	2:punct	_
 
@@ -7640,7 +7640,7 @@
 30	höja	höja	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	28	advcl	28:advcl:att	_
 31	den	den	PRON	PN|UTR|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	30	obj	30:obj	_
 32	utan	utan	ADP	PP	_	33	case	33:case	ParsemeMWE=2:AdvID
-33	vidare	vidare	ADJ	JJ|KOM|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	30	obl	30:obl:utan	ParsemeMWE=2
+33	vidare	vidare	ADV	AB|KOM	_	30	obl	30:obl:utan	ParsemeMWE=2
 34	med	med	ADP	PP	_	35	case	35:case	_
 35	motiveringen	motivering	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	30	obl	30:obl:med	SpaceAfter=No
 36	:	:	PUNCT	MAD	_	35	punct	35:punct	_
@@ -10904,7 +10904,7 @@
 6	huden	hud	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	obl	4:obl:under	_
 7	på	på	ADP	PP	_	8	case	8:case	_
 8	halsen	hals	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	6	nmod	6:nmod:på	_
-9	vidare	vidare	ADV	AB|KOM	Degree=Cmp	10	advmod	10:advmod	_
+9	vidare	vidare	ADV	AB|KOM	_	10	advmod	10:advmod	_
 10	in	in	ADV	AB	_	2	conj	2:conj:och	_
 11	i	i	ADP	PP	_	12	case	12:case	_
 12	en	en	PRON	PN|UTR|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Com|Number=Sing|PronType=Prs	10	obl	10:obl:i	_
@@ -11202,7 +11202,7 @@
 2	så	så	ADV	AB	_	10	advmod	10:advmod	_
 3	bara	bara	ADV	AB	_	10	advmod	10:advmod	_
 4	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	5	det	5:det	_
-5	procent	procent	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	10	nsubj:pass	10:nsubj:pass	_
+5	procent	procent	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	nsubj:pass	10:nsubj:pass	_
 6	eller	eller	CCONJ	KN	_	8	cc	8:cc	_
 7	ännu	ännu	ADV	AB	_	8	advmod	8:advmod	_
 8	mindre	lite	PRON	AB|KOM	Definite=Ind|PronType=Ind	5	conj	5:conj:eller|10:nsubj:pass	_
@@ -12025,7 +12025,7 @@
 # text = Den leds vidare under huden bakom örat, in i en av halsvenerna och utmynnar i hjärtat.
 1	Den	den	PRON	PN|UTR|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj:pass	2:nsubj:pass|15:nsubj:pass	_
 2	leds	leda	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	0:root	_
-3	vidare	vidare	ADV	AB|KOM	Degree=Cmp	2	advmod	2:advmod	_
+3	vidare	vidare	ADV	AB|KOM	_	2	advmod	2:advmod	_
 4	under	under	ADP	PP	_	5	case	5:case	_
 5	huden	hud	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	3	obl	3:obl:under	_
 6	bakom	bakom	ADP	PP	_	7	case	7:case	_
@@ -12954,7 +12954,7 @@
 7	effekt	effekt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	obj	3:obj	ParsemeMWE=1
 8	på	på	ADP	PP	_	11	case	11:case	_
 9	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	10	det	10:det	_
-10	sjukes	sjuk	ADJ	JJ|POS|MAS|SIN|DEF|GEN	Case=Gen|Definite=Def|Degree=Pos|Gender=Com|Number=Sing	11	amod	11:amod	_
+10	sjukes	sjuk	ADJ	JJ|POS|MAS|SIN|DEF|GEN	Case=Gen|Definite=Def|Degree=Pos|Gender=Com|Number=Sing	11	nmod:poss	11:nmod:poss	_
 11	själsliv	själsliv	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	obl	3:obl:på	SpaceAfter=No
 12	,	,	PUNCT	MID	_	16	punct	16:punct	_
 13	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	16:cop	_
@@ -15735,7 +15735,7 @@
 # text = Den skulle vidare vara försedd med vatten, avlopp, centralvärme och badrum.
 1	Den	den	PRON	PN|UTR|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	5	nsubj	5:nsubj	_
 2	skulle	skola	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	aux	5:aux	_
-3	vidare	vidare	ADV	AB|KOM	Degree=Cmp	5	advmod	5:advmod	_
+3	vidare	vidare	ADV	AB|KOM	_	5	advmod	5:advmod	_
 4	vara	vara	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	5	cop	5:cop	_
 5	försedd	försedd	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	_
 6	med	med	ADP	PP	_	7	case	7:case	_
@@ -15886,7 +15886,7 @@
 11	kunna	kunna	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	12	aux	12:aux	_
 12	bygga	bygga	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	0	root	0:root	_
 13	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Number=Sing|PronType=Int	12	obj	12:obj	ParsemeMWE=2:PronID
-14	som	som	SCONJ	KN	ExtPos=ADV	13	advmod	13:advmod	ParsemeMWE=2
+14	som	som	ADP	KN	ExtPos=ADV	13	advmod	13:advmod	ParsemeMWE=2
 15	helst	gärna	ADV	AB|SUV	Degree=Sup	14	fixed	14:fixed	SpaceAfter=No|ParsemeMWE=2
 16	.	.	PUNCT	MAD	_	12	punct	12:punct	_
 
@@ -19102,7 +19102,7 @@
 4	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	11:cop	_
 5	ju	ju	ADV	AB	_	11	advmod	11:advmod	_
 6	i	i	ADP	PP	_	8	case	8:case	ParsemeMWE=1:AdvID
-7	själva	själv	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	8	amod	8:amod	ParsemeMWE=1
+7	själva	själv	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	8	amod	8:amod	ParsemeMWE=1
 8	verket	verk	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	11	nmod	11:nmod:i	ParsemeMWE=1
 9	hennes	hon	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	_
 10	sociala	social	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	11	amod	11:amod	_
@@ -23918,7 +23918,7 @@
 6	skett	ske	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	0	root	0:root	_
 7	i	i	ADP	PP	_	10	case	10:case	_
 8	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	9	det	9:det	_
-9	avlidnes	avliden	ADJ	PC|PRF|MAS|SIN|DEF|GEN	Case=Gen|Definite=Def|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	10	amod	10:amod	_
+9	avlidnes	avliden	ADJ	PC|PRF|MAS|SIN|DEF|GEN	Case=Gen|Definite=Def|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	10	nmod:poss	10:nmod:poss	_
 10	namn	namn	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	6	obl	6:obl:i	SpaceAfter=No
 11	,	,	PUNCT	MID	_	15	punct	15:punct	_
 12	och	och	CCONJ	KN	_	15	cc	15:cc	_
